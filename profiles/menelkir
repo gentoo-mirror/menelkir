@@ -1,0 +1,5 @@
+[menelkir]
+location = /var/git/other-repo/
+masters = core-kit
+auto-sync = no
+priority = 10
