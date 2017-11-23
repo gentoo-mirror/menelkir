@@ -14,7 +14,7 @@ KEYWORDS="-* ~amd64 ~x86"
 
 RESTRICT="installsources fetch mirror strip"
 
-S="${WORKDIR}/build.pulse/dist/Geekbench-${PV}-Linux"
+S="${WORKDIR}/Geekbench-${PV}-Linux"
 
 QA_FLAGS_IGNORED="opt/geekbench4/geekbench_x86_32
 				opt/geekbench4/geekbench_x86_64"
