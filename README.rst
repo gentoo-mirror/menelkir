@@ -1,10 +1,10 @@
 Menelkir Overlay
 ================
 
-This is a overlay with a bunch of software not available in Funtoo repositories
+This is a overlay with a bunch of software not available in Gentoo repositories
 
 There's ebuilds maded by myself and other gathered from the internet and maded
-some personal modifications. The follow repositories was used:
+some personal modifications. The follow repositories was used (sorry if I forgot something):
 
 :Abendbrot: https://github.com/stefan-gr/abendbrot/ 
 :Raiagent: https://github.com/leycec/raiagent/
@@ -23,6 +23,6 @@ How to Contribute to this Overlay
 How to report bugs
 ==================
 
-This overlay isn't connected in any way to Funtoo Official Repositories.
+This overlay isn't connected in any way to Gentoo Official Repositories.
 If you are using this repository, please report any issues direct to me or
 using the github issue tracker.
