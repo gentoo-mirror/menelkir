@@ -12,9 +12,10 @@ LICENSE="GPL-3"
 SLOT="0"
 IUSE="+themes"
 
-	SRC_URI="https://github.com/RetroPie/EmulationStation/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~x86 ~arm"
-	S="${WORKDIR}/EmulationStation-${PV}"
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/RetroPie/EmulationStation.git"
+	SRC_URI=""
+	KEYWORDS=""
 
 COMMON_DEPEND="
 	dev-cpp/eigen:3
