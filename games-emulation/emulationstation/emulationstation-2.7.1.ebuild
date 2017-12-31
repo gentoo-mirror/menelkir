@@ -12,7 +12,7 @@ LICENSE="GPL-3"
 SLOT="0"
 IUSE="+themes"
 
-	SRC_URI="https://github.com/RetroPie/EmulationStation/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://github.com/RetroPie/EmulationStation/archive/v${V}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~x86 ~arm"
 	S="${WORKDIR}/EmulationStation-${PV}"
 

@@ -3,30 +3,31 @@
 
 # TODO: Rewrite src_prepare() and src_configure()
 
-EAPI=6
+EAPI=5
 
 PYTHON_COMPAT=( python{3_4,3_5,3_6} )
 
-LIBRETRO_COMMIT_SHA="8e8bdaaab3dc4686ce39e59da922f79a76ba4496"
+LIBRETRO_COMMIT_SHA="0a2b44273da17d1b2372cd16469bb74791f7ac95"
 LIBRETRO_REPO_NAME="libretro/RetroArch"
 inherit flag-o-matic libretro python-single-r1
 
 DESCRIPTION="Universal frontend for libretro-based emulators"
 HOMEPAGE="http://www.retroarch.com"
-KEYWORDS="~x86 ~amd64"
+SRC_URI="https://github.com/${LIBRETRO_REPO_NAME}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+RESTRICT="primaryuri"
+KEYWORDS="x86 amd64"
 
 LICENSE="GPL-3"
 SLOT="0"
+
+S="${WORKDIR}/retroarch-${PV}"
 
 #FIXME: Revaluate the "wayland? ( egl )" entry below. Due to unresolved upstream
 #issues, Wayland support erroneously requires EGL support. Ideally, it
 #shouldn't. When upstream resolves this, remove this entry. See also:
 #    https://github.com/stefan-gr/abendbrot/issues/7#issuecomment-204541979
 
-# To avoid fatal dependency failures for users enabling the "python" USE flag, a
-# default "python_single_target_python*" USE flag *MUST* be set below to the
-# default version of Python 3 for default Portage profiles.
-IUSE="+7zip alsa +armvfp +assets cg cheevos +cores +database debug dispmanx egl +fbo ffmpeg gles2 gles3 jack +joypad_autoconfig kms lakka libass libusb +materialui miniupnpc +netplay +neon +network openal +opengl osmesa oss +overlays pulseaudio sdl sdl2 +shaders +truetype +threads +udev v4l2 videocore vulkan wayland X xinerama +xmb +xml xv zlib cpu_flags_x86_sse2 python +python_single_target_python3_4 python_single_target_python3_5"
+IUSE="+7zip alsa +armvfp +assets cg cheevos +cores +database debug dispmanx egl +fbo ffmpeg gles2 gles3 jack +joypad_autoconfig kms lakka libass libusb +materialui miniupnpc +netplay +neon +network openal +opengl osmesa oss +overlays pulseaudio sdl sdl2 +shaders +truetype +threads +udev v4l2 videocore vulkan wayland X xinerama +xmb +xml xv zlib cpu_flags_x86_sse2 python"
 
 REQUIRED_USE="
 	|| ( alsa jack openal oss pulseaudio )
@@ -107,6 +108,7 @@ pkg_setup() {
 src_prepare() {
 	epatch \
 		"${FILESDIR}/${P}-build.patch" \
+		"${FILESDIR}/${P}-custom_fpu.patch" \
 		"${FILESDIR}/${P}-python.patch" \
 		"${FILESDIR}/${P}-disable_wifi_menu.patch"
 
