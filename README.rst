@@ -26,3 +26,13 @@ How to report bugs
 This overlay isn't connected in any way to Gentoo Official Repositories.
 If you are using this repository, please report any issues direct to me or
 using the github issue tracker.
+
+=============
+How to donate
+=============
+
+If you find this repo useful (don't forget to pay a visit to the related
+repos too), you can buy me a beer:
+
+BTC: 1BkZxpdtkH7eUwmWSuooGP786MfPjyV3Xk
+ETH: 0x4e4Fe52ce39fAf025b13799c4Ba7E38394ecD2f3
