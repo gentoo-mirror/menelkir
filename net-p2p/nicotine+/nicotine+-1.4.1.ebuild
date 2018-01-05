@@ -10,17 +10,20 @@ inherit distutils-r1
 
 DESCRIPTION="A fork of nicotine, a Soulseek client in Python"
 HOMEPAGE="https://www.nicotine-plus.org/"
-SRC_URI="https://github.com/Nicotine-Plus/nicotine-plus/archive/${PV}.tar.gz"
+SRC_URI="https://github.com/Nicotine-Plus/nicotine-plus/archive/1.4.1.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3 LGPL-3"
 SLOT="0"
-KEYWORDS="amd64 ppc x86 ~x86-fbsd"
+KEYWORDS="~amd64 ~ppc ~x86 ~x86-fbsd"
 IUSE=""
 
-RDEPEND=">=dev-python/pygtk-2.12[${PYTHON_USEDEP}]
-	gnome-base/librsvg"
-
+RDEPEND="
+	>=dev-python/pygtk-2.24[${PYTHON_USEDEP}]
+	media-libs/mutagen
+"
 DEPEND="${RDEPEND}"
+
+S="${WORKDIR}/nicotine-plus-${PV}"
 
 pkg_setup() {
 	python-single-r1_pkg_setup
@@ -30,12 +33,12 @@ src_prepare() {
 	distutils-r1_src_prepare
 	sed -i -e 's:\(Icon=\).*:\1nicotine-plus-32px:' \
 		"${S}"/files/nicotine.desktop
+	default
 }
 
 src_install() {
 	distutils-r1_src_install
 	python_fix_shebang "${D}"
-	dosym nicotine.py /usr/bin/nicotine
 }
 
 pkg_postinst() {
@@ -44,7 +47,7 @@ pkg_postinst() {
 	elog "to Nicotine+:"
 	elog
 	elog "dev-python/geoip-python         Country lookup and flag display"
-	elog "media-libs/mutagen              Media metadata extraction"
+	elog "dev-python/notify-python        Notification support"
 	elog "net-libs/miniupnpc              UPnP portmapping"
 	echo
 }
