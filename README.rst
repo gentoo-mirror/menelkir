@@ -1,7 +1,7 @@
 Menelkir Overlay
 ================
 
-This is a overlay with a bunch of software not available in Gentoo repositories
+This is a overlay with a bunch of software not available in Funtoo repositories
 
 There's ebuilds maded by myself and other gathered from the internet and maded
 some personal modifications. The follow repositories was used (sorry if I forgot something):
