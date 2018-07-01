@@ -21,7 +21,7 @@ if [[ ${PV} == *9999 ]];then
 else
 	KEYWORDS="~amd64 ~x86 ~arm"
 	SRC_URI="
-		https://launchpad.net/ubuntu/+archive/primary/+files/${PN}_${PV}.orig.tar.gz
+		https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/mate-tweak/${PV}-1/${PN}_${PV}.orig.tar.gz
 	"
 fi
 
