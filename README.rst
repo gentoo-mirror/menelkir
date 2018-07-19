@@ -10,7 +10,6 @@ some personal modifications. The follow repositories was used (sorry if I forgot
 :Raiagent: https://github.com/leycec/raiagent/
 :Steam-Overlay: https://github.com/anyc/steam-overlay
 :Gamerlay: https://cgit.gentoo.org/proj/gamerlay.git/
-:Pantheon: https://github.com/pimvuellers/elementary.git
 
 =================================
 How to Contribute to this Overlay
