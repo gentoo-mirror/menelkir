@@ -18,8 +18,7 @@ SLOT="0"
 IUSE="X debug +introspection startup-notification"
 
 COMMON_DEPEND="
-	>=dev-libs/glib-2.50
-	>=x11-libs/gtk+-3.22.0
+	>=dev-libs/glib-2.36:2
 	>=gnome-base/dconf-0.13.4:0
 	x11-libs/cairo:0
 	x11-libs/libX11:0
