@@ -14,7 +14,7 @@ SRC_URI="https://github.com/faience/faience-ng-icon-theme/releases/download/v${P
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~x86"
+KEYWORDS="amd64 arm x86"
 IUSE="minimal"
 
 DEPEND=""
