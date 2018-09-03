@@ -7,7 +7,7 @@ EAPI=5
 
 PYTHON_COMPAT=( python{3_4,3_5,3_6} )
 
-LIBRETRO_COMMIT_SHA="0a2b44273da17d1b2372cd16469bb74791f7ac95"
+LIBRETRO_COMMIT_SHA="02e23be127db29a72170d3c79bfd642288cd15ea"
 LIBRETRO_REPO_NAME="libretro/RetroArch"
 inherit flag-o-matic libretro python-single-r1
 
@@ -109,8 +109,7 @@ src_prepare() {
 	epatch \
 		"${FILESDIR}/${P}-build.patch" \
 		"${FILESDIR}/${P}-custom_fpu.patch" \
-		"${FILESDIR}/${P}-python.patch" \
-		"${FILESDIR}/${P}-disable_wifi_menu.patch"
+		"${FILESDIR}/${P}-python.patch" 
 
 	# If Python support is enabled, use the currently enabled "python" binary.
 	if use python; then
