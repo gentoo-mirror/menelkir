@@ -22,6 +22,7 @@ KEYWORDS="amd64 x86"
 SLOT="0"
 
 RDEPEND="${PYTHON_DEPS}
+    dev-python/setproctitle[${PYTHON_USEDEP}]
 	dev-python/python-xlib[${PYTHON_USEDEP}]
 	dev-python/configobj[${PYTHON_USEDEP}]
 	dev-python/pygobject:3[${PYTHON_USEDEP}]
