@@ -50,7 +50,7 @@ REQUIRED_USE="
 	vulkan? ( amd64 )
 	wayland? ( egl )
 	xinerama? ( X )
-	xmb? ( assets opengl )
+	xmb? ( opengl )
 	xv? ( X )
 	lakka? ( assets cores database joypad_autoconfig overlays shaders xmb )
 "
