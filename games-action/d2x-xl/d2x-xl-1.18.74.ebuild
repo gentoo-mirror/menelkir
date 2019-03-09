@@ -8,7 +8,7 @@ inherit autotools eutils flag-o-matic toolchain-funcs games
 
 SRC_D2X="http://www.descent2.de/files"
 SRC_FILE="${PN}-src-${PV}.7z"
-DATA_FILE="${PN}-data-1.15.295.7z"
+DATA_FILE="${PN}-data-1.18.64.7z"
 
 DESCRIPTION="Descent 2 engine supporting high-resolution textures"
 HOMEPAGE="http://www.descent2.de/"
