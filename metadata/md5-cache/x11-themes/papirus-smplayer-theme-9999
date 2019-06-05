@@ -1,0 +1,11 @@
+DEFINED_PHASES=unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Papirus theme for SMPlayer
+EAPI=6
+HOMEPAGE=https://github.com/PapirusDevelopmentTeam/papirus-smplayer-theme
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=media-video/smplayer
+SLOT=0
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_md5_=cde30ba34057b85c5f5ee808e59ecfbd

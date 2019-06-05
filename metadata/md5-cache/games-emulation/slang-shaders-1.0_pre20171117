@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Collection of slang shaders for vulkan backends.
+EAPI=6
+HOMEPAGE=https://github.com/libretro/slang-shaders
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/slang-shaders/archive/44c0a731de28cdd4addf0c01f11a28a0fce4b2ef.tar.gz -> slang-shaders-1.0_pre20171117.tar.gz
+_eclasses_=libretro	e2e72840da02ef2a21e935c8447187a8
+_md5_=1e0f0b9b8a389fc0a0108052099daf9d

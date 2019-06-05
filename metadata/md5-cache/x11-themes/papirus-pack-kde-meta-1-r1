@@ -1,0 +1,11 @@
+DEFINED_PHASES=-
+DEPEND=discontinued? ( x11-themes/papirus-archive ) icon-theme? ( x11-themes/papirus-icon-theme ) libreoffice-theme? ( x11-themes/papirus-libreoffice-theme ) smplayer-theme? ( x11-themes/papirus-smplayer-theme )
+DESCRIPTION=Papirus customization for KDE distros
+EAPI=6
+HOMEPAGE=https://github.com/PapirusDevelopmentTeam
+IUSE=+discontinued +icon-theme libreoffice-theme smplayer-theme
+KEYWORDS=~amd64 ~x86
+LICENSE=metapackage
+RDEPEND=discontinued? ( x11-themes/papirus-archive ) icon-theme? ( x11-themes/papirus-icon-theme ) libreoffice-theme? ( x11-themes/papirus-libreoffice-theme ) smplayer-theme? ( x11-themes/papirus-smplayer-theme )
+SLOT=0
+_md5_=bbb674ad89990e312fae166b9a6f307f

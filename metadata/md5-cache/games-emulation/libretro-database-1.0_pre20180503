@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Repository containing cheatcode files, content data files, etc.
+EAPI=6
+HOMEPAGE=https://github.com/libretro/libretro-database
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/libretro-database/archive/0ed1e38c56899a73d74e064dd1ae9bdcc4f4af23.tar.gz -> libretro-database-1.0_pre20180503.tar.gz
+_eclasses_=libretro	e2e72840da02ef2a21e935c8447187a8
+_md5_=bdd13acc03ac38f0536b1a86ae6142bf

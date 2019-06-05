@@ -13,9 +13,22 @@ KEYWORDS=""
 LICENSE="GPL-3"
 SLOT="0"
 
-DEPEND=""
+DEPEND="dev-lang/rgbds"
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
+
+S="${S}/libretro"
+
+src_prepare() {
+	# Update build path
+	sed 's|BootROMs/prebuilt/%_boot.bin|build/bin/BootROMs/%_boot.bin|' -i Makefile
+	libretro-core_src_prepare
+}
+
+src_install() {
+	LIBRETRO_CORE_LIB_FILE="${S}/../build/bin/${LIBRETRO_CORE_NAME}_libretro.so"
+	libretro-core_src_install
+}
 
 pkg_preinst() {
 	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then

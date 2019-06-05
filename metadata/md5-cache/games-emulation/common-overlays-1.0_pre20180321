@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Collection of overlay files for use with libretro frontends.
+EAPI=6
+HOMEPAGE=https://github.com/libretro/common-overlays
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=GPL-3
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/common-overlays/archive/3bbea8f0f9770aad1c249adc16acb80c8ba714de.tar.gz -> common-overlays-1.0_pre20180321.tar.gz
+_eclasses_=libretro	e2e72840da02ef2a21e935c8447187a8
+_md5_=24511757afd43250a6663112d71e266d

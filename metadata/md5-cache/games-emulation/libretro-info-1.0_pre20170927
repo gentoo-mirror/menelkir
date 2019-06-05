@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Libretro info files required for libretro cores
+EAPI=6
+HOMEPAGE=https://github.com/libretro/libretro-super
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/libretro-super/archive/7b2f6335db89f8fb3e306126d329f2a367cabc32.tar.gz -> libretro-info-1.0_pre20170927.tar.gz
+_eclasses_=libretro	e2e72840da02ef2a21e935c8447187a8
+_md5_=9791eb05772d309693794b2abd5b7f4d

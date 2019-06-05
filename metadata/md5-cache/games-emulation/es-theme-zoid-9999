@@ -1,0 +1,10 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=EmulationStation theme zoid
+EAPI=6
+HOMEPAGE=https://github.com/RetroPie/es-theme-zoid
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=CC-BY-NC-SA-2.0
+SLOT=0
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_md5_=44dc3f49cbdd06b2a289f919ecfab61b

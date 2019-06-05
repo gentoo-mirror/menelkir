@@ -1,0 +1,10 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=EmulationStation theme carbon-nometa
+EAPI=6
+HOMEPAGE=https://github.com/RetroPie/es-theme-carbon-nometa
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=CC-BY-NC-SA-2.0
+SLOT=0
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_md5_=d2fd39b519a34215d55afa7b13589316

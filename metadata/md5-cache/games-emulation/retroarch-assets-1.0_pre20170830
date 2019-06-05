@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=RetroArch Assets files
+EAPI=6
+HOMEPAGE=https://github.com/libretro/retroarch-assets
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/retroarch-assets/archive/3acffa41f215adcaa4b675055dbb4c8b19ccb74c.tar.gz -> retroarch-assets-1.0_pre20170830.tar.gz
+_eclasses_=libretro	e2e72840da02ef2a21e935c8447187a8
+_md5_=fb50b4c6e1e43f997ba95d8327fcea4f

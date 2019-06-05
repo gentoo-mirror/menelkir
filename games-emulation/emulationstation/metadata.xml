@@ -2,9 +2,6 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="person">
-    <email>menelkir@itroll.org</email>
-	<name>Menelkir</name>
-  <maintainer type="person">
     <email>barbudreadmon[remove_this]@gmail.com</email>
     <name>barbudreadmon</name>
   </maintainer>

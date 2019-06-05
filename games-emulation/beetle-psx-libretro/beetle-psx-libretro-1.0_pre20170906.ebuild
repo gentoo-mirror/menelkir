@@ -8,7 +8,7 @@ inherit libretro-core
 
 DESCRIPTION="libretro implementation of Mednafen PSX. (PlayStation, beetle version)"
 HOMEPAGE="https://github.com/libretro/beetle-psx-libretro"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -19,7 +19,7 @@ DEPEND="
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-LIBRETRO_CORE_NAME=beetle_psx
+LIBRETRO_CORE_NAME=mednafen_psx
 
 src_compile() {
 	use opengl || use vulkan && append-cppflags -DHAVE_HW
@@ -31,7 +31,7 @@ src_compile() {
 }
 
 src_install() {
-	mv "${S}"/mednafen_psx*_libretro.so "${S}"/beetle_psx_libretro.so
+	mv "${S}"/mednafen_psx*_libretro.so "${S}"/mednafen_psx_libretro.so
 	libretro-core_src_install
 }
 

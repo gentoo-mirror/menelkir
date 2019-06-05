@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=media-libs/alsa-lib media-libs/mesa[egl,gles2]
+DESCRIPTION=A Dreamcast Emulator
+EAPI=6
+HOMEPAGE=http://reicast.com/
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=media-libs/alsa-lib media-libs/mesa[egl,gles2] dev-python/python-evdev
+SLOT=0
+SRC_URI=https://github.com/reicast/reicast-emulator/archive/b4631f6715ab7ee8483ebcef37a97f6e3194602e.tar.gz -> reicast-7_pre20180310.tar.gz
+_md5_=d4ac28291147e5e37a0f7866ef9242ca

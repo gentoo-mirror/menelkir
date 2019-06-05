@@ -1,0 +1,10 @@
+DEFINED_PHASES=install unpack
+DEPEND=virtual/udev >=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=RetroArch joypad autoconfig files
+EAPI=6
+HOMEPAGE=https://github.com/libretro/retroarch-joypad-autoconfig
+LICENSE=GPL-3
+RDEPEND=virtual/udev
+SLOT=0
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	libretro	e2e72840da02ef2a21e935c8447187a8
+_md5_=dcbfe6a203bbb6816761977f6600c07a
