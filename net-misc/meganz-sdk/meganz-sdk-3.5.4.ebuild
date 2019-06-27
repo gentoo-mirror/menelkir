@@ -4,20 +4,13 @@
 EAPI=6
 
 inherit flag-o-matic qmake-utils autotools db-use
-if [[ -z ${PV%%*9999} ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/${PN%-*}/${PN#*-}.git"
-else
 	inherit vcs-snapshot
-	MY_PV="f0186e0"
-	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV}"
 	SRC_URI="
-		mirror://githubcl/${PN%-*}/${PN#*-}/tar.gz/${MY_PV}
+		https://github.com/meganz/sdk/archive/v${V}.tar.gz
 		-> ${P}.tar.gz
 	"
 	RESTRICT="primaryuri"
 	KEYWORDS="~amd64 ~x86"
-fi
 
 DESCRIPTION="MEGA C++ SDK"
 HOMEPAGE="https://github.com/meganz/sdk"
