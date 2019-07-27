@@ -32,7 +32,7 @@ SLOT="0"
 #shouldn't. When upstream resolves this, remove this entry. See also:
 #    https://github.com/stefan-gr/abendbrot/issues/7#issuecomment-204541979
 
-IUSE="+7zip alsa +armvfp +assets cg cheevos +cores +database debug dispmanx egl ffmpeg gles2 gles3 jack +joypad_autoconfig kms lakka libass libusb +materialui miniupnpc +neon +network openal +opengl osmesa oss +overlays pulseaudio qt5 sdl sdl2 +shaders +truetype +threads +udev v4l2 videocore vulkan wayland X xinerama +xmb +xml xv zlib cpu_flags_x86_sse2 python"
+IUSE="+7zip alsa +armvfp +assets +cdrom cg cheevos +cores +database debug dispmanx egl ffmpeg gles2 gles3 jack +joypad_autoconfig kms lakka libass libusb +materialui miniupnpc +neon +network openal +opengl osmesa oss +overlays pulseaudio qt5 sdl sdl2 +shaders +truetype +threads +udev v4l2 videocore vulkan wayland X xinerama +xmb +xml xv zlib cpu_flags_x86_sse2 python"
 
 REQUIRED_USE="
 	|| ( alsa jack openal oss pulseaudio )
@@ -121,7 +121,6 @@ pkg_setup() {
 src_prepare() {
 	epatch \
 		"${FILESDIR}/${P}-build.patch" \
-		"${FILESDIR}/${P}-python.patch" \
 		"${FILESDIR}/${P}-custom_fpu.patch"
 
 	# If Python support is enabled, use the currently enabled "python" binary.
@@ -188,16 +187,12 @@ src_configure() {
 		append-cflags  -I"${EROOT}"opt/nvidia-cg-toolkit/include
 	fi
 
-	if use videocore; then
-		export HAVE_VIDEOCORE="yes"
-	else
-		export HAVE_VIDEOCORE="no"
-		sed -i qb/config.libs.sh \
-			-e 's:\[ -d /opt/vc/lib \] && add_library_dirs /opt/vc/lib && add_library_dirs /opt/vc/lib/GL::' || die 'sed failed'
-	fi
-
 	if use lakka; then
 		export HAVE_LAKKA="1"
+	fi
+
+	if use cdrom; then
+		export HAVE_CDROM="1"
 	fi
 
 	# Note that OpenVG support is hard-disabled. (See ${RDEPEND} above.)
@@ -243,6 +238,7 @@ src_configure() {
 		$(use_enable xml libxml2) \
 		$(use_enable xv xvideo) \
 		$(use_enable zlib) \
+		$(use_enable videocore) \
 		--enable-dynamic \
 		--disable-vg \
 		--with-man_dir="${EROOT}"usr/share/man/man1
