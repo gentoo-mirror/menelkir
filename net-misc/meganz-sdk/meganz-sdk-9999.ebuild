@@ -4,20 +4,27 @@
 EAPI=6
 
 inherit flag-o-matic qmake-utils autotools db-use
+if [[ -z ${PV%%*9999} ]]; then
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/${PN%-*}/${PN#*-}.git"
+else
 	inherit vcs-snapshot
+	MY_PV="f0186e0"
+	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV}"
 	SRC_URI="
-		https://github.com/meganz/sdk/archive/v${V}.tar.gz
+		mirror://githubcl/${PN%-*}/${PN#*-}/tar.gz/${MY_PV}
 		-> ${P}.tar.gz
 	"
 	RESTRICT="primaryuri"
 	KEYWORDS="~amd64 ~x86"
+fi
 
 DESCRIPTION="MEGA C++ SDK"
 HOMEPAGE="https://github.com/meganz/sdk"
 
 LICENSE="BSD-2"
 # awk '/define/ {print $3}' include/mega/version.h|awk 'BEGIN{RS="";FS="\n"}{printf $1*10000+$2*100+$3}'
-SLOT="0/30502"
+SLOT="0/30504"
 IUSE="examples ffmpeg freeimage fuse hardened inotify libuv mediainfo qt raw +sqlite"
 REQUIRED_USE="
 	examples? ( sqlite )

@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 )
+PYTHON_COMPAT=( python3_6 )
 DISTUTILS_SINGLE_IMPL="1"
 
 LAU="0-589-201704290523"
@@ -11,7 +11,7 @@ inherit distutils-r1
 
 DESCRIPTION="Wallpaper changer for Linux"
 HOMEPAGE="http://peterlevi.com/variety"
-SRC_URI="https://launchpad.net/${PN}/trunk/${PV}/+download/${P/-/_}-${LAU}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/varietywalls/variety/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -34,7 +34,7 @@ RDEPEND="${DEPEND}
 	>=x11-libs/gdk-pixbuf-2[introspection]
 	dev-python/beautifulsoup:4[${PYTHON_USEDEP}]
 	net-libs/webkit-gtk[introspection]
-	dev-libs/libappindicator[introspection,${PYTHON_USEDEP}]
+	dev-libs/libappindicator[introspection]
 	help? ( gnome-extra/yelp )
 	media-gfx/imagemagick
 	dev-python/lxml[${PYTHON_USEDEP}]

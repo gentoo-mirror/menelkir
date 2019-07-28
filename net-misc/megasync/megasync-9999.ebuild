@@ -5,12 +5,22 @@ EAPI=6
 
 CMAKE_USE_DIR="${S}/src/MEGAShellExtDolphin"
 CMAKE_IN_SOURCE_BUILD=y
-inherit gnome2 cmake-utils qmake-utils vcs-snapshot
-SRC_URI="https://github.com/meganz/MEGAsync/archive/v${PV}_Linux.tar.gz
+inherit gnome2 cmake-utils qmake-utils
+if [[ -z ${PV%%*9999} ]]; then
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/meganz/${PN}.git"
+	EGIT_SUBMODULES=( -src/MEGASync/mega )
+	SRC_URI=
+else
+	inherit vcs-snapshot
+	MY_PV="9a04439"
+	SRC_URI="
+		mirror://githubcl/meganz/${PN}/tar.gz/${MY_PV}
 		-> ${P}.tar.gz
-		"
-RESTRICT="primaryuri"
-KEYWORDS="~amd64 ~x86"
+	"
+	RESTRICT="primaryuri"
+	KEYWORDS="~amd64 ~x86"
+fi
 
 DESCRIPTION="Easy automated syncing with MEGA Cloud Drive"
 HOMEPAGE="https://github.com/meganz/MEGAsync"
@@ -21,7 +31,7 @@ SLOT="0"
 IUSE="dolphin nautilus thunar"
 
 RDEPEND="
-	>=net-misc/meganz-sdk-3.5.3:=[libuv,qt,sodium(+),sqlite]
+	>=net-misc/meganz-sdk-3.5.4:=[libuv,qt,sodium(+),sqlite]
 	dev-qt/qtsvg:5
 	dev-qt/qtdbus:5
 	dev-qt/qtconcurrent:5
