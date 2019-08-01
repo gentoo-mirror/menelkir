@@ -57,7 +57,6 @@ RDEPEND="
 			media-libs/libvorbis[abi_x86_32]
 			media-libs/openal[abi_x86_32]
 			net-misc/curl[abi_x86_32]
-			net-misc/networkmanager[abi_x86_32]
 			net-print/cups[abi_x86_32]
 			sys-apps/dbus[abi_x86_32]
 			sys-libs/libudev-compat[abi_x86_32]
