@@ -1,6 +1,5 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
@@ -30,6 +29,7 @@ RDEPEND="
 			)
 
 		steamruntime? (
+			virtual/opengl[abi_x86_32]
 			x11-libs/libX11[abi_x86_32]
 			x11-libs/libXau[abi_x86_32]
 			x11-libs/libxcb[abi_x86_32]

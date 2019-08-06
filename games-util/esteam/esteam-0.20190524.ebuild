@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 inherit prefix
 
@@ -26,7 +26,7 @@ src_install() {
 
 	if ! use pulseaudio; then
 		sed -i 's:=media-sound/pulseaudio\b:=media-sound/apulse:g' \
-			"${ED}"usr/share/${PN}/database.bash || die
+			"${ED}"/usr/share/${PN}/database.bash || die
 	fi
 }
 

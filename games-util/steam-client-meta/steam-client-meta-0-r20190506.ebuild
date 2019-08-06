@@ -1,8 +1,7 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-EAPI=6
+EAPI=7
 
 inherit pax-utils
 
@@ -15,7 +14,7 @@ LICENSE="metapackage"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="flash +pulseaudio steamfonts +steamruntime streaming trayicon video_cards_intel video_cards_nvidia"
+IUSE="flash +pulseaudio steamfonts +steamruntime steamvr trayicon video_cards_intel video_cards_nvidia"
 
 # This can help to determine the dependencies:
 # find ~/.steam/root/ -exec readelf -d {} + 2>/dev/null | grep Shared | sort -u | fgrep -v -f <(ls -1 ~/.steam/root/ubuntu12_32/)
@@ -29,6 +28,7 @@ RDEPEND="
 		flash? ( www-plugins/adobe-flash[abi_x86_32] )
 		trayicon? ( sys-apps/dbus )
 		steamfonts? ( media-fonts/steamfonts )
+		steamvr? ( sys-apps/usbutils )
 
 		amd64? (
 			!media-libs/mesa[-abi_x86_32]
@@ -45,28 +45,26 @@ RDEPEND="
 			dev-libs/dbus-glib[abi_x86_32]
 			dev-libs/expat[abi_x86_32]
 			dev-libs/glib:2[abi_x86_32]
-			dev-libs/libgcrypt[abi_x86_32]
 			dev-libs/nspr[abi_x86_32]
 			dev-libs/nss[abi_x86_32]
-			gnome-base/gconf:2[abi_x86_32]
 			media-libs/alsa-lib[abi_x86_32]
-			media-libs/flac[abi_x86_32]
 			media-libs/fontconfig[abi_x86_32]
 			media-libs/freetype[abi_x86_32]
 			media-libs/libpng:1.2[abi_x86_32]
-			media-libs/libvorbis[abi_x86_32]
 			media-libs/openal[abi_x86_32]
 			net-misc/curl[abi_x86_32]
+			net-misc/networkmanager[abi_x86_32]
 			net-print/cups[abi_x86_32]
-			sys-apps/dbus[abi_x86_32]
+			sys-apps/dbus[abi_x86_32,X]
 			sys-libs/libudev-compat[abi_x86_32]
-			virtual/libgudev[abi_x86_32]
+			sys-libs/zlib[abi_x86_32]
 			virtual/libusb[abi_x86_32]
-			x11-libs/cairo[abi_x86_32]
 			x11-libs/gdk-pixbuf[abi_x86_32]
 			x11-libs/gtk+:2[abi_x86_32,cups]
 			x11-libs/libICE[abi_x86_32]
 			x11-libs/libSM[abi_x86_32]
+			|| ( x11-libs/libva-compat:1[abi_x86_32] =x11-libs/libva-1*[abi_x86_32] )
+			x11-libs/libvdpau[abi_x86_32]
 			x11-libs/libX11[abi_x86_32]
 			x11-libs/libXScrnSaver[abi_x86_32]
 			x11-libs/libXcomposite[abi_x86_32]
@@ -81,7 +79,6 @@ RDEPEND="
 			x11-libs/libXtst[abi_x86_32]
 			x11-libs/pango[abi_x86_32]
 
-			streaming? ( x11-libs/libva[abi_x86_32] )
 			trayicon? ( dev-libs/libappindicator:2[abi_x86_32] )
 			pulseaudio? ( media-sound/pulseaudio[abi_x86_32,caps] )
 			!pulseaudio? ( media-sound/apulse[abi_x86_32] )
@@ -116,22 +113,20 @@ pkg_postinst() {
 
 	if host-is-pax; then
 		elog "If you're using PAX, please see:"
-		elog "http://wiki.gentoo.org/wiki/Steam#Hardened_Gentoo"
+		elog "https://wiki.gentoo.org/wiki/Steam#Hardened_Gentoo"
 		elog ""
 	fi
 
 	if ! use steamfonts; then
 		elog "If the Steam client shows no or misaligned text, then"
 		elog "please enable the steamfonts use flag."
+		elog ""
 	fi
 
 	if ! use pulseaudio; then
 		ewarn "You have disabled pulseaudio which is not supported."
-		ewarn "You have to use media-sound/apulse instead to start"
-		ewarn "steam. Please add '/usr/lib32/apulse' to your"
-		ewarn "LD_LIBRARY_PATH environment variable or start steam"
-		ewarn "with:"
-		ewarn "# LD_LIBRARY_PATH=/usr/lib32/apulse steam"
+		ewarn "If you are experiencing sound problems, you can try if"
+		ewarn "media-sound/apulse works for you."
 		ewarn ""
 	fi
 
