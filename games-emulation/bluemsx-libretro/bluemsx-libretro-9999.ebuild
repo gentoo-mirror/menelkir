@@ -5,8 +5,8 @@ EAPI=6
 
 inherit libretro-core
 
-DESCRIPTION="Caprice32 libretro core"
-HOMEPAGE="https://github.com/libretro/libretro-cap32"
+DESCRIPTION=" Port of blueMSX to the libretro API"
+HOMEPAGE="https://github.com/libretro/bluemsx-libretro"
 KEYWORDS=""
 
 LICENSE="GPL-3"

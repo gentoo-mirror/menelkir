@@ -22,12 +22,3 @@ pkg_preinst() {
 	fi
 }
 
-pkg_postinst() {
-	if [[ "${first_install}" == "1" ]]; then
-		elog ""
-		elog "To play a game, like Cave Story, put the gamefiles"
-		elog "to your rgui_browser_directory and select the executable as game"
-		elog ""
-		ewarn ""
-	fi
-}
