@@ -16,7 +16,7 @@ IUSE=""
 
 RDEPEND="
 	net-libs/telegram-qt
-	>=net-libs/telepathy-qt-0.9.6.0
+	>=net-libs/telepathy-qt-0.9.7
 "
 DEPEND="${RDEPEND}
 	>=dev-util/cmake-2.8.12
