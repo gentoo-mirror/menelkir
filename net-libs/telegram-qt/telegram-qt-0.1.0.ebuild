@@ -1,6 +1,5 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
@@ -10,11 +9,12 @@ inherit cmake-utils git-r3
 
 DESCRIPTION="Telegram binding for Qt"
 HOMEPAGE="https://github.com/Kaffeine/telegram-qt"
-EGIT_REPO_URI=( "https://github.com/Kaffeine/telegram-qt.git" )
+EGIT_REPO_URI="https://github.com/Kaffeine/telegram-qt.git"
+EGIT_COMMIT=e7047b0d303edf72fed74d57906b383f3a1fc90a
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 RDEPEND="
