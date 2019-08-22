@@ -11,7 +11,7 @@ EGIT_REPO_URI="https://github.com/TelepathyQt/telepathy-morse"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS=""
 IUSE=""
 
 RDEPEND="
