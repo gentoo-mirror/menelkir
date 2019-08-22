@@ -15,8 +15,8 @@ KEYWORDS=""
 IUSE=""
 
 RDEPEND="
-	net-libs/telegram-qt-9999
-	net-libs/telepathy-qt-9999
+	=net-libs/telegram-qt-9999
+	=net-libs/telepathy-qt-9999
 "
 DEPEND="${RDEPEND}
 	>=dev-util/cmake-2.8.12
