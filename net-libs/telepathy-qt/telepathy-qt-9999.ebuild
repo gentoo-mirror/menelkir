@@ -32,7 +32,7 @@ BDEPEND="
 	virtual/pkgconfig
 "
 
-PATCHES=( "${FILESDIR}/${PN}-0.9.7-deps.patch" )
+PATCHES=( "${FILESDIR}/${PN}-9999-deps.patch" )
 
 # bug 549448 - last checked with 0.9.7
 RESTRICT="test"
