@@ -1,9 +1,11 @@
 DEFINED_PHASES=install nofetch unpack
+DEPEND=
 DESCRIPTION=An action role-playing game, made by the creators of Diablo
 EAPI=6
 HOMEPAGE=http://torchlight2game.com/
 KEYWORDS=-* ~amd64 ~x86
 LICENSE=as-is
+RDEPEND=
 RESTRICT=fetch
 SLOT=0
 SRC_URI=Torchlight2-linux-2015-04-01.sh

@@ -1,0 +1,162 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+games-action/d2x-rebirth:data - Install data files
+games-action/d2x-rebirth:linguas_de - Provides German translations for the game's briefings, robot descriptions, and outro of the original campaign
+games-action/d2x-rebirth:music - Adds music support
+games-action/d2x-rebirth:opl3-musicpack - Include alternate version of the game's music, recorded with the Yamaha YMF262 OPL3 soundchip
+games-action/d2x-rebirth:sc55-musicpack - Include alternate version of the game's music, recorded with the Roland Sound Canvas SC-55 MIDI module
+games-emulation/beetle-psx-libretro:vulkan - Enable Vulkan renderer
+games-emulation/bsnes-libretro:profile_accuracy - Enable the accuracy profile
+games-emulation/bsnes-libretro:profile_balanced - Enable the balanced profile
+games-emulation/bsnes-libretro:profile_performance - Enable the performance profile
+games-emulation/common-shaders:cg - Install shaders in cg format, otherwise convert them to glsl
+games-emulation/craft-libretro:gles2 - Use GLESv2 instead of OpenGL
+games-emulation/dolphin-libretro:vulkan - Enable vulkan support
+games-emulation/emulationstation:themes - Install themes
+games-emulation/emulationstation-themes-meta:carbon - adds games-emulation/es-theme-carbon as dependency
+games-emulation/emulationstation-themes-meta:carbon-centered - adds games-emulation/es-theme-carbon-centered as dependency
+games-emulation/emulationstation-themes-meta:carbon-nometa - adds games-emulation/es-theme-carbon-nometa as dependency
+games-emulation/emulationstation-themes-meta:clean-look - adds games-emulation/es-theme-clean-look as dependency
+games-emulation/emulationstation-themes-meta:color-pi - adds games-emulation/es-theme-color-pi as dependency
+games-emulation/emulationstation-themes-meta:nbba - adds games-emulation/es-theme-nbba as dependency
+games-emulation/emulationstation-themes-meta:pixel - adds games-emulation/es-theme-pixel as dependency
+games-emulation/emulationstation-themes-meta:simple - adds games-emulation/es-theme-simple as dependency
+games-emulation/emulationstation-themes-meta:simple-dark - adds games-emulation/es-theme-simple-dark as dependency
+games-emulation/emulationstation-themes-meta:simplified-static-canela - adds games-emulation/es-theme-simplified-static-canela as dependency
+games-emulation/emulationstation-themes-meta:turtle-pi - adds games-emulation/es-theme-turtle-pi as dependency
+games-emulation/emulationstation-themes-meta:zoid - adds games-emulation/es-theme-zoid as dependency
+games-emulation/libretro-meta:2048 - adds games-emulation/2048-libretro as dependency
+games-emulation/libretro-meta:4do - adds games-emulation/4do-libretro as dependency
+games-emulation/libretro-meta:beetle-psx - adds games-emulation/beetle-psx-libretro as dependency
+games-emulation/libretro-meta:bnes - adds games-emulation/bnes-libretro as dependency
+games-emulation/libretro-meta:bsnes - adds games-emulation/bsnes-libretro as dependency
+games-emulation/libretro-meta:citra - adds games-emulation/citra-libretro as dependency
+games-emulation/libretro-meta:craft - adds games-emulation/craft-libretro as dependency
+games-emulation/libretro-meta:desmume - adds games-emulation/desmume-libretro as dependency
+games-emulation/libretro-meta:dolphin - adds games-emulation/dolphin-libretro as dependency
+games-emulation/libretro-meta:fbalpha - adds games-emulation/fbalpha-libretro as dependency
+games-emulation/libretro-meta:fbalpha2012 - adds games-emulation/fbalpha2012-libretro as dependency
+games-emulation/libretro-meta:fceumm - adds games-emulation/fceumm-libretro or games-emulation/fceu-next-libretro as dependency
+games-emulation/libretro-meta:gambatte - adds games-emulation/gambatte-libretro as dependency
+games-emulation/libretro-meta:genplus - adds games-emulation/genplus-libretro as dependency
+games-emulation/libretro-meta:handy - adds games-emulation/handy-libretro as dependency
+games-emulation/libretro-meta:mame - adds games-emulation/mame-libretro as dependency
+games-emulation/libretro-meta:mame2000 - adds games-emulation/mame2000-libretro as dependency
+games-emulation/libretro-meta:mednafen-gba - adds games-emulation/mednafen-gba-libretro as dependency
+games-emulation/libretro-meta:mednafen-ngp - adds games-emulation/mednafen-ngp-libretro as dependency
+games-emulation/libretro-meta:mednafen-pce-fast - adds games-emulation/mednafen-pce-fast-libretro as dependency
+games-emulation/libretro-meta:mednafen-snes - adds games-emulation/mednafen-snes-libretro as dependency
+games-emulation/libretro-meta:mednafen-supergrafx - adds games-emulation/mednafen-supergrafx-libretro as dependency
+games-emulation/libretro-meta:mednafen-vb - adds games-emulation/mednafen-vb-libretro as dependency
+games-emulation/libretro-meta:mednafen-wswan - adds games-emulation/mednafen-wswan-libretro as dependency
+games-emulation/libretro-meta:melonds - adds games-emulation/melonds-libretro as dependency
+games-emulation/libretro-meta:meteor - adds games-emulation/meteor-libretro as dependency
+games-emulation/libretro-meta:mgba - adds games-emulation/mgba-libretro as dependency
+games-emulation/libretro-meta:mupen64plus - adds games-emulation/mupen64plus-libretro as dependency
+games-emulation/libretro-meta:nestopia - adds games-emulation/nestopia-libretro as dependency
+games-emulation/libretro-meta:nxengine - adds games-emulation/nxengine-libretro as dependency
+games-emulation/libretro-meta:openlara - adds games-emulation/openlara-libretro as dependency
+games-emulation/libretro-meta:pcsx-rearmed - adds games-emulation/pcsx-rearmed-libretro as dependency
+games-emulation/libretro-meta:picodrive - adds games-emulation/picodrive-libretro as dependency
+games-emulation/libretro-meta:ppsspp - adds games-emulation/ppsspp-libretro as dependency
+games-emulation/libretro-meta:prboom - adds games-emulation/prboom-libretro as dependency
+games-emulation/libretro-meta:prosystem - adds games-emulation/prosystem-libretro as dependency
+games-emulation/libretro-meta:px68k - adds games-emulation/px68k-libretro as dependency
+games-emulation/libretro-meta:quicknes - adds games-emulation/quicknes-libretro as dependency
+games-emulation/libretro-meta:redream - adds games-emulation/redream-libretro as dependency
+games-emulation/libretro-meta:reicast - adds games-emulation/reicast-libretro as dependency
+games-emulation/libretro-meta:sameboy - adds games-emulation/sameboy-libretro as dependency
+games-emulation/libretro-meta:scummvm - adds games-emulation/scummvm-libretro as dependency
+games-emulation/libretro-meta:snes9x - adds games-emulation/snes9x-libretro as dependency
+games-emulation/libretro-meta:snes9x2002 - adds games-emulation/snes9x2002-libretro as dependency
+games-emulation/libretro-meta:snes9x2010 - adds games-emulation/snes9x2010-libretro as dependency
+games-emulation/libretro-meta:stella - adds games-emulation/stella-libretro as dependency
+games-emulation/libretro-meta:tgbdual - adds games-emulation/tgbdual-libretro as dependency
+games-emulation/libretro-meta:tyrquake - adds games-emulation/tyrquake-libretro as dependency
+games-emulation/libretro-meta:vba-next - adds games-emulation/vba-next-libretro as dependency
+games-emulation/libretro-meta:vbam - adds games-emulation/vbam-libretro as dependency
+games-emulation/libretro-meta:yabause - adds games-emulation/yabause-libretro as dependency
+games-emulation/mgba-libretro:epoxy - Enable managed OpenGL function pointers (requires "gles2")
+games-emulation/mgba-libretro:ffmpeg - Support video recording
+games-emulation/mgba-libretro:gles2 - Use GLESv2 instead of OpenGL
+games-emulation/mgba-libretro:imagemagick - Support GIF recording
+games-emulation/mgba-libretro:lto - Enable link-time optimization
+games-emulation/mgba-libretro:opengl - Support OpenGL
+games-emulation/mgba-libretro:pgo - Enable profile-guided optimization
+games-emulation/mgba-libretro:pgopost - Rebuild for profile-guided optimization after generating profiles (requires "pgo" and doubles compilation time)
+games-emulation/mgba-libretro:png - Support screenshots and savestate-in-PNGs (requires "zlib")
+games-emulation/mgba-libretro:zip - Support loading of zipped ROMs (recommended)
+games-emulation/mgba-libretro:zlib - Support miscellaneous zip file handling
+games-emulation/mupen64plus-libretro:gles2 - Use GLESv2 instead of OpenGL
+games-emulation/mupen64plus-libretro:vulkan - Enable vulkan support
+games-emulation/parallel-n64-libretro:gles2 - Use GLESv2 instead of OpenGL
+games-emulation/parallel-n64-libretro:vulkan - Enable vulkan support
+games-emulation/ppsspp-libretro:gles2 - Enable GLES2 instead of OpenGL
+games-emulation/psp1-libretro:gles2 - Enable GLES2 instead of OpenGL
+games-emulation/reicast-libretro:gles2 - Use GLESv2 instead of OpenGL
+games-emulation/reicast-libretro:naomi - Additionally build NAOMI enabled core
+games-emulation/vba-next-libretro:neon - Enable optimization support for ARM NEON processors
+games-emulation/vba-next-libretro:tiled_rendering - Enable tiled rendering
+games-engines/ags:midi - Enable MIDI music via Eric A. Welsh's GUS patch set (recommended)
+games-engines/ags:tremor - Decode Ogg Vorbis audio with a low-quality fixed-point decoder
+games-fps/zdoom:asm - Enable assembly implementations
+games-sports/stuntrally:editor - Build and install maps editor
+games-sports/stuntrally:game - Build and install game client itself
+games-util/steam-client-meta:flash - Pull in www-plugins/adobe-flash for the internal browser
+games-util/steam-client-meta:steamfonts - Use official fonts from Valve's steam client
+games-util/steam-client-meta:steamruntime - Use the official steam runtime libraries
+games-util/steam-client-meta:steamvr - Enable SteamVR virtual reality support
+games-util/steam-client-meta:trayicon - Enable system tray icon with libappindicator
+games-util/steam-games-meta:steamgames_bioshock_infinite - Bioshock Infinite
+games-util/steam-games-meta:steamgames_defenders_quest - Defender's Quest: Valley of the Forgotten
+games-util/steam-games-meta:steamgames_dirt_rally - Dirt Rally
+games-util/steam-games-meta:steamgames_dont_starve - Don't Starve
+games-util/steam-games-meta:steamgames_dwarfs - Dwarfs
+games-util/steam-games-meta:steamgames_hammerwatch - Hammerwatch
+games-util/steam-games-meta:steamgames_ironclad_tactics - Ironclad Tactics
+games-util/steam-games-meta:steamgames_journey_down - The journy down
+games-util/steam-games-meta:steamgames_narcissu - Narcissu 1st and 2nd
+games-util/steam-games-meta:steamgames_painkiller - Painkiller Hell & Damnation
+games-util/steam-games-meta:steamgames_portal - Portal
+games-util/steam-games-meta:steamgames_shadow_mordor - Middle earth: Shadow of Mordor
+games-util/steam-games-meta:steamgames_shatter - Sidhe's Shatter
+games-util/steam-games-meta:steamgames_source_engine - Games based on Valve's source engine (CSS,TF2,...)
+games-util/steam-games-meta:steamgames_te120 - Transmissions: Element 120
+games-util/steam-games-meta:steamgames_tf2 - Team Fortress 2
+games-util/steam-games-meta:steamgames_trine2 - Trine 2
+games-util/steam-games-meta:steamgames_unwritten_tales - Dependencies for "The Book of Unwritten Tales: The Critter Chronicles"
+games-util/steam-games-meta:steamgames_voidexpanse - VoidExpanse
+games-util/steam-games-meta:steamgames_witcher2 - The Witcher 2
+games-util/steam-games-meta:steamruntime - Use the official steam runtime libraries
+games-util/steam-launcher:steamruntime - Use the official steam runtime libraries
+games-util/steam-meta:steamruntime - Use the official steam runtime libraries
+media-fonts/powerline-fonts:anonymouspro - Install Powerline-patched Anonymous Pro fonts
+media-fonts/powerline-fonts:dejavusansmono - Install Powerline-patched DejaVu Sans Mono fonts
+media-fonts/powerline-fonts:droidsansmono - Install Powerline-patched Droid Sans Mono fonts
+media-fonts/powerline-fonts:inconsolata - Install Powerline-patched Inconsolata fonts
+media-fonts/powerline-fonts:inconsolatadz - Install Powerline-patched Inconsolata-dz fonts
+media-fonts/powerline-fonts:liberationmono - Install Powerline-patched Liberation Mono fonts
+media-fonts/powerline-fonts:meslo - Install Powerline-patched Meslo fonts
+media-fonts/powerline-fonts:sourcecodepro - Install Powerline-patched Source Code Pro fonts
+media-fonts/powerline-fonts:terminus_pcf - Install Powerline-patched Terminus fonts in PCF format
+media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono fonts
+media-sound/munt:alsa - Build Qt-based ALSA driver
+media-sound/munt:c - Build C-compatible API
+media-sound/munt:cpp - Expose C++ class ABI
+media-sound/munt:libsamplerate - Resample audio with Secret Rabbit Code (SRC)
+media-sound/munt:libsoxr - Resample audio with SoX Resampler (SoXR) (recommended)
+media-sound/munt:portaudio - Build Qt-based PortAudio driver
+media-sound/munt:pulseaudio - Build Qt-based PulseAudio driver
+media-sound/munt:qt4 - Build Qt 4 driver
+media-sound/munt:qt5 - Build Qt 5 driver (recommended)
+media-sound/munt:smf2wav - Build "smf2wav" conversion utility
+media-sound/vgmplay:opl - Enable playback on obsolete OPL hardware (AdLib, SoundBlaster)
+net-misc/android-file-transfer-linux:fuse - Enable support for and use FUSE (Filesystem in Userspace)
+net-wireless/pyrit:cuda - Enable CUDA support via net-wireless/cpyrit-cuda
+net-wireless/pyrit:opencl - Enable OpenCL support via net-wireless/cpyrit-opencl
+x11-themes/papirus-pack-kde-meta:discontinued - Install discontinued papirus themes
+x11-themes/papirus-pack-kde-meta:icon-theme - Install Papirus icons
+x11-themes/papirus-pack-kde-meta:libreoffice-theme - Install Papirus libreoffice icons
+x11-themes/papirus-pack-kde-meta:smplayer-theme - Install Papirus smplayer theme
