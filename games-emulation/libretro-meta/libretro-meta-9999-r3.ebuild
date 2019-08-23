@@ -16,6 +16,7 @@ snes9x snes9x2002 snes9x2010 +stella tgbdual +tyrquake vba-next vbam yabause"
 KEYWORDS=""
 
 RDEPEND="2048? ( >=games-emulation/2048-libretro-9999 )
+		3dengine? ( >=games-emulation/3dengine-libretro-9999 )
 		4do? ( >=games-emulation/4do-libretro-9999 )
 		beetle-psx? ( >=games-emulation/beetle-psx-libretro-9999 )
 		bnes? ( >=games-emulation/bnes-libretro-9999 )
