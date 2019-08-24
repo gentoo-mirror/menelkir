@@ -8,8 +8,8 @@ PYTHON_COMPAT=( python2_7 )
 inherit cmake-utils git-r3
 
 DESCRIPTION="Telegram binding for Qt"
-HOMEPAGE="https://github.com/TelepathyIM/telepathy-qt"
-EGIT_REPO_URI="https://github.com/TelepathyIM/telepathy-qt.git"
+HOMEPAGE="https://github.com/Kaffeine/telegram-qt"
+EGIT_REPO_URI="https://github.com/Kaffeine/telegram-qt.git"
 EGIT_COMMIT=e7047b0d303edf72fed74d57906b383f3a1fc90a
 
 LICENSE="LGPL-2.1"
@@ -21,6 +21,11 @@ RDEPEND="
 		dev-qt/qtcore:5
 		dev-qt/qtdbus:5
 		dev-qt/qtnetwork:5
+		dev-qt/qtgui:5
+		dev-qt/qtwidgets:5
+		dev-libs/openssl:0
+		sys-libs/zlib:0
+
 "
 DEPEND="${RDEPEND}
 	>=dev-util/cmake-2.8.12
@@ -30,10 +35,9 @@ DOCS=( LICENSE.LGPL README.md )
 
 src_configure() {
 	local mycmakeargs=(
-		-DENABLE_TESTS=OFF
-		-DENABLE_TESTAPP=OFF
-		-DENABLE_EXAMPLES=OFF
-		-DDESIRED_QT_VERSION=5
+		-D ENABLE_TESTS=FALSE
+		-D ENABLE_TESTAPP=OFF
+		-D STATIC_BUILD=OFF
 	)
 	cmake-utils_src_configure
 }
