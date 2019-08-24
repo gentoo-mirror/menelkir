@@ -15,7 +15,6 @@ KEYWORDS=""
 IUSE=""
 
 RDEPEND="
-	=net-libs/telegram-qt-9999
 	net-libs/telepathy-qt
 "
 DEPEND="${RDEPEND}
