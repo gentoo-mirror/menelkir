@@ -8,8 +8,8 @@ PYTHON_COMPAT=( python2_7 )
 inherit cmake-utils git-r3
 
 DESCRIPTION="Telegram binding for Qt"
-HOMEPAGE="https://github.com/Kaffeine/telegram-qt"
-EGIT_REPO_URI="https://github.com/Kaffeine/telegram-qt.git"
+HOMEPAGE="https://github.com/TelepathyIM/telepathy-qt"
+EGIT_REPO_URI="https://github.com/TelepathyIM/telepathy-qt.git"
 EGIT_COMMIT=e7047b0d303edf72fed74d57906b383f3a1fc90a
 
 LICENSE="LGPL-2.1"
