@@ -12,17 +12,9 @@ LICENSE="GPL-3"
 SLOT="0"
 IUSE="+themes"
 
-if [[ ${PV} == 9999 ]]; then
-	inherit git-r3
-
-	EGIT_REPO_URI="https://github.com/RetroPie/EmulationStation.git"
-	SRC_URI=""
-	KEYWORDS=""
-else
-	SRC_URI="https://github.com/RetroPie/EmulationStation/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~x86 ~arm"
-	S="${WORKDIR}/EmulationStation-${PV}"
-fi
+SRC_URI="https://github.com/RetroPie/EmulationStation/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+KEYWORDS="amd64 x86 arm"
+S="${WORKDIR}/EmulationStation-${PV}"
 
 COMMON_DEPEND="
 	dev-cpp/eigen:3
