@@ -14,7 +14,6 @@ games-emulation/bsnes-libretro:profile_performance - Enable the performance prof
 games-emulation/common-shaders:cg - Install shaders in cg format, otherwise convert them to glsl
 games-emulation/craft-libretro:gles2 - Use GLESv2 instead of OpenGL
 games-emulation/dolphin-libretro:vulkan - Enable vulkan support
-games-emulation/emulationstation:themes - Install themes
 games-emulation/emulationstation-themes-meta:carbon - adds games-emulation/es-theme-carbon as dependency
 games-emulation/emulationstation-themes-meta:carbon-centered - adds games-emulation/es-theme-carbon-centered as dependency
 games-emulation/emulationstation-themes-meta:carbon-nometa - adds games-emulation/es-theme-carbon-nometa as dependency
