@@ -44,6 +44,11 @@ src_configure() {
 	cmake-utils_src_configure
 }
 
+src_install() {
+	doicon "${FILESDIR}/emulationstation.png"
+	domenu "${FILESDIR}/emulationstation.desktop"
+}
+
 pkg_preinst() {
 	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
 		first_install="1"
