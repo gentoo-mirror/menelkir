@@ -45,6 +45,7 @@ src_configure() {
 }
 
 src_install() {
+	dobin emulationstation
 	doicon "${FILESDIR}/emulationstation.png"
 	domenu "${FILESDIR}/emulationstation.desktop"
 }
