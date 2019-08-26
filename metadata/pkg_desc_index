@@ -28,7 +28,7 @@ games-emulation/craft-libretro 9999-r2: libretro implementation of Craft. (Minec
 games-emulation/desmume-libretro 9999-r2: libretro implementation of DeSmuME. (Nintendo DS)
 games-emulation/dolphin-libretro 9999-r2: libretro implementation of Dolphin. (Nintendo GC/Wii)
 games-emulation/easyrpg-libretro 9999-r2: An unofficial libretro port of the EasyRPG/Player.
-games-emulation/emulationstation 2.7.6: Frontend for emulators (RetroPie Fork)
+games-emulation/emulationstation 2.7.6 9999-r3: Frontend for emulators (RetroPie Fork)
 games-emulation/emulationstation-themes-meta 0: EmulationStation themes meta package
 games-emulation/es-theme-carbon 9999: EmulationStation theme carbon
 games-emulation/es-theme-carbon-centered 9999: EmulationStation theme carbon centered
