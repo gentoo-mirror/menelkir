@@ -90,7 +90,7 @@ games-emulation/quicknes-libretro 9999-r2: libretro implementation of QuickNES. 
 games-emulation/redream-libretro 9999-r2: libretro implementation of redream. (SEGA Dreamcast)
 games-emulation/reicast 9999: A Dreamcast Emulator
 games-emulation/reicast-libretro 9999-r2: libretro implementation of Reicast. (Sega Dreamcast )
-games-emulation/retroarch 9999-r3: Universal frontend for libretro-based emulators
+games-emulation/retroarch 1.7.7 9999-r3: Universal frontend for libretro-based emulators
 games-emulation/retroarch-assets 9999-r2: RetroArch Assets files
 games-emulation/retroarch-joypad-autoconfig 9999-r2: RetroArch joypad autoconfig files
 games-emulation/rpcs3 0.0.4 0.0.5 0.0.6: Open source PlayStation 3 emulator
@@ -183,6 +183,7 @@ net-wireless/rtl8812au_astsam 4.3.21_p20170324 9999: Driver for AC1200 (801.11ac
 net-wireless/rtl8812au_asus 4.3.2_p20150929 4.3.2_p20160101 4.3.2_p20170702: Linux kernel module for ASUS USB-AC56
 net-wireless/wifite 2.2.5-r2 9999: An automated wireless attack tool
 sys-block/gparted 1.0.0: Gnome Partition Editor
+sys-boot/refind 0.11.4-r2: The UEFI Boot Manager by Rod Smith
 www-client/torbrowser 60.8.0_p854: The Tor Browser
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2: Settings editor for LightDM GTK+ greeter
