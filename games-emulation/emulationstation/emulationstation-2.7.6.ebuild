@@ -24,6 +24,7 @@ COMMON_DEPEND="
 	media-libs/libsdl2
 	net-misc/curl
 	media-video/vlc
+	dev-libs/rapidjson
 	dev-libs/pugixml
 "
 RDEPEND="${COMMON_DEPEND}
