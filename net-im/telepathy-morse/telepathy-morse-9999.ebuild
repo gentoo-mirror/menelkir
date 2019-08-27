@@ -7,15 +7,17 @@ inherit cmake-utils git-r3
 
 DESCRIPTION="Telegram connection manager for Telepathy."
 HOMEPAGE="https://projects.kde.org/projects/playground/network/telepathy/telepathy-morse"
-EGIT_REPO_URI="https://github.com/TelepathyIM/telepathy-morse/"
+EGIT_REPO_URI="https://github.com/TelepathyQt/telepathy-morse"
+EGIT_COMMIT=f7b5db7edc060792fc7e96e8f02a763e7343fc89
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 RDEPEND="
-	net-libs/telepathy-qt
+	net-libs/telegram-qt
+	>=net-libs/telepathy-qt-0.9.6.0
 "
 DEPEND="${RDEPEND}
 	>=dev-util/cmake-2.8.12
