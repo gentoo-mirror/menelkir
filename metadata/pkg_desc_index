@@ -161,9 +161,9 @@ media-sound/strawberry 0.5.5 0.6.3 9999: Modern music player and library organiz
 media-sound/vgmplay 0.40.8 9999: Video game music (VGM) file command-line player
 media-video/apple_facetimehd_firmware 1.43.0: Firmware for the Apple Facetime HD Camera
 media-video/bcwc_pcie 9999: Reverse engineered Linux driver for the Broadcom 1570 PCIe webcam
-net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
+net-im/telepathy-morse 0.1.0 9999: Telegram connection manager for Telepathy.
 net-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so. symlinks for compatibility with Debian
-net-libs/telegram-qt 9999: Telegram binding for Qt
+net-libs/telegram-qt 0.1.0 9999: Telegram binding for Qt
 net-libs/telepathy-qt 9999: Qt bindings for the Telepathy D-Bus protocol
 net-misc/android-file-transfer-linux 3.3 9999: Reliable MTP client with minimalistic UI
 net-misc/meganz-sdk 9999: MEGA C++ SDK
