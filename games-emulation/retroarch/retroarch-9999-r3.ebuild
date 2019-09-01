@@ -12,17 +12,7 @@ inherit flag-o-matic libretro python-single-r1
 
 DESCRIPTION="Universal frontend for libretro-based emulators"
 HOMEPAGE="http://www.retroarch.com"
-
-if [[ ${PV} = 9999 ]]; then
-	# Inherit and EGIT_REPO_URI already set by eclass
-	SRC_URI=""
-	KEYWORDS=""
-else
-	SRC_URI="https://github.com/${LIBRETRO_REPO_NAME}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-	RESTRICT="primaryuri"
-	S="${WORKDIR}/RetroArch-${PV}"
-	KEYWORDS="~amd64 ~x86"
-fi
+KEYWORDS=""
 
 LICENSE="GPL-3"
 SLOT="0"
