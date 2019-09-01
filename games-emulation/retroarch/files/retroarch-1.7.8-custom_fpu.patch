@@ -1,0 +1,19 @@
+--- retroarch-9999/qb/config.libs.sh	2017-10-08 14:42:40.465717207 +0200
++++ retroarch-9999-patched/qb/config.libs.sh	2017-10-08 14:46:09.285485229 +0200
+@@ -86,8 +86,14 @@
+ fi
+ 
+ if [ "$HAVE_NEON" = "yes" ]; then
+-   add_define MAKEFILE NEON_CFLAGS '-mfpu=neon -marm'
+-   add_define MAKEFILE NEON_ASFLAGS -mfpu=neon
++   cust_fpu="$(echo ${CFLAGS} | grep -o "mfpu\=.[^ ]*" | sed 's/mfpu=//')"
++   if [ "x$cust_fpu" != "x" ]; then
++      add_define MAKEFILE NEON_CFLAGS '-mfpu=$cust_fpu -marm'
++      add_define MAKEFILE NEON_ASFLAGS -mfpu=$cust_fpu
++   else
++      add_define MAKEFILE NEON_CFLAGS '-mfpu=neon -marm'
++      add_define MAKEFILE NEON_ASFLAGS -mfpu=neon
++   fi
+ fi
+ 
+ if [ "$HAVE_FLOATHARD" = "yes" ]; then
