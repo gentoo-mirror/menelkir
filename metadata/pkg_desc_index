@@ -187,6 +187,7 @@ net-wireless/rtl8812au_asus 4.3.2_p20150929 4.3.2_p20160101 4.3.2_p20170702: Lin
 net-wireless/wifite 2.2.5-r2 9999: An automated wireless attack tool
 sys-block/gparted 1.0.0: Gnome Partition Editor
 sys-boot/refind 0.11.4-r2: The UEFI Boot Manager by Rod Smith
+www-client/brave-bin 0.71.15: Brave Web Browser
 www-client/torbrowser 60.8.0_p854: The Tor Browser
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2: Settings editor for LightDM GTK+ greeter
