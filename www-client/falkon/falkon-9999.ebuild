@@ -7,10 +7,7 @@ KDE_TEST="true"
 VIRTUALX_REQUIRED="test"
 inherit kde5
 
-if [[ ${KDE_BUILD_TYPE} != live ]]; then
-	SRC_URI="mirror://kde/stable/${PN}/${PV%.0}/${P}.tar.xz"
-	KEYWORDS="~amd64 ~arm64 ~x86"
-fi
+EGIT_REPO_URI="git://anongit.kde.org/falkon.git"
 
 DESCRIPTION="Cross-platform web browser using QtWebEngine"
 HOMEPAGE="https://www.falkon.org/"
@@ -18,6 +15,7 @@ HOMEPAGE="https://www.falkon.org/"
 LICENSE="GPL-3"
 SLOT="0"
 IUSE="dbus kde libressl +X"
+KEYWORDS=""
 
 COMMON_DEPEND="
 	$(add_frameworks_dep karchive)
