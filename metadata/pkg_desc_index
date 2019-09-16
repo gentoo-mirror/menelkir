@@ -188,6 +188,7 @@ net-wireless/rtl8812au_astsam 4.3.21_p20170324 9999: Driver for AC1200 (801.11ac
 net-wireless/rtl8812au_asus 4.3.2_p20150929 4.3.2_p20160101 4.3.2_p20170702: Linux kernel module for ASUS USB-AC56
 net-wireless/wifite 2.2.5-r2 9999: An automated wireless attack tool
 sys-block/gparted 1.0.0: Gnome Partition Editor
+sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
 sys-boot/refind 0.11.4-r2: The UEFI Boot Manager by Rod Smith
 www-client/brave-bin 0.71.15: Brave Web Browser
 www-client/falkon 9999: Cross-platform web browser using QtWebEngine
