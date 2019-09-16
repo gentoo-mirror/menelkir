@@ -1,6 +1,8 @@
+app-emulation/protontricks 1.2.4: A simple wrapper that does winetricks things for Proton enabled games
 app-emulation/vmware-modules 331.1.7 361.1.0: VMware kernel modules
 app-emulation/vmware-workstation 14.1.7.12989993-r6 15.1.0.13591040-r4: Emulate a complete PC without the performance overhead of most emulators
 dev-libs/steam-runtime-openssl 1.0.1p: OpenSSL for Steam-based games
+dev-python/vdf 3.1: Package for working with Valve's text and binary KeyValue format
 dev-util/adobe-air-runtime 2.6-r2: Adobe AIR runtime
 games-action/cave_story_plus 100: 2D action-adventure game with semil-linear storyline
 games-action/d2x-rebirth 0.58.1: Descent Rebirth - enhanced Descent 2 engine
@@ -192,6 +194,7 @@ www-client/torbrowser 60.8.0_p854: The Tor Browser
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2: Settings editor for LightDM GTK+ greeter
 x11-misc/variety 0.7.2: Wallpaper changer for Linux
+x11-plugins/purple-icyque 9999: ICQ WIM protocol for libpurple
 x11-themes/numix-gtk-theme-dark 2.4: Numix GTK Theme
 x11-themes/papirus-archive 9999: Discontinued papirus projects
 x11-themes/papirus-icon-theme 9999: Papirus icon theme for GTK and KDE
