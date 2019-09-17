@@ -172,7 +172,7 @@ net-misc/meganz-sdk 9999: MEGA C++ SDK
 net-misc/megasync 9999: Easy automated syncing with MEGA Cloud Drive
 net-voip/telepathy-haze 0.99.11: Telepathy connection manager providing libpurple supported protocols
 net-wireless/bt-audit 0.1.1-r1: A small bluetooth audit suite
-net-wireless/bully 1.0.22 1.1 1.1_p20170417 1.1_p20170926: A wifi-protected-setup (WPS) brute force attack tool, similar to reaver
+net-wireless/bully 1.0.22 1.1 1.1_p20170417 1.1_p20170926 9999: A wifi-protected-setup (WPS) brute force attack tool, similar to reaver
 net-wireless/cowpatty 4.8-r1: WLAN tools for bruteforcing 802.11 WPA/WPA2 keys
 net-wireless/fern-wifi-cracker 2.7 2.8: Wireless tool for WEP/WPA cracking and WPS keys recovery
 net-wireless/hcxdumptool 5.0.0 5.1.4 5.1.7: Small tool to capture packets from wlan devices
