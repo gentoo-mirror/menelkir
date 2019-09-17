@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=net-libs/nodejs media-video/ffmpeg dev-qt/qtwebengine dev-qt/qtwebchannel dev-qt/qtdeclarative dev-qt/qtquickcontrols dev-qt/qtquickcontrols2 dev-qt/qttranslations media-video/mpv dev-libs/openssl
+DESCRIPTION=Watch videos, movies, TV series and TV channels instantly. (Beta Version)
+EAPI=7
+HOMEPAGE=https://www.stremio.com
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=net-libs/nodejs media-video/ffmpeg dev-qt/qtwebengine dev-qt/qtwebchannel dev-qt/qtdeclarative dev-qt/qtquickcontrols dev-qt/qtquickcontrols2 dev-qt/qttranslations media-video/mpv dev-libs/openssl
+SLOT=0
+_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
+_md5_=e1238574608adeb7a85d4c39774538eb
