@@ -1,3 +1,4 @@
+app-emulation/dxvk 1.0.3-r1 1.2.3-r1 1.4.1 9999-r2: Vulkan-based D3D11 and D3D10 implementation for Linux / Wine
 app-emulation/protontricks 1.2.4: A simple wrapper that does winetricks things for Proton enabled games
 app-emulation/vmware-modules 331.1.7 361.1.0: VMware kernel modules
 app-emulation/vmware-workstation 14.1.7.12989993-r6 15.1.0.13591040-r4: Emulate a complete PC without the performance overhead of most emulators
