@@ -16,7 +16,7 @@ HOMEPAGE="http://www.retroarch.com"
 SRC_URI="https://github.com/${LIBRETRO_REPO_NAME}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 RESTRICT="primaryuri"
 S="${WORKDIR}/RetroArch-${PV}"
-KEYWORDS="amd64 x86"
+KEYWORDS=""
 
 LICENSE="GPL-3"
 SLOT="0"
