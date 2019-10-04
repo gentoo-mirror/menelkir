@@ -10,7 +10,8 @@ some personal modifications. The follow repositories was used (sorry if I forgot
 :Raiagent: https://github.com/leycec/raiagent/
 :Steam-Overlay: https://github.com/anyc/steam-overlay
 :Gamerlay: https://cgit.gentoo.org/proj/gamerlay.git/
-:Pentoo: https:https://github.com/pentoo/pentoo-overlay
+:Pentoo: https://github.com/pentoo/pentoo-overlay
+:Tastytea: https://schlomp.space/tastytea/overlay
 
 =================================
 How to Contribute to this Overlay
