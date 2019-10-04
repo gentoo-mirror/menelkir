@@ -9,7 +9,7 @@ inherit cmake-utils flag-o-matic l10n virtualx xdg
 PLOCALES="es nb"
 
 DESCRIPTION="Modern music player and library organizer based on Clementine and Qt"
-HOMEPAGE="https://www.strawbs.org/"
+HOMEPAGE="https://www.strawberrymusicplayer.org/"
 if [[ ${PV} == *9999* ]]; then
 	EGIT_REPO_URI="https://github.com/jonaski/strawberry.git"
 	inherit git-r3
