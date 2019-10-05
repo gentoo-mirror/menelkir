@@ -53,7 +53,9 @@ src_install() {
 	emake INSTALL_ROOT="$D" DESTDIR="${D}" install
 	dosym /opt/stremio/smartcode-stremio.desktop /usr/share/applications/smartcode-stremio.desktop
 	dosym /opt/stremio/stremio /opt/bin/stremio
+	dosym /usr/bin/node /opt/stremio/node
 	doicon ${FILESDIR}/smartcode-stremio.png
+	insinto /opt/stremio/
+		doins ${FILESDIR}/server.js
 
 }
-
