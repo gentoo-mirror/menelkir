@@ -11,7 +11,6 @@ games-emulation/beetle-psx-libretro:vulkan - Enable Vulkan renderer
 games-emulation/bsnes-libretro:profile_accuracy - Enable the accuracy profile
 games-emulation/bsnes-libretro:profile_balanced - Enable the balanced profile
 games-emulation/bsnes-libretro:profile_performance - Enable the performance profile
-games-emulation/common-shaders:cg - Install shaders in cg format, otherwise convert them to glsl
 games-emulation/craft-libretro:gles2 - Use GLESv2 instead of OpenGL
 games-emulation/dolphin-libretro:vulkan - Enable vulkan support
 games-emulation/emulationstation-themes-meta:carbon - adds games-emulation/es-theme-carbon as dependency

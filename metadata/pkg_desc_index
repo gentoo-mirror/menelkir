@@ -25,8 +25,6 @@ games-emulation/bsnes-libretro 9999-r2: libretro implementation of bSNES/higan. 
 games-emulation/bsnes-libretro-cplusplus98 9999: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
 games-emulation/cap32-libretro 9999: Caprice32 libretro core
 games-emulation/citra-libretro 9999-r2: libretro implementation of Citra. (Nintendo 3DS)
-games-emulation/common-overlays 9999-r2: Collection of overlay files for use with libretro frontends.
-games-emulation/common-shaders 9999-r2: Collection of commonly used Cg shaders.
 games-emulation/craft-libretro 9999-r2: libretro implementation of Craft. (Minecraft clone)
 games-emulation/desmume-libretro 9999-r2: libretro implementation of DeSmuME. (Nintendo DS)
 games-emulation/dolphin-libretro 9999-r2: libretro implementation of Dolphin. (Nintendo GC/Wii)
@@ -53,8 +51,9 @@ games-emulation/gambatte-libretro 9999-r2: libretro implementation of Gambatte. 
 games-emulation/genplus-libretro 9999-r2: libretro implementation of Genesis Plus GX. (Sega Genesis/Sega CD)
 games-emulation/glsl-shaders 9999-r2: glsl shaders converted by hand from libretro's common-shaders repo
 games-emulation/handy-libretro 9999-r2: libretro implementation of Handy. (Atari Lynx)
+games-emulation/libretro-common-overlays 1_pre20190930: Collection of overlay files for use with RetroArch
 games-emulation/libretro-database 9999-r2: Repository containing cheatcode files, content data files, etc.
-games-emulation/libretro-info 9999: Libretro info files required for libretro cores
+games-emulation/libretro-info 1_pre20191006: Libretro info files required for libretro cores
 games-emulation/libretro-meta 9999-r3: Meta package for various libretro implementations
 games-emulation/mame-libretro 9999-r2: libretro implementation of MAME 2015. (Arcade)
 games-emulation/mame2000-libretro 9999-r2: MAME2000 (0.37b5) for libretro.
@@ -93,8 +92,8 @@ games-emulation/quicknes-libretro 9999-r2: libretro implementation of QuickNES. 
 games-emulation/redream-libretro 9999-r2: libretro implementation of redream. (SEGA Dreamcast)
 games-emulation/reicast 9999: A Dreamcast Emulator
 games-emulation/reicast-libretro 9999-r2: libretro implementation of Reicast. (Sega Dreamcast )
-games-emulation/retroarch 1.7.8 9999-r4: Universal frontend for libretro-based emulators
-games-emulation/retroarch-assets 9999-r2: RetroArch Assets files
+games-emulation/retroarch 1.7.9: Frontend for emulators, game engines and media players
+games-emulation/retroarch-assets 1_pre20191006: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 9999-r2: RetroArch joypad autoconfig files
 games-emulation/rpcs3 0.0.4 0.0.5 0.0.6: Open source PlayStation 3 emulator
 games-emulation/sameboy-libretro 9999-r2: libretro implementation of SameBoy (Gameboy / Gameboy Color)
