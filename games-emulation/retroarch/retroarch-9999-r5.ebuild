@@ -234,14 +234,6 @@ src_configure() {
 		--with-man_dir="${EROOT}"usr/share/man/man1
 }
 
-src_compile() {
-	# Filtering all -O* flags in favor of upstream ones
-	filter-flags -O*
-	emake $(usex debug "DEBUG=1" "")
-	emake $(usex debug "build=debug" "build=release") -C gfx/video_filters/
-	emake $(usex debug "build=debug" "build=release") -C libretro-common/audio/dsp_filters/
-}
-
 src_install() {
 	# Install core files and directories.
 	emake DESTDIR="${ED}" install
