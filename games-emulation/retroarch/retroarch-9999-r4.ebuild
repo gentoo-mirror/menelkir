@@ -12,7 +12,17 @@ inherit flag-o-matic libretro python-single-r1
 
 DESCRIPTION="Universal frontend for libretro-based emulators"
 HOMEPAGE="http://www.retroarch.com"
-KEYWORDS=""
+
+if [[ ${PV} = 9999 ]]; then
+	# Inherit and EGIT_REPO_URI already set by eclass
+	SRC_URI=""
+	KEYWORDS=""
+else
+	SRC_URI="https://github.com/${LIBRETRO_REPO_NAME}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+	RESTRICT="primaryuri"
+	S="${WORKDIR}/RetroArch-${PV}"
+	KEYWORDS="~amd64 ~x86"
+fi
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -232,6 +242,14 @@ src_configure() {
 		--enable-dynamic \
 		--disable-vg \
 		--with-man_dir="${EROOT}"usr/share/man/man1
+}
+
+src_compile() {
+	# Filtering all -O* flags in favor of upstream ones
+	filter-flags -O*
+	emake $(usex debug "DEBUG=1" "")
+	emake $(usex debug "build=debug" "build=release") -C gfx/video_filters/
+	emake $(usex debug "build=debug" "build=release") -C libretro-common/audio/dsp_filters/
 }
 
 src_install() {
