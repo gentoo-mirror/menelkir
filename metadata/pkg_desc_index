@@ -77,7 +77,7 @@ games-emulation/mupen64plus-libretro 9999-r2: libretro implementation of mupen64
 games-emulation/nestopia-libretro 9999-r2: libretro implementation of NEStopia. (Nintendo Entertainment System)
 games-emulation/nxengine-libretro 9999-r2: libretro implementation of NXEngine. (Cave Story)
 games-emulation/openlara-libretro 9999-r2: libretro implementation of OpenLara. (Classic Tomb Raider Engine)
-games-emulation/openmsx 0.15.0: MSX emulator that aims for perfection
+games-emulation/openmsx 0.15.0 9999: MSX emulator that aims for perfection
 games-emulation/parallel-n64-libretro 9999-r2: Rewritten Nintendo 64 emulator made specifically for Libretro.
 games-emulation/pcsx-rearmed-libretro 9999-r2: libretro implementation of PCSX ReARMed. (PlayStation)
 games-emulation/pcsx2 1.5.0: A PlayStation 2 emulator
