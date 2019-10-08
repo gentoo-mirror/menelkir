@@ -1,0 +1,13 @@
+diff '--color=auto' -ruN openMSX-orig/build/libraries.py openMSX/build/libraries.py
+--- openMSX-orig/build/libraries.py	2019-10-08 03:53:59.850320736 -0300
++++ openMSX/build/libraries.py	2019-10-08 03:55:08.136990188 -0300
+@@ -315,7 +315,7 @@
+ class SDL2_ttf(Library):
+ 	libName = 'SDL2_ttf'
+ 	makeName = 'SDL2_TTF'
+-	header = '<SDL_ttf.h>'
++	header = '<SDL/SDL_ttf.h>'
+ 	function = 'TTF_OpenFont'
+ 	dependsOn = ('SDL2', 'FREETYPE')
+ 
+Binary files openMSX-orig/.git/index and openMSX/.git/index differ

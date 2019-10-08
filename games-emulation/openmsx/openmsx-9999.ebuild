@@ -5,15 +5,15 @@ EAPI=7
 
 PYTHON_COMPAT=( python2_7 )
 
-inherit desktop python-any-r1 readme.gentoo-r1
+inherit desktop python-any-r1 readme.gentoo-r1 git-r3
 
 DESCRIPTION="MSX emulator that aims for perfection"
 HOMEPAGE="http://openmsx.org/"
-SRC_URI="https://github.com/openMSX/openMSX/releases/download/RELEASE_${PV//./_}/${P}.tar.gz"
+EGIT_REPO_URI="https://github.com/openMSX/openMSX.git"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc64 ~x86"
+KEYWORDS=""
 
 RDEPEND="
 	dev-lang/tcl:0=
