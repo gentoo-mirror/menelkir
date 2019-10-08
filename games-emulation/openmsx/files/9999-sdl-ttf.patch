@@ -1,6 +1,34 @@
+diff '--color=auto' -ruN openMSX-orig/build/custom.mk openMSX/build/custom.mk
+--- openMSX-orig/build/custom.mk	2019-10-08 04:11:08.030362754 -0300
++++ openMSX/build/custom.mk	2019-10-08 04:13:32.580368658 -0300
+@@ -4,7 +4,7 @@
+ # openMSX is always installed into a single self-contained directory.
+ # But you can change that directory to for example /usr/local/openMSX
+ # or /usr/games/openMSX if you like.
+-INSTALL_BASE:=/opt/openMSX
++INSTALL_BASE:=/usr/share/openmsx
+ 
+ # Add revision number to executable file name? This applies only to
+ # development versions, not to release versions (see version.py).
+@@ -14,8 +14,14 @@
+ # This link is placed in a location that is typically in a user's path:
+ # /usr/local/bin for system-wide installs and ~/bin for personal installs.
+ # This setting is only relevant on systems that support symbolic links.
+-SYMLINK_FOR_BINARY:=true
++SYMLINK_FOR_BINARY:=false
+ 
+ # Install content of Contrib/ directory?
+ # Currently this contains a version of C-BIOS.
+ INSTALL_CONTRIB:=true
++
++INSTALL_DOC_DIR:=/usr/share/doc/openmsx
++
++INSTALL_SHARE_DIR:=/usr/share/openmsx
++
++INSTALL_BINARY_DIR:=/usr/bin
 diff '--color=auto' -ruN openMSX-orig/build/libraries.py openMSX/build/libraries.py
---- openMSX-orig/build/libraries.py	2019-10-08 03:53:59.850320736 -0300
-+++ openMSX/build/libraries.py	2019-10-08 03:55:08.136990188 -0300
+--- openMSX-orig/build/libraries.py	2019-10-08 04:11:08.030362754 -0300
++++ openMSX/build/libraries.py	2019-10-08 04:11:41.853697467 -0300
 @@ -315,7 +315,7 @@
  class SDL2_ttf(Library):
  	libName = 'SDL2_ttf'
@@ -10,4 +38,3 @@ diff '--color=auto' -ruN openMSX-orig/build/libraries.py openMSX/build/libraries
  	function = 'TTF_OpenFont'
  	dependsOn = ('SDL2', 'FREETYPE')
  
-Binary files openMSX-orig/.git/index and openMSX/.git/index differ
