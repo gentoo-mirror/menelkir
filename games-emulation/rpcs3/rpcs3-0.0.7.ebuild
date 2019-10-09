@@ -14,7 +14,7 @@ EGIT_COMMIT="v${PV}"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="alsa pulseaudio evdev vulkan +llvm gdb libav"
+IUSE="alsa pulseaudio +evdev vulkan +llvm gdb libav"
 
 RDEPEND=">=dev-qt/qtcore-5.10:5=
 	>=dev-qt/qtgui-5.10:5=
@@ -28,7 +28,7 @@ RDEPEND=">=dev-qt/qtcore-5.10:5=
 	virtual/libudev:=
 	sys-libs/zlib:=
 	media-libs/openal
-	llvm? ( sys-devel/llvm:4 )
+	llvm? ( sys-devel/llvm:8 )
 	alsa? ( media-libs/alsa-lib )
 	pulseaudio? ( media-sound/pulseaudio )
 	evdev? ( dev-libs/libevdev )
