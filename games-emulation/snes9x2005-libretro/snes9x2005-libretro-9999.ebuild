@@ -6,8 +6,8 @@ EAPI=6
 LIBRETRO_REPO_NAME="libretro/${PN//-libretro}"
 inherit libretro-core
 
-DESCRIPTION="Snes9x. Port of Snes9x 1.52+ to Libretro (previously called SNES9x Next)"
-HOMEPAGE="https://github.com/libretro/snes9x"
+DESCRIPTION="Snes9x 2005. Port of SNES9x 1.43 for libretro (was previously called CAT SFC)."
+HOMEPAGE="https://github.com/libretro/snes9x2005"
 KEYWORDS=""
 
 LICENSE="snes9x"
