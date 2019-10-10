@@ -6,7 +6,7 @@ EAPI=6
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of mupen64plus (Nintendo64)"
-HOMEPAGE="https://github.com/libretro/mupen64plus-libretro"
+HOMEPAGE="https://github.com/libretro/mupen64plus-libretro-nx"
 KEYWORDS=""
 
 LICENSE="GPL-2"

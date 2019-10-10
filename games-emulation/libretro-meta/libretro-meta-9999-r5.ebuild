@@ -11,8 +11,10 @@ IUSE="2048 3dengine 4do 81 atari800 beetle-psx bluemsx bnes bsnes bsnes-cpp98 ca
 	crocods daphne desmume desmume2014 desmume2015 dolphin dosbox easyrpg fbalpha fbalpha2012 fbalpha2012-cps1 fbalpha2012-cps2 fbalpha2012-cps3 \
 	fbalpha2012-neogeo fbneo fceumm flycast fmsx freeintv fuse gambatte gearboy genplus gme gpsp gw handy hatari ishiiruka \
 	lutro mame mame2000 mame2003 mame2003plus mame2010 mame2015 mame2016 mednafen-gba mednafen-lynx mednafen-ngp mednafen-pce mednafen-pce-fast \
-	mednafen-pcfx \
-	mednafen-saturn mednafen-snes mednafen-supergrafx mednafen-vb mednafen-wswan melonds meowpc98 meteor mgba mrboom mupen64plus nestopia nxengine o2em openlara parallel-n64 pcsx-rearmed picodrive ppsspp prboom prosystem px68k quicknes redream reicast sameboy scummvm snes9x snes9x2002 snes9x2010 stella tgbdual tyrquake vba-next vbam vecx vice virtualjaguar yabause"
+	mednafen-pcfx mednafen-psx mednafen-saturn mednafen-snes mednafen-supergrafx mednafen-vb mednafen-wswan melonds meowpc98 meteor mgba mrboom \
+	mupen64plus nestopia np2kai nxengine o2em openlara parallel-n64 pcsx-rearmed picodrive play pokemini ppsspp prboom prosystem px68k \
+	quasi quicknes redream reicast reminiscence sameboy scummvm snes9x snes9x2002 snes9x2005 snes9x2010 stella tgbdual theodore
+	thepowdertoy tyrquake vba-next vbam vecx vice virtualjaguar xrick yabause"
 
 KEYWORDS=""
 
@@ -74,6 +76,7 @@ RDEPEND="2048? ( >=games-emulation/2048-libretro-9999 )
 		mednafen-pce? ( >=games-emulation/mednafen-pce-libretro-9999 )
 		mednafen-pce-fast? ( >=games-emulation/mednafen-pce-fast-libretro-9999 )
 		mednafen-pcfx? ( >=games-emulation/mednafen-pcfx-libretro-9999 )
+		mednafen-psx? ( >=games-emulation/mednafen-psx-libretro-9999 )
 		mednafen-saturn? ( >=games-emulation/mednafen-saturn-libretro-9999 )
 		mednafen-snes? ( >=games-emulation/mednafen-snes-libretro-9999 )
 		mednafen-supergrafx? ( >=games-emulation/mednafen-supergrafx-libretro-9999 )
@@ -86,34 +89,40 @@ RDEPEND="2048? ( >=games-emulation/2048-libretro-9999 )
 		mrboom? ( >=games-emulation/mrboom-libretro-9999 )
 		mupen64plus? ( >=games-emulation/mupen64plus-libretro-9999 )
 		nestopia? ( >=games-emulation/nestopia-libretro-9999 )
+		np2kai? ( >=games-emulation/np2kai-libretro-9999 )
 		nxengine? ( >=games-emulation/nxengine-libretro-9999 )
 		o2em? ( >=games-emulation/o2em-libretro-9999 )
 		openlara? ( >=games-emulation/openlara-libretro-9999 )
 		parallel-n64? ( >=games-emulation/parallel-n64-libretro-9999 )
 		pcsx-rearmed? ( >=games-emulation/pcsx-rearmed-libretro-9999 )
 		picodrive? ( >=games-emulation/picodrive-libretro-9999 )
-		snes9x2002? ( >=games-emulation/snes9x2002-libretro-9999 )
-		pcsx-rearmed? ( >=games-emulation/pcsx-rearmed-libretro-9999 )
-		picodrive? ( >=games-emulation/picodrive-libretro-9999 )
+		play? ( >=games-emulation/play-libretro-9999 )
+		pokemini?  ( >=games-emulation/pokemini-libretro-9999 )
 		ppsspp? ( >=games-emulation/ppsspp-libretro-9999 )
 		prboom? ( >=games-emulation/prboom-libretro-9999 )
 		prosystem? ( >=games-emulation/prosystem-libretro-9999 )
 		px68k? ( >=games-emulation/px68k-libretro-9999 )
+		quasi? ( >=games-emulation/quasi-libretro-9999 )
 		quicknes? ( >=games-emulation/quicknes-libretro-9999 )
 		redream? ( >=games-emulation/redream-libretro-9999 )
 		reicast? ( >=games-emulation/reicast-libretro-9999 )
+		reminiscence? ( >=games-emulation/reminiscence-libretro-9999 )
 		sameboy? ( >=games-emulation/sameboy-libretro-9999 )
 		scummvm? ( >=games-emulation/scummvm-libretro-9999 )
 		snes9x? ( >=games-emulation/snes9x-libretro-9999 )
 		snes9x2002? ( >=games-emulation/snes9x2002-libretro-9999 )
+		snes9x2005? ( >=games-emulation/snes9x2005-libretro-9999 )
 		snes9x2010? ( >=games-emulation/snes9x2010-libretro-9999 )
 		stella? ( >=games-emulation/stella-libretro-9999 )
 		tgbdual? ( >=games-emulation/tgbdual-libretro-9999 )
+		theodore? ( >=games-emulation/theodore-libretro-9999 )
+		thepowdertoy? ( >=games-emulation/thepowdertoy-libretro-9999 )
 		tyrquake? ( >=games-emulation/tyrquake-libretro-9999 )
 		vba-next? ( >=games-emulation/vba-next-libretro-9999 )
 		vbam? ( >=games-emulation/vbam-libretro-9999 )
 		vecx? ( >=games-emulation/vecx-libretro-9999 )
 		vice? ( >=games-emulation/vice-libretro-9999 )
 		virtualjaguar? ( >=games-emulation/virtualjaguar-libretro-9999 )
+		xrick? ( >=games-emulation/xrick-libretro-9999 )
 		yabause? ( >=games-emulation/yabause-libretro-9999 )"
 DEPEND=""
