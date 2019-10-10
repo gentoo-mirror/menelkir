@@ -88,8 +88,10 @@ games-emulation/mame2010-libretro 9999: MAME (0.139) for libretro.
 games-emulation/mame2015-libretro 9999: MAME (0.160) for libretro.
 games-emulation/mame2016-libretro 9999-r2: MAME (0.174) for libretro.
 games-emulation/mednafen-gba-libretro 9999-r2: libretro implementation of Mednafen VBA/GBA. (Game Boy Advance)
+games-emulation/mednafen-lynx-libretro 9999: libretro implementation of Mednafen Lynx. (Atari Lynx)
 games-emulation/mednafen-ngp-libretro 9999-r2: libretro implementation of Mednafen Neopop. Neo Geo Pocket/Neo Geo Pocket Color
 games-emulation/mednafen-pce-fast-libretro 9999-r2: libretro implementation of Mednafen PCE Fast. (PC Engine/TurboGrafx-16)
+games-emulation/mednafen-pce-libretro 9999: libretro implementation of Mednafen PCE. (PC Engine/TurboGrafx-16)
 games-emulation/mednafen-pcfx-libretro 9999: Standalone port of Mednafen PCFX to libretro.
 games-emulation/mednafen-saturn-libretro 9999-r2: Standalone port of Mednafen Saturn to the libretro
 games-emulation/mednafen-snes-libretro 9999-r2: libretro implementation of Mednafen SNES. (Super Nintendo Entertainment System)
