@@ -7,8 +7,7 @@ DESCRIPTION="Meta package for various libretro implementations"
 HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="2048 3dengine 4do 81 atari800 beetle-psx bluemsx bnes bsnes bsnes-cpp98 cannonball \
-	cap32 chailove citra craft desmume dolphin \
+IUSE="2048 3dengine 4do 81 atari800 beetle-psx bluemsx bnes bsnes bsnes-cpp98 cannonball cap32 chailove citra craft desmume dolphin \
 	easyrpg fbalpha fbalpha2012 fceumm flycast fuse gambatte genplus handy mame mame2000 mame2003 mame2016 \ 
 	mednafen-gba mednafen-ngp mednafen-pcfx mednafen-pce-fast mednafen-saturn mednafen-snes mednafen-supergrafx mednafen-vb \ 
 	mednafen-wswan melonds meowpc98 meteor mgba mrboom mupen64plus nestopia nxengine o2em openlara \
