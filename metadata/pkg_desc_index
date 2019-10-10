@@ -1,20 +1,20 @@
-app-emulation/dxvk 1.0.3-r1 1.2.3-r1 1.4.1 9999-r2: Vulkan-based D3D11 and D3D10 implementation for Linux / Wine
-app-emulation/protontricks 1.2.4: A simple wrapper that does winetricks things for Proton enabled games
+app-emulation/dxvk 1.4.2 9999-r2: Vulkan-based D3D11 and D3D10 implementation for Linux / Wine
+app-emulation/protontricks 1.2.5: A simple wrapper that does winetricks things for Proton enabled games
 app-emulation/vmware-modules 331.1.7 361.1.0: VMware kernel modules
 app-emulation/vmware-workstation 14.1.7.12989993-r6 15.1.0.13591040-r4: Emulate a complete PC without the performance overhead of most emulators
 dev-libs/steam-runtime-openssl 1.0.1p: OpenSSL for Steam-based games
-dev-python/vdf 3.1: Package for working with Valve's text and binary KeyValue format
+dev-python/vdf 3.2: Package for working with Valve's text and binary KeyValue format
 dev-util/adobe-air-runtime 2.6-r2: Adobe AIR runtime
 games-action/cave_story_plus 100: 2D action-adventure game with semil-linear storyline
-games-action/d2x-rebirth 0.58.1: Descent Rebirth - enhanced Descent 2 engine
-games-action/d2x-xl 1.16.15 1.16.27: Descent 2 engine supporting high-resolution textures
+games-action/d2x-rebirth 0.57.1: Descent Rebirth - enhanced Descent 2 engine
+games-action/d2x-xl 1.16.27 1.18.74: Descent 2 engine supporting high-resolution textures
 games-action/dxx-rebirth 0.59.100: Descent Rebirth - enhanced Descent 1 & 2 engine
 games-action/shadowgrounds-bin 1: an epic action experience combining modern technology with addictive playability
 games-action/shadowgrounds-survivor-bin 1: human survivors who battle against the ongoing alien onslaught
 games-arcade/canabalt 2p: Retro-styled 2D platformer-autorunner
 games-arcade/capsized 06102013: A fast paced 2d platformer, focused on intense action and exploration.
 games-arcade/edge 20130703: Develop your telekinetic strength by pushing a Cube within a geometric universe.
-games-arcade/megamario 1.6: Mario remake
+games-arcade/megamario 1.6 1.7: Mario remake
 games-emulation/2048-libretro 9999: libretro implementation of 2048. (Puzzle game)
 games-emulation/3dengine-libretro 9999: 3D Engine for libretro GL with additional features (camera/location/etc). Should be compatible from libretro 3D/GLES 2.0 and up.
 games-emulation/4do-libretro 9999-r2: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
