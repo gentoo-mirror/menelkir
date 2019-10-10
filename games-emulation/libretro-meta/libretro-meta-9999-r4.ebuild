@@ -7,7 +7,12 @@ DESCRIPTION="Meta package for various libretro implementations"
 HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="2048 4do atari800 beetle-psx bluemsx bnes bsnes bsnes-cpp98 cap32 citra craft desmume dolphin easyrpg fbalpha fbalpha2012 fceumm flycast fuse gambatte genplus handy mame mame2000 mame2003 mame2016 mednafen-gba mednafen-ngp mednafen-pce-fast mednafen-saturn mednafen-snes mednafen-vb mednafen-wswan melonds meowpc98 meteor mgba mrboom mupen64plus nestopia nxengine openlara pcsx-rearmed mednafen-supergrafx parallel-n64 picodrive ppsspp prboom prosystem px68k quicknes redream reicast sameboy scummvm snes9x snes9x2002 snes9x2010 stella tgbdual tyrquake vba-next vbam yabause"
+IUSE="2048 4do atari800 beetle-psx bluemsx bnes bsnes bsnes-cpp98 cap32 citra craft desmume dolphin \
+	easyrpg fbalpha fbalpha2012 fceumm flycast fuse gambatte genplus handy mame mame2000 mame2003 mame2016 \ 
+	mednafen-gba mednafen-ngp mednafen-pcfx mednafen-pce-fast mednafen-saturn mednafen-snes mednafen-supergrafx mednafen-vb \ 
+	mednafen-wswan melonds meowpc98 meteor mgba mrboom mupen64plus nestopia nxengine o2em openlara \
+	parallel-n64 pcsx-rearmed picodrive ppsspp prboom prosystem px68k quicknes redream \
+	reicast sameboy scummvm snes9x snes9x2002 snes9x2010 stella tgbdual tyrquake vba-next vbam vecx vice virtualjaguar yabause"
 
 KEYWORDS=""
 
@@ -41,6 +46,7 @@ RDEPEND="2048? ( >=games-emulation/2048-libretro-9999 )
 		mednafen-gba? ( >=games-emulation/mednafen-gba-libretro-9999 )
 		mednafen-ngp? ( >=games-emulation/mednafen-ngp-libretro-9999 )
 		mednafen-pce-fast? ( >=games-emulation/mednafen-pce-fast-libretro-9999 )
+		mednafen-pcfx? ( >=games-emulation/mednafen-pcfx-libretro-9999 )
 		mednafen-saturn? ( >=games-emulation/mednafen-saturn-libretro-9999 )
 		mednafen-snes? ( >=games-emulation/mednafen-snes-libretro-9999 )
 		mednafen-supergrafx? ( >=games-emulation/mednafen-supergrafx-libretro-9999 )
@@ -54,11 +60,14 @@ RDEPEND="2048? ( >=games-emulation/2048-libretro-9999 )
 		mupen64plus? ( >=games-emulation/mupen64plus-libretro-9999 )
 		nestopia? ( >=games-emulation/nestopia-libretro-9999 )
 		nxengine? ( >=games-emulation/nxengine-libretro-9999 )
+		o2em? ( >=games-emulation/o2em-libretro-9999 )
 		openlara? ( >=games-emulation/openlara-libretro-9999 )
 		parallel-n64? ( >=games-emulation/parallel-n64-libretro-9999 )
 		pcsx-rearmed? ( >=games-emulation/pcsx-rearmed-libretro-9999 )
 		picodrive? ( >=games-emulation/picodrive-libretro-9999 )
 		snes9x2002? ( >=games-emulation/snes9x2002-libretro-9999 )
+		pcsx-rearmed? ( >=games-emulation/pcsx-rearmed-libretro-9999 )
+		picodrive? ( >=games-emulation/picodrive-libretro-9999 )
 		ppsspp? ( >=games-emulation/ppsspp-libretro-9999 )
 		prboom? ( >=games-emulation/prboom-libretro-9999 )
 		prosystem? ( >=games-emulation/prosystem-libretro-9999 )
@@ -68,12 +77,16 @@ RDEPEND="2048? ( >=games-emulation/2048-libretro-9999 )
 		reicast? ( >=games-emulation/reicast-libretro-9999 )
 		sameboy? ( >=games-emulation/sameboy-libretro-9999 )
 		scummvm? ( >=games-emulation/scummvm-libretro-9999 )
-		snes9x? ( >=games-emulation/libretro-snes9x-9999 )
+		snes9x? ( >=games-emulation/snes9x-libretro-9999 )
+		snes9x2002? ( >=games-emulation/snes9x2002-libretro-9999 )
 		snes9x2010? ( >=games-emulation/snes9x2010-libretro-9999 )
 		stella? ( >=games-emulation/stella-libretro-9999 )
 		tgbdual? ( >=games-emulation/tgbdual-libretro-9999 )
 		tyrquake? ( >=games-emulation/tyrquake-libretro-9999 )
 		vba-next? ( >=games-emulation/vba-next-libretro-9999 )
 		vbam? ( >=games-emulation/vbam-libretro-9999 )
+		vecx? ( >=games-emulation/vecx-libretro-9999 )
+		vice? ( >=games-emulation/vice-libretro-9999 )
+		virtualjaguar? ( >=games-emulation/virtualjaguar-libretro-9999 )
 		yabause? ( >=games-emulation/yabause-libretro-9999 )"
 DEPEND=""
