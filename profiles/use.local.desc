@@ -36,8 +36,6 @@ games-emulation/mgba-libretro:pgopost - Rebuild for profile-guided optimization 
 games-emulation/mgba-libretro:png - Support screenshots and savestate-in-PNGs (requires "zlib")
 games-emulation/mgba-libretro:zip - Support loading of zipped ROMs (recommended)
 games-emulation/mgba-libretro:zlib - Support miscellaneous zip file handling
-games-emulation/mupen64plus-libretro:gles2 - Use GLESv2 instead of OpenGL
-games-emulation/mupen64plus-libretro:vulkan - Enable vulkan support
 games-emulation/parallel-n64-libretro:gles2 - Use GLESv2 instead of OpenGL
 games-emulation/parallel-n64-libretro:vulkan - Enable vulkan support
 games-emulation/ppsspp-libretro:gles2 - Enable GLES2 instead of OpenGL
