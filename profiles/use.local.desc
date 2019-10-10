@@ -25,57 +25,6 @@ games-emulation/emulationstation-themes-meta:simple-dark - adds games-emulation/
 games-emulation/emulationstation-themes-meta:simplified-static-canela - adds games-emulation/es-theme-simplified-static-canela as dependency
 games-emulation/emulationstation-themes-meta:turtle-pi - adds games-emulation/es-theme-turtle-pi as dependency
 games-emulation/emulationstation-themes-meta:zoid - adds games-emulation/es-theme-zoid as dependency
-games-emulation/libretro-meta:2048 - adds games-emulation/2048-libretro as dependency
-games-emulation/libretro-meta:4do - adds games-emulation/4do-libretro as dependency
-games-emulation/libretro-meta:beetle-psx - adds games-emulation/beetle-psx-libretro as dependency
-games-emulation/libretro-meta:bnes - adds games-emulation/bnes-libretro as dependency
-games-emulation/libretro-meta:bsnes - adds games-emulation/bsnes-libretro as dependency
-games-emulation/libretro-meta:citra - adds games-emulation/citra-libretro as dependency
-games-emulation/libretro-meta:craft - adds games-emulation/craft-libretro as dependency
-games-emulation/libretro-meta:desmume - adds games-emulation/desmume-libretro as dependency
-games-emulation/libretro-meta:dolphin - adds games-emulation/dolphin-libretro as dependency
-games-emulation/libretro-meta:fbalpha - adds games-emulation/fbalpha-libretro as dependency
-games-emulation/libretro-meta:fbalpha2012 - adds games-emulation/fbalpha2012-libretro as dependency
-games-emulation/libretro-meta:fceumm - adds games-emulation/fceumm-libretro or games-emulation/fceu-next-libretro as dependency
-games-emulation/libretro-meta:gambatte - adds games-emulation/gambatte-libretro as dependency
-games-emulation/libretro-meta:genplus - adds games-emulation/genplus-libretro as dependency
-games-emulation/libretro-meta:handy - adds games-emulation/handy-libretro as dependency
-games-emulation/libretro-meta:mame - adds games-emulation/mame-libretro as dependency
-games-emulation/libretro-meta:mame2000 - adds games-emulation/mame2000-libretro as dependency
-games-emulation/libretro-meta:mednafen-gba - adds games-emulation/mednafen-gba-libretro as dependency
-games-emulation/libretro-meta:mednafen-ngp - adds games-emulation/mednafen-ngp-libretro as dependency
-games-emulation/libretro-meta:mednafen-pce-fast - adds games-emulation/mednafen-pce-fast-libretro as dependency
-games-emulation/libretro-meta:mednafen-snes - adds games-emulation/mednafen-snes-libretro as dependency
-games-emulation/libretro-meta:mednafen-supergrafx - adds games-emulation/mednafen-supergrafx-libretro as dependency
-games-emulation/libretro-meta:mednafen-vb - adds games-emulation/mednafen-vb-libretro as dependency
-games-emulation/libretro-meta:mednafen-wswan - adds games-emulation/mednafen-wswan-libretro as dependency
-games-emulation/libretro-meta:melonds - adds games-emulation/melonds-libretro as dependency
-games-emulation/libretro-meta:meteor - adds games-emulation/meteor-libretro as dependency
-games-emulation/libretro-meta:mgba - adds games-emulation/mgba-libretro as dependency
-games-emulation/libretro-meta:mupen64plus - adds games-emulation/mupen64plus-libretro as dependency
-games-emulation/libretro-meta:nestopia - adds games-emulation/nestopia-libretro as dependency
-games-emulation/libretro-meta:nxengine - adds games-emulation/nxengine-libretro as dependency
-games-emulation/libretro-meta:openlara - adds games-emulation/openlara-libretro as dependency
-games-emulation/libretro-meta:pcsx-rearmed - adds games-emulation/pcsx-rearmed-libretro as dependency
-games-emulation/libretro-meta:picodrive - adds games-emulation/picodrive-libretro as dependency
-games-emulation/libretro-meta:ppsspp - adds games-emulation/ppsspp-libretro as dependency
-games-emulation/libretro-meta:prboom - adds games-emulation/prboom-libretro as dependency
-games-emulation/libretro-meta:prosystem - adds games-emulation/prosystem-libretro as dependency
-games-emulation/libretro-meta:px68k - adds games-emulation/px68k-libretro as dependency
-games-emulation/libretro-meta:quicknes - adds games-emulation/quicknes-libretro as dependency
-games-emulation/libretro-meta:redream - adds games-emulation/redream-libretro as dependency
-games-emulation/libretro-meta:reicast - adds games-emulation/reicast-libretro as dependency
-games-emulation/libretro-meta:sameboy - adds games-emulation/sameboy-libretro as dependency
-games-emulation/libretro-meta:scummvm - adds games-emulation/scummvm-libretro as dependency
-games-emulation/libretro-meta:snes9x - adds games-emulation/snes9x-libretro as dependency
-games-emulation/libretro-meta:snes9x2002 - adds games-emulation/snes9x2002-libretro as dependency
-games-emulation/libretro-meta:snes9x2010 - adds games-emulation/snes9x2010-libretro as dependency
-games-emulation/libretro-meta:stella - adds games-emulation/stella-libretro as dependency
-games-emulation/libretro-meta:tgbdual - adds games-emulation/tgbdual-libretro as dependency
-games-emulation/libretro-meta:tyrquake - adds games-emulation/tyrquake-libretro as dependency
-games-emulation/libretro-meta:vba-next - adds games-emulation/vba-next-libretro as dependency
-games-emulation/libretro-meta:vbam - adds games-emulation/vbam-libretro as dependency
-games-emulation/libretro-meta:yabause - adds games-emulation/yabause-libretro as dependency
 games-emulation/mgba-libretro:epoxy - Enable managed OpenGL function pointers (requires "gles2")
 games-emulation/mgba-libretro:ffmpeg - Support video recording
 games-emulation/mgba-libretro:gles2 - Use GLESv2 instead of OpenGL
