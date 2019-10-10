@@ -41,7 +41,6 @@ games-emulation/mupen64plus-libretro:vulkan - Enable vulkan support
 games-emulation/parallel-n64-libretro:gles2 - Use GLESv2 instead of OpenGL
 games-emulation/parallel-n64-libretro:vulkan - Enable vulkan support
 games-emulation/ppsspp-libretro:gles2 - Enable GLES2 instead of OpenGL
-games-emulation/psp1-libretro:gles2 - Enable GLES2 instead of OpenGL
 games-emulation/reicast-libretro:gles2 - Use GLESv2 instead of OpenGL
 games-emulation/reicast-libretro:naomi - Additionally build NAOMI enabled core
 games-emulation/vba-next-libretro:neon - Enable optimization support for ARM NEON processors
