@@ -8,7 +8,7 @@ inherit cmake-utils
 DESCRIPTION="Frontend for emulators (RetroPie Fork)"
 HOMEPAGE="https://github.com/RetroPie/EmulationStation"
 
-LICENSE="GPL-3"
+LICENSE="emulationstation"
 SLOT="0"
 IUSE="+themes"
 
