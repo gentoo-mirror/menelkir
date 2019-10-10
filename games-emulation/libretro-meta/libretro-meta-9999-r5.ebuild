@@ -7,12 +7,11 @@ DESCRIPTION="Meta package for various libretro implementations"
 HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="2048 3dengine 4do 81 atari800 beetle-psx bluemsx bnes bsnes bsnes-cpp98 cannonball cap32 chailove citra craft desmume dolphin \
-	easyrpg fbalpha fbalpha2012 fceumm flycast fuse gambatte genplus handy mame mame2000 mame2003 mame2016 \ 
-	mednafen-gba mednafen-ngp mednafen-pcfx mednafen-pce-fast mednafen-saturn mednafen-snes mednafen-supergrafx mednafen-vb \ 
-	mednafen-wswan melonds meowpc98 meteor mgba mrboom mupen64plus nestopia nxengine o2em openlara \
-	parallel-n64 pcsx-rearmed picodrive ppsspp prboom prosystem px68k quicknes redream \
-	reicast sameboy scummvm snes9x snes9x2002 snes9x2010 stella tgbdual tyrquake vba-next vbam vecx vice virtualjaguar yabause"
+IUSE="2048 3dengine 4do 81 atari800 beetle-psx bluemsx bnes bsnes bsnes-cpp98 cannonball cap32 chailove citra craft \
+	crocods daphne desmume desmume2014 desmume2015 dolphin dosbox easyrpg fbalpha fbalpha2012 fbalpha2012-cps1 fbalpha2012-cps2 fbalpha2012-cps3 \
+	fbalpha2012-neogeo fbneo fceumm flycast fmsx freeintv fuse gambatte gearboy genplus gme gpsp gw handy hatari ishiiruka \
+	lutro mame mame2000 mame2003 mame2003plus mame2010 mame2015 mame2016 \
+	mednafen-gba mednafen-ngp mednafen-pcfx mednafen-pce-fast mednafen-saturn mednafen-snes mednafen-supergrafx mednafen-vb mednafen-wswan melonds meowpc98 meteor mgba mrboom mupen64plus nestopia nxengine o2em openlara parallel-n64 pcsx-rearmed picodrive ppsspp prboom prosystem px68k quicknes redream reicast sameboy scummvm snes9x snes9x2002 snes9x2010 stella tgbdual tyrquake vba-next vbam vecx vice virtualjaguar yabause"
 
 KEYWORDS=""
 
@@ -31,20 +30,42 @@ RDEPEND="2048? ( >=games-emulation/2048-libretro-9999 )
 		chailove? ( >=games-emulation/chailove-libretro-9999 )
 		citra? ( >=games-emulation/citra-libretro-9999 )
 		craft? ( >=games-emulation/craft-libretro-9999 )
+		crocods? ( >=games-emulation/crocods-libretro-9999 )
+		daphne? ( >=games-emulation/daphne-libretro-9999 )
 		desmume? ( >=games-emulation/desmume-libretro-9999 )
+		desmume2014? ( >=games-emulation/desmume2014-libretro-9999 )
+		desmume2015? ( >=games-emulation/desmume2015-libretro-9999 )
 		dolphin? ( >=games-emulation/dolphin-libretro-9999 )
+		dosbox? ( >=games-emulation/dosbox-libretro-9999 )
 		easyrpg? ( >=games-emulation/easyrpg-libretro-9999 )
 		fbalpha? ( >=games-emulation/fbalpha-libretro-9999 )
 		fbalpha2012? ( >=games-emulation/fbalpha2012-libretro-9999 )
+		fbalpha2012-cps1? ( >=games-emulation/fbalpha2012-cps1-libretro-9999 )
+		fbalpha2012-cps2? ( >=games-emulation/fbalpha2012-cps2-libretro-9999 )
+		fbalpha2012-cps3? ( >=games-emulation/fbalpha2012-cps3-libretro-9999 )
+		fbalpha2012-neogeo? ( >=games-emulation/fbalpha2012-neogeo-libretro-9999 )
+		fbneo? ( >=games-emulation/fbneo-libretro-9999 )
 		fceumm? ( || ( >=games-emulation/fceumm-libretro-9999 >=games-emulation/fceu-next-libretro-9999 ) )
 		flycast? ( >=games-emulation/flycast-libretro-9999 )
+		fmsx? ( >=games-emulation/fmsx-libretro-9999 )
+		freeintv? ( >=games-emulation/freeintv-libretro-9999 )
 		fuse? ( >=games-emulation/fuse-libretro-9999 )
 		gambatte? ( >=games-emulation/gambatte-libretro-9999 )
+		gearboy? ( >=games-emulation/gearboy-libretro-9999 )
 		genplus? ( >=games-emulation/genplus-libretro-9999 )
+		gme? ( >=games-emulation/gme-libretro-9999 )
+		gpsp? ( >=games-emulation/gpsp-libretro-9999 )
+		gw? ( >=games-emulation/gw-libretro-9999 )
 		handy? ( >=games-emulation/handy-libretro-9999 )
+		hatari? ( >=games-emulation/hatari-libretro-9999 )
+		ishiiruka? ( >=games-emulation/ishiiruka-libretro-9999 )
+		lutro? ( >=games-emulation/lutro-libretro-9999 )
 		mame? ( >=games-emulation/mame-libretro-9999 )
 		mame2000? ( >=games-emulation/mame2000-libretro-9999 )
 		mame2003? ( >=games-emulation/mame2003-libretro-9999 )
+		mame2003plus? ( >=games-emulation/mame2003plus-libretro-9999 )
+		mame2010? ( >=games-emulation/mame2010-libretro-9999 )
+		mame2015? ( >=games-emulation/mame2015-libretro-9999 )
 		mame2016? ( >=games-emulation/mame2016-libretro-9999 )
 		mednafen-gba? ( >=games-emulation/mednafen-gba-libretro-9999 )
 		mednafen-ngp? ( >=games-emulation/mednafen-ngp-libretro-9999 )
