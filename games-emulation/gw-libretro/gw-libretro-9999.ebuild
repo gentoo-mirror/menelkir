@@ -9,7 +9,7 @@ DESCRIPTION="A libretro core for Game & Watch simulators."
 HOMEPAGE="https://github.com/libretro/gw-libretro"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="ZLIB"
 SLOT="0"
 
 DEPEND=""

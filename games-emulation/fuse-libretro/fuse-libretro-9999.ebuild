@@ -10,7 +10,7 @@ DESCRIPTION=" A port of the Fuse Unix Spectrum Emulator to libretro"
 HOMEPAGE="https://github.com/libretro/fuse-libretro"
 KEYWORDS=""
 
-LICENSE="snes9x"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""

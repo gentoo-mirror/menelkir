@@ -9,7 +9,7 @@ DESCRIPTION="Obscure nintendo handheld emulator."
 HOMEPAGE="https://github.com/libretro/PokeMini"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="pokemini"
 SLOT="0"
 
 DEPEND=""

@@ -10,7 +10,7 @@ DESCRIPTION="libretro implementation of 2048. (Puzzle game)"
 HOMEPAGE="https://github.com/libretro/libretro-2048"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="PublicDomain"
 SLOT="0"
 
 DEPEND=""

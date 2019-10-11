@@ -6,10 +6,10 @@ EAPI=6
 inherit libretro-core
 
 DESCRIPTION="CrocoDS libretro core"
-HOMEPAGE="https://github.com/libretro/crocods-libretro"
+HOMEPAGE="https://github.com/libretro/libretro-crocods"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="MIT"
 SLOT="0"
 
 DEPEND=""

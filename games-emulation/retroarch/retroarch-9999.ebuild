@@ -12,7 +12,7 @@ DESCRIPTION="Frontend for emulators, game engines and media players"
 HOMEPAGE="https://www.retroarch.com/"
 EGIT_REPO_URI="https://github.com/libretro/RetroArch"
 
-LICENSE="GPL-3+"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS=""
 

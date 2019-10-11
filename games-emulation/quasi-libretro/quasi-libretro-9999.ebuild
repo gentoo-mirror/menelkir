@@ -9,7 +9,7 @@ DESCRIPTION="A port of QUASI88, a PC-8800 series emulator by Showzoh Fukunaga, t
 HOMEPAGE="https://github.com/libretro/quasi88-libretro"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="BSD-3"
 SLOT="0"
 
 DEPEND=""

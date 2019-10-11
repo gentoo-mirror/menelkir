@@ -6,10 +6,10 @@ EAPI=6
 inherit libretro-core
 
 DESCRIPTION="2D Game Framework with ChaiScript."
-HOMEPAGE="https://github.com/libretro/chailove-libretro"
+HOMEPAGE="https://github.com/libretro/libretro-chailove"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="MIT"
 SLOT="0"
 
 DEPEND=""

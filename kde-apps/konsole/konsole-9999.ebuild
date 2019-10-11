@@ -10,6 +10,7 @@ inherit kde5
 
 DESCRIPTION="KDE's terminal emulator"
 HOMEPAGE="https://kde.org/applications/system/konsole https://konsole.kde.org"
+LICENSE="GPL-2"
 
 KEYWORDS=""
 IUSE="X"

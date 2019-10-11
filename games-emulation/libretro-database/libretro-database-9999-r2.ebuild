@@ -9,7 +9,7 @@ DESCRIPTION="Repository containing cheatcode files, content data files, etc."
 HOMEPAGE="https://github.com/libretro/libretro-database"
 KEYWORDS=""
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 
 DEPEND=""

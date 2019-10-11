@@ -3,8 +3,8 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Repository containing cheatcode files, content data files, etc.
 EAPI=6
 HOMEPAGE=https://github.com/libretro/libretro-database
-LICENSE=GPL-3
+LICENSE=MIT
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1	libretro	e2e72840da02ef2a21e935c8447187a8
-_md5_=07d76d156627171babcc83d1dcdfd431
+_md5_=89dd9268e806b573347440aeb71e0b6c

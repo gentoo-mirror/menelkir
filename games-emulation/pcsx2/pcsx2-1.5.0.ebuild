@@ -11,7 +11,7 @@ DESCRIPTION="A PlayStation 2 emulator"
 HOMEPAGE="https://www.pcsx2.net"
 SRC_URI="https://github.com/PCSX2/${PN}/archive/v${MY_PV}-dev.tar.gz -> ${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="LGPL-3"
 SLOT="0"
 KEYWORDS="-* amd64 x86"
 IUSE=""
