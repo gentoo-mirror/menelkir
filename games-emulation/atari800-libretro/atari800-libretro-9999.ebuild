@@ -10,7 +10,7 @@ DESCRIPTION="Atari800 libretro core"
 HOMEPAGE="https://github.com/libretro/libretro-atari800"
 KEYWORDS=""
 
-LICENSE="snes9x"
+LICENSE="GPL-2"
 SLOT="0"
 
 DEPEND=""

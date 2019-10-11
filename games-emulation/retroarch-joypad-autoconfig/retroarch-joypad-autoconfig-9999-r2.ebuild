@@ -9,7 +9,7 @@ DESCRIPTION="RetroArch joypad autoconfig files"
 HOMEPAGE="https://github.com/libretro/retroarch-joypad-autoconfig"
 KEYWORDS=""
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 
 RDEPEND="virtual/udev"

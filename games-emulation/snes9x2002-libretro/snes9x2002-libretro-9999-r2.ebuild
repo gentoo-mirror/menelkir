@@ -10,7 +10,7 @@ DESCRIPTION="Snes9x 2002. Port of SNES9x 1.39 for libretro (previously PocketSNE
 HOMEPAGE="https://github.com/libretro/snes9x2002"
 KEYWORDS=""
 
-LICENSE="PS"
+LICENSE="snes9x"
 SLOT="0"
 
 DEPEND=""

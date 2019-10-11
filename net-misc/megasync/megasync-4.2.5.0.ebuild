@@ -9,6 +9,8 @@ DESCRIPTION="Easy automated syncing with MEGA Cloud Drive"
 HOMEPAGE="https://github.com/meganz/MEGAsync"
 SRC_URI="https://github.com/meganz/MEGAsync/archive/v${PV}_Linux.tar.gz -> ${P}.tar.gz"
 
+LICENSE="MEGA"
+
 SLOT="0"
 IUSE="dolphin +mediainfo nautilus +qt5 thunar"
 REQUIRED_USE="dolphin? ( qt5 )"

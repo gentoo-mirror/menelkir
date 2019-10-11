@@ -6,10 +6,10 @@ EAPI=6
 inherit libretro-core
 
 DESCRIPTION="A libretro emulation core for the Mattel Intellivision designed to be compatible with joypads from the SNES era forward."
-HOMEPAGE="https://github.com/libretro/freeintv-libretro"
+HOMEPAGE="https://github.com/libretro/FreeIntv"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""

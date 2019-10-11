@@ -9,7 +9,7 @@ DESCRIPTION="The Powder Toy is a free physics sandbox game for libretro."
 HOMEPAGE="https://github.com/libretro/ThePowderToy"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""

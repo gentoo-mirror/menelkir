@@ -9,7 +9,7 @@ DESCRIPTION="libretro implementation of VBA-M. (Game Boy Advance)"
 HOMEPAGE="https://github.com/libretro/vbam-libretro"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="vba"
 SLOT="0"
 
 DEPEND=""

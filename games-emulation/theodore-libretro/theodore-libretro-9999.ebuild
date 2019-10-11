@@ -9,7 +9,7 @@ DESCRIPTION="Libretro core for Thomson TO8/TO8D/TO9/TO9+ emulation."
 HOMEPAGE="https://github.com/libretro/theodore"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""

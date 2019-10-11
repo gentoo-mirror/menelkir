@@ -9,7 +9,7 @@ DESCRIPTION="Playstation 2 libretro core"
 HOMEPAGE="https://github.com/libretro/Play-"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="PLAY"
 SLOT="0"
 
 DEPEND=""

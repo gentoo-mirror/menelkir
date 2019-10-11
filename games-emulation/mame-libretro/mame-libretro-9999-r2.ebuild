@@ -10,7 +10,7 @@ DESCRIPTION="libretro implementation of MAME 2015. (Arcade)"
 HOMEPAGE="https://github.com/libretro/mame"
 KEYWORDS=""
 
-LICENSE="GPL-2+"
+LICENSE="MAME-GPL"
 SLOT="0"
 
 DEPEND=">=sys-devel/gcc-5.1"

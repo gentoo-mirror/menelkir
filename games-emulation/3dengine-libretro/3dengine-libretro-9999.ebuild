@@ -10,7 +10,7 @@ DESCRIPTION="3D Engine for libretro GL with additional features (camera/location
 HOMEPAGE="https://github.com/libretro/libretro-3dengine"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""

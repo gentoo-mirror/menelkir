@@ -10,7 +10,7 @@ SLOT="0"
 IUSE="2048 3dengine 4do 81 atari800 beetle-psx bluemsx bnes bsnes bsnes-cpp98 cannonball cap32 chailove citra craft \
 	crocods daphne desmume desmume2014 desmume2015 dolphin dosbox easyrpg fbalpha fbalpha2012 fbalpha2012-cps1 fbalpha2012-cps2 fbalpha2012-cps3 \
 	fbalpha2012-neogeo fbneo fceumm flycast fmsx freeintv fuse gambatte gearboy genplus gme gpsp gw handy hatari ishiiruka \
-	lutro mame mame2000 mame2003 mame2003plus mame2010 mame2015 mame2016 mednafen-gba mednafen-lynx mednafen-ngp mednafen-pce mednafen-pce-fast \
+	lutro mame mame2000 mame2003 mame2003plus mame2010 mame2015 mame2016 mednafen-gba mednafen-lynx mednafen-ngp mednafen-pce-fast \
 	mednafen-pcfx mednafen-psx mednafen-saturn mednafen-snes mednafen-supergrafx mednafen-vb mednafen-wswan melonds meowpc98 meteor mgba mrboom \
 	mupen64plus nestopia np2kai nxengine o2em openlara parallel-n64 pcsx-rearmed picodrive play pokemini ppsspp prboom prosystem px68k \
 	quasi quicknes redream reicast reminiscence sameboy scummvm snes9x snes9x2002 snes9x2005 snes9x2010 stella tgbdual theodore
@@ -73,7 +73,6 @@ RDEPEND="2048? ( >=games-emulation/2048-libretro-9999 )
 		mednafen-gba? ( >=games-emulation/mednafen-gba-libretro-9999 )
 		mednafen-lynx? ( >=games-emulation/mednafen-lynx-libretro-9999 )
 		mednafen-ngp? ( >=games-emulation/mednafen-ngp-libretro-9999 )
-		mednafen-pce? ( >=games-emulation/mednafen-pce-libretro-9999 )
 		mednafen-pce-fast? ( >=games-emulation/mednafen-pce-fast-libretro-9999 )
 		mednafen-pcfx? ( >=games-emulation/mednafen-pcfx-libretro-9999 )
 		mednafen-psx? ( >=games-emulation/mednafen-psx-libretro-9999 )

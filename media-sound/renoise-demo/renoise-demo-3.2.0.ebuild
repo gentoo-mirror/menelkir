@@ -10,8 +10,8 @@ HOMEPAGE="http://www.renoise.com/"
 
 MY_ARCH=${ARCH/amd64/x86_64}
 MY_PV=${PV//./_}
-SRC_URI="http://files.renoise.com/demo/Renoise_${MY_PV}_Demo_${MY_ARCH}.tar.bz2"
-S="${WORKDIR}/Renoise_${MY_PV}_Demo_${MY_ARCH}"
+SRC_URI="http://files.renoise.com/demo/Renoise_${MY_PV}_Demo_Linux.tar.gz"
+S="${WORKDIR}/Renoise_${MY_PV}_Demo_Linux"
 
 LICENSE="renoise"
 SLOT="0"

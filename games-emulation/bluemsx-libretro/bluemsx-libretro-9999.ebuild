@@ -9,7 +9,7 @@ DESCRIPTION=" Port of blueMSX to the libretro API"
 HOMEPAGE="https://github.com/libretro/bluemsx-libretro"
 KEYWORDS=""
 
-LICENSE="GPL-3"
+LICENSE="bluemsx"
 SLOT="0"
 
 DEPEND=""

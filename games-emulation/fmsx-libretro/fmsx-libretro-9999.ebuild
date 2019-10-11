@@ -9,7 +9,7 @@ DESCRIPTION="Port of fMSX to the libretro API."
 HOMEPAGE="https://github.com/libretro/fmsx-libretro"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="fMSX"
 SLOT="0"
 
 DEPEND=""

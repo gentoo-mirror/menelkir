@@ -9,7 +9,7 @@ DESCRIPTION="Port of blargg's Game_Music_Emu library."
 HOMEPAGE="https://github.com/libretro/libretro-gme"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""

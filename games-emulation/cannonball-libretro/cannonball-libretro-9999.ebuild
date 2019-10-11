@@ -6,10 +6,10 @@ EAPI=6
 inherit libretro-core
 
 DESCRIPTION="Cannonball: An Enhanced OutRun Engine."
-HOMEPAGE="https://github.com/libretro/cannonball-libretro"
+HOMEPAGE="https://github.com/libretro/cannonball"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="cannoball"
 SLOT="0"
 
 DEPEND=""

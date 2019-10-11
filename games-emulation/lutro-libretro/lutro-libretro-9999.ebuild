@@ -9,7 +9,7 @@ DESCRIPTION="An experimental lua game framework for libretro following the LÖVE
 HOMEPAGE="https://github.com/libretro/libretro-lutro"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="MIT"
 SLOT="0"
 
 DEPEND=""

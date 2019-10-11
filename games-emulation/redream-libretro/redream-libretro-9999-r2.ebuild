@@ -10,7 +10,7 @@ DESCRIPTION="libretro implementation of redream. (SEGA Dreamcast)"
 HOMEPAGE="https://github.com/inolen/redream"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
 
 IUSE="gles2 opengl"

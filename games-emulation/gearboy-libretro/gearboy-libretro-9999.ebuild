@@ -9,7 +9,7 @@ DESCRIPTION="Game Boy / Gameboy Color emulator for iOS, Mac, Raspberry Pi, Windo
 HOMEPAGE="https://github.com/libretro/Gearboy"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""

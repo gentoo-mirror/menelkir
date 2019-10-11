@@ -10,7 +10,7 @@ DESCRIPTION="libretro implementation of SameBoy (Gameboy / Gameboy Color)"
 HOMEPAGE="https://github.com/libretro/SameBoy"
 KEYWORDS=""
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 
 DEPEND="dev-lang/rgbds"

@@ -10,7 +10,7 @@ DESCRIPTION="libretro implementation of VBA Next. (Game Boy Advance)"
 HOMEPAGE="https://github.com/libretro/vba-next"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="vba"
 SLOT="0"
 IUSE="neon +tiled_rendering"
 

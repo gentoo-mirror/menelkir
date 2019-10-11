@@ -9,7 +9,7 @@ DESCRIPTION="Versatile Commodore 8-bit Emulator version 3.3 LIBRETRO WIP"
 HOMEPAGE="https://github.com/libretro/vice-libretro"
 KEYWORDS=""
 
-LICENSE="GPL-3"
+LICENSE="GPL-2"
 SLOT="0"
 
 DEPEND=""

@@ -14,7 +14,7 @@ DESCRIPTION="Simple News Feed Reader for feeds aggregated by Tiny Tiny RSS or fe
 HOMEPAGE="https://github.com/jangernert/FeedReader"
 SRC_URI="https://github.com/jangernert/${MY_PN}/archive/v${PV}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 
