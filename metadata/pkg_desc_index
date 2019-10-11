@@ -161,7 +161,6 @@ games-fps/gzdoom 3.7.2 9999-r1: A 3D-accelerated Doom source port based on ZDoom
 games-fps/zdoom 2.8.1: ZDoom is an enhanced port of the official DOOM source code
 games-puzzle/crayon-physics-deluxe 55: 2D physics puzzle / sandbox game, where your drawings would be magically transformed into real physical objects.
 games-puzzle/numptyphysics 9999: A drawing puzzle game in the spirit of Crayon Physics
-games-rpg/avadon 1.0: Epic fantasy role-playing adventure in an enormous and unique world.
 games-rpg/divinity-original-sin-ee 2.0.0.1: Divinity: Original Sin - Enhanced Edition (GOG edition)
 games-rpg/doukutsu-bin 1.01: Side-scrolling platformer written by StudioPixel (English translation)
 games-rpg/lonesurvivor 1.11d_p1-r1: 2D sidescrolling psychological survival adventure game
@@ -196,8 +195,6 @@ media-libs/hal-flash 0.3.3-r1: libhal stub forwarding to UDisks for Adobe Flash 
 media-sound/cadence 9999-r6: Collection of tools useful for audio production
 media-sound/carla 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
 media-sound/munt 2.3.0 9999: Software synthesiser emulating pre-GM MIDI (e.g., Roland MT-32)
-media-sound/renoise 3.2.0: Complete DAW using a tracker-based approach
-media-sound/renoise-demo 3.2.0: Complete DAW using a tracker-based approach
 media-sound/strawberry 0.6.5 9999: Modern music player and library organizer based on Clementine and Qt
 media-sound/vgmplay 0.40.9 9999: Video game music (VGM) file command-line player
 media-video/apple_facetimehd_firmware 1.43.0: Firmware for the Apple Facetime HD Camera

@@ -2,9 +2,3 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-games-emulation/reicast-libretro:gles2 - Use GLESv2 instead of OpenGL
-games-emulation/reicast-libretro:naomi - Additionally build NAOMI enabled core
-x11-themes/papirus-pack-kde-meta:discontinued - Install discontinued papirus themes
-x11-themes/papirus-pack-kde-meta:icon-theme - Install Papirus icons
-x11-themes/papirus-pack-kde-meta:libreoffice-theme - Install Papirus libreoffice icons
-x11-themes/papirus-pack-kde-meta:smplayer-theme - Install Papirus smplayer theme
