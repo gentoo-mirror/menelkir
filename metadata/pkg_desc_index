@@ -25,7 +25,7 @@ games-emulation/bluemsx-libretro 9999: Port of blueMSX to the libretro API
 games-emulation/bnes-libretro 9999-r2: libretro implementation of bNES/higan. (Nintendo Entertainment System)
 games-emulation/bsnes-libretro 9999-r2: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
 games-emulation/bsnes-libretro-cplusplus98 9999: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
-games-emulation/cannonball-libretro 9999: Cannonball: An Enhanced OutRun Engine.
+games-emulation/cannonball-libretro 9999: An Enhanced OutRun Engine.
 games-emulation/cap32-libretro 9999: Caprice32 libretro core
 games-emulation/chailove-libretro 9999: 2D Game Framework with ChaiScript.
 games-emulation/citra-libretro 9999-r2: libretro implementation of Citra. (Nintendo 3DS)
