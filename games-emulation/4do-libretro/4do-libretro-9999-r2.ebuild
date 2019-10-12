@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/libretro-${PN//-libretro}"
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of 4DO/libfreedo. (Panasonic 3DO)"

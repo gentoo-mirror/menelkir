@@ -3,10 +3,12 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/${PN//-libretro}"
 inherit libretro-core
 
-DESCRIPTION="Cannonball: An Enhanced OutRun Engine."
+DESCRIPTION="An Enhanced OutRun Engine."
 HOMEPAGE="https://github.com/libretro/cannonball"
+
 KEYWORDS=""
 
 LICENSE="cannoball"
