@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/libretro-gme"
 inherit libretro-core
 
 DESCRIPTION="Port of blargg's Game_Music_Emu library."

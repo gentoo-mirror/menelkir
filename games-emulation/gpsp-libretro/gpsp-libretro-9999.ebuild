@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/gpsp"
 inherit libretro-core
 
 DESCRIPTION="Gameboy gpSP for libretro."

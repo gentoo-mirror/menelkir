@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/freeintv"
 inherit libretro-core
 
 DESCRIPTION="A libretro emulation core for the Mattel Intellivision designed to be compatible with joypads from the SNES era forward."

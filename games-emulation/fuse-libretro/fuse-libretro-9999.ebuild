@@ -3,7 +3,7 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/${PN//-libretro}"
+LIBRETRO_REPO_NAME="libretro/fuse-libretro"
 inherit libretro-core
 
 DESCRIPTION=" A port of the Fuse Unix Spectrum Emulator to libretro"
@@ -17,8 +17,3 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-src_install() {
-	insinto "${LIBRETRO_DATA_DIR}"/snes9x2010_libretro
-	doins "${S}"/docs/snes9x-license.txt
-	libretro-core_src_install
-}

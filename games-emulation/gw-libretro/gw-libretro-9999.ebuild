@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/gw-libretro"
 inherit libretro-core
 
 DESCRIPTION="A libretro core for Game & Watch simulators."
