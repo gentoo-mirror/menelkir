@@ -3,14 +3,14 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/Dinothawr"
+LIBRETRO_REPO_NAME="libretro/stella2014-libretro"
 inherit libretro-core
 
-DESCRIPTION="Dinothawr is a block pushing puzzle game on slippery surfaces."
-HOMEPAGE="https://github.com/libretro/Dinothawr"
+DESCRIPTION="libretro implementation of Stella. (Atari 2600)"
+HOMEPAGE="https://github.com/libretro/stella2014-libretro"
 KEYWORDS=""
 
-LICENSE="CC-BY-NC-SA-2.0"
+LICENSE="GPL-2"
 SLOT="0"
 
 DEPEND=""

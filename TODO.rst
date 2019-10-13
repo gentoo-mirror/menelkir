@@ -23,7 +23,6 @@ TODO
   * sameboy-libretro
   * snes9x-libretro
   * snes9x2005-libretro
-  * stella-libretro
   * thepowdertoy-libretro
   * vice-libretro
   * yabause-libretro
