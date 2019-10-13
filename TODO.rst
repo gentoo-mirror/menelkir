@@ -15,3 +15,5 @@ TODO
 *Fix non-working cores*
 
 * dolphin-libretro
+* sameboy-libretro
+* vice-libretro
