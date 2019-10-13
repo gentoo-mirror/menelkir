@@ -3,10 +3,11 @@ TODO
 
 *Add missing cores*
 
-* fbalpha2012-cps1
-* fbalpha2012-cps2
-* fbalpha2012-cps3
-* fbalpha2012-neogeo
+* dinothawr-libretro
+* fbalpha2012-cps1-libretro
+* fbalpha2012-cps2-libretro
+* fbalpha2012-cps3-libretro
+* fbalpha2012-neogeo-libretro
 * fbneo-libretro
 * gearboy-libretro
 * hatari-libretro
@@ -15,6 +16,7 @@ TODO
 *Fix non-working cores*
 
 * dolphin-libretro
+* np2kai-libretro
 * sameboy-libretro
 * stella-libretro
 * vice-libretro

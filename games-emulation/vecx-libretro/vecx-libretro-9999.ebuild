@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/libretro-vecx"
 inherit libretro-core
 
 DESCRIPTION="Libretro adaption of vecx, a Vectrex Emulator"

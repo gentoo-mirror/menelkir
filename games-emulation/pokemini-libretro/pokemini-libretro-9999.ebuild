@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/PokeMini"
 inherit libretro-core
 
 DESCRIPTION="Obscure nintendo handheld emulator."
