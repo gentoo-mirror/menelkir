@@ -3,13 +3,14 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/libretro-pocketcdg"
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of Stella. (Atari 2600)"
-HOMEPAGE="https://github.com/libretro/stella-libretro"
+DESCRIPTION="PocketCDG libretro port."
+HOMEPAGE="https://github.com/libretro/libretro-pocketcdg"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="MIT"
 SLOT="0"
 
 DEPEND=""

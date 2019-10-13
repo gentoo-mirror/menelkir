@@ -3,14 +3,14 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/mame2003-plus-libretro"
+LIBRETRO_REPO_NAME="libretro/vemulator-libretro"
 inherit libretro-core
 
-DESCRIPTION="MAME (0.78) for libretro. With more games support and many fixes."
-HOMEPAGE="https://github.com/libretro/mame2003-plus-libretro"
+DESCRIPTION="A port of the SEGA Visual Memory Unit emulator VeMUlator for libretro."
+HOMEPAGE="https://github.com/libretro/vemulator-libretro"
 KEYWORDS=""
 
-LICENSE="MAME-GPL"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""

@@ -3,14 +3,14 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/mame2003-plus-libretro"
+LIBRETRO_REPO_NAME="libretro/Dinothawr"
 inherit libretro-core
 
-DESCRIPTION="MAME (0.78) for libretro. With more games support and many fixes."
-HOMEPAGE="https://github.com/libretro/mame2003-plus-libretro"
+DESCRIPTION="Dinothawr is a block pushing puzzle game on slippery surfaces."
+HOMEPAGE="https://github.com/libretro/Dinothawr"
 KEYWORDS=""
 
-LICENSE="MAME-GPL"
+LICENSE="CC-BY-NC-SA-2.0"
 SLOT="0"
 
 DEPEND=""

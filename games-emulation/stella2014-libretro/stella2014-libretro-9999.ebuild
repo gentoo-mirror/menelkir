@@ -3,14 +3,14 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/mame2003-plus-libretro"
+LIBRETRO_REPO_NAME="libretro/stella2014-libretro"
 inherit libretro-core
 
-DESCRIPTION="MAME (0.78) for libretro. With more games support and many fixes."
-HOMEPAGE="https://github.com/libretro/mame2003-plus-libretro"
+DESCRIPTION="libretro implementation of Stella. (Atari 2600)"
+HOMEPAGE="https://github.com/libretro/stella2014-libretro"
 KEYWORDS=""
 
-LICENSE="MAME-GPL"
+LICENSE="GPL-2"
 SLOT="0"
 
 DEPEND=""

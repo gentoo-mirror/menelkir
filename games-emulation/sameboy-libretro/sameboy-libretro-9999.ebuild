@@ -3,14 +3,14 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/mame2003-plus-libretro"
+LIBRETRO_REPO_NAME="libretro/Sameboy"
 inherit libretro-core
 
-DESCRIPTION="MAME (0.78) for libretro. With more games support and many fixes."
-HOMEPAGE="https://github.com/libretro/mame2003-plus-libretro"
+DESCRIPTION="Gameboy and Gameboy Color emulator written in C"
+HOMEPAGE="https://github.com/libretro/Sameboy"
 KEYWORDS=""
 
-LICENSE="MAME-GPL"
+LICENSE="MIT"
 SLOT="0"
 
 DEPEND=""

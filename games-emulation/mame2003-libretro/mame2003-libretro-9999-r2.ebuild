@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/mame2003-libretro"
 inherit libretro-core
 
 DESCRIPTION="MAME (0.78) for libretro."
