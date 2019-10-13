@@ -7,6 +7,7 @@ TODO
 * fbalpha2012-cps2
 * fbalpha2012-cps3
 * fbalpha2012-neogeo
+* fbneo-libretro
 * gearboy-libretro
 * hatari-libretro
 * ishiiruka-libretro
