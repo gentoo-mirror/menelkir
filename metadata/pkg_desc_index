@@ -34,7 +34,7 @@ games-emulation/craft-libretro 1.0_pre20171024 9999-r2: libretro implementation 
 games-emulation/crocods-libretro 9999: CrocoDS libretro core
 games-emulation/daphne-libretro 9999: Daphne libretro core
 games-emulation/desmume-libretro 1.0_pre20180311 9999-r2: libretro implementation of DeSmuME. (Nintendo DS)
-games-emulation/dolphin-libretro 1.0_pre20171024 9999-r2: libretro implementation of Dolphin. (Nintendo GC/Wii)
+games-emulation/dolphin-libretro 1.0_pre20170825 9999-r2: libretro implementation of Dolphin. (Nintendo GC/Wii)
 games-emulation/dosbox-libretro 9999: Port of DOSBox (upstream) to the libretro API.
 games-emulation/easyrpg-libretro 1.0_pre20171024 9999-r2: An unofficial libretro port of the EasyRPG/Player.
 games-emulation/emulationstation 2.7.6-r1 9999-r3: Frontend for emulators (RetroPie Fork)
@@ -52,11 +52,7 @@ games-emulation/es-theme-simplified-static-canela 9999: EmulationStation theme s
 games-emulation/es-theme-turtle-pi 9999: EmulationStation theme turtle-pi
 games-emulation/es-theme-zoid 9999: EmulationStation theme zoid
 games-emulation/fbalpha-libretro 9999-r2: Port of Final Burn Alpha to Libretro
-games-emulation/fbalpha2012-cps1-libretro 9999: Final Burn Alpha 2012. Port of Final Burn Alpha to Libretro (0.2.97.24). Standalone core for Capcom CPS1
-games-emulation/fbalpha2012-cps2-libretro 9999: Final Burn Alpha 2012. Port of Final Burn Alpha to Libretro (0.2.97.24). Standalone core for Capcom CPS2.
-games-emulation/fbalpha2012-cps3-libretro 9999: Final Burn Alpha 2012. Port of Final Burn Alpha to Libretro (0.2.97.24). Standalone core for Capcom CPS3.
 games-emulation/fbalpha2012-libretro 9999-r2: Final Burn Alpha 2012. Port of Final Burn Alpha to Libretro (0.2.97.24)
-games-emulation/fbalpha2012-neogeo-libretro 9999: Final Burn Alpha 2012. Port of Final Burn Alpha to Libretro (0.2.97.24). Standalone core for Neo geo.
 games-emulation/fbneo-libretro 9999: Libretro core for Final Burn Alpha fork
 games-emulation/fceu-next-libretro 9999-r2: libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)
 games-emulation/fceumm-libretro 9999-r2: FCEUmm libretro port. (Nintendo Entertainment System)
@@ -65,15 +61,12 @@ games-emulation/fmsx-libretro 9999: Port of fMSX to the libretro API.
 games-emulation/freeintv-libretro 9999: A libretro emulation core for the Mattel Intellivision designed to be compatible with joypads from the SNES era forward.
 games-emulation/fuse-libretro 9999: A port of the Fuse Unix Spectrum Emulator to libretro
 games-emulation/gambatte-libretro 9999-r2: libretro implementation of Gambatte. (Game Boy/Game Boy Color)
-games-emulation/gearboy-libretro 9999: Game Boy / Gameboy Color emulator for iOS, Mac, Raspberry Pi, Windows, Linux and RetroArch.
 games-emulation/genplus-libretro 9999-r2: libretro implementation of Genesis Plus GX. (Sega Genesis/Sega CD)
 games-emulation/glsl-shaders 9999-r2: glsl shaders converted by hand from libretro's common-shaders repo
 games-emulation/gme-libretro 9999: Port of blargg's Game_Music_Emu library.
 games-emulation/gpsp-libretro 9999: Gameboy gpSP for libretro.
 games-emulation/gw-libretro 9999: A libretro core for Game & Watch simulators.
 games-emulation/handy-libretro 9999-r2: libretro implementation of Handy. (Atari Lynx)
-games-emulation/hatari-libretro 9999: Hatari is an Atari ST/STE/TT/Falcon libretro core.
-games-emulation/ishiiruka-libretro 9999: A fork of dolphin, the wii/gamecube libretro core
 games-emulation/libretro-common-overlays 1_pre20190930: Collection of overlay files for use with RetroArch
 games-emulation/libretro-database 9999-r2: Repository containing cheatcode files, content data files, etc.
 games-emulation/libretro-info 1_pre20191006: Libretro info files required for libretro cores
