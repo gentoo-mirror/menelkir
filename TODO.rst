@@ -42,7 +42,6 @@ TODO
         * play-libretro
         * puae-libretro
         * quasi-libretro
-        * sameboy-libretro
         * snes9x-libretro
         * snes9x2005-libretro
         * snes9x2005-plus-libretro
