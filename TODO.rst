@@ -17,6 +17,7 @@ TODO
 
   * dolphin-libretro
   * np2kai-libretro
+  * mame2003plus-libretro
   * mednafen-pcfx-libretro
   * quasi-libretro
   * sameboy-libretro
