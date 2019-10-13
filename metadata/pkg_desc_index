@@ -2,6 +2,7 @@ app-emulation/dxvk 1.4.2 9999-r2: Vulkan-based D3D11 and D3D10 implementation fo
 app-emulation/protontricks 1.2.5: A simple wrapper that does winetricks things for Proton enabled games
 app-emulation/vmware-modules 331.1.7 361.1.0: VMware kernel modules
 app-emulation/vmware-workstation 14.1.7.12989993-r6 15.1.0.13591040-r4: Emulate a complete PC without the performance overhead of most emulators
+dev-libs/liblcf 0.5.2 0.6.1 9999: Library to handle RPG Maker 2000/2003 and EasyRPG projects
 dev-libs/steam-runtime-openssl 1.0.1p: OpenSSL for Steam-based games
 dev-python/vdf 3.2: Package for working with Valve's text and binary KeyValue format
 dev-util/adobe-air-runtime 2.6-r2: Adobe AIR runtime
@@ -15,29 +16,27 @@ games-arcade/canabalt 2p: Retro-styled 2D platformer-autorunner
 games-arcade/capsized 06102013: A fast paced 2d platformer, focused on intense action and exploration.
 games-arcade/edge 20130703: Develop your telekinetic strength by pushing a Cube within a geometric universe.
 games-arcade/megamario 1.6 1.7: Mario remake
-games-emulation/2048-libretro 9999: libretro implementation of 2048. (Puzzle game)
+games-emulation/2048-libretro 1.0_pre20171024 9999: libretro implementation of 2048. (Puzzle game)
 games-emulation/3dengine-libretro 9999: 3D Engine for libretro GL with additional features (camera/location/etc). Should be compatible from libretro 3D/GLES 2.0 and up.
-games-emulation/4do-libretro 9999-r2: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
+games-emulation/4do-libretro 1.0_pre20171024 9999-r2: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
 games-emulation/81-libretro 9999: A port of the EightyOne ZX81 Emulator to libretro.
 games-emulation/atari800-libretro 9999: Atari800 libretro core
-games-emulation/beetle-psx-libretro 9999-r2: libretro implementation of Mednafen PSX. (PlayStation, beetle version)
+games-emulation/beetle-psx-libretro 1.0_pre20171126 9999-r2: libretro implementation of Mednafen PSX. (PlayStation, beetle version)
 games-emulation/bluemsx-libretro 9999: Port of blueMSX to the libretro API
-games-emulation/bnes-libretro 9999-r2: libretro implementation of bNES/higan. (Nintendo Entertainment System)
-games-emulation/bsnes-libretro 9999-r2: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
-games-emulation/bsnes-libretro-cplusplus98 9999: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
+games-emulation/bnes-libretro 1.0_pre20170323 9999-r2: libretro implementation of bNES/higan. (Nintendo Entertainment System)
+games-emulation/bsnes-libretro 1.0_pre20171024 9999-r2: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
+games-emulation/bsnes-libretro-cplusplus98 1.0_pre20171024 9999: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
 games-emulation/cannonball-libretro 9999: An Enhanced OutRun Engine.
 games-emulation/cap32-libretro 9999: Caprice32 libretro core
 games-emulation/chailove-libretro 9999: 2D Game Framework with ChaiScript.
-games-emulation/citra-libretro 9999-r2: libretro implementation of Citra. (Nintendo 3DS)
-games-emulation/craft-libretro 9999-r2: libretro implementation of Craft. (Minecraft clone)
+games-emulation/citra-libretro 1.0_pre20180314 9999-r2: libretro implementation of Citra. (Nintendo 3DS)
+games-emulation/craft-libretro 1.0_pre20171024 9999-r2: libretro implementation of Craft. (Minecraft clone)
 games-emulation/crocods-libretro 9999: CrocoDS libretro core
 games-emulation/daphne-libretro 9999: Daphne libretro core
-games-emulation/desmume-libretro 9999-r2: libretro implementation of DeSmuME. (Nintendo DS)
-games-emulation/desmume2014-libretro 9999: Port of Desmume to libretro based on Desmume SVN circa 2014.
-games-emulation/desmume2015-libretro 9999: Port of Desmume to libretro based on Desmume SVN circa 2015.
-games-emulation/dolphin-libretro 9999-r2: libretro implementation of Dolphin. (Nintendo GC/Wii)
+games-emulation/desmume-libretro 1.0_pre20180311 9999-r2: libretro implementation of DeSmuME. (Nintendo DS)
+games-emulation/dolphin-libretro 1.0_pre20171024 9999-r2: libretro implementation of Dolphin. (Nintendo GC/Wii)
 games-emulation/dosbox-libretro 9999: Port of DOSBox (upstream) to the libretro API.
-games-emulation/easyrpg-libretro 9999-r2: An unofficial libretro port of the EasyRPG/Player.
+games-emulation/easyrpg-libretro 1.0_pre20171024 9999-r2: An unofficial libretro port of the EasyRPG/Player.
 games-emulation/emulationstation 2.7.6-r1 9999-r3: Frontend for emulators (RetroPie Fork)
 games-emulation/emulationstation-themes-meta 0: EmulationStation themes meta package
 games-emulation/es-theme-carbon 9999: EmulationStation theme carbon
