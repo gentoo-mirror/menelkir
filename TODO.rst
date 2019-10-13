@@ -16,4 +16,5 @@ TODO
 
 * dolphin-libretro
 * sameboy-libretro
+* stella-libretro
 * vice-libretro
