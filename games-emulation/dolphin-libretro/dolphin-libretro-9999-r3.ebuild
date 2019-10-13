@@ -3,8 +3,8 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/${PN//-libretro}"
-inherit libretro-core
+LIBRETRO_REPO_NAME="libretro/dolphin"
+inherit libretro-core cmake-utils
 
 DESCRIPTION="libretro implementation of Dolphin. (Nintendo GC/Wii)"
 HOMEPAGE="https://github.com/libretro/dolphin"
@@ -19,7 +19,7 @@ DEPEND="opengl? ( virtual/opengl )
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-S="${S}"/Source/Core/DolphinLibretro
+S="${S}/Source/Core/DolphinLibretro"
 
 src_compile() {
 	myemakeargs=(
