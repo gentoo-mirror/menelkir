@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/libretro-o2em"
 inherit libretro-core
 
 DESCRIPTION="Port of O2EM to the libretro API, an Odyssey 2 / VideoPac emulator. "
