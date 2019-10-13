@@ -36,7 +36,7 @@ games-emulation/crocods-libretro 9999: CrocoDS libretro core
 games-emulation/daphne-libretro 9999: Daphne libretro core
 games-emulation/desmume-libretro 1.0_pre20180311 9999-r2: libretro implementation of DeSmuME. (Nintendo DS)
 games-emulation/dinothawr-libretro 9999: Dinothawr is a block pushing puzzle game on slippery surfaces.
-games-emulation/dolphin-libretro 1.0_pre20170825 9999-r2: libretro implementation of Dolphin. (Nintendo GC/Wii)
+games-emulation/dolphin-libretro 1.0_pre20171024 9999-r3: libretro implementation of Dolphin. (Nintendo GC/Wii)
 games-emulation/dosbox-libretro 9999: Port of DOSBox (upstream) to the libretro API.
 games-emulation/easyrpg-libretro 1.0_pre20171024 9999-r2: An unofficial libretro port of the EasyRPG/Player.
 games-emulation/emulationstation 2.7.6-r1 9999-r3: Frontend for emulators (RetroPie Fork)
@@ -129,12 +129,11 @@ games-emulation/retroarch 1.7.9 1.7.9.2 9999: Frontend for emulators, game engin
 games-emulation/retroarch-assets 1_pre20191006: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 9999-r2: RetroArch joypad autoconfig files
 games-emulation/rpcs3 0.0.7 9999: PlayStation 3 emulator
-games-emulation/sameboy-libretro 9999: Gameboy and Gameboy Color emulator written in C
+games-emulation/sameboy-libretro 1.0_pre20171024 9999-r2: libretro implementation of SameBoy (Gameboy / Gameboy Color)
 games-emulation/scummvm-libretro 9999-r2: libretro implementation of ScummVM
 games-emulation/slang-shaders 9999-r2: Collection of slang shaders for vulkan backends.
-games-emulation/snes9x-libretro 9999: Snes9x - Portable Super Nintendo Entertainment System (TM) for libretro.
+games-emulation/snes9x-libretro 1.0_pre20171120: libretro implementation of SNES9x. (Super Nintendo Entertainment System)
 games-emulation/snes9x2002-libretro 9999-r2: Snes9x 2002. Port of SNES9x 1.39 for libretro (previously PocketSNES)
-games-emulation/snes9x2005-libretro 9999: Snes9x 2005. Port of SNES9x 1.43 for libretro (was previously called CAT SFC).
 games-emulation/snes9x2010-libretro 9999-r2: Snes9x 2010. Port of Snes9x 1.52+ to Libretro (previously called SNES9x Next)
 games-emulation/stella2014-libretro 9999: libretro implementation of Stella. (Atari 2600)
 games-emulation/tgbdual-libretro 9999-r2: libretro implementation of TGB-DUAL. (Game Boy Advance)
@@ -145,11 +144,10 @@ games-emulation/vba-next-libretro 9999-r2: libretro implementation of VBA Next. 
 games-emulation/vbam-libretro 9999-r2: libretro implementation of VBA-M. (Game Boy Advance)
 games-emulation/vecx-libretro 9999: Libretro adaption of vecx, a Vectrex Emulator
 games-emulation/vemulator-libretro 9999: A port of the SEGA Visual Memory Unit emulator VeMUlator for libretro.
-games-emulation/vice-libretro 9999: Versatile Commodore 8-bit Emulator for libretro
 games-emulation/virtualjaguar-libretro 9999: Port of Virtual Jaguar to Libretro
 games-emulation/xnp2 9999: X Neko Project II, a PC-9801 emulator (PC98)
 games-emulation/xrick-libretro 9999: Xrick is an open source implementation of Rick Dangerous for libretro.
-games-emulation/yabause-libretro 9999-r2: libretro implementation of Yabause. (Sega Saturn)
+games-emulation/yabause-libretro 9999: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
 games-engines/ags 3.4.0.16 9999: Adventure Game Studio (AGS) runtime engine
 games-engines/easyrpg-player 0.5.2 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
 games-fps/brutal-doom 21: A mod that attempts to make Doom faster placed, harder, gorier and more violent.
