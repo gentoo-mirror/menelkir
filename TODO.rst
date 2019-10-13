@@ -42,9 +42,6 @@ TODO
         * play-libretro
         * puae-libretro
         * quasi-libretro
-        * snes9x-libretro
-        * snes9x2005-libretro
-        * snes9x2005-plus-libretro
         * thepowdertoy-libretro
         * vice-libretro
         * vemulator-libretro
