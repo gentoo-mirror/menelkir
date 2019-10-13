@@ -61,6 +61,7 @@ games-emulation/fceumm-libretro 9999-r2: FCEUmm libretro port. (Nintendo Enterta
 games-emulation/flycast-libretro 9999: Multiplatform Sega Dreamcast emulator
 games-emulation/fmsx-libretro 9999: Port of fMSX to the libretro API.
 games-emulation/freeintv-libretro 9999: A libretro emulation core for the Mattel Intellivision designed to be compatible with joypads from the SNES era forward.
+games-emulation/fsuae-libretro 9999: WIP - fs-uae libretro version (Cross-platform Amiga emulator)
 games-emulation/fuse-libretro 9999: A port of the Fuse Unix Spectrum Emulator to libretro
 games-emulation/gambatte-libretro 9999-r2: libretro implementation of Gambatte. (Game Boy/Game Boy Color)
 games-emulation/genplus-libretro 9999-r2: libretro implementation of Genesis Plus GX. (Sega Genesis/Sega CD)
@@ -116,6 +117,7 @@ games-emulation/ppsspp-libretro 9999-r2: libretro implementation of PPSSPP. (Pla
 games-emulation/prboom-libretro 9999-r2: libretro implementation of PrBoom. (Doom)
 games-emulation/prosystem-libretro 9999-r2: libretro implementation of prosystem. (Atari 7800)
 games-emulation/psp-assets 9999-r1: PPSSPP Assets for use with libretro
+games-emulation/puae-libretro 9999: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
 games-emulation/px68k-libretro 9999-r2: libretro implementation of PX68K. (Sharp X68000)
 games-emulation/quasi-libretro 9999: A port of QUASI88, a PC-8800 series emulator by Showzoh Fukunaga, to the libretro API
 games-emulation/quicknes-libretro 9999-r2: libretro implementation of QuickNES. (Nintendo Entertainment System)
@@ -143,7 +145,7 @@ games-emulation/vba-next-libretro 9999-r2: libretro implementation of VBA Next. 
 games-emulation/vbam-libretro 9999-r2: libretro implementation of VBA-M. (Game Boy Advance)
 games-emulation/vecx-libretro 9999: Libretro adaption of vecx, a Vectrex Emulator
 games-emulation/vemulator-libretro 9999: A port of the SEGA Visual Memory Unit emulator VeMUlator for libretro.
-games-emulation/vice-libretro 9999: Versatile Commodore 8-bit Emulator version 3.3 LIBRETRO WIP
+games-emulation/vice-libretro 9999: Versatile Commodore 8-bit Emulator for libretro
 games-emulation/virtualjaguar-libretro 9999: Port of Virtual Jaguar to Libretro
 games-emulation/xnp2 9999: X Neko Project II, a PC-9801 emulator (PC98)
 games-emulation/xrick-libretro 9999: Xrick is an open source implementation of Rick Dangerous for libretro.
