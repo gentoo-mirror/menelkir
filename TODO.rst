@@ -12,12 +12,13 @@ TODO
   * hatari-libretro
   * ishiiruka-libretro
 
-*Fix non-working cores*
+*Fix non-building cores*
 
   * dolphin-libretro
   * np2kai-libretro
   * mame2003plus-libretro
   * mednafen-pcfx-libretro
+  * play-libretro
   * quasi-libretro
   * sameboy-libretro
   * snes9x-libretro
