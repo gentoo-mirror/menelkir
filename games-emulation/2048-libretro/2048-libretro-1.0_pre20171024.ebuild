@@ -4,22 +4,16 @@
 EAPI=6
 
 LIBRETRO_REPO_NAME="libretro/libretro-${PN//-libretro}"
+LIBRETRO_COMMIT_SHA="04b708a4ab29c485aac1b4554f98db0e991e5103"
 inherit libretro-core
 
-DESCRIPTION="CrocoDS libretro core"
-HOMEPAGE="https://github.com/libretro/libretro-crocods"
-KEYWORDS=""
+DESCRIPTION="libretro implementation of 2048. (Puzzle game)"
+HOMEPAGE="https://github.com/libretro/libretro-2048"
+KEYWORDS="~amd64 ~x86"
 
-LICENSE="MIT"
+LICENSE="GPL-2"
 SLOT="0"
 
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
-
-pkg_preinst() {
-	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
-		first_install="1"
-	fi
-}
-
