@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/ThePowderToy"
 inherit libretro-core
 
 DESCRIPTION="The Powder Toy is a free physics sandbox game for libretro."

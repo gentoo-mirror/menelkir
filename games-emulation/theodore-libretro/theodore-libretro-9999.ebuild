@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/theodore"
 inherit libretro-core
 
 DESCRIPTION="Libretro core for Thomson TO8/TO8D/TO9/TO9+ emulation."
