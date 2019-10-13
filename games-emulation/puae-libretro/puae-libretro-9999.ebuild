@@ -3,12 +3,11 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/vice-libretro"
+LIBRETRO_REPO_NAME="libretro/libretro-uae"
 inherit libretro-core
 
-DESCRIPTION="Versatile Commodore 8-bit Emulator for libretro"
-
-HOMEPAGE="https://github.com/libretro/vice-libretro"
+DESCRIPTION="WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator."
+HOMEPAGE="https://github.com/libretro/libretro-uae"
 KEYWORDS=""
 
 LICENSE="GPL-2"

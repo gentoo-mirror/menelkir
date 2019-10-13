@@ -3,12 +3,12 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/vice-libretro"
+LIBRETRO_REPO_NAME="libretro/libretro-fsuae"
 inherit libretro-core
 
-DESCRIPTION="Versatile Commodore 8-bit Emulator for libretro"
+DESCRIPTION="WIP - fs-uae libretro version (Cross-platform Amiga emulator)"
 
-HOMEPAGE="https://github.com/libretro/vice-libretro"
+HOMEPAGE="https://github.com/libretro/libretro-fsuae"
 KEYWORDS=""
 
 LICENSE="GPL-2"

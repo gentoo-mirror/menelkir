@@ -6,7 +6,7 @@ TODO
         * emux-chip8-libretro
         * emux-gb-libretro
         * emux-nes-libretro
-        * emix-sms-libretro
+        * emux-sms-libretro
         * ffmpeg-libretro
         * fbalpha2012-cps1-libretro
         * fbalpha2012-cps2-libretro
@@ -22,7 +22,6 @@ TODO
         * mesen-libretro
         * mess2015-libretro
         * nekop2-libretro
-        * uae-libretro
         * fsuae-libretro
         * redbook-libretro
         * remotejoy-libretro
@@ -35,10 +34,12 @@ TODO
 *Fix non-building cores*
 
         * dolphin-libretro
+        * fsuae-libretro
         * np2kai-libretro
         * mame2003plus-libretro
         * mednafen-pcfx-libretro
         * play-libretro
+        * puae-libretro
         * quasi-libretro
         * sameboy-libretro
         * snes9x-libretro
@@ -48,3 +49,4 @@ TODO
         * vice-libretro
         * yabause-libretro
         * vemulator-libretro
+        * vice-libretro
