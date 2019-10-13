@@ -36,7 +36,7 @@ games-emulation/crocods-libretro 9999: CrocoDS libretro core
 games-emulation/daphne-libretro 9999: Daphne libretro core
 games-emulation/desmume-libretro 1.0_pre20180311 9999-r2: libretro implementation of DeSmuME. (Nintendo DS)
 games-emulation/dinothawr-libretro 9999: Dinothawr is a block pushing puzzle game on slippery surfaces.
-games-emulation/dolphin-libretro 1.0_pre20171024 9999-r3: libretro implementation of Dolphin. (Nintendo GC/Wii)
+games-emulation/dolphin-libretro 9999-r3: libretro implementation of Dolphin. (Nintendo GC/Wii)
 games-emulation/dosbox-libretro 9999: Port of DOSBox (upstream) to the libretro API.
 games-emulation/easyrpg-libretro 1.0_pre20171024 9999-r2: An unofficial libretro port of the EasyRPG/Player.
 games-emulation/emulationstation 2.7.6-r1 9999-r3: Frontend for emulators (RetroPie Fork)
