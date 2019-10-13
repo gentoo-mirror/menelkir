@@ -30,6 +30,7 @@ TODO
         * tic80-libretro
         * ume2015-libretro
         * uzem-libretro
+        * vice-libretro
 
 *Fix non-building cores*
 
@@ -48,4 +49,3 @@ TODO
         * thepowdertoy-libretro
         * vice-libretro
         * vemulator-libretro
-        * vice-libretro
