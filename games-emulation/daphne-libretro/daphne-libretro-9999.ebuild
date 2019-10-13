@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/${PN//-libretro}"
 inherit libretro-core
 
 DESCRIPTION="Daphne libretro core"
