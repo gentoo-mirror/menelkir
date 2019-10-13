@@ -67,7 +67,7 @@ games-emulation/gme-libretro 9999: Port of blargg's Game_Music_Emu library.
 games-emulation/gpsp-libretro 9999: Gameboy gpSP for libretro.
 games-emulation/gw-libretro 9999: A libretro core for Game & Watch simulators.
 games-emulation/handy-libretro 9999-r2: libretro implementation of Handy. (Atari Lynx)
-games-emulation/libretro-common-overlays 1_pre20190930: Collection of overlay files for use with RetroArch
+games-emulation/libretro-common-overlays 1_pre20190930 9999: Collection of overlay files for use with RetroArch
 games-emulation/libretro-database 9999-r2: Repository containing cheatcode files, content data files, etc.
 games-emulation/libretro-info 1_pre20191006: Libretro info files required for libretro cores
 games-emulation/libretro-meta 9999-r5: Meta package for various libretro implementations
