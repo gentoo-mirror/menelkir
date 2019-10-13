@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/quasi88-libretro"
 inherit libretro-core
 
 DESCRIPTION="A port of QUASI88, a PC-8800 series emulator by Showzoh Fukunaga, to the libretro API"

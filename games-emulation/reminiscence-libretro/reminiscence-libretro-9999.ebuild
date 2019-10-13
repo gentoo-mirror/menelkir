@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/REminiscence"
 inherit libretro-core
 
 DESCRIPTION="Flashback engine implementation for libretro"

@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/Play-"
 inherit libretro-core
 
 DESCRIPTION="Playstation 2 libretro core"
