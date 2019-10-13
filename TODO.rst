@@ -41,7 +41,5 @@ TODO
         * mednafen-pcfx-libretro
         * play-libretro
         * puae-libretro
-        * quasi-libretro
         * thepowdertoy-libretro
-        * vice-libretro
         * vemulator-libretro
