@@ -1,7 +1,7 @@
 TODO
 ====
 
-** Add missing cores
+*Add missing cores*
         fbalpha2012-cps1
         fbalpha2012-cps2
         fbalpha2012-cps3
