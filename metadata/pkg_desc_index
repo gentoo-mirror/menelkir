@@ -2,6 +2,7 @@ app-emulation/dxvk 1.4.2 9999-r2: Vulkan-based D3D11 and D3D10 implementation fo
 app-emulation/protontricks 1.2.5: A simple wrapper that does winetricks things for Proton enabled games
 app-emulation/vmware-modules 331.1.7 361.1.0: VMware kernel modules
 app-emulation/vmware-workstation 14.1.7.12989993-r6 15.1.0.13591040-r4: Emulate a complete PC without the performance overhead of most emulators
+dev-lang/rgbds 0.3.8: Free assembler/linker package for the Game Boy and Game Boy Color
 dev-libs/liblcf 0.5.2 0.6.1 9999: Library to handle RPG Maker 2000/2003 and EasyRPG projects
 dev-libs/steam-runtime-openssl 1.0.1p: OpenSSL for Steam-based games
 dev-python/vdf 3.2: Package for working with Valve's text and binary KeyValue format
