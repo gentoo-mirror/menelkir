@@ -47,6 +47,5 @@ TODO
         * snes9x2005-plus-libretro
         * thepowdertoy-libretro
         * vice-libretro
-        * yabause-libretro
         * vemulator-libretro
         * vice-libretro
