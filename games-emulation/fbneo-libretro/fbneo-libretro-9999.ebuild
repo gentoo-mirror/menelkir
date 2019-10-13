@@ -3,7 +3,7 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/${PN//-libretro}"
+LIBRETRO_REPO_NAME="libretro/FBNeo"
 inherit libretro-core
 
 DESCRIPTION="Libretro core for Final Burn Alpha fork"

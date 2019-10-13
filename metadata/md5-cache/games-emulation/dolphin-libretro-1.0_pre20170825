@@ -4,11 +4,11 @@ DESCRIPTION=libretro implementation of Dolphin. (Nintendo GC/Wii)
 EAPI=6
 HOMEPAGE=https://github.com/libretro/dolphin
 IUSE=opengl vulkan custom-cflags debug
-KEYWORDS=~amd64
+KEYWORDS=amd64
 LICENSE=GPL-2
 RDEPEND=opengl? ( virtual/opengl ) vulkan? ( media-libs/vulkan-loader:0= ) games-emulation/libretro-info
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=https://github.com/libretro/dolphin/archive/cda77d5d96e68e31a30e7800d6aa6b5732367917.tar.gz -> dolphin-libretro-1.0_pre20171024.tar.gz
+SRC_URI=https://github.com/libretro/dolphin/archive/e6b9d780e49d11e9dfdfa3034ddb8f872f3877f2.tar.gz -> dolphin-libretro-1.0_pre20170825.tar.gz
 _eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	8a43b9830f1e64a7a5fc0a276afa0275	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	a37c7ac4ecfe224533da929e91f8fa21	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=150984aaabed65603d540b32ec2d3cfa
+_md5_=70f908f73a1ac066f7c32c5d33aa95f9
