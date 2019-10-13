@@ -30,6 +30,7 @@ TODO
         * tic80-libretro
         * ume2015-libretro
         * uzem-libretro
+        * vice-libretro
 
 *Fix non-building cores*
 
@@ -41,12 +42,6 @@ TODO
         * play-libretro
         * puae-libretro
         * quasi-libretro
-        * sameboy-libretro
-        * snes9x-libretro
-        * snes9x2005-libretro
-        * snes9x2005-plus-libretro
         * thepowdertoy-libretro
         * vice-libretro
-        * yabause-libretro
         * vemulator-libretro
-        * vice-libretro
