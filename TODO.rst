@@ -3,7 +3,6 @@ TODO
 
 *Add missing cores*
 
-  * dinothawr-libretro
   * fbalpha2012-cps1-libretro
   * fbalpha2012-cps2-libretro
   * fbalpha2012-cps3-libretro
@@ -26,3 +25,4 @@ TODO
   * thepowdertoy-libretro
   * vice-libretro
   * yabause-libretro
+  * vemulator-libretro

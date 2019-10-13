@@ -3,7 +3,7 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/${PN/mednafen/beetle}"
+LIBRETRO_REPO_NAME="libretro/beetle-pcfx-libretro"
 inherit libretro-core
 
 DESCRIPTION=" Standalone port of Mednafen PCFX to libretro."
