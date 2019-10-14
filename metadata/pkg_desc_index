@@ -36,7 +36,6 @@ games-emulation/crocods-libretro 9999: CrocoDS libretro core
 games-emulation/daphne-libretro 9999: Daphne libretro core
 games-emulation/desmume-libretro 1.0_pre20180311 9999-r2: libretro implementation of DeSmuME. (Nintendo DS)
 games-emulation/dinothawr-libretro 9999: Dinothawr is a block pushing puzzle game on slippery surfaces.
-games-emulation/dolphin-libretro 9999-r3: libretro implementation of Dolphin. (Nintendo GC/Wii)
 games-emulation/dosbox-libretro 9999: Port of DOSBox (upstream) to the libretro API.
 games-emulation/easyrpg-libretro 1.0_pre20171024 9999-r2: An unofficial libretro port of the EasyRPG/Player.
 games-emulation/emulationstation 2.7.6-r1 9999-r3: Frontend for emulators (RetroPie Fork)
@@ -78,7 +77,6 @@ games-emulation/lutro-libretro 9999: An experimental lua game framework for libr
 games-emulation/mame-libretro 9999-r2: libretro implementation of MAME 2015. (Arcade)
 games-emulation/mame2000-libretro 9999-r2: MAME2000 (0.37b5) for libretro.
 games-emulation/mame2003-libretro 9999-r2: MAME (0.78) for libretro.
-games-emulation/mame2003plus-libretro 9999: MAME (0.78) for libretro. With more games support and many fixes.
 games-emulation/mame2010-libretro 9999: MAME (0.139) for libretro.
 games-emulation/mame2015-libretro 9999: MAME (0.160) for libretro.
 games-emulation/mame2016-libretro 9999-r2: MAME (0.174) for libretro.
@@ -86,7 +84,6 @@ games-emulation/mednafen-gba-libretro 9999-r2: libretro implementation of Mednaf
 games-emulation/mednafen-lynx-libretro 9999: libretro implementation of Mednafen Lynx. (Atari Lynx)
 games-emulation/mednafen-ngp-libretro 9999-r2: libretro implementation of Mednafen Neopop. Neo Geo Pocket/Neo Geo Pocket Color
 games-emulation/mednafen-pce-fast-libretro 9999-r2: libretro implementation of Mednafen PCE Fast. (PC Engine/TurboGrafx-16)
-games-emulation/mednafen-pcfx-libretro 9999: Standalone port of Mednafen PCFX to libretro.
 games-emulation/mednafen-psx-libretro 9999: Standalone port/fork of Mednafen PSX to the Libretro API.
 games-emulation/mednafen-saturn-libretro 9999-r2: Standalone port of Mednafen Saturn to the libretro
 games-emulation/mednafen-snes-libretro 9999-r2: libretro implementation of Mednafen SNES. (Super Nintendo Entertainment System)
@@ -101,7 +98,6 @@ games-emulation/mgba-libretro-cheevo 9999-r1: libretro fork of mGBA with achievm
 games-emulation/mrboom-libretro 9999-r2: Multiplayer Bomberman clone for RetroArch/Libretro
 games-emulation/mupen64plus-libretro 9999-r3: libretro implementation of mupen64plus (Nintendo64)
 games-emulation/nestopia-libretro 9999-r2: libretro implementation of NEStopia. (Nintendo Entertainment System)
-games-emulation/np2kai-libretro 9999: NP2kai is PC-9801 series emulator for libretro.
 games-emulation/nxengine-libretro 9999-r2: libretro implementation of NXEngine. (Cave Story)
 games-emulation/o2em-libretro 9999: Port of O2EM to the libretro API, an Odyssey 2 / VideoPac emulator.
 games-emulation/openlara-libretro 9999-r2: libretro implementation of OpenLara. (Classic Tomb Raider Engine)
@@ -110,7 +106,6 @@ games-emulation/parallel-n64-libretro 9999-r2: Rewritten Nintendo 64 emulator ma
 games-emulation/pcsx-rearmed-libretro 9999-r2: libretro implementation of PCSX ReARMed. (PlayStation)
 games-emulation/pcsx2 1.5.0: A PlayStation 2 emulator
 games-emulation/picodrive-libretro 9999-r2: libretro implementation of PicoDrive. (Sega GameGear/Sega CD/32X)
-games-emulation/play-libretro 9999: Playstation 2 libretro core
 games-emulation/pocketcdg-libretro 9999: PocketCDG libretro port.
 games-emulation/pokemini-libretro 9999: Obscure nintendo handheld emulator.
 games-emulation/ppsspp-libretro 9999-r2: libretro implementation of PPSSPP. (PlayStation Portable/PSP)
@@ -142,7 +137,6 @@ games-emulation/tyrquake-libretro 9999-r2: libretro implementation of TyrQuake. 
 games-emulation/vba-next-libretro 9999-r2: libretro implementation of VBA Next. (Game Boy Advance)
 games-emulation/vbam-libretro 9999-r2: libretro implementation of VBA-M. (Game Boy Advance)
 games-emulation/vecx-libretro 9999: Libretro adaption of vecx, a Vectrex Emulator
-games-emulation/vemulator-libretro 9999: A port of the SEGA Visual Memory Unit emulator VeMUlator for libretro.
 games-emulation/virtualjaguar-libretro 9999: Port of Virtual Jaguar to Libretro
 games-emulation/xnp2 9999: X Neko Project II, a PC-9801 emulator (PC98)
 games-emulation/xrick-libretro 9999: Xrick is an open source implementation of Rick Dangerous for libretro.
