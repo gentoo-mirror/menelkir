@@ -119,7 +119,7 @@ games-emulation/prosystem-libretro 9999-r2: libretro implementation of prosystem
 games-emulation/psp-assets 9999-r1: PPSSPP Assets for use with libretro
 games-emulation/puae-libretro 9999: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
 games-emulation/px68k-libretro 9999-r2: libretro implementation of PX68K. (Sharp X68000)
-games-emulation/quasi-libretro 9999: A port of QUASI88, a PC-8800 series emulator by Showzoh Fukunaga, to the libretro API
+games-emulation/quasi88-libretro 9999: A PC-8800 series emulator to the libretro API
 games-emulation/quicknes-libretro 9999-r2: libretro implementation of QuickNES. (Nintendo Entertainment System)
 games-emulation/redream-libretro 9999-r2: libretro implementation of redream. (SEGA Dreamcast)
 games-emulation/reicast 9999: A Dreamcast Emulator
