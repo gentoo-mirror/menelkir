@@ -27,6 +27,7 @@ TODO
         * remotejoy-libretro
         * squirreljme-libretro
         * stonesoup-libretro
+        * thepowdertoy-libretro
         * tic80-libretro
         * ume2015-libretro
         * uzem-libretro
@@ -41,5 +42,4 @@ TODO
         * mednafen-pcfx-libretro
         * play-libretro
         * puae-libretro
-        * thepowdertoy-libretro
         * vemulator-libretro
