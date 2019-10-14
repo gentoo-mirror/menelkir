@@ -138,7 +138,6 @@ games-emulation/snes9x2010-libretro 9999-r2: Snes9x 2010. Port of Snes9x 1.52+ t
 games-emulation/stella2014-libretro 9999: libretro implementation of Stella. (Atari 2600)
 games-emulation/tgbdual-libretro 9999-r2: libretro implementation of TGB-DUAL. (Game Boy Advance)
 games-emulation/theodore-libretro 9999: Libretro core for Thomson TO8/TO8D/TO9/TO9+ emulation.
-games-emulation/thepowdertoy-libretro 9999: The Powder Toy is a free physics sandbox game for libretro.
 games-emulation/tyrquake-libretro 9999-r2: libretro implementation of TyrQuake. (Quake)
 games-emulation/vba-next-libretro 9999-r2: libretro implementation of VBA Next. (Game Boy Advance)
 games-emulation/vbam-libretro 9999-r2: libretro implementation of VBA-M. (Game Boy Advance)
