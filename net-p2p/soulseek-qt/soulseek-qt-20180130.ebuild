@@ -17,6 +17,7 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="
+	sys-fs/fuse
 	media-libs/libpng
 	x11-libs/libX11
 	x11-libs/libxcb
