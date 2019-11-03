@@ -15,7 +15,7 @@ SLOT="0"
 IUSE="dolphin +mediainfo nautilus +qt5 thunar"
 REQUIRED_USE="dolphin? ( qt5 )"
 
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 
 RDEPEND="
 	net-misc/meganz-sdk[libuv,mediainfo?,qt,sodium(+),sqlite]
