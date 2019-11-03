@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-qt/qtcore:5
+DESCRIPTION=Papirus theme for SMPlayer
+EAPI=6
+HOMEPAGE=https://github.com/PapirusDevelopmentTeam/papirus-smplayer-theme
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=media-video/smplayer !>=x11-themes/smplayer-themes-16.5.3
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/PapirusDevelopmentTeam/papirus-smplayer-theme/tar.gz/20170119 -> papirus-smplayer-theme-2017.01.19.tar.gz
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	1d91b03d42ab6308b5f4f6b598ed110e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=26ff09f6284e0c881e06a3d9380582fd

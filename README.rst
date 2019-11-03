@@ -13,6 +13,7 @@ some personal modifications. The follow repositories was used (sorry if I forgot
 :Pentoo: https://github.com/pentoo/pentoo-overlay
 :Vortex: https://github.com/nE0sIghT/vortex-overlay
 :Tastytea: https://schlomp.space/tastytea/overlay
+:4nykey: https://github.com/4nykey/4nykey
 
 =================================
 How to Contribute to this Overlay
