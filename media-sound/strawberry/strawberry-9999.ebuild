@@ -6,21 +6,21 @@ EAPI=7
 inherit cmake-utils flag-o-matic l10n virtualx xdg
 
 #PLOCALES="af ar be bg bn br bs ca cs cy da de el en en_CA en_GB eo es et eu fa fi fr ga gl he he_IL hi hr hu hy ia id is it ja ka kk ko lt lv mk_MK mr ms my nb nl oc pa pl pt pt_BR ro ru si_LK sk sl sr sr@latin sv te tr tr_TR uk uz vi zh_CN zh_TW"
-PLOCALES="en"
+PLOCALES="es nb ru"
 
 DESCRIPTION="Modern music player and library organizer based on Clementine and Qt"
-HOMEPAGE="https://www.strawberrymusicplayer.org/"
+HOMEPAGE="https://www.strawbs.org/"
 if [[ ${PV} == *9999* ]]; then
 	EGIT_REPO_URI="https://github.com/jonaski/strawberry.git"
 	inherit git-r3
 else
 	SRC_URI="https://github.com/jonaski/strawberry/releases/download/${PV}/${P}.tar.xz"
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="amd64 x86"
 fi
 
 LICENSE="GPL-3"
 SLOT="0"
-IUSE="cdda +dbus debug ipod mms mtp pulseaudio +udisks"
+IUSE="cdda +dbus debug ipod mms +moodbar +mtp phonon +pulseaudio qobuz subsonic system-taglib tidal +udisks vlc xine"
 
 REQUIRED_USE="
 	udisks? ( dbus )
@@ -50,15 +50,23 @@ COMMON_DEPEND="
 	media-libs/gstreamer:1.0
 	media-libs/gst-plugins-base:1.0
 	>=media-libs/libmygpo-qt-1.0.9[qt5(+)]
-	>=media-libs/taglib-1.11.1_p20181028
-	media-video/vlc
 	sys-libs/zlib
 	virtual/glu
 	x11-libs/libX11
 	cdda? ( dev-libs/libcdio:= )
 	dbus? ( dev-qt/qtdbus:5 )
-	ipod? ( >=media-libs/libgpod-0.8.0 )
+	ipod? (
+		>=media-libs/libgpod-0.8.0
+		app-pda/libimobiledevice:=
+		app-pda/libplist:=
+		app-pda/libusbmuxd:=
+	)
+	moodbar? ( sci-libs/fftw:3.0 )
 	mtp? ( >=media-libs/libmtp-1.0.0 )
+	phonon? ( media-libs/phonon )
+	system-taglib? ( >=media-libs/taglib-1.11.1_p20181028 )
+	vlc? ( media-video/vlc )
+	xine? ( media-libs/xine-lib:= )
 "
 # Note: sqlite driver of dev-qt/qtsql is bundled, so no sqlite use is required; check if this can be overcome someway;
 RDEPEND="${COMMON_DEPEND}
@@ -83,7 +91,7 @@ src_prepare() {
 	l10n_find_plocales_changes "src/translations" "" ".po"
 
 	cmake-utils_src_prepare
-	rm -r 3rdparty/taglib || die
+	use system-taglib && rm -r 3rdparty/taglib
 }
 
 src_configure() {
@@ -92,7 +100,6 @@ src_configure() {
 		-DBUILD_WERROR=OFF
 		# avoid automagically enabling of ccache (bug #611010)
 		-DCCACHE_EXECUTABLE=OFF
-		-DENABLE_DEVICEKIT=OFF
 		-DENABLE_GIO=ON
 		-DLINGUAS="$(l10n_get_locales)"
 		-DENABLE_AUDIOCD="$(usex cdda)"
@@ -100,7 +107,15 @@ src_configure() {
 		-DENABLE_LIBGPOD="$(usex ipod)"
 		-DENABLE_LIBMTP="$(usex mtp)"
 		-DENABLE_LIBPULSE="$(usex pulseaudio)"
+		-DENABLE_MOODBAR="$(usex moodbar)"
+		-DENABLE_PHONON="$(usex phonon)"
+		-DENABLE_QOBUZ="$(usex qobuz)"
+		-DENABLE_SUBSONIC="$(usex subsonic)"
+		-DENABLE_TIDAL="$(usex tidal)"
 		-DENABLE_UDISKS2="$(usex udisks)"
+		-DENABLE_VLC="$(usex vlc)"
+		-DENABLE_XINE="$(usex xine)"
+		-DUSE_SYSTEM_TAGLIB="$(usex system-taglib)"
 	)
 
 	use !debug && append-cppflags -DQT_NO_DEBUG_OUTPUT
@@ -114,4 +129,12 @@ pkg_postinst() {
 	elog "Note that list of supported formats is controlled by media-plugins/gst-plugins-meta "
 	elog "USE flags. You may be interested in setting aac, flac, mp3, ogg or wavpack USE flags "
 	elog "depending on your preferences"
+
+	if use phonon; then
+		ewarn "WARNING: You enabled the 'phonon' USE-flag."
+		ewarn "Phonon support for Strawberry is currently unstable,"
+		ewarn "it may lead to some failures and settings are user-wide"
+		ewarn "rather than application-wide. So use it with caution."
+	fi
+
 }
