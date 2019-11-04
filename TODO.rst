@@ -3,7 +3,6 @@ TODO
 
 *Add missing cores*
 
-        * dolphin-libretro
         * emux-chip8-libretro
         * emux-gb-libretro
         * emux-nes-libretro
