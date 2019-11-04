@@ -234,6 +234,7 @@ x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2: Settings editor for LightDM GTK+ greeter
 x11-misc/variety 0.7.2: Wallpaper changer for Linux
 x11-plugins/purple-icyque 9999: ICQ WIM protocol for libpurple
+x11-themes/arc-kde 20190614: Arc KDE customization
 x11-themes/numix-gtk-theme-dark 2.4: Numix GTK Theme
 x11-themes/papirus-archive 9999: Discontinued papirus projects
 x11-themes/papirus-filezilla-themes 2018.10.24_p0 9999: Papirus theme for FileZilla
@@ -241,3 +242,4 @@ x11-themes/papirus-icon-theme 20191009 99999999: Papirus icon theme for GTK
 x11-themes/papirus-libreoffice-theme 2017.02.28 9999: Papirus theme for Libreoffice
 x11-themes/papirus-pack-kde-meta 1-r1: Papirus customization for KDE distros
 x11-themes/papirus-smplayer-theme 2017.01.19 9999: Papirus theme for SMPlayer
+x11-themes/qtstyleplugins 5.0.0 9999: Additional style plugins for Qt5 (gtk2, cleanlook, plastic, motif)
