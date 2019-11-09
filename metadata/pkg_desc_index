@@ -187,6 +187,7 @@ media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipu
 media-sound/cadence 9999-r6: Collection of tools useful for audio production
 media-sound/carla 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
 media-sound/munt 2.3.0 9999: Software synthesiser emulating pre-GM MIDI (e.g., Roland MT-32)
+media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 media-sound/strawberry 0.6.5 9999: Modern music player and library organizer based on Clementine and Qt
 media-sound/vgmplay 0.40.9 9999: Video game music (VGM) file command-line player
 media-video/apple_facetimehd_firmware 1.43.0: Firmware for the Apple Facetime HD Camera
