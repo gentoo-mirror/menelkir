@@ -12,11 +12,11 @@ else
 	MY_PV="fcd2f0e"
 	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV}"
 	SRC_URI="
-		mirror://githubcl/${PN%-*}/${PN#*-}/tar.gz/${MY_PV}
+		https://github.com/meganz/sdk/archive/v${PV}.tar.gz
 		-> ${P}.tar.gz
 	"
 	RESTRICT="primaryuri"
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="amd64 x86"
 fi
 
 DESCRIPTION="MEGA C++ SDK"
