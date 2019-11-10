@@ -14,6 +14,7 @@ some personal modifications. The follow repositories was used (sorry if I forgot
 :Vortex: https://github.com/nE0sIghT/vortex-overlay
 :Tastytea: https://schlomp.space/tastytea/overlay
 :4nykey: https://github.com/4nykey/4nykey
+:ssnb: https://anongit.gentoo.org/git/repo/user/ssnb.git
 
 =================================
 How to Contribute to this Overlay
