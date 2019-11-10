@@ -2,8 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>samuelbernardo.mail@gmail.com</email>
-		<name>Samuel Bernardo</name>
-		<description>megasync client from mega.nz</description>
+		<email>4nykey@gmail.com</email>
 	</maintainer>
+	<use>
+		<flag name="dolphin">Install the kde-apps/dolphin extension</flag>
+		<flag name="nautilus">Install the gnome-base/nautilus extension</flag>
+		<flag name="thunar">Install the xfce-base/thunar extension</flag>
+	</use>
 </pkgmetadata>
