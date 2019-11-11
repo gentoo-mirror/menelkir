@@ -209,6 +209,7 @@ net-misc/meganz-sdk 3.6.3 9999: MEGA C++ SDK
 net-misc/megasync 4.2.5.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-news/feedreader 2.10.0: Simple News Feed Reader for feeds aggregated by Tiny Tiny RSS or feedly
 net-p2p/soulseek-qt 20180130: Official binary Qt SoulSeek client
+net-print/epson-inkjet-printer_201401w 1.0.0: Epson printer driver (L130, L132, L220, L222, L310, L312, L360, L362, L365, L366, L455, L456)
 net-voip/telepathy-haze 0.99.11: Telepathy connection manager providing libpurple supported protocols
 net-wireless/broadcom-wl 6.30.223.271_p20180216 9999: Broadcom Linux hybrid wireless driver
 net-wireless/bt-audit 0.1.1-r1: A small bluetooth audit suite
