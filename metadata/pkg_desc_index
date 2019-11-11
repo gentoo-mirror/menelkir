@@ -1,3 +1,4 @@
+app-cdr/xcdroast 1.19: Lightweight cdrtools front-end for CD and DVD writing
 app-emulation/dxvk 1.4.2 9999-r2: Vulkan-based D3D11 and D3D10 implementation for Linux / Wine
 app-emulation/protontricks 1.2.5: A simple wrapper that does winetricks things for Proton enabled games
 app-emulation/vmware-modules 331.1.7 361.1.0: VMware kernel modules
