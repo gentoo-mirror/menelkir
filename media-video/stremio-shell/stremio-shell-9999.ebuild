@@ -57,5 +57,6 @@ src_install() {
 	doicon ${FILESDIR}/smartcode-stremio.png
 	insinto /opt/stremio/
 		doins ${FILESDIR}/server.js
+		doins ${FILESDIR}/stremio.asar
 
 }
