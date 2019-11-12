@@ -231,7 +231,6 @@ net-wireless/rtl8812au_asus 4.3.2_p20170702: Linux kernel module for ASUS USB-AC
 net-wireless/wifite 2.2.5-r2 9999: An automated wireless attack tool
 sys-block/gparted 1.0.0: Gnome Partition Editor
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
-sys-boot/refind 0.11.4-r2: The UEFI Boot Manager by Rod Smith
 www-client/brave-bin 0.72.90: Brave Web Browser
 www-client/falkon 9999: Cross-platform web browser using QtWebEngine
 www-client/torbrowser 68.2.0.9.0.0.1.1 68.2.0.9.5.1.1.2_alpha: The Tor Browser
@@ -240,7 +239,7 @@ x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2: Settings editor for LightDM GTK+ greeter
 x11-misc/variety 0.7.2: Wallpaper changer for Linux
 x11-plugins/purple-icyque 9999: ICQ WIM protocol for libpurple
-x11-themes/arc-kde 20190614: Arc KDE customization
+x11-themes/arc-kde 20180614: Arc KDE customization
 x11-themes/numix-gtk-theme-dark 2.4: Numix GTK Theme
 x11-themes/papirus-archive 9999: Discontinued papirus projects
 x11-themes/papirus-filezilla-themes 2018.10.24_p0 9999: Papirus theme for FileZilla
