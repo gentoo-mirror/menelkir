@@ -3,21 +3,22 @@
 
 EAPI=6
 
-inherit cmake-utils git-r3
+inherit cmake-utils 
 
 DESCRIPTION="Telegram connection manager for Telepathy."
 HOMEPAGE="https://projects.kde.org/projects/playground/network/telepathy/telepathy-morse"
-EGIT_REPO_URI="https://github.com/TelepathyQt/telepathy-morse"
+SRC_URI="https://github.com/TelepathyIM/telepathy-morse/archive/${P}.tar.gz"
+S="${WORKDIR}/${PN}-${P}"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS=""
-IUSE=""
+KEYWORDS="x86 amd64"
 
 RDEPEND="
 	net-libs/telegram-qt
-	net-libs/telepathy-qt
+	>=net-libs/telepathy-qt-0.9.6.0
 "
+
 DEPEND="${RDEPEND}
 	>=dev-util/cmake-2.8.12
 "
@@ -29,6 +30,7 @@ src_configure() {
 		-DENABLE_TESTS=OFF
 		-DENABLE_TESTAPP=OFF
 		-DENABLE_EXAMPLES=OFF
+		-DUSE_QT4=no
 		-DDESIRED_QT_VERSION=5
 	)
 	cmake-utils_src_configure
