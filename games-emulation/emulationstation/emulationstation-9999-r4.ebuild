@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit cmake-utils
+inherit cmake-utils git-r3
 
 DESCRIPTION="Frontend for emulators (RetroPie Fork)"
 HOMEPAGE="https://github.com/RetroPie/EmulationStation"
@@ -12,7 +12,6 @@ LICENSE="emulationstation"
 SLOT="0"
 IUSE="+themes"
 
-inherit git-r3
 EGIT_REPO_URI="https://github.com/RetroPie/EmulationStation.git"
 SRC_URI=""
 KEYWORDS=""
