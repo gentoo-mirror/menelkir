@@ -123,7 +123,7 @@ games-emulation/redream-libretro 9999-r2: libretro implementation of redream. (S
 games-emulation/reicast 9999: A Dreamcast Emulator
 games-emulation/reicast-libretro 9999-r2: libretro implementation of Reicast. (Sega Dreamcast )
 games-emulation/reminiscence-libretro 9999: Flashback engine implementation for libretro
-games-emulation/retroarch 1.8.0 1.8.1 9999: Frontend for emulators, game engines and media players
+games-emulation/retroarch 1.8.1 9999: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20191006: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 9999-r2: RetroArch joypad autoconfig files
 games-emulation/rpcs3 0.0.7 9999: PlayStation 3 emulator
