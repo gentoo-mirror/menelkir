@@ -29,7 +29,7 @@ How to report bugs
 
 This overlay isn't connected in any way to Gentoo Official Repositories.
 If you are using this repository, please report any issues direct to me or
-using the github issue tracker.
+using the gitlab issue tracker.
 
 =============
 How to donate
