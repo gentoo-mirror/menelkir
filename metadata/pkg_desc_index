@@ -182,7 +182,6 @@ kde-apps/konsole 9999: KDE's terminal emulator
 kde-apps/yakuake 9999: Quake-style terminal emulator based on konsole
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
 media-fonts/powerline-symbols 9999: OpenType Unicode font containing only Powerline-specific symbols.
-media-fonts/steamfonts 1: Collection of fonts used by Valve's Steam client
 media-libs/hal-flash 0.3.3-r1: libhal stub forwarding to UDisks for Adobe Flash to play DRM content
 media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/cadence 9999-r6: Collection of tools useful for audio production
