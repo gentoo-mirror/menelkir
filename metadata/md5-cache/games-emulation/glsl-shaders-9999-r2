@@ -7,5 +7,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=!<=games-emulation/common-shaders-1.0_pre20170426
 SLOT=0
-_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd	libretro	e2e72840da02ef2a21e935c8447187a8
+_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b	libretro	e2e72840da02ef2a21e935c8447187a8
 _md5_=b8b3d271b63c0e3e2a9bcba074813c8f
