@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/libretro-${PN//-libretro}"
 LIBRETRO_REPO_NAME="libretro/${PN//-libretro}"
 inherit libretro-core
 
