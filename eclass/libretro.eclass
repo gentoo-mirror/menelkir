@@ -33,7 +33,12 @@ RETROARCH_DATA_DIR="${EROOT}usr/share/retroarch"
 # @DESCRIPTION:
 # Contains the real repo name of the core formatted as "repouser/reponame".
 # Needs to be set before inherit. Otherwise defaults to "libretro/${PN}"
-: ${LIBRETRO_REPO_NAME:="libretro/${PN}"}
+#
+# 2019-12-22: Menelkir: 
+# Fixed to a proper link, url for reference: https://forums.gentoo.org/viewtopic-p-8399842.html
+# Thanks lonen and krumpf on gentoo forums.
+
+: ${LIBRETRO_REPO_NAME:="libretro/${PN//-libretro}"
 
 # Offload EGIT_REPO_URI and SRC_URI to eclass only in supported ebuilds
 if [[ ${PV} = 9999 ]]; then

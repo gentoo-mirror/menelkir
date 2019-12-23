@@ -3,6 +3,7 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/libretro-${PN//-libretro}"
 LIBRETRO_COMMIT_SHA="f13a577f9e5ff9f7a0591b21a1b7ae53cd425bab"
 inherit libretro-core
 
