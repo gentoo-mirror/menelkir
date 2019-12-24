@@ -3,17 +3,16 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/libretro-${PN//-libretro}"
+LIBRETRO_REPO_NAME="libretro/bnes-libretro"
 inherit libretro-core
 
-DESCRIPTION="Atari800 libretro core"
-HOMEPAGE="https://github.com/libretro/libretro-atari800"
+DESCRIPTION="libretro implementation of bNES/higan. (Nintendo Entertainment System)"
+HOMEPAGE="https://github.com/libretro/bnes-libretro"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
-

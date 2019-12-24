@@ -3,13 +3,13 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/libretro-${PN//-libretro}"
-LIBRETRO_COMMIT_SHA="f13a577f9e5ff9f7a0591b21a1b7ae53cd425bab"
+LIBRETRO_REPO_NAME="libretro/bsnes-libretro-cplusplus98"
+LIBRETRO_COMMIT_SHA="38e23f5ee451a8afdba1203c970ab8f208a02709"
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)"
 HOMEPAGE="https://github.com/libretro/bsnes-libretro-cplusplus98"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 
 LICENSE="GPL-3"
 SLOT="0"
