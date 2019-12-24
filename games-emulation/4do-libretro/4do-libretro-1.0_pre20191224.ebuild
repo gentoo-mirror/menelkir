@@ -3,13 +3,13 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/libretro-${PN//-libretro}"
-LIBRETRO_COMMIT_SHA="d3d6831ff6c223a8cdb861c3ddb529f8d9a471f7"
+LIBRETRO_REPO_NAME="libretro/4do-libretro"
+LIBRETRO_COMMIT_SHA="bd6b0fa3a7122b719158b6e3fa8be58febb740cf"
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of 4DO/libfreedo. (Panasonic 3DO)"
 HOMEPAGE="https://github.com/libretro/4do-libretro"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
 SLOT="0"
