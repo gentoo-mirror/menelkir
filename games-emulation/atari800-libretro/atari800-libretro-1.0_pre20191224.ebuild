@@ -3,14 +3,15 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/81-libretro"
+LIBRETRO_REPO_NAME="libretro/libretro-atari800"
+LIBRETRO_COMMIT_SHA="efc0bc71e3cb8a4f957d07fe808cc002ed9c13b9"
 inherit libretro-core
 
-DESCRIPTION="A port of the EightyOne ZX81 Emulator to libretro."
-HOMEPAGE="https://github.com/libretro/81-libretro"
-KEYWORDS=""
+DESCRIPTION="atari800 libretro core"
+HOMEPAGE="https://github.com/libretro/libretro-atari800"
+KEYWORDS="amd64 x86"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2"
 SLOT="0"
 
 DEPEND=""
@@ -22,4 +23,3 @@ pkg_preinst() {
 		first_install="1"
 	fi
 }
-

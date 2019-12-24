@@ -3,7 +3,7 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/libretro-${PN//-libretro}"
+LIBRETRO_REPO_NAME="libretro/beetle-psx-libretro"
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of Mednafen PSX. (PlayStation, beetle version)"
