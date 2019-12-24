@@ -37,6 +37,7 @@ TODO
         * nekop2-libretro
         * np2kai-libretro
         * play-libretro
+        * ppsspp-libretro
         * redbook-libretro
         * remotejoy-libretro
         * squirreljme-libretro

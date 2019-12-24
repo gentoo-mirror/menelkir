@@ -3,6 +3,8 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/vbam-libretro"
+
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of VBA-M. (Game Boy Advance)"
