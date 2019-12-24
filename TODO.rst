@@ -6,6 +6,8 @@ TODO
         * chailove-libretro
         * daphne-libretro
         * dolphin-libretro
+        * fbneo-libretro
+        * fsuae-libretro
 
 *Add missing cores*
         
