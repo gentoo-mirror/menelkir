@@ -98,24 +98,23 @@ games-emulation/meowpc98-libretro 1.0_pre20191224 9999-r3: Neko Project 2 (PC98 
 games-emulation/meteor-libretro 1.0_pre20191224 9999-r3: libretro implementation of Meteor. (Game Boy Advance)
 games-emulation/mgba-libretro 1.0_pre20191224 9999-r3: libretro implementation of mGBA. (Game Boy Advance)
 games-emulation/mrboom-libretro 1.0_pre20191224 9999-r3: Multiplayer Bomberman clone for RetroArch/Libretro
-games-emulation/mupen64plus-libretro 1.0_pre20191224 9999-r3: libretro implementation of mupen64plus (Nintendo64)
-games-emulation/nestopia-libretro 9999-r2: libretro implementation of NEStopia. (Nintendo Entertainment System)
-games-emulation/nxengine-libretro 9999-r2: libretro implementation of NXEngine. (Cave Story)
-games-emulation/o2em-libretro 9999: Port of O2EM to the libretro API, an Odyssey 2 / VideoPac emulator.
-games-emulation/openlara-libretro 9999-r2: libretro implementation of OpenLara. (Classic Tomb Raider Engine)
+games-emulation/nestopia-libretro 1.0_pre20191224 9999-r3: libretro implementation of NEStopia. (Nintendo Entertainment System)
+games-emulation/nxengine-libretro 1.0_pre20191224 9999-r3: libretro implementation of NXEngine. (Cave Story)
+games-emulation/o2em-libretro 1.0_pre20191224 9999-r3: Port of O2EM to the libretro API, an Odyssey 2 / VideoPac emulator.
+games-emulation/openlara-libretro 1.0_pre20191224 9999-r3: libretro implementation of OpenLara. (Classic Tomb Raider Engine)
 games-emulation/openmsx 0.15.0 9999: MSX emulator that aims for perfection
 games-emulation/openmsx-catapult 0.15.0: MSX emulator's GUI
-games-emulation/parallel-n64-libretro 9999-r2: Rewritten Nintendo 64 emulator made specifically for Libretro.
-games-emulation/pcsx-rearmed-libretro 9999-r2: libretro implementation of PCSX ReARMed. (PlayStation)
+games-emulation/parallel-n64-libretro 1.0_pre20191224 9999-r3: Rewritten Nintendo 64 emulator made specifically for Libretro.
+games-emulation/pcsx-rearmed-libretro 1.0_pre20191224 9999-r3: libretro implementation of PCSX ReARMed. (PlayStation)
 games-emulation/pcsx2 1.5.0: A PlayStation 2 emulator
-games-emulation/picodrive-libretro 9999-r2: libretro implementation of PicoDrive. (Sega GameGear/Sega CD/32X)
-games-emulation/pocketcdg-libretro 9999: PocketCDG libretro port.
-games-emulation/pokemini-libretro 9999: Obscure nintendo handheld emulator.
-games-emulation/ppsspp-libretro 9999-r2: libretro implementation of PPSSPP. (PlayStation Portable/PSP)
-games-emulation/prboom-libretro 9999-r2: libretro implementation of PrBoom. (Doom)
-games-emulation/prosystem-libretro 9999-r2: libretro implementation of prosystem. (Atari 7800)
-games-emulation/psp-assets 9999-r1: PPSSPP Assets for use with libretro
-games-emulation/puae-libretro 9999: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
+games-emulation/picodrive-libretro 1.0_pre20191224 9999-r3: libretro implementation of PicoDrive. (Sega GameGear/Sega CD/32X)
+games-emulation/pocketcdg-libretro 1.0_pre20191224 9999-r3: PocketCDG libretro port.
+games-emulation/pokemini-libretro 1.0_pre20191224 9999-r3: Obscure nintendo handheld emulator.
+games-emulation/ppsspp-libretro 1.0_pre20191224 9999-r3: libretro implementation of PPSSPP. (PlayStation Portable/PSP)
+games-emulation/prboom-libretro 1.0_pre20191224 9999-r3: libretro implementation of PrBoom. (Doom)
+games-emulation/prosystem-libretro 1.0_pre20191224 9999-r3: libretro implementation of prosystem. (Atari 7800)
+games-emulation/psp-assets 9999-r3: PPSSPP Assets for use with libretro
+games-emulation/puae-libretro 1.0_pre20191224 9999-r3: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
 games-emulation/px68k-libretro 9999-r2: libretro implementation of PX68K. (Sharp X68000)
 games-emulation/quasi88-libretro 9999: A PC-8800 series emulator to the libretro API
 games-emulation/quicknes-libretro 9999-r2: libretro implementation of QuickNES. (Nintendo Entertainment System)
