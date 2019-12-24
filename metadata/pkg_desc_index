@@ -21,9 +21,9 @@ games-arcade/megamario 1.6 1.7: Mario remake
 games-emulation/2048-libretro 1.0_pre20191224 9999: 3D Engine for libretro GL with additional features (camera/location/etc). Should be compatible from libretro 3D/GLES 2.0 and up.
 games-emulation/3dengine-libretro 9999: 3D Engine for libretro GL with additional features (camera/location/etc). Should be compatible from libretro 3D/GLES 2.0 and up.
 games-emulation/4do-libretro 1.0_pre20191224 9999-r2: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
-games-emulation/81-libretro 9999: A port of the EightyOne ZX81 Emulator to libretro.
-games-emulation/atari800-libretro 9999: Atari800 libretro core
-games-emulation/beetle-psx-libretro 1.0_pre20171126 9999-r2: libretro implementation of Mednafen PSX. (PlayStation, beetle version)
+games-emulation/81-libretro 1.0_pre20191224 9999: A port of the EightyOne ZX81 Emulator to libretro.
+games-emulation/atari800-libretro 1.0_pre20191224 9999: Atari800 libretro core
+games-emulation/beetle-psx-libretro 1.0_pre20191224 9999-r2: libretro implementation of Mednafen PSX. (PlayStation, beetle version)
 games-emulation/bluemsx-libretro 9999: Port of blueMSX to the libretro API
 games-emulation/bnes-libretro 1.0_pre20170323 9999-r2: libretro implementation of bNES/higan. (Nintendo Entertainment System)
 games-emulation/bsnes-libretro 1.0_pre20171024 9999-r2: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
