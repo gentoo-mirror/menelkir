@@ -4,11 +4,12 @@
 EAPI=6
 
 LIBRETRO_REPO_NAME="libretro/81-libretro"
+LIBRETRO_COMMIT_SHA="4352130bd2363954262a804b086f86b9d13d97f9"
 inherit libretro-core
 
 DESCRIPTION="A port of the EightyOne ZX81 Emulator to libretro."
 HOMEPAGE="https://github.com/libretro/81-libretro"
-KEYWORDS=""
+KEYWORDS="amd64 x86"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -22,4 +23,3 @@ pkg_preinst() {
 		first_install="1"
 	fi
 }
-

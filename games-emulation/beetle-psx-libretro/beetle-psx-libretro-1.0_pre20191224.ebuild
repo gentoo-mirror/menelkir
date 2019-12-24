@@ -3,13 +3,13 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/libretro-${PN//-libretro}"
-LIBRETRO_COMMIT_SHA="556fac476b0babdfc95a81107a11652a2ae51327"
+LIBRETRO_REPO_NAME="libretro/beetle-psx-libretro"
+LIBRETRO_COMMIT_SHA="8cdfd50b1026085c5974bc1ec11ad9c2b53593cf"
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of Mednafen PSX. (PlayStation, beetle version)"
 HOMEPAGE="https://github.com/libretro/beetle-psx-libretro"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
 SLOT="0"
