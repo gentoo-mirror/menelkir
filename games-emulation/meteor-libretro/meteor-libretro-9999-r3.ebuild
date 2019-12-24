@@ -3,14 +3,15 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/libretro-meowPC98"
+LIBRETRO_REPO_NAME="libretro/meteor-libretro"
+
 inherit libretro-core
 
-DESCRIPTION="Neko Project 2 (PC98 emulator) port for libretro/RetroArch (XNP2)"
-HOMEPAGE="https://github.com/libretro/libretro-meowPC98"
+DESCRIPTION="libretro implementation of Meteor. (Game Boy Advance)"
+HOMEPAGE="https://github.com/libretro/meteor-libretro"
 KEYWORDS=""
 
-LICENSE="BSD"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""
@@ -18,5 +19,3 @@ RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
 S="${S}/libretro"
-
-LIBRETRO_CORE_NAME=nekop2

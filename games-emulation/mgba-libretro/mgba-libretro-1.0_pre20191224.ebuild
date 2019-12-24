@@ -48,13 +48,14 @@ CMAKE_WARN_UNUSED_CLI=1
 #
 #     https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=libretro-mgba-git
 
-LIBRETRO_REPO_NAME="mgba-emu/mgba"
+LIBRETRO_REPO_NAME="libretro/mgba"
+LIBRETRO_COMMIT_SHA="429d2f2a6ab55716a3465cd709d3d16e3a1b70de"
 
 inherit libretro-core cmake-utils
 
 DESCRIPTION="libretro implementation of mGBA. (Game Boy Advance)"
-HOMEPAGE="https://github.com/mgba-emu/mgba"
-KEYWORDS=""
+HOMEPAGE="https://github.com/libretro/mgba"
+KEYWORDS="x86 amd64"
 
 LICENSE="MPL-2.0"
 SLOT="0"

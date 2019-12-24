@@ -4,6 +4,7 @@
 EAPI=6
 
 LIBRETRO_REPO_NAME="libretro/melonDS"
+
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of melonDS. (NintendoDS)"
