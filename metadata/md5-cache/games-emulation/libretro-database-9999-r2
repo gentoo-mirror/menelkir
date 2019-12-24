@@ -1,0 +1,10 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Repository containing cheatcode files, content data files, etc.
+EAPI=6
+HOMEPAGE=https://github.com/libretro/libretro-database
+LICENSE=MIT
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b	libretro	280212693125dfc53ffa611e1111ef21
+_md5_=89dd9268e806b573347440aeb71e0b6c

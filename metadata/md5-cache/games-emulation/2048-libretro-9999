@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=libretro implementation of 2048. (Puzzle game)
+EAPI=6
+HOMEPAGE=https://github.com/libretro/libretro-2048
+LICENSE=PublicDomain
+RDEPEND=games-emulation/libretro-info
+SLOT=0
+_md5_=c9a83c1151ff6c51572d40b2bd2b8b02
