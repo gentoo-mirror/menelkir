@@ -3,6 +3,8 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/nxengine-libretro"
+
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of NXEngine. (Cave Story)"

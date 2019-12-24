@@ -4,6 +4,7 @@
 EAPI=6
 
 LIBRETRO_REPO_NAME="libretro/pcsx_rearmed"
+
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of PCSX ReARMed. (PlayStation)"

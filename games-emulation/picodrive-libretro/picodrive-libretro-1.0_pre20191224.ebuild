@@ -3,13 +3,15 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/${PN//-libretro}"
+LIBRETRO_REPO_NAME="libretro/picodrive"
+LIBRETRO_COMMIT_SHA="48e1bf20adbafd6238e78d6cf56c99db5d3b889d"
+
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of PicoDrive. \
 (Sega GameGear/Sega CD/32X)"
 HOMEPAGE="https://github.com/libretro/picodrive"
-KEYWORDS=""
+KEYWORDS="amd64 x86"
 
 LICENSE="PD"
 SLOT="0"
