@@ -1,6 +1,9 @@
 TODO
 ====
 
+*Fix broken cores*
+	* bsnes-libretro-cplusplus98
+
 *Add missing cores*
 
         * emux-chip8-libretro

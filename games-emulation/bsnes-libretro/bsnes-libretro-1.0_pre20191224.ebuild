@@ -3,8 +3,8 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/libretro-${PN//-libretro}"
-LIBRETRO_COMMIT_SHA="eb48683f51d7d0aacd4087ba0b5c123f20b70f2e"
+LIBRETRO_REPO_NAME="libretro/bsnes-libretro"
+LIBRETRO_COMMIT_SHA="feb8c10c672094e689ed057a278c2b354e113f32"
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)"
