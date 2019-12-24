@@ -27,7 +27,7 @@ RETROARCH_DATA_DIR="${EROOT}usr/share/retroarch"
 # @DESCRIPTION:
 # Commit SHA used for SRC_URI will die if not set in <9999 ebuilds.
 # Needs to be set before inherit.
-: ${LIBRETRO_COMMIT_SHA:=die}}
+: ${LIBRETRO_COMMIT_SHA:=die}
 
 # @ECLASS-VARIABLE: LIBRETRO_REPO_NAME
 # @DESCRIPTION:
@@ -38,7 +38,7 @@ RETROARCH_DATA_DIR="${EROOT}usr/share/retroarch"
 # Fixed to a proper link, url for reference: https://forums.gentoo.org/viewtopic-p-8399842.html
 # Thanks lonen and krumpf on gentoo forums.
 
-: ${LIBRETRO_REPO_NAME:="libretro/${PN//-libretro}"
+: ${LIBRETRO_REPO_NAME:="libretro/${PN//-libretro}"}
 
 # Offload EGIT_REPO_URI and SRC_URI to eclass only in supported ebuilds
 if [[ ${PV} = 9999 ]]; then

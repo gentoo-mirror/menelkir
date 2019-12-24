@@ -5,7 +5,6 @@ EAPI=6
 
 LIBRETRO_REPO_NAME="libretro/libretro-${PN//-libretro}"
 LIBRETRO_COMMIT_SHA="04b708a4ab29c485aac1b4554f98db0e991e5103"
-inherit libretro-core
 
 DESCRIPTION="libretro implementation of 2048. (Puzzle game)"
 HOMEPAGE="https://github.com/libretro/libretro-2048"
