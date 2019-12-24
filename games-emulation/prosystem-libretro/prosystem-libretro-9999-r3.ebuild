@@ -3,6 +3,8 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/prosystem-libretro"
+
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of prosystem. (Atari 7800)"

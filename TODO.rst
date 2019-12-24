@@ -33,6 +33,7 @@ TODO
         * mednafen-pcfx-libretro
         * mesen-libretro
         * mess2015-libretro
+        * mupen64plus-libretro
         * nekop2-libretro
         * np2kai-libretro
         * play-libretro

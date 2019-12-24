@@ -3,12 +3,14 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/libretro-${PN//-libretro}"
+LIBRETRO_REPO_NAME="libretro/libretro-prboom"
+LIBRETRO_COMMIT_SHA="74c8fb7d33ec6222065e1b842b4d62dd0c8f099e"
+
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of PrBoom. (Doom)"
 HOMEPAGE="https://github.com/libretro/libretro-prboom"
-KEYWORDS=""
+KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
 SLOT="0"

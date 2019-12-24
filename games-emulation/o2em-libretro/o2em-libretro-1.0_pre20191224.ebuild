@@ -3,14 +3,16 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/PokeMini"
+LIBRETRO_REPO_NAME="libretro/libretro-o2em"
+LIBRETRO_COMMIT_SHA="d6731b9b2592654ce4f1b64c1b1da17b32e7c94c"
+
 inherit libretro-core
 
-DESCRIPTION="Obscure nintendo handheld emulator."
-HOMEPAGE="https://github.com/libretro/PokeMini"
-KEYWORDS=""
+DESCRIPTION="Port of O2EM to the libretro API, an Odyssey 2 / VideoPac emulator. "
+HOMEPAGE="https://github.com/libretro/libretro-o2em"
+KEYWORDS="amd64 x86"
 
-LICENSE="pokemini"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""
