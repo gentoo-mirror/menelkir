@@ -3,6 +3,8 @@
 
 EAPI=6
 
+LIBRETRO_REPO_NAME="libretro/mrboom-libretro"
+
 inherit libretro-core
 
 DESCRIPTION="Multiplayer Bomberman clone for RetroArch/Libretro"
