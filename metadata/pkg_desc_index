@@ -18,16 +18,16 @@ games-arcade/canabalt 2p: Retro-styled 2D platformer-autorunner
 games-arcade/capsized 06102013: A fast paced 2d platformer, focused on intense action and exploration.
 games-arcade/edge 20130703: Develop your telekinetic strength by pushing a Cube within a geometric universe.
 games-arcade/megamario 1.6 1.7: Mario remake
-games-emulation/2048-libretro 1.0_pre20191224 9999: 3D Engine for libretro GL with additional features (camera/location/etc). Should be compatible from libretro 3D/GLES 2.0 and up.
-games-emulation/3dengine-libretro 9999: 3D Engine for libretro GL with additional features (camera/location/etc). Should be compatible from libretro 3D/GLES 2.0 and up.
-games-emulation/4do-libretro 1.0_pre20191224 9999-r2: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
-games-emulation/81-libretro 1.0_pre20191224 9999: A port of the EightyOne ZX81 Emulator to libretro.
-games-emulation/atari800-libretro 1.0_pre20191224 9999: Atari800 libretro core
-games-emulation/beetle-psx-libretro 1.0_pre20191224 9999-r2: libretro implementation of Mednafen PSX. (PlayStation, beetle version)
-games-emulation/bluemsx-libretro 9999: Port of blueMSX to the libretro API
-games-emulation/bnes-libretro 1.0_pre20170323 9999-r2: libretro implementation of bNES/higan. (Nintendo Entertainment System)
-games-emulation/bsnes-libretro 1.0_pre20171024 9999-r2: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
-games-emulation/bsnes-libretro-cplusplus98 1.0_pre20171024 9999: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
+games-emulation/2048-libretro 1.0_pre20191224 9999-r3: 3D Engine for libretro GL with additional features (camera/location/etc). Should be compatible from libretro 3D/GLES 2.0 and up.
+games-emulation/3dengine-libretro 1.0_pre20191224 9999-r3: 3D Engine for libretro GL with additional features (camera/location/etc). Should be compatible from libretro 3D/GLES 2.0 and up.
+games-emulation/4do-libretro 1.0_pre20191224 9999-r3: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
+games-emulation/81-libretro 1.0_pre20191224 9999-r3: A port of the EightyOne ZX81 Emulator to libretro.
+games-emulation/atari800-libretro 1.0_pre20191224 9999-r3: Atari800 libretro core
+games-emulation/beetle-psx-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen PSX. (PlayStation, beetle version)
+games-emulation/bluemsx-libretro 1.0_pre20191224 9999-r3: Port of blueMSX to the libretro API
+games-emulation/bnes-libretro 1.0_pre20191224 9999-r3: libretro implementation of bNES/higan. (Nintendo Entertainment System)
+games-emulation/bsnes-libretro 1.0_pre20191224 9999-r2: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
+games-emulation/bsnes-libretro-cplusplus98 1.0_pre20191224 9999: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
 games-emulation/cannonball-libretro 9999: An Enhanced OutRun Engine.
 games-emulation/cap32-libretro 9999: Caprice32 libretro core
 games-emulation/chailove-libretro 9999: 2D Game Framework with ChaiScript.
