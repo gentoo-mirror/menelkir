@@ -110,39 +110,35 @@ games-emulation/pcsx2 1.5.0: A PlayStation 2 emulator
 games-emulation/picodrive-libretro 1.0_pre20191224 9999-r3: libretro implementation of PicoDrive. (Sega GameGear/Sega CD/32X)
 games-emulation/pocketcdg-libretro 1.0_pre20191224 9999-r3: PocketCDG libretro port.
 games-emulation/pokemini-libretro 1.0_pre20191224 9999-r3: Obscure nintendo handheld emulator.
-games-emulation/ppsspp-libretro 1.0_pre20191224 9999-r3: libretro implementation of PPSSPP. (PlayStation Portable/PSP)
 games-emulation/prboom-libretro 1.0_pre20191224 9999-r3: libretro implementation of PrBoom. (Doom)
 games-emulation/prosystem-libretro 1.0_pre20191224 9999-r3: libretro implementation of prosystem. (Atari 7800)
-games-emulation/psp-assets 9999-r3: PPSSPP Assets for use with libretro
 games-emulation/puae-libretro 1.0_pre20191224 9999-r3: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
-games-emulation/px68k-libretro 9999-r2: libretro implementation of PX68K. (Sharp X68000)
-games-emulation/quasi88-libretro 9999: A PC-8800 series emulator to the libretro API
-games-emulation/quicknes-libretro 9999-r2: libretro implementation of QuickNES. (Nintendo Entertainment System)
-games-emulation/redream-libretro 9999-r2: libretro implementation of redream. (SEGA Dreamcast)
+games-emulation/px68k-libretro 1.0_pre20191224 9999-r3: libretro implementation of PX68K. (Sharp X68000)
+games-emulation/quasi88-libretro 1.0_pre20191224 9999-r3: A PC-8800 series emulator to the libretro API
+games-emulation/quicknes-libretro 1.0_pre20191224 9999-r3: libretro implementation of QuickNES. (Nintendo Entertainment System)
+games-emulation/redream-libretro 1.0_pre20191224 9999-r3: libretro implementation of redream. (SEGA Dreamcast)
 games-emulation/reicast 9999: A Dreamcast Emulator
-games-emulation/reicast-libretro 9999-r2: libretro implementation of Reicast. (Sega Dreamcast )
-games-emulation/reminiscence-libretro 9999: Flashback engine implementation for libretro
+games-emulation/reminiscence-libretro 1.0_pre20191224 9999-r3: Flashback engine implementation for libretro
 games-emulation/retroarch 1.8.1 9999: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20191224 9999: Assets needed for RetroArch. Also contains the official branding.
-games-emulation/retroarch-joypad-autoconfig 9999-r2: RetroArch joypad autoconfig files
+games-emulation/retroarch-joypad-autoconfig 9999-r3: RetroArch joypad autoconfig files
 games-emulation/rpcs3 0.0.7 9999: PlayStation 3 emulator
-games-emulation/sameboy-libretro 1.0_pre20171024 9999-r2: libretro implementation of SameBoy (Gameboy / Gameboy Color)
-games-emulation/scummvm-libretro 9999-r2: libretro implementation of ScummVM
-games-emulation/slang-shaders 9999-r2: Collection of slang shaders for vulkan backends.
-games-emulation/snes9x-libretro 1.0_pre20171120: libretro implementation of SNES9x. (Super Nintendo Entertainment System)
-games-emulation/snes9x2002-libretro 9999-r2: Snes9x 2002. Port of SNES9x 1.39 for libretro (previously PocketSNES)
-games-emulation/snes9x2010-libretro 9999-r2: Snes9x 2010. Port of Snes9x 1.52+ to Libretro (previously called SNES9x Next)
-games-emulation/stella2014-libretro 9999: libretro implementation of Stella. (Atari 2600)
-games-emulation/tgbdual-libretro 9999-r2: libretro implementation of TGB-DUAL. (Game Boy Advance)
-games-emulation/theodore-libretro 9999: Libretro core for Thomson TO8/TO8D/TO9/TO9+ emulation.
-games-emulation/tyrquake-libretro 9999-r2: libretro implementation of TyrQuake. (Quake)
-games-emulation/vba-next-libretro 9999-r2: libretro implementation of VBA Next. (Game Boy Advance)
-games-emulation/vbam-libretro 9999-r2: libretro implementation of VBA-M. (Game Boy Advance)
-games-emulation/vecx-libretro 9999: Libretro adaption of vecx, a Vectrex Emulator
-games-emulation/virtualjaguar-libretro 9999: Port of Virtual Jaguar to Libretro
+games-emulation/scummvm-libretro 1.0_pre20191224 9999-r3: libretro implementation of ScummVM
+games-emulation/slang-shaders 9999-r3: Collection of slang shaders for vulkan backends.
+games-emulation/snes9x-libretro 1.0_pre20191224 9999-r3: libretro implementation of SNES9x. (Super Nintendo Entertainment System)
+games-emulation/snes9x2002-libretro 1.0_pre20191224 9999-r3: Snes9x 2002. Port of SNES9x 1.39 for libretro (previously PocketSNES)
+games-emulation/snes9x2010-libretro 1.0_pre20191224 9999-r3: Snes9x 2010. Port of Snes9x 1.52+ to Libretro (previously called SNES9x Next)
+games-emulation/stella2014-libretro 1.0_pre20191224 9999-r3: libretro implementation of Stella. (Atari 2600)
+games-emulation/tgbdual-libretro 1.0_pre20191224 9999-r3: libretro implementation of TGB-DUAL. (Game Boy Advance)
+games-emulation/theodore-libretro 1.0_pre20191224 9999-r3: Libretro core for Thomson TO8/TO8D/TO9/TO9+ emulation.
+games-emulation/tyrquake-libretro 1.0_pre20191224 9999-r3: libretro implementation of TyrQuake. (Quake)
+games-emulation/vba-next-libretro 1.0_pre20191224 9999-r3: libretro implementation of VBA Next. (Game Boy Advance)
+games-emulation/vbam-libretro 1.0_pre20191224 9999-r2: libretro implementation of VBA-M. (Game Boy Advance)
+games-emulation/vecx-libretro 1.0_pre20191224 9999-r3: Libretro adaption of vecx, a Vectrex Emulator
+games-emulation/virtualjaguar-libretro 1.0_pre20191224 9999-r3: Port of Virtual Jaguar to Libretro
 games-emulation/xnp2 9999: X Neko Project II, a PC-9801 emulator (PC98)
-games-emulation/xrick-libretro 9999: Xrick is an open source implementation of Rick Dangerous for libretro.
-games-emulation/yabause-libretro 9999: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
+games-emulation/xrick-libretro 1.0_pre20191224 9999-r3: Xrick is an open source implementation of Rick Dangerous for libretro.
+games-emulation/yabause-libretro 1.0_pre20191224 9999-r3: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
 games-engines/ags 3.4.0.16 9999: Adventure Game Studio (AGS) runtime engine
 games-engines/easyrpg-player 0.5.2 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
 games-fps/brutal-doom 21: A mod that attempts to make Doom faster placed, harder, gorier and more violent.
