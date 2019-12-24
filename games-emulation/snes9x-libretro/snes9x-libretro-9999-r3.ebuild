@@ -3,19 +3,21 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/vbam-libretro"
+LIBRETRO_REPO_NAME="libretro/snes9x"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of VBA-M. (Game Boy Advance)"
-HOMEPAGE="https://github.com/libretro/vbam-libretro"
+DESCRIPTION="libretro implementation of SNES9x. (Super Nintendo Entertainment System)"
+HOMEPAGE="https://github.com/libretro/snes9x"
 KEYWORDS=""
 
-LICENSE="vba"
+LICENSE="snes9x"
 SLOT="0"
 
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-S="${S}/src/libretro"
+MY_S="${S}"
+S="${S}/libretro"
+

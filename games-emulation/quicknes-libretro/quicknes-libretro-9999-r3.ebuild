@@ -3,19 +3,17 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/vbam-libretro"
+LIBRETRO_REPO_NAME="libretro/QuickNES_Core"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of VBA-M. (Game Boy Advance)"
-HOMEPAGE="https://github.com/libretro/vbam-libretro"
+DESCRIPTION="libretro implementation of QuickNES. (Nintendo Entertainment System)"
+HOMEPAGE="https://github.com/libretro/QuickNES_Core"
 KEYWORDS=""
 
-LICENSE="vba"
+LICENSE="GPL-2"
 SLOT="0"
 
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
-
-S="${S}/src/libretro"

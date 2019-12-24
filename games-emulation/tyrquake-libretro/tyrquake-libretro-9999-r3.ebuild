@@ -3,19 +3,17 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/vbam-libretro"
+LIBRETRO_REPO_NAME="libretro/tyrquake"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of VBA-M. (Game Boy Advance)"
-HOMEPAGE="https://github.com/libretro/vbam-libretro"
+DESCRIPTION="libretro implementation of TyrQuake. (Quake)"
+HOMEPAGE="https://github.com/libretro/tyrquake"
 KEYWORDS=""
 
-LICENSE="vba"
+LICENSE="GPL-2"
 SLOT="0"
 
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
-
-S="${S}/src/libretro"

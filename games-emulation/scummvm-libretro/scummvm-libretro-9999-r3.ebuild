@@ -3,19 +3,19 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/vbam-libretro"
+LIBRETRO_REPO_NAME="libretro/scummvm"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of VBA-M. (Game Boy Advance)"
-HOMEPAGE="https://github.com/libretro/vbam-libretro"
+DESCRIPTION="libretro implementation of ScummVM"
+HOMEPAGE="https://github.com/libretro/scummvm"
 KEYWORDS=""
 
-LICENSE="vba"
+LICENSE="GPL-2 BSD GPL-3 LGPL"
 SLOT="0"
 
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-S="${S}/src/libretro"
+S="${S}/backends/platform/libretro/build"
