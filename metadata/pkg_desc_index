@@ -93,13 +93,12 @@ games-emulation/mednafen-saturn-libretro 1.0_pre20191224 9999-r3: Standalone por
 games-emulation/mednafen-supergrafx-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen PCE Fast. (SuperGrafx TG-16)
 games-emulation/mednafen-vb-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen VB. (Virtual Boy)
 games-emulation/mednafen-wswan-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)
-games-emulation/melonds-libretro 9999-r2: libretro implementation of melonDS. (NintendoDS)
-games-emulation/meowpc98-libretro 9999-r2: Neko Project 2 (PC98 emulator) port for libretro/RetroArch (XNP2)
-games-emulation/meteor-libretro 9999-r2: libretro implementation of Meteor. (Game Boy Advance)
-games-emulation/mgba-libretro 9999-r1: libretro implementation of mGBA. (Game Boy Advance)
-games-emulation/mgba-libretro-cheevo 9999-r1: libretro fork of mGBA with achievment support. (Game Boy Advance)
-games-emulation/mrboom-libretro 9999-r2: Multiplayer Bomberman clone for RetroArch/Libretro
-games-emulation/mupen64plus-libretro 9999-r3: libretro implementation of mupen64plus (Nintendo64)
+games-emulation/melonds-libretro 1.0_pre20191224 9999-r3: libretro implementation of melonDS. (NintendoDS)
+games-emulation/meowpc98-libretro 1.0_pre20191224 9999-r3: Neko Project 2 (PC98 emulator) port for libretro/RetroArch (XNP2)
+games-emulation/meteor-libretro 1.0_pre20191224 9999-r3: libretro implementation of Meteor. (Game Boy Advance)
+games-emulation/mgba-libretro 1.0_pre20191224 9999-r3: libretro implementation of mGBA. (Game Boy Advance)
+games-emulation/mrboom-libretro 1.0_pre20191224 9999-r3: Multiplayer Bomberman clone for RetroArch/Libretro
+games-emulation/mupen64plus-libretro 1.0_pre20191224 9999-r3: libretro implementation of mupen64plus (Nintendo64)
 games-emulation/nestopia-libretro 9999-r2: libretro implementation of NEStopia. (Nintendo Entertainment System)
 games-emulation/nxengine-libretro 9999-r2: libretro implementation of NXEngine. (Cave Story)
 games-emulation/o2em-libretro 9999: Port of O2EM to the libretro API, an Odyssey 2 / VideoPac emulator.
