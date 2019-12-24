@@ -1,5 +1,5 @@
 app-cdr/xcdroast 1.19: Lightweight cdrtools front-end for CD and DVD writing
-app-emulation/dxvk 1.4.6 9999-r2: Vulkan-based D3D11 and D3D10 implementation for Linux / Wine
+app-emulation/dxvk 1.5 9999-r2: Vulkan-based D3D11 and D3D10 implementation for Linux / Wine
 app-emulation/protontricks 1.3.1: A simple wrapper that does winetricks things for Proton enabled games
 app-emulation/vmware-modules 331.1.7 361.1.0: VMware kernel modules
 app-emulation/vmware-workstation 14.1.7.12989993-r6 15.1.0.13591040-r4: Emulate a complete PC without the performance overhead of most emulators
@@ -18,7 +18,7 @@ games-arcade/canabalt 2p: Retro-styled 2D platformer-autorunner
 games-arcade/capsized 06102013: A fast paced 2d platformer, focused on intense action and exploration.
 games-arcade/edge 20130703: Develop your telekinetic strength by pushing a Cube within a geometric universe.
 games-arcade/megamario 1.6 1.7: Mario remake
-games-emulation/2048-libretro 1.0_pre20191224 9999-r3: 3D Engine for libretro GL with additional features (camera/location/etc). Should be compatible from libretro 3D/GLES 2.0 and up.
+games-emulation/2048-libretro 1.0_pre20191224 9999-r3: Port of 2048 puzzle game to the libretro API. http://gabrielecirulli.github.io/2048/
 games-emulation/3dengine-libretro 1.0_pre20191224 9999-r3: 3D Engine for libretro GL with additional features (camera/location/etc). Should be compatible from libretro 3D/GLES 2.0 and up.
 games-emulation/4do-libretro 1.0_pre20191224 9999-r3: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
 games-emulation/81-libretro 1.0_pre20191224 9999-r3: A port of the EightyOne ZX81 Emulator to libretro.
@@ -39,6 +39,7 @@ games-emulation/desmume-libretro 1.0_pre20180311 9999-r3: libretro implementatio
 games-emulation/dinothawr-libretro 1.0_pre20191224 9999-r3: Dinothawr is a block pushing puzzle game on slippery surfaces.
 games-emulation/dolphin-libretro 1.0_pre20191224 9999-r3: libretro implementation of Dolphin. (Nintendo GC/Wii)
 games-emulation/dosbox-libretro 1.0_pre20191224 9999-r3: Port of DOSBox (upstream) to the libretro API.
+games-emulation/easyrpg-libretro 1.0_pre20191224 9999-r3: Official libretro port of EasyRPG Player - RPG Maker 2000/2003 and EasyRPG games interpreter https://easyrpg.org/
 games-emulation/emulationstation 2.7.1 2.7.6-r1 9999-r4: Frontend for emulators (RetroPie Fork)
 games-emulation/emulationstation-themes-meta 0: EmulationStation themes meta package
 games-emulation/es-theme-carbon 9999: EmulationStation theme carbon
@@ -76,7 +77,7 @@ games-emulation/libretro-database 1_pre20191224 9999-r3: Repository containing c
 games-emulation/libretro-info 1_pre20191224 9999-r3: Libretro info files required for libretro cores
 games-emulation/libretro-meta 9999-r2: Meta package for various libretro implementations
 games-emulation/lutro-libretro 1.0_pre20191224 9999-r3: An experimental lua game framework for libretro following the LÖVE API.
-games-emulation/mame-libretro 9999-r2: libretro implementation of MAME 2015. (Arcade)
+games-emulation/mame-libretro 1.0_pre20191224 9999-r3: libretro implementation of MAME 2015. (Arcade)
 games-emulation/mame2000-libretro 9999-r2: MAME2000 (0.37b5) for libretro.
 games-emulation/mame2003-libretro 9999-r2: MAME (0.78) for libretro.
 games-emulation/mame2010-libretro 9999: MAME (0.139) for libretro.
@@ -149,7 +150,8 @@ games-engines/easyrpg-player 0.5.2 9999: RPG Maker 2000/2003 and EasyRPG games i
 games-fps/brutal-doom 21: A mod that attempts to make Doom faster placed, harder, gorier and more violent.
 games-fps/dhewm3 1.5.1_pre1: A Doom 3 GPL source modification.
 games-fps/doom3-gpl 9999: 3rd installment of the classic iD 3D first-person shooter
-games-fps/gzdoom 3.7.2 9999-r1: A 3D-accelerated Doom source port based on ZDoom code
+games-fps/gzdoom 4.2.4 9999-r1: A 3D-accelerated Doom source port based on ZDoom code
+games-fps/gzdoom-legacy 3.8.2: A 3D-accelerated Doom source port based on ZDoom code (legacy opengl)
 games-fps/zdoom 2.8.1: ZDoom is an enhanced port of the official DOOM source code
 games-puzzle/crayon-physics-deluxe 55: 2D physics puzzle / sandbox game, where your drawings would be magically transformed into real physical objects.
 games-puzzle/numptyphysics 9999: A drawing puzzle game in the spirit of Crayon Physics
@@ -174,10 +176,10 @@ games-strategy/wyrmsun 2.7.1: Strategy game based on history, mythology and fict
 games-util/esteam 0.20190524: Scan Steam libraries to generate and emerge a Portage set
 games-util/qjoypad 4.3.1: Translate gamepad/joystick input into key strokes/mouse actions in X
 games-util/rejoystick 0.8.1: Tool which translates gamepad/joystick input into key strokes/mouse actions in X
-games-util/steam-client-meta 0-r20190506: Meta package for Valve's native Steam client
+games-util/steam-client-meta 0-r20191224: Meta package for Valve's native Steam client
 games-util/steam-games-meta 0-r20190316: Meta package for Steam games
-games-util/steam-launcher 1.0.0.59-r3: Installer, launcher and supplementary files for Valve's Steam client
-games-util/steam-meta 0-r20160817: Meta package for Valve's Steam environment
+games-util/steam-launcher 1.0.0.61: Installer, launcher and supplementary files for Valve's Steam client
+games-util/steam-meta 0-r20191224: Meta package for Valve's Steam environment
 kde-apps/konsole 9999: KDE's terminal emulator
 kde-apps/yakuake 9999: Quake-style terminal emulator based on konsole
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
@@ -204,14 +206,14 @@ net-libs/telegram-qt 0.1.0 9999: Telegram binding for Qt
 net-libs/telepathy-qt 9999: Qt bindings for the Telepathy D-Bus protocol
 net-misc/android-file-transfer-linux 3.9 9999: Reliable MTP client with minimalistic UI
 net-misc/megacmd 1.1.0 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 3.6.3 9999: MEGA C++ SDK
+net-misc/meganz-sdk 3.6.3 3.6.5 9999: MEGA C++ SDK
 net-misc/megasync 4.2.5.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-news/feedreader 2.10.0: Simple News Feed Reader for feeds aggregated by Tiny Tiny RSS or feedly
 net-p2p/soulseek-qt 20180130: Official binary Qt SoulSeek client
 net-print/epson-inkjet-printer_201401w 1.0.0: Epson printer driver (L130, L132, L220, L222, L310, L312, L360, L362, L365, L366, L455, L456)
 net-voip/telepathy-gabble 0.99.10: A XMPP connection manager, handles single and multi user chats and voice calls
 net-voip/telepathy-haze 0.99.11: Telepathy connection manager providing libpurple supported protocols
-net-wireless/broadcom-wl 6.30.223.271_p20180216 9999: Broadcom Linux hybrid wireless driver
+net-wireless/broadcom-wl 9999: Broadcom Linux hybrid wireless driver
 net-wireless/bt-audit 0.1.1-r1: A small bluetooth audit suite
 net-wireless/bully 1.1 9999: A wifi-protected-setup (WPS) brute force attack tool, similar to reaver
 net-wireless/cowpatty 4.8-r1: WLAN tools for bruteforcing 802.11 WPA/WPA2 keys
@@ -231,10 +233,10 @@ net-wireless/rtl8812au_asus 4.3.2_p20170702: Linux kernel module for ASUS USB-AC
 net-wireless/wifite 2.2.5-r2 9999: An automated wireless attack tool
 sys-block/gparted 1.0.0: Gnome Partition Editor
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
-www-client/brave-beta 1.1.15: Brave Web Browser (Beta Channel)
-www-client/brave-bin 0.72.90: Brave Web Browser
-www-client/brave-dev 1.3.58: Brave Web Browser (Dev Channel)
-www-client/brave-nightly 1.4.9: Brave Web Browser (Nightly Channel)
+www-client/brave-beta 1.2.34: Brave Web Browser (Beta Channel)
+www-client/brave-bin 1.1.123: Brave Web Browser
+www-client/brave-dev 1.3.73: Brave Web Browser (Dev Channel)
+www-client/brave-nightly 1.4.44: Brave Web Browser (Nightly Channel)
 www-client/falkon 9999: Cross-platform web browser using QtWebEngine
 www-client/torbrowser 68.2.0.9.0.0.1.1 68.2.0.9.5.1.1.2_alpha: The Tor Browser
 www-client/torbrowser-launcher 0.3.2: A program to download, updated, and run the Tor Browser Bundle
