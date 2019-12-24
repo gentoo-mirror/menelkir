@@ -1,0 +1,10 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Collection of overlay files for use with RetroArch
+EAPI=7
+HOMEPAGE=https://github.com/libretro/common-overlays
+LICENSE=GPL-3
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
+_md5_=f3d89f009500f7529257a63fede5dda3
