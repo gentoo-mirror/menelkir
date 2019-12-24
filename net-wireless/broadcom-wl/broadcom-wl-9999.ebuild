@@ -3,20 +3,8 @@
 
 EAPI=6
 
-inherit eutils linux-info linux-mod
-if [[ -z ${PV%%*9999} ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/antoineco/${PN}.git"
-else
-	inherit vcs-snapshot
-	MY_PV="21ddc7b"
-	[[ -n ${PV%%*_p*} ]] && MY_PV="${PV}"
-	SRC_URI="
-		mirror://githubcl/antoineco/${PN}/tar.gz/${MY_PV} -> ${P}.tar.gz
-	"
-	RESTRICT="primaryuri"
-	KEYWORDS="~amd64"
-fi
+inherit eutils linux-info linux-mod git-r3
+EGIT_REPO_URI="https://github.com/antoineco/${PN}.git"
 
 DESCRIPTION="Broadcom Linux hybrid wireless driver"
 HOMEPAGE="https://www.broadcom.com/support/802.11"

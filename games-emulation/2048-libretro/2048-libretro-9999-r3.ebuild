@@ -3,11 +3,11 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/libretro-${PN//-libretro}"
+LIBRETRO_REPO_NAME="libretro/libretro-2048"
 inherit libretro-core
 
-DESCRIPTION="3D Engine for libretro GL with additional features (camera/location/etc). Should be compatible from libretro 3D/GLES 2.0 and up."
-HOMEPAGE="https://github.com/libretro/libretro-3dengine"
+DESCRIPTION="Port of 2048 puzzle game to the libretro API. http://gabrielecirulli.github.io/2048/"
+HOMEPAGE="https://github.com/libretro/libretro-2048"
 KEYWORDS=""
 
 LICENSE="Unlicense"

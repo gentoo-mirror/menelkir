@@ -8,13 +8,12 @@ inherit eutils cmake-utils
 DESCRIPTION="A 3D-accelerated Doom source port based on ZDoom code"
 HOMEPAGE="https://zdoom.org"
 
-SRC_URI="!legacy-opengl? ( https://zdoom.org/files/gzdoom/src/${PN}-src-g${PV}.zip )
-	legacy-opengl? ( https://zdoom.org/files/gzdoom/src/${PN}-src-g${PV}_legacy.zip )"
+SRC_URI="https://zdoom.org/files/gzdoom/src/${PN}-src-g${PV}.zip"
 KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-3"
 SLOT="0"
-IUSE="+gtk3 legacy-opengl"
+IUSE="+gtk3"
 
 RDEPEND="gtk3? ( x11-libs/gtk+:3 )
 	media-libs/libsdl2

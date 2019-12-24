@@ -3,12 +3,13 @@
 
 EAPI=6
 
-LIBRETRO_REPO_NAME="libretro/${PN//-libretro}"
+LIBRETRO_REPO_NAME="libretro/mame"
+LIBRETRO_COMMIT_SHA="7cf10a3a9d8f3ee15ed7110d710fd73f2b402303"
 inherit flag-o-matic check-reqs versionator libretro-core
 
 DESCRIPTION="libretro implementation of MAME 2015. (Arcade)"
 HOMEPAGE="https://github.com/libretro/mame"
-KEYWORDS=""
+KEYWORDS="amd64 x86"
 
 LICENSE="MAME-GPL"
 SLOT="0"
