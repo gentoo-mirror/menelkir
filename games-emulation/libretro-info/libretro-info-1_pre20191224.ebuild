@@ -3,7 +3,7 @@
 
 EAPI=7
 
-LIBRETRO_COMMIT_SHA="b5997360462e1b8dc582c55c11eaf86fb1c67180"
+LIBRETRO_COMMIT_SHA="0b63d4cd7e8b206d9a851c0e4057ec6d02324cf0"
 
 DESCRIPTION="Libretro info files required for libretro cores"
 HOMEPAGE="https://github.com/libretro/libretro-super"
@@ -18,7 +18,7 @@ else
 
 	SRC_URI="https://github.com/libretro/libretro-super/archive/${LIBRETRO_COMMIT_SHA}.tar.gz -> ${P}.tar.gz"
 
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="amd64 x86"
 fi
 
 LICENSE="GPL-3"

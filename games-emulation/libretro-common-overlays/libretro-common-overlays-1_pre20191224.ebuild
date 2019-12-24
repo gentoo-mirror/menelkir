@@ -3,7 +3,7 @@
 
 EAPI=7
 
-LIBRETRO_COMMIT_SHA="4d700116edf178452831f99a5173f88559f1b8ec"
+LIBRETRO_COMMIT_SHA="a1f4176ab2ac1d258a4d4fccfce8ab32339dcc68"
 
 DESCRIPTION="Collection of overlay files for use with RetroArch"
 HOMEPAGE="https://github.com/libretro/common-overlays"
@@ -18,7 +18,7 @@ else
 
 	SRC_URI="https://github.com/libretro/common-overlays/archive/${LIBRETRO_COMMIT_SHA}.tar.gz -> ${P}.tar.gz"
 
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="amd64 x86"
 fi
 
 LICENSE="GPL-3"
