@@ -4,14 +4,16 @@
 EAPI=6
 
 LIBRETRO_REPO_NAME="libretro/libretro-${PN//-libretro}"
+inherit libretro-core
 
-DESCRIPTION="libretro implementation of 2048. (Puzzle game)"
-HOMEPAGE="https://github.com/libretro/libretro-2048"
+DESCRIPTION="3D Engine for libretro GL with additional features (camera/location/etc). Should be compatible from libretro 3D/GLES 2.0 and up."
+HOMEPAGE="https://github.com/libretro/libretro-3dengine"
 KEYWORDS=""
 
-LICENSE="PublicDomain"
+LICENSE="Unlicense"
 SLOT="0"
 
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
+
