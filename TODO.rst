@@ -26,7 +26,6 @@ TODO
         * ishiiruka-libretro
         * kronos-libretro
         * mame2003plus-libretro
-        * mednafen-pcfx-libretro
         * mesen-libretro
         * mess2015-libretro
         * mupen64plus-libretro
