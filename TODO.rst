@@ -1,16 +1,12 @@
 TODO
 ====
 
-*Fix broken cores*
-	* bsnes-libretro-cplusplus98
+*Add missing cores*
+        
+        * bsnes-libretro-cplusplus98
         * chailove-libretro
         * daphne-libretro
         * dolphin-libretro
-        * fbneo-libretro
-        * fsuae-libretro
-
-*Add missing cores*
-        
         * easyrpg-libretro
         * emux-chip8-libretro
         * emux-gb-libretro
