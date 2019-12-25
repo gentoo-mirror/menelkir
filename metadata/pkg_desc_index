@@ -83,6 +83,7 @@ games-emulation/mednafen-gba-libretro 1.0_pre20191224 9999-r3: libretro implemen
 games-emulation/mednafen-lynx-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen Lynx. (Atari Lynx)
 games-emulation/mednafen-ngp-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen Neopop. Neo Geo Pocket/Neo Geo Pocket Color
 games-emulation/mednafen-pce-fast-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen PCE Fast. (PC Engine/TurboGrafx-16)
+games-emulation/mednafen-pcfx-libretro 1.0_pre20191224 9999-r3: Standalone port of Mednafen PCFX to libretro.
 games-emulation/mednafen-psx-libretro 1.0_pre20191224 9999-r3: Standalone port/fork of Mednafen PSX to the Libretro API.
 games-emulation/mednafen-saturn-libretro 1.0_pre20191224 9999-r3: Standalone port of Mednafen Saturn to the libretro
 games-emulation/mednafen-supergrafx-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen PCE Fast. (SuperGrafx TG-16)
