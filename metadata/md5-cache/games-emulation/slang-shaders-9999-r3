@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/libretro/slang-shaders
 LICENSE=GPL-3
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b	libretro	280212693125dfc53ffa611e1111ef21
+_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33	libretro	280212693125dfc53ffa611e1111ef21
 _md5_=58bde69318868041a727d9c3b0d3c862
