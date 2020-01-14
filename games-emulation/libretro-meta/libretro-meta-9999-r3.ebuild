@@ -7,14 +7,14 @@ DESCRIPTION="Meta package for various libretro implementations"
 HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="2048 3dengine 4do 81 atari800 beetle-psx bluemsx bnes bsnes cannonball cap32 chailove \
+IUSE="2048 3dengine 4do 81 atari800 beetle-psx bluemsx bnes bsnes cannonball cap32 chailove \ 
 	citra craft crocods	desmume dinothawr dosbox fbalpha fbalpha2012 fceumm fceu-next flycast \ 
-	fmsx freeintv fuse gambatte genplus gme gpsp gw handy lutro mame mame2000 mame2003 mame2016 \
+	fmsx freeintv fuse gambatte genplus gme gpsp gw handy lutro mame mame2000 mame2003 mame2016 \ 
 	mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp mednafen-pce-fast mednafen-psx \ 
 	mednafen-saturn mednafen-bsnes mednafen-supergrafx mednafen-vb mednafen-wswan melonds \ 
-	meowpc98 meteor mgba mrboom nestopia nxengine o2em openlara parallel-n64 pcsx-rearmed \
-	picodrive pocketcdg pokemini prboom prosystem puae px68k quicknes quasi88 redream \
-	reminiscence scummvm snes9x snes9x2002 snes9x2010 snes9x2014 stella tgbdual theodore \
+	meowpc98 meteor mgba mrboom nestopia nxengine o2em openlara parallel-n64 pcsx-rearmed \ 
+	picodrive pocketcdg pokemini prboom prosystem puae px68k quicknes quasi88 redream \ 
+	reminiscence scummvm snes9x snes9x2002 snes9x2010 snes9x2014 stella tgbdual theodore \ 
 	tyrquake vba-next vbam vecx xrick yabause"
 
 KEYWORDS="amd64 x86"
