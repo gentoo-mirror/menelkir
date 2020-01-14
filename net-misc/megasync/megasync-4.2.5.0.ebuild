@@ -19,6 +19,7 @@ KEYWORDS="amd64"
 
 RDEPEND="
 	net-misc/meganz-sdk[libuv,mediainfo?,qt,sodium(+),sqlite]
+	media-libs/libraw
 	qt5? (
 		dev-qt/qtsvg:5
 		dev-qt/qtdbus:5
