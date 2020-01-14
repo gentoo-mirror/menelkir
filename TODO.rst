@@ -1,5 +1,8 @@
 TODO
 ====
+*Add new applications
+        * authy-desktop
+        * qtwebflix
 
 *Add missing cores*
         
