@@ -1,8 +1,9 @@
 TODO
 ====
 *Add new applications
-        * authy-desktop
-        * qtwebflix
+        * authy-desktop         https://authy.com/
+        * qtwebflix             https://github.com/gort818/qtwebflix
+        * celt                  http://www.celt-codec.org/
 
 *Add missing cores*
         
