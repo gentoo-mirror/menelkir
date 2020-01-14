@@ -8,6 +8,7 @@ dev-libs/liblcf 0.6.1 9999: Library to handle RPG Maker 2000/2003 and EasyRPG pr
 dev-libs/steam-runtime-openssl 1.0.1p: OpenSSL for Steam-based games
 dev-python/vdf 3.2: Package for working with Valve's text and binary KeyValue format
 dev-util/adobe-air-runtime 2.6-r2: Adobe AIR runtime
+dev-util/electron 6.1.6-r1: Cross platform application development framework based on web technologies
 games-action/cave_story_plus 100: 2D action-adventure game with semil-linear storyline
 games-action/d2x-rebirth 0.57.1: Descent Rebirth - enhanced Descent 2 engine
 games-action/d2x-xl 1.16.27 1.18.74: Descent 2 engine supporting high-resolution textures
