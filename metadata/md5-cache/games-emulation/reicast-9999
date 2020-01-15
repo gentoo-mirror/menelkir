@@ -7,5 +7,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-libs/alsa-lib media-libs/mesa[egl,gles2] dev-python/python-evdev
 SLOT=0
-_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
+_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33
 _md5_=859c56e34f71fc7b3e0886b7b8aac3af
