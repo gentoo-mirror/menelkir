@@ -48,3 +48,5 @@ TODO
         * vemulator-libretro
         * vice-libretro
 
+*Bugged*
+        * citra-libretro
