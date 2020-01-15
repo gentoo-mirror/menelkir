@@ -14,7 +14,7 @@ EGIT_SUBMODULES=("*" "-externals/fmt" "-externals/xbyak")
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="amd64"
 IUSE="system-boost doc sdl2 qt5 clang telemetry i18n"
 
 REQUIRED_USE="|| ( sdl2 qt5 )"
