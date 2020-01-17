@@ -38,14 +38,7 @@ dev-util/electron:system-libvpx - Use system libvpx instead of the bundled one
 dev-util/electron:system-ssl - Use system OpenSSL instead of the bundled one
 dev-util/electron:tcmalloc - Use bundled tcmalloc instead of system malloc
 www-client/torbrowser:clang - Use Clang compiler instead of GCC
-www-client/torbrowser:custom-optimization - Fine-tune custom compiler optimizations (-Os, -O0, -O1, -O2, -O3)
-www-client/torbrowser:eme-free - Disable EME (DRM plugin) cabability at build time
-www-client/torbrowser:geckodriver - Enable WebDriver support
-www-client/torbrowser:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically
-www-client/torbrowser:hwaccel - Use hardware-accelerated rendering
-www-client/torbrowser:lto - Enable Link Time Optimization (LTO). Requires Gold linker when using GCC or LDD linker when using Clang
-www-client/torbrowser:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
-www-client/torbrowser:screenshot - Allow to disable screenshot extension in global profile
+www-client/torbrowser:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
 www-client/torbrowser:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled.
 www-client/torbrowser:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
 www-client/torbrowser:system-icu - Use the system-wide dev-libs/icu instead of bundled.

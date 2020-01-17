@@ -1,3 +1,4 @@
+app-admin/webmin 1.940: A web-based Unix systems administration interface
 app-cdr/xcdroast 1.19: Lightweight cdrtools front-end for CD and DVD writing
 app-crypt/cuda-rarcrypt 3.2-r1: A Nvidia GPU-based RAR bruteforcer
 app-emulation/dxvk 1.5.1 9999-r2: Vulkan-based D3D11 and D3D10 implementation for Linux / Wine
@@ -208,7 +209,6 @@ media-sound/cadence 9999-r6: Collection of tools useful for audio production
 media-sound/carla 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
 media-sound/munt 2.3.0 9999: Software synthesiser emulating pre-GM MIDI (e.g., Roland MT-32)
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
-media-sound/strawberry 0.6.7 9999: Modern music player and library organizer based on Clementine and Qt
 media-sound/vgmplay 0.40.9 9999: Video game music (VGM) file command-line player
 media-video/apple_facetimehd_firmware 1.43.0: Firmware for the Apple Facetime HD Camera
 media-video/bcwc_pcie 9999: Reverse engineered Linux driver for the Broadcom 1570 PCIe webcam
@@ -253,7 +253,7 @@ sys-block/gparted 1.0.0: Gnome Partition Editor
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
 www-apps/geckodriver 0.23.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
 www-client/falkon 9999: Cross-platform web browser using QtWebEngine
-www-client/torbrowser 68.2.0.9.0.0.1.1 68.2.0.9.5.1.1.2_alpha: The Tor Browser
+www-client/torbrowser 68.4.1_p904: The Tor Browser
 www-client/torbrowser-launcher 0.3.2: A program to download, updated, and run the Tor Browser Bundle
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
