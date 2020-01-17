@@ -48,5 +48,7 @@ TODO
         * vemulator-libretro
         * vice-libretro
 
-*Broken*
+*Not Working*
         * citra-libretro
+        * ppsspp-libretro
+        * dolphin-libretro
