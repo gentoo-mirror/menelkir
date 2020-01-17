@@ -252,10 +252,6 @@ net-wireless/wifite 2.2.5-r2 9999: An automated wireless attack tool
 sys-block/gparted 1.0.0: Gnome Partition Editor
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
 www-apps/geckodriver 0.23.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
-www-client/brave-beta 1.2.34: Brave Web Browser (Beta Channel)
-www-client/brave-bin 1.1.123: Brave Web Browser
-www-client/brave-dev 1.3.73: Brave Web Browser (Dev Channel)
-www-client/brave-nightly 1.4.44: Brave Web Browser (Nightly Channel)
 www-client/falkon 9999: Cross-platform web browser using QtWebEngine
 www-client/torbrowser 68.2.0.9.0.0.1.1 68.2.0.9.5.1.1.2_alpha: The Tor Browser
 www-client/torbrowser-launcher 0.3.2: A program to download, updated, and run the Tor Browser Bundle
