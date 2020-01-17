@@ -59,7 +59,7 @@ games-emulation/bsnes-libretro-cplusplus98 1.0_pre20191224 9999: libretro implem
 games-emulation/cannonball-libretro 1.0_pre20191224 9999-r3: An Enhanced OutRun Engine.
 games-emulation/cap32-libretro 1.0_pre20191224 9999-r3: Caprice32 libretro core
 games-emulation/chailove-libretro 1.0_pre20191224 9999-r3: 2D Game Framework with ChaiScript.
-games-emulation/citra-libretro 1.0_pre20200114 9999-r3: Nintendo 3DS Emulator
+games-emulation/citra-libretro 1.0_pre20200114 9999-r2: libretro implementation of Citra. (Nintendo 3DS)
 games-emulation/craft-libretro 1.0_pre20191224 9999-r3: libretro implementation of Craft. (Minecraft clone)
 games-emulation/crocods-libretro 1.0_pre20191224 9999-r3: CrocoDS libretro core
 games-emulation/desmume-libretro 1.0_pre20180311 9999-r3: libretro implementation of DeSmuME. (Nintendo DS)
