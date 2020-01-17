@@ -13,7 +13,7 @@ SLOT="0"
 IUSE="+themes"
 
 SRC_URI="https://github.com/RetroPie/EmulationStation/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 S="${WORKDIR}/EmulationStation-${PV}"
 
 COMMON_DEPEND="
