@@ -65,6 +65,7 @@ games-emulation/craft-libretro 1.0_pre20191224 9999-r3: libretro implementation 
 games-emulation/crocods-libretro 1.0_pre20191224 9999-r3: CrocoDS libretro core
 games-emulation/desmume-libretro 1.0_pre20180311 9999-r3: libretro implementation of DeSmuME. (Nintendo DS)
 games-emulation/dinothawr-libretro 1.0_pre20191224 9999-r3: Dinothawr is a block pushing puzzle game on slippery surfaces.
+games-emulation/dolphin-libretro 1.0_pre20200117 9999-r2: libretro implementation of Dolphin. (Nintendo GC/Wii)
 games-emulation/dosbox-libretro 1.0_pre20191224 9999-r3: Port of DOSBox (upstream) to the libretro API.
 games-emulation/emulationstation 2.7.1 2.7.6-r1 2.9.0 9999-r4: Frontend for emulators (RetroPie Fork)
 games-emulation/emulationstation-themes-meta 0: EmulationStation themes meta package
@@ -134,6 +135,7 @@ games-emulation/pcsx2 1.5.0: A PlayStation 2 emulator
 games-emulation/picodrive-libretro 1.0_pre20191224 9999-r3: libretro implementation of PicoDrive. (Sega GameGear/Sega CD/32X)
 games-emulation/pocketcdg-libretro 1.0_pre20191224 9999-r3: PocketCDG libretro port.
 games-emulation/pokemini-libretro 1.0_pre20191224 9999-r3: Obscure nintendo handheld emulator.
+games-emulation/ppsspp-libretro 1.0_pre20200117 9999-r2: libretro implementation of PPSSPP. (PlayStation Portable/PSP)
 games-emulation/prboom-libretro 1.0_pre20191224 9999-r3: libretro implementation of PrBoom. (Doom)
 games-emulation/prosystem-libretro 1.0_pre20191224 9999-r3: libretro implementation of prosystem. (Atari 7800)
 games-emulation/puae-libretro 1.0_pre20191224 9999-r3: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
