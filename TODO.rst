@@ -1,6 +1,6 @@
 TODO
 ====
-*Add new applications
+*Add new applications*
         * authy-desktop         https://authy.com/
         * qtwebflix             https://github.com/gort818/qtwebflix
         * celt                  http://www.celt-codec.org/
@@ -48,5 +48,5 @@ TODO
         * vemulator-libretro
         * vice-libretro
 
-*Bugged*
+*Broken*
         * citra-libretro
