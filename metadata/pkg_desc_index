@@ -56,10 +56,8 @@ games-emulation/beetle-psx-libretro 1.0_pre20191224 9999-r3: libretro implementa
 games-emulation/bluemsx-libretro 1.0_pre20191224 9999-r3: Port of blueMSX to the libretro API
 games-emulation/bnes-libretro 1.0_pre20191224 9999-r3: libretro implementation of bNES/higan. (Nintendo Entertainment System)
 games-emulation/bsnes-libretro 1.0_pre20191224 9999-r3: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
-games-emulation/bsnes-libretro-cplusplus98 1.0_pre20191224 9999: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
 games-emulation/cannonball-libretro 1.0_pre20191224 9999-r3: An Enhanced OutRun Engine.
 games-emulation/cap32-libretro 1.0_pre20191224 9999-r3: Caprice32 libretro core
-games-emulation/chailove-libretro 1.0_pre20191224 9999-r3: 2D Game Framework with ChaiScript.
 games-emulation/citra-libretro 1.0_pre20200114 9999-r2: libretro implementation of Citra. (Nintendo 3DS)
 games-emulation/craft-libretro 1.0_pre20191224 9999-r3: libretro implementation of Craft. (Minecraft clone)
 games-emulation/crocods-libretro 1.0_pre20191224 9999-r3: CrocoDS libretro core
@@ -205,6 +203,7 @@ kde-apps/yakuake 9999: Quake-style terminal emulator based on konsole
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
 media-fonts/powerline-symbols 9999: OpenType Unicode font containing only Powerline-specific symbols.
 media-fonts/steamfonts 1: Collection of fonts used by Valve's Steam client
+media-libs/celt 0.11.1-r1: CELT is a very low delay audio codec designed for high-quality communications
 media-libs/hal-flash 0.3.3-r1: libhal stub forwarding to UDisks for Adobe Flash to play DRM content
 media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/cadence 9999-r6: Collection of tools useful for audio production
