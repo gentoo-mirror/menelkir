@@ -7,7 +7,6 @@ TODO
 
 *Add missing cores*
         
-        * bsnes-libretro-cplusplus98
         * chailove-libretro
         * daphne-libretro
         * dolphin-libretro
