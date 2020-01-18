@@ -3,14 +3,12 @@ TODO
 *Add new applications*
         * authy-desktop         https://authy.com/
         * qtwebflix             https://github.com/gort818/qtwebflix
-        * celt                  http://www.celt-codec.org/
 
 *Add missing cores*
         
         * bsnes-libretro-cplusplus98
         * chailove-libretro
         * daphne-libretro
-        * dolphin-libretro
         * easyrpg-libretro
         * emux-chip8-libretro
         * emux-gb-libretro
