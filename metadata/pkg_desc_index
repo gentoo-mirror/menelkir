@@ -250,6 +250,7 @@ net-wireless/rtl8812au_asus 4.3.2_p20170702: Linux kernel module for ASUS USB-AC
 net-wireless/wifite 2.2.5-r2 9999: An automated wireless attack tool
 sys-block/gparted 1.0.0: Gnome Partition Editor
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
+sys-devel/remake 4.3.1.5: patched version of GNU make with improved error reporting, tracing and debugging
 www-apps/geckodriver 0.23.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
 www-client/falkon 9999: Cross-platform web browser using QtWebEngine
 www-client/torbrowser 68.4.1_p904: The Tor Browser
