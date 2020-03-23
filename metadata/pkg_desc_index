@@ -199,6 +199,7 @@ games-util/steam-launcher 1.0.0.61: Installer, launcher and supplementary files 
 games-util/steam-meta 0-r20191224: Meta package for Valve's Steam environment
 kde-apps/konsole 9999: KDE's terminal emulator
 kde-apps/yakuake 9999: Quake-style terminal emulator based on konsole
+mail-client/mailspring-libre-bin 1.7.2: Fork aiming at removing Mailspring's dependecy on a central server
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
 media-fonts/powerline-symbols 9999: OpenType Unicode font containing only Powerline-specific symbols.
 media-fonts/steamfonts 1: Collection of fonts used by Valve's Steam client
