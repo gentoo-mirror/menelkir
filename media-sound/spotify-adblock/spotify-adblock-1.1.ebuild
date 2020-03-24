@@ -6,13 +6,9 @@ EAPI=6
 DESCRIPTION="Spotify adblocker for linux"
 HOMEPAGE="https://github.com/abba23/spotify-adblock-linux"
 
-if [[ ${PV} == *9999 ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/abba23/spotify-adblock-linux"
-else
-	SRC_URI="https://github.com/abba23/spotify-adblock-linux/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64"
-fi
+SRC_URI="https://github.com/abba23/spotify-adblock-linux/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+KEYWORDS="~amd64"
+S="${WORKDIR}/${PN}-linux-${PV}"
 
 RESTRICT="mirror"
 LICENSE="GPL-3"
@@ -23,8 +19,6 @@ RDEPEND="
 	net-misc/curl"
 
 DEPEND="${RDEPEND}"
-
-S="${WORKDIR}/${PN}-linux-${PV}"
 
 src_install() {
 	dolib spotify-adblock.so
