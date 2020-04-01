@@ -67,7 +67,6 @@ RDEPEND="
 	ozone? ( games-emulation/retroarch-assets[ozone] )
 	pulseaudio? ( media-sound/pulseaudio )
 	qt? (
-		dev-libs/openssl:0=
 		dev-qt/qtconcurrent:5
 		dev-qt/qtcore:5
 		dev-qt/qtgui:5
