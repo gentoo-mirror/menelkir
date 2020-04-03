@@ -25,9 +25,9 @@ LIBRETRO_CORE_NAME=()
 src_unpack() {
 	# We need to add the different core names to the array
 	# in order to let the eclass handle the install
-	use profile_accuracy && LIBRETRO_CORE_NAME+=( "${PN%-libretro}"_accuracy )
-	use profile_balanced && LIBRETRO_CORE_NAME+=( "${PN%-libretro}"_balanced )
-	use profile_performance && LIBRETRO_CORE_NAME+=( "${PN%-libretro}"_performance )
+	use profile_accuracy && LIBRETRO_CORE_NAME+=( "${PN%-libretro}"2014_accuracy )
+	use profile_balanced && LIBRETRO_CORE_NAME+=( "${PN%-libretro}"2014_balanced )
+	use profile_performance && LIBRETRO_CORE_NAME+=( "${PN%-libretro}"2014_performance )
 	libretro-core_src_unpack
 }
 
