@@ -26,9 +26,9 @@ LIBRETRO_CORE_NAME=()
 src_unpack() {
 	# We need to add the different core names to the array
 	# in order to let the eclass handle the install
-	use profile_accuracy && LIBRETRO_CORE_NAME+=( "${PN%-libretro}"_accuracy )
-	use profile_balanced && LIBRETRO_CORE_NAME+=( "${PN%-libretro}"_balanced )
-	use profile_performance && LIBRETRO_CORE_NAME+=( "${PN%-libretro}"_performance )
+	use profile_accuracy && LIBRETRO_CORE_NAME+=( "${PN%-libretro}"2014_accuracy )
+	use profile_balanced && LIBRETRO_CORE_NAME+=( "${PN%-libretro}"2014_balanced )
+	use profile_performance && LIBRETRO_CORE_NAME+=( "${PN%-libretro}"2014_performance )
 	libretro-core_src_unpack
 }
 
@@ -39,7 +39,7 @@ src_compile() {
 		libretro-core_src_compile
 		myemakeargs=( ${myemakeargs[@]/profile=*/} )
 	# Never forget to move the file where the eclass expect it
-	mv out/"${PN%-libretro}"_balanced_libretro.so .
+	mv out/"${PN%-libretro}"2014_balanced_libretro.so .
 	fi
 	if use profile_performance; then
 		emake clean
@@ -47,7 +47,7 @@ src_compile() {
 		libretro-core_src_compile
 		myemakeargs=( ${myemakeargs[@]/profile=*/} )
 	# Never forget to move the file where the eclass expect it
-	mv out/"${PN%-libretro}"_performance_libretro.so .
+	mv out/"${PN%-libretro}"2014_performance_libretro.so .
 	fi
 	if use profile_accuracy; then
 		emake clean
@@ -55,7 +55,7 @@ src_compile() {
 		libretro-core_src_compile
 		myemakeargs=( ${myemakeargs[@]/profile=*/} )
 	# Never forget to move the file where the eclass expect it
-	mv out/"${PN%-libretro}"_accuracy_libretro.so .
+	mv out/"${PN%-libretro}"2014_accuracy_libretro.so .
 	fi
 }
 
