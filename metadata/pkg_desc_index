@@ -54,7 +54,7 @@ games-emulation/81-libretro 1.0_pre20191224 9999-r3: A port of the EightyOne ZX8
 games-emulation/atari800-libretro 1.0_pre20191224 9999-r3: Atari800 libretro core
 games-emulation/bluemsx-libretro 1.0_pre20191224 9999-r3: Port of blueMSX to the libretro API
 games-emulation/bnes-libretro 1.0_pre20191224 9999-r3: libretro implementation of bNES/higan. (Nintendo Entertainment System)
-games-emulation/bsnes-libretro 1.0_pre20191224 9999-r3: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
+games-emulation/bsnes-libretro 1.0_pre20200403 9999-r4: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
 games-emulation/cannonball-libretro 1.0_pre20191224 9999-r3: An Enhanced OutRun Engine.
 games-emulation/cap32-libretro 1.0_pre20191224 9999-r3: Caprice32 libretro core
 games-emulation/citra-libretro 1.0_pre20200114 9999-r2: libretro implementation of Citra. (Nintendo 3DS)
