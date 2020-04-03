@@ -257,6 +257,7 @@ www-client/brave-bin 1.5.115: Brave Web Browser
 www-client/falkon 9999: Cross-platform web browser using QtWebEngine
 www-client/torbrowser 68.4.1_p904: The Tor Browser
 www-client/torbrowser-launcher 0.3.2: A program to download, updated, and run the Tor Browser Bundle
+x11-drivers/nvidia-drivers 440.64-r1: NVIDIA Accelerated Graphics Driver
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2: Settings editor for LightDM GTK+ greeter
