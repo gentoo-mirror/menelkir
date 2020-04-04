@@ -47,5 +47,4 @@ TODO
         * vice-libretro
 
 *Not Working*
-        * ppsspp-libretro
         * dolphin-libretro
