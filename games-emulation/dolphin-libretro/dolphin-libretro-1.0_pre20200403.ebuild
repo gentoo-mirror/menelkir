@@ -4,9 +4,9 @@
 EAPI=6
 
 LIBRETRO_REPO_NAME="libretro/dolphin"
-LIBRETRO_COMMIT_SHA="cda77d5d96e68e31a30e7800d6aa6b5732367917"
+LIBRETRO_COMMIT_SHA="1fbd59911d1b718c142d6448dee3ede98152e395"
 
-inherit libretro-core
+inherit libretro-core cmake-utils
 
 DESCRIPTION="libretro implementation of Dolphin. (Nintendo GC/Wii)"
 HOMEPAGE="https://github.com/libretro/dolphin"
@@ -17,7 +17,7 @@ SLOT="0"
 IUSE="opengl vulkan"
 
 DEPEND="opengl? ( virtual/opengl )
-	vulkan? ( media-libs/vulkan-loader:0= )"
+		vulkan? ( media-libs/vulkan-loader:0= )"
 RDEPEND="${DEPEND}
 		dev-util/spirv-headers
 		games-emulation/libretro-info"
