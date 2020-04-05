@@ -19,7 +19,7 @@ app-forensics/rekall-gui 9999: Rekall Memory Forensic Framework
 app-forensics/routersploit 3.4.0-r1 9999: An open-source exploitation framework dedicated to embedded devices
 app-forensics/s3tk 0.2.0 9999: A security toolkit for Amazon S3
 app-forensics/tcpxtract 1.0.1: Extracts files from network packet captures
-dev-lang/rgbds 0.3.9: Free assembler/linker package for the Game Boy and Game Boy Color
+dev-lang/rgbds 0.3.9 0.3.10 0.4.0: Free assembler/linker package for the Game Boy and Game Boy Color
 dev-libs/dynarmic 1_p20180826: An ARM dynamic recompiler
 dev-libs/liblcf 0.6.1 9999: Library to handle RPG Maker 2000/2003 and EasyRPG projects
 dev-libs/steam-runtime-openssl 1.0.1p: OpenSSL for Steam-based games
