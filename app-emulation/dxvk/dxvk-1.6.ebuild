@@ -21,7 +21,7 @@ SLOT="0"
 if [[ "${PV}" == "9999" ]]; then
 	KEYWORDS=""
 else
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="amd64 x86"
 fi
 IUSE="video_cards_nvidia"
 
@@ -35,12 +35,12 @@ RDEPEND="
 	${COMMON_DEPEND}
 	media-libs/vulkan-loader[${MULTILIB_USEDEP}]
 	|| (
-		>=app-emulation/wine-staging-4.5
-		>=app-emulation/wine-vanilla-4.5
+		>=app-emulation/wine-staging-5.3
+		>=app-emulation/wine-vanilla-5.3
 	)
 	|| (
-		video_cards_nvidia? ( >=x11-drivers/nvidia-drivers-418.56 )
-		>=media-libs/mesa-19.1
+		video_cards_nvidia? ( >=x11-drivers/nvidia-drivers-418.74 )
+		>=media-libs/mesa-19.2
 	)
 "
 
