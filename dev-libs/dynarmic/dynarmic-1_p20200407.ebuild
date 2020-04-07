@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-COMMIT_SHA="68ca03e8d4822c78e15315e67ddbb1d6bf4d3827"
+COMMIT_SHA="0973ec86405083dabbf2e02a16d58db70a54f0c9"
 
 inherit cmake-utils vcs-snapshot
 
@@ -19,7 +19,8 @@ RDEPEND="dev-libs/boost"
 DEPEND="${RDEPEND}
 	dev-cpp/catch
 	dev-libs/libfmt
-	dev-libs/xbyak"
+	dev-libs/xbyak
+"
 
 PATCHES=(
 	"${FILESDIR}/dynarmic-skip-bundled-dependencies.patch"

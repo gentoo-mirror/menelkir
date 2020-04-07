@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -10,19 +10,18 @@ fi
 
 DESCRIPTION="Vulkan-based D3D11 and D3D10 implementation for Linux / Wine"
 HOMEPAGE="https://github.com/doitsujin/dxvk"
+
 if [[ "${PV}" == "9999" ]]; then
 	EGIT_REPO_URI="https://github.com/doitsujin/dxvk.git"
+	KEYWORDS=""
 else
 	SRC_URI="https://github.com/doitsujin/dxvk/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+	KEYWORDS="amd64 x86"
 fi
 
 LICENSE="ZLIB"
 SLOT="0"
-if [[ "${PV}" == "9999" ]]; then
-	KEYWORDS=""
-else
-	KEYWORDS="amd64 x86"
-fi
+
 IUSE="video_cards_nvidia"
 
 COMMON_DEPEND="virtual/wine[${MULTILIB_USEDEP}]"
@@ -35,8 +34,8 @@ RDEPEND="
 	${COMMON_DEPEND}
 	media-libs/vulkan-loader[${MULTILIB_USEDEP}]
 	|| (
-		>=app-emulation/wine-staging-4.5
-		>=app-emulation/wine-vanilla-4.5
+		app-emulation/wine-staging
+		app-emulation/wine-vanilla
 	)
 	|| (
 		video_cards_nvidia? ( >=x11-drivers/nvidia-drivers-418.74 )
