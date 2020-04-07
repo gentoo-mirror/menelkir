@@ -4,14 +4,14 @@
 EAPI=6
 
 LIBRETRO_REPO_NAME="libretro/cannonball"
-LIBRETRO_COMMIT_SHA="ed510326d1b7acde233b23125309971e7bf5cc25"
+LIBRETRO_COMMIT_SHA="5dcef189dc5c408bbd9e4bc08b1f9801b04cd3ca"
 inherit libretro-core
 
 DESCRIPTION="An Enhanced OutRun Engine."
 HOMEPAGE="https://github.com/libretro/cannonball"
 KEYWORDS="amd64 x86"
 
-LICENSE="Unlicense"
+LICENSE="cannonball"
 SLOT="0"
 
 DEPEND=""

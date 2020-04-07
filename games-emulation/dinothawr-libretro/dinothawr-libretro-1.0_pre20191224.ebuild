@@ -11,7 +11,7 @@ DESCRIPTION="Dinothawr is a block pushing puzzle game on slippery surfaces."
 HOMEPAGE="https://github.com/libretro/Dinothawr"
 KEYWORDS="x86 amd64"
 
-LICENSE="CC-BY-NC-SA-2.0"
+LICENSE="CC-BY-NC-SA-3.0"
 SLOT="0"
 
 DEPEND=""
