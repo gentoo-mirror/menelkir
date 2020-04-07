@@ -19,7 +19,7 @@ app-forensics/rekall-gui 9999: Rekall Memory Forensic Framework
 app-forensics/routersploit 3.4.0-r1 9999: An open-source exploitation framework dedicated to embedded devices
 app-forensics/s3tk 0.2.0 9999: A security toolkit for Amazon S3
 app-forensics/tcpxtract 1.0.1: Extracts files from network packet captures
-dev-lang/rgbds 0.3.9 0.3.10 0.4.0: Free assembler/linker package for the Game Boy and Game Boy Color
+dev-lang/rgbds 0.3.10 0.4.0: Free assembler/linker package for the Game Boy and Game Boy Color
 dev-libs/dynarmic 1_p20180826: An ARM dynamic recompiler
 dev-libs/liblcf 0.6.1 9999: Library to handle RPG Maker 2000/2003 and EasyRPG projects
 dev-libs/steam-runtime-openssl 1.0.1p: OpenSSL for Steam-based games
@@ -229,8 +229,8 @@ net-libs/telegram-qt 0.1.0 9999: Telegram binding for Qt
 net-libs/telepathy-qt 9999: Qt bindings for the Telepathy D-Bus protocol
 net-misc/android-file-transfer-linux 3.9 9999: Reliable MTP client with minimalistic UI
 net-misc/megacmd 1.1.0 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 3.6.3 9999: MEGA C++ SDK
-net-misc/megasync 4.2.5.0 4.3.1.0 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/meganz-sdk 3.6.3 3.6.6 3.6.8: MEGA C++ SDK
+net-misc/megasync 4.2.5.0: Easy automated syncing with MEGA Cloud Drive
 net-news/feedreader 2.10.0: Simple News Feed Reader for feeds aggregated by Tiny Tiny RSS or feedly
 net-p2p/soulseek-qt 20180130: Official binary Qt SoulSeek client
 net-print/epson-inkjet-printer_201401w 1.0.0: Epson printer driver (L130, L132, L220, L222, L310, L312, L360, L362, L365, L366, L455, L456)
