@@ -10,7 +10,7 @@ inherit libretro-core
 
 DESCRIPTION="libretro implementation of Mednafen Lynx. (Atari Lynx)"
 HOMEPAGE="https://github.com/libretro/beetle-lynx-libretro"
-KEYWORDS="x86 amd64"
+KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
 SLOT="0"

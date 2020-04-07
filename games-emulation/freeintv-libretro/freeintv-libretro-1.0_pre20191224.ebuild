@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="libretro/FreeIntv"
 LIBRETRO_COMMIT_SHA="df7f7f83d1bb56b25553d81d2f279c078883502a"
 inherit libretro-core
 
-DESCRIPTION="A libretro emulation core for the Mattel Intellivision designed to be compatible with joypads from the SNES era forward."
+DESCRIPTION="A libretro emulation core for the Mattel Intellivision"
 HOMEPAGE="https://github.com/libretro/FreeIntv"
 KEYWORDS="amd64 x86"
 

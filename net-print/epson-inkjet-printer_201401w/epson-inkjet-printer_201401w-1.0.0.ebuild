@@ -8,14 +8,14 @@ inherit rpm autotools
 
 MY_PN=${PN%_*}-${PN##*_}
 
-DESCRIPTION="Epson printer driver (L130, L132, L220, L222, L310, L312, L360, L362, L365, L366, L455, L456)"
+DESCRIPTION="Epson driver (L130, L132, L220, L222, L310, L312, L360, L362, L365, L366, L455, L456)"
 
 HOMEPAGE="http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 	http://www.openprinting.org/driver/epson-201207w"
 # SRC_URI="http://download.ebz.epson.net/dsc/op/stable/SRPMS/${MY_PN}-${PV}-1lsb3.2.src.rpm"
 SRC_URI="https://download3.ebz.epson.net/dsc/f/03/00/03/45/41/92e9c9254f0ee4230a069545ba27ec2858a2c457/${MY_PN}-${PV}-1lsb3.2.src.rpm"
 
-LICENSE="LGPL EPSON"
+LICENSE="LGPL-2 EPSON"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
@@ -49,8 +49,8 @@ src_install() {
 	done
 
 	insinto /usr/share/cups/model/${MY_PN}
-	doins ../${MY_PN}-${PV}/ppds/* 
+	doins ../${MY_PN}-${PV}/ppds/*
 
-	dodoc AUTHORS COPYING COPYING.LIB COPYING.EPSON
+	dodoc AUTHORS COPYING.LIB COPYING.EPSON
 	dodoc ../${MY_PN}-${PV}/{Manual.txt,README}
 }

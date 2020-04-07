@@ -27,9 +27,8 @@ IUSE=""
 
 RDEPEND="
   dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-"
+	dev-python/pytest-cov[${PYTHON_USEDEP}]"
+
 DEPEND="
   ${RDEPEND}
-	dev-python/setuptools[${PYTHON_USEDEP}]
-"
+	dev-python/setuptools[${PYTHON_USEDEP}]"

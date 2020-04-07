@@ -3,9 +3,9 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=EmulationStation theme carbon
 EAPI=6
 HOMEPAGE=https://github.com/RetroPie/es-theme-carbon
-KEYWORDS=amd64 x86 arm
+KEYWORDS=amd64 arm x86
 LICENSE=CC-BY-NC-SA-2.5
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=3c6b128a5af51a7dad845710557240ea
+_md5_=316c2376c1c0529d81fbbfbacad571df

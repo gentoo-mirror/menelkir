@@ -37,21 +37,16 @@ src_install() {
 	use gtk3 || {
 		rm -R "${D}"/usr/share/themes/*/gtk-3.0 || die
 	}
-	
 	use metacity || {
 		rm -R "${D}"/usr/share/themes/*/metacity-1 || die
 	}
-	
 	use openbox || {
 		rm -R "${D}"/usr/share/themes/*/openbox-3 || die
 	}
-	
 	use unity || {
 		rm -R "${D}"/usr/share/themes/*/unity || die
 	}
-	
 	use xfwm4 || {
 		rm -R "${D}"/usr/share/themes/*/xfwm4 || die
 	}
-
 }

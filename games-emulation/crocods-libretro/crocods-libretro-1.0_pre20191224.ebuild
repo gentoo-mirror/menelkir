@@ -9,7 +9,7 @@ inherit libretro-core
 
 DESCRIPTION="CrocoDS libretro core"
 HOMEPAGE="https://github.com/libretro/libretro-crocods"
-KEYWORDS="x86 amd64"
+KEYWORDS="amd64 x86"
 
 LICENSE="MIT"
 SLOT="0"

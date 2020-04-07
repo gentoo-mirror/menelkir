@@ -52,7 +52,6 @@ RDEPEND="
 	gnome-keyring? ( app-crypt/libsecret:0[${MULTILIB_USEDEP}] )
 "
 
-
 QA_PREBUILT="
 	opt/Franz/franz
 	opt/Franz/libnode.so
@@ -60,7 +59,6 @@ QA_PREBUILT="
 "
 
 S="${WORKDIR}"
-
 
 src_install() {
 	insinto /opt
@@ -72,7 +70,6 @@ src_install() {
 
 	insinto /usr/share/icons
 	doins -r usr/share/icons/.
-	
 	use pax_kernel && pax-mark -m "${ED%/}"/opt/Franz/franz
 }
 

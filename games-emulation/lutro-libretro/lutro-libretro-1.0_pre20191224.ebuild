@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="libretro/libretro-lutro"
 LIBRETRO_COMMIT_SHA="6e7c0de593f2dce3aa2035df9a4c4136e56595e7"
 inherit libretro-core
 
-DESCRIPTION="An experimental lua game framework for libretro following the LÖVE API."
+DESCRIPTION="An experimental lua game framework for libretro following the LOVE API."
 HOMEPAGE="https://github.com/libretro/libretro-lutro"
 KEYWORDS="amd64 x86"
 

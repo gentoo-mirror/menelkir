@@ -44,7 +44,7 @@ src_install() {
 	doins "${FILESDIR}"/${PN}.desktop
 
 	insinto /usr/share/pixmaps
-	doins "${FILESDIR}"/${PN}.png 
+	doins "${FILESDIR}"/${PN}.png
 }
 
 pkg_postinst() {

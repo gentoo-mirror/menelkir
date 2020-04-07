@@ -3,9 +3,9 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=EmulationStation theme color-pi
 EAPI=6
 HOMEPAGE=https://github.com/RetroPie/es-theme-color-pi
-KEYWORDS=~amd64 ~x86 ~arm
+KEYWORDS=~amd64 ~arm ~x86
 LICENSE=CC-BY-NC-SA-2.5
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=cb9a0574664a18b75a4960c63fff70d7
+_md5_=4a7e0ff6a86cbcf32f4e3f0bba40354f

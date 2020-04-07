@@ -3,9 +3,9 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=EmulationStation theme clean-look
 EAPI=6
 HOMEPAGE=https://github.com/RetroPie/es-theme-clean-look
-KEYWORDS=~amd64 ~x86 ~arm
+KEYWORDS=~amd64 ~arm ~x86
 LICENSE=CC-BY-NC-SA-2.5
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=91d1ef7727760b82b70d90252fd868d3
+_md5_=72c385614cf8f7c287470e122cd3d15a

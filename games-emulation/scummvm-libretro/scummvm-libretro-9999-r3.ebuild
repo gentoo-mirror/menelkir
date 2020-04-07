@@ -11,7 +11,7 @@ DESCRIPTION="libretro implementation of ScummVM"
 HOMEPAGE="https://github.com/libretro/scummvm"
 KEYWORDS=""
 
-LICENSE="GPL-2 BSD GPL-3 LGPL"
+LICENSE="GPL-2 BSD GPL-3 LGPL-2"
 SLOT="0"
 
 DEPEND=""

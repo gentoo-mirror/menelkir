@@ -33,7 +33,6 @@ S="${WORKDIR}"
 src_install() {
 	exeinto /opt/${PN}
 	doexe Popcorn-Time
-	
 	insinto /opt/${PN}
 	doins -r src node_modules icudtl.dat locales LICENSE.txt nw_100_percent.pak nw_200_percent.pak package.json
 
@@ -44,7 +43,7 @@ src_install() {
 	doins "${FILESDIR}"/${PN}.desktop
 
 	insinto /usr/share/pixmaps
-	doins "${FILESDIR}"/${PN}.png 
+	doins "${FILESDIR}"/${PN}.png
 }
 
 pkg_postinst() {

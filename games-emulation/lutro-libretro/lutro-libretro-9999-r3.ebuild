@@ -6,7 +6,7 @@ EAPI=6
 LIBRETRO_REPO_NAME="libretro/libretro-lutro"
 inherit libretro-core
 
-DESCRIPTION="An experimental lua game framework for libretro following the LÖVE API."
+DESCRIPTION="An experimental lua game framework for libretro following the LOVE API."
 HOMEPAGE="https://github.com/libretro/libretro-lutro"
 KEYWORDS=""
 

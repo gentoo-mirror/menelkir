@@ -6,7 +6,7 @@ EAPI=6
 LIBRETRO_REPO_NAME="libretro/libretro-2048"
 inherit libretro-core
 
-DESCRIPTION="Port of 2048 puzzle game to the libretro API. http://gabrielecirulli.github.io/2048/"
+DESCRIPTION="Port of 2048 puzzle game to the libretro API"
 HOMEPAGE="https://github.com/libretro/libretro-2048"
 KEYWORDS=""
 
@@ -16,4 +16,3 @@ SLOT="0"
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
-

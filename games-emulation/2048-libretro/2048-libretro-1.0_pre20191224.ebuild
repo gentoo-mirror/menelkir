@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="libretro/libretro-2048"
 LIBRETRO_COMMIT_SHA="b2b08a8767bae5ecdc2452484768aba84dbc341f"
 inherit libretro-core
 
-DESCRIPTION="Port of 2048 puzzle game to the libretro API. http://gabrielecirulli.github.io/2048/"
+DESCRIPTION="Port of 2048 puzzle game to the libretro API"
 HOMEPAGE="https://github.com/libretro/libretro-2048"
 KEYWORDS="amd64 x86"
 
