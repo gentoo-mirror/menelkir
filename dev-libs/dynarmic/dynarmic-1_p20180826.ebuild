@@ -12,14 +12,15 @@ SRC_URI="https://github.com/MerryMage/${PN}/archive/${COMMIT_SHA}.tar.gz -> ${P}
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
-RDEPEND="dev-libs/boost"
+RDEPEND="dev-libs/boost:="
 DEPEND="${RDEPEND}
-	dev-cpp/catch
-	dev-libs/libfmt
-	dev-libs/xbyak"
+	dev-cpp/catch:0
+	dev-libs/libfmt:=
+	dev-libs/xbyak
+"
 
 PATCHES=(
 	"${FILESDIR}/dynarmic-skip-bundled-dependencies.patch"
