@@ -10,6 +10,7 @@ SOUNDTOUCH_COMMIT_SHA="060181eaf273180d3a7e87349895bd0cb6ccbf4a"
 inherit cmake-utils libretro-core toolchain-funcs
 
 DESCRIPTION="Multiplatform Sega Dreamcast emulator"
+HOMEPAGE="https://github.com/libretro/citra"
 SRC_URI="
 	https://github.com/${LIBRETRO_REPO_NAME}/archive/${LIBRETRO_COMMIT_SHA}.tar.gz -> ${P}.tar.gz
 	https://github.com/citra-emu/ext-soundtouch/archive/${SOUNDTOUCH_COMMIT_SHA}.tar.gz -> ${P}-soundtouch.tar.gz
