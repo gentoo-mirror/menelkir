@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit cmake-utils 
+inherit cmake-utils
 
 DESCRIPTION="Telegram connection manager for Telepathy."
 HOMEPAGE="https://projects.kde.org/projects/playground/network/telepathy/telepathy-morse"

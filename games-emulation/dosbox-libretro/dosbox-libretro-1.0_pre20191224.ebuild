@@ -9,7 +9,7 @@ inherit libretro-core
 
 DESCRIPTION="Port of DOSBox (upstream) to the libretro API."
 HOMEPAGE="https://github.com/libretro/dosbox-libretro"
-KEYWORDS="x86 amd64"
+KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
 SLOT="0"

@@ -9,7 +9,7 @@ inherit libretro-core
 
 DESCRIPTION=" FCEUmm libretro port.  (Nintendo Entertainment System)"
 HOMEPAGE="https://github.com/libretro/libretro-fceumm"
-KEYWORDS="x86 amd64"
+KEYWORDS="amd64 arm x86"
 
 LICENSE="GPL-2"
 SLOT="0"

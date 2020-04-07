@@ -6,7 +6,7 @@ EAPI=6
 LIBRETRO_REPO_NAME="libretro/libretro-3dengine"
 inherit libretro-core
 
-DESCRIPTION="3D Engine for libretro GL with additional features (camera/location/etc). Should be compatible from libretro 3D/GLES 2.0 and up."
+DESCRIPTION="3D Engine for libretro GL with additional features"
 HOMEPAGE="https://github.com/libretro/libretro-3dengine"
 KEYWORDS=""
 

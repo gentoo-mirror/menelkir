@@ -9,7 +9,7 @@ inherit libretro-core
 
 DESCRIPTION="MAME (0.78) for libretro."
 HOMEPAGE="https://github.com/libretro/mame2003-libretro"
-KEYWORDS="x86 amd64"
+KEYWORDS="amd64 x86"
 
 LICENSE="MAME-GPL"
 SLOT="0"

@@ -11,7 +11,7 @@ inherit libretro-core
 
 DESCRIPTION="libretro implementation of Mednafen Neopop. Neo Geo Pocket/Neo Geo Pocket Color"
 HOMEPAGE="https://github.com/libretro/beetle-ngp-libretro"
-KEYWORDS="x86 amd64"
+KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
 SLOT="0"

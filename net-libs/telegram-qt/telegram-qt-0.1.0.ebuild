@@ -4,7 +4,7 @@
 EAPI=6
 
 PYTHON_COMPAT=( python2_7 )
-inherit python-any-r1 cmake-utils virtualx multibuild 
+inherit python-any-r1 cmake-utils virtualx multibuild
 
 DESCRIPTION="Telegram binding for Qt"
 HOMEPAGE="https://github.com/Kaffeine/telegram-qt"
@@ -13,7 +13,7 @@ S="${WORKDIR}/${PN}-${P}"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="

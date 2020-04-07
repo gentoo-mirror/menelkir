@@ -10,7 +10,7 @@ inherit libretro-core
 
 DESCRIPTION="libretro implementation of Mednafen VBA/GBA. (Game Boy Advance)"
 HOMEPAGE="https://github.com/libretro/beetle-gba-libretro"
-KEYWORDS="x86 amd64"
+KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
 SLOT="0"

@@ -10,7 +10,7 @@ inherit libretro-core
 
 DESCRIPTION="MAME (0.160) for libretro."
 HOMEPAGE="https://github.com/libretro/mame2015-libretro"
-KEYWORDS="x86 amd64"
+KEYWORDS="amd64 x86"
 
 LICENSE="MAME-GPL"
 SLOT="0"

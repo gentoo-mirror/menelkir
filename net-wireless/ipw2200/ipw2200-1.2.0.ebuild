@@ -11,7 +11,7 @@ S=${WORKDIR}/${MY_P}
 IEEE80211_VERSION="1.2.15"
 FW_VERSION="3.0"
 
-DESCRIPTION="Driver for the Intel 2200BG/2915ABG miniPCI/PCI adapters patched with modified inject patches"
+DESCRIPTION="Driver for the Intel 2200BG/2915ABG patched with inject patches"
 HOMEPAGE="http://ipw2200.sourceforge.net/"
 SRC_URI="mirror://sourceforge/${PN}/${MY_P}.tgz"
 

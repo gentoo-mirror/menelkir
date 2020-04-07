@@ -9,7 +9,7 @@ inherit libretro-core
 
 DESCRIPTION="libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)"
 HOMEPAGE="https://github.com/libretro/fceu-next"
-KEYWORDS="x86 amd64"
+KEYWORDS="amd64 arm x86"
 
 LICENSE="GPL-2"
 SLOT="0"

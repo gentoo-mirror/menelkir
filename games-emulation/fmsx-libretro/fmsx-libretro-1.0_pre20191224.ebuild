@@ -9,7 +9,7 @@ inherit libretro-core
 
 DESCRIPTION="Port of fMSX to the libretro API."
 HOMEPAGE="https://github.com/libretro/fmsx-libretro"
-KEYWORDS="x86 amd64"
+KEYWORDS="amd64 x86"
 
 LICENSE="fMSX"
 SLOT="0"
