@@ -3,9 +3,9 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=EmulationStation theme simple dark
 EAPI=6
 HOMEPAGE=https://github.com/RetroPie/es-theme-simple-dark
-KEYWORDS=~amd64 ~x86 ~arm
+KEYWORDS=~amd64 ~arm ~x86
 LICENSE=CC-BY-NC-SA-2.0
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=af00ef9bcc26a8f4a4c9286c68a736dc
+_md5_=616c2423e700437b551c9d3141857b13

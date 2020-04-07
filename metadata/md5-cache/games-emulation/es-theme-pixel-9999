@@ -3,9 +3,9 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=EmulationStation theme pixel
 EAPI=6
 HOMEPAGE=https://github.com/RetroPie/es-theme-pixel
-KEYWORDS=~amd64 ~x86 ~arm
+KEYWORDS=~amd64 ~arm ~x86
 LICENSE=CC-BY-NC-SA-2.0
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=8565f3e6a58d707e300fe8b91825cc53
+_md5_=546557019185ad4547109e37a79b207b
