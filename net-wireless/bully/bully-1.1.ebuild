@@ -7,7 +7,7 @@ inherit versionator
 MY_PV=$(replace_version_separator 2 '-' )
 
 DESCRIPTION="A wifi-protected-setup (WPS) brute force attack tool, similar to reaver"
-HOMEPAGE="https://github.com/aanarchyy/bully/releases"
+HOMEPAGE="https://github.com/aanarchyy/bully/"
 SRC_URI="https://github.com/aanarchyy/bully/archive/${PV}.tar.gz -> ${P}.tar.gz"
 SLOT="0"
 LICENSE="GPL-3+ GPL-2 BSD"
