@@ -40,7 +40,7 @@ dev-util/adobe-air-runtime 2.6-r2: Adobe AIR runtime
 dev-util/electron 6.1.6-r1: Cross platform application development framework based on web technologies
 dev-util/nihstro 0_p20200324: 3DS shader assembler and disassembler
 games-action/cave_story_plus 100: 2D action-adventure game with semil-linear storyline
-games-action/d2x-rebirth 0.57.1: Descent Rebirth - enhanced Descent 2 engine
+games-action/d2x-rebirth 0.57.1 0.58.1: Descent Rebirth - enhanced Descent 2 engine
 games-action/d2x-xl 1.16.27 1.18.74: Descent 2 engine supporting high-resolution textures
 games-action/dxx-rebirth 0.59.100: Descent Rebirth - enhanced Descent 1 & 2 engine
 games-action/shadowgrounds-bin 1: an epic action experience combining modern technology with addictive playability
