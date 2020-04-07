@@ -11,7 +11,7 @@ DESCRIPTION=" Port of blueMSX to the libretro API"
 HOMEPAGE="https://github.com/libretro/blueMSX-libretro"
 KEYWORDS="amd64 x86"
 
-LICENSE="Unlicense"
+LICENSE="bluemsx"
 SLOT="0"
 
 DEPEND=""

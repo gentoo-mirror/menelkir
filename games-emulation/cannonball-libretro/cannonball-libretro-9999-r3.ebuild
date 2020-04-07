@@ -11,7 +11,7 @@ HOMEPAGE="https://github.com/libretro/cannonball"
 
 KEYWORDS=""
 
-LICENSE="cannoball"
+LICENSE="cannonball"
 SLOT="0"
 
 DEPEND=""
