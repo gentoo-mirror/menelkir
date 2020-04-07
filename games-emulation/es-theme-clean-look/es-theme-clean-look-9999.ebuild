@@ -10,7 +10,7 @@ HOMEPAGE="https://github.com/RetroPie/es-theme-clean-look"
 SRC_URI=""
 EGIT_REPO_URI="https://github.com/RetroPie/es-theme-clean-look"
 
-LICENSE="CC-BY-NC-SA-2.0"
+LICENSE="CC-BY-NC-SA-2.5"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~arm"
 IUSE=""

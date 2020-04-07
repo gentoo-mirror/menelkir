@@ -10,7 +10,7 @@ HOMEPAGE="https://github.com/RetroPie/es-theme-color-pi"
 SRC_URI=""
 EGIT_REPO_URI="https://github.com/RetroPie/es-theme-color-pi.git"
 
-LICENSE="CC-BY-NC-SA-2.0"
+LICENSE="CC-BY-NC-SA-2.5"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~arm"
 IUSE=""
