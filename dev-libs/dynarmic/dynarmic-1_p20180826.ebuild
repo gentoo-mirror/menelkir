@@ -12,7 +12,7 @@ SRC_URI="https://github.com/MerryMage/${PN}/archive/${COMMIT_SHA}.tar.gz -> ${P}
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="dev-libs/boost:="
