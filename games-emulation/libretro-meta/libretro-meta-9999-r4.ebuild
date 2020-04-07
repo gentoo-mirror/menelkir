@@ -7,7 +7,7 @@ DESCRIPTION="Meta package for various libretro implementations"
 HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="2048 3dengine 4do 81 atari800 bluemsx bnes bsnes cannonball cap32 chailove citra craft crocods desmume dinothawr dosbox fbalpha fbalpha2012 fceumm fceu-next flycast fmsx freeintv fuse gambatte genplus gme gpsp gw handy lutro mame mame2000 mame2003 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp mednafen-pce-fast mednafen-psx mednafen-saturn mednafen-bsnes mednafen-supergrafx mednafen-vb mednafen-wswan melonds meowpc98 meteor mgba mrboom nestopia nxengine o2em openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom prosystem puae px68k quicknes quasi88 redream reminiscence sameboy scummvm snes9x snes9x2002 snes9x2010 snes9x2014 stella tgbdual theodore tyrquake vba-next vbam vecx xrick yabause"
+IUSE="2048 3dengine 4do 81 atari800 bluemsx bnes bsnes cannonball cap32 citra craft crocods desmume dinothawr dosbox fbalpha fbalpha2012 fceumm fceu-next flycast fmsx freeintv fuse gambatte genplus gme gpsp gw handy lutro mame mame2000 mame2003 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp mednafen-pce-fast mednafen-psx mednafen-saturn mednafen-bsnes mednafen-supergrafx mednafen-vb mednafen-wswan melonds meowpc98 meteor mgba mrboom nestopia nxengine o2em openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom prosystem puae px68k quicknes quasi88 redream reminiscence sameboy scummvm snes9x snes9x2002 snes9x2010 stella2014 tgbdual theodore tyrquake vba-next vbam vecx xrick yabause"
 
 KEYWORDS="amd64 x86"
 
@@ -21,7 +21,6 @@ RDEPEND="2048? ( games-emulation/2048-libretro )
 		bsnes? ( games-emulation/bsnes-libretro )
 		cannonball? ( games-emulation/cannonball-libretro )
 		cap32? ( games-emulation/cap32-libretro )
-		chailove? ( games-emulation/chailove-libretro )
 		citra? ( games-emulation/citra-libretro )
 		craft? ( games-emulation/craft-libretro )
 		crocods? ( games-emulation/crocods-libretro )
@@ -86,8 +85,7 @@ RDEPEND="2048? ( games-emulation/2048-libretro )
 		snes9x? ( games-emulation/libretro-snes9x )
 		snes9x2002? ( games-emulation/snes9x2002-libretro )
 		snes9x2010? ( games-emulation/snes9x2010-libretro )
-		snes9x2014? ( games-emulation/snes9x2014-libretro )
-		stella? ( games-emulation/stella-libretro )
+		stella2014? ( games-emulation/stella2014-libretro )
 		tgbdual? ( games-emulation/tgbdual-libretro )
 		theodore? ( games-emulation/theodore-libretro )
 		tyrquake? ( games-emulation/tyrquake-libretro )
