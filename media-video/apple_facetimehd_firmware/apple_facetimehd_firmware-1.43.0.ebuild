@@ -5,7 +5,7 @@
 EAPI=5
 
 DESCRIPTION="Firmware for the Apple Facetime HD Camera"
-HOMEPAGE=""
+HOMEPAGE="https://www.apple.com"
 SRC_URI=""
 
 LICENSE=""
