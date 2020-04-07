@@ -3,8 +3,6 @@ app-cdr/xcdroast 1.19: Lightweight cdrtools front-end for CD and DVD writing
 app-crypt/cuda-rarcrypt 3.2-r1: A Nvidia GPU-based RAR bruteforcer
 app-emulation/dxvk 1.5.1 1.6 9999-r2: Vulkan-based D3D11 and D3D10 implementation for Linux / Wine
 app-emulation/protontricks 1.4.1: A simple wrapper that does winetricks things for Proton enabled games
-app-emulation/vmware-modules 331.1.7 361.1.0: VMware kernel modules
-app-emulation/vmware-workstation 14.1.7.12989993-r6 15.1.0.13591040-r4: Emulate a complete PC without the performance overhead of most emulators
 app-forensics/eagleeye 20191229: Find Friend's Instagram, FB and Twitter Profiles using Image Recognition and Reverse Image Search
 app-forensics/exploitdb 20191203 99999999: All exploits from exploit-db.com
 app-forensics/exploitdb-papers 20191203 99999999: Exploit database's papers
@@ -43,8 +41,6 @@ games-action/cave_story_plus 100: 2D action-adventure game with semil-linear sto
 games-action/d2x-rebirth 0.57.1 0.58.1: Descent Rebirth - enhanced Descent 2 engine
 games-action/d2x-xl 1.16.27 1.18.74: Descent 2 engine supporting high-resolution textures
 games-action/dxx-rebirth 0.59.100: Descent Rebirth - enhanced Descent 1 & 2 engine
-games-action/shadowgrounds-bin 1: an epic action experience combining modern technology with addictive playability
-games-action/shadowgrounds-survivor-bin 1: human survivors who battle against the ongoing alien onslaught
 games-arcade/canabalt 2p: Retro-styled 2D platformer-autorunner
 games-arcade/capsized 06102013: A fast paced 2d platformer, focused on intense action and exploration.
 games-arcade/edge 20130703: Develop your telekinetic strength by pushing a Cube within a geometric universe.
