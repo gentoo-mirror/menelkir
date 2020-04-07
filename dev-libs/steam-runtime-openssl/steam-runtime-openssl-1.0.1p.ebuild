@@ -17,7 +17,7 @@ SRC_URI="mirror://openssl/source/old/${PV%[a-z]}/${MY_P}.tar.gz
 LICENSE="openssl"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="bindist gmp kerberos rfc3779 cpu_flags_x86_sse2 static-libs test +tls-heartbeat vanilla zlib"
+IUSE="bindist gmp kerberos cpu_flags_x86_sse2 static-libs test vanilla zlib"
 RESTRICT="!bindist? ( bindist )"
 
 # The blocks are temporary just to make sure people upgrade to a
@@ -159,8 +159,8 @@ multilib_src_configure() {
 		enable-tlsext \
 		$(use_ssl gmp gmp -lgmp) \
 		$(use_ssl kerberos krb5 --with-krb5-flavor=${krb5}) \
-		$(use_ssl rfc3779) \
-		$(use_ssl tls-heartbeat heartbeats) \
+		rfc3779 \
+		heartbeats \
 		$(use_ssl zlib) \
 		--prefix="${EPREFIX}"/usr \
 		--openssldir="${EPREFIX}"${SSL_CNF_DIR} \
