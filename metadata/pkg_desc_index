@@ -41,9 +41,6 @@ games-action/cave_story_plus 100: 2D action-adventure game with semil-linear sto
 games-action/d2x-rebirth 0.57.1 0.58.1: Descent Rebirth - enhanced Descent 2 engine
 games-action/d2x-xl 1.16.27 1.18.74: Descent 2 engine supporting high-resolution textures
 games-action/dxx-rebirth 0.59.100: Descent Rebirth - enhanced Descent 1 & 2 engine
-games-arcade/canabalt 2p: Retro-styled 2D platformer-autorunner
-games-arcade/capsized 06102013: A fast paced 2d platformer, focused on intense action and exploration.
-games-arcade/edge 20130703: Develop your telekinetic strength by pushing a Cube within a geometric universe.
 games-arcade/megamario 1.6 1.7: Mario remake
 games-emulation/2048-libretro 1.0_pre20191224 9999-r3: Port of 2048 puzzle game to the libretro API. http://gabrielecirulli.github.io/2048/
 games-emulation/3dengine-libretro 1.0_pre20191224 9999-r3: 3D Engine for libretro GL with additional features (camera/location/etc). Should be compatible from libretro 3D/GLES 2.0 and up.
@@ -53,7 +50,7 @@ games-emulation/atari800-libretro 1.0_pre20191224 9999-r3: Atari800 libretro cor
 games-emulation/bluemsx-libretro 1.0_pre20191224 9999-r3: Port of blueMSX to the libretro API
 games-emulation/bnes-libretro 1.0_pre20191224 9999-r3: libretro implementation of bNES/higan. (Nintendo Entertainment System)
 games-emulation/bsnes-libretro 1.0_pre20200403 9999-r4: libretro implementation of bSNES/higan. (Super Nintendo Entertainment System)
-games-emulation/cannonball-libretro 1.0_pre20191224 9999-r3: An Enhanced OutRun Engine.
+games-emulation/cannonball-libretro 1.0_pre20200407 9999-r3: An Enhanced OutRun Engine.
 games-emulation/cap32-libretro 1.0_pre20191224 9999-r3: Caprice32 libretro core
 games-emulation/citra-libretro 0_p20200403: Multiplatform Sega Dreamcast emulator
 games-emulation/craft-libretro 1.0_pre20191224 9999-r3: libretro implementation of Craft. (Minecraft clone)
