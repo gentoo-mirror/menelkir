@@ -1,22 +1,20 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-EAPI="5"
-inherit versionator
-MY_PV=$(replace_version_separator 2 '-' )
+EAPI=7
+
+inherit git-r3
 
 DESCRIPTION="A wifi-protected-setup (WPS) brute force attack tool, similar to reaver"
-HOMEPAGE="https://github.com/aanarchyy/bully/"
-SRC_URI="https://github.com/aanarchyy/bully/archive/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/aanarchyy/bully/releases"
+EGIT_REPO_URI="https://github.com/aanarchyy/bully.git"
+EGIT_COMMIT="3ab3bc830738f447dce112e8551e3ac8193bf521"
+
 SLOT="0"
 LICENSE="GPL-3+ GPL-2 BSD"
 KEYWORDS="amd64 arm x86"
 
-DEPEND=">=dev-libs/openssl-1
-	net-libs/libpcap"
-
-S="${WORKDIR}/${PN}-${MY_PV}"
+DEPEND="net-libs/libpcap"
 
 src_compile() {
 	cd "${S}/src"

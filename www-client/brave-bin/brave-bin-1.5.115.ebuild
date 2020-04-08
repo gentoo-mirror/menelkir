@@ -1,7 +1,7 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 BRAVE_PN="${PN/-bin/}"
 
@@ -57,7 +57,7 @@ RDEPEND="
 	app-accessibility/at-spi2-atk
 	x11-libs/gtk+
 	x11-libs/gdk-pixbuf
-	virtual/libffi
+	dev-libs/libffi
 	dev-libs/libpcre
 	net-libs/gnutls
 	sys-libs/zlib
