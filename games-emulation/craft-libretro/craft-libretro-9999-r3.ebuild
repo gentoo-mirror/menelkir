@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -12,16 +12,12 @@ KEYWORDS=""
 
 LICENSE="Craft"
 SLOT="0"
-IUSE="gles2"
 
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
 src_compile() {
-	myemakeargs=(
-		$(usex gles2 "GLES=1" "GLES=0")
-	)
 	libretro-core_src_compile
 }
 

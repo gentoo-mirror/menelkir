@@ -20,16 +20,12 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="amd64 x86"
 
-RDEPEND="
-	dev-libs/crypto++
-	dev-libs/dynarmic
-	dev-libs/libfmt
-	net-libs/enet:1.3=
-"
-DEPEND="${RDEPEND}
-	dev-cpp/catch:0
-	dev-libs/xbyak
-	dev-util/nihstro
+RDEPEND="virtual/opengl
+	media-libs/libpng:=
+	sys-libs/zlib
+	media-libs/libsdl2
+	"
+DEPEND="${DEPEND}
 "
 
 PATCHES=(
@@ -38,7 +34,6 @@ PATCHES=(
 
 src_unpack() {
 	default
-	
 	mv "${WORKDIR}/citra-${LIBRETRO_COMMIT_SHA}" \
 		"${WORKDIR}/citra-libretro-${LIBRETRO_COMMIT_SHA}"
 
