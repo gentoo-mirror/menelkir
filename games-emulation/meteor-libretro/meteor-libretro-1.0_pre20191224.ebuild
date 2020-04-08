@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/meteor-libretro"
 LIBRETRO_COMMIT_SHA="3d21e3b5a7596918bee0fcaca5752ae76624c05e"
@@ -20,3 +20,9 @@ RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
 S="${S}/libretro"
+
+pkg_preinst() {
+	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
+		first_install="1"
+	fi
+}

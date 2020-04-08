@@ -1,52 +1,10 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
-# Minimum "cmake" version required by mGBA, defined *BEFORE* inheriting the
-# "cmake-utils" eclass.
 CMAKE_MIN_VERSION=2.8.11
-
-# Instruct "cmake" to *NOT* ignore unrecognized CLI options. (Why on Satan's
-# red earth is ignoring such options the eclass default?)
 CMAKE_WARN_UNUSED_CLI=1
-
-# Here's where things get confusing. Strap in, because you're in for a ride!
-# There exist two mGBA repositories:
-#
-# * "https://github.com/mgba-emu/mgba.git", the official mGBA repository.
-# * "https://github.com/libretro/mgba.git", the Libretro mGBA repository
-#
-# Since the latter tracks the former, the two superficially resemble one other.
-# All similarities end at their build systems, however. The former ships with:
-# 
-# * A dynamic "cmake"-based build system reading "CMakeLists.txt" as input and
-#   writing a "Makefile" as output. This system provides out-of-the-box support 
-#   for compiling the mGBA Libretro core via the "-DBUILD_LIBRETRO=1"
-#   configuration-time option.
-#
-# The latter ships with two (!) parallel build systems, only one of which is
-# documented and only one of which works (...and the documented system is not
-# the system that works):
-#
-# * A dynamic "cmake"-based build system reading "CMakeLists.txt" as input and
-#   overwriting the existing "Makefile" as output. Despite explicitly including
-#   a configuration-time option to enable Libretro support (e.g.,
-#   "-DBUILD_LIBRETRO=1"), this system fails to compile on enabling this option.
-# * An undocumented static "make"-based build system reading "Makefile" which
-#   reads "Makefile.libretro" as input. Unlike the prior system, this system
-#   actually succeeds in compiling the mGBA Libretro core. Unsurprisingly, this 
-#   is the system used by the official "libretro-super" project to build this
-#   core. Unfortunately, this system provides substantially fewer
-#   configuration-time options than the prior system.
-#
-# There exist two options, therefore: "cmake" in the official mGBA repository
-# and "make" in the Libretro mGBA repository. Since the former successfully
-# compiles the mGBA Libretro core *AND* provides substantially more 
-# configuration-time options, we prefer the former. Interestingly, this
-# archlinux PKGBUILD for the mGBA Libretro core has made a similar choice:
-#
-#     https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=libretro-mgba-git
 
 LIBRETRO_REPO_NAME="libretro/mgba"
 

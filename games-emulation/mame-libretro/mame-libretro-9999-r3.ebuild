@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -13,7 +13,7 @@ KEYWORDS=""
 LICENSE="MAME-GPL"
 SLOT="0"
 
-DEPEND=">=sys-devel/gcc-5.1"
+DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
@@ -45,5 +45,11 @@ src_prepare(){
 		if [[ $(grep ' #define BARE_BUILD_VERSION' makefile | grep -o -E '[0-9][0-9][0-9]') < 175 ]]; then
 			epatch "${FILESDIR}"/sdlmame-0.174-cxx14.patch || die "epatch failed!"
 		fi
+	fi
+}
+
+pkg_preinst() {
+	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
+		first_install="1"
 	fi
 }

@@ -5,6 +5,13 @@
 		<email>menelkir@itroll.org</email>
 		<name>Daniel Menelkir</name>
 	</maintainer>
+	<use>
+		<flag name="epoxy">Libepoxy support</flag>
+		<flag name="gles2">Enable support for GLES2</flag>
+		<flag name="lto">Build using Link Time Optimizations (LTO)</flag>
+		<flag name="pgo">Build using Profile Guided Optimization (PGO)</flag>
+		<flag name="pgopost">Make use of PGO</flag>
+	</use>
 	<longdescription lang="en">
 	</longdescription>
 </pkgmetadata>

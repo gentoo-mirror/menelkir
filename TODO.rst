@@ -47,5 +47,6 @@ TODO
         * vemulator-libretro
         * vice-libretro
 
-*Not Working*
-        * dolphin-libretro
+*QA*
+        * libretro-meta
+        * mame-libretro
