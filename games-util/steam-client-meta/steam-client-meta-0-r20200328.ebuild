@@ -33,6 +33,7 @@ RDEPEND="
 		amd64? (
 			!media-libs/mesa[-abi_x86_32]
 			!x11-misc/virtualgl[-abi_x86_32]
+			video_cards_nvidia? ( x11-drivers/nvidia-drivers[multilib] )
 			)
 
 		x86? (
@@ -50,7 +51,7 @@ RDEPEND="
 			media-libs/alsa-lib[abi_x86_32]
 			media-libs/fontconfig[abi_x86_32]
 			media-libs/freetype[abi_x86_32]
-			media-libs/libpng:1.2[abi_x86_32]
+			media-libs/libpng-compat:1.2[abi_x86_32]
 			media-libs/openal[abi_x86_32]
 			net-misc/curl[abi_x86_32]
 			net-misc/networkmanager[abi_x86_32]
@@ -63,7 +64,7 @@ RDEPEND="
 			x11-libs/gtk+:2[abi_x86_32,cups]
 			x11-libs/libICE[abi_x86_32]
 			x11-libs/libSM[abi_x86_32]
-			|| ( x11-libs/libva-compat:1[abi_x86_32] =x11-libs/libva-1*[abi_x86_32] )
+			x11-libs/libva-compat:1[abi_x86_32]
 			x11-libs/libvdpau[abi_x86_32]
 			x11-libs/libX11[abi_x86_32]
 			x11-libs/libXScrnSaver[abi_x86_32]
@@ -82,11 +83,6 @@ RDEPEND="
 			trayicon? ( dev-libs/libappindicator:2[abi_x86_32] )
 			pulseaudio? ( media-sound/pulseaudio[abi_x86_32,caps] )
 			!pulseaudio? ( media-sound/apulse[abi_x86_32] )
-
-			video_cards_nvidia? ( || (
-						<x11-drivers/nvidia-drivers-358
-						>=x11-drivers/nvidia-drivers-361.18
-						) )
 
 			amd64? (
 				>=sys-devel/gcc-4.6.0[multilib]

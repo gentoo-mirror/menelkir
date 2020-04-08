@@ -2,9 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>menelkir@itroll.org</email>
-		<name>Daniel Menelkir</name>
+		<email>dev@kicherer.org</email>
+		<name>Mario Kicherer</name>
 	</maintainer>
-	<longdescription lang="en">
+	<longdescription>
+		This ebuild installs common files for the Steam environment,
+		like bootstrap archive and icons, but not the client itself.
 	</longdescription>
+	<upstream>
+		<bugs-to>https://github.com/anyc/steam-overlay</bugs-to>
+	</upstream>
+	<use>
+		<flag name='steamruntime'>Use the official steam runtime libraries</flag>
+	</use>
 </pkgmetadata>
