@@ -1,11 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install unpack
-DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=EmulationStation theme nbba
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/RetroPie/es-theme-nbba
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=CC-BY-NC-SA-2.0
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=ffa42cbce1538d36087303c1f1732081
+_md5_=4c21974fa614f4ec34a5116f8a5198f3
