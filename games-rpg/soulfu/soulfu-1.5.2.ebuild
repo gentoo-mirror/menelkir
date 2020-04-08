@@ -1,10 +1,7 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/games-rpg/soulfu-1.5.2.ebuild,v 1.1 2008/09/08 13:18:32 frostwork Exp $
 
-EAPI="2"
-
-inherit games
+EAPI=7
 
 DESCRIPTION="Secret of Ultimate Legendary Fantasy: Unleashed"
 HOMEPAGE="http://www.soulfu.com/"
@@ -31,15 +28,11 @@ src_compile() {
 	emake || die "emake failed"
 }
 
-
 src_install() {
 	dogamesbin build/unix/${PN}
 	insinto "${GAMES_DATADIR}"/${PN}
 	doins -r sdf/datafile.sdf  || die "data install failed"
 	doicon "${FILESDIR}"/${PN}.png
 	make_desktop_entry ${PN}
-
 	prepgamesdirs
 }
-
-
