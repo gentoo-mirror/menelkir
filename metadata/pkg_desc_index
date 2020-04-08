@@ -157,25 +157,19 @@ media-fonts/steamfonts 1: Collection of fonts used by Valve's Steam client
 media-libs/celt 0.11.1-r1: CELT is a very low delay audio codec designed for high-quality communications
 media-libs/hal-flash 0.3.3-r1: libhal stub forwarding to UDisks for Adobe Flash to play DRM content
 media-plugins/gimp-plugin-bimp 2.3 9999: A GIMP plugin to apply a set of manipulations to groups of images
-media-sound/cadence 9999-r6: Collection of tools useful for audio production
-media-sound/carla 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
+media-sound/carla 2.0.0 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
 media-sound/munt 2.3.0 9999: Software synthesiser emulating pre-GM MIDI (e.g., Roland MT-32)
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 media-sound/spotify-adblock 1.1 9999: Spotify adblocker for linux
-media-sound/vgmplay 0.40.9 9999: Video game music (VGM) file command-line player
+media-tv/popcorntime-bin 0.3.10 0.4.3: Watch torrent movies instantly
+media-tv/stremio-shell 9999: Watch videos, movies, TV series and TV channels instantly. (Beta Version)
 media-video/apple_facetimehd_firmware 1.43.0: Firmware for the Apple Facetime HD Camera
 media-video/bcwc_pcie 9999: Reverse engineered Linux driver for the Broadcom 1570 PCIe webcam
-media-video/popcorntime-bin 0.3.10 0.4.3: Watch torrent movies instantly
-media-video/stremio-shell 9999: Watch videos, movies, TV series and TV channels instantly. (Beta Version)
 net-im/franz-bin 5.4.0: Free messaging app for services like WhatsApp, Slack, Messenger and many more
 net-im/jitsi-bin 2.10.5550 2.11.5602: Secure IM communicator that supports SIP, XMPP, AIM/ICQ, Windows Live, Yahoo
 net-im/ripcord-bin 0.4.21 0.4.24: a desktop chat client for group-centric services like Slack and Discord
 net-im/telegram-purple 9999-r2: Libpurple (Pidgin) plugin for using a Telegram account
-net-im/telepathy-mission-control 5.16.5: An account manager and channel dispatcher for the Telepathy framework
-net-im/telepathy-morse 0.1.0-r2 9999-r2: Telegram connection manager for Telepathy.
 net-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so. symlinks for compatibility with Debian
-net-libs/telegram-qt 0.1.0 9999: Telegram binding for Qt
-net-libs/telepathy-qt 9999: Qt bindings for the Telepathy D-Bus protocol
 net-misc/android-file-transfer-linux 3.9 9999: Reliable MTP client with minimalistic UI
 net-misc/megacmd 1.1.0 9999: Command Line Interactive and Scriptable Application to access MEGA
 net-misc/meganz-sdk 3.6.3 3.6.6 3.6.8: MEGA C++ SDK

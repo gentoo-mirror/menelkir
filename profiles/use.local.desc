@@ -174,6 +174,17 @@ media-fonts/powerline-fonts:symbolneu - Install Powerline-patched Symbol Neu fon
 media-fonts/powerline-fonts:terminus_pcf - Install Powerline-patched Terminus fonts in PCF format
 media-fonts/powerline-fonts:tinos - Install Powerline-patched Tinos fonts
 media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono fonts
+media-sound/carla:gtk2 - Use gtk-2 instead of gtk-3
+media-sound/carla:rdf - Enable LADSPA-RDF support
+media-sound/carla:sf2 - Enable builtin SF2 sample support using media-sound/fluidsynth
+media-sound/munt:alsa - Build Qt-based ALSA driver
+media-sound/munt:c - Build C-compatible API
+media-sound/munt:cpp - Expose C++ class ABI
+media-sound/munt:libsamplerate - Resample audio with Secret Rabbit Code (SRC)
+media-sound/munt:libsoxr - Resample audio with SoX Resampler (SoXR) (recommended)
+media-sound/munt:portaudio - Build Qt-based PortAudio driver
+media-sound/munt:pulseaudio - Build Qt-based PulseAudio driver
+media-sound/munt:smf2wav - Build "smf2wav" conversion utility
 www-client/torbrowser:clang - Use Clang compiler instead of GCC
 www-client/torbrowser:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
 www-client/torbrowser:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled.
