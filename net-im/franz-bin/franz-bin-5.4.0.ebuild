@@ -1,7 +1,7 @@
-# Copyright 2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 MY_PN="${PN/-bin/}"
 MY_PV="${PV/_beta/-beta.}"
@@ -16,7 +16,7 @@ SRC_URI="https://github.com/meetfranz/${MY_PN}/releases/download/v${MY_PV}/${MY_
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64"
-IUSE="gnome-keyring pax_kernel"
+IUSE="gnome-keyring"
 
 DEPEND=""
 RDEPEND="
@@ -70,7 +70,6 @@ src_install() {
 
 	insinto /usr/share/icons
 	doins -r usr/share/icons/.
-	use pax_kernel && pax-mark -m "${ED%/}"/opt/Franz/franz
 }
 
 pkg_postinst() {
@@ -84,4 +83,3 @@ pkg_postrm() {
 	xdg_mimeinfo_database_update
 	gnome2_icon_cache_update
 }
-
