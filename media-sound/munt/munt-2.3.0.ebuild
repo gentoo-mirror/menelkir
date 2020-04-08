@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="6"
+EAPI=7
 
 # "cmake-utils" phase functions take precedence over those defined by all other
 # eclasses and are thus inherited last.
@@ -21,11 +21,10 @@ SLOT="0"
 #FIXME: Add support for a new "clang" USE flag. Currently, Munt appears to
 #default to GCC and only fallback to clang in the absence of GCC.
 
-IUSE="alsa c cpp libsamplerate libsoxr portaudio pulseaudio qt4 +qt5 smf2wav static"
+IUSE="alsa c cpp libsamplerate libsoxr portaudio pulseaudio smf2wav static"
 REQUIRED_USE="
 	|| ( alsa portaudio pulseaudio )
 	?? ( libsamplerate libsoxr )
-	?? ( qt4 qt5 )
 "
 
 RDEPEND="
@@ -34,16 +33,9 @@ RDEPEND="
 	libsamplerate? ( media-libs/libsamplerate )
 	portaudio? ( media-libs/portaudio )
 	pulseaudio? ( media-sound/pulseaudio )
-	qt4? (
-		>=dev-qt/qtcore-4.6.0:4
-		>=dev-qt/qtgui-4.6.0:4
-		>=dev-qt/qtmultimedia-4.6.0:4
-	)
-	qt5? (
-		dev-qt/qtcore:5
-		dev-qt/qtgui:5
-		dev-qt/qtmultimedia:5
-	)
+	dev-qt/qtcore:5
+	dev-qt/qtgui:5
+	dev-qt/qtmultimedia:5
 	smf2wav? ( dev-libs/glib:2 )
 "
 DEPEND="${RDEPEND}
@@ -123,7 +115,7 @@ src_configure() {
 		# Options defined by the "mt32emu_qt/CMakeLists.txt" makefile.
 		-Dmt32emu-qt_WITH_ALSA_MIDI_SEQUENCER=$(usex alsa)
 		-Dmt32emu-qt_USE_PULSEAUDIO_DYNAMIC_LOADING=$(usex pulseaudio)
-		-Dmt32emu-qt_WITH_QT5=$(usex qt5)
+		-Dmt32emu-qt_WITH_QT5
 
 		# Options implicitly defined by the "mt32emu/CMakeLists.txt" makefile
 		# for use in conditionally disabling find_package() calls.
