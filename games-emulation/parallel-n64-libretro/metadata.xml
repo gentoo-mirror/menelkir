@@ -5,6 +5,10 @@
 		<email>menelkir@itroll.org</email>
 		<name>Daniel Menelkir</name>
 	</maintainer>
+	<use>
+		<flag name="gles2">Enable GLES2 support</flag>
+		<flag name="vulkan">Enable vulkan support</flag>
+	</use>
 	<longdescription lang="en">
 	</longdescription>
 </pkgmetadata>

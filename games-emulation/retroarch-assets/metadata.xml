@@ -5,6 +5,12 @@
 		<email>menelkir@itroll.org</email>
 		<name>Daniel Menelkir</name>
 	</maintainer>
+	<use>
+		<flag name="materialui">Enable materialui assets</flag>
+		<flag name="ozone">Emable ozone assets</flag>
+		<flag name="rgui">Enable rgui assets</flag>
+		<flag name="xmb">Enable xmb assets</flag>
+	</use>
 	<longdescription lang="en">
 	</longdescription>
 </pkgmetadata>

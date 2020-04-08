@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/PokeMini"
 LIBRETRO_COMMIT_SHA="444d8d081c28c1233ba2a19c0c7db0ffa70f02ff"
@@ -24,4 +24,3 @@ pkg_preinst() {
 		first_install="1"
 	fi
 }
-
