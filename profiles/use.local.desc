@@ -98,6 +98,12 @@ games-emulation/libretro-meta:vecx - GCE - Vectrex (vecx)
 games-emulation/libretro-meta:virtualjaguar - Atari - Jaguar (Virtual Jaguar)
 games-emulation/libretro-meta:xrick - Rick Dangerous (XRick)
 games-emulation/libretro-meta:yabause - Sega - Saturn (Yabause)"
+games-emulation/mgba-libretro:epoxy - Libepoxy support
+games-emulation/mgba-libretro:gles2 - Enable support for GLES2
+games-emulation/mgba-libretro:lto - Build using Link Time Optimizations (LTO)
+games-emulation/mgba-libretro:pgo - Build using Profile Guided Optimization (PGO)
+games-emulation/mgba-libretro:pgopost - Make use of PGO
+games-emulation/openlara-libretro:gles2 - Enable support for GLES2
 games-util/steam-client-meta:flash - Pull in www-plugins/adobe-flash for the internal browser
 games-util/steam-client-meta:steamfonts - Use official fonts from Valve's steam client
 games-util/steam-client-meta:steamruntime - Use the official steam runtime libraries
