@@ -2,6 +2,102 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+games-emulation/emulationstation-themes-meta:carbon - Carbon Theme
+games-emulation/emulationstation-themes-meta:carbon-centered - Carbon-Centered Theme
+games-emulation/emulationstation-themes-meta:carbon-nometa - Carbon theme without the metadata
+games-emulation/emulationstation-themes-meta:clean-look - Clean-Look Theme
+games-emulation/emulationstation-themes-meta:color-pi - Color-Pi Theme
+games-emulation/emulationstation-themes-meta:nbba - NBBA Theme
+games-emulation/emulationstation-themes-meta:pixel - Pixel Theme
+games-emulation/emulationstation-themes-meta:simple - Simple Theme
+games-emulation/emulationstation-themes-meta:simple-dark - Simple Dark Theme
+games-emulation/emulationstation-themes-meta:simplified-static-canela - Simplified Static Canela Theme
+games-emulation/emulationstation-themes-meta:turtle-pi - Turtle Pi Theme
+games-emulation/emulationstation-themes-meta:zoid - Zoid Theme
+games-emulation/libretro-meta:2048 - 2048 Game Clone
+games-emulation/libretro-meta:3dengine - Test Core - 3D Engine
+games-emulation/libretro-meta:81 - Sinclair - ZX 81 (EightyOne)
+games-emulation/libretro-meta:atari800 - Atari - 5200 (Atari800)
+games-emulation/libretro-meta:bluemsx - MSX/SVI/ColecoVision/SG-1000 (blueMSX)
+games-emulation/libretro-meta:bnes - Nintendo - NES / Famicom (bnes)
+games-emulation/libretro-meta:bsnes - Nintendo - SNES / SFC (bsnes)
+games-emulation/libretro-meta:cannonball - OutRun Engine
+games-emulation/libretro-meta:cap32 - Amstrad - CPC (Caprice32)
+games-emulation/libretro-meta:citra - Nintendo - 3DS (Citra)
+games-emulation/libretro-meta:craft - Minecraft (Craft)
+games-emulation/libretro-meta:crocods - Amstrad - CPC (CrocoDS)
+games-emulation/libretro-meta:desmume - Nintendo - DS (DeSmuME)
+games-emulation/libretro-meta:dinothawr - Dinothawr
+games-emulation/libretro-meta:dosbox - DOS (DOSBox)
+games-emulation/libretro-meta:fbalpha - Arcade (FB Alpha)
+games-emulation/libretro-meta:fbalpha2012 - Arcade (FB Alpha 2012)
+games-emulation/libretro-meta:fceu-next - Nintendo - NES / Famicom(FCEUmm/FCEUX)
+games-emulation/libretro-meta:fceumm - Nintendo - NES / Famicom (FCEUmm)
+games-emulation/libretro-meta:flycast - Sega - Dreamcast/NAOMI (Flycast)
+games-emulation/libretro-meta:fmsx - Microsoft - MSX (fMSX)
+games-emulation/libretro-meta:freeintv - Mattel - Intellivision (FreeIntv)
+games-emulation/libretro-meta:fuse - ZX Spectrum (Fuse)
+games-emulation/libretro-meta:gambatte - Nintendo - Game Boy / Color (Gambatte)
+games-emulation/libretro-meta:genplus - Sega - MS/GG/MD/CD (Genesis Plus GX)
+games-emulation/libretro-meta:gme - Game Music Emu
+games-emulation/libretro-meta:gpsp - Nintendo - Game Boy Advance (gpSP)
+games-emulation/libretro-meta:gw - Handheld Electronic (GW)
+games-emulation/libretro-meta:handy - Atari - Lynx (Handy)
+games-emulation/libretro-meta:lutro - Lua Engine (Lutro)
+games-emulation/libretro-meta:mame - Arcade (MAME)
+games-emulation/libretro-meta:mame2000 - Arcade (MAME 2000)
+games-emulation/libretro-meta:mame2003 - Arcade (MAME 2003)
+games-emulation/libretro-meta:mame2010 - Arcade (MAME 2010)
+games-emulation/libretro-meta:mame2015 - Arcade (MAME 2015)
+games-emulation/libretro-meta:mame2016 - Arcade (MAME 2016)
+games-emulation/libretro-meta:mednafen-bsnes - Nintendo - SNES / SFC (Beetle bsnes)
+games-emulation/libretro-meta:mednafen-gba - Nintendo - Game Boy Advance (Beetle GBA)
+games-emulation/libretro-meta:mednafen-lynx - Atari - Lynx (Beetle Handy)
+games-emulation/libretro-meta:mednafen-ngp - SNK - Neo Geo Pocket / Color (Beetle NeoPop)
+games-emulation/libretro-meta:mednafen-pce-fast - NEC - PC Engine / CD (Beetle PCE FAST)
+games-emulation/libretro-meta:mednafen-pcfx - NEC - PC-FX (Beetle PC-FX)
+games-emulation/libretro-meta:mednafen-psx - Sony - PlayStation (Beetle PSX)
+games-emulation/libretro-meta:mednafen-saturn - Sega - Saturn (Beetle Saturn)
+games-emulation/libretro-meta:mednafen-supergrafx - NEC - PC Engine SuperGrafx (Beetle SuperGrafx)
+games-emulation/libretro-meta:mednafen-vb - Nintendo - Virtual Boy (Beetle VB)
+games-emulation/libretro-meta:mednafen-wswan - Bandai - WonderSwan/Color (Beetle Cygne)
+games-emulation/libretro-meta:melonds - Nintendo - DS (melonDS)
+games-emulation/libretro-meta:meowpc98 - NEC - PC-98 (Neko Project II)
+games-emulation/libretro-meta:meteor - Nintendo - Game Boy Advance (Meteor)
+games-emulation/libretro-meta:mgba - Nintendo - Game Boy Advance (mGBA)
+games-emulation/libretro-meta:mrboom - Mr.Boom (Bomberman)
+games-emulation/libretro-meta:nestopia - Nintendo - NES / Famicom (Nestopia UE)
+games-emulation/libretro-meta:nxengine - Cave Story (NXEngine)
+games-emulation/libretro-meta:o2em - Magnavox - Odyssey2 / Phillips Videopac+ (O2EM)
+games-emulation/libretro-meta:openlara - Tomb Raider (OpenLara)
+games-emulation/libretro-meta:parallel-n64 - Nintendo - Nintendo 64 (ParaLLEl N64)
+games-emulation/libretro-meta:pcsx-rearmed - Sony - PlayStation (PCSX ReARMed)
+games-emulation/libretro-meta:picodrive - Sega - MS/MD/CD/32X (PicoDrive)
+games-emulation/libretro-meta:pocketcdg - PocketCDG
+games-emulation/libretro-meta:pokemini - Nintendo - Pokemon Mini (PokeMini)
+games-emulation/libretro-meta:prboom - Doom (PrBoom)
+games-emulation/libretro-meta:prosystem - Atari - 7800 (ProSystem)
+games-emulation/libretro-meta:puae - Commodore - Amiga (P-UAE)
+games-emulation/libretro-meta:px68k - Sharp - X68000 (PX68k)
+games-emulation/libretro-meta:quasi88 - NEC - PC-8000 / PC-8800 series (QUASI88)
+games-emulation/libretro-meta:quicknes - Nintendo - NES / Famicom (QuickNES)
+games-emulation/libretro-meta:redream - Sega - Dreamcast (Redream GPL)
+games-emulation/libretro-meta:reminiscence - Flashback (REminiscence)
+games-emulation/libretro-meta:sameboy - Nintendo - Game Boy / Color (SameBoy)
+games-emulation/libretro-meta:scummvm - ScummVM
+games-emulation/libretro-meta:snes9x - Nintendo - SNES / SFC (Snes9x - Current)
+games-emulation/libretro-meta:snes9x2002 - Nintendo - SNES / SFC (Snes9x 2002)
+games-emulation/libretro-meta:snes9x2010 - Nintendo - SNES / SFC (Snes9x 2010)
+games-emulation/libretro-meta:stella2014 - Atari - 2600 (Stella 2014)
+games-emulation/libretro-meta:tgbdual - Nintendo - Game Boy / Color (TGB Dual)
+games-emulation/libretro-meta:theodore - Thomson - MO/TO (Theodore)
+games-emulation/libretro-meta:tyrquake - Quake (TyrQuake)
+games-emulation/libretro-meta:vba-next - Nintendo - Game Boy Advance (VBA Next)
+games-emulation/libretro-meta:vbam - Nintendo - Game Boy Advance (VBA-M)
+games-emulation/libretro-meta:vecx - GCE - Vectrex (vecx)
+games-emulation/libretro-meta:virtualjaguar - Atari - Jaguar (Virtual Jaguar)
+games-emulation/libretro-meta:xrick - Rick Dangerous (XRick)
+games-emulation/libretro-meta:yabause - Sega - Saturn (Yabause)"
 games-util/steam-client-meta:flash - Pull in www-plugins/adobe-flash for the internal browser
 games-util/steam-client-meta:steamfonts - Use official fonts from Valve's steam client
 games-util/steam-client-meta:steamruntime - Use the official steam runtime libraries
