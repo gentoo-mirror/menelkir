@@ -2,8 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-COMMIT_SHA="fd69de1a1b960ec296cc67d32257b0f9e2d89ac6"
 
+COMMIT_SHA="fd69de1a1b960ec296cc67d32257b0f9e2d89ac6"
 inherit cmake-utils vcs-snapshot
 
 DESCRIPTION="3DS shader assembler and disassembler"

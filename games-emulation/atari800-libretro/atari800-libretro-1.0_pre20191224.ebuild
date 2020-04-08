@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/libretro-atari800"
 LIBRETRO_COMMIT_SHA="efc0bc71e3cb8a4f957d07fe808cc002ed9c13b9"

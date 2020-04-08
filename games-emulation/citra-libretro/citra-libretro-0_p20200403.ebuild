@@ -9,7 +9,7 @@ SOUNDTOUCH_COMMIT_SHA="060181eaf273180d3a7e87349895bd0cb6ccbf4a"
 
 inherit cmake-utils libretro-core toolchain-funcs
 
-DESCRIPTION="Multiplatform Sega Dreamcast emulator"
+DESCRIPTION="Libretro implementation for 3DS emulator"
 HOMEPAGE="https://github.com/libretro/citra"
 SRC_URI="
 	https://github.com/${LIBRETRO_REPO_NAME}/archive/${LIBRETRO_COMMIT_SHA}.tar.gz -> ${P}.tar.gz
@@ -66,4 +66,10 @@ src_compile() {
 src_install() {
 	LIBRETRO_CORE_LIB_FILE="${BUILD_DIR}/src/citra_libretro/${LIBRETRO_CORE_NAME}_libretro.so" \
                 libretro-core_src_install
+}
+
+pkg_preinst() {
+	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
+		first_install="1"
+	fi
 }

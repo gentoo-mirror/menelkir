@@ -1,7 +1,7 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/dosbox-libretro"
 LIBRETRO_COMMIT_SHA="e4ed503b14ed59d5d745396ef1cc7d52cf912328"

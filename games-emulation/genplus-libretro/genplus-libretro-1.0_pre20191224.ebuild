@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/Genesis-Plus-GX"
 LIBRETRO_COMMIT_SHA="c826d74a4f3769b85402805a1e003c1e1a7fa251"

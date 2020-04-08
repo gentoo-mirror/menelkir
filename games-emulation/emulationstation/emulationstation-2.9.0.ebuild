@@ -35,6 +35,12 @@ src_install() {
 	domenu "${FILESDIR}/emulationstation.desktop"
 }
 
+pkg_preinst() {
+	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
+		first_install="1"
+	fi
+}
+
 pkg_postinst() {
 	ewarn ""
 	ewarn "The first start of Emulation Station will fail but also creates"

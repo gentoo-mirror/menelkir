@@ -11,7 +11,6 @@ HOMEPAGE="https://github.com/RetroPie/EmulationStation"
 LICENSE="emulationstation"
 SLOT="0"
 KEYWORDS=""
-IUSE="+themes"
 
 EGIT_REPO_URI="https://github.com/RetroPie/EmulationStation.git"
 SRC_URI=""
@@ -28,9 +27,7 @@ COMMON_DEPEND="
 	dev-libs/pugixml
 	dev-libs/rapidjson
 "
-RDEPEND="${COMMON_DEPEND}
-	themes? ( games-emulation/emulationstation-themes-meta )
-"
+RDEPEND="${COMMON_DEPEND}"
 DEPEND="${COMMON_DEPEND}"
 
 src_prepare() {
@@ -59,14 +56,13 @@ pkg_preinst() {
 }
 
 pkg_postinst() {
-	if [[ "${first_install}" == "1" ]]; then
-		ewarn ""
-		ewarn "The first start of Emulation Station will fail but also creates"
-		ewarn "an example config file at \"\${HOME}/.emulationstation/es_systems.cfg\""
-		ewarn ""
-		elog ""
-		elog "Current valid platform names for scraping can be found at:"
-		elog "\"https://github.com/RetroPie/EmulationStation/blob/master/es-app/src/PlatformId.cpp\""
-		elog ""
-	fi
+	ewarn ""
+	ewarn "The first start of Emulation Station will fail but also creates"
+	ewarn "an example config file at \"\${HOME}/.emulationstation/es_systems.cfg\""
+	ewarn ""
+	ewarn "Also, don't forget to install some themes."
+	elog ""
+	elog "Current valid platform names for scraping can be found at:"
+	elog "\"https://github.com/RetroPie/EmulationStation/blob/master/es-app/src/PlatformId.cpp\""
+	elog ""
 }

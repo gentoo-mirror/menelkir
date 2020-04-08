@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/fmsx-libretro"
 LIBRETRO_COMMIT_SHA="c76e1dc09b567ce620c09fc5adde1fc7033d30b6"
@@ -23,4 +23,3 @@ pkg_preinst() {
 		first_install="1"
 	fi
 }
-
