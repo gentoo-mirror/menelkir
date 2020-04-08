@@ -5,6 +5,7 @@ EAPI=7
 HOMEPAGE=http://torchlight2game.com/
 KEYWORDS=-* ~amd64 ~x86
 LICENSE=all-rights-reserved
+RDEPEND=
 RESTRICT=fetch
 SLOT=0
 SRC_URI=Torchlight2-linux-2015-04-01.sh
