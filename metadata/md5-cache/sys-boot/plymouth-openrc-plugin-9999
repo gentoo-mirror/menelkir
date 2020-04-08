@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=sys-apps/openrc:= sys-boot/plymouth
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=26cdf442656533cedfc541465a8f47c5
+_md5_=3e6500919c8a67afa179cf4885687015
