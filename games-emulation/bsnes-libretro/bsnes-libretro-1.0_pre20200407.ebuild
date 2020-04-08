@@ -4,6 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/bsnes-libretro"
+LIBRETRO_COMMIT_SHA="95350550af6c76b57593dea980b5c3a27e5bf09e"
 
 inherit libretro-core
 
