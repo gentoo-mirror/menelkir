@@ -16,6 +16,7 @@ some personal modifications. The follow repositories was used (sorry if I forgot
 :Vortex: https://github.com/nE0sIghT/vortex-overlay
 :Tastytea: https://schlomp.space/tastytea/overlay
 :4nykey: https://github.com/4nykey/4nykey
+:Guru: https://wiki.gentoo.org/wiki/Project:GURU
 
 =================================
 How to Contribute to this Overlay
