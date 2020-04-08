@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/libretro-lutro"
 LIBRETRO_COMMIT_SHA="6e7c0de593f2dce3aa2035df9a4c4136e56595e7"
@@ -23,4 +23,3 @@ pkg_preinst() {
 		first_install="1"
 	fi
 }
-

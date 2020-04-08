@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/opera-libretro"
 LIBRETRO_COMMIT_SHA="27bc2653ed469072a6a95102a8212a35fbb1e590"
