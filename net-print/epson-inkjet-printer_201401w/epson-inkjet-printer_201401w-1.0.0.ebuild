@@ -1,14 +1,13 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
-EAPI=5
+EAPI=7
 
 inherit rpm autotools
 
 MY_PN=${PN%_*}-${PN##*_}
 
-DESCRIPTION="Epson driver (L130, L132, L220, L222, L310, L312, L360, L362, L365, L366, L455, L456)"
+DESCRIPTION="Epson drivers for L1xx, L2xx, L3xx and L4xx printers"
 
 HOMEPAGE="http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 	http://www.openprinting.org/driver/epson-201207w"
@@ -39,7 +38,7 @@ src_configure() {
 src_install() {
 	insinto /opt/${MY_PN}/cups/lib/filter
 	doins src/epson_inkjet_printer_filter
-	chmod 755 ${D}/opt/${MY_PN}/cups/lib/filter/epson_inkjet_printer_filter
+	chmod 755 "${D}"/opt/"${MY_PN}"/cups/lib/filter/epson_inkjet_printer_filter
 
 	use amd64 && X86LIB=64
 

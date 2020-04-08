@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~arm ~x86
 LICENSE=MIT
 RDEPEND=dev-libs/openssl:* sys-libs/zlib net-misc/curl net-libs/libpcap:=
 SLOT=0
-SRC_URI=https://github.com/ZerBea/hcxtools/archive/6.0.2.tar.gz -> hcxtools-6.0.2.tar.gz
-_md5_=eb6a6a5ed3da0f7e73a586ebbc4dd58b
+SRC_URI=https://github.com/ZerBea/hcxtools/archive/5.3.0.tar.gz -> hcxtools-5.3.0.tar.gz
+_md5_=0f75a23cce50c66d622fe1647cb0a9a8

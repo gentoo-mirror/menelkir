@@ -5,6 +5,9 @@
 		<email>menelkir@itroll.org</email>
 		<name>Daniel Menelkir</name>
 	</maintainer>
+	<use>
+		<flag name="dict">Use dictionaries</flag>
+	</use>
 	<longdescription lang="en">
 	</longdescription>
 </pkgmetadata>

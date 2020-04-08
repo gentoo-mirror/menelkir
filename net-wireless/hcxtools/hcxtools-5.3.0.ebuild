@@ -12,10 +12,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~x86"
 IUSE=""
 
-DEPEND="dev-libs/openssl:*
+DEPEND="
+	dev-libs/openssl:*
 	sys-libs/zlib
 	net-misc/curl
 	net-libs/libpcap:="
+
 RDEPEND="${DEPEND}"
 
 src_install(){

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<maintainer type="person">
-		<email>menelkir@itroll.org</email>
-		<name>Daniel Menelkir</name>
+	<maintainer type="project">
+		<email>proxy-maint@gentoo.org</email>
+		<name>Proxy Maintainers</name>
 	</maintainer>
-	<longdescription lang="en">
-	</longdescription>
+	<use>
+		<flag name="dict">Add support <pkg>sys-apps/cracklib-words</pkg> (large set of crack/cracklib dictionaries)</flag>
+	</use>
 </pkgmetadata>
