@@ -1,6 +1,5 @@
 BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=
 DESCRIPTION=Multiplatform Sega Dreamcast emulator
 EAPI=7
 HOMEPAGE=https://github.com/libretro/citra
