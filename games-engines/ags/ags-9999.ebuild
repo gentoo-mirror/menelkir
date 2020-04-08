@@ -1,12 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
-
-#FIXME: Donate the entirety of this package to "gamerlay", which maintains a
-#competing (albeit significantly out-of-date) package of the same name. As we
-#lack the time and interest to actively maintain this package, donating it to
-#"gamerlay" will at least ensure its continued longevity.
+EAPI=7
 
 inherit eutils readme.gentoo-r1
 
@@ -15,10 +10,6 @@ HOMEPAGE="
 	http://www.adventuregamestudio.co.uk
 	https://github.com/adventuregamestudio/ags"
 
-#FIXME: Add "html" USE flag. When enabled, run
-#"Manual/compile_documentation_unix.sh" in the src_compile() phase to compile
-#HTML documentation into the "Manual/html" subdirectory, which the src_install()
-#phase should then manually install.
 LICENSE="Artistic-2"
 SLOT="0"
 KEYWORDS=""

@@ -5,6 +5,9 @@
 		<email>menelkir@itroll.org</email>
 		<name>Daniel Menelkir</name>
 	</maintainer>
+	<use>
+		<flag name="gtk3">Enable GTK3 support</flag>
+	</use>
 	<longdescription lang="en">
 	</longdescription>
 </pkgmetadata>

@@ -1,7 +1,7 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 inherit eutils cmake-utils
 
@@ -15,10 +15,10 @@ LICENSE="GPL-3"
 SLOT="0"
 IUSE="+gtk3"
 
-RDEPEND="gtk3? ( x11-libs/gtk+:3 )
+RDEPEND="gtk3? ( >=x11-libs/gtk+-3.24 )
 	media-libs/libsdl2
 	virtual/glu
-	virtual/jpeg:62
+	virtual/jpeg
 	virtual/opengl"
 
 DEPEND="${RDEPEND}
