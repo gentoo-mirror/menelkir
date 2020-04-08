@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/prosystem-libretro"
 LIBRETRO_COMMIT_SHA="cb4aa3ee72f98b0891a7bac5c9dac458cdba4d34"

@@ -16,12 +16,12 @@ LICENSE="GPL-2"
 SLOT="0"
 IUSE="gles2 vulkan"
 
-DEPEND="media-libs/mesa:0=
-		gles2? ( media-libs/mesa[gles2] )
-		media-libs/libpng:0=
-		dev-lang/nasm:0="
-RDEPEND="${DEPEND}
-		games-emulation/libretro-info"
+RDEPEND="media-libs/mesa:0=
+	gles2? ( media-libs/mesa[gles2] )
+	media-libs/libpng:0="
+DEPEND="${RDEPEND}
+	dev-lang/nasm:0=
+	games-emulation/libretro-info"
 
 src_compile() {
 	myemakeargs=(

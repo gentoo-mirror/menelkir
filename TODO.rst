@@ -50,3 +50,4 @@ TODO
 *QA*
         * libretro-meta
         * mame-libretro
+        * sameboy-libretro

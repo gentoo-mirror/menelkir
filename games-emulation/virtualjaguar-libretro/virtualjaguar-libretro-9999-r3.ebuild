@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/virtualjaguar-libretro"
 LIBRETRO_COMMIT_SHA="1c3ea561b8ca00ff323a051393e7274dff729de9"
@@ -24,4 +24,3 @@ pkg_preinst() {
 		first_install="1"
 	fi
 }
-

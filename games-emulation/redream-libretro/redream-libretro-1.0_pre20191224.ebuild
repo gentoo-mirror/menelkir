@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/redream"
 LIBRETRO_COMMIT_SHA="3dfea38c8200152e53a228df9bc5c2d0dc146516"
