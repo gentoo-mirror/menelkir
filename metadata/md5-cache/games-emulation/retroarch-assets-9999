@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=materialui? ( !!<games-emulation/retroarch-1.7.8 ) ozone? ( !!<games-emulation/retroarch-1.7.8 ) rgui? ( !!<games-emulation/retroarch-1.7.8 ) xmb? ( !!<games-emulation/retroarch-1.7.8 )
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=beeb4a871704ca42e5f587c41adf2231
+_md5_=dd74ef4446bc2bf5ad890660f1e3c64f
