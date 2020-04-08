@@ -232,7 +232,6 @@ x11-drivers/nvidia-drivers 440.64-r1: NVIDIA Accelerated Graphics Driver
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2: Settings editor for LightDM GTK+ greeter
-x11-misc/variety 0.7.2: Wallpaper changer for Linux
 x11-plugins/purple-icyque 9999: ICQ WIM protocol for libpurple
 x11-themes/arc-kde 20180614: Arc KDE customization
 x11-themes/numix-gtk-theme-dark 2.4: Numix GTK Theme
