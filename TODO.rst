@@ -9,6 +9,7 @@ TODO
         * bsnes-libretro-cplusplus98
         * chailove-libretro
         * daphne-libretro
+        * dolphin-libretro
         * easyrpg-libretro
         * emux-chip8-libretro
         * emux-gb-libretro
