@@ -146,11 +146,6 @@ games-rpg/zeldaroth 6.11: The Legend of Zelda - Return of the Hylian
 games-simulation/babylon5-ifh-dao 1.15: Danger and Opportunity - a prequel for Babylon 5: I've Found Her
 games-sports/stuntrally 2.6 9999: Rally game focused on closed rally tracks with possible stunt elements.
 games-sports/stuntrally-tracks 2.6 9999: A set of tracks for games-sports/stuntrally-9999
-games-strategy/opendungeons 0.7.1 9999: An open source, real time strategy game based on the Dungeon Keeper series
-games-strategy/opendungeons-data 9999: Data files for opendungeons
-games-strategy/vcmi 0.98 9999: Heroes of Might and Magic III game engine rewrite
-games-strategy/vcmi-data 0.90: Core data for vcmi
-games-strategy/wyrmsun 2.7.1: Strategy game based on history, mythology and fiction
 games-util/rejoystick 0.8.1: Tool which translates gamepad/joystick input into key strokes/mouse actions in X
 games-util/steam-client-meta 0-r20200328: Meta package for Valve's native Steam client
 games-util/steam-launcher 1.0.0.62: Installer, launcher and supplementary files for Valve's Steam client
@@ -158,11 +153,10 @@ kde-apps/konsole 9999: KDE's terminal emulator
 kde-apps/yakuake 9999: Quake-style terminal emulator based on konsole
 mail-client/mailspring-libre-bin 1.7.2-r2: Fork aiming at removing Mailspring's dependecy on a central server
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
-media-fonts/powerline-symbols 9999: OpenType Unicode font containing only Powerline-specific symbols.
 media-fonts/steamfonts 1: Collection of fonts used by Valve's Steam client
 media-libs/celt 0.11.1-r1: CELT is a very low delay audio codec designed for high-quality communications
 media-libs/hal-flash 0.3.3-r1: libhal stub forwarding to UDisks for Adobe Flash to play DRM content
-media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipulations to groups of images
+media-plugins/gimp-plugin-bimp 2.3 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/cadence 9999-r6: Collection of tools useful for audio production
 media-sound/carla 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
 media-sound/munt 2.3.0 9999: Software synthesiser emulating pre-GM MIDI (e.g., Roland MT-32)
