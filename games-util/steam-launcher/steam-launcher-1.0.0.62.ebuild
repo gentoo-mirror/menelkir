@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -6,18 +6,17 @@ EAPI=7
 # Please report bugs/suggestions on: https://github.com/anyc/steam-overlay
 # or come to #gentoo-gamerlay in freenode IRC
 
-inherit desktop linux-info prefix toolchain-funcs udev xdg-utils
+inherit linux-info prefix udev xdg-utils
 
 DESCRIPTION="Installer, launcher and supplementary files for Valve's Steam client"
-HOMEPAGE="http://steampowered.com"
-SRC_URI="http://repo.steampowered.com/steam/pool/steam/s/steam/steam_${PV}.tar.gz"
+HOMEPAGE="https://steampowered.com"
+SRC_URI="https://repo-steampowered-com.steamos.cloud/steam/pool/steam/s/steam/steam_${PV}.tar.gz"
 
-KEYWORDS="~amd64 ~x86"
-LICENSE="ValveSteamLicense"
-
-RESTRICT="bindist mirror"
+LICENSE="ValveSteamLicense MIT"
 SLOT="0"
+KEYWORDS="~amd64 ~x86"
 IUSE="+steamruntime"
+RESTRICT="bindist mirror test"
 
 RDEPEND="
 		app-arch/tar
@@ -48,14 +47,7 @@ RDEPEND="
 			>=sys-libs/glibc-2.15
 			)"
 
-S=${WORKDIR}/steam/
-
-PATCHES=(
-	"${FILESDIR}"/steam-runtime-default.patch
-	"${FILESDIR}"/steam-set-distrib-release.patch
-	"${FILESDIR}"/steam-fix-joystick-detection.patch
-	"${FILESDIR}"/steam-libraries.patch
-)
+S="${WORKDIR}/${PN}"
 
 pkg_setup() {
 	linux-info_pkg_setup
@@ -95,48 +87,31 @@ src_prepare() {
 	default
 
 	sed -i 's:TAG+="uaccess":\0, TAG+="udev-acl":g' \
-		lib/udev/rules.d/60-steam-input.rules || die
+		subprojects/steam-devices/*.rules || die
 
-	sed -i \
+	sed \
+		-e "s#@@PVR@@#${PVR}#g" \
 		-e "s#@@GENTOO_LD_LIBRARY_PATH@@#$(multilib_path_entries debiancompat fltk)#g" \
-		-e "s#@@GENTOO_LD_PRELOAD@@#$(native_path_entries libsteam-preload.so)#g" \
 		-e "s#@@STEAM_RUNTIME@@#$(usex steamruntime 1 0)#g" \
-		steam || die
-
-	# use steam launcher version as release number as it is a bit more helpful than the baselayout version
-	sed -i -e "s,export DISTRIB_RELEASE=\"2.2\",export DISTRIB_RELEASE=\"${PVR}\"," steam || die
+		"${FILESDIR}"/steam-wrapper.sh > steam-wrapper.sh || die
 
 	# Still need EPREFIX in the sed replacements above because the
 	# regular expression used by hprefixify doesn't match there.
-	hprefixify steam
-}
-
-src_compile() {
-	$(tc-getCC) ${CFLAGS} ${LDFLAGS} -fPIC -DGLIBDIR="${EPREFIX}/usr/$(get_libdir)" -shared \
-				"${FILESDIR}"/libsteam-preload.c -ldl -Wl,-soname=libsteam-preload.so -o libsteam-preload.so || die
+	hprefixify bin_steam.sh steam-wrapper.sh
 }
 
 src_install() {
-	dobin steam
-	dolib.so libsteam-preload.so
+	emake install-{icons,bootstrap,desktop} \
+		  DESTDIR="${D}" PREFIX="${EPREFIX}/usr"
 
-	insinto /usr/lib/steam/
-	doins bootstraplinux_ubuntu12_32.tar.xz
+	newbin steam-wrapper.sh steam
+	exeinto /usr/lib/steam
+	doexe bin_steam.sh
 
-	udev_dorules lib/udev/rules.d/60-steam-input.rules lib/udev/rules.d/60-steam-vr.rules
-
-	dodoc debian/changelog steam_subscriber_agreement.txt
+	dodoc README debian/changelog
 	doman steam.6
 
-	domenu steam.desktop
-
-	cd icons/ || die
-	for s in * ; do
-		doicon -s ${s} ${s}/steam.png
-	done
-
-	# tgz archive contains no separate pixmap, see #38
-	doicon 48/steam_tray_mono.png
+	udev_dorules subprojects/steam-devices/60-steam-{input,vr}.rules
 }
 
 pkg_postinst() {
