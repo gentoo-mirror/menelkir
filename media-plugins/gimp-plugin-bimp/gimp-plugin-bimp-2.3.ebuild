@@ -3,12 +3,12 @@
 
 EAPI=7
 
-inherit git-r3 toolchain-funcs l10n
+inherit toolchain-funcs l10n git-r3
 
 DESCRIPTION="A GIMP plugin to apply a set of manipulations to groups of images"
 HOMEPAGE="http://www.alessandrofrancesconi.it/projects/bimp/"
-EGIT_REPO_URI="https://github.com/alessandrofrancesconi/${PN}.git"
-KEYWORDS=""
+SRC_URI="https://github.com/alessandrofrancesconi/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-2+"
 SLOT="0"
