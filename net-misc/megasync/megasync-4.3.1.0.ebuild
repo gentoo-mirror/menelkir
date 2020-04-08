@@ -5,22 +5,10 @@ EAPI=7
 
 CMAKE_USE_DIR="${S}/src/MEGAShellExtDolphin"
 CMAKE_IN_SOURCE_BUILD=y
-inherit cmake-utils qmake-utils xdg
-if [[ -z ${PV%%*9999} ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/meganz/${PN}.git"
-	EGIT_SUBMODULES=( -src/MEGASync/mega )
-	SRC_URI=
-else
-	inherit vcs-snapshot
-	MY_PV="54d4bea"
-	SRC_URI="
-		mirror://githubcl/meganz/${PN}/tar.gz/${MY_PV}
-		-> ${P}.tar.gz
-	"
-	RESTRICT="primaryuri"
-	KEYWORDS="~amd64 ~x86"
-fi
+inherit cmake-utils qmake-utils xdg vcs-snapshot
+SRC_URI="https://www.github.com/meganz/MEGAsync/archive/v${PV}_Linux.tar.gz -> ${P}.tar.gz"
+RESTRICT="primaryuri"
+KEYWORDS="~amd64 ~x86"
 
 DESCRIPTION="Easy automated syncing with MEGA Cloud Drive"
 HOMEPAGE="https://github.com/meganz/MEGAsync"
@@ -31,7 +19,7 @@ SLOT="0"
 IUSE="dolphin nautilus thunar"
 
 RDEPEND="
-	>=net-misc/meganz-sdk-3.6.8_p20200317:=[libuv,qt,sodium(+),sqlite]
+	net-misc/meganz-sdk[libuv,qt,sodium(+),sqlite]
 	dev-qt/qtsvg:5
 	dev-qt/qtdbus:5
 	dev-qt/qtconcurrent:5
@@ -42,7 +30,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	dev-libs/breakpad
+	dev-util/google-breakpad
 "
 BDEPEND="
 	dev-qt/linguist-tools:5
