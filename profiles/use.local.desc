@@ -133,6 +133,12 @@ games-emulation/retroarch-assets:ozone - Emable ozone assets
 games-emulation/retroarch-assets:rgui - Enable rgui assets
 games-emulation/retroarch-assets:xmb - Enable xmb assets
 games-emulation/vba-next-libretro:tiled_rendering - Enable tiled rendering
+games-engines/ags:midi - Enable midi support
+games-engines/ags:tremor - Enable tremor support
+games-fps/gzdoom:gtk3 - Enable GTK3 support
+games-fps/gzdoom-legacy:gtk3 - Enable GTK3 support
+games-sports/stuntrally:editor - Install game editor
+games-sports/stuntrally:game - Install game files
 games-util/steam-client-meta:flash - Pull in www-plugins/adobe-flash for the internal browser
 games-util/steam-client-meta:steamfonts - Use official fonts from Valve's steam client
 games-util/steam-client-meta:steamruntime - Use the official steam runtime libraries
