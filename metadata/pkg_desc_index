@@ -20,6 +20,7 @@ dev-util/google-breakpad 0_p20200104 9999: An open-source multi-platform crash r
 dev-util/kdevelop-css 9999: CSS Language Support plugin for KDevelop
 dev-util/kdevelop-embedded 9999: Plugin for KDevelop to support the development of embedded systems
 dev-util/nihstro 0_p20200324: 3DS shader assembler and disassembler
+dev-vcs/git-blame-someone-else 2018.06.13 9999: Blame someone else for your bad code.
 games-emulation/2048-libretro 1.0_pre20191224 9999-r3: Port of 2048 puzzle game to the libretro API
 games-emulation/3dengine-libretro 1.0_pre20191224 9999-r3: 3D Engine for libretro GL with additional features
 games-emulation/81-libretro 1.0_pre20191224 9999-r3: A port of the EightyOne ZX81 Emulator to libretro.
@@ -154,6 +155,7 @@ games-util/steam-client-meta 0-r20200328: Meta package for Valve's native Steam 
 games-util/steam-launcher 1.0.0.62: Installer, launcher and supplementary files for Valve's Steam client
 kde-apps/konsole 9999: KDE's terminal emulator
 kde-apps/yakuake 9999: Quake-style terminal emulator based on konsole
+kde-misc/plasma-applet-thermal-monitor 1.2.9: Plasma 5 applet for monitoring CPU, GPU and other available temperature sensors
 mail-client/mailspring-libre-bin 1.7.2-r2: Fork aiming at removing Mailspring's dependecy on a central server
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
 media-fonts/steamfonts 1: Collection of fonts used by Valve's Steam client
