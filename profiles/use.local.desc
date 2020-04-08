@@ -104,6 +104,35 @@ games-emulation/mgba-libretro:lto - Build using Link Time Optimizations (LTO)
 games-emulation/mgba-libretro:pgo - Build using Profile Guided Optimization (PGO)
 games-emulation/mgba-libretro:pgopost - Make use of PGO
 games-emulation/openlara-libretro:gles2 - Enable support for GLES2
+games-emulation/parallel-n64-libretro:gles2 - Enable GLES2 support
+games-emulation/parallel-n64-libretro:vulkan - Enable vulkan support
+games-emulation/ppsspp-libretro:gles2 - Enable GLES2 support
+games-emulation/redream-libretro:gles2 - Enable GLES2 support
+games-emulation/retroarch:cg - Enable Cg shader support
+games-emulation/retroarch:egl - Enable EGL context support
+games-emulation/retroarch:freetype - Enable FreeType support
+games-emulation/retroarch:gles - Enable GLES support
+games-emulation/retroarch:gles3 - Enable GLES3 support
+games-emulation/retroarch:kms - Enable KMS context support
+games-emulation/retroarch:libusb - Enable LibUSB HID support
+games-emulation/retroarch:materialui - Enable MaterialUI menu
+games-emulation/retroarch:miniupnpc - Enable Mini UPnP client library (for NAT traversal)
+games-emulation/retroarch:ozone - Enable ozone menu
+games-emulation/retroarch:qt - Enable QT support
+games-emulation/retroarch:rgui - Enable rgui menu
+games-emulation/retroarch:sdl2 - Enable SDL2 backend (disables SDL 1.x)
+games-emulation/retroarch:sixel - Enable libsixel support
+games-emulation/retroarch:stripes - Enable stripes menu
+games-emulation/retroarch:subtitles - Enable subtitles support
+games-emulation/retroarch:tinyalsa - Enable TinyALSA support
+games-emulation/retroarch:vulkan - Enable vulkan support
+games-emulation/retroarch:xmb - Enable XMB menu
+games-emulation/retroarch:xrandr - Enable xrandr support
+games-emulation/retroarch-assets:materialui - Enable materialui assets
+games-emulation/retroarch-assets:ozone - Emable ozone assets
+games-emulation/retroarch-assets:rgui - Enable rgui assets
+games-emulation/retroarch-assets:xmb - Enable xmb assets
+games-emulation/vba-next-libretro:tiled_rendering - Enable tiled rendering
 games-util/steam-client-meta:flash - Pull in www-plugins/adobe-flash for the internal browser
 games-util/steam-client-meta:steamfonts - Use official fonts from Valve's steam client
 games-util/steam-client-meta:steamruntime - Use the official steam runtime libraries

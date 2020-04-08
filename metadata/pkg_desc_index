@@ -97,7 +97,6 @@ games-emulation/openmsx 0.15.0 9999: MSX emulator that aims for perfection
 games-emulation/opera-libretro 1.0_pre20200403 9999-r3: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
 games-emulation/parallel-n64-libretro 1.0_pre20191224 9999-r3: Rewritten Nintendo 64 emulator made specifically for Libretro.
 games-emulation/pcsx-rearmed-libretro 1.0_pre20191224 9999-r3: libretro implementation of PCSX ReARMed. (PlayStation)
-games-emulation/pcsx2 1.5.0: A PlayStation 2 emulator
 games-emulation/picodrive-libretro 1.0_pre20191224 9999-r3: libretro implementation of PicoDrive. (Sega GameGear/Sega CD/32X)
 games-emulation/pocketcdg-libretro 1.0_pre20191224 9999-r3: PocketCDG libretro port.
 games-emulation/pokemini-libretro 1.0_pre20191224 9999-r3: Obscure nintendo handheld emulator.
@@ -109,12 +108,10 @@ games-emulation/px68k-libretro 1.0_pre20191224 9999-r3: libretro implementation 
 games-emulation/quasi88-libretro 1.0_pre20191224 9999-r3: A PC-8800 series emulator to the libretro API
 games-emulation/quicknes-libretro 1.0_pre20191224 9999-r3: libretro implementation of QuickNES. (Nintendo Entertainment System)
 games-emulation/redream-libretro 1.0_pre20191224 9999-r3: libretro implementation of redream. (SEGA Dreamcast)
-games-emulation/reicast 9999: A Dreamcast Emulator
 games-emulation/reminiscence-libretro 1.0_pre20191224 9999-r3: Flashback engine implementation for libretro
 games-emulation/retroarch 1.8.5 9999: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20191224 9999: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 9999-r3: RetroArch joypad autoconfig files
-games-emulation/rpcs3 0.0.7 9999: PlayStation 3 emulator
 games-emulation/sameboy-libretro 1.0_pre20200403 9999: libretro implementation of SameBoy (Gameboy / Gameboy Color)
 games-emulation/scummvm-libretro 1.0_pre20191224 9999-r3: libretro implementation of ScummVM
 games-emulation/slang-shaders 9999-r3: Collection of slang shaders for vulkan backends.
