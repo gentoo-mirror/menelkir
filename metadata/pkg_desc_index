@@ -16,7 +16,6 @@ dev-python/spry 0.5.5: social media scanner
 dev-python/vulners 1.5.4 1.5.5: Python API wrapper for the Vulners Database
 dev-python/w3lib 1.20.0: Library of web-related functions
 dev-python/websockets 7.0 8.1: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
-dev-util/adobe-air-runtime 2.6-r2: Adobe AIR runtime
 dev-util/nihstro 0_p20200324: 3DS shader assembler and disassembler
 games-emulation/2048-libretro 1.0_pre20191224 9999-r3: Port of 2048 puzzle game to the libretro API
 games-emulation/3dengine-libretro 1.0_pre20191224 9999-r3: 3D Engine for libretro GL with additional features
@@ -164,13 +163,9 @@ games-strategy/opendungeons-data 9999: Data files for opendungeons
 games-strategy/vcmi 0.98 9999: Heroes of Might and Magic III game engine rewrite
 games-strategy/vcmi-data 0.90: Core data for vcmi
 games-strategy/wyrmsun 2.7.1: Strategy game based on history, mythology and fiction
-games-util/esteam 0.20190524: Scan Steam libraries to generate and emerge a Portage set
-games-util/qjoypad 4.3.1: Translate gamepad/joystick input into key strokes/mouse actions in X
 games-util/rejoystick 0.8.1: Tool which translates gamepad/joystick input into key strokes/mouse actions in X
-games-util/steam-client-meta 0-r20191224: Meta package for Valve's native Steam client
-games-util/steam-games-meta 0-r20190316: Meta package for Steam games
-games-util/steam-launcher 1.0.0.61: Installer, launcher and supplementary files for Valve's Steam client
-games-util/steam-meta 0-r20191224: Meta package for Valve's Steam environment
+games-util/steam-client-meta 0-r20200328: Meta package for Valve's native Steam client
+games-util/steam-launcher 1.0.0.62: Installer, launcher and supplementary files for Valve's Steam client
 kde-apps/konsole 9999: KDE's terminal emulator
 kde-apps/yakuake 9999: Quake-style terminal emulator based on konsole
 mail-client/mailspring-libre-bin 1.7.2-r2: Fork aiming at removing Mailspring's dependecy on a central server
