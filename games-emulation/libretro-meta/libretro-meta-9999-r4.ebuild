@@ -1,13 +1,21 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="6"
+EAPI=7
 
 DESCRIPTION="Meta package for various libretro implementations"
 HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="2048 3dengine 81 atari800 bluemsx bnes bsnes cannonball cap32 citra craft crocods desmume dinothawr dosbox fbalpha fbalpha2012 fceumm fceu-next flycast fmsx freeintv fuse gambatte genplus gme gpsp gw handy lutro mame mame2000 mame2003 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp mednafen-pce-fast mednafen-psx mednafen-saturn mednafen-bsnes mednafen-supergrafx mednafen-vb mednafen-wswan melonds meowpc98 meteor mgba mrboom nestopia nxengine o2em openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom prosystem puae px68k quicknes quasi88 redream reminiscence sameboy scummvm snes9x snes9x2002 snes9x2010 stella2014 tgbdual theodore tyrquake vba-next vbam vecx xrick yabause"
+IUSE="2048 3dengine 81 atari800 bluemsx bnes bsnes cannonball cap32 citra craft \
+    crocods desmume dinothawr dosbox fbalpha fbalpha2012 fceumm fceu-next flycast \
+    fmsx freeintv fuse gambatte genplus gme gpsp gw handy lutro mame mame2000 \
+    mame2003 mame2010 mame2015 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
+    mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-bsnes mednafen-supergrafx \
+    mednafen-vb mednafen-wswan melonds meowpc98 meteor mgba mrboom nestopia nxengine \
+    o2em openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom \
+    prosystem puae px68k quicknes quasi88 redream reminiscence sameboy scummvm snes9x \
+    snes9x2002 snes9x2010 stella2014 tgbdual theodore tyrquake vba-next vbam vecx virtualjaguar xrick yabause"
 
 KEYWORDS="amd64 x86"
 
@@ -28,8 +36,8 @@ RDEPEND="2048? ( games-emulation/2048-libretro )
 		dosbox? ( games-emulation/dosbox-libretro )
 		fbalpha? ( games-emulation/fbalpha-libretro )
 		fbalpha2012? ( games-emulation/fbalpha2012-libretro )
-		fceumm? ( games-emulation/fceumm-libretro )
 		fceu-next? ( games-emulation/fceu-next-libretro )
+		fceumm? ( games-emulation/fceumm-libretro )
 		flycast? ( games-emulation/flycast-libretro )
 		fmsx? ( games-emulation/fmsx-libretro )
 		freeintv? ( games-emulation/freeintv-libretro )
@@ -44,12 +52,15 @@ RDEPEND="2048? ( games-emulation/2048-libretro )
 		mame? ( games-emulation/mame-libretro )
 		mame2000? ( games-emulation/mame2000-libretro )
 		mame2003? ( games-emulation/mame2003-libretro )
+		mame2010? ( games-emulation/mame2010-libretro )
+		mame2015? ( games-emulation/mame2015-libretro )
 		mame2016? ( games-emulation/mame2016-libretro )
 		mednafen-bsnes? ( games-emulation/mednafen-bsnes-libretro )
 		mednafen-gba? ( games-emulation/mednafen-gba-libretro )
 		mednafen-lynx? ( games-emulation/mednafen-lynx-libretro )
 		mednafen-ngp? ( games-emulation/mednafen-ngp-libretro )
 		mednafen-pce-fast? ( games-emulation/mednafen-pce-fast-libretro )
+		mednafen-pcfx? ( games-emulation/mednafen-pcfx-libretro )
 		mednafen-psx? ( games-emulation/mednafen-psx-libretro )
 		mednafen-saturn? ( games-emulation/mednafen-saturn-libretro )
 		mednafen-supergrafx? ( games-emulation/mednafen-supergrafx-libretro )
@@ -81,7 +92,7 @@ RDEPEND="2048? ( games-emulation/2048-libretro )
 		reminiscence? ( games-emulation/reminiscence-libretro )
 		sameboy? ( games-emulation/sameboy-libretro )
 		scummvm? ( games-emulation/scummvm-libretro )
-		snes9x? ( games-emulation/libretro-snes9x )
+		snes9x? ( games-emulation/snes9x-libretro )
 		snes9x2002? ( games-emulation/snes9x2002-libretro )
 		snes9x2010? ( games-emulation/snes9x2010-libretro )
 		stella2014? ( games-emulation/stella2014-libretro )
@@ -91,6 +102,7 @@ RDEPEND="2048? ( games-emulation/2048-libretro )
 		vba-next? ( games-emulation/vba-next-libretro )
 		vbam? ( games-emulation/vbam-libretro )
 		vecx?  ( games-emulation/vecx-libretro )
+		virtualjaguar? ( games-emulation/virtualjaguar-libretro )
 		xrick? ( games-emulation/xrick-libretro )
 		yabause? ( games-emulation/yabause-libretro )"
 DEPEND=""

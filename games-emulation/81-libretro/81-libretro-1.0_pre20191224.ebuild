@@ -1,7 +1,7 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/81-libretro"
 LIBRETRO_COMMIT_SHA="4352130bd2363954262a804b086f86b9d13d97f9"

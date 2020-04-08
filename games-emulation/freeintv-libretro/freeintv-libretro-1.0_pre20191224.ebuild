@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/FreeIntv"
 LIBRETRO_COMMIT_SHA="df7f7f83d1bb56b25553d81d2f279c078883502a"
@@ -23,4 +23,3 @@ pkg_preinst() {
 		first_install="1"
 	fi
 }
-

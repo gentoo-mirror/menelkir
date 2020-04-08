@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/cannonball"
 LIBRETRO_COMMIT_SHA="5dcef189dc5c408bbd9e4bc08b1f9801b04cd3ca"

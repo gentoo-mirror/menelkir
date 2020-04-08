@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/blueMSX-libretro"
 LIBRETRO_COMMIT_SHA="ddd89ff1fa534816e48521bd930b721f2d39975a"

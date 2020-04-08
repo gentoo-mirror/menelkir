@@ -1,12 +1,12 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/libretro-fceumm"
 inherit libretro-core
 
-DESCRIPTION=" FCEUmm libretro port.  (Nintendo Entertainment System)"
+DESCRIPTION=" FCEUmm libretro port."
 HOMEPAGE="https://github.com/libretro/libretro-fceumm"
 KEYWORDS=""
 

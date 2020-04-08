@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/libretro-gme"
 LIBRETRO_COMMIT_SHA="290d4dde6eb93cfb75d1c50d3d13a7f61cae1d20"
@@ -23,4 +23,3 @@ pkg_preinst() {
 		first_install="1"
 	fi
 }
-

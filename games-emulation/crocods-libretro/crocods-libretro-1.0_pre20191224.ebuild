@@ -1,7 +1,7 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/libretro-crocods"
 LIBRETRO_COMMIT_SHA="fbb619f745c3ff470c9e491a18418d743b93789c"

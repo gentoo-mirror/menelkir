@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/fceu-next"
 LIBRETRO_COMMIT_SHA="ebd46a592c23a8091abd72e74cf0d9f4517769e1"
@@ -9,7 +9,7 @@ inherit libretro-core
 
 DESCRIPTION="libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)"
 HOMEPAGE="https://github.com/libretro/fceu-next"
-KEYWORDS="amd64 arm x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-2"
 SLOT="0"
