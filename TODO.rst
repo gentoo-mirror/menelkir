@@ -20,7 +20,6 @@ TODO
         * fbalpha2012-cps2-libretro
         * fbalpha2012-cps3-libretro
         * fbalpha2012-neogeo-libretro
-        * fbneo-libretro
         * fsuae-libretro
         * gearboy-libretro
         * gearsystem-libretro
