@@ -12,8 +12,6 @@ DESCRIPTION="Fork of Final Burn Alpha"
 HOMEPAGE="https://github.com/libretro/fbalpha2012"
 KEYWORDS="~amd64 ~x86"
 
-# S="${S}/svn-current/trunk"
-
 LICENSE="FBA"
 SLOT="0"
 
