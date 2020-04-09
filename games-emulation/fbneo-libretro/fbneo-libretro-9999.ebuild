@@ -4,15 +4,12 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/FBNeo"
-LIBRETRO_COMMIT_SHA="7ae760462652a5d82cf6fdb9f04db2707b1cfea1"
 
 inherit libretro-core
 
 DESCRIPTION="Fork of Final Burn Alpha"
 HOMEPAGE="https://github.com/libretro/fbalpha2012"
-KEYWORDS="~amd64 ~x86"
-
-# S="${S}/svn-current/trunk"
+KEYWORDS=""
 
 LICENSE="FBA"
 SLOT="0"
