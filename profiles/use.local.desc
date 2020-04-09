@@ -31,6 +31,7 @@ games-emulation/libretro-meta:dinothawr - Dinothawr
 games-emulation/libretro-meta:dosbox - DOS (DOSBox)
 games-emulation/libretro-meta:fbalpha - Arcade (FB Alpha)
 games-emulation/libretro-meta:fbalpha2012 - Arcade (FB Alpha 2012)
+games-emulation/libretro-meta:fbneo - Arcade (FBNeo)
 games-emulation/libretro-meta:fceu-next - Nintendo - NES / Famicom(FCEUmm/FCEUX)
 games-emulation/libretro-meta:fceumm - Nintendo - NES / Famicom (FCEUmm)
 games-emulation/libretro-meta:flycast - Sega - Dreamcast/NAOMI (Flycast)
