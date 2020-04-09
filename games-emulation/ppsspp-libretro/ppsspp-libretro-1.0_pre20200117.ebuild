@@ -14,7 +14,7 @@ KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="gles2"
+IUSE="+gles2"
 
 DEPEND="x11-libs/libICE
 	sys-libs/zlib
