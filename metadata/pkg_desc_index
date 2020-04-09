@@ -1,8 +1,7 @@
 app-admin/webmin 1.940 1.941: A web-based Unix systems administration interface
 app-cdr/xcdroast 1.19: Lightweight cdrtools front-end for CD and DVD writing
-app-editors/visual-studio-code 1.39.2 1.43.1: Multiplatform Visual Studio Code from Microsoft
-app-emulation/dxvk 1.5.1 9999-r2: Vulkan-based D3D11 and D3D10 implementation for Linux / Wine
-dev-lang/powershell-bin 6.2.4 7.0.0: A cross-platform automation and configuration tool/framework
+app-editors/visual-studio-code 1.43.1: Multiplatform Visual Studio Code from Microsoft
+app-emulation/dxvk 1.6 9999: A Vulkan-based translation layer for Direct3D 10/11
 dev-lang/rgbds 0.3.10 0.4.0: Free assembler/linker package for the Game Boy and Game Boy Color
 dev-libs/dynarmic 1_p20180826: An ARM dynamic recompiler
 dev-libs/liblcf 0.6.1 9999: Library to handle RPG Maker 2000/2003 and EasyRPG projects
