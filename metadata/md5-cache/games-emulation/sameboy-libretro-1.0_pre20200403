@@ -11,4 +11,4 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/SameBoy/archive/8c9ff67b21c1b0b016e05052c117b8cda8c01b3d.tar.gz -> sameboy-libretro-1.0_pre20200403.tar.gz
 _eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	a37c7ac4ecfe224533da929e91f8fa21	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=d934d15c50b29af60f396c1875d5a31b
+_md5_=3d23d1886e610844fc566272ade61ad4
