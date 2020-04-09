@@ -23,6 +23,7 @@
 		<flag name="dosbox">DOS (DOSBox)</flag>
 		<flag name="fbalpha">Arcade (FB Alpha)</flag>
 		<flag name="fbalpha2012">Arcade (FB Alpha 2012)</flag>
+		<flag name="fbneo">Arcade (FBNeo)</flag>
 		<flag name="fceu-next">Nintendo - NES / Famicom(FCEUmm/FCEUX)</flag>
 		<flag name="fceumm">Nintendo - NES / Famicom (FCEUmm)</flag>
 		<flag name="flycast">Sega - Dreamcast/NAOMI (Flycast)</flag>
