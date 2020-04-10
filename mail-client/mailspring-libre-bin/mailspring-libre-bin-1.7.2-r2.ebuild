@@ -18,6 +18,7 @@ IUSE=""
 DEPEND="app-crypt/libsecret
 	dev-libs/libgcrypt:0
 	dev-libs/nss
+	dev-libs/openssl-compat
 	gnome-base/gconf
 	gnome-base/gnome-keyring
 	gnome-base/gvfs
