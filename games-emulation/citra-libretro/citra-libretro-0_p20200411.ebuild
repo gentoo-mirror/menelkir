@@ -22,6 +22,8 @@ KEYWORDS="amd64 x86"
 
 RDEPEND="virtual/opengl
 	media-libs/libpng:=
+	dev-util/nihstro
+	net-libs/enet
 	sys-libs/zlib
 	media-libs/libsdl2
 	"
