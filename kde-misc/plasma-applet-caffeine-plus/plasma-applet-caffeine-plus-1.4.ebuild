@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit kde5
+inherit kde.org
 
 DESCRIPTION="Plasma 5 applet to disable screensaver and auto-suspend"
 HOMEPAGE="https://github.com/qunxyz/plasma-applet-caffeine-plus"

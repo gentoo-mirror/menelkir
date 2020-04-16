@@ -5,7 +5,7 @@ EAPI=7
 
 KDE_HANDBOOK="forceoptional"
 VIRTUALX_REQUIRED="test"
-inherit kde5
+inherit kde.org 
 
 DESCRIPTION="A comic book viewer based on Framework 5, for use on multiple form factors."
 HOMEPAGE="http://peruse.kde.org"

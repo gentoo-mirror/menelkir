@@ -5,7 +5,7 @@ EAPI=7
 
 KDE_TEST="true"
 VIRTUALX_REQUIRED="test"
-inherit kde5
+inherit kde.org
 
 EGIT_REPO_URI="git://anongit.kde.org/falkon.git"
 
