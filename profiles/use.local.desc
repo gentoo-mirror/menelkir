@@ -146,7 +146,6 @@ games-util/steam-client-meta:steamruntime - Use the official steam runtime libra
 games-util/steam-client-meta:steamvr - Enable SteamVR virtual reality support
 games-util/steam-client-meta:trayicon - Enable system tray icon with libappindicator
 games-util/steam-launcher:steamruntime - Use the official steam runtime libraries
-kde-apps/yakuake:absolute-position - Use kde-frameworks/kwayland for absolute window positioning in KWin
 media-fonts/powerline-fonts:3270 - Install Powerline-patched 3270 fonts
 media-fonts/powerline-fonts:anonymouspro - Install Powerline-patched Anonymous Pro fonts
 media-fonts/powerline-fonts:arimo - Install Powerline-patched Arimo fonts
