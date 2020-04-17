@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-COMMIT_SHA="68ca03e8d4822c78e15315e67ddbb1d6bf4d3827"
+COMMIT_SHA="4305c7428a590b28114cfdcad233b3ac4a47f93f"
 
 inherit cmake-utils vcs-snapshot
 
@@ -12,7 +12,7 @@ SRC_URI="https://github.com/MerryMage/${PN}/archive/${COMMIT_SHA}.tar.gz -> ${P}
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="dev-libs/boost:="
