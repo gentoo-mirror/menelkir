@@ -2,6 +2,8 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-emulation/anbox:playstore - Install Google Playstore from https://opengapps.org
+app-emulation/anbox:privileged - Decides if lxc will run container as privileged or unprivileged (recommended option is unprivileged)
 games-emulation/emulationstation-themes-meta:carbon - Carbon Theme
 games-emulation/emulationstation-themes-meta:carbon-centered - Carbon-Centered Theme
 games-emulation/emulationstation-themes-meta:carbon-nometa - Carbon theme without the metadata

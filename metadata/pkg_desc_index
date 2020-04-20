@@ -1,6 +1,7 @@
 app-admin/webmin 1.940 1.941: A web-based Unix systems administration interface
 app-cdr/xcdroast 1.19: Lightweight cdrtools front-end for CD and DVD writing
 app-editors/visual-studio-code 1.43.1: Multiplatform Visual Studio Code from Microsoft
+app-emulation/anbox 9999.2018.07.19-r9: Run Android applications on any GNU/Linux operating system
 app-emulation/dxvk 1.6 9999: A Vulkan-based translation layer for Direct3D 10/11
 dev-lang/rgbds 0.3.10 0.4.0: Free assembler/linker package for the Game Boy and Game Boy Color
 dev-libs/dynarmic 1_p20180826 1_p20190417: An ARM dynamic recompiler
