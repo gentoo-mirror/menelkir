@@ -19,7 +19,7 @@ dev-util/google-breakpad 0_p20200104 9999: An open-source multi-platform crash r
 dev-util/kdevelop-css 9999: CSS Language Support plugin for KDevelop
 dev-util/kdevelop-embedded 9999: Plugin for KDevelop to support the development of embedded systems
 dev-util/nihstro 0_p20200324: 3DS shader assembler and disassembler
-dev-util/pmbootstrap 1.5.1: Sophisticated chroot/build/flash tool to develop and install postmarketOS.
+dev-util/pmbootstrap 1.18.1: Sophisticated chroot/build/flash tool to develop and install postmarketOS.
 dev-vcs/git-blame-someone-else 2018.06.13 9999: Blame someone else for your bad code.
 games-emulation/2048-libretro 1.0_pre20191224 9999-r3: Port of 2048 puzzle game to the libretro API
 games-emulation/3dengine-libretro 1.0_pre20191224 9999-r3: 3D Engine for libretro GL with additional features
