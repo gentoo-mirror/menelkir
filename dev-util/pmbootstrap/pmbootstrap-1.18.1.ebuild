@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Sophisticated chroot/build/flash tool to develop and install postmarketOS."
 HOMEPAGE="https://postmarketos.org/ https://pypi.org/project/pmbootstrap/"
-SRC_URI="https://files.pythonhosted.org/packages/ed/73/32c8d35f551dfb29018ffb9980d7ef08252f343809b6fb810a0febc9bc09/${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/9f/3c542d12c2c84e50f52b8614adbdc8e2094174aebaf169fef291219af882/${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64"
