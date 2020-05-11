@@ -156,7 +156,7 @@ libretro-core_src_install() {
 			local lib_basename="${i##*/}"
 
 			# Absolute path to which this library was installed.
-			local lib_file_target="${ED}${LIBRETRO_LIB_DIR}/${lib_basename}"
+			local lib_file_target="${ED}/${LIBRETRO_LIB_DIR}/${lib_basename}"
 
 			# If this library was *NOT* installed, fail.
 			[[ -f "${lib_file_target}" ]] ||
