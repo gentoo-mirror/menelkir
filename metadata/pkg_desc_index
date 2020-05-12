@@ -78,19 +78,19 @@ games-emulation/mame2003-libretro 1.0_pre20191224 9999-r3: MAME (0.78) for libre
 games-emulation/mame2010-libretro 1.0_pre20191224 9999-r3: MAME (0.139) for libretro.
 games-emulation/mame2015-libretro 1.0_pre20191224 9999-r3: MAME (0.160) for libretro.
 games-emulation/mame2016-libretro 1.0_pre20191224 9999-r3: MAME (0.174) for libretro.
-games-emulation/mednafen-bsnes-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen SNES. (Super Nintendo Entertainment System)
+games-emulation/mednafen-bsnes-libretro 1.0_pre20200512 9999-r3: libretro implementation of Mednafen SNES. (Super Nintendo Entertainment System)
 games-emulation/mednafen-gba-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen VBA/GBA. (Game Boy Advance)
-games-emulation/mednafen-lynx-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen Lynx. (Atari Lynx)
+games-emulation/mednafen-lynx-libretro 1.0_pre20200512 9999-r3: libretro implementation of Mednafen Lynx. (Atari Lynx)
 games-emulation/mednafen-ngp-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen Neopop. Neo Geo Pocket/Neo Geo Pocket Color
 games-emulation/mednafen-pce-fast-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen PCE Fast. (PC Engine/TurboGrafx-16)
-games-emulation/mednafen-pcfx-libretro 1.0_pre20191224 9999-r3: Standalone port of Mednafen PCFX to libretro.
-games-emulation/mednafen-psx-libretro 1.0_pre20191224 9999-r3: Standalone port/fork of Mednafen PSX to the Libretro API.
-games-emulation/mednafen-saturn-libretro 1.0_pre20191224 9999-r3: Standalone port of Mednafen Saturn to the libretro
-games-emulation/mednafen-supergrafx-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen PCE Fast. (SuperGrafx TG-16)
-games-emulation/mednafen-vb-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen VB. (Virtual Boy)
-games-emulation/mednafen-wswan-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)
+games-emulation/mednafen-pcfx-libretro 1.0_pre20200512 9999-r3: Standalone port of Mednafen PCFX to libretro.
+games-emulation/mednafen-psx-libretro 1.0_pre20200512 9999-r3: Standalone port/fork of Mednafen PSX to the Libretro API.
+games-emulation/mednafen-saturn-libretro 1.0_pre20200512 9999-r3: Standalone port of Mednafen Saturn to the libretro
+games-emulation/mednafen-supergrafx-libretro 1.0_pre20200512 9999-r3: libretro implementation of Mednafen PCE Fast. (SuperGrafx TG-16)
+games-emulation/mednafen-vb-libretro 1.0_pre20200512 9999-r3: libretro implementation of Mednafen VB. (Virtual Boy)
+games-emulation/mednafen-wswan-libretro 1.0_pre20200512 9999-r3: libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)
 games-emulation/melonds-libretro 1.0_pre20191224 9999-r3: libretro implementation of melonDS. (NintendoDS)
-games-emulation/meowpc98-libretro 1.0_pre20191224 9999-r3: Neko Project 2 (PC98 emulator) port for libretro/RetroArch (XNP2)
+games-emulation/meowpc98-libretro 1.0_pre20200512 9999-r3: Neko Project 2 (PC98 emulator) port for libretro/RetroArch (XNP2)
 games-emulation/meteor-libretro 1.0_pre20191224 9999-r3: libretro implementation of Meteor. (Game Boy Advance)
 games-emulation/mgba-libretro 1.0_pre20191224 9999-r3: libretro implementation of mGBA. (Game Boy Advance)
 games-emulation/mrboom-libretro 1.0_pre20191224 9999-r3: Multiplayer Bomberman clone for RetroArch/Libretro
@@ -100,7 +100,7 @@ games-emulation/o2em-libretro 1.0_pre20191224 9999-r3: Port of O2EM to the libre
 games-emulation/openlara-libretro 1.0_pre20191224 9999-r3: libretro implementation of OpenLara. (Classic Tomb Raider Engine)
 games-emulation/openmsx 0.15.0 9999: MSX emulator that aims for perfection
 games-emulation/opera-libretro 1.0_pre20200403 9999-r3: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
-games-emulation/parallel-n64-libretro 1.0_pre20191224 9999-r3: Rewritten Nintendo 64 emulator made specifically for Libretro.
+games-emulation/parallel-n64-libretro 1.0_pre20200520 9999-r3: Rewritten Nintendo 64 emulator made specifically for Libretro.
 games-emulation/pcsx-rearmed-libretro 1.0_pre20191224 9999-r3: libretro implementation of PCSX ReARMed. (PlayStation)
 games-emulation/picodrive-libretro 1.0_pre20191224 9999-r3: libretro implementation of PicoDrive. (Sega GameGear/Sega CD/32X)
 games-emulation/pocketcdg-libretro 1.0_pre20191224 9999-r3: PocketCDG libretro port.
