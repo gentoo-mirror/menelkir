@@ -105,7 +105,7 @@ games-emulation/pcsx-rearmed-libretro 1.0_pre20191224 9999-r3: libretro implemen
 games-emulation/picodrive-libretro 1.0_pre20191224 9999-r3: libretro implementation of PicoDrive. (Sega GameGear/Sega CD/32X)
 games-emulation/pocketcdg-libretro 1.0_pre20191224 9999-r3: PocketCDG libretro port.
 games-emulation/pokemini-libretro 1.0_pre20191224 9999-r3: Obscure nintendo handheld emulator.
-games-emulation/ppsspp-libretro 1.0_pre20200117 9999-r2: libretro implementation of PPSSPP. (PlayStation Portable/PSP)
+games-emulation/ppsspp-libretro 1.0_pre20200512 9999-r2: libretro implementation of PPSSPP. (PlayStation Portable/PSP)
 games-emulation/prboom-libretro 1.0_pre20191224 9999-r3: libretro implementation of PrBoom. (Doom)
 games-emulation/prosystem-libretro 1.0_pre20191224 9999-r3: libretro implementation of prosystem. (Atari 7800)
 games-emulation/puae-libretro 1.0_pre20191224 9999-r3: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
