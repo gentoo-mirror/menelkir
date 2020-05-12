@@ -21,6 +21,9 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
+PATCHES=(
+   "${FILESDIR}/redream-libretro-Makefile.patch"
+)
 src_prepare() {
 	libretro-core_src_prepare
 	#fixing ARCH detection
