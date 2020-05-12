@@ -173,8 +173,8 @@ net-im/jitsi-bin 2.10.5550 2.11.5602: Secure IM communicator that supports SIP, 
 net-im/ripcord-bin 0.4.21 0.4.24: a desktop chat client for group-centric services like Slack and Discord
 net-im/telegram-purple 9999-r2: Libpurple (Pidgin) plugin for using a Telegram account
 net-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so. symlinks for compatibility with Debian
-net-misc/meganz-sdk 3.6.6 9999: MEGA C++ SDK
-net-misc/megasync 4.3.1.0 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/meganz-sdk 3.6.6 3.6.9 9999: MEGA C++ SDK
+net-misc/megasync 4.3.1.0: Easy automated syncing with MEGA Cloud Drive
 net-news/feedreader 2.10.0: Simple News Feed Reader for feeds aggregated by Tiny Tiny RSS or feedly
 net-p2p/soulseek-qt 20180130: Official binary Qt SoulSeek client
 net-print/epson-inkjet-printer_201401w 1.0.0: Epson drivers for L1xx, L2xx, L3xx and L4xx printers
