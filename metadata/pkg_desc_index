@@ -112,7 +112,7 @@ games-emulation/puae-libretro 1.0_pre20191224 9999-r3: WIP libretro port of UAE 
 games-emulation/px68k-libretro 1.0_pre20191224 9999-r3: libretro implementation of PX68K. (Sharp X68000)
 games-emulation/quasi88-libretro 1.0_pre20191224 9999-r3: A PC-8800 series emulator to the libretro API
 games-emulation/quicknes-libretro 1.0_pre20191224 9999-r3: libretro implementation of QuickNES. (Nintendo Entertainment System)
-games-emulation/redream-libretro 1.0_pre20191224 9999-r3: libretro implementation of redream. (SEGA Dreamcast)
+games-emulation/redream-libretro 1.0_pre20200512 9999-r3: libretro implementation of redream. (SEGA Dreamcast)
 games-emulation/reminiscence-libretro 1.0_pre20191224 9999-r3: Flashback engine implementation for libretro
 games-emulation/retroarch 1.8.5 9999: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20191224 9999: Assets needed for RetroArch. Also contains the official branding.
