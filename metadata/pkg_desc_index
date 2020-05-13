@@ -15,6 +15,7 @@ dev-python/spry 0.5.5: social media scanner
 dev-python/vulners 1.5.4 1.5.5: Python API wrapper for the Vulners Database
 dev-python/w3lib 1.20.0: Library of web-related functions
 dev-python/websockets 7.0 8.1: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
+dev-util/electron 6.1.6-r1: Cross platform application development framework based on web technologies
 dev-util/electron-bin 6.0.11: Cross platform application development framework based on web technologies
 dev-util/google-breakpad 0_p20200104 9999: An open-source multi-platform crash reporting system
 dev-util/kdevelop-css 9999: CSS Language Support plugin for KDevelop
