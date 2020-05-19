@@ -14,19 +14,17 @@ EGIT_REPO_URI="https://github.com/Nicotine-Plus/nicotine-plus"
 
 LICENSE="GPL-3 LGPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS=""
 IUSE=""
 
 RDEPEND="
 	$(python_gen_cond_dep '
-		>=dev-python/pygtk-2.24[${PYTHON_MULTI_USEDEP}]
+		dev-python/pygobject[${PYTHON_MULTI_USEDEP}]
 		media-libs/mutagen[${PYTHON_MULTI_USEDEP}]
 	')
 "
 
 DEPEND="${RDEPEND}"
-
-S="${WORKDIR}/nicotine-plus-${PV}"
 
 src_install() {
 	distutils-r1_src_install
