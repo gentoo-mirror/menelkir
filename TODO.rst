@@ -46,5 +46,3 @@ TODO
         * vemulator-libretro
         * vice-libretro
 
-*QA*
-        * libretro-meta
