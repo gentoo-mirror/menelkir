@@ -48,7 +48,3 @@ TODO
 
 *QA*
         * libretro-meta
-        * mame-libretro
-        * sameboy-libretro
-        * steam-client-meta
-        * steam-launcher
