@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{4,5,6,7} )
+PYTHON_COMPAT=( python3_7 )
 inherit python-single-r1 xdg-utils
 
 DESCRIPTION="Fully-featured audio plugin host, supports many audio drivers and plugin formats"
