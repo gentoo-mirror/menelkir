@@ -155,6 +155,7 @@ games-sports/stuntrally-tracks 2.6 9999: A set of tracks for games-sports/stuntr
 games-util/rejoystick 0.8.1: Tool which translates gamepad/joystick input into key strokes/mouse actions in X
 games-util/steam-client-meta 0-r20200328: Meta package for Valve's native Steam client
 games-util/steam-launcher 1.0.0.62: Installer, launcher and supplementary files for Valve's Steam client
+mail-client/mailspring-bin 1.7.7: The best email app for people and teams at work
 mail-client/mailspring-libre-bin 1.7.2-r2: Fork aiming at removing Mailspring's dependecy on a central server
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
 media-fonts/steamfonts 1: Collection of fonts used by Valve's Steam client
@@ -169,6 +170,7 @@ media-tv/popcorntime-bin 0.4.4: Watch torrent movies instantly
 media-tv/stremio-shell 9999: Watch videos, movies, TV series and TV channels instantly. (Beta Version)
 media-video/apple_facetimehd_firmware 1.43.0: Firmware for the Apple Facetime HD Camera
 media-video/bcwc_pcie 9999: Reverse engineered Linux driver for the Broadcom 1570 PCIe webcam
+media-video/kazam 1.4.5 9999: A screencasting program with design in mind
 net-im/franz-bin 5.4.0: Free messaging app for services like WhatsApp, Slack, Messenger and many more
 net-im/jitsi-bin 2.11.5602: Secure IM communicator that supports SIP, XMPP, AIM/ICQ, Windows Live, Yahoo
 net-im/ripcord-bin 0.4.24: a desktop chat client for group-centric services like Slack and Discord
