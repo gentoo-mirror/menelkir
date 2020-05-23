@@ -18,6 +18,7 @@ some personal modifications. The follow repositories was used (sorry if I forgot
 :4nykey: https://github.com/4nykey/4nykey
 :jorgicio: https://github.com/jorgicio/jorgicio-gentoo-overlay
 :Guru: https://wiki.gentoo.org/wiki/Project:GURU
+:NuLL3rr0r: https://github.com/NuLL3rr0r/gentoo-overlay
 
 =================================
 How to Contribute to this Overlay
