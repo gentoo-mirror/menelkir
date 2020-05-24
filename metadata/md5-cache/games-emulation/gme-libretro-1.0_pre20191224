@@ -9,5 +9,5 @@ RDEPEND=games-emulation/libretro-info
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/libretro-gme/archive/290d4dde6eb93cfb75d1c50d3d13a7f61cae1d20.tar.gz -> gme-libretro-1.0_pre20191224.tar.gz
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	7f99a67ff98779527d54c0a82308d48b	multilib	797cda3549becfe50afdfa35192ca137	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	7f99a67ff98779527d54c0a82308d48b	multilib	ac7989ababbeabdef6fdc6e465b21644	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=8af4c91e5a62eac0c3febad4be26473e
