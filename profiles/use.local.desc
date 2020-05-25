@@ -185,6 +185,7 @@ media-sound/munt:libsoxr - Resample audio with SoX Resampler (SoXR) (recommended
 media-sound/munt:portaudio - Build Qt-based PortAudio driver
 media-sound/munt:pulseaudio - Build Qt-based PulseAudio driver
 media-sound/munt:smf2wav - Build "smf2wav" conversion utility
+net-im/cawbird:spellcheck - Enable spell check support
 net-misc/meganz-sdk:freeimage - Enable support for image I/O via media-libs/freeimage
 net-misc/meganz-sdk:fuse - Build FUSE-based example client
 net-misc/meganz-sdk:libuv - Support asynchronous I/O via dev-libs/libuv
