@@ -4,7 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/libretro-2048"
-LIBRETRO_COMMIT_SHA="a4870814dd98d66d4b8a51c961fe423b44331d92"
+LIBRETRO_COMMIT_SHA="57d43274dfc00cf3f32fe78032a6769c90890399"
 inherit libretro-core
 
 DESCRIPTION="Port of 2048 puzzle game to the libretro API"
