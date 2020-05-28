@@ -9,8 +9,7 @@ SOUNDTOUCH_COMMIT_SHA="060181eaf273180d3a7e87349895bd0cb6ccbf4a"
 
 inherit cmake-utils libretro-core toolchain-funcs
 
-DESCRIPTION="Libretro implementation for 3DS emulator"
-HOMEPAGE="https://github.com/libretro/citra"
+DESCRIPTION="Nintendo 3DS for libretro"
 SRC_URI="
 	https://github.com/${LIBRETRO_REPO_NAME}/archive/${LIBRETRO_COMMIT_SHA}.tar.gz -> ${P}.tar.gz
 	https://github.com/citra-emu/ext-soundtouch/archive/${SOUNDTOUCH_COMMIT_SHA}.tar.gz -> ${P}-soundtouch.tar.gz
@@ -20,15 +19,16 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="amd64 x86"
 
-RDEPEND="virtual/opengl
-	media-libs/libpng:=
+RDEPEND="
+	dev-libs/crypto++
+	dev-libs/dynarmic
 	dev-libs/libfmt
+	net-libs/enet:1.3=
+"
+DEPEND="${RDEPEND}
+	dev-cpp/catch:0
+	dev-libs/xbyak
 	dev-util/nihstro
-	net-libs/enet
-	sys-libs/zlib
-	media-libs/libsdl2
-	"
-DEPEND="${DEPEND}
 "
 
 PATCHES=(
@@ -37,10 +37,6 @@ PATCHES=(
 
 src_unpack() {
 	default
-	mv "${WORKDIR}/citra-${LIBRETRO_COMMIT_SHA}" \
-		"${WORKDIR}/citra-libretro-${LIBRETRO_COMMIT_SHA}"
-
-	S="${WORKDIR}/citra-libretro-${LIBRETRO_COMMIT_SHA}"
 
 	mv "${WORKDIR}/ext-soundtouch-${SOUNDTOUCH_COMMIT_SHA}"/* \
 		"${S}/externals/soundtouch/"
@@ -69,10 +65,4 @@ src_compile() {
 src_install() {
 	LIBRETRO_CORE_LIB_FILE="${BUILD_DIR}/src/citra_libretro/${LIBRETRO_CORE_NAME}_libretro.so" \
                 libretro-core_src_install
-}
-
-pkg_preinst() {
-	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
-		first_install="1"
-	fi
 }
