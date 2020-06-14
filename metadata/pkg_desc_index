@@ -139,8 +139,6 @@ games-engines/ags 3.4.0.16 3.5.0.24 9999: Adventure Game Studio (AGS) runtime en
 games-engines/easyrpg-player 0.5.2 0.6.2 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
 games-fps/brutal-doom 21: A mod that attempts to make Doom faster placed, harder, gorier and more violent.
 games-fps/dhewm3 1.5.1_pre1: A Doom 3 GPL source modification.
-games-fps/gzdoom 4.2.4 4.3.3 9999-r1: A 3D-accelerated Doom source port based on ZDoom code
-games-fps/gzdoom-legacy 3.8.2: A 3D-accelerated Doom source port based on ZDoom code (legacy opengl)
 games-puzzle/crayon-physics-deluxe 55: 2D physics puzzle / sandbox game.
 games-rpg/soulfu 1.5.2: Secret of Ultimate Legendary Fantasy: Unleashed
 games-rpg/torchlight 1.15.20130521-r1: An action role-playing game, made by the creators of Diablo
