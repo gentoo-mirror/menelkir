@@ -27,9 +27,8 @@ S="${WORKDIR}"
 
 src_install() {
 	exeinto /opt/${PN}
-	doexe Popcorn-Time libffmpegsumo.so nw.pak package.nw
+	doexe Popcorn-Time nw_100_percent.pak nw_200_percent.pak resources.pak resources.pak
 
-	dosym /$(get_libdir)/libudev.so.1 /opt/${PN}/libudev.so.0
 	make_wrapper ${PN} ./Popcorn-Time /opt/${PN} /opt/${PN} /opt/bin
 
 	domenu "${FILESDIR}"/${PN}.desktop
