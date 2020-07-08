@@ -9,5 +9,5 @@ RDEPEND=app-arch/bzip2 app-arch/xz-utils dev-libs/expat dev-libs/zziplib media-l
 RESTRICT=fetch
 SLOT=0
 SRC_URI=Torchlight-2013-05-21.sh
-_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	eutils	fcb2aa98e1948b835b5ae66ca52868c5	unpacker	b5891c9326ad2e7905c011d44c927c34	unpacker-nixstaller	850de22907d109efbf45d47a3bcd02cd
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	eutils	fcb2aa98e1948b835b5ae66ca52868c5	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	8ee8c1a2f31437d1766aac890d07a7f4	unpacker-nixstaller	850de22907d109efbf45d47a3bcd02cd
 _md5_=90e90b8d0bebb058ddbc90e51a9cc348
