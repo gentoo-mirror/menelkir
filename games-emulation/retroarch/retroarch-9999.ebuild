@@ -159,6 +159,7 @@ src_configure() {
 		$(use_enable ffmpeg) \
 		$(use_enable gles opengles) \
 		$(use_enable gles3 opengles3) \
+		$(use_enable kms) \
 		$(use_enable libcaca caca) \
 		$(use_enable libusb) \
 		$(use_enable materialui) \
