@@ -18,7 +18,7 @@ KEYWORDS=""
 
 IUSE="alsa cg cpu_flags_x86_sse dbus egl ffmpeg flac freetype gles gles3 kms
 	libcaca libusb materialui miniupnpc openal +opengl opengl_core +ozone
-	plain_drm pulseaudio qt5 rgui sdl +sdl2 sixel subtitles ssl stripes
+	parport plain_drm pulseaudio qt5 rgui sdl +sdl2 sixel subtitles ssl stripes
 	systemd tinyalsa udev vulkan X xrandr xmb xv wayland +zlib"
 
 MENU_REQUIRED_USE="|| ( gles opengl vulkan )"
@@ -167,6 +167,7 @@ src_configure() {
 		$(use_enable opengl) \
 		$(use_enable opengl_core) \
 		$(use_enable ozone) \
+		$(use_enable parport) \
 		$(use_enable plain_drm) \
 		$(use_enable pulseaudio pulse) \
 		$(use_enable qt5 qt) \
