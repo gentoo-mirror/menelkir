@@ -17,9 +17,9 @@ SLOT="0"
 KEYWORDS=""
 
 IUSE="alsa cg cpu_flags_x86_sse dbus egl ffmpeg flac freetype gles gles3 kms
-	libcaca libusb materialui miniupnpc openal +opengl +ozone pulseaudio
-	qt rgui sdl +sdl2 sixel subtitles ssl stripes systemd tinyalsa udev
-	vulkan X xrandr xmb xv wayland +zlib"
+	libcaca libusb materialui miniupnpc openal +opengl opengl_core +ozone
+	parport plain_drm pulseaudio qt5 rgui sdl +sdl2 sixel subtitles ssl stripes
+	systemd tinyalsa udev vulkan X xrandr xmb xv wayland +zlib"
 
 MENU_REQUIRED_USE="|| ( gles opengl vulkan )"
 REQUIRED_USE="
@@ -33,8 +33,7 @@ REQUIRED_USE="
 	opengl? ( !gles )
 	ozone? ( ${MENU_REQUIRED_USE} )
 	rgui? (
-		${MENU_REQUIRED_USE}
-		|| ( libcaca sdl sdl2 sixel )
+		|| ( ${MENU_REQUIRED_USE} libcaca sdl sdl2 sixel )
 	)
 	stripes? ( ${MENU_REQUIRED_USE} )
 	xmb? ( ${MENU_REQUIRED_USE} )
@@ -66,7 +65,7 @@ RDEPEND="
 	opengl? ( virtual/opengl )
 	ozone? ( games-emulation/retroarch-assets[ozone] )
 	pulseaudio? ( media-sound/pulseaudio )
-	qt? (
+	qt5? (
 		dev-qt/qtconcurrent:5
 		dev-qt/qtcore:5
 		dev-qt/qtgui:5
@@ -160,15 +159,19 @@ src_configure() {
 		$(use_enable ffmpeg) \
 		$(use_enable gles opengles) \
 		$(use_enable gles3 opengles3) \
+		$(use_enable kms) \
 		$(use_enable libcaca caca) \
 		$(use_enable libusb) \
 		$(use_enable materialui) \
 		$(use_enable miniupnpc) \
 		$(use_enable openal al) \
 		$(use_enable opengl) \
+		$(use_enable opengl_core) \
 		$(use_enable ozone) \
+		$(use_enable parport) \
+		$(use_enable plain_drm) \
 		$(use_enable pulseaudio pulse) \
-		$(use_enable qt) \
+		$(use_enable qt5 qt) \
 		$(use_enable sdl) \
 		$(use_enable sdl2) \
 		$(use_enable sixel) \
