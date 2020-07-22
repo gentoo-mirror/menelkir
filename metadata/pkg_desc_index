@@ -174,7 +174,6 @@ net-im/cawbird 1.1.0 9999: Native GTK+3 Twitter client, forked from Corebird
 net-im/franz-bin 5.4.0: Free messaging app for services like WhatsApp, Slack, Messenger and many more
 net-im/jitsi-bin 2.11.5602: Secure IM communicator that supports SIP, XMPP, AIM/ICQ, Windows Live, Yahoo
 net-im/ripcord-bin 0.4.24: a desktop chat client for group-centric services like Slack and Discord
-net-im/telegram-purple 9999-r2: Libpurple (Pidgin) plugin for using a Telegram account
 net-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so. symlinks for compatibility with Debian
 net-misc/meganz-sdk 3.6.6 9999: MEGA C++ SDK
 net-misc/megasync 4.3.1.0: Easy automated syncing with MEGA Cloud Drive
@@ -196,5 +195,7 @@ www-apps/geckodriver 0.23.0: Proxy for using WebDriver clients to interact with 
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2-r2: Settings editor for LightDM GTK+ greeter
+x11-plugins/purple-hangouts 9999: Hangouts Plugin for libpurple
 x11-plugins/purple-icyque 9999: ICQ WIM protocol for libpurple
+x11-plugins/telegram-purple 9999-r2: Libpurple (Pidgin) plugin for using a Telegram account
 x11-themes/arc-kde 20180614: Port of the popular GTK theme Arc for Plasma 5
