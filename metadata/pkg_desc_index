@@ -153,7 +153,7 @@ games-sports/stuntrally 2.6 9999: Rally game focused on closed rally tracks with
 games-sports/stuntrally-tracks 2.6 9999: A set of tracks for games-sports/stuntrally-9999
 games-util/rejoystick 0.8.1: Tool which translates gamepad/joystick input into key strokes/mouse actions in X
 games-util/steam-client-meta 0-r20200328: Meta package for Valve's native Steam client
-games-util/steam-launcher 1.0.0.62: Installer, launcher and supplementary files for Valve's Steam client
+games-util/steam-launcher 1.0.0.64: Installer, launcher and supplementary files for Valve's Steam client
 mail-client/mailspring-bin 1.7.7: The best email app for people and teams at work
 mail-client/mailspring-libre-bin 1.7.2-r2: Fork aiming at removing Mailspring's dependecy on a central server
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
