@@ -177,6 +177,7 @@ media-video/kazam 1.4.5 9999: A screencasting program with design in mind
 net-im/cawbird 1.1.0 9999: Native GTK+3 Twitter client, forked from Corebird
 net-im/franz-bin 5.4.0: Free messaging app for services like WhatsApp, Slack, Messenger and many more
 net-im/jitsi-bin 2.11.5602: Secure IM communicator that supports SIP, XMPP, AIM/ICQ, Windows Live, Yahoo
+net-im/rambox-bin 0.7.5: Free and Open Source messaging and emailing app
 net-im/ripcord-bin 0.4.24: a desktop chat client for group-centric services like Slack and Discord
 net-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so. symlinks for compatibility with Debian
 net-misc/meganz-sdk 3.6.6 9999: MEGA C++ SDK
