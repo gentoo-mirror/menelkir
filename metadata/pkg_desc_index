@@ -2,6 +2,7 @@ app-admin/webmin 1.941: A web-based Unix systems administration interface
 app-cdr/xcdroast 1.19: Lightweight cdrtools front-end for CD and DVD writing
 app-editors/visual-studio-code 1.43.1: Multiplatform Visual Studio Code from Microsoft
 app-emulation/dxvk 1.6 1.7 9999: A Vulkan-based translation layer for Direct3D 10/11
+app-eselect/eselect-electron 0.1: Utility to select the default Electron slot
 dev-lang/rgbds 0.4.0: Free assembler/linker package for the Game Boy and Game Boy Color
 dev-libs/dynarmic 1_p20180826 1_p20190417: An ARM dynamic recompiler
 dev-libs/liblcf 0.6.2 9999: Library to handle RPG Maker 2000/2003 and EasyRPG projects
@@ -15,7 +16,8 @@ dev-python/spry 0.5.5: social media scanner
 dev-python/vulners 1.5.5: Python API wrapper for the Vulners Database
 dev-python/w3lib 1.22.0: Library of web-related functions
 dev-python/websockets 8.1-r2: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
-dev-util/electron-bin 8.3.0-r1: Cross platform application development framework based on web technologies
+dev-util/electron 8.3.3: Cross platform application development framework based on web technologies
+dev-util/electron-bin 8.4.0 9.1.1: Cross platform application development framework based on web technologies
 dev-util/google-breakpad 0_p20200104 9999: An open-source multi-platform crash reporting system
 dev-util/kdevelop-css 9999: CSS Language Support plugin for KDevelop
 dev-util/kdevelop-embedded 9999: Plugin for KDevelop to support the development of embedded systems
