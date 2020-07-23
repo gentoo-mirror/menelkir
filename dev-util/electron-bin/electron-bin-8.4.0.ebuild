@@ -24,8 +24,8 @@ SRC_URI="
 RESTRICT="mirror"
 
 LICENSE="MIT"
-SLOT="8"
-KEYWORDS="-* ~amd64 ~arm ~arm64 ~x86"
+SLOT="${PV}"
+KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
 	dev-libs/atk
