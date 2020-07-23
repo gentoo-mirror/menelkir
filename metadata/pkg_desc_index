@@ -69,10 +69,10 @@ games-emulation/gme-libretro 1.0_pre20191224 9999-r3: Port of blargg's Game_Musi
 games-emulation/gpsp-libretro 1.0_pre20191224 9999-r3: Gameboy gpSP for libretro.
 games-emulation/gw-libretro 1.0_pre20191224 9999-r3: A libretro core for Game & Watch simulators.
 games-emulation/handy-libretro 1.0_pre20191224 9999-r3: libretro implementation of Handy. (Atari Lynx)
-games-emulation/libretro-common-overlays 1_pre20200512 9999-r3: Collection of overlay files for use with RetroArch
-games-emulation/libretro-common-shaders 1_pre20191224 9999-r3: Collection of commonly used Cg shaders
-games-emulation/libretro-database 1_pre20200512 9999-r3: Repository containing cheatcode files, content data files, etc.
-games-emulation/libretro-info 1_pre20191224 9999-r3: Libretro info files required for libretro cores
+games-emulation/libretro-common-overlays 1_pre20200723 9999-r3: Collection of overlay files for use with RetroArch
+games-emulation/libretro-common-shaders 1_pre20200723 9999-r3: Collection of commonly used Cg shaders
+games-emulation/libretro-database 1_pre20200723 9999-r3: Repository containing cheatcode files, content data files, etc.
+games-emulation/libretro-info 1_pre20200723 9999-r3: Libretro info files required for libretro cores
 games-emulation/libretro-meta 9999-r5: Meta package for various libretro implementations
 games-emulation/lutro-libretro 1.0_pre20191224 9999-r3: An experimental lua game framework for libretro following the LOVE API.
 games-emulation/mame-libretro 1.0_pre20191224 9999-r3: libretro implementation of MAME 2015. (Arcade)
@@ -118,7 +118,7 @@ games-emulation/quicknes-libretro 1.0_pre20191224 9999-r3: libretro implementati
 games-emulation/redream-libretro 1.0_pre20200512 9999-r3: libretro implementation of redream. (SEGA Dreamcast)
 games-emulation/reminiscence-libretro 1.0_pre20191224 9999-r3: Flashback engine implementation for libretro
 games-emulation/retroarch 1.8.9 9999: Frontend for emulators, game engines and media players
-games-emulation/retroarch-assets 1_pre20200703 9999: Assets needed for RetroArch. Also contains the official branding.
+games-emulation/retroarch-assets 1_pre20200723 9999: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 9999-r3: RetroArch joypad autoconfig files
 games-emulation/rpcs3 9999-r1: PlayStation 3 emulator
 games-emulation/sameboy-libretro 1.0_pre20200403 9999: libretro implementation of SameBoy (Gameboy / Gameboy Color)
