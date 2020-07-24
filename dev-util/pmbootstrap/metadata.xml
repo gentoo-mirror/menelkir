@@ -2,7 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>contact@hacktivis.me</email>
-		<name>Haelwenn (lanodan) Monnier</name>
+		<email>menelkir@itroll.org</email>
+		<name>Daniel Menelkir</name>
 	</maintainer>
+	<longdescription lang="en">Sophisticated chroot/build/flash tool to develop and install postmarketOS.
+	</longdescription>
 </pkgmetadata>
