@@ -3,15 +3,15 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/blueMSX-libretro"
-LIBRETRO_COMMIT_SHA="ddd89ff1fa534816e48521bd930b721f2d39975a"
+LIBRETRO_REPO_NAME="libretro/81-libretro"
+LIBRETRO_COMMIT_SHA="7d769d09b1b6932466272aaf82b37922c1e2e61f"
 inherit libretro-core
 
-DESCRIPTION=" Port of blueMSX to the libretro API"
-HOMEPAGE="https://github.com/libretro/blueMSX-libretro"
+DESCRIPTION="A port of the EightyOne ZX81 Emulator to libretro."
+HOMEPAGE="https://github.com/libretro/81-libretro"
 KEYWORDS="amd64 x86"
 
-LICENSE="bluemsx"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""
