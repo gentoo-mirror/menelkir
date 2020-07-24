@@ -39,6 +39,7 @@ games-emulation/libretro-meta:atari800 - Atari - 5200 (Atari800)
 games-emulation/libretro-meta:bluemsx - MSX/SVI/ColecoVision/SG-1000 (blueMSX)
 games-emulation/libretro-meta:bnes - Nintendo - NES / Famicom (bnes)
 games-emulation/libretro-meta:bsnes - Nintendo - SNES / SFC (bsnes)
+games-emulation/libretro-meta:bsnes-mercury - Nintendo - SNES / SFC (bsnes-mercury)
 games-emulation/libretro-meta:cannonball - OutRun Engine
 games-emulation/libretro-meta:cap32 - Amstrad - CPC (Caprice32)
 games-emulation/libretro-meta:citra - Nintendo - 3DS (Citra)
