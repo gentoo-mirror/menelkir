@@ -4,7 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/libretro-atari800"
-LIBRETRO_COMMIT_SHA="efc0bc71e3cb8a4f957d07fe808cc002ed9c13b9"
+LIBRETRO_COMMIT_SHA="ac0bc2e690fda9e0b7c85600bc6b9d2e27e3b41f"
 inherit libretro-core
 
 DESCRIPTION="atari800 libretro core"
