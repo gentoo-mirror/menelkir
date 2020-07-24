@@ -30,7 +30,7 @@ RDEPEND="
 	sys-libs/zlib
 	virtual/ffmpeg
 	virtual/opengl
-	vulkan? ( media-libs/vulkan-loader )
+	vulkan? ( media-libs/vulkan-loader[wayland] )
 	x11-libs/libX11
 "
 
