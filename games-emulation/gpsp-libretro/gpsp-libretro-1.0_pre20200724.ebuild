@@ -3,15 +3,15 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/fuse-libretro"
-LIBRETRO_COMMIT_SHA="37c8a3c8c0306f7f2d6a356c41bae96fc656d983"
+LIBRETRO_REPO_NAME="libretro/gpsp"
+LIBRETRO_COMMIT_SHA="856af16ba64951d99a6a9aa84b1a10dc1540a868"
 inherit libretro-core
 
-DESCRIPTION=" A port of the Fuse Unix Spectrum Emulator to libretro"
-HOMEPAGE="https://github.com/libretro/fuse-libretro"
+DESCRIPTION="Gameboy gpSP for libretro."
+HOMEPAGE="https://github.com/libretro/gpsp"
 KEYWORDS="amd64 x86"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2"
 SLOT="0"
 
 DEPEND=""

@@ -4,7 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/Genesis-Plus-GX"
-LIBRETRO_COMMIT_SHA="c826d74a4f3769b85402805a1e003c1e1a7fa251"
+LIBRETRO_COMMIT_SHA="7fa34f20de659004399f58a845291a4496cc9d8c"
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of Genesis Plus GX. \

@@ -3,15 +3,15 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/fbalpha"
-LIBRETRO_COMMIT_SHA="84eb9d928be2925c20d2577110f44e890d72532d"
+LIBRETRO_REPO_NAME="libretro/gw-libretro"
+LIBRETRO_COMMIT_SHA="819b1dde560013003eeac86c2069c5be7af25c6d"
 inherit libretro-core
 
-DESCRIPTION="Port of Final Burn Alpha to Libretro"
-HOMEPAGE="https://github.com/libretro/fbalpha"
-KEYWORDS="~amd64 ~x86"
+DESCRIPTION="A libretro core for Game & Watch simulators."
+HOMEPAGE="https://github.com/libretro/gw-libretro"
+KEYWORDS="amd64 x86"
 
-LICENSE="FBA"
+LICENSE="ZLIB"
 SLOT="0"
 
 DEPEND=""

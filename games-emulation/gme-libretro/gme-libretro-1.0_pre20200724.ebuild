@@ -3,15 +3,15 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/gpsp"
-LIBRETRO_COMMIT_SHA="4d6846b4b72f0f5bbfeb684106cbf5fca8d4743a"
+LIBRETRO_REPO_NAME="libretro/libretro-gme"
+LIBRETRO_COMMIT_SHA="5ba9fb506cb1f18d6e371e4fdb5cd7ee154a00a9"
 inherit libretro-core
 
-DESCRIPTION="Gameboy gpSP for libretro."
-HOMEPAGE="https://github.com/libretro/gpsp"
+DESCRIPTION="Port of blargg's Game_Music_Emu library."
+HOMEPAGE="https://github.com/libretro/libretro-gme"
 KEYWORDS="amd64 x86"
 
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""
