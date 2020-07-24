@@ -2,14 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>ykonotopov@gnome.org</email>
-		<name>Yuri Konotopov</name>
+		<email>menelkir@itroll.org</email>
+		<name>Daniel Menelkir</name>
 	</maintainer>
-	<maintainer type="project">
-		<email>proxy-maint@gentoo.org</email>
-		<name>Proxy Maintainers</name>
-	</maintainer>
-	<upstream>
-		<remote-id type="github">neobrain/nihstro</remote-id>
-	</upstream>
+	<longdescription lang="en">3DS shader assembler and disassembler
+	</longdescription>
 </pkgmetadata>
