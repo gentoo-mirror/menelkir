@@ -4,7 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/libretro-handy"
-LIBRETRO_COMMIT_SHA="5ad48a387543e08551b3e174581e350209bec69a"
+LIBRETRO_COMMIT_SHA="e3ff0e9ede58cf08cc80a51eb030d1147a7cfa41"
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of Handy. (Atari Lynx)"

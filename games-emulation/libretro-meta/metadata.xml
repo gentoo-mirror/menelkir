@@ -13,6 +13,7 @@
 		<flag name="bluemsx">MSX/SVI/ColecoVision/SG-1000 (blueMSX)</flag>
 		<flag name="bnes">Nintendo - NES / Famicom (bnes)</flag>
 		<flag name="bsnes">Nintendo - SNES / SFC (bsnes)</flag>
+		<flag name="bsnes-mercury">Nintendo - SNES / SFC (bsnes-mercury)</flag>
 		<flag name="cannonball">OutRun Engine</flag>
 		<flag name="cap32">Amstrad - CPC (Caprice32)</flag>
 		<flag name="citra">Nintendo - 3DS (Citra)</flag>

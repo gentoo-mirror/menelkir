@@ -3,12 +3,13 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/mame2003-libretro"
-LIBRETRO_COMMIT_SHA="1fa2772537aae15f31edb438ea477195a1383f47"
+LIBRETRO_REPO_NAME="libretro/mame2000-libretro"
+LIBRETRO_COMMIT_SHA="e5d4a934c60adc6d42a3f87319312aad89595a15"
+
 inherit libretro-core
 
-DESCRIPTION="MAME (0.78) for libretro."
-HOMEPAGE="https://github.com/libretro/mame2003-libretro"
+DESCRIPTION="MAME2000 (0.37b5) for libretro."
+HOMEPAGE="https://github.com/libretro/mame2000-libretro"
 KEYWORDS="amd64 x86"
 
 LICENSE="MAME-GPL"
