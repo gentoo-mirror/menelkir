@@ -3,20 +3,23 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/Dinothawr"
-LIBRETRO_COMMIT_SHA="022527e6e2889b98ef644f490c696514389ac00b"
+LIBRETRO_REPO_NAME="libretro/desmume"
+LIBRETRO_COMMIT_SHA="6f520c816303a00a777817dc6a1a8d04ced336ea"
 inherit libretro-core
 
-DESCRIPTION="Dinothawr is a block pushing puzzle game on slippery surfaces."
-HOMEPAGE="https://github.com/libretro/Dinothawr"
+DESCRIPTION="libretro implementation of DeSmuME. (Nintendo DS)"
+HOMEPAGE="https://github.com/libretro/desmume"
 KEYWORDS="amd64 x86"
 
-LICENSE="CC-BY-NC-SA-3.0"
+LICENSE="GPL-2"
 SLOT="0"
 
 DEPEND=""
 RDEPEND="${DEPEND}
+		net-libs/libpcap
 		games-emulation/libretro-info"
+
+S="${S}/desmume/src/frontend/libretro"
 
 pkg_preinst() {
 	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then

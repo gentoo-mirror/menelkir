@@ -4,10 +4,10 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/libretro-crocods"
-LIBRETRO_COMMIT_SHA="fbb619f745c3ff470c9e491a18418d743b93789c"
+LIBRETRO_COMMIT_SHA="8d8443cd68093dab195e38973374159c8daefa96"
 inherit libretro-core
 
-DESCRIPTION="CrocoDS libretro core"
+DESCRIPTION="Amstrad CPC libretro core"
 HOMEPAGE="https://github.com/libretro/libretro-crocods"
 KEYWORDS="amd64 x86"
 

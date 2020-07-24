@@ -3,15 +3,15 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/libretro-atari800"
-LIBRETRO_COMMIT_SHA="ac0bc2e690fda9e0b7c85600bc6b9d2e27e3b41f"
+LIBRETRO_REPO_NAME="libretro/Dinothawr"
+LIBRETRO_COMMIT_SHA="18118f66f4a04897fd1cbbfa87cd8957f5bd22ad"
 inherit libretro-core
 
-DESCRIPTION="atari800 libretro core"
-HOMEPAGE="https://github.com/libretro/libretro-atari800"
+DESCRIPTION="Dinothawr is a block pushing puzzle game on slippery surfaces."
+HOMEPAGE="https://github.com/libretro/Dinothawr"
 KEYWORDS="amd64 x86"
 
-LICENSE="GPL-2"
+LICENSE="CC-BY-NC-SA-3.0"
 SLOT="0"
 
 DEPEND=""
