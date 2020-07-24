@@ -4,7 +4,6 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/bsnes-libretro"
-LIBRETRO_COMMIT_SHA="feb8c10c672094e689ed057a278c2b354e113f32"
 
 inherit libretro-core
 
@@ -13,7 +12,7 @@ HOMEPAGE="https://github.com/libretro/bsnes-libretro"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 # No tests provided
 RESTRICT="test"
 
@@ -29,7 +28,7 @@ done
 
 src_install() {
 for profile in "${BSNES_PROFILES[@]}"; do
-		LIBRETRO_CORE_LIB_FILE="${S}/out/bsnes2014_${profile}_libretro.so" \
+		LIBRETRO_CORE_LIB_FILE="${S}/out/bsnes_mercury_${profile}_libretro.so" \
 			libretro-core_src_install
 done
 }

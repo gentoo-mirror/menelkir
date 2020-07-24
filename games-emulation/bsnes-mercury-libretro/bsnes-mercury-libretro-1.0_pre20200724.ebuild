@@ -3,13 +3,13 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/bsnes-libretro"
-LIBRETRO_COMMIT_SHA="feb8c10c672094e689ed057a278c2b354e113f32"
+LIBRETRO_REPO_NAME="libretro/bsnes-mercury"
+LIBRETRO_COMMIT_SHA="4a382621da58ae6da850f1bb003ace8b5f67968c"
 
 inherit libretro-core
 
-DESCRIPTION="Libretro fork of bsnes"
-HOMEPAGE="https://github.com/libretro/bsnes-libretro"
+DESCRIPTION="Libretro fork of higan."
+HOMEPAGE="https://github.com/libretro/bsnes-mercury"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -29,7 +29,7 @@ done
 
 src_install() {
 for profile in "${BSNES_PROFILES[@]}"; do
-		LIBRETRO_CORE_LIB_FILE="${S}/out/bsnes2014_${profile}_libretro.so" \
+		LIBRETRO_CORE_LIB_FILE="${S}/out/bsnes_mercury_${profile}_libretro.so" \
 			libretro-core_src_install
 done
 }

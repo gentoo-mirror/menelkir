@@ -28,7 +28,7 @@ done
 
 src_install() {
 for profile in "${BSNES_PROFILES[@]}"; do
-		LIBRETRO_CORE_LIB_FILE="${S}/out/bsnes_${profile}_libretro.so" \
+		LIBRETRO_CORE_LIB_FILE="${S}/out/bsnes2014_${profile}_libretro.so" \
 			libretro-core_src_install
 done
 }

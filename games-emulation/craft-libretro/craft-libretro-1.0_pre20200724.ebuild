@@ -4,11 +4,12 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/Craft"
+LIBRETRO_COMMIT_SHA="1b0da2b133a528f352c4b6dc24a464c652e39630"
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of Craft. (Minecraft clone)"
 HOMEPAGE="https://github.com/libretro/Craft"
-KEYWORDS=""
+KEYWORDS="amd64 x86"
 
 LICENSE="Craft"
 SLOT="0"
