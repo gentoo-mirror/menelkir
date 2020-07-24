@@ -3,16 +3,15 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/mame2000-libretro"
-LIBRETRO_COMMIT_SHA="1c3ea561b8ca00ff323a051393e7274dff729de9"
-
+LIBRETRO_REPO_NAME="libretro/libretro-lutro"
+LIBRETRO_COMMIT_SHA="38f2b111fef749bee5cba64f031c30bf572421f8"
 inherit libretro-core
 
-DESCRIPTION="MAME2000 (0.37b5) for libretro."
-HOMEPAGE="https://github.com/libretro/mame2000-libretro"
+DESCRIPTION="An experimental lua game framework for libretro following the LOVE API."
+HOMEPAGE="https://github.com/libretro/libretro-lutro"
 KEYWORDS="amd64 x86"
 
-LICENSE="MAME-GPL"
+LICENSE="MIT"
 SLOT="0"
 
 DEPEND=""
