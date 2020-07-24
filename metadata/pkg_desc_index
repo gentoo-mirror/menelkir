@@ -168,7 +168,7 @@ media-sound/carla 2.1 9999: Fully-featured audio plugin host, supports many audi
 media-sound/munt 2.3.0 9999: Software synthesiser emulating pre-GM MIDI (e.g., Roland MT-32)
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 media-sound/spotify-adblock 1.1 9999: Spotify adblocker for linux
-media-tv/popcorntime-bin 0.4.4: Watch torrent movies instantly
+media-tv/popcorntime-bin 0.3.10: Watch torrent movies instantly
 media-tv/qtwebflix 9999: A QT webengine frontend for netflix (and other streaming services)
 media-tv/stremio-shell 9999: Watch videos, movies, TV series and TV channels instantly. (Beta Version)
 media-video/apple_facetimehd_firmware 1.43.0: Firmware for the Apple Facetime HD Camera
