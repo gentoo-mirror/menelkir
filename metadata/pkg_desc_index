@@ -54,21 +54,21 @@ games-emulation/es-theme-simple-dark 9999: EmulationStation theme simple dark
 games-emulation/es-theme-simplified-static-canela 9999: EmulationStation theme simplified-static-canela
 games-emulation/es-theme-turtle-pi 9999: EmulationStation theme turtle-pi
 games-emulation/es-theme-zoid 9999: EmulationStation theme zoid
-games-emulation/fbalpha-libretro 1.0_pre20191224 9999-r3: Port of Final Burn Alpha to Libretro
-games-emulation/fbalpha2012-libretro 1.0_pre20191224 9999-r3: Final Burn Alpha 2012. Port of Final Burn Alpha to Libretro (0.2.97.24)
-games-emulation/fbneo-libretro 1.0_pre20200408 9999: Fork of Final Burn Alpha
-games-emulation/fceu-next-libretro 1.0_pre20191224 9999-r3: libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)
-games-emulation/fceumm-libretro 1.0_pre20191224 9999-r3: FCEUmm libretro port.
-games-emulation/flycast-libretro 1.0_pre20191224 9999-r3: Multiplatform Sega Dreamcast emulator
-games-emulation/fmsx-libretro 1.0_pre20191224 9999-r3: Port of fMSX to the libretro API.
-games-emulation/freeintv-libretro 1.0_pre20191224 9999-r3: A libretro emulation core for the Mattel Intellivision
-games-emulation/fuse-libretro 1.0_pre20191224 9999-r3: A port of the Fuse Unix Spectrum Emulator to libretro
-games-emulation/gambatte-libretro 1.0_pre20191224 9999-r3: libretro implementation of Gambatte. (Game Boy/Game Boy Color)
-games-emulation/genplus-libretro 1.0_pre20191224 9999-r3: libretro implementation of Genesis Plus GX. (Sega Genesis/Sega CD)
-games-emulation/glsl-shaders 1_pre20191224: glsl shaders converted by hand from libretro's common-shaders repo
-games-emulation/gme-libretro 1.0_pre20191224 9999-r3: Port of blargg's Game_Music_Emu library.
-games-emulation/gpsp-libretro 1.0_pre20191224 9999-r3: Gameboy gpSP for libretro.
-games-emulation/gw-libretro 1.0_pre20191224 9999-r3: A libretro core for Game & Watch simulators.
+games-emulation/fbalpha-libretro 1.0_pre20200724 9999-r3: Port of Final Burn Alpha to Libretro
+games-emulation/fbalpha2012-libretro 1.0_pre20200724 9999-r3: Final Burn Alpha 2012. Port of Final Burn Alpha to Libretro (0.2.97.24)
+games-emulation/fbneo-libretro 1.0_pre20200724 9999: Fork of Final Burn Alpha
+games-emulation/fceu-next-libretro 1.0_pre20200724 9999-r3: libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)
+games-emulation/fceumm-libretro 1.0_pre20200724 9999-r3: FCEUmm libretro port.
+games-emulation/flycast-libretro 1.0_pre20200724 9999-r3: Multiplatform Sega Dreamcast emulator
+games-emulation/fmsx-libretro 1.0_pre20200724 9999-r3: Port of fMSX to the libretro API.
+games-emulation/freeintv-libretro 1.0_pre20200724 9999-r3: A libretro emulation core for the Mattel Intellivision
+games-emulation/fuse-libretro 1.0_pre20200724 9999-r3: A port of the Fuse Unix Spectrum Emulator to libretro
+games-emulation/gambatte-libretro 1.0_pre20200724 9999-r3: libretro implementation of Gambatte. (Game Boy/Game Boy Color)
+games-emulation/genplus-libretro 1.0_pre20200724 9999-r3: libretro implementation of Genesis Plus GX. (Sega Genesis/Sega CD)
+games-emulation/glsl-shaders 1_pre20200724 9999: glsl shaders converted by hand from libretro's common-shaders repo
+games-emulation/gme-libretro 1.0_pre20200724 9999-r3: Port of blargg's Game_Music_Emu library.
+games-emulation/gpsp-libretro 1.0_pre20200724 9999-r3: Gameboy gpSP for libretro.
+games-emulation/gw-libretro 1.0_pre20200724 9999-r3: A libretro core for Game & Watch simulators.
 games-emulation/handy-libretro 1.0_pre20191224 9999-r3: libretro implementation of Handy. (Atari Lynx)
 games-emulation/libretro-common-overlays 1_pre20200723 9999-r3: Collection of overlay files for use with RetroArch
 games-emulation/libretro-common-shaders 1_pre20200723 9999-r3: Collection of commonly used Cg shaders
