@@ -3,22 +3,24 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/fbalpha2012"
-LIBRETRO_COMMIT_SHA="89245384c7d181e286d6f34995253419f946becb"
+LIBRETRO_REPO_NAME="libretro/FBNeo"
+LIBRETRO_COMMIT_SHA="be6bf3de17c0d0137d0c72f1dd0a77b576ad44c3"
+
 inherit libretro-core
 
-DESCRIPTION="Final Burn Alpha 2012. Port of Final Burn Alpha to Libretro (0.2.97.24)"
+DESCRIPTION="Fork of Final Burn Alpha"
 HOMEPAGE="https://github.com/libretro/fbalpha2012"
-KEYWORDS="~amd64 ~x86"
-
-S="${S}/svn-current/trunk"
+KEYWORDS="amd64 x86"
 
 LICENSE="FBA"
 SLOT="0"
 
-DEPEND=""
+DEPEND="media-libs/libsdl2
+		media-libs/sdl-image"
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
+
+S="${WORKDIR}"/FBNeo-${LIBRETRO_COMMIT_SHA}/src/burner/libretro
 
 pkg_preinst() {
 	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then

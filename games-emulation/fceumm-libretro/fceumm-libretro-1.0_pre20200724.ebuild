@@ -3,23 +3,20 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/fceu-next"
-LIBRETRO_COMMIT_SHA="ebd46a592c23a8091abd72e74cf0d9f4517769e1"
+LIBRETRO_REPO_NAME="libretro/libretro-fceumm"
+LIBRETRO_COMMIT_SHA="8fb70d2d3de55ec5bdb26b5d14a87ce01bb44529"
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)"
-HOMEPAGE="https://github.com/libretro/fceu-next"
-KEYWORDS="~amd64 ~x86"
+DESCRIPTION="FCEUmm nes emulator libretro port."
+HOMEPAGE="https://github.com/libretro/libretro-fceumm"
+KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
 SLOT="0"
 
-DEPEND="!games-emulation/fceumm-libretro"
+DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
-
-S="${S}/fceumm-code"
-LIBRETRO_CORE_NAME=fceumm
 
 pkg_preinst() {
 	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then

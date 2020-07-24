@@ -5,6 +5,6 @@
 		<email>menelkir@itroll.org</email>
 		<name>Daniel Menelkir</name>
 	</maintainer>
-	<longdescription lang="en">
+	<longdescription lang="en">Port of Final Burn Alpha to Libretro
 	</longdescription>
 </pkgmetadata>

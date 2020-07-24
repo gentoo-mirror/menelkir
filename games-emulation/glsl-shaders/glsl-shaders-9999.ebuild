@@ -3,13 +3,12 @@
 
 EAPI=7
 
-LIBRETRO_COMMIT_SHA="faa1226fbee3f37f8c26b73978e5296624744cdb"
-
-inherit libretro
+inherit libretro git-r3
 
 DESCRIPTION="glsl shaders converted by hand from libretro's common-shaders repo"
 HOMEPAGE="https://github.com/libretro/glsl-shaders"
-KEYWORDS="amd64 x86"
+KEYWORDS=""
+EGIT_REPO_URI="https://github.com/libretro/glsl-shaders"
 
 LICENSE="GPL-3"
 SLOT="0"

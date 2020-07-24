@@ -3,15 +3,15 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/gw-libretro"
-LIBRETRO_COMMIT_SHA="311df910e4d1e686cf81aad2d4f908be8d1e1c49"
+LIBRETRO_REPO_NAME="libretro/fuse-libretro"
+LIBRETRO_COMMIT_SHA="c2f03e6f08f3e2a03d7888fe756e0beb7979f983"
 inherit libretro-core
 
-DESCRIPTION="A libretro core for Game & Watch simulators."
-HOMEPAGE="https://github.com/libretro/gw-libretro"
+DESCRIPTION="A port of the Fuse Unix Spectrum Emulator to libretro"
+HOMEPAGE="https://github.com/libretro/fuse-libretro"
 KEYWORDS="amd64 x86"
 
-LICENSE="ZLIB"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""

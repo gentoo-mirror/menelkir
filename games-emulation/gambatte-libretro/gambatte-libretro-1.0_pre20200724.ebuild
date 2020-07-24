@@ -3,15 +3,15 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/FreeIntv"
-LIBRETRO_COMMIT_SHA="df7f7f83d1bb56b25553d81d2f279c078883502a"
+LIBRETRO_REPO_NAME="libretro/gambatte-libretro"
+LIBRETRO_COMMIT_SHA="2a204aabc7c22ae60eee26273dea2cf7c2bb435d"
 inherit libretro-core
 
-DESCRIPTION="A libretro emulation core for the Mattel Intellivision"
-HOMEPAGE="https://github.com/libretro/FreeIntv"
+DESCRIPTION="libretro implementation of Gambatte. (Game Boy/Game Boy Color)"
+HOMEPAGE="https://github.com/libretro/gambatte-libretro"
 KEYWORDS="amd64 x86"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2"
 SLOT="0"
 
 DEPEND=""
