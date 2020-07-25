@@ -3,13 +3,12 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/beetle-wswan-libretro"
-LIBRETRO_COMMIT_SHA="fb0c111753991779526974cc7a0701f7ada875f6"
-
+LIBRETRO_REPO_NAME="libretro/beetle-supergrafx-libretro"
+LIBRETRO_COMMIT_SHA="adb70c556077f776a04ba1ad124fe36befa740ab"
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)"
-HOMEPAGE="https://github.com/libretro/beetle-wswan-libretro"
+DESCRIPTION="libretro implementation of Mednafen Supergrafx. (SuperGrafx TG-16)"
+HOMEPAGE="https://github.com/libretro/beetle-supergrafx-libretro"
 KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
@@ -20,7 +19,7 @@ RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
 src_install() {
-    LIBRETRO_CORE_LIB_FILE="${S}/mednafen_wswan_libretro.so" \
+	LIBRETRO_CORE_LIB_FILE="${S}/mednafen_supergrafx_libretro.so" \
 	libretro-core_src_install
 }
 

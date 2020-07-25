@@ -3,26 +3,24 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/libretro-meowPC98"
-LIBRETRO_COMMIT_SHA="3aa49d7873eb817932bab53f32dcbc07e0e92dd6"
+LIBRETRO_REPO_NAME="libretro/beetle-wswan-libretro"
+LIBRETRO_COMMIT_SHA="98ff3de818ff158c22bd7c3ad61f2bb37d8bcb1f" 
 
 inherit libretro-core
 
-DESCRIPTION="Neko Project 2 (PC98 emulator) port for libretro/RetroArch (XNP2)"
-HOMEPAGE="https://github.com/libretro/libretro-meowPC98"
+DESCRIPTION="libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)"
+HOMEPAGE="https://github.com/libretro/beetle-wswan-libretro"
 KEYWORDS="amd64 x86"
 
-LICENSE="BSD"
+LICENSE="GPL-2"
 SLOT="0"
 
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-S="${S}/libretro"
-
 src_install() {
-    LIBRETRO_CORE_LIB_FILE="${S}/nekop2_libretro.so" \
+    LIBRETRO_CORE_LIB_FILE="${S}/mednafen_wswan_libretro.so" \
 	libretro-core_src_install
 }
 

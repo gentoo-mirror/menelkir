@@ -3,13 +3,13 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/beetle-supergrafx-libretro"
-LIBRETRO_COMMIT_SHA="8d28dfb1ecfb9f1a5c01b0c67d53ecfcbac41da7"
+LIBRETRO_REPO_NAME="libretro/beetle-lynx-libretro"
+LIBRETRO_COMMIT_SHA="a43fa4792647cfb0a170d9c4b6aa2f3804f28c84"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of Mednafen PCE Fast. (SuperGrafx TG-16)"
-HOMEPAGE="https://github.com/libretro/beetle-supergrafx-libretro"
+DESCRIPTION="libretro implementation of Mednafen Lynx. (Atari Lynx)"
+HOMEPAGE="https://github.com/libretro/beetle-lynx-libretro"
 KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
@@ -20,7 +20,7 @@ RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
 src_install() {
-    LIBRETRO_CORE_LIB_FILE="${S}/mednafen_supergrafx_libretro.so" \
+    LIBRETRO_CORE_LIB_FILE="${S}/mednafen_lynx_libretro.so" \
 	libretro-core_src_install
 }
 

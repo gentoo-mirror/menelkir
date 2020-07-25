@@ -3,13 +3,13 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/beetle-lynx-libretro"
-LIBRETRO_COMMIT_SHA="fe8dc90931de95b90dc1ff76681a95910511f087"
+LIBRETRO_REPO_NAME="libretro/beetle-vb-libretro"
+LIBRETRO_COMMIT_SHA="489dd5d00547e3eb929611ae57dfcb7bbda23022"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of Mednafen Lynx. (Atari Lynx)"
-HOMEPAGE="https://github.com/libretro/beetle-lynx-libretro"
+DESCRIPTION="libretro implementation of Mednafen VB. (Virtual Boy)"
+HOMEPAGE="https://github.com/libretro/beetle-vb-libretro"
 KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
@@ -20,7 +20,7 @@ RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
 src_install() {
-    LIBRETRO_CORE_LIB_FILE="${S}/mednafen_lynx_libretro.so" \
+    LIBRETRO_CORE_LIB_FILE="${S}/mednafen_vb_libretro.so" \
 	libretro-core_src_install
 }
 

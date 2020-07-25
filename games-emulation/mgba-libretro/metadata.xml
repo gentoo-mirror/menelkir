@@ -12,6 +12,6 @@
 		<flag name="pgo">Build using Profile Guided Optimization (PGO)</flag>
 		<flag name="pgopost">Make use of PGO</flag>
 	</use>
-	<longdescription lang="en">
+	<longdescription lang="en">libretro implementation of mGBA. (Game Boy Advance)
 	</longdescription>
 </pkgmetadata>

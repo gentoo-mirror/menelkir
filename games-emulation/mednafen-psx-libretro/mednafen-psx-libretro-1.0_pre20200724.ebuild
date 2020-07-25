@@ -3,13 +3,13 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/beetle-vb-libretro"
-LIBRETRO_COMMIT_SHA="ee8e5805c6a7612594dd864f5614bae4d08f2fa9"
+LIBRETRO_REPO_NAME="libretro/beetle-psx-libretro"
+LIBRETRO_COMMIT_SHA="52710212f35b7254eeb11b541d7f16b581b406a9"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of Mednafen VB. (Virtual Boy)"
-HOMEPAGE="https://github.com/libretro/beetle-vb-libretro"
+DESCRIPTION="Standalone port/fork of Mednafen PSX to the Libretro API."
+HOMEPAGE="https://github.com/libretro/beetle-psx-libretro"
 KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
@@ -20,7 +20,7 @@ RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
 src_install() {
-    LIBRETRO_CORE_LIB_FILE="${S}/mednafen_vb_libretro.so" \
+    LIBRETRO_CORE_LIB_FILE="${S}/mednafen_psx_libretro.so" \
 	libretro-core_src_install
 }
 

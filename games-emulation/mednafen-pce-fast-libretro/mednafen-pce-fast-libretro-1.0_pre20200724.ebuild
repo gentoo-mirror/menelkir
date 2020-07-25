@@ -4,7 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/beetle-pce-fast-libretro"
-LIBRETRO_COMMIT_SHA="b30732d6cf4b9725ab7a7634a6614a6a284e6326"
+LIBRETRO_COMMIT_SHA="bdcb39400470cfc9457e170e223a2e70130fdd5c"
 LIBRETRO_CORE_NAME=mednafen_pce_fast
 
 inherit libretro-core
