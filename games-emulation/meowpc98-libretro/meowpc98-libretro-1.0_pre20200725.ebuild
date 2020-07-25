@@ -3,24 +3,26 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/beetle-psx-libretro"
-LIBRETRO_COMMIT_SHA="8cdfd50b1026085c5974bc1ec11ad9c2b53593cf"
+LIBRETRO_REPO_NAME="libretro/libretro-meowPC98"
+LIBRETRO_COMMIT_SHA="b005f6b7f608e22ab33bccafe581c62a025050bb"
 
 inherit libretro-core
 
-DESCRIPTION="Standalone port/fork of Mednafen PSX to the Libretro API."
-HOMEPAGE="https://github.com/libretro/beetle-psx-libretro"
+DESCRIPTION="Neko Project 2 (PC98 emulator) port for libretro/RetroArch (XNP2)"
+HOMEPAGE="https://github.com/libretro/libretro-meowPC98"
 KEYWORDS="amd64 x86"
 
-LICENSE="GPL-2"
+LICENSE="BSD"
 SLOT="0"
 
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
+S="${S}/libretro/"
+
 src_install() {
-    LIBRETRO_CORE_LIB_FILE="${S}/mednafen_psx_libretro.so" \
+    LIBRETRO_CORE_LIB_FILE="${S}/nekop2_libretro.so" \
 	libretro-core_src_install
 }
 
