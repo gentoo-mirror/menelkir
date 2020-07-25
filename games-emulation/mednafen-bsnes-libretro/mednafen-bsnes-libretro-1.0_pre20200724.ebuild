@@ -4,7 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/beetle-bsnes-libretro"
-LIBRETRO_COMMIT_SHA="de22d8420ea606f1b2f72afd4dda34619cf2cc20"
+LIBRETRO_COMMIT_SHA="1c269db1d0c7857976efd9b8330ac217385765c8"
 
 inherit libretro-core
 

@@ -4,7 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/beetle-gba-libretro"
-LIBRETRO_COMMIT_SHA="135afdbb9591655a3e016b75abba07e481f6d406"
+LIBRETRO_COMMIT_SHA="5fccbb2be361c60a176a033f5a6f735c1cea783b"
 
 inherit libretro-core
 

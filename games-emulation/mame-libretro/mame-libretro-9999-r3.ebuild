@@ -6,7 +6,7 @@ EAPI=6
 LIBRETRO_REPO_NAME="libretro/mame"
 inherit flag-o-matic check-reqs versionator libretro-core
 
-DESCRIPTION="libretro implementation of MAME 2015. (Arcade)"
+DESCRIPTION="MAME (current) for libretro."
 HOMEPAGE="https://github.com/libretro/mame"
 KEYWORDS=""
 
@@ -43,7 +43,7 @@ src_prepare(){
 		# Check for mame version and apply gcc < 5.1 patch
 		# See https://bugs.gentoo.org/show_bug.cgi?id=582576
 		if [[ $(grep ' #define BARE_BUILD_VERSION' makefile | grep -o -E '[0-9][0-9][0-9]') < 175 ]]; then
-			epatch "${FILESDIR}"/sdlmame-0.174-cxx14.patch || die "epatch failed!"
+			epatch "${FILESDIR}"/sdlmame--cxx14.patch || die "epatch failed!"
 		fi
 	fi
 }
