@@ -4,7 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/mame2010-libretro"
-LIBRETRO_COMMIT_SHA="d3151837758eade73c85c28c20e7d2a8706f30c6"
+LIBRETRO_COMMIT_SHA="9b0e3b3384cc8e86e78870262f4027bdce9de0f4"
 
 inherit libretro-core
 
