@@ -26,8 +26,10 @@ IUSE+="custom-cflags debug"
 # Name of this Libretro core. The libretro-core_src_install() phase function
 # will install the shared library "${S}/${LIBRETRO_CORE_NAME}_libretro.so" as a
 # Libretro core. Defaults to the name of the current package excluding the
-# "-libretro" suffix (e.g., "mgba" for the package "mgba-libretro").
-: ${LIBRETRO_CORE_NAME:=${PN%-libretro}}
+# "-libretro" suffix and replacing dashes by underlines (e.g., "foo_bar" for
+# the package "foo-bar-libretro").
+PN_UNDERLINES=${PN//-/_}
+: ${LIBRETRO_CORE_NAME:=${PN_UNDERLINES%_libretro}}
 
 # @ECLASS-VARIABLE: LIBRETRO_CORE_LIB_FILE
 # @DESCRIPTION:
