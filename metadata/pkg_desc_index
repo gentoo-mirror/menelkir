@@ -75,14 +75,14 @@ games-emulation/libretro-database 1_pre20200723 9999-r3: Repository containing c
 games-emulation/libretro-info 1_pre20200723 9999-r3: Libretro info files required for libretro cores
 games-emulation/libretro-meta 9999-r5: Meta package for various libretro implementations
 games-emulation/lutro-libretro 1.0_pre20200724 9999-r3: An experimental lua game framework for libretro following the LOVE API.
-games-emulation/mame-libretro 1.0_pre20191224 9999-r3: libretro implementation of MAME 2015. (Arcade)
+games-emulation/mame-libretro 1.0_pre20200724 9999-r3: MAME (current) for libretro.
 games-emulation/mame2000-libretro 1.0_pre20200724 9999-r3: MAME2000 (0.37b5) for libretro.
 games-emulation/mame2003-libretro 1.0_pre20200724 9999-r3: MAME (0.78) for libretro.
-games-emulation/mame2010-libretro 1.0_pre20191224 9999-r3: MAME (0.139) for libretro.
-games-emulation/mame2015-libretro 1.0_pre20191224 9999-r3: MAME (0.160) for libretro.
-games-emulation/mame2016-libretro 1.0_pre20191224 9999-r3: MAME (0.174) for libretro.
-games-emulation/mednafen-bsnes-libretro 1.0_pre20200512 9999-r3: libretro implementation of Mednafen SNES. (Super Nintendo Entertainment System)
-games-emulation/mednafen-gba-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen VBA/GBA. (Game Boy Advance)
+games-emulation/mame2010-libretro 1.0_pre20200724 9999-r3: MAME (0.139) for libretro.
+games-emulation/mame2015-libretro 1.0_pre20200724 9999-r3: MAME (0.160) for libretro.
+games-emulation/mame2016-libretro 1.0_pre20200724 9999-r3: MAME (0.174) for libretro.
+games-emulation/mednafen-bsnes-libretro 1.0_pre20200724 9999-r3: libretro implementation of Mednafen SNES. (Super Nintendo Entertainment System)
+games-emulation/mednafen-gba-libretro 1.0_pre20200724 9999-r3: libretro implementation of Mednafen VBA/GBA. (Game Boy Advance)
 games-emulation/mednafen-lynx-libretro 1.0_pre20200512 9999-r3: libretro implementation of Mednafen Lynx. (Atari Lynx)
 games-emulation/mednafen-ngp-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen Neopop. Neo Geo Pocket/Neo Geo Pocket Color
 games-emulation/mednafen-pce-fast-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen PCE Fast. (PC Engine/TurboGrafx-16)
