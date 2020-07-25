@@ -8,7 +8,7 @@ LIBRETRO_REPO_NAME="libretro/FBNeo"
 inherit libretro-core
 
 DESCRIPTION="Fork of Final Burn Alpha"
-HOMEPAGE="https://github.com/libretro/fbalpha2012"
+HOMEPAGE="https://github.com/libretro/FBNeo"
 KEYWORDS=""
 
 LICENSE="FBA"
