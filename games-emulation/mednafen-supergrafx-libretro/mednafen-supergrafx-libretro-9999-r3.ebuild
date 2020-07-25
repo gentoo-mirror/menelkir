@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="libretro/beetle-supergrafx-libretro"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of Mednafen PCE Fast. (SuperGrafx TG-16)"
+DESCRIPTION="libretro implementation of Mednafen Supergrafx. (SuperGrafx TG-16)"
 HOMEPAGE="https://github.com/libretro/beetle-supergrafx-libretro"
 KEYWORDS=""
 
