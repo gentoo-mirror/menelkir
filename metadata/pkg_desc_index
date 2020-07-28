@@ -57,7 +57,7 @@ games-emulation/fbalpha-libretro 1.0_pre20200724 9999-r3: Port of Final Burn Alp
 games-emulation/fbalpha2012-libretro 1.0_pre20200724 9999-r3: Final Burn Alpha 2012. Port of Final Burn Alpha to Libretro (0.2.97.24)
 games-emulation/fbneo-libretro 1.0_pre20200724 9999: Fork of Final Burn Alpha
 games-emulation/fceu-next-libretro 1.0_pre20200724 9999-r3: libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)
-games-emulation/fceumm-libretro 1.0_pre20200724 9999-r3: FCEUmm libretro port.
+games-emulation/fceumm-libretro 1.0_pre20200724 9999-r3: FCEUmm nes emulator libretro port.
 games-emulation/flycast-libretro 1.0_pre20200724 9999-r3: Multiplatform Sega Dreamcast emulator
 games-emulation/fmsx-libretro 1.0_pre20200724 9999-r3: Port of fMSX to the libretro API.
 games-emulation/freeintv-libretro 1.0_pre20200724 9999-r3: A libretro emulation core for the Mattel Intellivision
@@ -89,7 +89,7 @@ games-emulation/mednafen-pce-fast-libretro 1.0_pre20200724 9999-r3: libretro imp
 games-emulation/mednafen-pcfx-libretro 1.0_pre20200512 9999-r3: Standalone port of Mednafen PCFX to libretro.
 games-emulation/mednafen-psx-libretro 1.0_pre20200724 9999-r3: Standalone port/fork of Mednafen PSX to the Libretro API.
 games-emulation/mednafen-saturn-libretro 1.0_pre20200725 9999-r3: Standalone port of Mednafen Saturn to the libretro
-games-emulation/mednafen-supergrafx-libretro 1.0_pre20200725 9999-r3: libretro implementation of Mednafen PCE Fast. (SuperGrafx TG-16)
+games-emulation/mednafen-supergrafx-libretro 1.0_pre20200725 9999-r3: libretro implementation of Mednafen Supergrafx. (SuperGrafx TG-16)
 games-emulation/mednafen-vb-libretro 1.0_pre20200725 9999-r3: libretro implementation of Mednafen VB. (Virtual Boy)
 games-emulation/mednafen-wswan-libretro 1.0_pre20200725 9999-r3: libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)
 games-emulation/melonds-libretro 1.0_pre20200725 9999-r3: libretro implementation of melonDS. (NintendoDS)
