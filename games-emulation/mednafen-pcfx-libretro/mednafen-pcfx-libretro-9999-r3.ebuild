@@ -8,7 +8,7 @@ LIBRETRO_REPO_NAME="libretro/beetle-pcfx-libretro"
 inherit libretro-core
 
 DESCRIPTION="Standalone port of Mednafen PCFX to libretro."
-HOMEPAGE="https://github.com/libretro/beetle-vb-libretro"
+HOMEPAGE="https://github.com/libretro/beetle-pcfx-libretro"
 KEYWORDS=""
 
 LICENSE="GPL-2"

@@ -37,7 +37,7 @@ pkg_postinst() {
 		elog "iplrom30.dat (X68000 BIOS 3)"
 		elog ""
 		elog "They can be legally acquired from:"
-		elog "http://www.gradiushomeworld.co.uk/guides_emulators_x68_winx68khighspeed_guide.php"
+		elog "https://www.gamestone.co.uk/gradiushomeworld/guides_emulators_x68_winx68khighspeed_guide.php"
 		elog ""
 	fi
 }

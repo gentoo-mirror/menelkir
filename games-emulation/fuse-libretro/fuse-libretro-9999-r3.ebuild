@@ -6,7 +6,7 @@ EAPI=7
 LIBRETRO_REPO_NAME="libretro/fuse-libretro"
 inherit libretro-core
 
-DESCRIPTION=" A port of the Fuse Unix Spectrum Emulator to libretro"
+DESCRIPTION="A port of the Fuse Unix Spectrum Emulator to libretro"
 HOMEPAGE="https://github.com/libretro/fuse-libretro"
 KEYWORDS=""
 

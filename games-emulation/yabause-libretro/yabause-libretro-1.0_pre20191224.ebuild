@@ -17,7 +17,7 @@ SLOT="0"
 
 DEPEND=""
 RDEPEND="${DEPEND}
-		games-emulation/libretro-info"
+	games-emulation/libretro-info"
 
 S="${S}/yabause/src/libretro"
 

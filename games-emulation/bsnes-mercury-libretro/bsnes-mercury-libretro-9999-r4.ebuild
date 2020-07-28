@@ -3,12 +3,12 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/bsnes-libretro"
+LIBRETRO_REPO_NAME="libretro/bsnes-mercury"
 
 inherit libretro-core
 
 DESCRIPTION="Libretro fork of bsnes"
-HOMEPAGE="https://github.com/libretro/bsnes-libretro"
+HOMEPAGE="https://github.com/libretro/bsnes-mercury"
 
 LICENSE="GPL-3"
 SLOT="0"
