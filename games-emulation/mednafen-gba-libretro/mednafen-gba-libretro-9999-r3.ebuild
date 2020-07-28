@@ -3,7 +3,7 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/mednafen-gba-libretro"
+LIBRETRO_REPO_NAME="libretro/beetle-gba-libretro"
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of Mednafen VBA/GBA. (Game Boy Advance)"

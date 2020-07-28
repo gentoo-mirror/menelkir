@@ -19,7 +19,7 @@ DEPEND="media-libs/libsdl2
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-S="${WORKDIR}"/FBNeo-${LIBRETRO_COMMIT_SHA}/src/burner/libretro
+S="${WORKDIR}/${P}"/src/burner/libretro
 
 pkg_preinst() {
 	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
