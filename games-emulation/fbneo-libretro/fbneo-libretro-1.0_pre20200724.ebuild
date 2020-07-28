@@ -9,7 +9,7 @@ LIBRETRO_COMMIT_SHA="be6bf3de17c0d0137d0c72f1dd0a77b576ad44c3"
 inherit libretro-core
 
 DESCRIPTION="Fork of Final Burn Alpha"
-HOMEPAGE="https://github.com/libretro/fbalpha2012"
+HOMEPAGE="https://github.com/libretro/FBNeo"
 KEYWORDS="amd64 x86"
 
 LICENSE="FBA"

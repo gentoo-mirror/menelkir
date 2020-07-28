@@ -8,7 +8,7 @@ LIBRETRO_COMMIT_SHA="4a382621da58ae6da850f1bb003ace8b5f67968c"
 
 inherit libretro-core
 
-DESCRIPTION="Libretro fork of higan."
+DESCRIPTION="Libretro fork of bsnes"
 HOMEPAGE="https://github.com/libretro/bsnes-mercury"
 
 LICENSE="GPL-3"

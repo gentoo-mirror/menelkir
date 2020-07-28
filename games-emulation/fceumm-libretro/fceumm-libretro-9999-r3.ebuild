@@ -6,7 +6,7 @@ EAPI=7
 LIBRETRO_REPO_NAME="libretro/libretro-fceumm"
 inherit libretro-core
 
-DESCRIPTION=" FCEUmm libretro port."
+DESCRIPTION="FCEUmm nes emulator libretro port."
 HOMEPAGE="https://github.com/libretro/libretro-fceumm"
 KEYWORDS=""
 
