@@ -115,22 +115,22 @@ src_install() {
 	# Create the init.d file and put the neccessary variables there
 	newinitd "${FILESDIR}"/init.d.webmin webmin
 	sed -i \
-		-e "s:%exe%:${EROOT}usr/libexec/webmin/miniserv.pl:" \
-		-e "s:%pid%:${EROOT}var/run/webmin.pid:" \
-		-e "s:%conf%:${EROOT}etc/webmin/miniserv.conf:" \
-		-e "s:%config%:${EROOT}etc/webmin/config:" \
-		-e "s:%perllib%:${EROOT}usr/libexec/webmin:" \
-		"${ED}etc/init.d/webmin" \
+		-e "s:%exe%:${EROOT}/usr/libexec/webmin/miniserv.pl:" \
+		-e "s:%pid%:${EROOT}/var/run/webmin.pid:" \
+		-e "s:%conf%:${EROOT}/etc/webmin/miniserv.conf:" \
+		-e "s:%config%:${EROOT}/etc/webmin/config:" \
+		-e "s:%perllib%:${EROOT}/usr/libexec/webmin:" \
+		"${ED}/etc/init.d/webmin" \
 		|| die "Failed to patch the webmin init file"
 
 	# Create the systemd service file and put the neccessary variables there
 	systemd_newunit "${FILESDIR}"/webmin.service webmin.service
 	sed -i \
-		-e "s:%exe%:${EROOT}usr/libexec/webmin/miniserv.pl:" \
-		-e "s:%pid%:${EROOT}var/run/webmin.pid:" \
-		-e "s:%conf%:${EROOT}etc/webmin/miniserv.conf:" \
-		-e "s:%config%:${EROOT}etc/webmin/config:" \
-		-e "s:%perllib%:${EROOT}usr/libexec/webmin:" \
+		-e "s:%exe%:${EROOT}/usr/libexec/webmin/miniserv.pl:" \
+		-e "s:%pid%:${EROOT}/var/run/webmin.pid:" \
+		-e "s:%conf%:${EROOT}/etc/webmin/miniserv.conf:" \
+		-e "s:%config%:${EROOT}/etc/webmin/config:" \
+		-e "s:%perllib%:${EROOT}/usr/libexec/webmin:" \
 		"${ED}$(_systemd_get_systemunitdir)/webmin.service" \
 		|| die "Failed to patch the webmin systemd service file"
 
@@ -139,7 +139,7 @@ src_install() {
 
 	# Copy files to installation folder
 	ebegin "Copying install files to destination"
-	cp -pPR "${S}"/* "${ED}usr/libexec/webmin"
+	cp -pPR "${S}"/* "${ED}/usr/libexec/webmin"
 	eend $?
 }
 
@@ -275,18 +275,18 @@ webmin_config(){
 	export reset=$_reset
 
 	# Create ssl certificate for Webmin if there is not one in the proper place
-	if [[ ! -e "${EROOT}etc/ssl/webmin/server.pem" ]]; then
+	if [[ ! -e "${EROOT}/etc/ssl/webmin/server.pem" ]]; then
 		SSL_ORGANIZATION="${SSL_ORGANIZATION:-Webmin Server}"
 		SSL_COMMONNAME="${SSL_COMMONNAME:-*}"
 		install_cert "${EROOT}/etc/ssl/webmin/server"
 	fi
 
 	# Ensure all paths passed to the setup script use EROOT
-	export wadir="${EROOT}usr/libexec/webmin"
-	export config_dir="${EROOT}etc/webmin"
-	export var_dir="${EROOT}var/log/webmin"
+	export wadir="${EROOT}/usr/libexec/webmin"
+	export config_dir="${EROOT}/etc/webmin"
+	export var_dir="${EROOT}/var/log/webmin"
 	export tempdir="${T}"
-	export pidfile="${EROOT}var/run/webmin.pid"
+	export pidfile="${EROOT}/var/run/webmin.pid"
 	export perl="$( which perl )"
 	export os_type='gentoo-linux'
 	export os_version='*'
@@ -302,7 +302,7 @@ webmin_config(){
 	export no_sslcompression=1
 	export no_tls1=1
 	export no_tls1_1=1
-	export keyfile="${EROOT}etc/ssl/webmin/server.pem"
+	export keyfile="${EROOT}/etc/ssl/webmin/server.pem"
 	export port=10000
 
 	export atboot=0
