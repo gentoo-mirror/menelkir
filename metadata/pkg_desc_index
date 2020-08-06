@@ -57,6 +57,7 @@ games-emulation/fceu-next-libretro 1.0_pre20200806 9999-r3: libretro implementat
 games-emulation/fceumm-libretro 1.0_pre20200806 9999-r3: FCEUmm nes emulator libretro port.
 games-emulation/flycast-libretro 1.0_pre20200724 9999-r3: Multiplatform Sega Dreamcast emulator
 games-emulation/fmsx-libretro 1.0_pre20200724 9999-r3: Port of fMSX to the libretro API.
+games-emulation/freechaf-libretro 9999: libretro emulation core for the Fairchild ChannelF / Video Entertainment System
 games-emulation/freeintv-libretro 1.0_pre20200724 9999-r3: A libretro emulation core for the Mattel Intellivision
 games-emulation/fuse-libretro 1.0_pre20200724 9999-r3: A port of the Fuse Unix Spectrum Emulator to libretro
 games-emulation/gambatte-libretro 1.0_pre20200724 9999-r3: libretro implementation of Gambatte. (Game Boy/Game Boy Color)
@@ -91,6 +92,7 @@ games-emulation/mednafen-vb-libretro 1.0_pre20200725 9999-r3: libretro implement
 games-emulation/mednafen-wswan-libretro 1.0_pre20200725 9999-r3: libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)
 games-emulation/melonds-libretro 1.0_pre20200725 9999-r3: libretro implementation of melonDS. (NintendoDS)
 games-emulation/meowpc98-libretro 1.0_pre20200725 9999-r3: Neko Project 2 (PC98 emulator) port for libretro/RetroArch (XNP2)
+games-emulation/mesen-libretro 0.9.9 9999: libretro implementation of Mesen. (Nintendo Entertainment System)
 games-emulation/meteor-libretro 1.0_pre20200725 9999-r3: libretro implementation of Meteor. (Game Boy Advance)
 games-emulation/mgba-libretro 1.0_pre20200806 9999-r3: libretro implementation of mGBA. (Game Boy Advance)
 games-emulation/mrboom-libretro 9999-r3: Multiplayer Bomberman clone for RetroArch/Libretro
