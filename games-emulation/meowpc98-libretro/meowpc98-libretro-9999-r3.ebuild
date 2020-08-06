@@ -20,6 +20,8 @@ RDEPEND="${DEPEND}
 
 S="${S}/libretro"
 
+LIBRETRO_CORE_NAME="nekop2"
+
 pkg_preinst() {
 	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
 		first_install="1"

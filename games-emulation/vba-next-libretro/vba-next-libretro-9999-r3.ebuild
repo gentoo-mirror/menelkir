@@ -19,8 +19,6 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-LIBRETRO_CORE_NAME=vba_next
-
 src_compile() {
 	myemakeargs=(
 		$(usex arm "platform=armv" "")

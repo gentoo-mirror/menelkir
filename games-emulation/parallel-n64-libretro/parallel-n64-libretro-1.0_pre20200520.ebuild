@@ -5,7 +5,6 @@ EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/parallel-n64"
 LIBRETRO_COMMIT_SHA="0379170d5c9d765313b2d04ee15041fbbf0d2d03"
-LIBRETRO_CORE_NAME="parallel_n64"
 
 inherit libretro-core
 
