@@ -56,7 +56,7 @@ libretro-core_src_unpack() {
 
 	# If this is a live ebuild, retrieve this core's remote repository.
 	# Workaround for ppsspp
-	if [[ ! ${PV} == "1.0_pre"* ]] || [[ ${PN} == "ppsspp-libretro" ]] || [[ ${PN} == "psp1-libretro" ]] || [[ ${PN} == "citra-libretro" ]]; then
+	if [[ ! ${PV} == "9999" ]] || [[ ${PN} == "ppsspp-libretro" ]] || [[ ${PN} == "psp1-libretro" ]] || [[ ${PN} == "citra-libretro" ]]; then
 		git-r3_src_unpack
 		if [[ ${PN} == "ppsspp-libretro" ]]; then
 			# Add ppsspp-libretro specific version information
