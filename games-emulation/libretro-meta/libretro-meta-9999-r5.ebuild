@@ -9,10 +9,10 @@ LICENSE="metapackage"
 SLOT="0"
 IUSE="2048 3dengine 81 atari800 bluemsx bnes bsnes bsnes-mercury cannonball cap32 citra craft \
 	crocods desmume dinothawr dosbox fbalpha fbalpha2012 fbneo fceumm fceum-next flycast \
-	fmsx freeintv fuse gambatte genplus gme gpsp gw handy lutro mame mame2000 \
+	fmsx freechaf freeintv fuse gambatte genplus gme gpsp gw handy lutro mame mame2000 \
 	mame2003 mame2010 mame2015 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
 	mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
-	mednafen-vb mednafen-wswan melonds meowpc98 meteor mgba mrboom nestopia nxengine \
+	mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mgba mrboom nestopia nxengine \
 	o2em openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom \
 	prosystem puae px68k quicknes quasi88 redream reminiscence sameboy scummvm snes9x \
 	snes9x2002 snes9x2010 stella2014 tgbdual theodore tyrquake vba-next vbam vecx virtualjaguar \
@@ -43,6 +43,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	fceu-next? ( games-emulation/libretro-fceu-next )
 	flycast? ( games-emulation/flycast-libretro )
 	fmsx? ( games-emulation/fmsx-libretro )
+	freechaf? ( games-emulation/freechaf-libretro )
 	freeintv? ( games-emulation/freeintv-libretro )
 	fuse? ( games-emulation/fuse-libretro )
 	gambatte? ( games-emulation/gambatte-libretro )
@@ -71,6 +72,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	mednafen-wswan? ( games-emulation/mednafen-wswan-libretro )
 	melonds? ( games-emulation/melonds-libretro )
 	meowpc98? ( games-emulation/meowpc98-libretro )
+	mesen? ( games-emulation/mesen-libretro )
 	meteor? ( games-emulation/meteor-libretro )
 	mgba? ( games-emulation/mgba-libretro )
 	mrboom? ( games-emulation/mrboom-libretro )
