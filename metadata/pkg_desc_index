@@ -60,7 +60,7 @@ games-emulation/fmsx-libretro 1.0_pre20200724 9999-r3: Port of fMSX to the libre
 games-emulation/freeintv-libretro 1.0_pre20200724 9999-r3: A libretro emulation core for the Mattel Intellivision
 games-emulation/fuse-libretro 1.0_pre20200724 9999-r3: A port of the Fuse Unix Spectrum Emulator to libretro
 games-emulation/gambatte-libretro 1.0_pre20200724 9999-r3: libretro implementation of Gambatte. (Game Boy/Game Boy Color)
-games-emulation/genplus-libretro 1.0_pre20200724 9999-r3: libretro implementation of Genesis Plus GX. (Sega Genesis/Sega CD)
+games-emulation/genesis_plus_gx-libretro 1.0_pre20200806 9999: libretro implementation of Genesis Plus GX. (Sega Genesis/Sega CD)
 games-emulation/glsl-shaders 1_pre20200724 9999: glsl shaders converted by hand from libretro's common-shaders repo
 games-emulation/gme-libretro 1.0_pre20200724 9999-r3: Port of blargg's Game_Music_Emu library.
 games-emulation/gpsp-libretro 1.0_pre20200724 9999-r3: Gameboy gpSP for libretro.
@@ -68,7 +68,7 @@ games-emulation/gw-libretro 1.0_pre20200724 9999-r3: A libretro core for Game & 
 games-emulation/handy-libretro 1.0_pre20200724 9999-r3: libretro implementation of Handy. (Atari Lynx)
 games-emulation/libretro-common-overlays 1_pre20200723 9999-r3: Collection of overlay files for use with RetroArch
 games-emulation/libretro-common-shaders 1_pre20200723 9999-r3: Collection of commonly used Cg shaders
-games-emulation/libretro-database 1_pre20200723 9999-r3: Repository containing cheatcode files, content data files, etc.
+games-emulation/libretro-database 1_pre20200806 9999-r3: Repository containing cheatcode files, content data files, etc.
 games-emulation/libretro-info 1_pre20200723 9999-r3: Libretro info files required for libretro cores
 games-emulation/libretro-meta 9999-r5: Meta package for various libretro implementations
 games-emulation/lutro-libretro 1.0_pre20200724 9999-r3: An experimental lua game framework for libretro following the LOVE API.
