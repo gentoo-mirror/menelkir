@@ -8,7 +8,7 @@ HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
 IUSE="2048 3dengine 81 atari800 bluemsx bnes bsnes bsnes-mercury cannonball cap32 citra craft \
-	crocods desmume dinothawr dosbox fbalpha fbalpha2012 fbneo fceumm fceu-next flycast \
+	crocods desmume dinothawr dosbox fbalpha fbalpha2012 fbneo fceumm flycast \
 	fmsx freeintv fuse gambatte genplus gme gpsp gw handy lutro mame mame2000 \
 	mame2003 mame2010 mame2015 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
 	mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
@@ -20,12 +20,12 @@ IUSE="2048 3dengine 81 atari800 bluemsx bnes bsnes bsnes-mercury cannonball cap3
 
 KEYWORDS="amd64 x86"
 
-RDEPEND="2048? ( games-emulation/2048-libretro )
+RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	3dengine? ( games-emulation/3dengine-libretro )
 	81? ( games-emulation/81-libretro )
 	atari800? ( games-emulation/atari800-libretro )
 	bluemsx? ( games-emulation/bluemsx-libretro )
-	bnes? ( games-emulation/bnes-libretro )
+	bnes? ( games-emulation/libretro-bnes )
 	bsnes? ( games-emulation/bsnes-libretro )
 	bsnes-mercury? ( games-emulation/bsnes-mercury-libretro )
 	cannonball? ( games-emulation/cannonball-libretro )
@@ -35,12 +35,11 @@ RDEPEND="2048? ( games-emulation/2048-libretro )
 	crocods? ( games-emulation/crocods-libretro )
 	desmume? ( games-emulation/desmume-libretro )
 	dinothawr? ( games-emulation/dinothawr-libretro )
-	dosbox? ( games-emulation/dosbox-libretro )
+	dosbox? ( games-emulation/libretro-dosbox )
 	fbalpha? ( games-emulation/fbalpha-libretro )
 	fbalpha2012? ( games-emulation/fbalpha2012-libretro )
 	fbneo? ( games-emulation/fbneo-libretro )
-	fceu-next? ( games-emulation/fceu-next-libretro )
-	fceumm? ( games-emulation/fceumm-libretro )
+	fceumm? ( games-emulation/libretro-fceumm )
 	flycast? ( games-emulation/flycast-libretro )
 	fmsx? ( games-emulation/fmsx-libretro )
 	freeintv? ( games-emulation/freeintv-libretro )
