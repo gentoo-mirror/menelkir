@@ -32,6 +32,7 @@ games-emulation/emulationstation-themes-meta:simple-dark - Simple Dark Theme
 games-emulation/emulationstation-themes-meta:simplified-static-canela - Simplified Static Canela Theme
 games-emulation/emulationstation-themes-meta:turtle-pi - Turtle Pi Theme
 games-emulation/emulationstation-themes-meta:zoid - Zoid Theme
+games-emulation/fceu-next-libretro:gles2 - Enable GLES2 support
 games-emulation/libretro-meta:2048 - 2048 Game Clone
 games-emulation/libretro-meta:3dengine - Test Core - 3D Engine
 games-emulation/libretro-meta:81 - Sinclair - ZX 81 (EightyOne)
