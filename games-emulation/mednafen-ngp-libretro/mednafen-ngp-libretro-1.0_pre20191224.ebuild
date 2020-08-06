@@ -5,7 +5,6 @@ EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/beetle-ngp-libretro"
 LIBRETRO_COMMIT_SHA="8ffd479729edf05fc36edc704f825aa190dfd309"
-LIBRETRO_CORE_NAME=mednafen_ngp
 
 inherit libretro-core
 
