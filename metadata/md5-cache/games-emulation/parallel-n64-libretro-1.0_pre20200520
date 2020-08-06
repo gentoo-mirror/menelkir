@@ -1,3 +1,4 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install preinst prepare unpack
 DEPEND=media-libs/mesa:0= gles2? ( media-libs/mesa[gles2] ) media-libs/libpng:0= dev-lang/nasm:0= games-emulation/libretro-info
 DESCRIPTION=Rewritten Nintendo 64 emulator made specifically for Libretro.
@@ -6,9 +7,10 @@ HOMEPAGE=https://github.com/libretro/parallel-n64
 IUSE=gles2 vulkan custom-cflags debug
 KEYWORDS=amd64 x86
 LICENSE=GPL-2
+PROPERTIES=live
 RDEPEND=media-libs/mesa:0= gles2? ( media-libs/mesa[gles2] ) media-libs/libpng:0=
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/parallel-n64/archive/0379170d5c9d765313b2d04ee15041fbbf0d2d03.tar.gz -> parallel-n64-libretro-1.0_pre20200520.tar.gz
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	7f99a67ff98779527d54c0a82308d48b	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=564ddf84f73c5410fb341f22d4b7a6f1
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	git-r3	8ec5b53812bce105ae7943930e4660f8	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	45bd7361d253bdb792946098c1985230	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=72e168a61dd66a8c60853339e37b45fe

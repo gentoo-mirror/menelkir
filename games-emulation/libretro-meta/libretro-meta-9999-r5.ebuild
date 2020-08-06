@@ -8,7 +8,7 @@ HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
 IUSE="2048 3dengine 81 atari800 bluemsx bnes bsnes bsnes-mercury cannonball cap32 citra craft \
-	crocods desmume dinothawr dosbox fbalpha fbalpha2012 fbneo fceumm flycast \
+	crocods desmume dinothawr dosbox fbalpha fbalpha2012 fbneo fceumm fceum-next flycast \
 	fmsx freeintv fuse gambatte genplus gme gpsp gw handy lutro mame mame2000 \
 	mame2003 mame2010 mame2015 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
 	mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
@@ -40,6 +40,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	fbalpha2012? ( games-emulation/fbalpha2012-libretro )
 	fbneo? ( games-emulation/fbneo-libretro )
 	fceumm? ( games-emulation/libretro-fceumm )
+	fceu-next? ( games-emulation/libretro-fceu-next )
 	flycast? ( games-emulation/flycast-libretro )
 	fmsx? ( games-emulation/fmsx-libretro )
 	freeintv? ( games-emulation/freeintv-libretro )
