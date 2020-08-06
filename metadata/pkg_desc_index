@@ -57,7 +57,7 @@ games-emulation/fceu-next-libretro 1.0_pre20200806 9999-r3: libretro implementat
 games-emulation/fceumm-libretro 1.0_pre20200806 9999-r3: FCEUmm nes emulator libretro port.
 games-emulation/flycast-libretro 1.0_pre20200724 9999-r3: Multiplatform Sega Dreamcast emulator
 games-emulation/fmsx-libretro 1.0_pre20200724 9999-r3: Port of fMSX to the libretro API.
-games-emulation/freechaf-libretro 9999: libretro emulation core for the Fairchild ChannelF / Video Entertainment System
+games-emulation/freechaf-libretro 1.0_pre20200806 9999: libretro emulation core for the Fairchild ChannelF / Video Entertainment System
 games-emulation/freeintv-libretro 1.0_pre20200724 9999-r3: A libretro emulation core for the Mattel Intellivision
 games-emulation/fuse-libretro 1.0_pre20200724 9999-r3: A port of the Fuse Unix Spectrum Emulator to libretro
 games-emulation/gambatte-libretro 1.0_pre20200724 9999-r3: libretro implementation of Gambatte. (Game Boy/Game Boy Color)
