@@ -19,12 +19,9 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-S="${S}/libretro/"
+S="${S}/libretro"
 
-src_install() {
-    LIBRETRO_CORE_LIB_FILE="${S}/nekop2_libretro.so" \
-	libretro-core_src_install
-}
+LIBRETRO_CORE_NAME="nekop2"
 
 pkg_preinst() {
 	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then

@@ -19,8 +19,6 @@ DEPEND="media-libs/libpng:0
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-LIBRETRO_CORE_NAME=pcsx_rearmed
-
 src_prepare() {
 	libretro-core_src_prepare
 	sed -i configure \
@@ -39,7 +37,7 @@ src_compile() {
 }
 
 src_install() {
-	mv "${S}"/libretro.so "${S}"/pcsx_rearmed_libretro.so
+	mv "${S}"/libretro.so "${S}"/${LIBRETRO_CORE_NAME}_libretro.so
 	libretro-core_src_install
 }
 

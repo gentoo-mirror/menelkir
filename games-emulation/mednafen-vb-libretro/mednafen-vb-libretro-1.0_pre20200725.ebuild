@@ -19,11 +19,6 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-src_install() {
-    LIBRETRO_CORE_LIB_FILE="${S}/mednafen_vb_libretro.so" \
-	libretro-core_src_install
-}
-
 pkg_preinst() {
 	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
 		first_install="1"

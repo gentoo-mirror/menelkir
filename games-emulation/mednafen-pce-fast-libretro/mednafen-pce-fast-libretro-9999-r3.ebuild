@@ -17,8 +17,6 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-LIBRETRO_CORE_NAME=mednafen_pce_fast
-
 pkg_preinst() {
 	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
 		first_install="1"
