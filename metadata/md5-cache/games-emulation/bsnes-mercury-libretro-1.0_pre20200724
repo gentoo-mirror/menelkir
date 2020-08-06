@@ -1,3 +1,4 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install preinst prepare unpack
 DESCRIPTION=Libretro fork of bsnes
 EAPI=7
@@ -5,8 +6,9 @@ HOMEPAGE=https://github.com/libretro/bsnes-mercury
 IUSE=custom-cflags debug
 KEYWORDS=amd64 x86
 LICENSE=GPL-3
+PROPERTIES=live
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/libretro/bsnes-mercury/archive/4a382621da58ae6da850f1bb003ace8b5f67968c.tar.gz -> bsnes-mercury-libretro-1.0_pre20200724.tar.gz
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	7f99a67ff98779527d54c0a82308d48b	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	git-r3	8ec5b53812bce105ae7943930e4660f8	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	45bd7361d253bdb792946098c1985230	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=53ad35e7407a2250e7f7d44f4b1563dc
