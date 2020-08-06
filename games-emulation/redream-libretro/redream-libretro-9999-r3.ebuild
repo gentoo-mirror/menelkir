@@ -3,12 +3,12 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/redream"
+LIBRETRO_REPO_NAME="libretro/retrodream"
 
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of redream. (SEGA Dreamcast)"
-HOMEPAGE="https://github.com/libretro/redream"
+HOMEPAGE="https://github.com/libretro/retrodream"
 KEYWORDS=""
 
 LICENSE="GPL-3"
@@ -19,6 +19,10 @@ IUSE="gles2 opengl"
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
+
+PATCHES=(
+   "${FILESDIR}/redream-libretro-Makefile.patch"
+)
 
 src_prepare() {
 	libretro-core_src_prepare

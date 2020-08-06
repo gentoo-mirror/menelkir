@@ -3,13 +3,13 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/redream"
-LIBRETRO_COMMIT_SHA="3dfea38c8200152e53a228df9bc5c2d0dc146516"
+LIBRETRO_REPO_NAME="libretro/retrodream"
+LIBRETRO_COMMIT_SHA="bf4d812daf326c56e99208a4c30acae1475fd701"
 
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of redream. (SEGA Dreamcast)"
-HOMEPAGE="https://github.com/libretro/redream"
+HOMEPAGE="https://github.com/libretro/retrodream"
 KEYWORDS="amd64 x86"
 
 LICENSE="GPL-3"
@@ -21,9 +21,10 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-PATCHES=(
-   "${FILESDIR}/redream-libretro-Makefile.patch"
-)
+#PATCHES=(
+#   "${FILESDIR}/redream-libretro-Makefile.patch"
+#)
+
 src_prepare() {
 	libretro-core_src_prepare
 	#fixing ARCH detection
