@@ -1,4 +1,4 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] dev-util/ninja >=dev-util/cmake-2.8.11
+BDEPEND=dev-util/ninja >=dev-util/cmake-2.8.11
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=epoxy? ( media-libs/libepoxy:0= ) ffmpeg? ( virtual/ffmpeg:0= ) imagemagick? ( media-gfx/imagemagick:0= ) lzma? ( app-arch/xz-utils:0= ) png? ( media-libs/libpng:0= ) opengl? ( media-libs/mesa:0=[gles2?] ) png? ( media-libs/libpng:0= ) zlib? ( sys-libs/zlib:0= )
 DESCRIPTION=libretro implementation of mGBA. (Game Boy Advance)
@@ -7,11 +7,10 @@ HOMEPAGE=https://github.com/libretro/mgba
 IUSE=epoxy ffmpeg gles2 imagemagick lto lzma +opengl pgo pgopost png +zip zlib custom-cflags debug
 KEYWORDS=amd64 x86
 LICENSE=MPL-2.0
-PROPERTIES=live
 RDEPEND=epoxy? ( media-libs/libepoxy:0= ) ffmpeg? ( virtual/ffmpeg:0= ) imagemagick? ( media-gfx/imagemagick:0= ) lzma? ( app-arch/xz-utils:0= ) png? ( media-libs/libpng:0= ) opengl? ( media-libs/mesa:0=[gles2?] ) png? ( media-libs/libpng:0= ) zlib? ( sys-libs/zlib:0= ) games-emulation/libretro-info
 REQUIRED_USE=epoxy? ( gles2 ) gles2? ( opengl ) pgopost? ( pgo ) png? ( zlib )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/mgba/archive/ca9c9119ded9c112eafd7301460ac25c2765731a.tar.gz -> mgba-libretro-1.0_pre20200806.tar.gz
-_eclasses_=cmake-utils	77cd39e6009811bf97a59d91ffd5b54f	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	git-r3	8ec5b53812bce105ae7943930e4660f8	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	45bd7361d253bdb792946098c1985230	multilib	2477ebe553d3e4d2c606191fe6c33602	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=cmake-utils	77cd39e6009811bf97a59d91ffd5b54f	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	2dbfa5ea9ca193d219a96b37ec5613e8	multilib	2477ebe553d3e4d2c606191fe6c33602	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=6101ce5a22ef984e171f3ed0cfec34cf
