@@ -13,7 +13,7 @@
 # ebuilds for low-level Libretro core ebuilds.
 
 # Workaround for ppsspp
-if [[ ! ${PV} == "1.0_pre"* ]] || [[ ${PN} == "ppsspp-libretro" ]] || [[ ${PN} == "psp1-libretro" ]] || [[ ${PN} == "citra-libretro" ]]; then
+if [[ ! ${PV} == 9999 ]] || [[ ${PN} == "ppsspp-libretro" ]] || [[ ${PN} == "psp1-libretro" ]] || [[ ${PN} == "citra-libretro" ]]; then
 	inherit flag-o-matic git-r3 libretro
 else
 	inherit flag-o-matic libretro
