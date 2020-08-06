@@ -33,7 +33,6 @@ DEPEND="
 	png? ( media-libs/libpng:0= )
 	opengl? ( media-libs/mesa:0=[gles2?] )
 	png? ( media-libs/libpng:0= )
-	zip? ( dev-libs/libzip:0= )
 	zlib? ( sys-libs/zlib:0= )
 "
 RDEPEND="${DEPEND}
@@ -80,7 +79,6 @@ src_configure() {
 		-DBUILD_PGO=$(usex pgo ON OFF)
 		-DPGO_STAGE_2=$(usex pgopost ON OFF)
 		-DUSE_PNG=$(usex png ON OFF)
-		-DUSE_LIBZIP=$(usex zip ON OFF)
 		-DUSE_ZLIB=$(usex zlib ON OFF)
 	)
 	cmake-utils_src_configure
