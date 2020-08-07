@@ -72,7 +72,7 @@ games-emulation/libretro-common-overlays 1_pre20200723 9999-r3: Collection of ov
 games-emulation/libretro-common-shaders 1_pre20200723 9999-r3: Collection of commonly used Cg shaders
 games-emulation/libretro-database 1_pre20200806 9999-r3: Repository containing cheatcode files, content data files, etc.
 games-emulation/libretro-info 1_pre20200723 9999-r3: Libretro info files required for libretro cores
-games-emulation/libretro-meta 9999-r5: Meta package for various libretro implementations
+games-emulation/libretro-meta 9999-r6: Meta package for various libretro implementations
 games-emulation/lutro-libretro 1.0_pre20200724 9999-r3: An experimental lua game framework for libretro following the LOVE API.
 games-emulation/mame-libretro 1.0_pre20200724 9999-r3: MAME (current) for libretro.
 games-emulation/mame2000-libretro 1.0_pre20200724 9999-r3: MAME2000 (0.37b5) for libretro.
