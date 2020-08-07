@@ -8,7 +8,7 @@ HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
 IUSE="2048 3dengine 81 atari800 bluemsx bnes bsnes bsnes-mercury cannonball cap32 citra craft \
-	crocods desmume dinothawr dosbox fbalpha fbalpha2012 fbneo fceumm fceum-next flycast \
+	crocods desmume dinothawr dosbox fbalpha fbalpha2012 fbneo fceumm fceu-next flycast \
 	fmsx freechaf freeintv fuse gambatte genplus gme gpsp gw handy hatari lutro mame mame2000 \
 	mame2003 mame2010 mame2015 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
 	mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
