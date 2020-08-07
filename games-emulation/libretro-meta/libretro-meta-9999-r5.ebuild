@@ -9,14 +9,15 @@ LICENSE="metapackage"
 SLOT="0"
 IUSE="2048 3dengine 81 atari800 bluemsx bnes bsnes bsnes-mercury cannonball cap32 citra craft \
 	crocods desmume dinothawr dosbox fbalpha fbalpha2012 fbneo fceumm fceum-next flycast \
-	fmsx freechaf freeintv fuse gambatte genplus gme gpsp gw handy lutro mame mame2000 \
+	fmsx freechaf freeintv fuse gambatte genplus gme gpsp gw handy hatari lutro mame mame2000 \
 	mame2003 mame2010 mame2015 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
 	mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
 	mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mgba mrboom nestopia nxengine \
 	o2em openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom \
 	prosystem puae px68k quicknes quasi88 redream reminiscence sameboy scummvm snes9x \
-	snes9x2002 snes9x2010 stella2014 tgbdual theodore tyrquake vba-next vbam vecx virtualjaguar \
-	xrick yabause"
+	snes9x2002 snes9x2010 stella2014 tgbdual theodore tyrquake vba-next vbam vecx vice-x128
+	vice-x64 vice-x64sc vice-xcbm2 vice-xcbm5x0 vice-xpet vice-xplus4 vice-xscpu64 \
+	vice-xvic virtualjaguar xrick yabause"
 
 KEYWORDS="amd64 x86"
 
@@ -52,6 +53,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	gpsp? ( games-emulation/gpsp-libretro )
 	gw? ( games-emulation/gw-libretro )
 	handy? ( games-emulation/handy-libretro )
+	hatari? ( games-emulation/hatari-libretro )
 	lutro? ( games-emulation/lutro-libretro )
 	mame? ( games-emulation/mame-libretro )
 	mame2000? ( games-emulation/mame2000-libretro )
@@ -105,6 +107,15 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	vba-next? ( games-emulation/vba-next-libretro )
 	vbam? ( games-emulation/vbam-libretro )
 	vecx?  ( games-emulation/vecx-libretro )
+	vice-x128? ( games-emulation/vice-x128-libretro )
+	vice-x64? ( games-emulation/vice-x64-libretro )
+	vice-x64sc? ( games-emulation/vice-x64sc-libretro )
+	vice-xcbm2? ( games-emulation/vice-xcbm2-libretro )
+	vice-xcbm5x0 ( games-emulation/vice-xcbm5x0-libretro )
+	vice-xpet? ( games-emulation/vice-xpet-libretro )
+	vice-xplus4? ( games-emulation/vice-xplus4-libretro )
+	vice-xscpu64? ( games-emulation/vice-xscpu64-libretro )
+	vice-xvic? ( games-emulation/vice-xvic-libretro )
 	virtualjaguar? ( games-emulation/virtualjaguar-libretro )
 	xrick? ( games-emulation/xrick-libretro )
 	yabause? ( games-emulation/yabause-libretro )"
