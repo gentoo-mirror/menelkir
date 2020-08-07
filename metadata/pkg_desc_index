@@ -67,6 +67,7 @@ games-emulation/gme-libretro 1.0_pre20200724 9999-r3: Port of blargg's Game_Musi
 games-emulation/gpsp-libretro 1.0_pre20200724 9999-r3: Gameboy gpSP for libretro.
 games-emulation/gw-libretro 1.0_pre20200724 9999-r3: A libretro core for Game & Watch simulators.
 games-emulation/handy-libretro 1.0_pre20200724 9999-r3: libretro implementation of Handy. (Atari Lynx)
+games-emulation/hatari-libretro 1.0_pre20200807 9999: Hatari is an Atari ST/STE/TT/Falcon emulator core for libretro
 games-emulation/libretro-common-overlays 1_pre20200723 9999-r3: Collection of overlay files for use with RetroArch
 games-emulation/libretro-common-shaders 1_pre20200723 9999-r3: Collection of commonly used Cg shaders
 games-emulation/libretro-database 1_pre20200806 9999-r3: Repository containing cheatcode files, content data files, etc.
@@ -134,6 +135,15 @@ games-emulation/tyrquake-libretro 1.0_pre20191224 9999-r3: libretro implementati
 games-emulation/vba-next-libretro 1.0_pre20191224 9999-r3: libretro implementation of VBA Next. (Game Boy Advance)
 games-emulation/vbam-libretro 1.0_pre20191224 9999-r2: libretro implementation of VBA-M. (Game Boy Advance)
 games-emulation/vecx-libretro 1.0_pre20191224 9999-r3: Libretro adaption of vecx, a Vectrex Emulator
+games-emulation/vice-x128-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-x64-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-x64sc-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xcbm2-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xcbm5x0-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xpet-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xplus4-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xscpu64-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xvic-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
 games-emulation/virtualjaguar-libretro 1.0_pre20191224 9999-r3: Port of Virtual Jaguar to Libretro
 games-emulation/xnp2 9999: X Neko Project II, a PC-9801 emulator (PC98)
 games-emulation/xrick-libretro 1.0_pre20191224 9999-r3: Xrick is an open source implementation of Rick Dangerous for libretro.
