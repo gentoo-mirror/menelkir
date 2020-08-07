@@ -22,7 +22,6 @@ TODO
         * fsuae-libretro
         * gearboy-libretro
         * gearsystem-libretro
-        * hatari-libretro
         * higan-sfc-libretro
         * ishiiruka-libretro
         * kronos-libretro
@@ -43,5 +42,3 @@ TODO
         * ume2015-libretro
         * uzem-libretro
         * vemulator-libretro
-        * vice-libretro
-
