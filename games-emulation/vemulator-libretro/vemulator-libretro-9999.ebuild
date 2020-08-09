@@ -4,13 +4,12 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/vemulator-libretro"
-LIBRETRO_COMMIT_SHA="314051da88345d46070e09898f9f7771cc8626d3"
 
 inherit libretro-core
 
 DESCRIPTION="A port of the SEGA Visual Memory Unit emulator VeMUlator for libretro."
 HOMEPAGE="https://github.com/libretro/vemulator-libretro"
-KEYWORDS="amd64 x86"
+KEYWORDS=""
 
 LICENSE="GPL-3"
 SLOT="0"

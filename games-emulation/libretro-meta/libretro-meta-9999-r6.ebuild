@@ -15,7 +15,7 @@ IUSE="2048 3dengine 81 atari800 bluemsx bnes bsnes bsnes-mercury cannonball cap3
 	mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mgba mrboom nekop2 np2kai nestopia nxengine \
 	o2em oberon openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom \
 	prosystem puae px68k quicknes quasi88 redream reminiscence sameboy scummvm snes9x \
-	snes9x2002 snes9x2010 stella2014 tgbdual theodore tyrquake vba-next vbam vecx vice-x128
+	snes9x2002 snes9x2010 stella2014 tgbdual theodore tyrquake uzem vba-next vbam vecx vice-x128
 	vice-x64 vice-x64sc vice-xcbm2 vice-xcbm5x0 vice-xpet vice-xplus4 vice-xscpu64 \
 	vice-xvic virtualjaguar xrick yabause"
 
@@ -108,6 +108,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	tgbdual? ( games-emulation/tgbdual-libretro )
 	theodore? ( games-emulation/theodore-libretro )
 	tyrquake? ( games-emulation/tyrquake-libretro )
+	uzem? ( games-emulation/uzem-libretro )
 	vba-next? ( games-emulation/vba-next-libretro )
 	vbam? ( games-emulation/vbam-libretro )
 	vecx?  ( games-emulation/vecx-libretro )

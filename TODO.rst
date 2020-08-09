@@ -29,7 +29,6 @@ TODO
         * tic80-libretro
         * ume2015-libretro
         * uzem-libretro
-        * vemulator-libretro
 
 *Broken*
         * easyrpg-libretro ( fixable, should do it soon )
