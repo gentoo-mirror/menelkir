@@ -12,7 +12,7 @@ DESCRIPTION="NP2kai is PC-9801 series emulator"
 HOMEPAGE="https://github.com/libretro/NP2kai"
 KEYWORDS="amd64 x86"
 
-LICENSE="GPL-2"
+LICENSE="MIT"
 SLOT="0"
 
 DEPEND=""

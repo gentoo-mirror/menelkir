@@ -11,7 +11,7 @@ DESCRIPTION="Neko Project 2 (PC98 emulator) port for libretro/RetroArch"
 HOMEPAGE="https://github.com/libretro/libretro-meowPC98"
 KEYWORDS=""
 
-LICENSE="GPL-2"
+LICENSE="MIT"
 SLOT="0"
 
 DEPEND=""
