@@ -19,10 +19,8 @@ TODO
         * higan_sfc_balanced-libretro
         * higan_sfc-libretro
         * ishiiruka-libretro
-        * mess2015-libretro
         * mupen64plus-libretro
         * play-libretro
-        * squirreljme-libretro
         * stonesoup-libretro
         * thepowdertoy-libretro
         * tic80-libretro
