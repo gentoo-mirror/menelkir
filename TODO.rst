@@ -17,7 +17,8 @@ TODO
         * fbalpha2012-cps2-libretro
         * fbalpha2012-cps3-libretro
         * fbalpha2012-neogeo-libretro
-        * higan-sfc-libretro
+        * higan_sfc_balanced-libretro
+        * higan_sfc-libretro
         * ishiiruka-libretro
         * mess2015-libretro
         * mupen64plus-libretro
@@ -35,3 +36,4 @@ TODO
         * mame2003plus-libretro ( fixable, should do it soon )
         * ppsspp-libretro ( undefined reference to gl3stubInit )
         * vemulator-libretro ( several chimichangas, don't know how to fix it )
+        * hbmame-libretro ( don't know how to fix it )

@@ -9,10 +9,10 @@ LICENSE="metapackage"
 SLOT="0"
 IUSE="2048 3dengine 81 atari800 bk bluemsx bnes boom3 bsnes bsnes-mercury cannonball cap32 citra craft \
 	crocods desmume dinothawr dosbox ecwolf fbalpha fbalpha2012 fbneo fceumm fceu-next ffmpeg flycast \
-	fmsx freechaf freeintv fuse gambatte gearboy genesis_plus_gx gme gpsp gw handy hatari lutro mame mame2000 \
+	fmsx freechaf freeintv frodo fuse gambatte gearboy genesis_plus_gx gme gpsp gw handy hatari lutro mame mame2000 \
 	mame2003 mame2010 mame2015 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
 	mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
-	mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mgba mrboom nekop2 np2kai nestopia nxengine \
+	mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mgba mrboom nekop2 np2kai neocd nestopia nxengine \
 	o2em oberon openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom \
 	prosystem puae px68k quicknes quasi88 retrodream reminiscence sameboy scummvm snes9x \
 	snes9x2002 snes9x2010 stella2014 tgbdual theodore tyrquake uzem vba-next vbam vecx vice-x128
@@ -50,6 +50,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	fmsx? ( games-emulation/fmsx-libretro )
 	freechaf? ( games-emulation/freechaf-libretro )
 	freeintv? ( games-emulation/freeintv-libretro )
+	frodo? ( games-emulation/frodo-libretro )
 	fuse? ( games-emulation/fuse-libretro )
 	gambatte? ( games-emulation/gambatte-libretro )
 	gearboy? ( games-emulation/gearboy-libretro )
@@ -71,6 +72,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	mednafen-lynx? ( games-emulation/mednafen-lynx-libretro )
 	mednafen-ngp? ( games-emulation/mednafen-ngp-libretro )
 	mednafen-pce-fast? ( games-emulation/mednafen-pce-fast-libretro )
+	mednafen-pce? ( games-emulation/mednafen-pce-libretro )
 	mednafen-pcfx? ( games-emulation/mednafen-pcfx-libretro )
 	mednafen-psx? ( games-emulation/mednafen-psx-libretro )
 	mednafen-saturn? ( games-emulation/mednafen-saturn-libretro )
@@ -85,6 +87,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	mrboom? ( games-emulation/mrboom-libretro )
 	nestopia? ( games-emulation/nestopia-libretro )
 	nekop2? ( games-emulation/nekop2-libretro )
+	neocd? ( games-emulation/neocd-libretro )
 	np2kai? ( games-emulation/np2kai-libretro )
 	nxengine? ( games-emulation/nxengine-libretro )
 	o2em? ( games-emulation/o2em-libretro )
