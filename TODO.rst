@@ -19,7 +19,6 @@ TODO
         * fbalpha2012-neogeo-libretro
         * higan-sfc-libretro
         * ishiiruka-libretro
-        * mame2003plus-libretro
         * mess2015-libretro
         * mupen64plus-libretro
         * play-libretro
@@ -35,4 +34,5 @@ TODO
 *Broken*
         * easyrpg-libretro ( fixable, should do it soon )
         * daphne-libretro ( several chimichangas, don't know how to fix it ) 
+        * mame2003plus-libretro ( fixable, should do it soon )
         * ppsspp-libretro ( undefined reference to gl3stubInit )
