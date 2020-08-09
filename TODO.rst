@@ -36,3 +36,4 @@ TODO
         * daphne-libretro ( several chimichangas, don't know how to fix it ) 
         * mame2003plus-libretro ( fixable, should do it soon )
         * ppsspp-libretro ( undefined reference to gl3stubInit )
+        * vemulator-libretro ( several chimichangas, don't know how to fix it )
