@@ -16,10 +16,3 @@ SLOT="0"
 DEPEND=""
 RDEPEND="${DEPEND}"
 
-src_install() {
-	dodir "${LIBRETRO_DATA_DIR}"/cheats/
-	cp -R "${S}"/cht/* "${D}${LIBRETRO_DATA_DIR}"/cheats/
-	dodir "${LIBRETRO_DATA_DIR}"/data/
-	cp -R "${S}"/dat/* "${D}${LIBRETRO_DATA_DIR}"/data/
-	cp -R "${S}"/rdb/* "${D}${LIBRETRO_DATA_DIR}"/data/
-}

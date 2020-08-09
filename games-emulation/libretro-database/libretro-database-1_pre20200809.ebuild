@@ -3,7 +3,7 @@
 
 EAPI=7
 
-LIBRETRO_COMMIT_SHA="92e4ba7afaa2e6e97b62abc83a8b95015f494a30"
+LIBRETRO_COMMIT_SHA="08b5c50fceb4eca2dbbd07a1bfc8c2b5b0f87832"
 
 inherit vcs-snapshot
 
@@ -15,6 +15,3 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 x86"
 
-src_compile() {
-	:
-}
