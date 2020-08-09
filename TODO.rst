@@ -17,7 +17,8 @@ TODO
         * fbalpha2012-cps2-libretro
         * fbalpha2012-cps3-libretro
         * fbalpha2012-neogeo-libretro
-        * higan-sfc-libretro
+        * higan_sfc_balanced-libretro
+        * higan_sfc-libretro
         * ishiiruka-libretro
         * mess2015-libretro
         * mupen64plus-libretro
