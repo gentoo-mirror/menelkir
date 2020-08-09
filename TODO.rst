@@ -19,7 +19,6 @@ TODO
         * fbalpha2012-cps2-libretro
         * fbalpha2012-cps3-libretro
         * fbalpha2012-neogeo-libretro
-        * fsuae-libretro
         * higan-sfc-libretro
         * ishiiruka-libretro
         * kronos-libretro
@@ -28,7 +27,6 @@ TODO
         * mupen64plus-libretro
         * play-libretro
         * ppsspp-libretro
-        * redbook-libretro
         * remotejoy-libretro
         * squirreljme-libretro
         * stonesoup-libretro
