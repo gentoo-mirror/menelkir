@@ -6,7 +6,6 @@ TODO
 *Add missing cores*
         
         * bsnes-libretro-cplusplus98
-        * chailove-libretro
         * dolphin-libretro
         * emux-chip8-libretro
         * emux-gb-libretro
@@ -23,7 +22,6 @@ TODO
         * mess2015-libretro
         * mupen64plus-libretro
         * play-libretro
-        * remotejoy-libretro
         * squirreljme-libretro
         * stonesoup-libretro
         * thepowdertoy-libretro

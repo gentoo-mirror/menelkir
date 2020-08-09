@@ -11,13 +11,13 @@ IUSE="2048 3dengine 81 atari800 bk bluemsx bnes boom3 bsnes bsnes-mercury cannon
 	crocods desmume dinothawr dosbox ecwolf fbalpha fbalpha2012 fbneo fceumm fceu-next ffmpeg flycast \
 	fmsx freechaf freeintv frodo fuse gambatte gearboy genesis_plus_gx gme gpsp gw handy hatari lutro mame mame2000 \
 	mame2003 mame2010 mame2015 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
-	mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
+	mednafen-pce mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
 	mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mgba mrboom mu nekop2 np2kai neocd nestopia nxengine \
 	o2em oberon openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom \
 	prosystem puae px68k quicknes quasi88 retrodream reminiscence sameboy scummvm snes9x \
 	snes9x2002 snes9x2005 snes9x2010 squirreljme stella stella2014 tgbdual theodore tyrquake uzem vba-next vbam vecx vice-x128
 	vice-x64 vice-x64sc vice-xcbm2 vice-xcbm5x0 vice-xpet vice-xplus4 vice-xscpu64 \
-	vice-xvic virtualjaguar vitaquake2 vitaquake3 xrick yabause"
+	vice-xvic virtualjaguar vitaquake2 vitaquake3 vitavoyager x1 xrick yabause"
 
 KEYWORDS="amd64 x86"
 
@@ -135,6 +135,8 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	virtualjaguar? ( games-emulation/virtualjaguar-libretro )
 	vitaquake2? ( games-emulation/vitaquake2-libretro )
 	vitaquake3? ( games-emulation/vitaquake3-libretro )
+	vitavoyager? ( games-emulation/vitavoyager-libretro )
+	x1? ( games-emulation/x1-libretro )
 	xrick? ( games-emulation/xrick-libretro )
 	yabause? ( games-emulation/yabause-libretro )"
 DEPEND=""
