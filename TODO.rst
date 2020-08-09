@@ -28,7 +28,6 @@ TODO
         * mame2003plus-libretro
         * mess2015-libretro
         * mupen64plus-libretro
-        * np2kai-libretro
         * play-libretro
         * ppsspp-libretro
         * redbook-libretro
