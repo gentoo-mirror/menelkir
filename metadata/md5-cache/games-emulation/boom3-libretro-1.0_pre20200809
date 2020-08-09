@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=Doom 3 GPL source port for libretro
+EAPI=7
+HOMEPAGE=https://github.com/libretro/boom3
+IUSE=custom-cflags debug
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=games-emulation/libretro-info
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/boom3/archive/c55a7533ed4aac8db529c16a2e87f9f00b77d0ed.tar.gz -> boom3-libretro-1.0_pre20200809.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	2dbfa5ea9ca193d219a96b37ec5613e8	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=c53f564ce172c03d8611299425f824bc
