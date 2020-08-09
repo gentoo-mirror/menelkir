@@ -7,8 +7,8 @@ DESCRIPTION="Meta package for various libretro implementations"
 HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="2048 3dengine 81 atari800 bk bluemsx bnes bsnes bsnes-mercury cannonball cap32 citra craft \
-	crocods desmume dinothawr dosbox fbalpha fbalpha2012 fbneo fceumm fceu-next flycast \
+IUSE="2048 3dengine 81 atari800 bk bluemsx bnes boom3 bsnes bsnes-mercury cannonball cap32 citra craft \
+	crocods desmume dinothawr dosbox ecwolf fbalpha fbalpha2012 fbneo fceumm fceu-next flycast \
 	fmsx freechaf freeintv fuse gambatte gearboy genesus_plus_gx gme gpsp gw handy hatari lutro mame mame2000 \
 	mame2003 mame2010 mame2015 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
 	mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
@@ -30,6 +30,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	bnes? ( games-emulation/libretro-bnes )
 	bsnes? ( games-emulation/bsnes-libretro )
 	bsnes-mercury? ( games-emulation/bsnes-mercury-libretro )
+	boom3? ( games-emulation/boom3-libretro )
 	cannonball? ( games-emulation/cannonball-libretro )
 	cap32? ( games-emulation/cap32-libretro )
 	citra? ( games-emulation/citra-libretro )
@@ -38,6 +39,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	desmume? ( games-emulation/desmume-libretro )
 	dinothawr? ( games-emulation/dinothawr-libretro )
 	dosbox? ( games-emulation/libretro-dosbox )
+	ecwolf? ( games-emulation/ecwolf-libretro ) 
 	fbalpha? ( games-emulation/fbalpha-libretro )
 	fbalpha2012? ( games-emulation/fbalpha2012-libretro )
 	fbneo? ( games-emulation/fbneo-libretro )
