@@ -62,6 +62,7 @@ games-emulation/freeintv-libretro 1.0_pre20200724 9999-r3: A libretro emulation 
 games-emulation/fuse-libretro 1.0_pre20200724 9999-r3: A port of the Fuse Unix Spectrum Emulator to libretro
 games-emulation/gambatte-libretro 1.0_pre20200724 9999-r3: libretro implementation of Gambatte. (Game Boy/Game Boy Color)
 games-emulation/gearboy-libretro 1.0_pre20200809 9999: Gearboy is a Nintendo Game Boy / GameBoy Color emulator for libretro
+games-emulation/gearsystem-libretro 3.1.0 9999: libretro implementation for multiple Sega consoles
 games-emulation/genesis_plus_gx-libretro 1.0_pre20200806 9999: libretro implementation of Genesis Plus GX. (Sega Genesis/Sega CD)
 games-emulation/glsl-shaders 1_pre20200724 9999: glsl shaders converted by hand from libretro's common-shaders repo
 games-emulation/gme-libretro 1.0_pre20200724 9999-r3: Port of blargg's Game_Music_Emu library.
@@ -119,6 +120,7 @@ games-emulation/puae-libretro 1.0_pre20191224 9999-r3: WIP libretro port of UAE 
 games-emulation/px68k-libretro 1.0_pre20191224 9999-r3: libretro implementation of PX68K. (Sharp X68000)
 games-emulation/quasi88-libretro 1.0_pre20191224 9999-r3: A PC-8800 series emulator to the libretro API
 games-emulation/quicknes-libretro 1.0_pre20191224 9999-r3: libretro implementation of QuickNES. (Nintendo Entertainment System)
+games-emulation/redbook-libretro 1.0_pre20200809 9999: Libretro core for redbook audio playback
 games-emulation/reminiscence-libretro 1.0_pre20191224 9999-r3: Flashback engine implementation for libretro
 games-emulation/retroarch 1.8.9 9999: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20200723 9999: Assets needed for RetroArch. Also contains the official branding.
