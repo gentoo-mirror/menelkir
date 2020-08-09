@@ -81,6 +81,7 @@ games-emulation/lutro-libretro 1.0_pre20200724 9999-r3: An experimental lua game
 games-emulation/mame-libretro 1.0_pre20200724 9999-r3: MAME (current) for libretro.
 games-emulation/mame2000-libretro 1.0_pre20200724 9999-r3: MAME2000 (0.37b5) for libretro.
 games-emulation/mame2003-libretro 1.0_pre20200724 9999-r3: MAME (0.78) for libretro.
+games-emulation/mame2003plus-libretro 1.0_pre20200724: MAME (0.78) with extra features for libretro.
 games-emulation/mame2010-libretro 1.0_pre20200724 9999-r3: MAME (0.139) for libretro.
 games-emulation/mame2015-libretro 1.0_pre20200724 9999-r3: MAME (0.160) for libretro.
 games-emulation/mame2016-libretro 1.0_pre20200724 9999-r3: MAME (0.174) for libretro.
@@ -214,6 +215,7 @@ net-wireless/reaver-wps-fork-t6x 1.6.6: Utilise Pixie Dust Attack to find the co
 net-wireless/wifite 2.2.5-r2 9999: An automated wireless attack tool
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
 sys-devel/remake 4.3.1.5: patched version of GNU make with improved error reporting, tracing and debugging
+www-apps/brave-bin 1.12.108: Brave Web Browser
 www-apps/geckodriver 0.23.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
