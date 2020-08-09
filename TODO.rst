@@ -11,7 +11,6 @@ TODO
         * emux-gb-libretro
         * emux-nes-libretro
         * emux-sms-libretro
-        * ffmpeg-libretro
         * fbalpha2012-cps1-libretro
         * fbalpha2012-cps2-libretro
         * fbalpha2012-cps3-libretro
