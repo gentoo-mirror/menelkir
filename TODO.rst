@@ -20,17 +20,13 @@ TODO
         * fbalpha2012-cps3-libretro
         * fbalpha2012-neogeo-libretro
         * fsuae-libretro
-        * gearboy-libretro
         * gearsystem-libretro
         * higan-sfc-libretro
         * ishiiruka-libretro
         * kronos-libretro
         * mame2003plus-libretro
-        * mesen-libretro
         * mess2015-libretro
         * mupen64plus-libretro
-        * nekop2-libretro
-        * np2kai-libretro
         * play-libretro
         * ppsspp-libretro
         * redbook-libretro
