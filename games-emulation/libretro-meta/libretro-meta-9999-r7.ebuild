@@ -8,13 +8,13 @@ HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
 IUSE="2048 3dengine 81 atari800 bk bluemsx bnes boom3 bsnes bsnes-mercury cannonball cap32 citra craft \
-	crocods desmume dinothawr dosbox ecwolf fbalpha fbalpha2012 fbneo fceumm fceu-next flycast \
-	fmsx freechaf freeintv fuse gambatte gearboy genesus_plus_gx gme gpsp gw handy hatari lutro mame mame2000 \
+	crocods desmume dinothawr dosbox ecwolf fbalpha fbalpha2012 fbneo fceumm fceu-next ffmpeg flycast \
+	fmsx freechaf freeintv fuse gambatte gearboy genesis_plus_gx gme gpsp gw handy hatari lutro mame mame2000 \
 	mame2003 mame2010 mame2015 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
 	mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
 	mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mgba mrboom nekop2 np2kai nestopia nxengine \
 	o2em oberon openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom \
-	prosystem puae px68k quicknes quasi88 redream reminiscence sameboy scummvm snes9x \
+	prosystem puae px68k quicknes quasi88 retrodream reminiscence sameboy scummvm snes9x \
 	snes9x2002 snes9x2010 stella2014 tgbdual theodore tyrquake uzem vba-next vbam vecx vice-x128
 	vice-x64 vice-x64sc vice-xcbm2 vice-xcbm5x0 vice-xpet vice-xplus4 vice-xscpu64 \
 	vice-xvic virtualjaguar xrick yabause"
@@ -39,12 +39,13 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	desmume? ( games-emulation/desmume-libretro )
 	dinothawr? ( games-emulation/dinothawr-libretro )
 	dosbox? ( games-emulation/libretro-dosbox )
-	ecwolf? ( games-emulation/ecwolf-libretro ) 
+	ecwolf? ( games-emulation/ecwolf-libretro )
 	fbalpha? ( games-emulation/fbalpha-libretro )
 	fbalpha2012? ( games-emulation/fbalpha2012-libretro )
 	fbneo? ( games-emulation/fbneo-libretro )
 	fceumm? ( games-emulation/libretro-fceumm )
-	fceu-next? ( games-emulation/libretro-fceu-next )
+	fceu-next? ( games-emulation/fceu-next-libretro )
+	ffmpeg? ( games-emulation/ffmpeg-libretro )
 	flycast? ( games-emulation/flycast-libretro )
 	fmsx? ( games-emulation/fmsx-libretro )
 	freechaf? ( games-emulation/freechaf-libretro )
@@ -100,7 +101,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	px68k? ( games-emulation/px68k-libretro )
 	quasi88? ( games-emulation/quasi88-libretro )
 	quicknes? ( games-emulation/quicknes-libretro )
-	redream? ( games-emulation/redream-libretro )
+	retrodream? ( games-emulation/retrodream-libretro )
 	reminiscence? ( games-emulation/reminiscence-libretro )
 	sameboy? ( games-emulation/sameboy-libretro )
 	scummvm? ( games-emulation/scummvm-libretro )
@@ -119,7 +120,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	vice-x64? ( games-emulation/vice-x64-libretro )
 	vice-x64sc? ( games-emulation/vice-x64sc-libretro )
 	vice-xcbm2? ( games-emulation/vice-xcbm2-libretro )
-	vice-xcbm5x0 ( games-emulation/vice-xcbm5x0-libretro )
+	vice-xcbm5x0? ( games-emulation/vice-xcbm5x0-libretro )
 	vice-xpet? ( games-emulation/vice-xpet-libretro )
 	vice-xplus4? ( games-emulation/vice-xplus4-libretro )
 	vice-xscpu64? ( games-emulation/vice-xscpu64-libretro )

@@ -9,7 +9,7 @@ inherit libretro-core
 
 DESCRIPTION="Updated engine for wolfenstein 3D and compatibles"
 HOMEPAGE="https://github.com/libretro/ecwolf"
-KEYWORDS="amd64 x86"
+KEYWORDS=""
 
 LICENSE="GPL-2 MAME ID"
 SLOT="0"

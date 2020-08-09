@@ -10,7 +10,7 @@ inherit libretro-core
 
 DESCRIPTION=" BK-0010/0011/Terak 8510a emulator for libretro"
 HOMEPAGE="https://github.com/libretro/bk-emulator"
-KEYWORDS="amd64 x86"
+KEYWORDS=""
 
 LICENSE="bk"
 SLOT="0"
