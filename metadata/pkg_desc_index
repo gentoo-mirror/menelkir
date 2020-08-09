@@ -61,6 +61,7 @@ games-emulation/fbalpha2012-libretro 1.0_pre20200724 9999-r3: Final Burn Alpha 2
 games-emulation/fbneo-libretro 1.0_pre20200724 9999: Fork of Final Burn Alpha
 games-emulation/fceu-next-libretro 1.0_pre20200806 9999-r3: libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)
 games-emulation/fceumm-libretro 1.0_pre20200806 9999-r3: FCEUmm nes emulator libretro port.
+games-emulation/ffmpeg-libretro 1.0_pre20200809 9999: FFmpeg frontend for libretro
 games-emulation/flycast-libretro 1.0_pre20200724 9999-r3: Multiplatform Sega Dreamcast emulator
 games-emulation/fmsx-libretro 1.0_pre20200724 9999-r3: Port of fMSX to the libretro API.
 games-emulation/freechaf-libretro 1.0_pre20200806 9999: libretro emulation core for the Fairchild ChannelF / Video Entertainment System
@@ -80,7 +81,7 @@ games-emulation/libretro-common-overlays 1_pre20200723 9999-r3: Collection of ov
 games-emulation/libretro-common-shaders 1_pre20200723 9999-r3: Collection of commonly used Cg shaders
 games-emulation/libretro-database 1_pre20200809 9999-r4: Repository containing cheatcode files, content data files, etc.
 games-emulation/libretro-info 1_pre20200723 9999-r3: Libretro info files required for libretro cores
-games-emulation/libretro-meta 9999-r6: Meta package for various libretro implementations
+games-emulation/libretro-meta 9999-r7: Meta package for various libretro implementations
 games-emulation/lutro-libretro 1.0_pre20200724 9999-r3: An experimental lua game framework for libretro following the LOVE API.
 games-emulation/mame-libretro 1.0_pre20200724 9999-r3: MAME (current) for libretro.
 games-emulation/mame2000-libretro 1.0_pre20200724 9999-r3: MAME2000 (0.37b5) for libretro.
@@ -145,7 +146,7 @@ games-emulation/stella2014-libretro 1.0_pre20191224 9999-r3: libretro implementa
 games-emulation/tgbdual-libretro 1.0_pre20191224 9999-r3: libretro implementation of TGB-DUAL. (Game Boy Advance)
 games-emulation/theodore-libretro 1.0_pre20191224 9999-r3: Libretro core for Thomson TO8/TO8D/TO9/TO9+ emulation.
 games-emulation/tyrquake-libretro 1.0_pre20191224 9999-r3: libretro implementation of TyrQuake. (Quake)
-games-emulation/uzem-libretro 1.0_pre20200809: An emulator for development purposes
+games-emulation/uzem-libretro 1.0_pre20200809 9999: An emulator for development purposes
 games-emulation/vba-next-libretro 1.0_pre20191224 9999-r3: libretro implementation of VBA Next. (Game Boy Advance)
 games-emulation/vbam-libretro 1.0_pre20191224 9999-r2: libretro implementation of VBA-M. (Game Boy Advance)
 games-emulation/vecx-libretro 1.0_pre20191224 9999-r3: Libretro adaption of vecx, a Vectrex Emulator
