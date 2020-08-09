@@ -35,3 +35,4 @@ TODO
         * mame2003plus-libretro ( fixable, should do it soon )
         * ppsspp-libretro ( undefined reference to gl3stubInit )
         * vemulator-libretro ( several chimichangas, don't know how to fix it )
+        * hbmame-libretro ( don't know how to fix it )
