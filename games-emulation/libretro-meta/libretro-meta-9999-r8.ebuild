@@ -136,7 +136,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	vitaquake2? ( games-emulation/vitaquake2-libretro )
 	vitaquake3? ( games-emulation/vitaquake3-libretro )
 	vitavoyager? ( games-emulation/vitavoyager-libretro )
-	x1? ( games-emulation/x1 )
+	x1? ( games-emulation/x1-libretro )
 	xrick? ( games-emulation/xrick-libretro )
 	yabause? ( games-emulation/yabause-libretro )"
 DEPEND=""
