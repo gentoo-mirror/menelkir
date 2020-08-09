@@ -46,13 +46,11 @@ src_prepare() {
 			`find dialogs -name "*.wxg"` || die
 	sed -i "s:\$(INSTALL_BASE):${GAMES_DATADIR}/${PN}:" build/info2code.mk || die
 
-	# don't give a damn about our nice libraries
 	sed -i -e 's:($(COMPONENT_CORE),false):(true,false):g' build/main.mk || die
+	export CATAPULT_TARGET_OS=linux
+	export CATAPULT_TARGET_CPU=`uname -m`
 }
 
-src_compile() {
-	emake || die "emake failed"
-}
 
 src_install() {
 	emake \
@@ -62,6 +60,6 @@ src_install() {
 		DESKTOP_HOOKS_DIR="${D}/usr/share/applications" \
 		install \
 		|| die "install failed"
-	dodoc AUTHORS ChangeLog README
+	dodoc README
 	prepgamesdirs
 }
