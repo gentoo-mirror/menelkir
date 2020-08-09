@@ -3,14 +3,13 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/stella2014-libretro"
-LIBRETRO_COMMIT_SHA="722744c11b36c1614740b6060d0bdb187660ffac"
+LIBRETRO_REPO_NAME="libretro/vitaquake3"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of Stella 2014. (Atari 2600)"
-HOMEPAGE="https://github.com/libretro/stella2014-libretro"
-KEYWORDS="amd64 x86"
+DESCRIPTION="libretro implementation of VitaQuake3. (Quake III)"
+HOMEPAGE="https://github.com/libretro/vitaquake3"
+KEYWORDS=""
 
 LICENSE="GPL-2"
 SLOT="0"

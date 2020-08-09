@@ -15,9 +15,9 @@ IUSE="2048 3dengine 81 atari800 bk bluemsx bnes boom3 bsnes bsnes-mercury cannon
 	mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mgba mrboom mu nekop2 np2kai neocd nestopia nxengine \
 	o2em oberon openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom \
 	prosystem puae px68k quicknes quasi88 retrodream reminiscence sameboy scummvm snes9x \
-	snes9x2002 snes9x2005 snes9x2010 stella2014 tgbdual theodore tyrquake uzem vba-next vbam vecx vice-x128
+	snes9x2002 snes9x2005 snes9x2010 squirreljme stella stella2014 tgbdual theodore tyrquake uzem vba-next vbam vecx vice-x128
 	vice-x64 vice-x64sc vice-xcbm2 vice-xcbm5x0 vice-xpet vice-xplus4 vice-xscpu64 \
-	vice-xvic virtualjaguar xrick yabause"
+	vice-xvic virtualjaguar vitaquake2 vitaquake3 xrick yabause"
 
 KEYWORDS="amd64 x86"
 
@@ -113,6 +113,8 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	snes9x2002? ( games-emulation/snes9x2002-libretro )
 	snes9x2005? ( games-emulation/snes9x2005-libretro )
 	snes9x2010? ( games-emulation/snes9x2010-libretro )
+	squirreljme? ( games-emulation/squirreljme-libretro )
+	stella? ( games-emulation/stella-libretro )
 	stella2014? ( games-emulation/stella2014-libretro )
 	tgbdual? ( games-emulation/tgbdual-libretro )
 	theodore? ( games-emulation/theodore-libretro )
@@ -131,6 +133,8 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	vice-xscpu64? ( games-emulation/vice-xscpu64-libretro )
 	vice-xvic? ( games-emulation/vice-xvic-libretro )
 	virtualjaguar? ( games-emulation/virtualjaguar-libretro )
+	vitaquake2? ( games-emulation/vitaquake2-libretro )
+	vitaquake3? ( games-emulation/vitaquake3-libretro )
 	xrick? ( games-emulation/xrick-libretro )
 	yabause? ( games-emulation/yabause-libretro )"
 DEPEND=""

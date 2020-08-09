@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="libretro/stella2014-libretro"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of Stella. (Atari 2600)"
+DESCRIPTION="libretro implementation of Stella 2014. (Atari 2600)"
 HOMEPAGE="https://github.com/libretro/stella2014-libretro"
 KEYWORDS=""
 
