@@ -20,7 +20,6 @@ TODO
         * fbalpha2012-cps3-libretro
         * fbalpha2012-neogeo-libretro
         * fsuae-libretro
-        * gearsystem-libretro
         * higan-sfc-libretro
         * ishiiruka-libretro
         * kronos-libretro
