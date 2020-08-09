@@ -7,7 +7,6 @@ TODO
         
         * bsnes-libretro-cplusplus98
         * chailove-libretro
-        * daphne-libretro
         * dolphin-libretro
         * emux-chip8-libretro
         * emux-gb-libretro
@@ -20,7 +19,6 @@ TODO
         * fbalpha2012-neogeo-libretro
         * higan-sfc-libretro
         * ishiiruka-libretro
-        * kronos-libretro
         * mame2003plus-libretro
         * mess2015-libretro
         * mupen64plus-libretro
@@ -36,4 +34,5 @@ TODO
 
 *Broken*
         * easyrpg-libretro ( fixable, should do it soon )
+        * daphne-libretro ( several chimichangas, don't know how to fix it ) 
         * ppsspp-libretro ( undefined reference to gl3stubInit )
