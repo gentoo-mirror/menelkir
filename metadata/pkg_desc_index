@@ -61,6 +61,7 @@ games-emulation/freechaf-libretro 1.0_pre20200806 9999: libretro emulation core 
 games-emulation/freeintv-libretro 1.0_pre20200724 9999-r3: A libretro emulation core for the Mattel Intellivision
 games-emulation/fuse-libretro 1.0_pre20200724 9999-r3: A port of the Fuse Unix Spectrum Emulator to libretro
 games-emulation/gambatte-libretro 1.0_pre20200724 9999-r3: libretro implementation of Gambatte. (Game Boy/Game Boy Color)
+games-emulation/gearboy-libretro 1.0_pre20200809 9999: Gearboy is a Nintendo Game Boy / GameBoy Color emulator for libretro
 games-emulation/genesis_plus_gx-libretro 1.0_pre20200806 9999: libretro implementation of Genesis Plus GX. (Sega Genesis/Sega CD)
 games-emulation/glsl-shaders 1_pre20200724 9999: glsl shaders converted by hand from libretro's common-shaders repo
 games-emulation/gme-libretro 1.0_pre20200724 9999-r3: Port of blargg's Game_Music_Emu library.
@@ -97,7 +98,9 @@ games-emulation/mesen-libretro 0.9.9 9999: libretro implementation of Mesen. (Ni
 games-emulation/meteor-libretro 1.0_pre20200725 9999-r3: libretro implementation of Meteor. (Game Boy Advance)
 games-emulation/mgba-libretro 1.0_pre20200806 9999-r3: libretro implementation of mGBA. (Game Boy Advance)
 games-emulation/mrboom-libretro 9999-r3: Multiplayer Bomberman clone for RetroArch/Libretro
+games-emulation/nekop2-libretro 1.0_pre20200809 9999: Neko Project 2 (PC98 emulator) port for libretro/RetroArch
 games-emulation/nestopia-libretro 1.0_pre20200725 9999-r3: libretro implementation of NEStopia. (Nintendo Entertainment System)
+games-emulation/np2kai-libretro 1.0_pre20200809 9999: NP2kai is PC-9801 series emulator
 games-emulation/nxengine-libretro 1.0_pre20191224 9999-r3: libretro implementation of NXEngine. (Cave Story)
 games-emulation/o2em-libretro 1.0_pre20191224 9999-r3: Port of O2EM to the libretro API, an Odyssey 2 / VideoPac emulator.
 games-emulation/openlara-libretro 1.0_pre20191224 9999-r3: libretro implementation of OpenLara. (Classic Tomb Raider Engine)
