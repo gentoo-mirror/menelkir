@@ -11,7 +11,7 @@ IUSE="2048 3dengine 81 atari800 bk bluemsx bnes boom3 bsnes bsnes-mercury cannon
 	crocods desmume dinothawr dosbox ecwolf fbalpha fbalpha2012 fbneo fceumm fceu-next ffmpeg flycast \
 	fmsx freechaf freeintv frodo fuse gambatte gearboy genesis_plus_gx gme gpsp gw handy hatari lutro mame mame2000 \
 	mame2003 mame2010 mame2015 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
-	mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
+	mednafen-pce mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
 	mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mgba mrboom mu nekop2 np2kai neocd nestopia nxengine \
 	o2em oberon openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom \
 	prosystem puae px68k quicknes quasi88 retrodream reminiscence sameboy scummvm snes9x \
