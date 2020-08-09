@@ -3,13 +3,13 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/stella2014-libretro"
-LIBRETRO_COMMIT_SHA="722744c11b36c1614740b6060d0bdb187660ffac"
+LIBRETRO_REPO_NAME="libretro/stella"
+LIBRETRO_COMMIT_SHA="7964c93a2fc3f0690f03ed39c6f7c2a9293e3f5f"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of Stella 2014. (Atari 2600)"
-HOMEPAGE="https://github.com/libretro/stella2014-libretro"
+DESCRIPTION="libretro implementation of Stella. (Atari 2600)"
+HOMEPAGE="https://github.com/libretro/stella"
 KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
@@ -24,3 +24,5 @@ pkg_preinst() {
 		first_install="1"
 	fi
 }
+
+S="${S}/src/libretro"
