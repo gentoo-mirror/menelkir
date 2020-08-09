@@ -9,7 +9,7 @@ LICENSE="metapackage"
 SLOT="0"
 IUSE="2048 3dengine 81 atari800 bluemsx bnes bsnes bsnes-mercury cannonball cap32 citra craft \
 	crocods desmume dinothawr dosbox fbalpha fbalpha2012 fbneo fceumm fceu-next flycast \
-	fmsx freechaf freeintv fuse gambatte genplus gme gpsp gw handy hatari lutro mame mame2000 \
+	fmsx freechaf freeintv fuse gambatte gearboy genesus_plus_gx gme gpsp gw handy hatari lutro mame mame2000 \
 	mame2003 mame2010 mame2015 mame2016 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
 	mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
 	mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mgba mrboom nekop2 np2kai nestopia nxengine \
@@ -48,7 +48,8 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	freeintv? ( games-emulation/freeintv-libretro )
 	fuse? ( games-emulation/fuse-libretro )
 	gambatte? ( games-emulation/gambatte-libretro )
-	genplus? ( games-emulation/genplus-libretro )
+	gearboy? ( games-emulation/gearboy-libretro )
+	genesis_plus_gx? ( games-emulation/genesis_plus_gx-libretro )
 	gme? ( games-emulation/gme-libretro )
 	gpsp? ( games-emulation/gpsp-libretro )
 	gw? ( games-emulation/gw-libretro )
