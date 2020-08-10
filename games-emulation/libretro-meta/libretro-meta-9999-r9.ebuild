@@ -7,17 +7,18 @@ DESCRIPTION="Meta package for various libretro implementations"
 HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="2048 3dengine 81 atari800 bk bluemsx bnes boom3 bsnes bsnes-mercury cannonball cap32 chailove citra craft \
-	crocods desmume dinothawr dosbox ecwolf fbalpha fbalpha2012 fbneo fceumm fceu-next ffmpeg flycast \
-	fmsx freechaf freeintv frodo fuse gambatte gearboy genesis_plus_gx gme gpsp gw handy hatari lutro mame mame2000 \
-	mame2003 mame2010 mame2015 mame2016 mess2015 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
+IUSE="2048 3dengine 81 atari800 bk bluemsx bnes boom3 bsnes bsnes-mercury cannonball cap32 \
+	chailove citra craft crocods desmume dinothawr dosbox ecwolf fbalpha fbalpha2012 fbneo \
+	fceumm fceu-next ffmpeg flycast fmsx freechaf freeintv frodo fuse gambatte gearboy \
+	genesis_plus_gx gme gpsp gw handy hatari lutro mame mame2000 mame2003 mame2003_plus-libretro \
+	mame2010 mame2015 mame2016 mess2015 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
 	mednafen-pce mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
-	mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mgba mrboom mu nekop2 np2kai neocd nestopia nxengine \
-	o2em oberon openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom \
-	prosystem puae px68k quicknes quasi88 retrodream reminiscence sameboy scummvm snes9x \
-	snes9x2002 snes9x2005 snes9x2010 squirreljme stella stella2014 tgbdual theodore tyrquake uzem vba-next vbam vecx vice-x128
-	vice-x64 vice-x64sc vice-xcbm2 vice-xcbm5x0 vice-xpet vice-xplus4 vice-xscpu64 \
-	vice-xvic virtualjaguar vitaquake2 vitaquake3 vitavoyager x1 xrick yabause"
+	mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mgba mrboom mu nekop2 np2kai neocd \
+	nestopia nxengine o2em oberon openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini \
+	prboom prosystem puae px68k quicknes quasi88 retrodream reminiscence sameboy scummvm snes9x \
+	snes9x2002 snes9x2005 snes9x2010 squirreljme stella stella2014 tgbdual theodore tyrquake \
+	uzem vba-next vbam vecx vice-x128 vice-x64 vice-x64sc vice-xcbm2 vice-xcbm5x0 vice-xpet \
+	vice-xplus4 vice-xscpu64 vice-xvic virtualjaguar vitaquake2 vitaquake3 vitavoyager x1 xrick yabause"
 
 KEYWORDS="amd64 x86"
 
@@ -65,6 +66,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	mame? ( games-emulation/mame-libretro )
 	mame2000? ( games-emulation/mame2000-libretro )
 	mame2003? ( games-emulation/mame2003-libretro )
+	mame2003_plus-libretro? ( games-emulation/mame2003_plus-libretro )
 	mame2010? ( games-emulation/mame2010-libretro )
 	mame2015? ( games-emulation/mame2015-libretro )
 	mame2016? ( games-emulation/mame2016-libretro )

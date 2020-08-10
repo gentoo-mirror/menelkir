@@ -25,10 +25,9 @@ TODO
         * tic80-libretro
 
 *Broken*
-        * citra-libretro ( needs revision for 9999 )
-        * easyrpg-libretro ( fixable, should do it soon )
+        * citra-libretro ( needs further investigation )
+        * easyrpg-libretro ( extra problems that I still didn't figured out )
         * daphne-libretro ( several chimichangas, don't know how to fix it ) 
-        * mame2003plus-libretro ( fixable, should do it soon )
         * ppsspp-libretro ( undefined reference to gl3stubInit )
         * vemulator-libretro ( several chimichangas, don't know how to fix it )
-        * hbmame-libretro ( don't know how to fix it )
+        * hbmame-libretro ( several chimichangas, don't know how to fix it )
