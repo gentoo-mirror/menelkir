@@ -19,3 +19,9 @@ RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
 S="${S}/builds/libretro"
+
+src_compile (){
+		cmake_src_prepare
+		emake -f Makefile.libretro
+}
+
