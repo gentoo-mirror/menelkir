@@ -7,7 +7,7 @@ DESCRIPTION="Meta package for various libretro implementations"
 HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="2048 3dengine 81 atari800 bk bluemsx bnes boom3 bsnes bsnes-mercury cannonball cap32 citra craft \
+IUSE="2048 3dengine 81 atari800 bk bluemsx bnes boom3 bsnes bsnes-mercury cannonball cap32 chailove citra craft \
 	crocods desmume dinothawr dosbox ecwolf fbalpha fbalpha2012 fbneo fceumm fceu-next ffmpeg flycast \
 	fmsx freechaf freeintv frodo fuse gambatte gearboy genesis_plus_gx gme gpsp gw handy hatari lutro mame mame2000 \
 	mame2003 mame2010 mame2015 mame2016 mess2015 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
@@ -33,6 +33,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	boom3? ( games-emulation/boom3-libretro )
 	cannonball? ( games-emulation/cannonball-libretro )
 	cap32? ( games-emulation/cap32-libretro )
+	chailove? ( games-emulation/chailove-libretro )
 	citra? ( games-emulation/citra-libretro )
 	craft? ( games-emulation/craft-libretro )
 	crocods? ( games-emulation/crocods-libretro )

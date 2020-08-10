@@ -26,7 +26,6 @@ TODO
 
 *Broken*
         * citra-libretro ( needs revision for 9999 )
-        * chailove-libretro ( fixable, should do it soon )
         * easyrpg-libretro ( fixable, should do it soon )
         * daphne-libretro ( several chimichangas, don't know how to fix it ) 
         * mame2003plus-libretro ( fixable, should do it soon )

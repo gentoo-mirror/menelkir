@@ -18,3 +18,6 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
+src_compile (){
+		emake -f Makefile
+}
