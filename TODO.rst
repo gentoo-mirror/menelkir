@@ -18,16 +18,16 @@ TODO
         * higan_sfc_balanced-libretro
         * higan_sfc-libretro
         * ishiiruka-libretro
-        * mupen64plus-libretro
         * play-libretro
         * stonesoup-libretro
         * thepowdertoy-libretro
         * tic80-libretro
 
 *Broken*
-        * citra-libretro ( needs further investigation )
+        * citra-libretro ( -9999 cant find a commit upstream, probably broken beyond repair )
         * easyrpg-libretro ( extra problems that I still didn't figured out )
         * daphne-libretro ( several chimichangas, don't know how to fix it ) 
         * ppsspp-libretro ( undefined reference to gl3stubInit )
         * vemulator-libretro ( several chimichangas, don't know how to fix it )
         * hbmame-libretro ( several chimichangas, don't know how to fix it )
+        * mupen64plus-libretro ( some errors upstream, needs further investigation )
