@@ -3,14 +3,16 @@
 
 EAPI=7
 
-inherit flag-o-matic qmake-utils autotools db-use git-r3
-EGIT_REPO_URI="https://github.com/${PN%-*}/${PN#*-}.git"
+inherit flag-o-matic qmake-utils autotools db-use vcs-snapshot
+
+SRC_URI="https://github.com/${PN%-*}/${PN#*-}/archive/v${PV}.tar.gz"
+RESTRICT="primaryuri"
+KEYWORDS="amd64 x86"
 
 DESCRIPTION="MEGA C++ SDK"
 HOMEPAGE="https://github.com/meganz/sdk"
 
 LICENSE="BSD-2"
-# awk '/define/ {print $3}' include/mega/version.h|awk 'BEGIN{RS="";FS="\n"}{printf $1*10000+$2*100+$3}'
 SLOT="0/30608"
 IUSE="examples ffmpeg freeimage fuse hardened inotify libuv mediainfo qt raw +sqlite test"
 REQUIRED_USE="
@@ -44,6 +46,8 @@ DEPEND="
 	${RDEPEND}
 	test? ( dev-cpp/gtest )
 "
+
+S="${WORKDIR}/v${PV}"
 
 pkg_setup() {
 	use sqlite || append-cppflags "-I$(db_includedir)"
