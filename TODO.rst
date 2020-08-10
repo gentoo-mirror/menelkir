@@ -11,7 +11,6 @@ TODO
         * emux-gb-libretro
         * emux-nes-libretro
         * emux-sms-libretro
-        * ffmpeg-libretro
         * fbalpha2012-cps1-libretro
         * fbalpha2012-cps2-libretro
         * fbalpha2012-cps3-libretro
@@ -19,15 +18,14 @@ TODO
         * higan_sfc_balanced-libretro
         * higan_sfc-libretro
         * ishiiruka-libretro
-        * mess2015-libretro
         * mupen64plus-libretro
         * play-libretro
-        * squirreljme-libretro
         * stonesoup-libretro
         * thepowdertoy-libretro
         * tic80-libretro
 
 *Broken*
+        * citra-libretro ( needs revision for 9999 )
         * chailove-libretro ( fixable, should do it soon )
         * easyrpg-libretro ( fixable, should do it soon )
         * daphne-libretro ( several chimichangas, don't know how to fix it ) 
