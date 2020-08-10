@@ -8,7 +8,7 @@ CMAKE_IN_SOURCE_BUILD=y
 inherit cmake-utils qmake-utils xdg vcs-snapshot
 SRC_URI="https://www.github.com/meganz/MEGAsync/archive/v${PV}_Linux.tar.gz -> ${P}.tar.gz"
 RESTRICT="primaryuri"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 DESCRIPTION="Easy automated syncing with MEGA Cloud Drive"
 HOMEPAGE="https://github.com/meganz/MEGAsync"
