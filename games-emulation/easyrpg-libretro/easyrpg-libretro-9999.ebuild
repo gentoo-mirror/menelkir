@@ -20,8 +20,13 @@ RDEPEND="${DEPEND}
 
 S="${S}/builds/libretro"
 
+src_configure(){
+		cmake-utils_src_configure
+}
+
 src_compile (){
-		cmake_src_prepare
+		cmake-utils_src_compile
+		emake -f Makefile
 		emake -f Makefile.libretro
 }
 

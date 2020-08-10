@@ -22,10 +22,13 @@ DEPEND="${RDEPEND}
 
 src_configure() {
 	local mycmakeargs=(
-		-DENABLE_LIBRETRO=ON
-		-DENABLE_QT=OFF
-		-DENABLE_SDL2=OFF
-		-DENABLE_WEB_SERVICE=OFF
+	-DENABLE_LIBRETRO=1
+	-DLIBRETRO_STATIC=1
+	-DENABLE_SDL2=0
+	-DENABLE_QT=0
+	-DCMAKE_BUILD_TYPE="Release"
+	-DENABLE_WEB_SERVICE=0
+	--target citra_libretro
 	)
 	cmake-utils_src_configure
 }

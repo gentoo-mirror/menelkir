@@ -3,13 +3,13 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/parallel-n64"
-LIBRETRO_COMMIT_SHA="cfb9789e13ccbeaabd928203566346c05709d501"
+LIBRETRO_REPO_NAME="libretro/mupen64plus-libretro-nx"
+LIBRETRO_COMMIT_SHA="ea1c677c1e61ce1d95809c09cf26ffa75cd7e9dc"
 
 inherit libretro-core
 
-DESCRIPTION="Rewritten Nintendo 64 emulator made specifically for Libretro."
-HOMEPAGE="https://github.com/libretro/parallel-n64"
+DESCRIPTION="Improved mupen64plus libretro core reimplementation"
+HOMEPAGE="https://github.com/libretro/mupen64plus-libretro-nx"
 KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
@@ -25,8 +25,8 @@ DEPEND="${RDEPEND}
 
 src_compile() {
 	myemakeargs=(
-		$(usex amd64 "WITH_DYNAREC=x86_64" "")
-		$(usex x86 "WITH_DYNAREC=x86" "")
+		$(usex amd64 "WITH_DYNAREC=x86_64 HAVE_PARALLEL_RDP=1 HAVE_PARALLEL_RSP=1 HAVE_THR_AL=1 HAVE_LLE=1" "")
+		$(usex x86 "WITH_DYNAREC=x86 HAVE_PARALLEL_RSP=1 HAVE_THR_AL=1" "")
 		$(usex arm "platform=rpi WITH_DYNAREC=arm" "")
 		$(usex arm64 "platform=rpi WITH_DYNAREC=aarch64" "")
 		$(usex gles2 "FORCE_GLES=1" "FORCE_GLES=0")
