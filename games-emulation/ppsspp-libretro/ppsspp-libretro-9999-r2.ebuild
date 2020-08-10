@@ -25,6 +25,8 @@ DEPEND="x11-libs/libICE
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
+EGIT_SUBMODULES=( '*' )
+
 S=${S}/libretro
 
 ASSETS_DIR=${LIBRETRO_DATA_DIR}/PPSSPP

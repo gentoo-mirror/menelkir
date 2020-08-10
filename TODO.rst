@@ -27,7 +27,7 @@ TODO
         * citra-libretro ( -9999 cant find a commit upstream, probably broken beyond repair )
         * easyrpg-libretro ( extra problems that I still didn't figured out )
         * daphne-libretro ( several chimichangas, don't know how to fix it ) 
-        * ppsspp-libretro ( undefined reference to gl3stubInit )
+        * ppsspp-libretro ( broken beyond my knowledge )
         * vemulator-libretro ( several chimichangas, don't know how to fix it )
         * hbmame-libretro ( several chimichangas, don't know how to fix it )
         * mupen64plus-libretro ( some errors upstream, needs further investigation )
