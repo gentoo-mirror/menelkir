@@ -1,12 +1,5 @@
 TODO
 ====
-*Add new applications*
-        * authy-desktop         https://authy.com/
-
-*Broken applications*
-        * Yuzu ( WIP )
-        * Vita3K ( WIP )
-
 *Missing cores*
         
         * bsnes-libretro-cplusplus98
@@ -26,13 +19,4 @@ TODO
         * stonesoup-libretro
         * thepowdertoy-libretro
         * tic80-libretro
-
-*Broken libretro cores*
-        * citra-libretro ( -9999 cant find a commit upstream, probably broken beyond repair )
-        * easyrpg-libretro ( extra problems that I still didn't figured out )
-        * daphne-libretro ( several chimichangas, don't know how to fix it ) 
-        * ppsspp-libretro ( broken beyond my knowledge )
-        * vemulator-libretro ( several chimichangas, don't know how to fix it )
-        * hbmame-libretro ( several chimichangas, don't know how to fix it )
-        * mupen64plus-libretro ( some errors upstream, needs further investigation )
 
