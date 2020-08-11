@@ -15,3 +15,4 @@ games-emulation/ppsspp-libretro
 # Work in Progress
 games-emulation/yuzu
 games-emulation/vita3k
+games-emulation/play-libretro
