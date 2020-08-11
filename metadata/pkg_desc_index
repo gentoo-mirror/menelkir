@@ -172,6 +172,7 @@ games-emulation/vice-xplus4-libretro 1.0_pre20200807 9999: Versatile Commodore 8
 games-emulation/vice-xscpu64-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
 games-emulation/vice-xvic-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
 games-emulation/virtualjaguar-libretro 1.0_pre20191224 9999-r3: Port of Virtual Jaguar to Libretro
+games-emulation/vita3k 9999: Sony Playstation Vita Emulator
 games-emulation/vitaquake2-libretro 1.0_pre20200809 9999: libretro implementation of VitaQuake2. (Quake II)
 games-emulation/vitaquake3-libretro 1.0_pre20200809 9999: libretro implementation of VitaQuake3. (Quake III)
 games-emulation/vitavoyager-libretro 9999: lilium-voyager (Star Trek Voyager: Elite Force Holomatch mp) for libretro
@@ -179,6 +180,7 @@ games-emulation/x1-libretro 1.0_pre20200809 9999: Libretro port of X Millennium 
 games-emulation/xnp2 9999: X Neko Project II, a PC-9801 emulator (PC98)
 games-emulation/xrick-libretro 1.0_pre20191224 9999-r3: Xrick is an open source implementation of Rick Dangerous for libretro.
 games-emulation/yabause-libretro 1.0_pre20191224 9999-r3: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
+games-emulation/yuzu 9999: Nintendo Switch Emulator
 games-engines/ags 3.4.0.16 3.5.0.24 9999: Adventure Game Studio (AGS) runtime engine
 games-engines/easyrpg-player 0.5.2 0.6.2 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
 games-fps/brutal-doom 21: A mod that attempts to make Doom faster placed, harder, gorier and more violent.
