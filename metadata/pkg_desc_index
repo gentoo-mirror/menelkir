@@ -127,6 +127,7 @@ games-emulation/opera-libretro 1.0_pre20200403 9999-r3: libretro implementation 
 games-emulation/parallel-n64-libretro 1.0_pre20200810 9999: Rewritten Nintendo 64 emulator made specifically for Libretro.
 games-emulation/pcsx-rearmed-libretro 1.0_pre20191224 9999-r3: libretro implementation of PCSX ReARMed. (PlayStation)
 games-emulation/picodrive-libretro 1.0_pre20191224 9999-r3: libretro implementation of PicoDrive. (Sega GameGear/Sega CD/32X)
+games-emulation/play-libretro 9999: Sony Playstation 2 libretro core
 games-emulation/pocketcdg-libretro 1.0_pre20191224 9999-r3: PocketCDG libretro port.
 games-emulation/pokemini-libretro 1.0_pre20191224 9999-r3: Obscure nintendo handheld emulator.
 games-emulation/ppsspp-libretro 1.0_pre20200809 9999-r2: libretro implementation of PPSSPP. (PlayStation Portable/PSP)
