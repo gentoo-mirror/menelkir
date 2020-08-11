@@ -1,0 +1,17 @@
+# Daniel Menelkir <menelkir@itroll.org> 2020-08-10
+# Needs further investigation
+games-emulation/daphne-libretro
+games-emulation/vemulator-libretro
+games-emulation/hbmame-libretro
+games-emulation/mupen64plus-libretro
+games-emulation/easyrpg-libretro
+games-emulation/ppsspp-libretro
+
+# Daniel Menelkir <menelkir@itroll.org> 2020-08-10
+# Upstream is broken
+=games-emulation/citra-libretro-9999
+
+# Daniel Menelkir <menelkir@itroll.org> 2020-08-10
+# Work in Progress
+games-emulation/yuzu
+games-emulation/vita3k
