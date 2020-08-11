@@ -2,6 +2,8 @@ TODO
 ====
 *Add new applications*
         * authy-desktop         https://authy.com/
+        * Vita3K                https://github.com/Vita3K/Vita3K
+        * Yuzu                  https://github.com/yuzu-emu/yuzu
 
 *Add missing cores*
         
