@@ -22,6 +22,7 @@ RDEPEND=">=dev-qt/qtcore-5.14.2:5=
 	>=dev-qt/qtdeclarative-5.14.2:5=
 	>=dev-qt/qtnetwork-5.14.2:5=
 	>=dev-qt/qtwidgets-5.14.2:5=
+	media-libs/openal
 	virtual/opengl
 	virtual/glu
 	media-libs/glew:0=
