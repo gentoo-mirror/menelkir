@@ -1,3 +1,7 @@
+# Daniel Menelkir <menelkir@itroll.org> 2020-09-02
+# Needs further investigation
+>=games-emulation/openmsx-16.0
+
 # Daniel Menelkir <menelkir@itroll.org> 2020-08-10
 # Needs further investigation
 games-emulation/daphne-libretro
@@ -16,3 +20,4 @@ games-emulation/ppsspp-libretro
 games-emulation/yuzu
 games-emulation/vita3k
 games-emulation/play-libretro
+
