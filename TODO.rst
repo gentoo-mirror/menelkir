@@ -1,5 +1,8 @@
 TODO
 ====
+*Broken software*
+        * Openmsx 16.0 (0.15 works)
+
 *Missing cores*
         
         * bsnes-libretro-cplusplus98
