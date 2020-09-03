@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare setup
+DEPEND=dev-lang/tcl:0= dev-libs/libxml2 >=x11-libs/wxGTK-2.6 games-emulation/openmsx !!sys-devel/llvm:0
+DESCRIPTION=OpenMSX emulator GUI
+EAPI=7
+HOMEPAGE=https://openmsx.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/tcl:0= dev-libs/libxml2 >=x11-libs/wxGTK-2.6 games-emulation/openmsx
+SLOT=0
+SRC_URI=https://github.com/openMSX/openMSX/releases/download/RELEASE_16_0/openmsx-catapult-16.0.tar.gz
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	llvm	21d8c0949a2693d7109cc6a25fabfcaf	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wxwidgets	e1e6e1eb5b3d911b3abd712f611e2312
+_md5_=c53a7614413022ad1134f1dff98651d9
