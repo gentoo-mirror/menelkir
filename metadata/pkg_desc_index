@@ -120,8 +120,8 @@ games-emulation/nxengine-libretro 1.0_pre20191224 9999-r3: libretro implementati
 games-emulation/o2em-libretro 1.0_pre20191224 9999-r3: Port of O2EM to the libretro API, an Odyssey 2 / VideoPac emulator.
 games-emulation/oberon-libretro 1.0_pre20200809 9999: Emulator for the Oberon RISC machine
 games-emulation/openlara-libretro 1.0_pre20191224 9999-r3: libretro implementation of OpenLara. (Classic Tomb Raider Engine)
-games-emulation/openmsx 0.15.0 16.0 9999: MSX emulator that aims for perfection
-games-emulation/openmsx-catapult 0.15.0: MSX emulator's GUI
+games-emulation/openmsx 16.0 9999: MSX emulator that aims for perfection
+games-emulation/openmsx-catapult 16.0 9999: OpenMSX emulator GUI
 games-emulation/opera-libretro 1.0_pre20200403 9999-r3: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
 games-emulation/parallel-n64-libretro 1.0_pre20200810 9999: Rewritten Nintendo 64 emulator made specifically for Libretro.
 games-emulation/pcsx-rearmed-libretro 1.0_pre20191224 9999-r3: libretro implementation of PCSX ReARMed. (PlayStation)
