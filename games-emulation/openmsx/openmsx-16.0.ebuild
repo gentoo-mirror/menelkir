@@ -5,7 +5,7 @@ EAPI=7
 
 PYTHON_COMPAT=( python3_7 )
 
-inherit desktop python-any-r1 readme.gentoo-r1
+inherit desktop python-any-r1 readme.gentoo-r1 llvm
 
 DESCRIPTION="MSX emulator that aims for perfection"
 HOMEPAGE="http://openmsx.org/"

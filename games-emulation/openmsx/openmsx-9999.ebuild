@@ -5,7 +5,7 @@ EAPI=7
 
 PYTHON_COMPAT=( python2_7 )
 
-inherit desktop python-any-r1 readme.gentoo-r1 git-r3
+inherit desktop python-any-r1 readme.gentoo-r1 git-r3 llvm
 
 DESCRIPTION="MSX emulator that aims for perfection"
 HOMEPAGE="http://openmsx.org/"
@@ -16,23 +16,22 @@ SLOT="0"
 KEYWORDS=""
 
 RDEPEND="
-	dev-lang/tcl:0=
-	dev-libs/libxml2
-	media-libs/libpng:0=
-	media-libs/libsdl[sound,video]
-	>=media-libs/glew-1.3.2:0=
-	media-libs/sdl-image[png]
-	media-libs/sdl-ttf
-	virtual/opengl
+		media-libs/libogg
+		media-libs/libtheora
+		media-libs/libvorbis
+		dev-lang/tcl:0=
+		dev-libs/libxml2
+		media-libs/libpng:0=
+		media-libs/libsdl2[sound,video]
+		media-libs/glew:0=
+		media-libs/sdl2-image[png]
+		media-libs/sdl2-ttf
+		virtual/opengl
 "
 DEPEND="
-	${RDEPEND}
-	${PYTHON_DEPS}
+		${RDEPEND}
+		${PYTHON_DEPS}
 "
-
-PATCHES=(
-	"${FILESDIR}"/${PV}-sdl-ttf.patch
-)
 
 DOC_CONTENTS="
 If you want to if you want to emulate real MSX systems and not
@@ -42,16 +41,12 @@ or ~/.openMSX/share/systemroms
 "
 
 src_prepare() {
-	default
-	sed -i \
-		-e '/^LDFLAGS:=/d' \
-		-e '/LINK_FLAGS_PREFIX/d' \
-		-e '/LINK_FLAGS+=/s/-s//' \
-		-e '/LINK_FLAGS+=\$(TARGET_FLAGS)/s/$/ $(LDFLAGS)/' \
-		build/main.mk \
-		|| die
-	sed -i -e '/SYMLINK/s:true:false:' build/custom.mk || die
-	sed -i -e 's/GPL.txt//' doc/node.mk || die
+		default
+		sed -i 's@SYMLINK_FOR_BINARY:=true@SYMLINK_FOR_BINARY:=false@' build/custom.mk
+		sed -i 's@INSTALL_BASE:=/opt/openMSX@INSTALL_BASE:=/usr/share/openmsx@' build/custom.mk
+		echo 'INSTALL_DOC_DIR:=/usr/share/doc/openmsx' >> build/custom.mk
+		echo 'INSTALL_SHARE_DIR:=/usr/share/openmsx' >> build/custom.mk
+		echo 'INSTALL_BINARY_DIR:=/usr/bin' >> build/custom.mk
 }
 
 src_compile() {
