@@ -10,4 +10,4 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/openMSX/openMSX/releases/download/RELEASE_16_0/openmsx-catapult-16.0.tar.gz
 _eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	llvm	21d8c0949a2693d7109cc6a25fabfcaf	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wxwidgets	e1e6e1eb5b3d911b3abd712f611e2312
-_md5_=c270b864ac7166636a60f29de620e448
+_md5_=714a4437cb03d96f561995a2f4b68043
