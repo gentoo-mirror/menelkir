@@ -31,6 +31,8 @@ RDEPEND="
 DEPEND="
 		${RDEPEND}
 		${PYTHON_DEPS}
+		sys-devel/clang
+		sys-devel/llvm
 "
 
 CXX="clang++"

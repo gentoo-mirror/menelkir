@@ -22,38 +22,17 @@ RDEPEND="${DEPEND}
 
 RESTRICT="strip"
 
-S="${WORKDIR}/${P}"
-
-PATCHES=(
-	"${FILESDIR}/${PV}-custom.mk.patch"
-	"${FILESDIR}/${PV}-main.mk.patch"
-)
+CXX="clang++"
 
 src_prepare() {
 	default
-	# Setting up installation environment
-	einfo "Patching installation files"
-	sed -i \
-		-e "/CXXFLAGS:=/s:$:${CXXFLAGS}:" \
-		-e "/LINK_FLAGS:=/s:$:${LDFLAGS}:" \
-		-e 's:/usr/share/applications:${DESKTOP_HOOKS_DIR}:g' \
-		build/main.mk || die "sed failed" || die
-	sed -i \
-		-e "/INSTALL_BASE:=/s:/opt/openMSX-Catapult:${GAMES_PREFIX}:" \
-		-e "/SYMLINK_FOR_BINARY:=/s:true:false:" \
-		-e "/CATAPULT_OPENMSX_BINARY:=/s:/opt/openMSX/bin/openmsx:${GAMES_BINDIR}/openmsx:" \
-		-e "/CATAPULT_OPENMSX_SHARE:=/s:/opt/openMSX/share:${GAMES_DATADIR}/openmsx:" \
-		build/custom.mk || die "sed custom.mk failed" || die
-	# Making workaround for lack of OPENMSX_USER_DATA and OPENMSX_SYSTEM_DATA variables
-	# which not let us to use our GAMES_DATADIR properly
-	einfo "Patching initialization files"
-	sed -i	-e "s:../resources:${GAMES_DATADIR}/${PN}/resources:g" \
-		-e "s:../../resources:${GAMES_DATADIR}/${PN}/resources:g" \
-			`find dialogs -name "*.wxg"` || die
-	sed -i "s:\$(INSTALL_BASE):${GAMES_DATADIR}/${PN}:" build/info2code.mk || die
-
-	# don't give a damn about our nice libraries
-	sed -i -e 's:($(COMPONENT_CORE),false):(true,false):g' build/main.mk || die
+	sed -i 's@SYMLINK_FOR_BINARY:=true@SYMLINK_FOR_BINARY:=false@' build/custom.mk
+	sed	-i 's@/opt/openMSX-Catapult@/usr/share/openmsx-catapult@' build/custom.mk
+	sed -i 's@/opt/openMSX/bin/openmsx@/usr/bin/openmsx@' build/custom.mk
+	sed -i 's@/opt/openMSX/share@/usr/share/openmsx@' build/custom.mk
+	echo 'INSTALL_DOC_DIR:=/usr/share/doc/openmsx-catapult' >> build/custom.mk
+	echo 'INSTALL_SHARE_DIR:=/usr/share/openmsx-catapult' >> build/custom.mk
+	echo 'INSTALL_BINARY_DIR:=/usr/bin' >> build/custom.mk
 }
 
 src_compile() {
@@ -61,11 +40,10 @@ src_compile() {
 }
 
 src_install() {
-	emake \
-		INSTALL_BINARY_DIR="${D}${GAMES_BINDIR}" \
-		INSTALL_SHARE_DIR="${D}${GAMES_DATADIR}/${PN}" \
-		INSTALL_DOC_DIR="${D}"/usr/share/doc/${PF} \
-		DESKTOP_HOOKS_DIR="${D}/usr/share/applications" \
-		install \
-		|| die "install failed"
+	mkdir -p "${D}/usr/share/applications"
+	emake DESTDIR="${D}" install
+	sed -i 's@/usr/share/openmsx-catapult/bin/catapult@/usr/bin/catapult@' \
+		"${D}/usr/share/applications/openMSX-Catapult.desktop"
+	sed -i 's@/usr/share/openmsx-catapult/doc/@/usr/share/doc/openmsx-catapult/@' \
+		"${D}/usr/share/applications/openMSX-Catapult.desktop"
 }

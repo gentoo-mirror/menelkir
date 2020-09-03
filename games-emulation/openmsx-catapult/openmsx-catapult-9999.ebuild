@@ -14,37 +14,37 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="
-	dev-lang/tcl:0=
+DEPEND="dev-lang/tcl
 	dev-libs/libxml2
-	>=x11-libs/wxGTK-2.6
-	games-emulation/openmsx
-"
+	>=x11-libs/wxGTK-2.6"
+RDEPEND="${DEPEND}
+	games-emulation/openmsx"
 
-RDEPEND="${DEPEND}"
-BDEPEND=""
+RESTRICT="strip"
 
-S="${WORKDIR}/${P}"
+CXX="clang++"
 
 src_prepare() {
 	default
 	sed -i 's@SYMLINK_FOR_BINARY:=true@SYMLINK_FOR_BINARY:=false@' build/custom.mk
-	sed -i 's@INSTALL_BASE:=/opt/openMSX@INSTALL_BASE:=/usr/share/openmsx@' build/custom.mk
-	echo 'INSTALL_DOC_DIR:=/usr/share/doc/openmsx' >> build/custom.mk
-	echo 'INSTALL_SHARE_DIR:=/usr/share/openmsx' >> build/custom.mk
+	sed -i 's@/opt/openMSX-Catapult@/usr/share/openmsx-catapult@' build/custom.mk
+	sed -i 's@/opt/openMSX/bin/openmsx@/usr/bin/openmsx@' build/custom.mk
+	sed -i 's@/opt/openMSX/share@/usr/share/openmsx@' build/custom.mk
+	echo 'INSTALL_DOC_DIR:=/usr/share/doc/openmsx-catapult' >> build/custom.mk
+	echo 'INSTALL_SHARE_DIR:=/usr/share/openmsx-catapult' >> build/custom.mk
 	echo 'INSTALL_BINARY_DIR:=/usr/bin' >> build/custom.mk
 }
 
+src_compile() {
+	emake || die "emake failed"
+}
+
 src_install() {
-	emake \
-		V=1 \
-		INSTALL_BINARY_DIR="${ED}/usr/bin" \
-		INSTALL_SHARE_DIR="${ED}/usr/share/${PN}" \
-		INSTALL_DOC_DIR="${D}"/usr/share/doc/${PF} \
-		install
-
-	einstalldocs
-
-	make_desktop_entry "catapult"
+	mkdir -p "${D}/usr/share/applications"
+	emake DESTDIR="${D}" install
+	sed -i 's@/usr/share/openmsx-catapult/bin/catapult@/usr/bin/catapult@' \
+		"${D}/usr/share/applications/openMSX-Catapult.desktop"
+	sed -i 's@/usr/share/openmsx-catapult/doc/@/usr/share/doc/openmsx-catapult/@' \
+		"${D}/usr/share/applications/openMSX-Catapult.desktop"
 }
 
