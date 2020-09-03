@@ -33,6 +33,8 @@ DEPEND="
 		${PYTHON_DEPS}
 "
 
+CXX="clang++"
+
 DOC_CONTENTS="
 If you want to if you want to emulate real MSX systems and not
 only the free C-BIOS machines, put the system ROMs in one of

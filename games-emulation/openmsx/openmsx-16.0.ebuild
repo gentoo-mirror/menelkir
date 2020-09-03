@@ -33,6 +33,8 @@ DEPEND="
 	${PYTHON_DEPS}
 "
 
+CXX="clang++"
+
 DOC_CONTENTS="
 If you want to if you want to emulate real MSX systems and not
 only the free C-BIOS machines, put the system ROMs in one of
@@ -42,11 +44,11 @@ or ~/.openMSX/share/systemroms
 
 src_prepare() {
 	default
-  	sed -i 's@SYMLINK_FOR_BINARY:=true@SYMLINK_FOR_BINARY:=false@' build/custom.mk
-  	sed -i 's@INSTALL_BASE:=/opt/openMSX@INSTALL_BASE:=/usr/share/openmsx@' build/custom.mk
-  	echo 'INSTALL_DOC_DIR:=/usr/share/doc/openmsx' >> build/custom.mk
-  	echo 'INSTALL_SHARE_DIR:=/usr/share/openmsx' >> build/custom.mk
-  	echo 'INSTALL_BINARY_DIR:=/usr/bin' >> build/custom.mk
+	sed -i 's@SYMLINK_FOR_BINARY:=true@SYMLINK_FOR_BINARY:=false@' build/custom.mk
+	sed -i 's@INSTALL_BASE:=/opt/openMSX@INSTALL_BASE:=/usr/share/openmsx@' build/custom.mk
+	echo 'INSTALL_DOC_DIR:=/usr/share/doc/openmsx' >> build/custom.mk
+	echo 'INSTALL_SHARE_DIR:=/usr/share/openmsx' >> build/custom.mk
+	echo 'INSTALL_BINARY_DIR:=/usr/bin' >> build/custom.mk
 }
 
 src_install() {
