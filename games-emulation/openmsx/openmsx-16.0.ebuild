@@ -13,7 +13,7 @@ SRC_URI="https://github.com/openMSX/openMSX/releases/download/RELEASE_${PV//./_}
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="amd64 x86"
 
 RDEPEND="
 	media-libs/libogg

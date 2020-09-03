@@ -1,3 +1,8 @@
+# Daniel Menelkir <menelkir@itroll.org> 2020-09-05
+# Will fix later
+games-emulation/openmsx
+games-emulation/openmsx-catapult
+
 # Daniel Menelkir <menelkir@itroll.org> 2020-08-10
 # Needs further investigation
 games-emulation/daphne-libretro

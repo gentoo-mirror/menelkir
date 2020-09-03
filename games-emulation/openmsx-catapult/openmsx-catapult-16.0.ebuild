@@ -11,40 +11,61 @@ SRC_URI="https://github.com/openMSX/openMSX/releases/download/RELEASE_16_0/${PN}
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 ~ppc ~sparc ~x86"
 IUSE=""
 
-DEPEND="
-	dev-lang/tcl:0=
+DEPEND="dev-lang/tcl
 	dev-libs/libxml2
-	>=x11-libs/wxGTK-2.6
-	games-emulation/openmsx
-"
+	>=x11-libs/wxGTK-2.6"
+RDEPEND="${DEPEND}
+	games-emulation/openmsx"
 
-RDEPEND="${DEPEND}"
-BDEPEND=""
+RESTRICT="strip"
 
 S="${WORKDIR}/${P}"
 
+PATCHES=(
+	"${FILESDIR}/${PV}-custom.mk.patch"
+	"${FILESDIR}/${PV}-main.mk.patch"
+)
+
 src_prepare() {
 	default
-	sed -i 's@SYMLINK_FOR_BINARY:=true@SYMLINK_FOR_BINARY:=false@' build/custom.mk
-	sed -i 's@INSTALL_BASE:=/opt/openMSX@INSTALL_BASE:=/usr/share/openmsx@' build/custom.mk
-	echo 'INSTALL_DOC_DIR:=/usr/share/doc/openmsx' >> build/custom.mk
-	echo 'INSTALL_SHARE_DIR:=/usr/share/openmsx' >> build/custom.mk
-	echo 'INSTALL_BINARY_DIR:=/usr/bin' >> build/custom.mk
+	# Setting up installation environment
+	einfo "Patching installation files"
+	sed -i \
+		-e "/CXXFLAGS:=/s:$:${CXXFLAGS}:" \
+		-e "/LINK_FLAGS:=/s:$:${LDFLAGS}:" \
+		-e 's:/usr/share/applications:${DESKTOP_HOOKS_DIR}:g' \
+		build/main.mk || die "sed failed" || die
+	sed -i \
+		-e "/INSTALL_BASE:=/s:/opt/openMSX-Catapult:${GAMES_PREFIX}:" \
+		-e "/SYMLINK_FOR_BINARY:=/s:true:false:" \
+		-e "/CATAPULT_OPENMSX_BINARY:=/s:/opt/openMSX/bin/openmsx:${GAMES_BINDIR}/openmsx:" \
+		-e "/CATAPULT_OPENMSX_SHARE:=/s:/opt/openMSX/share:${GAMES_DATADIR}/openmsx:" \
+		build/custom.mk || die "sed custom.mk failed" || die
+	# Making workaround for lack of OPENMSX_USER_DATA and OPENMSX_SYSTEM_DATA variables
+	# which not let us to use our GAMES_DATADIR properly
+	einfo "Patching initialization files"
+	sed -i	-e "s:../resources:${GAMES_DATADIR}/${PN}/resources:g" \
+		-e "s:../../resources:${GAMES_DATADIR}/${PN}/resources:g" \
+			`find dialogs -name "*.wxg"` || die
+	sed -i "s:\$(INSTALL_BASE):${GAMES_DATADIR}/${PN}:" build/info2code.mk || die
+
+	# don't give a damn about our nice libraries
+	sed -i -e 's:($(COMPONENT_CORE),false):(true,false):g' build/main.mk || die
+}
+
+src_compile() {
+	emake || die "emake failed"
 }
 
 src_install() {
 	emake \
-		V=1 \
-		INSTALL_BINARY_DIR="${ED}/usr/bin" \
-		INSTALL_SHARE_DIR="${ED}/usr/share/${PN}" \
+		INSTALL_BINARY_DIR="${D}${GAMES_BINDIR}" \
+		INSTALL_SHARE_DIR="${D}${GAMES_DATADIR}/${PN}" \
 		INSTALL_DOC_DIR="${D}"/usr/share/doc/${PF} \
-		install
-
-	einstalldocs
-
-	make_desktop_entry "catapult"
+		DESKTOP_HOOKS_DIR="${D}/usr/share/applications" \
+		install \
+		|| die "install failed"
 }
-
