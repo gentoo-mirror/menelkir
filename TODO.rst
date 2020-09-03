@@ -1,6 +1,7 @@
 TODO
 ====
 *Broken Applications*
+        * openmsx
         * OpenMSX-Catapult
 
 *Missing cores*
