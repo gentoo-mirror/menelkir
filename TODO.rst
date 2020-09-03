@@ -1,9 +1,11 @@
 TODO
 ====
-*Missing cores*
+*Broken libretro cores*
+        * dolphin-libretro
+
+*Missing libretro cores*
         
         * bsnes-libretro-cplusplus98
-        * dolphin-libretro
         * emux-chip8-libretro
         * emux-gb-libretro
         * emux-nes-libretro
