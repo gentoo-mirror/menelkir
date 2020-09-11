@@ -9,5 +9,5 @@ RDEPEND=games-emulation/libretro-info
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/beetle-lynx-libretro/archive/a43fa4792647cfb0a170d9c4b6aa2f3804f28c84.tar.gz -> mednafen-lynx-libretro-1.0_pre20200724.tar.gz
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	2dbfa5ea9ca193d219a96b37ec5613e8	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	2dbfa5ea9ca193d219a96b37ec5613e8	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=3b983faa26959f50e6d3c36b797e6f30
