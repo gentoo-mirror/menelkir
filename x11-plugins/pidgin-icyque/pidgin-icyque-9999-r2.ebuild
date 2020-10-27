@@ -7,7 +7,7 @@ inherit toolchain-funcs git-r3
 
 DESCRIPTION="ICQ WIM protocol for libpurple"
 HOMEPAGE="https://github.com/EionRobb/icyque"
-EGIT_REPO_URI="https://github.com/EionRobb/purple-icyque.git"
+EGIT_REPO_URI="https://github.com/EionRobb/icyque.git"
 KEYWORDS=""
 
 LICENSE="GPL-3+"
