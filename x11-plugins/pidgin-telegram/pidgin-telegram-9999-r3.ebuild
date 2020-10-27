@@ -9,7 +9,7 @@ DESCRIPTION="Libpurple (Pidgin) plugin for using a Telegram account"
 HOMEPAGE="https://github.com/majn/telegram-purple"
 EGIT_REPO_URI="${HOMEPAGE}"
 
-LICENSE="LGPL-3"
+LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS=""
 IUSE="+webp libressl"
