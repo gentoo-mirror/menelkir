@@ -18,4 +18,3 @@ DEPEND="net-im/pidgin
 	!libressl? ( dev-libs/openssl:0= )
 	libressl? ( dev-libs/libressl:0= )"
 RDEPEND="${DEPEND}"
-
