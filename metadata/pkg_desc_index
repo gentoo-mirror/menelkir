@@ -15,7 +15,7 @@ dev-python/spry 0.5.5: social media scanner
 dev-python/vulners 1.5.5: Python API wrapper for the Vulners Database
 dev-python/w3lib 1.22.0: Library of web-related functions
 dev-python/websockets 8.1-r2: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
-dev-util/electron 8.3.3 9.1.0 9.2.0 9.3.1: Cross platform application development framework based on web technologies
+dev-util/electron 8.3.3 9.1.0 9.2.1 9.3.0 9.3.2: Cross platform application development framework based on web technologies
 dev-util/google-breakpad 1_p20200724 9999: An open-source multi-platform crash reporting system
 dev-util/kdevelop-css 9999: CSS Language Support plugin for KDevelop
 dev-util/kdevelop-embedded 9999: Plugin for KDevelop to support the development of embedded systems
@@ -244,16 +244,18 @@ sys-devel/remake 4.3.1.5: patched version of GNU make with improved error report
 www-apps/brave-bin 1.12.108: Brave Web Browser
 www-apps/geckodriver 0.23.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
 www-client/opera 12.16_p1860-r1: A fast and secure web browser and Internet suite
-www-client/ungoogled-chromium 84.0.4147.135_p1 85.0.4183.83_p1: Modifications to Chromium for removing Google integration and enhancing privacy
-www-client/ungoogled-chromium-bin 85.0.4183.83_p1: Modifications to Chromium for removing Google integration and enhancing privacy
+www-client/ungoogled-chromium 86.0.4240.111_p1: Modifications to Chromium for removing Google integration and enhancing privacy
+www-client/ungoogled-chromium-bin 86.0.4240.111: Modifications to Chromium for removing Google integration and enhancing privacy
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2-r2: Settings editor for LightDM GTK+ greeter
 x11-plugins/pidgin-battlenet 9999: Libpurple (Pidgin) plugin for Battle.net
 x11-plugins/pidgin-icyque 9999-r2: ICQ WIM protocol for libpurple
 x11-plugins/pidgin-instagram 9999: Libpurple (Pidgin) plugin for instagram DMs
+x11-plugins/pidgin-libbnet 9999: Libpurple (Pidgin) plugin for using Classic Battle.net
 x11-plugins/pidgin-signal 9999: Libpurple (Pidgin) plugin for using signal
+x11-plugins/pidgin-slack 9999: Libpurple (Pidgin) plugin for using Classic Battle.net
 x11-plugins/pidgin-telegram 9999-r3: Libpurple (Pidgin) plugin for using a Telegram account
 x11-plugins/pidgin-whatsapp 9999: Libpurple (Pidgin) plugin for whatsapp
-x11-plugins/purple-hangouts 9999-r3: Hangouts Plugin for libpurple
+x11-plugins/purple-hangouts 9999-r4: Hangouts Plugin for libpurple
 x11-themes/arc-kde 20180614: Port of the popular GTK theme Arc for Plasma 5
