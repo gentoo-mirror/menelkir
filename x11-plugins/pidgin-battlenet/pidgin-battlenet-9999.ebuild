@@ -9,7 +9,7 @@ DESCRIPTION="Libpurple (Pidgin) plugin for Battle.net"
 HOMEPAGE="https://github.com/EionRobb/purple-battlenet"
 EGIT_REPO_URI="${HOMEPAGE}"
 
-LICENSE=""
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS=""
 IUSE="libressl"
@@ -18,4 +18,3 @@ DEPEND="net-im/pidgin
 	!libressl? ( dev-libs/openssl:0= )
 	libressl? ( dev-libs/libressl:0= )"
 RDEPEND="${DEPEND}"
-

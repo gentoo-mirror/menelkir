@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=net-im/pidgin !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= )
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=4954e0b168dba692a4d0a9f3a38a72c2
+_md5_=34c513464084d3996c61f046c706a295
