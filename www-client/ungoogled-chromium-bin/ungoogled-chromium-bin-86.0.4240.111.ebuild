@@ -29,8 +29,8 @@ SRC_URI="
 		)
 	)
 	haswell? (
-		https://github.com/PF4Public/${PN}/releases/download/${UGC_PV}/haswell.tar.bz2
-		-> ${P}-haswell.tar.bz2
+		https://github.com/PF4Public/${PN}/releases/download/${UGC_PV}/haswell.tar.xz
+		-> ${P}-haswell.tar.xz
 	)
 "
 
@@ -39,10 +39,10 @@ RESTRICT="mirror"
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="amd64 x86"
-IUSE="convert-dict core2 +generic haswell widevine"
+IUSE="convert-dict core2 +generic haswell"
 
 REQUIRED_USE="
-	|| ( core2 generic haswell )
+	^^ ( core2 generic haswell )
 	x86? ( !core2 !haswell )
 "
 
@@ -84,7 +84,10 @@ CDEPEND="
 	x11-libs/pango
 	>=net-print/cups-1.3.11
 	media-libs/lcms
-	media-sound/pulseaudio
+	|| (
+		media-sound/pulseaudio
+		>=media-sound/apulse-0.1.9
+	)
 	>=media-video/ffmpeg-3.4.5
 	|| (
 		media-video/ffmpeg[-samba]
@@ -145,9 +148,8 @@ src_install() {
 		doexe ./usr/$(get_libdir)/chromium-browser/convert_dict
 	fi
 
-	if use widevine; then
-		dosym "../../usr/$(get_libdir)/chromium/libwidevinecdm.so" \
-			"${CHROMIUM_HOME}/libwidevinecdm.so"
+	if  has_version ">=media-sound/apulse-0.1.9" ; then
+	   sed -i 's/exec -a "chromium-browser"/exec -a "chromium-browser" apulse/' ./usr/$(get_libdir)/chromium-browser/chromium-launcher.sh
 	fi
 
 	doexe ./usr/$(get_libdir)/chromium-browser/chromium-launcher.sh
