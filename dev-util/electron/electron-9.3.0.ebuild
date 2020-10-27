@@ -1349,6 +1349,9 @@ src_unpack() {
 	pushd "${WORKDIR}/${P}" > /dev/null || die
 	eapply "${FILESDIR}/fix-backport_1042986.patch" || die
 	eapply "${FILESDIR}/fix-a11y_axplatformnodebase.patch" || die
+	sed -i '/test\/data/Q' "patches/chromium/allow_focus_to_move_into_an_editable_combobox_s_listbox.patch" || die
+	sed -i '/tests/Q' "patches/skia/mallocpixelref_should_always_allocate_as_large_as_computebytesize.patch" || die
+	sed -i '/test/Q' "patches/v8/wasm_do_not_log_code_of_functions_whose_module_is_not_fully_loaded.patch" || die
 	popd > /dev/null || die
 }
 
@@ -1396,9 +1399,11 @@ src_prepare() {
 		["electron/patches/boringssl"]="third_party/boringssl/src"
 		["electron/patches/v8"]="v8"
 		["electron/patches/node"]="third_party/electron_node"
+		["electron/patches/swiftshader"]="third_party/swiftshader"
 		["electron/patches/pdfium"]="third_party/pdfium"
 		["electron/patches/webrtc"]="third_party/webrtc"
 		["electron/patches/skia"]="third_party/skia"
+		["electron/patches/angle"]="third_party/angle"
 		["electron/patches/ffmpeg"]="third_party/ffmpeg"
 	)
 	for patch_folder in "${!patches[@]}";
