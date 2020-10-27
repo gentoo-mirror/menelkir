@@ -3,17 +3,12 @@
 
 EAPI=7
 
-inherit toolchain-funcs
+inherit toolchain-funcs git-r3
 
 DESCRIPTION="ICQ WIM protocol for libpurple"
 HOMEPAGE="https://github.com/EionRobb/icyque"
-if [[ "${PV}" ==  9999 ]] ; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/EionRobb/${PN/purple-}.git"
-else
-	SRC_URI=""
-	KEYWORDS="~amd64 ~x86"
-fi
+EGIT_REPO_URI="https://github.com/EionRobb/purple-icyque.git"
+KEYWORDS=""
 
 LICENSE="GPL-3+"
 SLOT="0"

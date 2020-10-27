@@ -8,6 +8,7 @@ inherit toolchain-funcs git-r3
 DESCRIPTION="Hangouts Plugin for libpurple"
 HOMEPAGE="https://github.com/EionRobb/purple-hangouts"
 EGIT_REPO_URI="https://github.com/EionRobb/purple-hangouts"
+KEYWORDS=""
 
 LICENSE="GPL-3+"
 SLOT="0"
