@@ -10,7 +10,7 @@ HOMEPAGE="https://github.com/EionRobb/icyque"
 EGIT_REPO_URI="https://github.com/EionRobb/icyque.git"
 KEYWORDS=""
 
-LICENSE="GPL-3+"
+LICENSE="GPL-3"
 SLOT="0"
 
 IUSE=""

@@ -5,11 +5,11 @@ EAPI=7
 
 inherit git-r3
 
-DESCRIPTION="Libpurple (Pidgin) plugin for using signal"
-HOMEPAGE="https://github.com/hoehermann/libpurple-signald"
+DESCRIPTION="Libpurple (Pidgin) plugin for Battle.net"
+HOMEPAGE="https://github.com/EionRobb/purple-battlenet"
 EGIT_REPO_URI="${HOMEPAGE}"
 
-LICENSE="GPL-3"
+LICENSE=""
 SLOT="0"
 KEYWORDS=""
 IUSE="libressl"

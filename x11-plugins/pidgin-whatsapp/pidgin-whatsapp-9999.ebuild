@@ -9,7 +9,7 @@ DESCRIPTION="Libpurple (Pidgin) plugin for whatsapp"
 HOMEPAGE="https://github.com/hoehermann/purple-gowhatsapp"
 EGIT_REPO_URI="${HOMEPAGE}"
 
-LICENSE="LGPL-3"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS=""
 IUSE="libressl"
