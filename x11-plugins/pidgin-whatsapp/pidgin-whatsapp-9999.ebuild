@@ -5,8 +5,8 @@ EAPI=7
 
 inherit git-r3
 
-DESCRIPTION="Libpurple (Pidgin) plugin for using signal"
-HOMEPAGE="https://github.com/hoehermann/libpurple-signald"
+DESCRIPTION="Libpurple (Pidgin) plugin for whatsapp"
+HOMEPAGE="https://github.com/hoehermann/purple-gowhatsapp"
 EGIT_REPO_URI="${HOMEPAGE}"
 
 LICENSE="LGPL-3"
@@ -15,6 +15,7 @@ KEYWORDS=""
 IUSE="libressl"
 
 DEPEND="net-im/pidgin
+	dev-lang/go
 	!libressl? ( dev-libs/openssl:0= )
 	libressl? ( dev-libs/libressl:0= )"
 RDEPEND="${DEPEND}"
