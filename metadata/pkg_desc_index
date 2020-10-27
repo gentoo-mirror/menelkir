@@ -249,7 +249,11 @@ www-client/ungoogled-chromium-bin 85.0.4183.83_p1: Modifications to Chromium for
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2-r2: Settings editor for LightDM GTK+ greeter
+x11-plugins/pidgin-battlenet 9999: Libpurple (Pidgin) plugin for Battle.net
 x11-plugins/pidgin-icyque 9999-r2: ICQ WIM protocol for libpurple
+x11-plugins/pidgin-instagram 9999: Libpurple (Pidgin) plugin for instagram DMs
+x11-plugins/pidgin-signal 9999: Libpurple (Pidgin) plugin for using signal
 x11-plugins/pidgin-telegram 9999-r3: Libpurple (Pidgin) plugin for using a Telegram account
+x11-plugins/pidgin-whatsapp 9999: Libpurple (Pidgin) plugin for whatsapp
 x11-plugins/purple-hangouts 9999-r3: Hangouts Plugin for libpurple
 x11-themes/arc-kde 20180614: Port of the popular GTK theme Arc for Plasma 5
