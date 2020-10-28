@@ -3,24 +3,38 @@
 
 EAPI=7
 
+MY_PN="MEGAsync"
+if [[ -z ${PV%%*9999} ]]; then
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/meganz/${MY_PN}.git"
+	EGIT_SUBMODULES=( -src/MEGASync/mega )
+	SRC_URI=
+else
+	MY_PV="c5d2fc8"
+	SRC_URI="
+		mirror://githubcl/meganz/${MY_PN}/tar.gz/${MY_PV}
+		-> ${P}.tar.gz
+	"
+	RESTRICT="primaryuri"
+	KEYWORDS="~amd64 ~x86"
+	S="${WORKDIR}/${MY_PN}-${MY_PV}"
+fi
 CMAKE_USE_DIR="${S}/src/MEGAShellExtDolphin"
 CMAKE_IN_SOURCE_BUILD=y
-inherit cmake-utils qmake-utils xdg vcs-snapshot
-SRC_URI="https://www.github.com/meganz/MEGAsync/archive/v${PV}_Linux.tar.gz -> ${P}.tar.gz"
-RESTRICT="primaryuri"
-KEYWORDS="amd64 x86"
+inherit cmake qmake-utils xdg
 
 DESCRIPTION="Easy automated syncing with MEGA Cloud Drive"
 HOMEPAGE="https://github.com/meganz/MEGAsync"
 
-LICENSE="MEGA"
+LICENSE="EULA"
 LICENSE_URL="https://raw.githubusercontent.com/meganz/MEGAsync/master/LICENCE.md"
 SLOT="0"
 IUSE="dolphin nautilus thunar"
 
 RDEPEND="
-	net-misc/meganz-sdk[libuv,qt,sodium(+),sqlite]
+	>=net-misc/meganz-sdk-3.7.3:=[libuv,qt,sodium(+),sqlite]
 	dev-qt/qtsvg:5
+	dev-qt/qtx11extras:5
 	dev-qt/qtdbus:5
 	dev-qt/qtconcurrent:5
 	dev-qt/qtimageformats:5
@@ -30,17 +44,17 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	dev-util/google-breakpad
+	dev-libs/breakpad
 "
 BDEPEND="
 	dev-qt/linguist-tools:5
 "
 src_prepare() {
 	local PATCHES=(
-		"${FILESDIR}"/${P}-qmake.diff
+		"${FILESDIR}"/${PN}-qmake.diff
 	)
 	cp -r "${EROOT}"/usr/share/meganz-sdk/bindings "${S}"/src/MEGASync/mega/
-	cmake-utils_src_prepare
+	cmake_src_prepare
 	mv -f src/MEGAShellExtDolphin/CMakeLists{_kde5,}.txt
 	rm -f src/MEGAShellExtDolphin/megasync-plugin.moc
 	printf 'CONFIG += link_pkgconfig
@@ -61,7 +75,7 @@ src_configure() {
 		CONFIG-=with_tools
 	)
 	eqmake5 "${eqmakeargs[@]}"
-	use dolphin && cmake-utils_src_configure
+	use dolphin && cmake_src_configure
 }
 
 src_compile() {
@@ -69,12 +83,12 @@ src_compile() {
 	$(qt5_get_bindir)/lrelease \
 		MEGASync/MEGASync.pro
 	emake
-	use dolphin && cmake-utils_src_compile
+	use dolphin && cmake_src_compile
 }
 
 src_install() {
 	local DOCS=( CREDITS.md README.md )
 	einstalldocs
 	emake -C src INSTALL_ROOT="${D}" install
-	use dolphin && cmake-utils_src_install
+	use dolphin && cmake_src_install
 }
