@@ -3,17 +3,28 @@
 
 EAPI=7
 
-inherit flag-o-matic qmake-utils autotools db-use vcs-snapshot
-
-SRC_URI="https://github.com/${PN%-*}/${PN#*-}/archive/v${PV}a.tar.gz"
-RESTRICT="primaryuri"
-KEYWORDS="amd64 x86"
+inherit flag-o-matic qmake-utils autotools db-use
+if [[ -z ${PV%%*9999} ]]; then
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/${PN%-*}/${PN#*-}.git"
+else
+	MY_PV="ba9902f"
+	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV}"
+	SRC_URI="
+		mirror://githubcl/${PN%-*}/${PN#*-}/tar.gz/${MY_PV}
+		-> ${P}.tar.gz
+	"
+	RESTRICT="primaryuri"
+	KEYWORDS="~amd64 ~x86"
+	S="${WORKDIR}/sdk-${MY_PV#v}"
+fi
 
 DESCRIPTION="MEGA C++ SDK"
 HOMEPAGE="https://github.com/meganz/sdk"
 
 LICENSE="BSD-2"
-SLOT="0/30608"
+# awk '/define/ {print $3}' include/mega/version.h|awk 'BEGIN{RS="";FS="\n"}{printf $1*10000+$2*100+$3}'
+SLOT="0/30704"
 IUSE="examples ffmpeg freeimage fuse hardened inotify libuv mediainfo qt raw +sqlite test"
 REQUIRED_USE="
 	examples? ( sqlite )
@@ -39,15 +50,13 @@ RDEPEND="
 	libuv? ( dev-libs/libuv )
 	dev-libs/libsodium
 	mediainfo? ( media-libs/libmediainfo )
-	ffmpeg? ( virtual/ffmpeg )
+	ffmpeg? ( media-video/ffmpeg )
 	raw? ( media-libs/libraw )
 "
 DEPEND="
 	${RDEPEND}
 	test? ( dev-cpp/gtest )
 "
-
-S="${WORKDIR}/v${PV}a"
 
 pkg_setup() {
 	use sqlite || append-cppflags "-I$(db_includedir)"

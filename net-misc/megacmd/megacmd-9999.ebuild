@@ -4,8 +4,21 @@
 EAPI=7
 
 inherit autotools
-SRC_URI="http://github.com/meganz/MEGAcmd/archive/${PV}_Linux.tar.gz"
-KEYWORDS="amd64 x86"
+MY_PN="MEGAcmd"
+if [[ -z ${PV%%*9999} ]]; then
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/meganz/${MY_PN}.git"
+	EGIT_SUBMODULES=( )
+else
+	MY_PV="4fc0787"
+	SRC_URI="
+		mirror://githubcl/meganz/${MY_PN}/tar.gz/${MY_PV}
+		-> ${P}.tar.gz
+	"
+	RESTRICT="primaryuri"
+	KEYWORDS="~amd64 ~x86"
+	S="${WORKDIR}/${MY_PN}-${MY_PV}"
+fi
 
 DESCRIPTION="Command Line Interactive and Scriptable Application to access MEGA"
 HOMEPAGE="https://mega.nz/cmd"
@@ -15,7 +28,7 @@ SLOT="0"
 IUSE=""
 
 DEPEND="
-	>=net-misc/meganz-sdk-3.6.9:=[-megacmd(-),sodium(+),sqlite]
+	>=net-misc/meganz-sdk-3.7.3:=[sodium(+),sqlite]
 	dev-libs/libpcre:3[cxx]
 	sys-libs/readline:0
 "
@@ -23,8 +36,6 @@ RDEPEND="
 	${DEPEND}
 "
 DOCS=( README.md build/megacmd/megacmd.changes )
-
-S=${WORKDIR}/MEGAcmd-${PV}_Linux/
 
 src_prepare() {
 	sed \
