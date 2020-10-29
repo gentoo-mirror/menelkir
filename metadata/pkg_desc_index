@@ -208,9 +208,11 @@ media-libs/celt 0.11.1-r1: CELT is a very low delay audio codec designed for hig
 media-libs/hal-flash 0.3.3-r1: libhal stub forwarding to UDisks for Adobe Flash to play DRM content
 media-plugins/chrome-widevine 71.0.3578.98 84.0.4147.89: An adapter for playing DRM content
 media-plugins/gimp-plugin-bimp 2.4 9999: A GIMP plugin to apply a set of manipulations to groups of images
+media-plugins/gimp-resynthesizer 2.0.3-r3: Suite of GIMP plugins for texture synthesis
 media-sound/carla 2.1 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
 media-sound/munt 2.3.0 9999: Software synthesiser emulating pre-GM MIDI (e.g., Roland MT-32)
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
+media-sound/rakarrack 0.6.1: Basic rack of 10 effects for guitar with presets, banks and MIDI control
 media-sound/spotify-adblock 1.1 9999: Spotify adblocker for linux
 media-tv/popcorntime-bin 0.3.10: Watch torrent movies instantly
 media-tv/qtwebflix 9999: A QT webengine frontend for netflix (and other streaming services)
