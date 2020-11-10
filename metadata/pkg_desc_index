@@ -240,6 +240,8 @@ net-wireless/hcxdumptool 6.0.5: Small tool to capture packets from wlan devices
 net-wireless/hcxtools 6.0.2: Portable solution for capturing wlan traffic and conversion to hashcat formats
 net-wireless/pixiewps 1.4.2: Bruteforce offline the WPS pin exploiting the low or non-existing entropy
 net-wireless/reaver-wps-fork-t6x 1.6.6: Utilise Pixie Dust Attack to find the correct WPS PIN.
+net-wireless/rtl8812au 4.2.5 4.3.1.4 4.3.14_p20190827 5.2.9_p20180327 5.6.4.2_p20200703 9999: Driver for AC1200 (801.11ac) Wireless Dual-Band USB Adapter
+net-wireless/rtl8812au_aircrack-ng 5.6.4.2_p20200816 9999: RTL8812AU/21AU and RTL8814AU driver with monitor mode and frame injection
 net-wireless/wifite 2.2.5-r2 9999: An automated wireless attack tool
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
 sys-devel/remake 4.3.1.5: patched version of GNU make with improved error reporting, tracing and debugging
