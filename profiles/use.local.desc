@@ -201,14 +201,11 @@ media-sound/munt:portaudio - Build Qt-based PortAudio driver
 media-sound/munt:pulseaudio - Build Qt-based PulseAudio driver
 media-sound/munt:smf2wav - Build "smf2wav" conversion utility
 net-im/cawbird:spellcheck - Enable spell check support
-net-misc/meganz-sdk:freeimage - Enable support for image I/O via media-libs/freeimage
-net-misc/meganz-sdk:fuse - Build FUSE-based example client
-net-misc/meganz-sdk:libuv - Support asynchronous I/O via dev-libs/libuv
-net-misc/meganz-sdk:mediainfo - Use media-libs/libmediainfo for media files
-net-misc/meganz-sdk:qt - Install QT bindings
-net-misc/megasync:dolphin - Install the kde-apps/dolphin extension
-net-misc/megasync:nautilus - Install the gnome-base/nautilus extension
-net-misc/megasync:thunar - Install the xfce-base/thunar extension
+net-misc/megasync:cryptopp - Compile with Crypto++ Library.
+net-misc/megasync:dolphin - Upload your files to your Mega account from Dolphin file manager.
+net-misc/megasync:freeimage - Use freeimage to manage graphic images format.
+net-misc/megasync:nautilus - Upload your files to your Mega account from nautilus.
+net-misc/megasync:thunar - Upload your files to your Mega account from Thunar.
 net-wireless/fern-wifi-cracker:dict - Add support sys-apps/cracklib-words (large set of crack/cracklib dictionaries)
 net-wireless/hcxdumptool:gpio - Build with GPIO support
 net-wireless/wifite:dict - Use dictionaries
