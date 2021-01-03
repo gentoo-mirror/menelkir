@@ -2,11 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>4nykey@gmail.com</email>
+		<email>samuelbernardo.mail@gmail.com</email>
+		<name>Samuel Bernardo</name>
+		<description>megasync client from mega.nz</description>
 	</maintainer>
 	<use>
-		<flag name="dolphin">Install the kde-apps/dolphin extension</flag>
-		<flag name="nautilus">Install the gnome-base/nautilus extension</flag>
-		<flag name="thunar">Install the xfce-base/thunar extension</flag>
+		<flag name='dolphin'>Upload your files to your Mega account from Dolphin file manager.</flag>
+		<flag name='nautilus'>Upload your files to your Mega account from nautilus.</flag>
+		<flag name='thunar'>Upload your files to your Mega account from Thunar.</flag>
+		<flag name='cryptopp'>Compile with Crypto++ Library.</flag>
+		<flag name='freeimage'>Use freeimage to manage graphic images format.</flag>
 	</use>
 </pkgmetadata>
