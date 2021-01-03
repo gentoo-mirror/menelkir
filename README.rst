@@ -20,6 +20,7 @@ some personal modifications. The follow repositories was used (sorry if I forgot
 :Guru: https://wiki.gentoo.org/wiki/Project:GURU
 :NuLL3rr0r: https://github.com/NuLL3rr0r/gentoo-overlay
 :PF4Public: https://github.com/PF4Public/gentoo-overlay
+:dev1990-overlay: https://github.com/dev-0x7C6/dev1990-overlay
 
 =================================
 How to Contribute to this Overlay
