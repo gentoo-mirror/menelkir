@@ -148,8 +148,6 @@ games-emulation/retroarch-assets:ozone - Emable ozone assets
 games-emulation/retroarch-assets:rgui - Enable rgui assets
 games-emulation/retroarch-assets:xmb - Enable xmb assets
 games-emulation/retrodream-libretro:gles2 - Enable GLES2 support
-games-emulation/rpcs3:llvm - LLVM recompiler support
-games-emulation/rpcs3:vulkan - Vulkan video output support
 games-emulation/vba-next-libretro:tiled_rendering - Enable tiled rendering
 games-engines/ags:midi - Enable midi support
 games-engines/ags:tremor - Enable tremor support
