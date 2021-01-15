@@ -4,11 +4,9 @@
 EAPI=7
 inherit desktop unpacker
 
-MY_PN="${PN/-libre-bin/}"
-
 DESCRIPTION="Fork aiming at removing Mailspring's dependecy on a central server"
 HOMEPAGE="https://github.com/notpushkin/Mailspring-Libre"
-SRC_URI="https://u.ale.sh/${MY_PN}-${PV}-amd64.libre1.deb -> ${P}.deb"
+SRC_URI="https://github.com/notpushkin/Mailspring-Libre/releases/download/1.7.8-libre/mailspring-${PV}-libre-amd64.deb -> ${P}.deb"
 
 LICENSE="GPL-3"
 SLOT="0"
