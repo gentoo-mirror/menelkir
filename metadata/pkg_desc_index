@@ -1,4 +1,4 @@
-app-admin/webmin 1.953: A web-based Unix systems administration interface
+app-admin/webmin 1.953 1.970: A web-based Unix systems administration interface
 app-cdr/xcdroast 1.19: Lightweight cdrtools front-end for CD and DVD writing
 app-emulation/dxvk 1.6 1.7 9999: A Vulkan-based translation layer for Direct3D 10/11
 app-eselect/eselect-electron 2.1: Utility to select the default Electron slot
@@ -244,10 +244,10 @@ net-wireless/wifite 2.2.5-r2 9999: An automated wireless attack tool
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
 sys-devel/remake 4.3.1.5: patched version of GNU make with improved error reporting, tracing and debugging
 www-apps/geckodriver 0.23.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
-www-client/brave-beta-bin 1.17.51: Brave Web Browser
-www-client/brave-bin 1.16.68: Brave Web Browser
-www-client/brave-dev-bin 1.17.52: Brave Web Browser
-www-client/brave-nightly-bin 1.18.12: Brave Web Browser
+www-client/brave-beta-bin 1.20.78: Brave Web Browser
+www-client/brave-bin 1.19.84: Brave Web Browser
+www-client/brave-dev-bin 1.20.80: Brave Web Browser
+www-client/brave-nightly-bin 1.21.4: Brave Web Browser
 www-client/opera 12.16_p1860-r1: A fast and secure web browser and Internet suite
 www-client/ungoogled-chromium 87.0.4280.141_p1: Modifications to Chromium for removing Google integration and enhancing privacy
 www-client/ungoogled-chromium-bin 87.0.4280.141_p1: Modifications to Chromium for removing Google integration and enhancing privacy
