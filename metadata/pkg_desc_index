@@ -249,8 +249,8 @@ www-client/brave-bin 1.16.68: Brave Web Browser
 www-client/brave-dev-bin 1.17.52: Brave Web Browser
 www-client/brave-nightly-bin 1.18.12: Brave Web Browser
 www-client/opera 12.16_p1860-r1: A fast and secure web browser and Internet suite
-www-client/ungoogled-chromium 86.0.4240.111_p1: Modifications to Chromium for removing Google integration and enhancing privacy
-www-client/ungoogled-chromium-bin 86.0.4240.111: Modifications to Chromium for removing Google integration and enhancing privacy
+www-client/ungoogled-chromium 87.0.4280.141_p1: Modifications to Chromium for removing Google integration and enhancing privacy
+www-client/ungoogled-chromium-bin 87.0.4280.141_p1: Modifications to Chromium for removing Google integration and enhancing privacy
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2-r2: Settings editor for LightDM GTK+ greeter
