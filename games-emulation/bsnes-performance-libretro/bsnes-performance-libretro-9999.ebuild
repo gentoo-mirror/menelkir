@@ -16,30 +16,14 @@ KEYWORDS="amd64 x86"
 # No tests provided
 RESTRICT="test"
 
-BSNES_PROFILES=(accuracy balanced performance)
-
 src_compile(){
-	mymakeargs="profile=accuracy"
-		libretro-core_src_compile
-	mymakeargs="profile=balanced"
-		libretro-core_src_compile
 	mymakeargs="profile=performance"
 		libretro-core_src_compile
 }
 
-#src_compile() {
-#for profile in "${BSNES_PROFILES[@]}"; do
-#	einfo "Building core with profile ${profile}"
-#	myemakeargs="profile=${profile}" \
-#        libretro-core_src_compile
-#done
-#}
-
 src_install() {
-for profile in "${BSNES_PROFILES[@]}"; do
-		LIBRETRO_CORE_LIB_FILE="${S}/out/bsnes2014_${profile}_libretro.so" \
+	LIBRETRO_CORE_LIB_FILE="${S}/bsnes2014_performance_libretro.so" \
 			libretro-core_src_install
-done
 }
 
 pkg_preinst() {

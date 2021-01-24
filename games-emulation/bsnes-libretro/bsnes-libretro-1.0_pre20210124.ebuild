@@ -4,6 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/bsnes-libretro"
+LIBRETRO_COMMIT_SHA="1c2216f1acd7a9a8d332bc7cc6716c1428173da7"
 
 inherit libretro-core
 
@@ -18,22 +19,15 @@ RESTRICT="test"
 
 BSNES_PROFILES=(accuracy balanced performance)
 
-src_compile(){
-	mymakeargs="profile=accuracy"
-		libretro-core_src_compile
-	mymakeargs="profile=balanced"
-		libretro-core_src_compile
-	mymakeargs="profile=performance"
-		libretro-core_src_compile
-}
+S="${WORKDIR}/bsnes2014-${LIBRETRO_COMMIT_SHA}"
 
-#src_compile() {
-#for profile in "${BSNES_PROFILES[@]}"; do
-#	einfo "Building core with profile ${profile}"
-#	myemakeargs="profile=${profile}" \
-#        libretro-core_src_compile
-#done
-#}
+src_compile() {
+for profile in "${BSNES_PROFILES[@]}"; do
+	einfo "Building core with profile ${profile}"
+	myemakeargs="profile=${profile}" \
+        libretro-core_src_compile
+done
+}
 
 src_install() {
 for profile in "${BSNES_PROFILES[@]}"; do
