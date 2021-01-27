@@ -1,7 +1,11 @@
 app-admin/webmin 1.970: A web-based Unix systems administration interface
 app-cdr/xcdroast 1.19: Lightweight cdrtools front-end for CD and DVD writing
 app-emulation/dxvk 1.7 1.7.3 9999: A Vulkan-based translation layer for Direct3D 10/11
+app-emulation/dxvk-bin 1.7.2 1.7.3: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
+app-emulation/vmware-modules 15.5.7-r1 16.1.0-r1: VMware kernel modules
+app-emulation/vmware-workstation 15.5.7.17171714 16.1.0.17198959: Emulate a complete PC without the performance overhead of most emulators
 app-eselect/eselect-electron 2.1: Utility to select the default Electron slot
+dev-games/godot 3.2.3: Multi-platform 2D and 3D game engine
 dev-lang/rgbds 0.4.0 0.4.1 0.4.2: Free assembler/linker package for the Game Boy and Game Boy Color
 dev-libs/breakpad 0_p20200604 9999: A crash-reporting system
 dev-libs/dynarmic 1.0_pre20200809 3_pre20220127 9999: An ARM dynamic recompiler
@@ -22,6 +26,10 @@ dev-util/kdevelop-embedded 9999: Plugin for KDevelop to support the development 
 dev-util/nihstro 1.0_pre20200809: 3DS shader assembler and disassembler
 dev-util/pmbootstrap 1.22.0 1.29.0: Sophisticated chroot/build/flash tool to develop and install postmarketOS.
 dev-vcs/git-blame-someone-else 2018.06.13 9999: Blame someone else for your bad code.
+games-action/ATLauncher 3.4.2.6: Minecraft launcher which integrates multiple different ModPacks
+games-action/minecraft-launcher 1.6.93 2.2.1262: An open-world game whose gameplay revolves around breaking and placing blocks
+games-action/multimc 0.6.11: An advanced Qt5-based open-source launcher for Minecraft
+games-action/technic-launcher 4.611: Minecraft launcher for community-made modpacks on the Technic Platform
 games-emulation/3dengine-libretro 1.0_pre20200724 9999-r3: 3D Engine for libretro GL with additional features
 games-emulation/81-libretro 1.0_pre20200724 9999-r3: A port of the EightyOne ZX81 Emulator to libretro.
 games-emulation/atari800-libretro 9999-r3: Atari800 libretro core
@@ -187,31 +195,42 @@ games-engines/ags 3.5.0.29 9999: Adventure Game Studio (AGS) runtime engine
 games-engines/easyrpg-player 0.6.2.1 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
 games-fps/brutal-doom 21: A mod that attempts to make Doom faster placed, harder, gorier and more violent.
 games-fps/dhewm3 1.5.1_rc2: A Doom 3 GPL source modification.
-games-puzzle/crayon-physics-deluxe 55: 2D physics puzzle / sandbox game.
 games-rpg/torchlight 1.15.20130521-r1: An action role-playing game, made by the creators of Diablo
 games-rpg/torchlight2 20150401: An action role-playing game, made by the creators of Diablo
 games-rpg/victor_vran 2.12.0.14: An isometric Action-RPG with a massive selection of items, powers and so on
 games-rpg/zelda3t 1.9: The Legend of Zelda - Time to Triumph
 games-rpg/zeldaolb 3.6: The Legend of Zelda - Onilink Begins
 games-rpg/zeldaroth 6.11: The Legend of Zelda - Return of the Hylian
-games-simulation/babylon5-ifh-dao 1.15: Danger and Opportunity - a prequel for Babylon 5: I've Found Her
 games-sports/stuntrally 2.6 9999: Rally game focused on closed rally tracks with possible stunt elements.
 games-sports/stuntrally-tracks 2.6 9999: A set of tracks for games-sports/stuntrally-9999
+games-util/gamehub 0.16.0.1: GameHub is a unified library for all your games
+games-util/itch-bin 25.4.1: itch.io game browser, installer and launcher
+games-util/legendary 0.20.6: A free and open-source replacement for the Epic Games Launcher
 games-util/rejoystick 0.8.1: Tool which translates gamepad/joystick input into key strokes/mouse actions in X
 games-util/steam-client-meta 0-r20201118: Meta package for Valve's native Steam client
 games-util/steam-launcher 1.0.0.67: Installer, launcher and supplementary files for Valve's Steam client
 games-util/steam-meta 0-r20160817: Meta package for Valve's Steam environment
+kde-apps/peruse 1.2_p20190907 9999: A comic book viewer based on Framework 5, for use on multiple form factors.
+kde-misc/plasma-applet-caffeine-plus 1.4 9999: Plasma 5 applet to disable screensaver and auto-suspend
+kde-misc/plasma-applet-eventcalendar 73 9999: Plasma 5 applet for monitoring CPU, GPU and other available temperature sensors
+kde-misc/plasma-applet-thermal-monitor 1.3.0: Plasma 5 applet for monitoring CPU, GPU and other available temperature sensors
+kde-misc/plasma-applet-weather-widget 1.6.0 9999: Plasma 5 applet for displaying weather information from yr.no (and other) server.
+kde-misc/plasma-applet-window-appmenu 0.6.0 9999: Plasma 5 applet in order to show the window appmenu
 mail-client/mailspring-bin 1.8.0: The best email app for people and teams at work
 mail-client/mailspring-libre-bin 1.7.8: Fork aiming at removing Mailspring's dependecy on a central server
+mate-extra/brisk-menu 0.5.0 9999: Solus Project's Brisk Menu MATE Panel Applet
+mate-extra/mate-tweak 19.10.4 21.04.1 9999: Tweak tool for MATE, a fork of MintDesktop
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
 media-fonts/steamfonts 1: Collection of fonts used by Valve's Steam client
 media-libs/celt 0.11.1-r1 0.11.3: CELT is a very low delay audio codec designed for high-quality communications
 media-libs/hal-flash 0.3.3-r1: libhal stub forwarding to UDisks for Adobe Flash to play DRM content
+media-libs/wiimms-iso-tools 9999: Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers.
 media-plugins/chrome-widevine 88.0.4324.96: An adapter for playing DRM content
 media-plugins/gimp-resynthesizer 2.0.3-r3: Suite of GIMP plugins for texture synthesis
 media-sound/carla 2.2.0 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
 media-sound/munt 2.4.0 9999: Software synthesiser emulating pre-GM MIDI (e.g., Roland MT-32)
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
+media-sound/pulseaudio-virtualmic 0.1 9999: Use any offline or online media file or stream as a PulseAudio source
 media-sound/rakarrack 0.6.1: Basic rack of 10 effects for guitar with presets, banks and MIDI control
 media-sound/spotify-adblock 1.2 9999: Spotify adblocker for linux
 media-tv/popcorntime-bin 0.4.4: Watch torrent movies instantly
@@ -225,7 +244,7 @@ net-im/franz-bin 5.6.1: Free messaging app for services like WhatsApp, Slack, Me
 net-im/rambox-bin 0.7.7: Free and Open Source messaging and emailing app
 net-im/ripcord-bin 0.4.28: a desktop chat client for group-centric services like Slack and Discord
 net-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so. symlinks for compatibility with Debian
-net-misc/megasync 4.3.7 4.3.9.0 9999: The official Qt-based program for syncing your MEGA account in your PC
+net-misc/megasync 4.3.7 4.3.8.0 4.3.9.0 9999: The official Qt-based program for syncing your MEGA account in your PC
 net-news/feedreader 2.11.0: Simple News Feed Reader for feeds aggregated by Tiny Tiny RSS or feedly
 net-p2p/nicotine+ 9999: A fork of nicotine, a Soulseek client in Python
 net-p2p/soulseek-qt 20180130: Official binary Qt SoulSeek client
@@ -242,6 +261,7 @@ net-wireless/rtl8812au_aircrack-ng 5.6.4.2_p20200816 9999: RTL8812AU/21AU and RT
 net-wireless/wifite 2.2.5-r2 9999: An automated wireless attack tool
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
 sys-devel/remake 4.3.1.5: patched version of GNU make with improved error reporting, tracing and debugging
+sys-kernel/dkms 2.8.4: Dynamic Kernel Module Support
 www-apps/geckodriver 0.23.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
 www-client/brave-beta-bin 1.20.91: Brave Web Browser
 www-client/brave-bin 1.19.87: Brave Web Browser
@@ -252,6 +272,7 @@ www-client/ungoogled-chromium-bin 87.0.4280.141_p1: Modifications to Chromium fo
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2-r2: Settings editor for LightDM GTK+ greeter
+x11-misc/lightdm-settings 1.2.8-r1 1.3.2 9999: LightDM settings app to use it with the slick greeter
 x11-plugins/pidgin-battlenet 9999: Libpurple (Pidgin) plugin for Battle.net
 x11-plugins/pidgin-icyque 9999-r2: ICQ WIM protocol for libpurple
 x11-plugins/pidgin-instagram 9999: Libpurple (Pidgin) plugin for instagram DMs
