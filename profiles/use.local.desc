@@ -158,6 +158,7 @@ games-util/steam-client-meta:steamruntime - Use the official steam runtime libra
 games-util/steam-client-meta:steamvr - Enable SteamVR virtual reality support
 games-util/steam-client-meta:trayicon - Enable system tray icon with libappindicator
 games-util/steam-launcher:steamruntime - Use the official steam runtime libraries
+games-util/steam-meta:steamruntime - Use the official steam runtime libraries
 media-fonts/powerline-fonts:3270 - Install Powerline-patched 3270 fonts
 media-fonts/powerline-fonts:anonymouspro - Install Powerline-patched Anonymous Pro fonts
 media-fonts/powerline-fonts:arimo - Install Powerline-patched Arimo fonts
@@ -206,7 +207,6 @@ net-misc/megasync:thunar - Upload your files to your Mega account from Thunar.
 net-wireless/fern-wifi-cracker:dict - Add support sys-apps/cracklib-words (large set of crack/cracklib dictionaries)
 net-wireless/hcxdumptool:gpio - Build with GPIO support
 net-wireless/wifite:dict - Use dictionaries
-www-client/opera:gtk - Install support libraries and runtime dependencies to support GTK+/GNOME desktop integration
 www-client/ungoogled-chromium:cfi - Build with CFI (Control Flow Integrity) enabled
 www-client/ungoogled-chromium:clang - Use Clang compiler instead of GCC
 www-client/ungoogled-chromium:closure-compile - Enable closure type-checking for Chrome's web technology-based UI. Requires Java and bundled binary compiler.jar in sources tree.
