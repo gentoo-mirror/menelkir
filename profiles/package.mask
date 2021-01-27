@@ -1,7 +1,3 @@
-# Daniel Menelkir <menelkir@itroll.org> 2020-10-13
-# Needs to adequate some patches
-=dev-util/electron-9.3.2
-
 # Daniel Menelkir <menelkir@itroll.org> 2020-08-10
 # Needs further investigation
 games-emulation/dolphin-libretro
