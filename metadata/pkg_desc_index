@@ -30,21 +30,21 @@ games-action/ATLauncher 3.4.2.6: Minecraft launcher which integrates multiple di
 games-action/minecraft-launcher 1.6.93 2.2.1262: An open-world game whose gameplay revolves around breaking and placing blocks
 games-action/multimc 0.6.11: An advanced Qt5-based open-source launcher for Minecraft
 games-action/technic-launcher 4.611: Minecraft launcher for community-made modpacks on the Technic Platform
-games-emulation/3dengine-libretro 1.0_pre20200724 9999-r3: 3D Engine for libretro GL with additional features
-games-emulation/81-libretro 1.0_pre20200724 9999-r3: A port of the EightyOne ZX81 Emulator to libretro.
-games-emulation/atari800-libretro 9999-r3: Atari800 libretro core
-games-emulation/bk-libretro 1.0_pre20200809 9999: BK-0010/0011/Terak 8510a emulator for libretro
-games-emulation/bluemsx-libretro 1.0_pre20200724 9999-r3: Port of blueMSX to the libretro API
-games-emulation/boom3-libretro 1.0_pre20200809 9999: Doom 3 GPL source port for libretro
-games-emulation/bsnes-libretro 1.0_pre20210124 9999-r4: Libretro fork of bsnes
-games-emulation/bsnes-mercury-libretro 1.0_pre20200724 9999-r4: Libretro fork of bsnes
-games-emulation/bsnes-performance-libretro 1.0_pre20210124 9999: Libretro fork of bsnes
-games-emulation/cannonball-libretro 1.0_pre20200724 9999-r3: An Enhanced OutRun Engine.
-games-emulation/cap32-libretro 1.0_pre20200724 9999-r3: Caprice32 libretro core
+games-emulation/3dengine-libretro 1.0_pre20210126 9999-r3: 3D Engine for libretro GL with additional features
+games-emulation/81-libretro 1.0_pre20210126 9999-r3: A port of the EightyOne ZX81 Emulator to libretro.
+games-emulation/atari800-libretro 1.0_pre20210126 9999-r3: Atari800 libretro core
+games-emulation/bk-libretro 1.0_pre20210126 9999: BK-0010/0011/Terak 8510a emulator for libretro
+games-emulation/bluemsx-libretro 1.0_pre20210126 9999-r3: Port of blueMSX to the libretro API
+games-emulation/bnes-libretro 1.0_pre20210126 9999: Libretro fork of bnes
+games-emulation/boom3-libretro 1.0_pre20210126 9999: Doom 3 GPL source port for libretro
+games-emulation/bsnes-mercury-performance-libretro 1.0_pre20210126 9999: Libretro fork of bsnes
+games-emulation/bsnes2014-performance-libretro 1.0_pre20210126 9999: Libretro fork of bsnes
+games-emulation/cannonball-libretro 1.0_pre20210126 9999-r3: An Enhanced OutRun Engine.
+games-emulation/cap32-libretro 1.0_pre20210126 9999-r3: Caprice32 libretro core
 games-emulation/chailove-libretro 9999: 2D Game Framework with ChaiScript
 games-emulation/citra-libretro 1.0_pre20200809 9999: Nintendo 3DS for libretro
-games-emulation/craft-libretro 1.0_pre20200723 1.0_pre20200724 9999-r3: libretro implementation of Craft. (Minecraft clone)
-games-emulation/crocods-libretro 1.0_pre20200724 9999-r3: CrocoDS libretro core
+games-emulation/craft-libretro 1.0_pre20210126 9999-r3: libretro implementation of Craft. (Minecraft clone)
+games-emulation/crocods-libretro 1.0_pre20210126 9999-r3: CrocoDS libretro core
 games-emulation/daphne-libretro 1.0_pre20200809: Arcade laserdisc libretro core
 games-emulation/desmume-libretro 1.0_pre20200724 9999-r3: libretro implementation of DeSmuME. (Nintendo DS)
 games-emulation/dinothawr-libretro 1.0_pre20200724 9999-r3: Dinothawr is a block pushing puzzle game on slippery surfaces.
@@ -91,8 +91,8 @@ games-emulation/hbmame-libretro 1.0_pre20200809 9999: Emulator of homebrew and h
 games-emulation/libretro-common-overlays 1_pre20200723 9999-r3: Collection of overlay files for use with RetroArch
 games-emulation/libretro-common-shaders 1_pre20200723 9999-r3: Collection of commonly used Cg shaders
 games-emulation/libretro-database 1_pre20200809 9999-r4: Repository containing cheatcode files, content data files, etc.
-games-emulation/libretro-info 1_pre20200723 9999-r3: Libretro info files required for libretro cores
-games-emulation/libretro-meta 9999-r9: Meta package for various libretro implementations
+games-emulation/libretro-info 1_pre20210126 9999-r3: Libretro info files required for libretro cores
+games-emulation/libretro-meta 9999-r10: Meta package for various libretro implementations
 games-emulation/lutro-libretro 1.0_pre20200724 9999-r3: An experimental lua game framework for libretro following the LOVE API.
 games-emulation/mame-libretro 1.0_pre20200724 9999-r3: MAME (current) for libretro.
 games-emulation/mame2000-libretro 1.0_pre20200724 9999-r3: MAME2000 (0.37b5) for libretro.
