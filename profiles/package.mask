@@ -5,7 +5,6 @@ games-emulation/chailove-libretro
 games-emulation/dolphin-libretro
 games-emulation/daphne-libretro
 games-emulation/easyrpg-libretro
-# games-emulation/freechaf-libretro
 games-emulation/frodo-libretro
 games-emulation/hatari-libretro
 games-emulation/hbmame-libretro
