@@ -8,9 +8,17 @@ games-emulation/freechaf-libretro
 games-emulation/frodo-libretro
 games-emulation/hatari-libretro
 games-emulation/hbmame-libretro
+games-emulation/mame-libretro
+games-emulation/mame2000-libretro
+games-emulation/mednafen-bsnes-libretro
 games-emulation/mupen64plus-libretro
 games-emulation/ppsspp-libretro
 games-emulation/vemulator-libretro
+
+# Daniel Menelkir <menelkir@itroll.org> 2021-01-27
+# Needs python2
+games-emulation/mame2015-libretro
+games-emulation/mame2016-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2020-08-10
 # Work in Progress
