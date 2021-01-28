@@ -9,7 +9,7 @@ inherit libretro-core
 
 DESCRIPTION="lilium-voyager (Star Trek Voyager: Elite Force Holomatch mp) for libretro"
 HOMEPAGE="https://github.com/libretro/vitavoyager"
-KEYWORDS="amd64 x86"
+KEYWORDS=""
 
 LICENSE="GPL-2"
 SLOT="0"
