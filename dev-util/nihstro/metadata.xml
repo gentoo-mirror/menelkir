@@ -2,9 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>menelkir@itroll.org</email>
-		<name>Daniel Menelkir</name>
+		<email>audvare@gmail.com</email>
+		<name>Andrew Udvare</name>
 	</maintainer>
-	<longdescription lang="en">3DS shader assembler and disassembler
-	</longdescription>
 </pkgmetadata>

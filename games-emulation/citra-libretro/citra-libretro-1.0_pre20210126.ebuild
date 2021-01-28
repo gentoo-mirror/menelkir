@@ -4,7 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/citra"
-LIBRETRO_COMMIT_SHA="84f31e95160b029e6d614053705054ed6a34bb38"
+LIBRETRO_COMMIT_SHA="7dcbf16050dc72ca28fa23edb216f849d121e46c"
 SOUNDTOUCH_COMMIT_SHA="060181eaf273180d3a7e87349895bd0cb6ccbf4a"
 
 inherit cmake-utils libretro-core toolchain-funcs
@@ -17,7 +17,7 @@ SRC_URI="
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	dev-libs/crypto++
@@ -41,6 +41,8 @@ src_unpack() {
 	mv "${WORKDIR}/ext-soundtouch-${SOUNDTOUCH_COMMIT_SHA}"/* \
 		"${S}/externals/soundtouch/"
 }
+
+S=${WORKDIR}/citra-${LIBRETRO_COMMIT_SHA}
 
 src_prepare() {
 	cmake-utils_src_prepare

@@ -9,7 +9,7 @@ inherit libretro-core
 
 DESCRIPTION="libretro implementation of Craft. (Minecraft clone)"
 HOMEPAGE="https://github.com/libretro/Craft"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="Craft"
 SLOT="0"
@@ -18,7 +18,7 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-PATCHES="${FILESDIR}/clockid.patch"
+# PATCHES="${FILESDIR}/clockid.patch"
 
 src_compile() {
 	libretro-core_src_compile

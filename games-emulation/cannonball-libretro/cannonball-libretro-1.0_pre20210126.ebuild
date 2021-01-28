@@ -9,7 +9,7 @@ inherit libretro-core
 
 DESCRIPTION="An Enhanced OutRun Engine."
 HOMEPAGE="https://github.com/libretro/cannonball"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="cannonball"
 SLOT="0"

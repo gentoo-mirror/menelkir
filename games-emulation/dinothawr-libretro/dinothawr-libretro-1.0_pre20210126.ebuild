@@ -4,12 +4,12 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/Dinothawr"
-LIBRETRO_COMMIT_SHA="18118f66f4a04897fd1cbbfa87cd8957f5bd22ad"
+LIBRETRO_COMMIT_SHA="ab930efa7e0f02c3fc8153397fd64daee8f02cfd"
 inherit libretro-core
 
 DESCRIPTION="Dinothawr is a block pushing puzzle game on slippery surfaces."
 HOMEPAGE="https://github.com/libretro/Dinothawr"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="CC-BY-NC-SA-3.0"
 SLOT="0"

@@ -9,7 +9,7 @@ inherit libretro-core
 
 DESCRIPTION="Amstrad CPC libretro core"
 HOMEPAGE="https://github.com/libretro/libretro-crocods"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="MIT"
 SLOT="0"
