@@ -93,26 +93,26 @@ games-emulation/libretro-common-shaders 1_pre20201221 9999-r3: Collection of com
 games-emulation/libretro-database 1_pre20210126 9999-r4: Repository containing cheatcode files, content data files, etc.
 games-emulation/libretro-info 1_pre20210116 9999-r3: Libretro info files required for libretro cores
 games-emulation/libretro-meta 9999-r10: Meta package for various libretro implementations
-games-emulation/lutro-libretro 1.0_pre20200724 9999-r3: An experimental lua game framework for libretro following the LOVE API.
-games-emulation/mame-libretro 1.0_pre20200724 9999-r3: MAME (current) for libretro.
-games-emulation/mame2000-libretro 1.0_pre20200724 9999-r3: MAME2000 (0.37b5) for libretro.
-games-emulation/mame2003-libretro 1.0_pre20200724 9999-r3: MAME (0.78) for libretro.
-games-emulation/mame2003_plus-libretro 1.0_pre20200724: MAME (0.78) with extra features for libretro.
-games-emulation/mame2010-libretro 1.0_pre20200724 9999-r3: MAME (0.139) for libretro.
-games-emulation/mame2015-libretro 1.0_pre20200724 9999-r3: MAME (0.160) for libretro.
-games-emulation/mame2016-libretro 1.0_pre20200724 9999-r3: MAME (0.174) for libretro.
-games-emulation/mednafen-bsnes-libretro 1.0_pre20200724 9999-r3: libretro implementation of Mednafen SNES. (Super Nintendo Entertainment System)
-games-emulation/mednafen-gba-libretro 1.0_pre20200724 9999-r3: libretro implementation of Mednafen VBA/GBA. (Game Boy Advance)
-games-emulation/mednafen-lynx-libretro 1.0_pre20200724 9999-r3: libretro implementation of Mednafen Lynx. (Atari Lynx)
-games-emulation/mednafen-ngp-libretro 1.0_pre20191224 9999-r3: libretro implementation of Mednafen Neopop. Neo Geo Pocket/Neo Geo Pocket Color
-games-emulation/mednafen-pce-fast-libretro 1.0_pre20200724 9999-r3: libretro implementation of Mednafen PCE Fast. (PC Engine/TurboGrafx-16)
-games-emulation/mednafen-pce-libretro 1.0_pre20200809 9999: libretro implementation of Mednafen PCE. (PC Engine/TurboGrafx-16)
-games-emulation/mednafen-pcfx-libretro 1.0_pre20200512 9999-r3: Standalone port of Mednafen PCFX to libretro.
-games-emulation/mednafen-psx-libretro 1.0_pre20200724 9999-r3: Standalone port/fork of Mednafen PSX to the Libretro API.
-games-emulation/mednafen-saturn-libretro 1.0_pre20200725 9999-r3: Standalone port of Mednafen Saturn to the libretro
-games-emulation/mednafen-supergrafx-libretro 1.0_pre20200725 9999-r3: libretro implementation of Mednafen Supergrafx. (SuperGrafx TG-16)
-games-emulation/mednafen-vb-libretro 1.0_pre20200725 9999-r3: libretro implementation of Mednafen VB. (Virtual Boy)
-games-emulation/mednafen-wswan-libretro 1.0_pre20200725 9999-r3: libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)
+games-emulation/lutro-libretro 1.0_pre20210115 9999-r3: An experimental lua game framework for libretro following the LOVE API.
+games-emulation/mame-libretro 1.0_pre20210127 9999-r3: MAME (current) for libretro.
+games-emulation/mame2000-libretro 1.0_pre20200709 9999-r3: MAME2000 (0.37b5) for libretro.
+games-emulation/mame2003-libretro 1.0_pre20210127 9999-r3: MAME (0.78) for libretro.
+games-emulation/mame2003_plus-libretro 1.0_pre20210127 9999: MAME (0.78) with extra features for libretro.
+games-emulation/mame2010-libretro 1.0_pre20210127 9999-r3: MAME (0.139) for libretro.
+games-emulation/mame2015-libretro 1.0_pre20201221 9999-r3: MAME (0.160) for libretro.
+games-emulation/mame2016-libretro 1.0_pre20200622 9999-r3: MAME (0.174) for libretro.
+games-emulation/mednafen-bsnes-libretro 1.0_pre20210101 9999-r3: libretro implementation of Mednafen SNES. (Super Nintendo Entertainment System)
+games-emulation/mednafen-gba-libretro 1.0_pre20210102 9999-r3: libretro implementation of Mednafen VBA/GBA. (Game Boy Advance)
+games-emulation/mednafen-lynx-libretro 1.0_pre20200114 9999-r3: libretro implementation of Mednafen Lynx. (Atari Lynx)
+games-emulation/mednafen-ngp-libretro 1.0_pre20210116 9999-r3: libretro implementation of Mednafen Neopop. Neo Geo Pocket/Neo Geo Pocket Color
+games-emulation/mednafen-pce-fast-libretro 1.0_pre20210113 9999-r3: libretro implementation of Mednafen PCE Fast. (PC Engine/TurboGrafx-16)
+games-emulation/mednafen-pce-libretro 1.0_pre20210127 9999: libretro implementation of Mednafen PCE. (PC Engine/TurboGrafx-16)
+games-emulation/mednafen-pcfx-libretro 1.0_pre20210126 9999-r3: Standalone port of Mednafen PCFX to libretro.
+games-emulation/mednafen-psx-libretro 1.0_pre20210127 9999-r3: Standalone port/fork of Mednafen PSX to the Libretro API.
+games-emulation/mednafen-saturn-libretro 1.0_pre20210128 9999-r3: Standalone port of Mednafen Saturn to the libretro
+games-emulation/mednafen-supergrafx-libretro 1.0_pre20210128 9999-r3: libretro implementation of Mednafen Supergrafx. (SuperGrafx TG-16)
+games-emulation/mednafen-vb-libretro 1.0_pre20210113 9999-r3: libretro implementation of Mednafen VB. (Virtual Boy)
+games-emulation/mednafen-wswan-libretro 1.0_pre20210113 9999-r3: libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)
 games-emulation/melonds-libretro 1.0_pre20200725 9999-r3: libretro implementation of melonDS. (NintendoDS)
 games-emulation/meowpc98-libretro 1.0_pre20200725 9999-r3: Neko Project 2 (PC98 emulator) port for libretro/RetroArch (XNP2)
 games-emulation/mesen-libretro 0.9.9 9999: libretro implementation of Mesen. (Nintendo Entertainment System)
