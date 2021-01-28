@@ -73,7 +73,7 @@ games-emulation/fceumm-libretro 1.0_pre20210126 9999-r3: FCEUmm nes emulator lib
 games-emulation/ffmpeg-libretro 1.0_pre20200828 9999: FFmpeg frontend for libretro
 games-emulation/flycast-libretro 1.0_pre20210119 9999-r3: Multiplatform Sega Dreamcast emulator
 games-emulation/fmsx-libretro 1.0_pre20210118 9999-r3: Port of fMSX to the libretro API.
-games-emulation/freechaf-libretro 1.0_pre20210114 9999: libretro emulation core for the Fairchild ChannelF / Video Entertainment System
+games-emulation/freechaf-libretro 9999: libretro emulation core for the Fairchild ChannelF / Video Entertainment System
 games-emulation/freeintv-libretro 1.0_pre20210114 9999-r3: A libretro emulation core for the Mattel Intellivision
 games-emulation/frodo-libretro 1.0_pre20210108 9999: Commdoore 64 emulator for libretro
 games-emulation/fuse-libretro 1.0_pre20210113 9999-r3: A port of the Fuse Unix Spectrum Emulator to libretro
@@ -232,7 +232,7 @@ media-sound/munt 2.4.0 9999: Software synthesiser emulating pre-GM MIDI (e.g., R
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 media-sound/pulseaudio-virtualmic 0.1 9999: Use any offline or online media file or stream as a PulseAudio source
 media-sound/rakarrack 0.6.1: Basic rack of 10 effects for guitar with presets, banks and MIDI control
-media-sound/spotify-adblock 1.2 9999: Spotify adblocker for linux
+media-sound/spotify-adblock 1.3_pre20200128: Spotify adblocker for linux
 media-tv/popcorntime-bin 0.4.4: Watch torrent movies instantly
 media-tv/qtwebflix 9999: A QT webengine frontend for netflix (and other streaming services)
 media-tv/stremio-shell 9999: Watch videos, movies, TV series and TV channels instantly. (Beta Version)
