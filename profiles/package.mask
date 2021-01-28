@@ -1,16 +1,18 @@
-# Daniel Menelkir <menelkir@itroll.org> 2020-08-10
+# Daniel Menelkir <menelkir@itroll.org> 2021-01-26
 # Needs further investigation
 games-emulation/dolphin-libretro
 games-emulation/daphne-libretro
-games-emulation/vemulator-libretro
+games-emulation/easyrpg-libretro
+games-emulation/freechaf-libretro
+games-emulation/frodo-libretro
+games-emulation/hatari-libretro
 games-emulation/hbmame-libretro
 games-emulation/mupen64plus-libretro
-games-emulation/easyrpg-libretro
 games-emulation/ppsspp-libretro
+games-emulation/vemulator-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2020-08-10
 # Work in Progress
-games-emulation/yuzu
-games-emulation/vita3k
 games-emulation/play-libretro
-
+games-emulation/vita3k
+games-emulation/yuzu

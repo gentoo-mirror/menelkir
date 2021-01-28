@@ -15,7 +15,9 @@ LICENSE="LGPL-2.1 GPL-2 GPL-3 LGPL-3"
 
 SLOT="0"
 
-DEPEND="media-video/ffmpeg"
+DEPEND="media-video/ffmpeg
+	media-libs/libass"
+
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
