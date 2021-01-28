@@ -41,7 +41,7 @@ src_compile() {
 
 src_install() {
 	dodir ${ASSETS_DIR}
-	cp -R "${S}"/../assets/* "${D}${ASSETS_DIR}" || die "Install failed!"
+	cp -R "${S}"/../assets/* "${D}/${ASSETS_DIR}" || die "Install failed!"
 	libretro-core_src_install
 }
 
