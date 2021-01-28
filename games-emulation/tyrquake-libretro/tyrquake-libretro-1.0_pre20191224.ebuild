@@ -4,13 +4,13 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/tyrquake"
-LIBRETRO_COMMIT_SHA="bf8adcbd2bd9295ff9fb62740cf9960c5ab0ed1f"
+LIBRETRO_COMMIT_SHA="9badc20593ea9e75401f08ea5758c4148a4acc6f"
 
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of TyrQuake. (Quake)"
 HOMEPAGE="https://github.com/libretro/tyrquake"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-2"
 SLOT="0"

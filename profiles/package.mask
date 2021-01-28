@@ -1,5 +1,6 @@
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-26
 # Needs further investigation
+
 games-emulation/chailove-libretro
 games-emulation/dolphin-libretro
 games-emulation/daphne-libretro
@@ -15,17 +16,24 @@ games-emulation/mgba-libretro
 games-emulation/mrboom-libretro
 games-emulation/mupen64next-libretro
 games-emulation/neocd-libretro
+games-emulation/openlara-libretro
+games-emulation/picodrive-libretro
 games-emulation/ppsspp-libretro
+games-emulation/redbook-libretro
+games-emulation/sameboy-libretro
+games-emulation/stella-libretro
 games-emulation/vemulator-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Needs python2
+
 games-emulation/mame2015-libretro
 games-emulation/mame2016-libretro
 games-emulation/mess2015-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2020-08-10
 # Work in Progress
+
 games-emulation/play-libretro
 games-emulation/vita3k
 games-emulation/yuzu

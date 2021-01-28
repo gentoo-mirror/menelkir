@@ -3,12 +3,12 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/theodore"
+LIBRETRO_REPO_NAME="Zlika/theodore"
 
 inherit libretro-core
 
 DESCRIPTION="Libretro core for Thomson TO8/TO8D/TO9/TO9+ emulation."
-HOMEPAGE="https://github.com/libretro/theodore"
+HOMEPAGE="https://github.com/Zlika/theodore"
 KEYWORDS=""
 
 LICENSE="GPL-3"
