@@ -4,13 +4,13 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/daphne"
-LIBRETRO_COMMIT_SHA="7e5cac88d0509c6f4722100c5b8a9b5ee91f404a"
+LIBRETRO_COMMIT_SHA="0a7e6f0fda1348144369ce0a889876df60263e8f"
 
 inherit libretro-core
 
 DESCRIPTION="Arcade laserdisc libretro core"
 HOMEPAGE="https://github.com/libretro/daphne"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-2"
 SLOT="0"

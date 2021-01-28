@@ -4,13 +4,13 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/ecwolf"
-LIBRETRO_COMMIT_SHA="1f4683cc7adad5b9b4e06ae142cc831a31f8834d"
+LIBRETRO_COMMIT_SHA="78dcd233bb548406511401bbaed74b05ad59fdd6"
 
 inherit libretro-core
 
 DESCRIPTION="Updated engine for wolfenstein 3D and compatibles"
 HOMEPAGE="https://github.com/libretro/ecwolf"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-2 MAME ID"
 SLOT="0"

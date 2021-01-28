@@ -17,8 +17,6 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-PATCHES="${FILESDIR}/clockid.patch"
-
 src_compile() {
 	libretro-core_src_compile
 }
