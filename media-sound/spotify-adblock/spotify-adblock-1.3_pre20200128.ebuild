@@ -3,12 +3,17 @@
 
 EAPI=6
 
+SA_COMMIT="f81c8bcd6d1f6f01b2641eb7980994deef6a3511"
+
 DESCRIPTION="Spotify adblocker for linux"
 HOMEPAGE="https://github.com/abba23/spotify-adblock-linux"
 
-SRC_URI="https://github.com/abba23/spotify-adblock-linux/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="
+	https://github.com/abba23/spotify-adblock-linux/archive/${SA_COMMIT}.tar.gz -> ${P}.tar.gz
+	https://cef-builds.spotifycdn.com/cef_binary_88.1.6%2Bg4fe33a1%2Bchromium-88.0.4324.96_linux64_minimal.tar.bz2 -> cef-88.1.6.tar.bz2
+"
 KEYWORDS="~amd64"
-S="${WORKDIR}/${PN}-linux-${PV}"
+S="${WORKDIR}/${PN}-linux-${SA_COMMIT}"
 
 RESTRICT="mirror"
 LICENSE="GPL-3"
@@ -19,6 +24,11 @@ RDEPEND="
 	net-misc/curl"
 
 DEPEND="${RDEPEND}"
+
+src_prepare() {
+	default
+	mv "${WORKDIR}/cef_binary_88.1.6+g4fe33a1+chromium-88.0.4324.96_linux64_minimal/include" "${S}/"
+}
 
 src_install() {
 	dolib spotify-adblock.so
