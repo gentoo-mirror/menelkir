@@ -3,7 +3,7 @@
 
 EAPI=7
 
-LIBRETRO_COMMIT_SHA="08b5c50fceb4eca2dbbd07a1bfc8c2b5b0f87832"
+LIBRETRO_COMMIT_SHA="37a9c5f66ec620ea9e18ee657eea09f834c27fe4"
 
 inherit vcs-snapshot
 
@@ -13,5 +13,5 @@ SRC_URI="https://github.com/libretro/libretro-database/archive/${LIBRETRO_COMMIT
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
