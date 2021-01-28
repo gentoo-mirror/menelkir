@@ -7,13 +7,13 @@ CMAKE_MIN_VERSION=2.8.11
 CMAKE_WARN_UNUSED_CLI=1
 
 LIBRETRO_REPO_NAME="libretro/mgba"
-LIBRETRO_COMMIT_SHA="ca9c9119ded9c112eafd7301460ac25c2765731a"
+LIBRETRO_COMMIT_SHA="4ffa98c8dd83853550c3030da3cae3f1deb6e0ab"
 
 inherit libretro-core cmake-utils
 
 DESCRIPTION="libretro implementation of mGBA. (Game Boy Advance)"
 HOMEPAGE="https://github.com/libretro/mgba"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="MPL-2.0"
 SLOT="0"

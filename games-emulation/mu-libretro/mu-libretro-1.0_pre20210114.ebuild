@@ -4,13 +4,13 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/Mu"
-LIBRETRO_COMMIT_SHA="4ac406874ccdc33ca3282299fda412f15ec544ad"
+LIBRETRO_COMMIT_SHA="df5a0c63bc85fbd250341fdd65681d289bc48c61"
 
 inherit libretro-core
 
 DESCRIPTION="A new Palm OS emulator targeting compatibility, speed and accuracy"
 HOMEPAGE="https://github.com/libretro/Mu"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="CC-BY-3.0"
 SLOT="0"

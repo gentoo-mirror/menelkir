@@ -4,13 +4,13 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/mupen64plus-libretro-nx"
-LIBRETRO_COMMIT_SHA="ea1c677c1e61ce1d95809c09cf26ffa75cd7e9dc"
+LIBRETRO_COMMIT_SHA="1b80c7616da42df6365f731e801a38e2db9aea29"
 
 inherit libretro-core
 
 DESCRIPTION="Improved mupen64plus libretro core reimplementation"
 HOMEPAGE="https://github.com/libretro/mupen64plus-libretro-nx"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-2"
 SLOT="0"

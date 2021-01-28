@@ -3,23 +3,21 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/meteor-libretro"
-LIBRETRO_COMMIT_SHA="3d21e3b5a7596918bee0fcaca5752ae76624c05e"
+LIBRETRO_REPO_NAME="libretro/mrboom-libretro"
+LIBRETRO_COMMIT_SHA="67a20a4ac0dff6d3285f7fe8d563919b8f875609"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of Meteor. (Game Boy Advance)"
-HOMEPAGE="https://github.com/libretro/meteor-libretro"
-KEYWORDS="amd64 x86"
+DESCRIPTION="Multiplayer Bomberman clone for RetroArch/Libretro"
+HOMEPAGE="https://github.com/libretro/mrboom-libretro"
+KEYWORDS="~amd64 ~x86"
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
-
-S="${S}/libretro"
 
 pkg_preinst() {
 	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then

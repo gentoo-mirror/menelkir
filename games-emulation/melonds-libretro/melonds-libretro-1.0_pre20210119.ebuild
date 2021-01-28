@@ -4,13 +4,13 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/melonDS"
-LIBRETRO_COMMIT_SHA="42c1acd5c47dcda17288dcb64ea4adb8e13b8732"
+LIBRETRO_COMMIT_SHA="95b3b97f5fe5cc7146283603abc91876c5e94f4e"
 
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of melonDS. (NintendoDS)"
 HOMEPAGE="https://github.com/libretro/melonDS"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-3"
 SLOT="0"
