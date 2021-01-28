@@ -4,13 +4,13 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/mame2015-libretro"
-LIBRETRO_COMMIT_SHA="969bf4a4376866f046c885237ee6aee37fe04bf4"
+LIBRETRO_COMMIT_SHA="ef41361dc9c88172617f7bbf6cd0ead4516a3c3f"
 
 inherit libretro-core
 
 DESCRIPTION="MESS (0.160) for libretro."
 HOMEPAGE="https://github.com/libretro/mame2015-libretro"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="MAME-GPL"
 SLOT="0"
