@@ -35,6 +35,7 @@ games-emulation/mednafen-bsnes-libretro
 # Broken.
 # Consider using an alternative:
 # 	games-emulation/vba-next-libretro
+# 	games-emulation/vbam-libretro
 # 	games-emulation/gpsp-libretro
 # 	games-emulation/mednafem-gba-libretro
 #
