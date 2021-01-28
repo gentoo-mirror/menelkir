@@ -4,7 +4,6 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/daphne"
-LIBRETRO_COMMIT_SHA="0a7e6f0fda1348144369ce0a889876df60263e8f"
 
 inherit libretro-core
 
