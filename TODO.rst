@@ -1,8 +1,5 @@
 TODO
 ====
-*Broken libretro cores*
-        * dolphin-libretro
-
 *Missing libretro cores*
         
         * bsnes-libretro-cplusplus98

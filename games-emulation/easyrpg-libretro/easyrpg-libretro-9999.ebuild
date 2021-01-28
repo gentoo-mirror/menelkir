@@ -20,11 +20,3 @@ RDEPEND="${DEPEND}
 
 S="${S}/builds/libretro"
 
-src_configure(){
-		libretro-core_src_configure
-}
-
-src_compile (){
-		libretro-core_src_compile
-}
-

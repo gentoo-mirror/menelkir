@@ -7,18 +7,18 @@ DESCRIPTION="Meta package for various libretro implementations"
 HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
-IUSE="2048 3dengine 81 atari800 bk bluemsx bnes boom3 bsnes2014-performance bsnes-mercury-performance \
-	cannonball cap32 chailove citra craft crocods desmume dinothawr dosbox ecwolf fbalpha \ 
-	fbalpha2012 fbneo fceumm fceu-next ffmpeg flycast fmsx freechaf freeintv frodo fuse gambatte gearboy \
-	genesis_plus_gx gme gpsp gw handy hatari lutro mame mame2000 mame2003 mame2003_plus-libretro \
-	mame2010 mame2015 mame2016 mess2015 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
+IUSE="2048 3dengine 81 atari800 bk bluemsx bnes boom3 bsnes bsnes-mercury \
+	cannonball cap32 chailove citra craft crocods desmume dinothawr -dolphin -easyrpg ecwolf fbalpha \
+	fbalpha2012 fbneo fceumm fceu-next ffmpeg flycast fmsx -freechaf freeintv frodo fuse gambatte gearboy gearsystem \
+	genesis_plus_gx gme gpsp gw handy -hatari -hbmame lutro -mame -mame2000 mame2003 mame2003_plus-libretro \
+	mame2010 -mame2015 -mame2016 -mess2015 -mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp \
 	mednafen-pce mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx \
-	mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mgba mrboom mu nekop2 np2kai neocd \
-	nestopia nxengine o2em oberon openlara parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini \
-	prboom prosystem puae px68k quicknes quasi88 retrodream reminiscence sameboy scummvm snes9x \
-	snes9x2002 snes9x2005 snes9x2010 squirreljme stella stella2014 tgbdual theodore tyrquake \
-	uzem vba-next vbam vecx vice-x128 vice-x64 vice-x64sc vice-xcbm2 vice-xcbm5x0 vice-xpet \
-	vice-xplus4 vice-xscpu64 vice-xvic virtualjaguar vitaquake2 vitaquake3 vitavoyager x1 xrick yabause"
+	mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor -mgba mrboom mu -mupen64next nekop2 np2kai neocd \
+	nestopia nxengine o2em oberon -openlara opera parallel-n64 pcsx-rearmed picodrive -play pocketcdg pokemini \
+	prboom prosystem puae px68k quicknes quasi88 race -redbook retrodream reminiscence sameboy scummvm snes9x \
+	snes9x2002 snes9x2005 snes9x2010 squirreljme -stella stella2014 tgbdual theodore tyrquake \
+	uzem vba-next vbam vecx vemulator vice-x128 vice-x64 vice-x64sc vice-xcbm2 vice-xcbm5x0 vice-xpet \
+	vice-xplus4 vice-xscpu64 vice-xvic virtualjaguar vitaquake2 vitaquake3 -vitavoyager x1 xrick yabause"
 
 KEYWORDS="~amd64 ~x86"
 
@@ -40,7 +40,8 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	crocods? ( games-emulation/crocods-libretro )
 	desmume? ( games-emulation/desmume-libretro )
 	dinothawr? ( games-emulation/dinothawr-libretro )
-	dosbox? ( games-emulation/libretro-dosbox )
+	dolphin? ( games-emulation/libretro-dolphin )
+	easyrpg? ( games-emulation/libretro-easyrpg )
 	ecwolf? ( games-emulation/ecwolf-libretro )
 	fbalpha? ( games-emulation/fbalpha-libretro )
 	fbalpha2012? ( games-emulation/fbalpha2012-libretro )
@@ -56,12 +57,14 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	fuse? ( games-emulation/fuse-libretro )
 	gambatte? ( games-emulation/gambatte-libretro )
 	gearboy? ( games-emulation/gearboy-libretro )
+	gearsystem? ( games-emulation/gearsystem-libretro )
 	genesis_plus_gx? ( games-emulation/genesis_plus_gx-libretro )
 	gme? ( games-emulation/gme-libretro )
 	gpsp? ( games-emulation/gpsp-libretro )
 	gw? ( games-emulation/gw-libretro )
 	handy? ( games-emulation/handy-libretro )
 	hatari? ( games-emulation/hatari-libretro )
+	hbmame? ( games-emulation/hbmame-libretro )
 	lutro? ( games-emulation/lutro-libretro )
 	mame? ( games-emulation/mame-libretro )
 	mame2000? ( games-emulation/mame2000-libretro )
@@ -90,6 +93,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	mgba? ( games-emulation/mgba-libretro )
 	mrboom? ( games-emulation/mrboom-libretro )
 	mu? ( games-emulation/mu-libretro )
+	mupen64next? ( games-emulation/mupen64next-libretro )
 	nestopia? ( games-emulation/nestopia-libretro )
 	nekop2? ( games-emulation/nekop2-libretro )
 	neocd? ( games-emulation/neocd-libretro )
@@ -98,9 +102,11 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	o2em? ( games-emulation/o2em-libretro )
 	oberon? ( games-emulation/oberon-libretro )
 	openlara? ( games-emulation/openlara-libretro )
+	opera? ( games-emulation/opera-libretro )
 	parallel-n64? ( games-emulation/parallel-n64-libretro )
 	pcsx-rearmed? ( games-emulation/pcsx-rearmed-libretro )
 	picodrive? ( games-emulation/picodrive-libretro )
+	play? ( games-emulation/play-libretro )
 	pocketcdg? ( games-emulation/pocketcdg-libretro )
 	pokemini? ( games-emulation/pokemini-libretro )
 	prboom? ( games-emulation/prboom-libretro )
@@ -109,6 +115,8 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	px68k? ( games-emulation/px68k-libretro )
 	quasi88? ( games-emulation/quasi88-libretro )
 	quicknes? ( games-emulation/quicknes-libretro )
+	race? ( games-emulation/race-libretro )
+	redbook? ( games-emulation/redbook-libretro )
 	retrodream? ( games-emulation/retrodream-libretro )
 	reminiscence? ( games-emulation/reminiscence-libretro )
 	sameboy? ( games-emulation/sameboy-libretro )
@@ -127,6 +135,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	vba-next? ( games-emulation/vba-next-libretro )
 	vbam? ( games-emulation/vbam-libretro )
 	vecx?  ( games-emulation/vecx-libretro )
+	vemulator? ( games-emulation/vemulator-libretro )
 	vice-x128? ( games-emulation/vice-x128-libretro )
 	vice-x64? ( games-emulation/vice-x64-libretro )
 	vice-x64sc? ( games-emulation/vice-x64sc-libretro )

@@ -1,18 +1,23 @@
-# Daniel Menelkir <menelkir@itroll.org> 2021-01-26
-# Needs further investigation
-
-games-emulation/ppsspp-libretro
-
-games-emulation/dolphin-libretro
-games-emulation/easyrpg-libretro
-games-emulation/frodo-libretro
-games-emulation/hatari-libretro
-games-emulation/hbmame-libretro
-games-emulation/mame-libretro
-games-emulation/mame2000-libretro
+# Daniel Menelkir <menelkir@itroll.org> 2021-01-27
+# Broken.
+# Consider using and alternative:
+# 	games-emulation/vice-x64-libretro
+# 	games-emulation/vice-x64sc-libretro
+# 	games-emulation/vice-xscpu64-libretro
 #
+games-emulation/frodo-libretro
 
-
+# Daniel Menelkir <menelkir@itroll.org> 2021-01-27
+# Broken.
+# Consider using and alternative:
+# 	games-emulation/mame-libretro
+# 	games-emulation/mame2003-libretro
+# 	games-emulation/mame2003_plus-libretro
+# 	games-emulation/mame2010-libretro
+# 	games-emulation/mame2015-libretro
+# 	games-emulation/mame2016-libretro
+#
+games-emulation/mame2000-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
@@ -24,12 +29,13 @@ games-emulation/mame2000-libretro
 # 	games-emulation/snes9x2005-libretro
 # 	games-emulation/snes9x2010-libretro
 #
-# games-emulation/mednafen-bsnes-libretro
+games-emulation/mednafen-bsnes-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
 # Consider using an alternative:
 # 	games-emulation/vba-next-libretro
+# 	games-emulation/vbam-libretro
 # 	games-emulation/gpsp-libretro
 # 	games-emulation/mednafem-gba-libretro
 #
@@ -44,20 +50,38 @@ games-emulation/mupen64next-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
-games-emulation/vitavoyager-libretro
-games-emulation/redbook-libretro
-games-emulation/openlara-libretro
-
-# Daniel Menelkir <menelkir@itroll.org> 2021-01-27
-# Broken.
 # Consider using an alternative:
 # 	games-emulation/stella2014-libretro
 #
 games-emulation/stella-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
-# Needs python2
+# Broken.
+games-emulation/easyrpg-libretro
+games-emulation/hatari-libretro
+games-emulation/vitavoyager-libretro
+games-emulation/redbook-libretro
+games-emulation/openlara-libretro
+games-emulation/dolphin-libretro
+
+# Daniel Menelkir <menelkir@itroll.org> 2021-01-27
+# Broken.
+# Consider using an alternative:
+# 	games-emulation/fbalpha-libretro
+# 	games-emulation/fbalpha2012-libretro
+# 	games-emulation/fbneo-libretro
 #
+games-emulation/mame-libretro
+
+# Daniel Menelkir <menelkir@itroll.org> 2021-01-27
+# Needs python2 
+# I'm still studying a better way to deal without using python2
+# Until then, consider using an alternative:
+# 	games-emulation/fbalpha-libretro
+# 	games-emulation/fbalpha2012-libretro
+# 	games-emulation/fbneo-libretro
+#
+games-emulation/hbmame-libretro
 games-emulation/mame2015-libretro
 games-emulation/mame2016-libretro
 games-emulation/mess2015-libretro
