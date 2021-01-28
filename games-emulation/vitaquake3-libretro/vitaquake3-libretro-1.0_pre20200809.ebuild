@@ -4,13 +4,13 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/vitaquake3"
-LIBRETRO_COMMIT_SHA="7d9512b9a1e078a060a882b4efaeb45c810ff34e"
+LIBRETRO_COMMIT_SHA="4560879034084a4bd1e47156e383d12ef7f9802f"
 
 inherit libretro-core
 
 DESCRIPTION="libretro implementation of VitaQuake3. (Quake III)"
 HOMEPAGE="https://github.com/libretro/vitaquake3"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-2"
 SLOT="0"

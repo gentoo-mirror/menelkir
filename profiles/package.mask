@@ -22,7 +22,7 @@ games-emulation/ppsspp-libretro
 games-emulation/redbook-libretro
 games-emulation/sameboy-libretro
 games-emulation/stella-libretro
-games-emulation/vemulator-libretro
+games-emulation/vitavoyager-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Needs python2
