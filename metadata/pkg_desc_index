@@ -30,27 +30,27 @@ games-action/ATLauncher 3.4.2.6: Minecraft launcher which integrates multiple di
 games-action/minecraft-launcher 1.6.93 2.2.1262: An open-world game whose gameplay revolves around breaking and placing blocks
 games-action/multimc 0.6.11: An advanced Qt5-based open-source launcher for Minecraft
 games-action/technic-launcher 4.611: Minecraft launcher for community-made modpacks on the Technic Platform
-games-emulation/3dengine-libretro 1.0_pre20210126 9999-r3: 3D Engine for libretro GL with additional features
-games-emulation/81-libretro 1.0_pre20210126 9999-r3: A port of the EightyOne ZX81 Emulator to libretro.
-games-emulation/atari800-libretro 1.0_pre20210126 9999-r3: Atari800 libretro core
-games-emulation/bk-libretro 1.0_pre20210126 9999: BK-0010/0011/Terak 8510a emulator for libretro
-games-emulation/bluemsx-libretro 1.0_pre20210126 9999-r3: Port of blueMSX to the libretro API
-games-emulation/bnes-libretro 1.0_pre20210126 9999: Libretro fork of bnes
-games-emulation/boom3-libretro 1.0_pre20210126 9999: Doom 3 GPL source port for libretro
-games-emulation/bsnes-mercury-performance-libretro 1.0_pre20210126 9999: Libretro fork of bsnes
-games-emulation/bsnes2014-performance-libretro 1.0_pre20210126 9999: Libretro fork of bsnes
-games-emulation/cannonball-libretro 1.0_pre20210126 9999-r3: An Enhanced OutRun Engine.
-games-emulation/cap32-libretro 1.0_pre20210126 9999-r3: Caprice32 libretro core
-games-emulation/chailove-libretro 9999: 2D Game Framework with ChaiScript
-games-emulation/citra-libretro 1.0_pre20210126: Nintendo 3DS for libretro
-games-emulation/craft-libretro 1.0_pre20210126 9999-r3: libretro implementation of Craft. (Minecraft clone)
-games-emulation/crocods-libretro 1.0_pre20210126 9999-r3: CrocoDS libretro core
-games-emulation/daphne-libretro 1.0_pre20210126: Arcade laserdisc libretro core
-games-emulation/desmume-libretro 1.0_pre20210126 9999-r3: libretro implementation of DeSmuME. (Nintendo DS)
-games-emulation/dinothawr-libretro 1.0_pre20210126 9999-r3: Dinothawr is a block pushing puzzle game on slippery surfaces.
-games-emulation/dolphin-libretro 1.0_pre20200905 1.0_pre20210126 9999: A Gamecube/Wii emulator core for libretro
-games-emulation/easyrpg-libretro 1.0_pre20210126 9999: A game interpreter to play RPG Maker 2000, 2003 and EasyRPG games
-games-emulation/ecwolf-libretro 1.0_pre20210126 9999: Updated engine for wolfenstein 3D and compatibles
+games-emulation/3dengine-libretro 1.0_pre20210107 9999-r3: 3D Engine for libretro GL with additional features
+games-emulation/81-libretro 1.0_pre20210114 9999-r3: A port of the EightyOne ZX81 Emulator to libretro.
+games-emulation/atari800-libretro 1.0_pre20210117 9999-r3: Atari800 libretro core
+games-emulation/bk-libretro 1.0_pre20210114 9999: BK-0010/0011/Terak 8510a emulator for libretro
+games-emulation/bluemsx-libretro 1.0_pre20210119 9999-r3: Port of blueMSX to the libretro API
+games-emulation/bnes-libretro 1.0_pre20191116 9999: Libretro fork of bnes
+games-emulation/boom3-libretro 1.0_pre20210107 9999: Doom 3 GPL source port for libretro
+games-emulation/bsnes-mercury-performance-libretro 1.0_pre20210110 9999: Libretro fork of bsnes
+games-emulation/bsnes2014-performance-libretro 1.0_pre20210111 9999: Libretro fork of bsnes
+games-emulation/cannonball-libretro 1.0_pre20210110 9999-r3: An Enhanced OutRun Engine.
+games-emulation/cap32-libretro 1.0_pre20210110 9999-r3: Caprice32 libretro core
+games-emulation/chailove-libretro 1.0_pre20201222 9999: 2D Game Framework with ChaiScript
+games-emulation/citra-libretro 1.0_pre20210121: Nintendo 3DS for libretro
+games-emulation/craft-libretro 1.0_pre20210127 9999-r3: libretro implementation of Craft. (Minecraft clone)
+games-emulation/crocods-libretro 1.0_pre20210107 9999-r3: CrocoDS libretro core
+games-emulation/daphne-libretro 1.0_pre20210108: Arcade laserdisc libretro core
+games-emulation/desmume-libretro 1.0_pre20210109 9999-r3: libretro implementation of DeSmuME. (Nintendo DS)
+games-emulation/dinothawr-libretro 1.0_pre20210107 9999-r3: Dinothawr is a block pushing puzzle game on slippery surfaces.
+games-emulation/dolphin-libretro 1.0_pre20210110 9999: A Gamecube/Wii emulator core for libretro
+games-emulation/easyrpg-libretro 1.0_pre20210122 9999: A game interpreter to play RPG Maker 2000, 2003 and EasyRPG games
+games-emulation/ecwolf-libretro 1.0_pre20210109 9999: Updated engine for wolfenstein 3D and compatibles
 games-emulation/emulationstation 2.7.1 2.7.6-r1 2.9.1 9999-r4: Frontend for emulators (RetroPie Fork)
 games-emulation/emulationstation-themes-meta 0: EmulationStation themes meta package
 games-emulation/es-theme-carbon 9999: EmulationStation theme carbon
@@ -65,33 +65,33 @@ games-emulation/es-theme-simple-dark 9999: EmulationStation theme simple dark
 games-emulation/es-theme-simplified-static-canela 9999: EmulationStation theme simplified-static-canela
 games-emulation/es-theme-turtle-pi 9999: EmulationStation theme turtle-pi
 games-emulation/es-theme-zoid 9999: EmulationStation theme zoid
-games-emulation/fbalpha-libretro 1.0_pre20200126 9999-r3: Port of Final Burn Alpha to Libretro
-games-emulation/fbalpha2012-libretro 1.0_pre20210126 9999-r3: Final Burn Alpha 2012. Port of Final Burn Alpha to Libretro (0.2.97.24)
+games-emulation/fbalpha-libretro 1.0_pre20200127 9999-r3: Port of Final Burn Alpha to Libretro
+games-emulation/fbalpha2012-libretro 1.0_pre20210110 9999-r3: Final Burn Alpha 2012. Port of Final Burn Alpha to Libretro (0.2.97.24)
 games-emulation/fbneo-libretro 1.0_pre20210126 9999: Fork of Final Burn Alpha
-games-emulation/fceu-next-libretro 1.0_pre20210126 9999-r3: libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)
+games-emulation/fceu-next-libretro 1.0_pre20160317 9999-r3: libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)
 games-emulation/fceumm-libretro 1.0_pre20210126 9999-r3: FCEUmm nes emulator libretro port.
-games-emulation/ffmpeg-libretro 1.0_pre20210126 9999: FFmpeg frontend for libretro
-games-emulation/flycast-libretro 1.0_pre20210126 9999-r3: Multiplatform Sega Dreamcast emulator
-games-emulation/fmsx-libretro 1.0_pre20210126 9999-r3: Port of fMSX to the libretro API.
-games-emulation/freechaf-libretro 1.0_pre20210126 9999: libretro emulation core for the Fairchild ChannelF / Video Entertainment System
-games-emulation/freeintv-libretro 1.0_pre20210126 9999-r3: A libretro emulation core for the Mattel Intellivision
-games-emulation/frodo-libretro 1.0_pre20210126 9999: Commdoore 64 emulator for libretro
-games-emulation/fuse-libretro 1.0_pre20210126 9999-r3: A port of the Fuse Unix Spectrum Emulator to libretro
-games-emulation/gambatte-libretro 1.0_pre20210126 9999-r3: libretro implementation of Gambatte. (Game Boy/Game Boy Color)
-games-emulation/gearboy-libretro 1.0_pre20210126 9999: Gearboy is a Nintendo Game Boy / GameBoy Color emulator for libretro
+games-emulation/ffmpeg-libretro 1.0_pre20200828 9999: FFmpeg frontend for libretro
+games-emulation/flycast-libretro 1.0_pre20210119 9999-r3: Multiplatform Sega Dreamcast emulator
+games-emulation/fmsx-libretro 1.0_pre20210118 9999-r3: Port of fMSX to the libretro API.
+games-emulation/freechaf-libretro 1.0_pre20210114 9999: libretro emulation core for the Fairchild ChannelF / Video Entertainment System
+games-emulation/freeintv-libretro 1.0_pre20210114 9999-r3: A libretro emulation core for the Mattel Intellivision
+games-emulation/frodo-libretro 1.0_pre20210108 9999: Commdoore 64 emulator for libretro
+games-emulation/fuse-libretro 1.0_pre20210113 9999-r3: A port of the Fuse Unix Spectrum Emulator to libretro
+games-emulation/gambatte-libretro 1.0_pre20210117 9999-r3: libretro implementation of Gambatte. (Game Boy/Game Boy Color)
+games-emulation/gearboy-libretro 1.0_pre20181103 9999: Gearboy is a Nintendo Game Boy / GameBoy Color emulator for libretro
 games-emulation/gearsystem-libretro 3.2.0 9999: libretro implementation for multiple Sega consoles
-games-emulation/genesis_plus_gx-libretro 1.0_pre20210126 9999: libretro implementation of Genesis Plus GX. (Sega Genesis/Sega CD)
-games-emulation/glsl-shaders 1_pre20210126 9999: glsl shaders converted by hand from libretro's common-shaders repo
-games-emulation/gme-libretro 1.0_pre20210126 9999-r3: Port of blargg's Game_Music_Emu library.
-games-emulation/gpsp-libretro 1.0_pre20210126 9999-r3: Gameboy gpSP for libretro.
-games-emulation/gw-libretro 1.0_pre20210126 9999-r3: A libretro core for Game & Watch simulators.
-games-emulation/handy-libretro 1.0_pre20210126 9999-r3: libretro implementation of Handy. (Atari Lynx)
-games-emulation/hatari-libretro 1.0_pre20210126 9999: Hatari is an Atari ST/STE/TT/Falcon emulator core for libretro
-games-emulation/hbmame-libretro 1.0_pre20210126 9999: Emulator of homebrew and hacked games for arcade hardware
-games-emulation/libretro-common-overlays 1_pre20200723 9999-r3: Collection of overlay files for use with RetroArch
-games-emulation/libretro-common-shaders 1_pre20200723 9999-r3: Collection of commonly used Cg shaders
-games-emulation/libretro-database 1_pre20200809 9999-r4: Repository containing cheatcode files, content data files, etc.
-games-emulation/libretro-info 1_pre20210126 9999-r3: Libretro info files required for libretro cores
+games-emulation/genesis_plus_gx-libretro 1.0_pre20210119 9999: libretro implementation of Genesis Plus GX. (Sega Genesis/Sega CD)
+games-emulation/glsl-shaders 1_pre20210121 9999: glsl shaders converted by hand from libretro's common-shaders repo
+games-emulation/gme-libretro 1.0_pre20210127 9999-r3: Port of blargg's Game_Music_Emu library.
+games-emulation/gpsp-libretro 1.0_pre20210127 9999-r3: Gameboy gpSP for libretro.
+games-emulation/gw-libretro 1.0_pre20210113 9999-r3: A libretro core for Game & Watch simulators.
+games-emulation/handy-libretro 1.0_pre20210114 9999-r3: libretro implementation of Handy. (Atari Lynx)
+games-emulation/hatari-libretro 1.0_pre20210127 9999: Hatari is an Atari ST/STE/TT/Falcon emulator core for libretro
+games-emulation/hbmame-libretro 1.0_pre20200403 9999: Emulator of homebrew and hacked games for arcade hardware
+games-emulation/libretro-common-overlays 1_pre20201221 9999-r3: Collection of overlay files for use with RetroArch
+games-emulation/libretro-common-shaders 1_pre20201221 9999-r3: Collection of commonly used Cg shaders
+games-emulation/libretro-database 1_pre20210126 9999-r4: Repository containing cheatcode files, content data files, etc.
+games-emulation/libretro-info 1_pre20210116 9999-r3: Libretro info files required for libretro cores
 games-emulation/libretro-meta 9999-r10: Meta package for various libretro implementations
 games-emulation/lutro-libretro 1.0_pre20200724 9999-r3: An experimental lua game framework for libretro following the LOVE API.
 games-emulation/mame-libretro 1.0_pre20200724 9999-r3: MAME (current) for libretro.
