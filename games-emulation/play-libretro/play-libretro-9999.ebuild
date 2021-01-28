@@ -10,7 +10,7 @@ inherit libretro-core cmake ninja-utils
 
 DESCRIPTION="Sony Playstation 2 libretro core"
 HOMEPAGE="https://github.com/libretro/Play-"
-KEYWORDS="amd64 x86"
+KEYWORDS=""
 
 LICENSE="GPL-3"
 SLOT="0"
