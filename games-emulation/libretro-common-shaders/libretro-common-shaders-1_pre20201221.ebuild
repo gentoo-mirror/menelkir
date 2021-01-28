@@ -3,7 +3,7 @@
 
 EAPI=7
 
-LIBRETRO_COMMIT_SHA="83b6f9a4cf844c5c1fd5292a26cd990c58ee3962"
+LIBRETRO_COMMIT_SHA="d6aa6fbea5ba63764fa67113e2f7a97ae3ad2703"
 
 inherit vcs-snapshot
 
@@ -13,4 +13,4 @@ SRC_URI="https://github.com/libretro/common-shaders/archive/${LIBRETRO_COMMIT_SH
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
