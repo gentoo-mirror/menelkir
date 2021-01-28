@@ -167,29 +167,29 @@ games-emulation/stella2014-libretro 1.0_pre20210128 9999-r3: libretro implementa
 games-emulation/tgbdual-libretro 1.0_pre20210115 9999-r3: libretro implementation of TGB-DUAL. (Game Boy Advance)
 games-emulation/theodore-libretro 1.0_pre20210124 9999-r3: Libretro core for Thomson TO8/TO8D/TO9/TO9+ emulation.
 games-emulation/tyrquake-libretro 1.0_pre20191224 9999-r3: libretro implementation of TyrQuake. (Quake)
-games-emulation/uzem-libretro 1.0_pre20200809 9999: An emulator for development purposes
-games-emulation/vba-next-libretro 1.0_pre20191224 9999-r3: libretro implementation of VBA Next. (Game Boy Advance)
-games-emulation/vbam-libretro 1.0_pre20191224 9999-r2: libretro implementation of VBA-M. (Game Boy Advance)
-games-emulation/vecx-libretro 1.0_pre20191224 9999-r3: Libretro adaption of vecx, a Vectrex Emulator
-games-emulation/vemulator-libretro 1.0_pre20200809 9999: A port of the SEGA Visual Memory Unit emulator VeMUlator for libretro.
-games-emulation/vice-x128-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-x64-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-x64sc-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-xcbm2-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-xcbm5x0-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-xpet-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-xplus4-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-xscpu64-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-xvic-libretro 1.0_pre20200807 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/virtualjaguar-libretro 1.0_pre20191224 9999-r3: Port of Virtual Jaguar to Libretro
+games-emulation/uzem-libretro 1.0_pre20210108 9999: An emulator for development purposes
+games-emulation/vba-next-libretro 1.0_pre20210128 9999-r3: libretro implementation of VBA Next. (Game Boy Advance)
+games-emulation/vbam-libretro 1.0_pre20210109 9999-r2: libretro implementation of VBA-M. (Game Boy Advance)
+games-emulation/vecx-libretro 1.0_pre20210108 9999-r3: Libretro adaption of vecx, a Vectrex Emulator
+games-emulation/vemulator-libretro 1.0_pre20210116 9999: A port of the SEGA Visual Memory Unit emulator VeMUlator for libretro.
+games-emulation/vice-x128-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-x64-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-x64sc-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xcbm2-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xcbm5x0-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xpet-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xplus4-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xscpu64-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xvic-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/virtualjaguar-libretro 1.0_pre20210109 9999-r3: Port of Virtual Jaguar to Libretro
 games-emulation/vita3k 9999: Sony Playstation Vita Emulator
-games-emulation/vitaquake2-libretro 1.0_pre20200809 9999: libretro implementation of VitaQuake2. (Quake II)
+games-emulation/vitaquake2-libretro 1.0_pre20210108 9999: libretro implementation of VitaQuake2. (Quake II)
 games-emulation/vitaquake3-libretro 1.0_pre20200809 9999: libretro implementation of VitaQuake3. (Quake III)
-games-emulation/vitavoyager-libretro 9999: lilium-voyager (Star Trek Voyager: Elite Force Holomatch mp) for libretro
-games-emulation/x1-libretro 1.0_pre20200809 9999: Libretro port of X Millennium Sharp X1 emulator
+games-emulation/vitavoyager-libretro 1.0_pre20200102 9999: lilium-voyager (Star Trek Voyager: Elite Force Holomatch mp) for libretro
+games-emulation/x1-libretro 1.0_pre20210108 9999: Libretro port of X Millennium Sharp X1 emulator
 games-emulation/xnp2 9999: X Neko Project II, a PC-9801 emulator (PC98)
-games-emulation/xrick-libretro 1.0_pre20191224 9999-r3: Xrick is an open source implementation of Rick Dangerous for libretro.
-games-emulation/yabause-libretro 1.0_pre20191224 9999-r3: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
+games-emulation/xrick-libretro 1.0_pre20200124 9999-r3: Xrick is an open source implementation of Rick Dangerous for libretro.
+games-emulation/yabause-libretro 1.0_pre20210125 9999-r3: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
 games-emulation/yuzu 9999: Nintendo Switch Emulator
 games-engines/ags 3.5.0.29 9999: Adventure Game Studio (AGS) runtime engine
 games-engines/easyrpg-player 0.6.2.1 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
