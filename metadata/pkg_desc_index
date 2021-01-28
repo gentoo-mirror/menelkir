@@ -8,7 +8,7 @@ app-eselect/eselect-electron 2.1: Utility to select the default Electron slot
 dev-games/godot 3.2.3: Multi-platform 2D and 3D game engine
 dev-lang/rgbds 0.4.0 0.4.1 0.4.2: Free assembler/linker package for the Game Boy and Game Boy Color
 dev-libs/breakpad 0_p20200604 9999: A crash-reporting system
-dev-libs/dynarmic 1.0_pre20200809 3_pre20220127 9999: An ARM dynamic recompiler
+dev-libs/dynarmic 1.0_pre20200809 9999: An ARM dynamic recompiler
 dev-libs/liblcf 0.6.2 9999: Library to handle RPG Maker 2000/2003 and EasyRPG projects
 dev-python/bluepy 1.3.0: Python interface to Bluetooth LE on Linux
 dev-python/face_recognition 1.3.0: Recognize faces from Python or from the command line
@@ -23,7 +23,7 @@ dev-python/websockets 8.1-r2: An implementation of the WebSocket Protocol (RFC 6
 dev-util/electron 7.3.2-r1 9.3.5: Cross platform application development framework based on web technologies
 dev-util/kdevelop-css 9999: CSS Language Support plugin for KDevelop
 dev-util/kdevelop-embedded 9999: Plugin for KDevelop to support the development of embedded systems
-dev-util/nihstro 1.0_pre20200809: 3DS shader assembler and disassembler
+dev-util/nihstro 1.0_pre20180113: 3DS shader assembler and disassembler
 dev-util/pmbootstrap 1.22.0 1.29.0: Sophisticated chroot/build/flash tool to develop and install postmarketOS.
 dev-vcs/git-blame-someone-else 2018.06.13 9999: Blame someone else for your bad code.
 games-action/ATLauncher 3.4.2.6: Minecraft launcher which integrates multiple different ModPacks
@@ -42,15 +42,15 @@ games-emulation/bsnes2014-performance-libretro 1.0_pre20210126 9999: Libretro fo
 games-emulation/cannonball-libretro 1.0_pre20210126 9999-r3: An Enhanced OutRun Engine.
 games-emulation/cap32-libretro 1.0_pre20210126 9999-r3: Caprice32 libretro core
 games-emulation/chailove-libretro 9999: 2D Game Framework with ChaiScript
-games-emulation/citra-libretro 1.0_pre20200809 9999: Nintendo 3DS for libretro
+games-emulation/citra-libretro 1.0_pre20210126: Nintendo 3DS for libretro
 games-emulation/craft-libretro 1.0_pre20210126 9999-r3: libretro implementation of Craft. (Minecraft clone)
 games-emulation/crocods-libretro 1.0_pre20210126 9999-r3: CrocoDS libretro core
-games-emulation/daphne-libretro 1.0_pre20200809: Arcade laserdisc libretro core
-games-emulation/desmume-libretro 1.0_pre20200724 9999-r3: libretro implementation of DeSmuME. (Nintendo DS)
-games-emulation/dinothawr-libretro 1.0_pre20200724 9999-r3: Dinothawr is a block pushing puzzle game on slippery surfaces.
-games-emulation/dolphin-libretro 1.0_pre20200905 9999: A Gamecube/Wii emulator core for libretro
-games-emulation/easyrpg-libretro 9999: A game interpreter to play RPG Maker 2000, 2003 and EasyRPG games
-games-emulation/ecwolf-libretro 1.0_pre20200809 9999: Updated engine for wolfenstein 3D and compatibles
+games-emulation/daphne-libretro 1.0_pre20210126: Arcade laserdisc libretro core
+games-emulation/desmume-libretro 1.0_pre20210126 9999-r3: libretro implementation of DeSmuME. (Nintendo DS)
+games-emulation/dinothawr-libretro 1.0_pre20210126 9999-r3: Dinothawr is a block pushing puzzle game on slippery surfaces.
+games-emulation/dolphin-libretro 1.0_pre20200905 1.0_pre20210126 9999: A Gamecube/Wii emulator core for libretro
+games-emulation/easyrpg-libretro 1.0_pre20210126 9999: A game interpreter to play RPG Maker 2000, 2003 and EasyRPG games
+games-emulation/ecwolf-libretro 1.0_pre20210126 9999: Updated engine for wolfenstein 3D and compatibles
 games-emulation/emulationstation 2.7.1 2.7.6-r1 2.9.1 9999-r4: Frontend for emulators (RetroPie Fork)
 games-emulation/emulationstation-themes-meta 0: EmulationStation themes meta package
 games-emulation/es-theme-carbon 9999: EmulationStation theme carbon
