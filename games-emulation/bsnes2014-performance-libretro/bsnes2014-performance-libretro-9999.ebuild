@@ -12,24 +12,18 @@ HOMEPAGE="https://github.com/libretro/bsnes2014"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 # No tests provided
 RESTRICT="test"
 
 src_compile(){
-	mymakeargs="profile=performance"
+		makeargs="profile=performance"
 		libretro-core_src_compile
 }
 
-src_install() {
-for profile in "${BSNES_PROFILES[@]}"; do
-		LIBRETRO_CORE_LIB_FILE="${S}/bsnes2014_${profile}_libretro.so" \
-			libretro-core_src_install
-done
+pkg_preinst() {
+		if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
+			first_install="1"
+		fi
 }
 
-pkg_preinst() {
-	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
-		first_install="1"
-	fi
-}

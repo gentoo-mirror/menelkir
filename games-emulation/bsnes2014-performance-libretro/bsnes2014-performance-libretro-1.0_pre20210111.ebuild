@@ -17,21 +17,11 @@ KEYWORDS="~amd64 ~x86"
 # No tests provided
 RESTRICT="test"
 
-# The other profiles aren't working atm
-BSNES_PROFILES=(performance)
-
 S="${WORKDIR}/bsnes2014-${LIBRETRO_COMMIT_SHA}"
 
 src_compile(){
 		makeargs="profile=performance"
 		libretro-core_src_compile
-}
-
-src_install() {
-for profile in "${BSNES_PROFILES[@]}"; do
-                LIBRETRO_CORE_LIB_FILE="${S}/bsnes2014_${profile}_libretro.so" \
-                        libretro-core_src_install
-done
 }
 
 pkg_preinst() {
