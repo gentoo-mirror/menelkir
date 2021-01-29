@@ -39,8 +39,7 @@ This overlay isn't connected in any way to Gentoo Official Repositories.
 If you are using this repository, please report any issues direct to me or
 using the gitlab issue tracker.
 
-Make sure you read the TODO file, since there's some ebuilds here that doesn't work
-and needs a proper fix.
+Make sure you read the profiles/package.mask  file, since there's some ebuilds here that doesn't work and needs a proper fix. All help are welcome.
 
 =============
 How to donate
