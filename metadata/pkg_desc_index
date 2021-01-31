@@ -227,7 +227,6 @@ media-libs/celt 0.11.1-r1 0.11.3: CELT is a very low delay audio codec designed 
 media-libs/hal-flash 0.3.3-r1: libhal stub forwarding to UDisks for Adobe Flash to play DRM content
 media-libs/wiimms-iso-tools 9999: Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers.
 media-plugins/chrome-widevine 88.0.4324.96: An adapter for playing DRM content
-media-plugins/gimp-resynthesizer 2.0.3-r3: Suite of GIMP plugins for texture synthesis
 media-sound/carla 2.2.0 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
 media-sound/munt 2.4.0 9999: Software synthesiser emulating pre-GM MIDI (e.g., Roland MT-32)
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
