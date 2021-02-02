@@ -1,15 +1,6 @@
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
 # Consider using an alternative:
-# 	games-emulation/vice-x64-libretro
-# 	games-emulation/vice-x64sc-libretro
-# 	games-emulation/vice-xscpu64-libretro
-#
-games-emulation/frodo-libretro
-
-# Daniel Menelkir <menelkir@itroll.org> 2021-01-27
-# Broken.
-# Consider using an alternative:
 # 	games-emulation/mame2000-libretro
 # 	games-emulation/mame-libretro
 # 	games-emulation/mame2003-libretro
@@ -58,12 +49,12 @@ games-emulation/stella-libretro
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
 games-emulation/easyrpg-libretro
-games-emulation/hatari-libretro
 games-emulation/vitavoyager-libretro
 games-emulation/redbook-libretro
 games-emulation/openlara-libretro
 games-emulation/dolphin-libretro
 games-emulation/duckstation-libretro
+games-emulation/stonesoup-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
