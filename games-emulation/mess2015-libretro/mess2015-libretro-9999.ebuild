@@ -9,7 +9,7 @@ inherit libretro-core
 
 DESCRIPTION="MESS (0.160) for libretro."
 HOMEPAGE="https://github.com/libretro/mame2015-libretro"
-KEYWORDS="amd64 x86"
+KEYWORDS=""
 
 LICENSE="MAME-GPL"
 SLOT="0"
@@ -17,6 +17,10 @@ SLOT="0"
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
+
+PATCHES=(
+        "${FILESDIR}/python.patch"
+)
 
 src_configure() {
 	export TARGET=mess

@@ -71,8 +71,10 @@ games-emulation/duckstation-libretro
 # 	games-emulation/fbalpha-libretro
 # 	games-emulation/fbalpha2012-libretro
 # 	games-emulation/fbneo-libretro
+# 	games-emulation/mame2015-libretro
 #
 games-emulation/mame-libretro
+games-emulation/hbmame-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Needs python2 
@@ -82,10 +84,7 @@ games-emulation/mame-libretro
 # 	games-emulation/fbalpha2012-libretro
 # 	games-emulation/fbneo-libretro
 #
-games-emulation/hbmame-libretro
-games-emulation/mame2015-libretro
 games-emulation/mame2016-libretro
-games-emulation/mess2015-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2020-08-10
 # Work in Progress
