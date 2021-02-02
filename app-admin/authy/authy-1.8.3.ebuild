@@ -12,7 +12,7 @@ SRC_URI="https://api.snapcraft.io/api/v1/snaps/download/${_SNAPID}_${_SNAPREV}.s
 
 LICENSE="Unknown"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 
 DEPEND="
 		sys-fs/squashfs-tools[lzo]
