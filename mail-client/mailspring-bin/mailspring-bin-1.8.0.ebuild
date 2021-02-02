@@ -51,7 +51,7 @@ src_install() {
 	doins -r usr/share/appdata/*
 
 	exeinto /opt/${MY_PN}
-	doexe usr/share/mailspring/mailspring usr/share/mailspring/{libEGL,libGLESv2,libVkICD_mock_icd,libffmpeg}.so
+	doexe usr/share/mailspring/mailspring usr/share/mailspring/{libEGL,libGLESv2,libffmpeg}.so
 
 	exeinto /opt/${MY_PN}/resources/app.asar.unpacked/
 	doexe usr/share/mailspring/resources/app.asar.unpacked/mailsync usr/share/mailspring/resources/app.asar.unpacked/mailsync.bin

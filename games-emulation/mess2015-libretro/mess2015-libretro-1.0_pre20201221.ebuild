@@ -19,6 +19,10 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
+PATCHES=(
+        "${FILESDIR}/python.patch"
+)
+
 src_configure() {
 	export TARGET=mess
 }

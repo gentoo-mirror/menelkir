@@ -1,6 +1,6 @@
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
-# Consider using and alternative:
+# Consider using an alternative:
 # 	games-emulation/vice-x64-libretro
 # 	games-emulation/vice-x64sc-libretro
 # 	games-emulation/vice-xscpu64-libretro
@@ -9,19 +9,19 @@ games-emulation/frodo-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
-# Consider using and alternative:
+# Consider using an alternative:
+# 	games-emulation/mame2000-libretro
 # 	games-emulation/mame-libretro
 # 	games-emulation/mame2003-libretro
 # 	games-emulation/mame2003_plus-libretro
 # 	games-emulation/mame2010-libretro
 # 	games-emulation/mame2015-libretro
-# 	games-emulation/mame2016-libretro
 #
-games-emulation/mame2000-libretro
+games-emulation/mame2016-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
-# Consider using and alternative:
+# Consider using an alternative:
 # 	games-emulation/bsnes-mercury-performance-libretro
 # 	games-emulation/bsnes2014-performance-libretro
 # 	games-emulation/snes9x-libretro
@@ -63,6 +63,7 @@ games-emulation/vitavoyager-libretro
 games-emulation/redbook-libretro
 games-emulation/openlara-libretro
 games-emulation/dolphin-libretro
+games-emulation/duckstation-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
@@ -70,21 +71,10 @@ games-emulation/dolphin-libretro
 # 	games-emulation/fbalpha-libretro
 # 	games-emulation/fbalpha2012-libretro
 # 	games-emulation/fbneo-libretro
+# 	games-emulation/mame2015-libretro
 #
 games-emulation/mame-libretro
-
-# Daniel Menelkir <menelkir@itroll.org> 2021-01-27
-# Needs python2 
-# I'm still studying a better way to deal without using python2
-# Until then, consider using an alternative:
-# 	games-emulation/fbalpha-libretro
-# 	games-emulation/fbalpha2012-libretro
-# 	games-emulation/fbneo-libretro
-#
 games-emulation/hbmame-libretro
-games-emulation/mame2015-libretro
-games-emulation/mame2016-libretro
-games-emulation/mess2015-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2020-08-10
 # Work in Progress

@@ -8,9 +8,9 @@ HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
 IUSE="2048 3dengine 81 atari800 bk blastem bluemsx bnes boom3 bsnes bsnes-mercury cannonball cap32 chailove citra \
-	craft crocods desmume dinothawr ecwolf fbalpha fbalpha2012 fbneo fceumm fceu-next ffmpeg flycast \
-	fmsx freeintv fuse gambatte gearboy gearsystem genesis_plus_gx gme gpsp gw handy lutro mame2003 \
-	mame2003_plus-libretro mame2010 mednafen-gba mednafen-lynx mednafen-ngp mednafen-pce mednafen-pce-fast \
+	craft crocods desmume dinothawr dosbox ecwolf fbalpha fbalpha2012 fbneo fceumm fceu-next ffmpeg flycast \
+	fmsx freeintv fuse gambatte gearboy gearsystem genesis_plus_gx gme gpsp gw handy lutro mame2000 mame2003 \
+	mame2003_plus-libretro mame2010 mame2015 mess2015 mednafen-gba mednafen-lynx mednafen-ngp mednafen-pce mednafen-pce-fast \
 	mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx mednafen-vb mednafen-wswan melonds \
 	meowpc98 mesen meteor mrboom mu nekop2 np2kai neocd nestopia nxengine o2em oberon opera parallel-n64 \
 	pcsx-rearmed picodrive pocketcdg pokemini prboom prosystem puae px68k quicknes quasi88 race retrodream \
@@ -25,7 +25,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	81? ( games-emulation/81-libretro )
 	atari800? ( games-emulation/atari800-libretro )
 	bk? ( games-emulation/bk-libretro )
-	blastem? ( games-emulation/blastem )
+	blastem? ( games-emulation/blastem-libretro )
 	bluemsx? ( games-emulation/bluemsx-libretro )
 	bnes? ( games-emulation/libretro-bnes )
 	bsnes? ( games-emulation/bsnes2014-performance-libretro )
@@ -39,6 +39,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	crocods? ( games-emulation/crocods-libretro )
 	desmume? ( games-emulation/desmume-libretro )
 	dinothawr? ( games-emulation/dinothawr-libretro )
+	dosbox? ( games-emulation/libretro-dosbox )
 	ecwolf? ( games-emulation/ecwolf-libretro )
 	fbalpha? ( games-emulation/fbalpha-libretro )
 	fbalpha2012? ( games-emulation/fbalpha2012-libretro )
@@ -59,9 +60,12 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	gw? ( games-emulation/gw-libretro )
 	handy? ( games-emulation/handy-libretro )
 	lutro? ( games-emulation/lutro-libretro )
+	mame2000? ( games-emulation/mame2000-libretro )
 	mame2003? ( games-emulation/mame2003-libretro )
 	mame2003_plus-libretro? ( games-emulation/mame2003_plus-libretro )
 	mame2010? ( games-emulation/mame2010-libretro )
+	mame2015? ( games-emulation/mame2015-libretro )
+	mess2015? ( games-emulation/mess2015-libretro )
 	mednafen-gba? ( games-emulation/mednafen-gba-libretro )
 	mednafen-lynx? ( games-emulation/mednafen-lynx-libretro )
 	mednafen-ngp? ( games-emulation/mednafen-ngp-libretro )
@@ -79,7 +83,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	meteor? ( games-emulation/meteor-libretro )
 	mrboom? ( games-emulation/mrboom-libretro )
 	mu? ( games-emulation/mu-libretro )
-	nestopia? ( games-emulation/nestopia-libretro )
+	nestopia? ( games-emulation/libretro-nestopia )
 	nekop2? ( games-emulation/nekop2-libretro )
 	neocd? ( games-emulation/neocd-libretro )
 	np2kai? ( games-emulation/np2kai-libretro )
@@ -103,7 +107,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	reminiscence? ( games-emulation/reminiscence-libretro )
 	sameboy? ( games-emulation/sameboy-libretro )
 	scummvm? ( games-emulation/scummvm-libretro )
-	snes9x? ( games-emulation/snes9x-libretro )
+	snes9x? ( games-emulation/libretro-snes9x )
 	snes9x2002? ( games-emulation/snes9x2002-libretro )
 	snes9x2005? ( games-emulation/snes9x2005-libretro )
 	snes9x2010? ( games-emulation/snes9x2010-libretro )

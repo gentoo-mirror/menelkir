@@ -4,6 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/hbmame-libretro"
+LIBRETRO_COMMIT_SHA="e72c7cfe6184bf57714377cd4c5d6efc422806e3"
 
 inherit libretro-core
 
@@ -17,4 +18,8 @@ SLOT="0"
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
+
+PATCHES=(
+        "${FILESDIR}/python.patch"
+)
 
