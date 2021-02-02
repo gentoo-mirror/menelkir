@@ -76,16 +76,6 @@ games-emulation/duckstation-libretro
 games-emulation/mame-libretro
 games-emulation/hbmame-libretro
 
-# Daniel Menelkir <menelkir@itroll.org> 2021-01-27
-# Needs python2 
-# I'm still studying a better way to deal without using python2
-# Until then, consider using an alternative:
-# 	games-emulation/fbalpha-libretro
-# 	games-emulation/fbalpha2012-libretro
-# 	games-emulation/fbneo-libretro
-#
-games-emulation/mame2016-libretro
-
 # Daniel Menelkir <menelkir@itroll.org> 2020-08-10
 # Work in Progress
 #
