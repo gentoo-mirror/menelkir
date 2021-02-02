@@ -10,13 +10,13 @@ games-emulation/frodo-libretro
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
 # Consider using an alternative:
+# 	games-emulation/mame2000-libretro
 # 	games-emulation/mame-libretro
 # 	games-emulation/mame2003-libretro
 # 	games-emulation/mame2003_plus-libretro
 # 	games-emulation/mame2010-libretro
 # 	games-emulation/mame2015-libretro
 #
-games-emulation/mame2000-libretro
 games-emulation/mame2016-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
