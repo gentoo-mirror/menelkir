@@ -54,7 +54,7 @@ games-emulation/redbook-libretro
 games-emulation/openlara-libretro
 games-emulation/dolphin-libretro
 games-emulation/duckstation-libretro
-# games-emulation/tic80-libretro
+games-emulation/stonesoup-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
