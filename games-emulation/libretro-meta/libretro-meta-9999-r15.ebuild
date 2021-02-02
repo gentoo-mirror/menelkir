@@ -14,7 +14,7 @@ IUSE="2048 3dengine 81 atari800 bk blastem bluemsx bnes boom3 bsnes bsnes-mercur
 	mednafen-pcfx mednafen-psx mednafen-saturn mednafen-supergrafx mednafen-vb mednafen-wswan melonds \
 	meowpc98 mesen meteor mrboom mu nekop2 np2kai neocd nestopia nxengine o2em oberon opera parallel-n64 \
 	pcsx-rearmed picodrive pocketcdg pokemini prboom prosystem puae px68k quicknes quasi88 race retrodream \
-	reminiscence sameboy scummvm snes9x snes9x2002 snes9x2005 snes9x2010 squirreljme stella2014 tgbdual \
+	reminiscence sameboy scummvm snes9x snes9x2002 snes9x2005 snes9x2010 squirreljme stella2014 tgbdual tic80 \
 	theodore thepowdertoy tyrquake uzem vba-next vbam vecx vemulator vice-x128 vice-x64 vice-x64sc vice-xcbm2 vice-xcbm5x0 \
 	vice-xpet vice-xplus4 vice-xscpu64 vice-xvic virtualjaguar vitaquake2 vitaquake3 x1 xrick yabause"
 
@@ -116,6 +116,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	squirreljme? ( games-emulation/squirreljme-libretro )
 	stella2014? ( games-emulation/stella2014-libretro )
 	tgbdual? ( games-emulation/tgbdual-libretro )
+	tic80? ( games-emulation/tic80-libretro )
 	theodore? ( games-emulation/theodore-libretro )
 	thepowdertoy? ( games-emulation/thepowdertoy-libretro )
 	tyrquake? ( games-emulation/tyrquake-libretro )

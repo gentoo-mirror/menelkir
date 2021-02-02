@@ -39,5 +39,6 @@ src_compile() {
 }
 
 src_install() {
+	LIBRETRO_CORE_LIB_FILE="${WORKDIR}/${P}_build/lib/tic80_libretro.so"
 	libretro-core_src_install
 }
