@@ -1,6 +1,6 @@
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
-# Consider using and alternative:
+# Consider using an alternative:
 # 	games-emulation/vice-x64-libretro
 # 	games-emulation/vice-x64sc-libretro
 # 	games-emulation/vice-xscpu64-libretro
@@ -9,7 +9,7 @@ games-emulation/frodo-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
-# Consider using and alternative:
+# Consider using an alternative:
 # 	games-emulation/mame-libretro
 # 	games-emulation/mame2003-libretro
 # 	games-emulation/mame2003_plus-libretro
@@ -21,7 +21,7 @@ games-emulation/mame2000-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
-# Consider using and alternative:
+# Consider using an alternative:
 # 	games-emulation/bsnes-mercury-performance-libretro
 # 	games-emulation/bsnes2014-performance-libretro
 # 	games-emulation/snes9x-libretro
