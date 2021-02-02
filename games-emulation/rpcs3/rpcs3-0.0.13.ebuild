@@ -1,9 +1,9 @@
-# Copyright 1999-2020 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors 
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-inherit cmake-utils git-r3 toolchain-funcs
+inherit cmake git-r3 toolchain-funcs
 
 DESCRIPTION="Open source PlayStation 3 emulator"
 HOMEPAGE="https://rpcs3.net/"
@@ -12,13 +12,10 @@ EGIT_REPO_URI="https://github.com/RPCS3/rpcs3.git"
 EGIT_COMMIT="v${PV}"
 EGIT_SUBMODULES=( '*' '-*llvm*' )
 
-
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE="alsa faudio pulseaudio evdev discord-rpc vulkan llvm"
-
-
 
 RDEPEND="dev-qt/qtcore:5=
 	dev-qt/qtgui:5=
