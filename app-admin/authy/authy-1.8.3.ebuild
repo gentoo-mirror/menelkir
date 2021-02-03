@@ -30,4 +30,7 @@ src_install() {
 	dodir /opt/authy
 	cp -R "${WORKDIR}/${P}" "${D}/opt/" || die "Install failed!"
 	dosym /opt/${P}/authy /opt/bin/authy
+	insinto /usr/share/applications
+		doins ${FILESDIR}/authy.desktop
+	doicon ${FILESDIR}/authy.png
 }
