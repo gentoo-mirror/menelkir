@@ -6,7 +6,7 @@ inherit desktop unpacker
 
 DESCRIPTION="Fork aiming at removing Mailspring's dependecy on a central server"
 HOMEPAGE="https://github.com/notpushkin/Mailspring-Libre"
-SRC_URI="https://github.com/notpushkin/Mailspring-Libre/releases/download/1.7.8-libre/mailspring-${PV}-libre-amd64.deb -> ${P}.deb"
+SRC_URI="https://github.com/notpushkin/Mailspring-Libre/releases/download/${PV}-libre/mailspring-${PV}-libre-amd64.deb -> ${P}.deb"
 
 LICENSE="GPL-3"
 SLOT="0"
