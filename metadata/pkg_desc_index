@@ -6,11 +6,11 @@ app-emulation/dxvk-bin 1.7.2 1.7.3: Vulkan-based implementation of D3D9, D3D10 a
 app-emulation/vmware-modules 15.5.7-r1 16.1.0-r1: VMware kernel modules
 app-emulation/vmware-workstation 15.5.7.17171714 16.1.0.17198959: Emulate a complete PC without the performance overhead of most emulators
 app-eselect/eselect-electron 2.1: Utility to select the default Electron slot
-app-misc/g15composer 3.2-r1: A library to render text and shapes into a buffer usable by the Logitech G15
+app-misc/g15composer 3.4 9999: A library to render text and shapes into a buffer usable by the Logitech G15
 app-misc/g15daemon 1.9.5.6 9999: Takes control of the G15 keyboard, through the linux kernel uinput device driver
-app-misc/g15macro 1.0.3-r2: Macro recording plugin to G15daemon
-app-misc/g15message 1.0.0-r2: A simple message/alert client for G15daemon
-app-misc/g15mpd 1.0.0-r2: MPD (music player daemon) plugin to G15daemon
+app-misc/g15macro 1.0.5 9999: Macro recording plugin to G15daemon
+app-misc/g15message 1.2 9999: A simple message/alert client for G15daemon
+app-misc/g15mpd 1.1 9999: MPD (music player daemon) plugin to G15daemon
 app-misc/g15stats 1.9.8 9999: CPU, memory, swap, network stats for G15 Keyboard
 dev-games/godot 3.2.3: Multi-platform 2D and 3D game engine
 dev-lang/rgbds 0.4.0 0.4.1 0.4.2: Free assembler/linker package for the Game Boy and Game Boy Color
