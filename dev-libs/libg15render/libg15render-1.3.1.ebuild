@@ -7,7 +7,7 @@ inherit autotools
 
 DESCRIPTION="Small library for display text and graphics on a Logitech G15 keyboard"
 HOMEPAGE="https://gitlab.com/menelkir/${PN}"
-SRC_URI="https://gitlab.com/menelkir/${PN}/-/archive/v${PV}/${PN}-v${PV}.tar.bz2"
+SRC_URI="https://gitlab.com/menelkir/${PN}/-/archive/${PV}/${PN}-${PV}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -16,8 +16,6 @@ KEYWORDS="amd64 ppc ppc64 x86"
 RDEPEND="
 	dev-libs/libg15"
 DEPEND="${RDEPEND}"
-
-S=${WORKDIR}/${PN}-v${PV}
 
 src_prepare() {
 	default

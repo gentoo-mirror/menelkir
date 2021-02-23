@@ -3,35 +3,26 @@
 
 EAPI=7
 
-GENTOO_DEPEND_ON_PERL="no"
-
 inherit autotools flag-o-matic linux-info perl-module systemd toolchain-funcs udev
 
 DESCRIPTION="Takes control of the G15 keyboard, through the linux kernel uinput device driver"
-HOMEPAGE="https://sourceforge.net/projects/g15daemon/"
-SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
+HOMEPAGE="https://gitlab.com/menelkir/${PN}"
+SRC_URI="https://gitlab.com/menelkir/${PN}/-/archive/${PV}/${PN}-${PV}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="x86 amd64 ppc ppc64"
 IUSE="perl static-libs"
 
 DEPEND="virtual/libusb:0
-	>=dev-libs/libg15-1.2.4
-	>=dev-libs/libg15render-1.2
+	dev-libs/libg15
+	dev-libs/libg15render
 	perl? (
 		dev-lang/perl
 		dev-perl/GDGraph
 		>=dev-perl/Inline-0.4
 	)"
 RDEPEND="${DEPEND}"
-
-PATCHES=(
-	"${FILESDIR}/${P}-forgotten-open-mode.patch"
-	"${FILESDIR}/${P}-overflow-fix.patch"
-	"${FILESDIR}/${P}-docdir.patch"
-	"${FILESDIR}/${P}-avoid_bashisms.patch"
-)
 
 uinput_check() {
 	ebegin "Checking for uinput support"
@@ -113,18 +104,18 @@ src_install() {
 		doins contrib/testbindings.pl
 	fi
 
-	newconfd "${FILESDIR}/${PN}-1.2.7.confd" ${PN}
-	newinitd "${FILESDIR}/${PN}-1.9.5.3.initd" ${PN}
-	systemd_dounit "${FILESDIR}/${PN}.service"
-	dobin "${FILESDIR}/g15daemon-hotplug"
-	udev_dorules "${FILESDIR}/99-g15daemon.rules"
+	newconfd "${S}/contrib/init/${PN}.confd" ${PN}
+	newinitd "${S}/contrib/init/${PN}.openrc" ${PN}
+	systemd_dounit "${S}/contrib/init/${PN}.service"
+	dobin "${S}/contrib/init/g15daemon-hotplug"
+	udev_dorules "${S}/contrib/udev/99-g15daemon.rules"
 
 	insinto /etc
-	doins "${FILESDIR}"/g15daemon.conf
+	doins "${S}"/contrib/init/g15daemon.conf
 
 	# Gentoo bug #301340, debian bug #611649
 	exeinto /usr/lib/pm-utils/sleep.d
-	doexe "${FILESDIR}"/20g15daemon
+	doexe "${S}"/contrib/pmutils/20g15daemon
 
 	if use perl ; then
 		ebegin "Installing Perl Bindings (G15Daemon.pm)"

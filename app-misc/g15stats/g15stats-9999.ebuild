@@ -3,18 +3,18 @@
 
 EAPI=7
 
-inherit autotools
+inherit autotools git-r3
 
 DESCRIPTION="CPU, memory, swap, network stats for G15 Keyboard"
-HOMEPAGE="https://sourceforge.net/projects/g15daemon/"
-SRC_URI="mirror://sourceforge/g15daemon/${P}.tar.bz2"
+HOMEPAGE="https://gitlab.com/menelkir/${PN}"
+EGIT_REPO_URI="https://gitlab.com/menelkir/${PN}.git"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
-RDEPEND=">=app-misc/g15daemon-1.9.0
+RDEPEND="app-misc/g15daemon
 	dev-libs/libg15
 	dev-libs/libg15render
 	sys-libs/zlib
@@ -22,8 +22,6 @@ RDEPEND=">=app-misc/g15daemon-1.9.0
 
 DEPEND="${RDEPEND}"
 BDEPEND="virtual/pkgconfig"
-
-PATCHES=( "${FILESDIR}/${P}-docdir.patch" )
 
 src_prepare() {
 	default
@@ -40,8 +38,8 @@ src_install() {
 	default
 	rm "${D}"/usr/share/doc/${PF}/{COPYING,NEWS} || die
 
-	newconfd "${FILESDIR}/${PN}-1.9.7.confd" ${PN}
-	newinitd "${FILESDIR}/${PN}-1.9.7.initd" ${PN}
+	newconfd "${S}/contrib/init/${PN}.confd" ${PN}
+	newinitd "${S}/contrib/init/${PN}.initd" ${PN}
 }
 
 pkg_postinst() {

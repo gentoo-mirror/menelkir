@@ -3,36 +3,25 @@
 
 EAPI=7
 
-GENTOO_DEPEND_ON_PERL="no"
-ESVN_PROJECT=${PN}/trunk
-ESVN_REPO_URI="https://svn.code.sf.net/p/${PN}/code/trunk/${PN}-wip"
-
-inherit autotools flag-o-matic linux-info perl-module subversion systemd toolchain-funcs udev
+inherit autotools flag-o-matic linux-info perl-module systemd toolchain-funcs udev git-r3
 
 DESCRIPTION="Takes control of the G15 keyboard, through the linux kernel uinput device driver"
-HOMEPAGE="https://sourceforge.net/projects/g15daemon/"
-[[ ${PV} = *9999* ]] || SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
+HOMEPAGE="https://gitlab.com/menelkir/${PN}"
+EGIT_SRC_URI="https://gitlab.com/menelkir/${PN}.git"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS=""
 IUSE="perl static-libs"
 
 DEPEND="virtual/libusb:0
-	>=dev-libs/libg15-9999
-	>=dev-libs/libg15render-9999
+	dev-libs/libg15
+	dev-libs/libg15render
 	perl? (
 		dev-lang/perl
 		dev-perl/GDGraph
 		>=dev-perl/Inline-0.4
 	)"
 RDEPEND="${DEPEND}"
-
-PATCHES=(
-	"${FILESDIR}/${PN}-1.9.5.3-g510-keys.patch"
-	"${FILESDIR}/${PN}-1.9.5.3-docdir.patch"
-	"${FILESDIR}/${PN}-1.9.5.3-avoid_bashisms.patch"
-)
 
 uinput_check() {
 	ebegin "Checking for uinput support"
@@ -59,20 +48,13 @@ pkg_setup() {
 }
 
 src_unpack() {
-	if [[ ${PV} = *9999* ]] ; then
-		subversion_src_unpack
-	else
-		unpack ${A}
-	fi
+	unpack ${A}
 	if use perl ; then
 		unpack "./${P}/lang-bindings/perl-G15Daemon-0.2.tar.gz"
 	fi
 }
 
 src_prepare() {
-	if [[ ${PV} = *9999* ]] ; then
-		subversion_wc_info
-	fi
 	if use perl ; then
 		perl-module_src_prepare
 		sed -i \
@@ -82,10 +64,8 @@ src_prepare() {
 		# perl-module_src_prepare always calls base_src_prepare
 		default
 	fi
-	if [[ ${PV} = *9999* ]] ; then
-		mv configure.{in,ac} || die
-		eautoreconf
-	fi
+	mv configure.{in,ac} || die
+	eautoreconf
 }
 
 src_configure() {
@@ -123,18 +103,18 @@ src_install() {
 		doins contrib/testbindings.pl
 	fi
 
-	newconfd "${FILESDIR}/${PN}-1.2.7.confd" ${PN}
-	newinitd "${FILESDIR}/${PN}-1.9.5.3.initd" ${PN}
-	systemd_dounit "${FILESDIR}/${PN}.service"
-	dobin "${FILESDIR}/g15daemon-hotplug"
-	udev_dorules "${FILESDIR}/99-g15daemon.rules"
+	newconfd "${S}/contrib/init/${PN}.confd" ${PN}
+	newinitd "${S}/contrib/init/${PN}.openrc" ${PN}
+	systemd_dounit "${S}/contrib/init/${PN}.service"
+	dobin "${S}/contrib/init/g15daemon-hotplug"
+	udev_dorules "${S}/contrib/udev/99-g15daemon.rules"
 
 	insinto /etc
-	doins "${FILESDIR}"/g15daemon.conf
+	doins "${S}"/contrib/init/g15daemon.conf
 
 	# Gentoo bug #301340, debian bug #611649
 	exeinto /usr/lib/pm-utils/sleep.d
-	doexe "${FILESDIR}"/20g15daemon
+	doexe "${S}"/contrib/pmutils/20g15daemon
 
 	if use perl ; then
 		ebegin "Installing Perl Bindings (G15Daemon.pm)"

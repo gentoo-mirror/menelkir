@@ -6,7 +6,7 @@ EAPI=7
 inherit autotools
 
 KEYWORDS="amd64 ppc ppc64 x86"
-SRC_URI="https://gitlab.com/menelkir/${PN}/-/archive/v${PV}/${PN}-v${PV}.tar.bz2"
+SRC_URI="https://gitlab.com/menelkir/${PN}/-/archive/${PV}/${PN}-${PV}.tar.bz2"
 
 DESCRIPTION="The libg15 library gives low-level access to the Logitech G15 keyboard"
 HOMEPAGE="https://gitlab.com/menelkir/libg15"
@@ -16,8 +16,6 @@ SLOT="0"
 
 RDEPEND="virtual/libusb:0"
 DEPEND="${RDEPEND}"
-
-S=${WORKDIR}/${PN}-v${PV}
 
 src_prepare() {
 	default
