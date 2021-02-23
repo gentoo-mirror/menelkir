@@ -6,13 +6,11 @@ EAPI=7
 inherit autotools
 
 DESCRIPTION="A simple message/alert client for G15daemon"
-HOMEPAGE="https://sourceforge.net/projects/g15daemon/"
-SRC_URI="mirror://sourceforge/g15daemon/${P}.tar.bz2"
+HOMEPAGE="https://gitlab.com/menelkir/${PN}"
+EGIT_REPO_URI="https://gitlab.com/menelkir/${PN}.git"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~ppc64 ~x86"
-IUSE=""
 
 RDEPEND=">=app-misc/g15daemon-1.9.0
 	dev-libs/libg15
@@ -20,8 +18,6 @@ RDEPEND=">=app-misc/g15daemon-1.9.0
 	sys-libs/zlib
 "
 DEPEND="${RDEPEND}"
-
-PATCHES=( "${FILESDIR}/${P}-docdir.patch" )
 
 src_prepare() {
 	default
