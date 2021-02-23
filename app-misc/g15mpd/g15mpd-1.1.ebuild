@@ -5,8 +5,8 @@ EAPI=7
 inherit autotools
 
 DESCRIPTION="MPD (music player daemon) plugin to G15daemon"
-HOMEPAGE="https://sourceforge.net/projects/g15daemon/"
-SRC_URI="mirror://sourceforge/g15daemon/${P}.tar.bz2"
+HOMEPAGE="https://gitlab.com/menelkir/${PN}"
+SRC_URI="https://gitlab.com/menelkir/${PN}/-/archive/${PV}/${PN}-${PV}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -14,22 +14,16 @@ KEYWORDS="~amd64 ~ppc ~x86"
 IUSE=""
 
 RDEPEND="
-	>=app-misc/g15daemon-1.9
+	app-misc/g15daemon
 	dev-libs/libg15
 	dev-libs/libg15render
-	>=media-libs/libmpd-0.17
+	media-libs/libmpd
 	sys-libs/zlib
 	x11-libs/libX11
 	x11-libs/libXtst
 "
 DEPEND="${RDEPEND}
 	x11-base/xorg-proto"
-
-PATCHES=(
-	"${FILESDIR}/${P}-libmpd.patch"
-	"${FILESDIR}/${P}-cflags-and-lib-fix.patch"
-	"${FILESDIR}/${P}-docdir.patch"
-)
 
 src_prepare() {
 	default
