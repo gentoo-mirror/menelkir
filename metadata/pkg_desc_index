@@ -276,8 +276,8 @@ www-client/brave-beta-bin 1.20.91: Brave Web Browser
 www-client/brave-bin 1.19.87: Brave Web Browser
 www-client/brave-dev-bin 1.20.90: Brave Web Browser
 www-client/brave-nightly-bin 1.21.29: Brave Web Browser
-www-client/ungoogled-chromium 87.0.4280.141_p1 88.0.4324.96-r1 88.0.4324.104-r1: Modifications to Chromium for removing Google integration and enhancing privacy
-www-client/ungoogled-chromium-bin 87.0.4280.141_p1: Modifications to Chromium for removing Google integration and enhancing privacy
+www-client/ungoogled-chromium 88.0.4324.182-r1 88.0.4324.192-r1: Modifications to Chromium for removing Google integration and enhancing privacy
+www-client/ungoogled-chromium-bin 88.0.4324.182: Modifications to Chromium for removing Google integration and enhancing privacy
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2-r2: Settings editor for LightDM GTK+ greeter
