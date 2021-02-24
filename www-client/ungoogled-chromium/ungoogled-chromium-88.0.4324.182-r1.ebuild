@@ -2,19 +2,19 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python{2_7,3_{7..9}} )
+PYTHON_COMPAT=( python2_7 )
 PYTHON_REQ_USE="xml"
 
 CHROMIUM_LANGS="am ar bg bn ca cs da de el en-GB es es-419 et fa fi fil fr gu he
 	hi hr hu id it ja kn ko lt lv ml mr ms nb nl pl pt-BR pt-PT ro ru sk sl sr
 	sv sw ta te th tr uk vi zh-CN zh-TW"
 
-inherit check-reqs chromium-2 desktop flag-o-matic multilib ninja-utils pax-utils portability python-r1 readme.gentoo-r1 toolchain-funcs xdg-utils
+inherit check-reqs chromium-2 desktop flag-o-matic multilib ninja-utils pax-utils portability python-any-r1 readme.gentoo-r1 toolchain-funcs xdg-utils
 
 UGC_PVR="${PVR/r}"
 UGC_PF="${PN}-${UGC_PVR}"
 UGC_URL="https://github.com/Eloston/${PN}/archive/"
-UGC_COMMIT_ID="362ec8584e373b798f9e3e45f4791b2dae2d0ee3"
+#UGC_COMMIT_ID="b98f2d51406c84a75df96f0da9dee3c0d790963d"
 
 if [ -z "$UGC_COMMIT_ID" ]
 then
@@ -36,15 +36,13 @@ SRC_URI="https://commondatastorage.googleapis.com/chromium-browser-official/chro
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
-IUSE="cfi +clang closure-compile convert-dict cups custom-cflags enable-driver hangouts headless kerberos +official optimize-thinlto optimize-webui pgo +proprietary-codecs pulseaudio selinux suid +system-ffmpeg +system-harfbuzz +system-icu +system-jsoncpp +system-libevent +system-libvpx +system-openh264 system-openjpeg +system-re2 +tcmalloc thinlto vaapi vdpau wayland widevine"
+KEYWORDS="amd64 ~x86"
+IUSE="cfi +clang closure-compile convert-dict cups custom-cflags enable-driver hangouts headless kerberos +official optimize-thinlto optimize-webui pgo +proprietary-codecs pulseaudio selinux suid +system-ffmpeg +system-harfbuzz +system-icu +system-jsoncpp +system-libevent system-libvpx +system-openh264 system-openjpeg +system-re2 +tcmalloc thinlto vaapi vdpau wayland widevine"
 RESTRICT="
 	!system-ffmpeg? ( proprietary-codecs? ( bindist ) )
 	!system-openh264? ( bindist )
 "
 REQUIRED_USE="
-	|| ( $(python_gen_useflags 'python3*') )
-	|| ( $(python_gen_useflags 'python2*') )
 	thinlto? ( clang )
 	optimize-thinlto? ( thinlto )
 	cfi? ( thinlto )
@@ -141,7 +139,6 @@ RDEPEND="${COMMON_DEPEND}
 	virtual/ttf-fonts
 	selinux? ( sec-policy/selinux-chromium )
 	tcmalloc? ( !<x11-drivers/nvidia-drivers-331.20 )
-	!x86? ( widevine? ( ~www-plugins/chrome-binary-plugins-${PV} ) )
 	!www-client/chromium
 	!www-client/chromium-bin
 	!www-client/ungoogled-chromium-bin
@@ -229,6 +226,13 @@ pkg_pretend() {
 		ewarn "Consider disabling this USE flag if something breaks"
 		ewarn
 	fi
+	if use system-libvpx; then
+		ewarn
+		ewarn "Chromium is notorious of relying upon the newest libvpx"
+		ewarn "that is absent from Gentoo, which might result in build failure"
+		ewarn "Consider disabling this USE flag if something breaks"
+		ewarn
+	fi
 	if has_version "sys-libs/libcxx"; then
 		ewarn
 		ewarn "You have sys-libs/libcxx, please make sure that"
@@ -265,8 +269,6 @@ pkg_setup() {
 }
 
 src_prepare() {
-	# Calling this here supports resumption via FEATURES=keepwork
-	python_setup 'python3*'
 
 	rm "${WORKDIR}/patches/chromium-84-blink-disable-clang-format.patch" || die
 
@@ -598,7 +600,7 @@ src_prepare() {
 		keeplibs+=( third_party/openh264 )
 	fi
 	ebegin "Removing unneeded bundled libraries"
-	python_setup 'python2*'
+	python_setup
 
 	# Remove most bundled libraries. Some are still needed.
 	build/linux/unbundle/remove_bundled_libraries.py "${keeplibs[@]}" --do-remove
@@ -608,7 +610,7 @@ src_prepare() {
 
 src_configure() {
 	# Calling this here supports resumption via FEATURES=keepwork
-	python_setup 'python2*'
+	python_setup
 
 	local myconf_gn=""
 
@@ -916,7 +918,7 @@ src_compile() {
 	ulimit -n 4096
 
 	# Calling this here supports resumption via FEATURES=keepwork
-	python_setup 'python2*'
+	python_setup
 
 	# https://bugs.gentoo.org/717456
 	local -x PYTHONPATH="${WORKDIR}/setuptools-44.1.0:${PYTHONPATH+:}${PYTHONPATH}"
@@ -1066,5 +1068,10 @@ pkg_postinst() {
 		elog "by navigating to chrome://flags/#enable-accelerated-video-decode"
 		elog "inside Chromium or add --enable-accelerated-video-decode"
 		elog "to CHROMIUM_FLAGS in /etc/chromium/default."
+	fi
+
+	if use widevine; then
+		elog "widevine requires binary plugins, which are distributed separately"
+		elog "Make sure you have www-plugins/chrome-binary-plugins installed"
 	fi
 }
