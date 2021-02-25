@@ -255,7 +255,7 @@ net-im/ripcord-bin 0.4.28: a desktop chat client for group-centric services like
 net-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so. symlinks for compatibility with Debian
 net-misc/megasync 4.3.7 4.3.8.0 4.3.9.0 9999: The official Qt-based program for syncing your MEGA account in your PC
 net-news/feedreader 2.11.0: Simple News Feed Reader for feeds aggregated by Tiny Tiny RSS or feedly
-net-p2p/nicotine+ 9999: A fork of nicotine, a Soulseek client in Python
+net-p2p/nicotine+ 3.0.0 9999: A fork of nicotine, a Soulseek client in Python
 net-p2p/soulseek-qt 20180130: Official binary Qt SoulSeek client
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/bully 1.1_p20170926: A wifi-protected-setup (WPS) brute force attack tool, similar to reaver
