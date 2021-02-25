@@ -9,8 +9,6 @@ DESCRIPTION="Plasma 5 applet for displaying weather information from yr.no (and 
 HOMEPAGE="https://store.kde.org/p/998917
 		https://github.com/kotelnik/plasma-applet-weather-widget"
 
-KEYWORDS="~amd64 ~x86"
-
 EGIT_REPO_URI="https://github.com/kotelnik/${PN}.git"
 
 LICENSE="GPL-2+"
