@@ -8,6 +8,6 @@ LICENSE=GPL-3
 RDEPEND=!<=games-emulation/libretro-common-shaders-1
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=https://github.com/libretro/glsl-shaders/archive/6c01a86dac2f40d9aa0f19b17ccd4e6393c45fd0.tar.gz -> glsl-shaders-1_pre20210121.tar.gz
+SRC_URI=https://github.com/libretro/glsl-shaders/archive/d7928c31c778e70ea5a0ac27b2eba089d4138895.tar.gz -> glsl-shaders-1_pre20210301.tar.gz
 _eclasses_=libretro	e2e72840da02ef2a21e935c8447187a8
-_md5_=c1d32fa5c6d0c75b13553b641964ba8e
+_md5_=79c4b2e665633ad96cd48657e8d5bf21
