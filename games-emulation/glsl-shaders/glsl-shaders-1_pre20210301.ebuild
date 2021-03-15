@@ -3,7 +3,7 @@
 
 EAPI=7
 
-LIBRETRO_COMMIT_SHA="6c01a86dac2f40d9aa0f19b17ccd4e6393c45fd0"
+LIBRETRO_COMMIT_SHA="d7928c31c778e70ea5a0ac27b2eba089d4138895"
 
 inherit libretro
 
@@ -21,7 +21,7 @@ src_install() {
 	dodir "${LIBRETRO_DATA_DIR}"/shaders
 	# Remove unnecessary git files
 	[[ ! ${PV} == "1.0_pre"* ]] && rm -r .git
-	cp -R "${S}"/* "${D}${LIBRETRO_DATA_DIR}"/shaders/
+	cp -R "${S}"/* "${D}/${LIBRETRO_DATA_DIR}"/shaders/
 }
 
 pkg_preinst() {
