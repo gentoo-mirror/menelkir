@@ -218,7 +218,7 @@ games-util/gamehub 0.16.0.1: GameHub is a unified library for all your games
 games-util/itch-bin 25.4.1: itch.io game browser, installer and launcher
 games-util/legendary 0.20.6: A free and open-source replacement for the Epic Games Launcher
 games-util/rejoystick 0.8.1: Tool which translates gamepad/joystick input into key strokes/mouse actions in X
-games-util/steam-client-meta 0-r20201118: Meta package for Valve's native Steam client
+games-util/steam-client-meta 0-r20210321: Meta package for Valve's native Steam client
 games-util/steam-launcher 1.0.0.67: Installer, launcher and supplementary files for Valve's Steam client
 games-util/steam-meta 0-r20160817: Meta package for Valve's Steam environment
 kde-apps/peruse 1.2_p20190907 9999: A comic book viewer based on Framework 5, for use on multiple form factors.

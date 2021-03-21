@@ -2,6 +2,7 @@ DEFINED_PHASES=postinst
 DESCRIPTION=Meta package for Valve's native Steam client
 EAPI=7
 HOMEPAGE=http://steampowered.com
+INHERIT=pax-utils
 IUSE=+pulseaudio steamfonts +steamruntime steamvr trayicon video_cards_intel video_cards_nvidia
 KEYWORDS=~amd64 ~x86
 LICENSE=metapackage

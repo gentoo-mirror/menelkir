@@ -9,5 +9,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=sys-devel/gettext dev-util/desktop-file-utils dev-python/setproctitle dev-python/pygobject sys-auth/polkit dev-python/xapp x11-themes/hicolor-icon-theme sys-apps/lsb-release x11-misc/lightdm-slick-greeter
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	2dc8e06a3429719b43e9140f7292a425	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	2dc8e06a3429719b43e9140f7292a425	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	git-r3	3e7ec3d6619213460c85e2aa48398441
 _md5_=1a62659768074ebbf8622f22ef6fc8e6

@@ -173,10 +173,6 @@ games-engines/ags:midi - Enable midi support
 games-engines/ags:tremor - Enable tremor support
 games-sports/stuntrally:editor - Install game editor
 games-sports/stuntrally:game - Install game files
-games-util/steam-client-meta:steamfonts - Use official fonts from Valve's steam client
-games-util/steam-client-meta:steamruntime - Use the official steam runtime libraries
-games-util/steam-client-meta:steamvr - Enable SteamVR virtual reality support
-games-util/steam-client-meta:trayicon - Enable system tray icon with libappindicator
 games-util/steam-launcher:steamruntime - Use the official steam runtime libraries
 games-util/steam-meta:steamruntime - Use the official steam runtime libraries
 mate-extra/brisk-menu:ubuntu - Install the Ubuntu style (and other additional styles) for MATE panel
