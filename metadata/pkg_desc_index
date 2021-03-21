@@ -278,7 +278,7 @@ www-client/brave-dev-bin 1.22.46: Brave Web Browser
 www-client/brave-nightly-bin 1.23.5: Brave Web Browser
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
-x11-misc/lightdm-gtk-greeter-settings 1.2.2-r2: Settings editor for LightDM GTK+ greeter
+x11-misc/lightdm-gtk-greeter-settings 1.2.2-r3: Settings editor for LightDM GTK+ greeter
 x11-misc/lightdm-settings 1.2.8-r1 1.3.2 9999: LightDM settings app to use it with the slick greeter
 x11-plugins/pidgin-battlenet 9999: Libpurple (Pidgin) plugin for Battle.net
 x11-plugins/pidgin-icyque 9999-r2: ICQ WIM protocol for libpurple
