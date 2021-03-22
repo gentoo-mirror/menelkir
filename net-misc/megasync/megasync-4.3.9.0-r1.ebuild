@@ -12,13 +12,14 @@ if [[ ${PV} == 9999 ]];then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/meganz/MEGAsync"
 else
-	MEGA_SDK_REV="ba4834cb6c22f4e996f328db3aa5b82ef20eed3e" # commit of src/MEGASync/mega submodule
+	MEGA_SDK_REV="37b346c2e119559e40c08f43e1a8f54353e7ad59" # commit of src/MEGASync/mega submodule
 	SRC_URI="
-		https://github.com/meganz/MEGAsync/archive/v${PV}.0_Linux.tar.gz -> ${P}.tar.gz
+		https://github.com/meganz/MEGAsync/archive/v${PV}_Win.tar.gz -> ${P}.tar.gz
 		https://github.com/meganz/sdk/archive/${MEGA_SDK_REV}.tar.gz -> ${PN}-sdk-${PV}.tar.gz
 	"
 	KEYWORDS="~amd64 ~x86"
-	S="${WORKDIR}"/MEGAsync-${PV}.0_Linux
+	# 4.3.8.0 has no dedicated linux tag
+	S="${WORKDIR}"/MEGAsync-${PV}_Win
 fi
 
 LICENSE="MEGA"
@@ -60,7 +61,6 @@ DEPEND="
 	dev-qt/qtdbus:5
 	dev-qt/qtimageformats:5
 	dev-qt/qtsvg:5
-	dev-qt/qtx11extras:5
 "
 BDEPEND="
 	app-doc/doxygen
@@ -70,12 +70,18 @@ BDEPEND="
 
 DOCS=( CREDITS.md README.md )
 
+CXXFLAGS+="-fpermissive"
+
 src_prepare() {
 	if [[ ${PV} != 9999 ]]; then
 		rmdir src/MEGASync/mega
 		mv "${WORKDIR}"/sdk-${MEGA_SDK_REV} src/MEGASync/mega
 	fi
-	default
+	if use dolphin; then
+		cmake_src_prepare
+	else
+		default
+	fi
 	cd src/MEGASync/mega
 	eautoreconf
 }
