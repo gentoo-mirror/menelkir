@@ -44,8 +44,10 @@ DOCS=(
 	README.md
 )
 
+S=${WORKDIR}/lightdm-settings-${PV}
+
 src_prepare() {
-	sed -i -e "s#/usr/lib#/usr/$(get_libdir)#" usr/bin/${PN} || die
+	sed -i -e "s#/usr/lib#/usr/$(get_libdir)#" usr/bin/lightdm-settings || die
 	default
 }
 
@@ -53,7 +55,7 @@ src_install() {
 	mkdir -p "${ED%/}"/usr/$(get_libdir)
 	cp -r usr/lib/* "${ED%/}"/usr/$(get_libdir)
 	cp -r usr/share "${ED%/}"/usr/
-	dobin usr/bin/${PN}
+	dobin usr/bin/lightdm-settings
 	einstalldocs
 }
 

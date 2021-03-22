@@ -5,29 +5,24 @@ EAPI=7
 
 inherit autotools
 
-DESCRIPTION="Small library for display text and graphics on a Logitech G15 keyboard"
-HOMEPAGE="https://gitlab.com/menelkir/${PN}"
+KEYWORDS="amd64 ppc ppc64 x86"
 SRC_URI="https://gitlab.com/menelkir/${PN}/-/archive/${PV}/${PN}-${PV}.tar.bz2"
+
+DESCRIPTION="The libg15 library gives low-level access to the Logitech G15 keyboard"
+HOMEPAGE="https://gitlab.com/menelkir/libg15"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
 
-RDEPEND="
-	dev-libs/libg15"
+RDEPEND="virtual/libusb:0"
 DEPEND="${RDEPEND}"
 
 src_prepare() {
 	default
-	mv configure.{in,ac} || die
-	eautoreconf
 }
 
 src_configure() {
-	local myeconfargs=(
-		--disable-static
-	)
-	econf "${myeconfargs[@]}"
+	econf --disable-static
 }
 
 src_install() {
