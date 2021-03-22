@@ -70,6 +70,8 @@ BDEPEND="
 
 DOCS=( CREDITS.md README.md )
 
+CXXFLAGS+="-fpermissive"
+
 src_prepare() {
 	if [[ ${PV} != 9999 ]]; then
 		rmdir src/MEGASync/mega
