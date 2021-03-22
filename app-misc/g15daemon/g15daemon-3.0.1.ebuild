@@ -65,8 +65,6 @@ src_prepare() {
 		# perl-module_src_prepare always calls base_src_prepare
 		default
 	fi
-	mv configure.{in,ac} || die
-	eautoreconf
 }
 
 src_configure() {

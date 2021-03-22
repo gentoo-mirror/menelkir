@@ -25,8 +25,6 @@ BDEPEND="virtual/pkgconfig"
 
 src_prepare() {
 	default
-	mv configure.{in,ac} || die
-	eautoreconf
 }
 
 src_configure() {

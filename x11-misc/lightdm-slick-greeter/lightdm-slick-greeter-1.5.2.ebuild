@@ -30,6 +30,8 @@ DEPEND="${COMMON_DEPEND}
 	dev-util/intltool
 	virtual/pkgconfig"
 
+S=${WORKDIR}/slick-greeter-${PV}
+
 src_prepare() {
 	default
 	vala_src_prepare
@@ -44,5 +46,5 @@ src_configure() {
 src_install() {
 	default
 	insinto /etc/lightdm/
-	doins "${FILESDIR}/${PN}.conf"
+	doins "${FILESDIR}/slick-greeter.conf"
 }
