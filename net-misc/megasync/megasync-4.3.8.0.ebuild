@@ -61,16 +61,16 @@ DEPEND="
 	dev-qt/qtdbus:5
 	dev-qt/qtimageformats:5
 	dev-qt/qtsvg:5
+	dev-qt/qtx11extras:5
 "
 BDEPEND="
-	app-doc/doxygen
 	dev-lang/swig
 	dev-qt/linguist-tools
 "
 
 DOCS=( CREDITS.md README.md )
 
-CXXFLAGS+="-fpermissive"
+CMAKE_USE_DIR="${S}/src/MEGAShellExtDolphin"
 
 src_prepare() {
 	if [[ ${PV} != 9999 ]]; then
@@ -78,6 +78,8 @@ src_prepare() {
 		mv "${WORKDIR}"/sdk-${MEGA_SDK_REV} src/MEGASync/mega
 	fi
 	if use dolphin; then
+		# use the kde5 CMakeLists instead of the kde 4 version
+		mv src/MEGAShellExtDolphin/CMakeLists_kde5.txt src/MEGAShellExtDolphin/CMakeLists.txt || die
 		cmake_src_prepare
 	else
 		default
