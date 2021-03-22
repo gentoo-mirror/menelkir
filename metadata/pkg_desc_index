@@ -7,17 +7,17 @@ app-emulation/vmware-modules 15.5.7-r1 16.1.0-r1: VMware kernel modules
 app-emulation/vmware-workstation 15.5.7.17171714 16.1.0.17198959: Emulate a complete PC without the performance overhead of most emulators
 app-eselect/eselect-electron 2.1: Utility to select the default Electron slot
 app-misc/g15composer 3.4 9999: A library to render text and shapes into a buffer usable by the Logitech G15
-app-misc/g15daemon 1.9.5.6 9999: Takes control of the G15 keyboard, through the linux kernel uinput device driver
+app-misc/g15daemon 3.0.1 9999: Takes control of the G15 keyboard, through the linux kernel uinput device driver
 app-misc/g15macro 1.0.5 9999: Macro recording plugin to G15daemon
 app-misc/g15message 1.2 9999: A simple message/alert client for G15daemon
 app-misc/g15mpd 1.1 9999: MPD (music player daemon) plugin to G15daemon
-app-misc/g15stats 1.9.8 9999: CPU, memory, swap, network stats for G15 Keyboard
+app-misc/g15stats 3.0.1 9999: CPU, memory, swap, network stats for G15 Keyboard
 dev-games/godot 3.2.3: Multi-platform 2D and 3D game engine
 dev-lang/rgbds 0.4.0 0.4.1 0.4.2: Free assembler/linker package for the Game Boy and Game Boy Color
 dev-libs/breakpad 0_p20200604 9999: A crash-reporting system
 dev-libs/dynarmic 1.0_pre20200809 9999: An ARM dynamic recompiler
-dev-libs/libg15 1.2.9 9999: The libg15 library gives low-level access to the Logitech G15 keyboard
-dev-libs/libg15render 1.3.1 9999: Small library for display text and graphics on a Logitech G15 keyboard
+dev-libs/libg15 1.2.9 3.0.1 9999: The libg15 library gives low-level access to the Logitech G15 keyboard
+dev-libs/libg15render 3.0.2 9999: Small library for display text and graphics on a Logitech G15 keyboard
 dev-libs/liblcf 0.6.2 9999: Library to handle RPG Maker 2000/2003 and EasyRPG projects
 dev-python/bluepy 1.3.0: Python interface to Bluetooth LE on Linux
 dev-python/face_recognition 1.3.0: Recognize faces from Python or from the command line
@@ -280,7 +280,7 @@ x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2-r3: Settings editor for LightDM GTK+ greeter
 x11-misc/lightdm-slick-greeter 1.5.2: A slick-looking LightDM greeter
-x11-misc/lightdm-slick-greeter-settings 1.3.2 9999: LightDM settings app to use it with the slick greeter
+x11-misc/lightdm-slick-greeter-settings 1.3.2: LightDM settings app to use it with the slick greeter
 x11-plugins/pidgin-battlenet 9999: Libpurple (Pidgin) plugin for Battle.net
 x11-plugins/pidgin-icyque 9999-r2: ICQ WIM protocol for libpurple
 x11-plugins/pidgin-instagram 9999: Libpurple (Pidgin) plugin for instagram DMs
