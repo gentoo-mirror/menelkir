@@ -25,7 +25,7 @@ SLOT="2"
 IUSE="dict"
 
 DEPEND=""
-RDEPEND=""
+RDEPEND="net-analyzer/wireshark[tfshark]"
 PDEPEND="net-wireless/aircrack-ng
 	dev-python/pexpect
 	net-wireless/hcxdumptool
