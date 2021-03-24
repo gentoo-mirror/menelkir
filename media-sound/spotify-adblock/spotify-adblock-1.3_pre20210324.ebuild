@@ -3,7 +3,7 @@
 
 EAPI=6
 
-SA_COMMIT="f81c8bcd6d1f6f01b2641eb7980994deef6a3511"
+SA_COMMIT="8e18174885017041f142ade605c270c82a5c21e7"
 
 DESCRIPTION="Spotify adblocker for linux"
 HOMEPAGE="https://github.com/abba23/spotify-adblock-linux"
