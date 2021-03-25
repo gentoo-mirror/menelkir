@@ -17,6 +17,8 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
+CFLAGS="" # Doesn't compile without this
+
 src_configure() {
 	# Skip the ./configure script.
 	true

@@ -14,6 +14,8 @@ KEYWORDS=""
 LICENSE="GPL-2"
 SLOT="0"
 
+CFLAGS="" # Doesn't compile without this
+
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
