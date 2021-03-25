@@ -22,6 +22,6 @@ RDEPEND="${DEPEND}
 CFLAGS="" # Doesn't compile without this
 
 src_compile() {
-	use custom-cflags || filter-flags -O*
+#	use custom-cflags || filter-flags -O*
 	libretro-core_src_compile
 }
