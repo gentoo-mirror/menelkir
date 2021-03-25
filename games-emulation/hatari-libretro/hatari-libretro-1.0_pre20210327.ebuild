@@ -4,7 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/hatari"
-LIBRETRO_COMMIT_SHA="561c07ee5143d651ee0c04ce31b91ffebc95e299"
+LIBRETRO_COMMIT_SHA="cea06eebf695b078fadc0e78bb0f2b2baaca799f"
 
 inherit libretro-core
 
@@ -24,4 +24,9 @@ RDEPEND="${DEPEND}
 src_configure() {
 	# Skip the ./configure script.
 	true
+}
+
+src_compile() {
+	use custom-cflags || filter-flags -O*
+	libretro-core_src_compile
 }

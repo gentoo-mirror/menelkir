@@ -4,23 +4,19 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/blastem"
-LIBRETRO_COMMIT_SHA="a530f83b4f161e8e08e211a68592f38b1fd37d00"
 
-inherit libretro-core
+inherit libretro-core git-r3
 
 DESCRIPTION="A fast and accurate Genesis emulator"
 HOMEPAGE="https://github.com/libretro/blastem"
-KEYWORDS="~amd64 ~x86"
-
-CFLAGS="" # It'll break without it
+KEYWORDS=""
 
 LICENSE="GPL-3"
 SLOT="0"
 
-DEPEND=""
-RDEPEND="${DEPEND}
-		games-emulation/libretro-info"
+LIBRETRO_CORE_LIB_FILE="${S}/blastem_libretro.so"
 
 src_compile() {
-	emake -f Makefile.libretro
+	use custom-cflags || filter-flags -O*
+	libretro-core_src_compile
 }
