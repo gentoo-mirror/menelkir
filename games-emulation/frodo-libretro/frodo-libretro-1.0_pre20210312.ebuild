@@ -4,7 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/frodo-libretro"
-LIBRETRO_COMMIT_SHA="6a2a94a2e12027987fa5609d407b78647efb8b8e"
+LIBRETRO_COMMIT_SHA="36137aa47885ff6e7b16f1610ef870955c226850"
 
 inherit libretro-core
 
@@ -15,9 +15,13 @@ KEYWORDS="~amd64 ~x86"
 LICENSE="GPL-2"
 SLOT="0"
 
-CFLAGS="" # Doesn't compile without this
-
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
+CFLAGS="" # Doesn't compile without this
+
+src_compile() {
+	use custom-cflags || filter-flags -O*
+	libretro-core_src_compile
+}
