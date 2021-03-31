@@ -3,6 +3,7 @@ DEPEND=!<=games-emulation/libretro-common-shaders-1
 DESCRIPTION=glsl shaders converted by hand from libretro's common-shaders repo
 EAPI=7
 HOMEPAGE=https://github.com/libretro/glsl-shaders
+INHERIT=libretro
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=!<=games-emulation/libretro-common-shaders-1

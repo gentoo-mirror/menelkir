@@ -2,6 +2,7 @@ DEFINED_PHASES=install
 DESCRIPTION=Collection of slang shaders for vulkan backends.
 EAPI=7
 HOMEPAGE=https://github.com/libretro/slang-shaders
+INHERIT=libretro
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RESTRICT=primaryuri

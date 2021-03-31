@@ -3,6 +3,7 @@ DEPEND=virtual/udev
 DESCRIPTION=RetroArch joypad autoconfig files
 EAPI=7
 HOMEPAGE=https://github.com/libretro/retroarch-joypad-autoconfig
+INHERIT=libretro
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=virtual/udev
