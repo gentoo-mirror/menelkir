@@ -139,7 +139,7 @@ games-emulation/quicknes-libretro 1.0_pre20210115 9999-r3: libretro implementati
 games-emulation/race-libretro 1.0_pre20210115 9999: Modified ngpc emulator to run on psp, ported to libretro
 games-emulation/redbook-libretro 1.0_pre20190621 9999: Libretro core for redbook audio playback
 games-emulation/reminiscence-libretro 1.0_pre20210124 9999-r3: Flashback engine implementation for libretro
-games-emulation/retroarch 1.9.0-r2 9999-r1: Frontend for emulators, game engines and media players
+games-emulation/retroarch 1.9.1 9999-r1: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20210113 9999: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20210125 9999-r3: RetroArch joypad autoconfig files
 games-emulation/retrodream-libretro 1.0_pre20200607 9999-r3: libretro implementation of redream. (SEGA Dreamcast)
@@ -247,10 +247,10 @@ net-wireless/wifite 2.2.5-r2 9999: An automated wireless attack tool
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
 sys-kernel/dkms 2.8.4: Dynamic Kernel Module Support
 www-apps/geckodriver 0.23.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
-www-client/brave-beta-bin 1.23.48: Brave Web Browser
-www-client/brave-bin 1.22.67: Brave Web Browser
-www-client/brave-dev-bin 1.23.47: Brave Web Browser
-www-client/brave-nightly-bin 1.24.16: Brave Web Browser
+www-client/brave-beta-bin 1.24.60: Brave Web Browser
+www-client/brave-bin 1.23.70: Brave Web Browser
+www-client/brave-dev-bin 1.24.61: Brave Web Browser
+www-client/brave-nightly-bin 1.25.15: Brave Web Browser
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2-r3: Settings editor for LightDM GTK+ greeter
