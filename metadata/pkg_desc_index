@@ -25,7 +25,7 @@ games-emulation/3dengine-libretro 1.0_pre20210107 9999-r3: 3D Engine for libretr
 games-emulation/81-libretro 1.0_pre20210114 9999-r3: A port of the EightyOne ZX81 Emulator to libretro.
 games-emulation/atari800-libretro 1.0_pre20210117 9999-r3: Atari800 libretro core
 games-emulation/bk-libretro 1.0_pre20210114 9999: BK-0010/0011/Terak 8510a emulator for libretro
-games-emulation/blastem-libretro 1.0_pre20210311 9999-r1: A fast and accurate Genesis emulator
+games-emulation/blastem-libretro 1.0_pre20210311-r1 9999-r1: A fast and accurate Genesis emulator
 games-emulation/bluemsx-libretro 1.0_pre20210119 9999-r3: Port of blueMSX to the libretro API
 games-emulation/boom3-libretro 1.0_pre20210107 9999: Doom 3 GPL source port for libretro
 games-emulation/bsnes-mercury-performance-libretro 1.0_pre20210110 9999: Libretro fork of bsnes
