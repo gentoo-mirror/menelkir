@@ -55,6 +55,13 @@ games-emulation/stonesoup-libretro
 games-emulation/mame-libretro
 games-emulation/hbmame-libretro
 
+# Daiel Menelkir <menelkir@itroll.org> 2021-04-16
+# Broken.
+# Consider using an alternative:
+# 	games-emulation/gambatte-libretro
+#
+games-emulation/sameboy-libretro
+
 # Daniel Menelkir <menelkir@itroll.org> 2020-08-10
 # Work in Progress
 #
