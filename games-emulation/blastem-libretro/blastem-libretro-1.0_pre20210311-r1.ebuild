@@ -6,7 +6,7 @@ EAPI=7
 LIBRETRO_REPO_NAME="libretro/blastem"
 LIBRETRO_COMMIT_SHA="e70b05bf5b5954140cba227fc996ab24c064d494"
 
-inherit libretro-core 
+inherit libretro-core
 
 DESCRIPTION="A fast and accurate Genesis emulator"
 HOMEPAGE="https://github.com/libretro/blastem"
@@ -17,7 +17,12 @@ SLOT="0"
 
 LIBRETRO_CORE_LIB_FILE="${S}/blastem_libretro.so"
 
-src_compile() {
-	use custom-cflags || filter-flags -O*
-	libretro-core_src_compile
+DEPEND=""
+RDEPEND="${DEPEND}
+		games-emulation/libretro-info"
+
+pkg_preinst() {
+	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
+		first_install="1"
+	fi
 }
