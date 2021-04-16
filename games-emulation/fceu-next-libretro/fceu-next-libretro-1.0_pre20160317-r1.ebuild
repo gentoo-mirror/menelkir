@@ -14,7 +14,7 @@ KEYWORDS="~amd64 ~x86"
 LICENSE="GPL-2"
 SLOT="0"
 
-DEPEND="!games-emulation/fceumm-libretro"
+DEPEND="!games-emulation/libretro-fceumm"
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
