@@ -41,7 +41,7 @@ games-emulation/crocods-libretro 1.0_pre20210107 9999-r3: CrocoDS libretro core
 games-emulation/daphne-libretro 9999: Arcade laserdisc libretro core
 games-emulation/desmume-libretro 1.0_pre20210109 9999-r3: libretro implementation of DeSmuME. (Nintendo DS)
 games-emulation/dinothawr-libretro 1.0_pre20210107 9999-r3: Dinothawr is a block pushing puzzle game on slippery surfaces.
-games-emulation/dolphin-libretro 1.0_pre20210110 9999: A Gamecube/Wii emulator core for libretro
+games-emulation/dolphin-libretro 1.0_pre20210405 9999: A Gamecube/Wii emulator core for libretro
 games-emulation/dosbox-core-libretro 9999: Improved DOSBox libretro core
 games-emulation/dosbox-svn-libretro 9999: DOSBox libretro core
 games-emulation/duckstation-libretro 1.0_pre20210128: Fast Sony Playstation emulator.
@@ -87,7 +87,7 @@ games-emulation/libretro-common-overlays 1_pre20201221 9999-r3: Collection of ov
 games-emulation/libretro-common-shaders 1_pre20201221 9999-r3: Collection of commonly used Cg shaders
 games-emulation/libretro-database 1_pre20210126 9999-r4: Repository containing cheatcode files, content data files, etc.
 games-emulation/libretro-info 1_pre20210116 9999-r3: Libretro info files required for libretro cores
-games-emulation/libretro-meta 9999-r18: Meta package for various libretro implementations
+games-emulation/libretro-meta 9999-r19: Meta package for various libretro implementations
 games-emulation/lutro-libretro 1.0_pre20210115 9999-r3: An experimental lua game framework for libretro following the LOVE API.
 games-emulation/mame-libretro 1.0_pre20210127 9999-r3: MAME (current) for libretro.
 games-emulation/mame2000-libretro 1.0_pre20200709 9999-r3: MAME2000 (0.37b5) for libretro.
@@ -250,6 +250,7 @@ net-wireless/rtl8812au_aircrack-ng 5.6.4.2_p20200816 9999: RTL8812AU/21AU and RT
 net-wireless/wifite 2.2.5-r2 9999: An automated wireless attack tool
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
 sys-kernel/dkms 2.8.4: Dynamic Kernel Module Support
+sys-libs/minizip-ng 3.0.1: Fork of the popular zip manipulation library found in the zlib distribution.
 www-apps/geckodriver 0.23.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
 www-client/brave-beta-bin 1.24.60: Brave Web Browser
 www-client/brave-bin 1.23.70: Brave Web Browser
