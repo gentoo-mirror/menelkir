@@ -13,7 +13,7 @@ KEYWORDS=""
 
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="gles2 vulkan"
+IUSE="gles2 gles3 vulkan"
 
 RDEPEND="media-libs/mesa:0=
 	gles2? ( media-libs/mesa[gles2] )
@@ -29,6 +29,7 @@ src_compile() {
 		$(usex arm "platform=rpi WITH_DYNAREC=arm" "")
 		$(usex arm64 "platform=rpi WITH_DYNAREC=aarch64" "")
 		$(usex gles2 "FORCE_GLES=1" "FORCE_GLES=0")
+		$(usex gles3 "FORCE_GLES3=1" "FORCE_GLES=0")
 		$(usex vulkan "HAVE_PARALLEL=1" "HAVE_PARALLEL=0")
 	)
 	libretro-core_src_compile
