@@ -200,3 +200,7 @@ net-wireless/fern-wifi-cracker:dict - Add support sys-apps/cracklib-words (large
 net-wireless/hcxdumptool:gpio - Build with GPIO support
 net-wireless/wifite:dict - Use dictionaries
 sys-kernel/dkms:kernel-hooks - Enable automatic rebuilding of modules via kernel source makefile hooks
+x11-misc/polybar:i3wm - Add support for i3 window manager
+x11-misc/polybar:ipc - Add support for Inter-Process Messaging
+x11-misc/polybar:mpd - Add support for Music Player Daemon
+x11-misc/polybar:network - Enable network support

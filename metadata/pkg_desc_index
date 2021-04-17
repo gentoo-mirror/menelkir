@@ -21,7 +21,7 @@ dev-python/spry 0.5.5: social media scanner
 dev-python/w3lib 1.22.0: Library of web-related functions
 dev-python/websockets 8.1-r2: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
 dev-util/nihstro 1.0_pre20180113: 3DS shader assembler and disassembler
-dev-util/pmbootstrap 1.29.2: Sophisticated chroot/build/flash tool to develop and install postmarketOS.
+dev-util/pmbootstrap 1.31.0: Sophisticated chroot/build/flash tool to develop and install postmarketOS.
 games-action/technic-launcher 4.625: Minecraft launcher for community-made modpacks on the Technic Platform
 games-emulation/3dengine-libretro 1.0_pre20210107 9999-r3: 3D Engine for libretro GL with additional features
 games-emulation/81-libretro 1.0_pre20210114 9999-r3: A port of the EightyOne ZX81 Emulator to libretro.
@@ -256,6 +256,7 @@ www-client/brave-nightly-bin 1.25.15: Brave Web Browser
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/lightdm-gtk-greeter-settings 1.2.2-r3: Settings editor for LightDM GTK+ greeter
+x11-misc/polybar 9999: A fast and easy-to-use status bar
 x11-plugins/pidgin-battlenet 9999: Libpurple (Pidgin) plugin for Battle.net
 x11-plugins/pidgin-icyque 9999-r2: ICQ WIM protocol for libpurple
 x11-plugins/pidgin-instagram 9999: Libpurple (Pidgin) plugin for instagram DMs
