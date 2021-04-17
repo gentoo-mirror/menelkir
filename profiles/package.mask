@@ -66,5 +66,6 @@ games-emulation/sameboy-libretro
 # Work in Progress
 #
 games-emulation/play-libretro
+games-emulation/dosbox-core-libretro
 games-emulation/vita3k
 games-emulation/yuzu
