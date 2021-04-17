@@ -25,7 +25,7 @@ games-emulation/mgba-libretro
 # Consider using an alternative:
 # 	games-emulation/parallel-n64-libretro
 #
-# games-emulation/mupen64next-libretro
+games-emulation/mupen64next-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
