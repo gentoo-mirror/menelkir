@@ -42,6 +42,8 @@ games-emulation/daphne-libretro 9999: Arcade laserdisc libretro core
 games-emulation/desmume-libretro 1.0_pre20210109 9999-r3: libretro implementation of DeSmuME. (Nintendo DS)
 games-emulation/dinothawr-libretro 1.0_pre20210107 9999-r3: Dinothawr is a block pushing puzzle game on slippery surfaces.
 games-emulation/dolphin-libretro 1.0_pre20210110 9999: A Gamecube/Wii emulator core for libretro
+games-emulation/dosbox-core-libretro 9999: Improved DOSBox libretro core
+games-emulation/dosbox-svn-libretro 9999: DOSBox libretro core
 games-emulation/duckstation-libretro 1.0_pre20210128: Fast Sony Playstation emulator.
 games-emulation/easyrpg-libretro 1.0_pre20210122 9999: A game interpreter to play RPG Maker 2000, 2003 and EasyRPG games
 games-emulation/ecwolf-libretro 1.0_pre20210109 9999: Updated engine for wolfenstein 3D and compatibles
@@ -85,7 +87,7 @@ games-emulation/libretro-common-overlays 1_pre20201221 9999-r3: Collection of ov
 games-emulation/libretro-common-shaders 1_pre20201221 9999-r3: Collection of commonly used Cg shaders
 games-emulation/libretro-database 1_pre20210126 9999-r4: Repository containing cheatcode files, content data files, etc.
 games-emulation/libretro-info 1_pre20210116 9999-r3: Libretro info files required for libretro cores
-games-emulation/libretro-meta 9999-r17: Meta package for various libretro implementations
+games-emulation/libretro-meta 9999-r18: Meta package for various libretro implementations
 games-emulation/lutro-libretro 1.0_pre20210115 9999-r3: An experimental lua game framework for libretro following the LOVE API.
 games-emulation/mame-libretro 1.0_pre20210127 9999-r3: MAME (current) for libretro.
 games-emulation/mame2000-libretro 1.0_pre20200709 9999-r3: MAME2000 (0.37b5) for libretro.
@@ -212,10 +214,10 @@ media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline
 media-fonts/steamfonts 1: Collection of fonts used by Valve's Steam client
 media-libs/celt 0.11.1-r1 0.11.3: CELT is a very low delay audio codec designed for high-quality communications
 media-libs/hal-flash 0.3.3-r1: libhal stub forwarding to UDisks for Adobe Flash to play DRM content
+media-libs/libinstpatch 1.1.6: Library for processing digital sample based MIDI instrument patch files.
 media-libs/wiimms-iso-tools 9999: Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers.
 media-plugins/chrome-widevine 88.0.4324.96: An adapter for playing DRM content
 media-sound/carla 2.2.0 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
-media-sound/munt 2.4.0 9999: Software synthesiser emulating pre-GM MIDI (e.g., Roland MT-32)
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 media-sound/pulseaudio-virtualmic 0.1 9999: Use any offline or online media file or stream as a PulseAudio source
 media-sound/rakarrack 0.6.1: Basic rack of 10 effects for guitar with presets, banks and MIDI control

@@ -182,14 +182,6 @@ media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono f
 media-sound/carla:gtk2 - Use gtk-2 instead of gtk-3
 media-sound/carla:rdf - Enable LADSPA-RDF support
 media-sound/carla:sf2 - Enable builtin SF2 sample support using media-sound/fluidsynth
-media-sound/munt:alsa - Build Qt-based ALSA driver
-media-sound/munt:c - Build C-compatible API
-media-sound/munt:cpp - Expose C++ class ABI
-media-sound/munt:libsamplerate - Resample audio with Secret Rabbit Code (SRC)
-media-sound/munt:libsoxr - Resample audio with SoX Resampler (SoXR) (recommended)
-media-sound/munt:portaudio - Build Qt-based PortAudio driver
-media-sound/munt:pulseaudio - Build Qt-based PulseAudio driver
-media-sound/munt:smf2wav - Build "smf2wav" conversion utility
 net-im/cawbird:spellcheck - Enable spell check support
 net-misc/megasync:cryptopp - Compile with Crypto++ Library.
 net-misc/megasync:dolphin - Upload your files to your Mega account from Dolphin file manager.
