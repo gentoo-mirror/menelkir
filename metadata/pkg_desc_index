@@ -15,6 +15,7 @@ dev-libs/libg15 1.2.9 3.0.1 9999: The libg15 library gives low-level access to t
 dev-libs/libg15render 3.0.2 9999: Small library for display text and graphics on a Logitech G15 keyboard
 dev-libs/liblcf 0.6.2 9999: Library to handle RPG Maker 2000/2003 and EasyRPG projects
 dev-python/fpdf 1.7.2: Simple PDF generation for Python
+dev-python/imdbpy 9999: Python package to access the IMDb's database
 dev-python/parse 1.15.0 1.19.0: parse() is the opposite of format()
 dev-python/python-telegram 0.13.0 0.14.0: Python client for the Telegram's tdlib
 dev-python/spry 0.5.5: social media scanner
@@ -222,6 +223,7 @@ media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 media-sound/pulseaudio-virtualmic 0.1 9999: Use any offline or online media file or stream as a PulseAudio source
 media-sound/rakarrack 0.6.1: Basic rack of 10 effects for guitar with presets, banks and MIDI control
 media-sound/spotify-adblock 1.3_pre20210324: Spotify adblocker for linux
+media-tv/hypnotix 1.6: An IPTV streaming application
 media-tv/popcorntime-bin 0.4.4: Watch torrent movies instantly
 media-tv/qtwebflix 9999: A QT webengine frontend for netflix (and other streaming services)
 media-tv/stremio-shell 9999: Watch videos, movies, TV series and TV channels instantly. (Beta Version)
