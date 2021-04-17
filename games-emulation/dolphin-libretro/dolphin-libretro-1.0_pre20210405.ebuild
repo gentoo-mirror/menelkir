@@ -4,13 +4,14 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/dolphin"
+LIBRETRO_COMMIT_SHA="d86c545a40a3065d2a7920f48d045b3435dd1a8d"
 LIBRETRO_CORE_NAME="dolphin"
 
-inherit git-r3 libretro-core cmake
+inherit libretro-core cmake
 
 DESCRIPTION="A Gamecube/Wii emulator core for libretro"
 HOMEPAGE="https://github.com/libretro/dolphin"
-KEYWORDS=""
+KEYWORDS="~amd64"
 
 LICENSE="GPL-2"
 SLOT="0"
