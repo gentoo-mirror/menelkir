@@ -88,7 +88,7 @@ games-emulation/libretro-common-overlays 1_pre20201221 9999-r3: Collection of ov
 games-emulation/libretro-common-shaders 1_pre20201221 9999-r3: Collection of commonly used Cg shaders
 games-emulation/libretro-database 1_pre20210126 9999-r4: Repository containing cheatcode files, content data files, etc.
 games-emulation/libretro-info 1_pre20210116 9999-r3: Libretro info files required for libretro cores
-games-emulation/libretro-meta 9999-r22: Meta package for various libretro implementations
+games-emulation/libretro-meta 9999-r23: Meta package for various libretro implementations
 games-emulation/lowresnx-libretro 1.0_pre20210327 9999: A simulated retro game console
 games-emulation/lutro-libretro 1.0_pre20210115 9999-r3: An experimental lua game framework for libretro following the LOVE API.
 games-emulation/mame-libretro 1.0_pre20210127 9999-r3: MAME (current) for libretro.
@@ -147,6 +147,7 @@ games-emulation/quicknes-libretro 1.0_pre20210115 9999-r3: libretro implementati
 games-emulation/race-libretro 1.0_pre20210115 9999: Modified ngpc emulator to run on psp, ported to libretro
 games-emulation/redbook-libretro 1.0_pre20190621 9999: Libretro core for redbook audio playback
 games-emulation/reminiscence-libretro 1.0_pre20210124 9999-r3: Flashback engine implementation for libretro
+games-emulation/retro8-libretro 1.0_pre20210314 9999: PICO-8 implementation with SDL2 and RetroArch back-ends
 games-emulation/retroarch 1.9.0-r2 9999-r1: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20210113 9999: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20210125 9999-r3: RetroArch joypad autoconfig files
