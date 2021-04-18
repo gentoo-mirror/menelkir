@@ -7,6 +7,15 @@ dev-games/godot:enet - Enable support for net-libs/enet
 dev-games/godot:freetype - Enable support for media-libs/freetype
 dev-games/godot:lto - Enable support for link time optimization
 dev-games/godot:mbedtls - Enable support for net-libs/mbedtls
+games-emulation/duckstation:discord - Enable Discord Rich Presence to show the current game on Discord
+games-emulation/duckstation:egl - Enable EGL support
+games-emulation/duckstation:evdev - Support EVDev controller interface
+games-emulation/duckstation:fbdev - Support FBDev OpenGL contexts
+games-emulation/duckstation:gamepad - Link with SDL2 for controller support
+games-emulation/duckstation:gbm - Support DRM/KMS OpenGL contexts
+games-emulation/duckstation:nogui - Build the NoGUI frontend
+games-emulation/duckstation:qt5 - Build the QT frontend
+games-emulation/duckstation:retroachievements - Build with RetroAchievements supports
 games-emulation/emulationstation-themes-meta:carbon - Carbon Theme
 games-emulation/emulationstation-themes-meta:carbon-centered - Carbon-Centered Theme
 games-emulation/emulationstation-themes-meta:carbon-nometa - Carbon theme without the metadata
@@ -113,6 +122,12 @@ games-emulation/mgba-libretro:pgo - Build using Profile Guided Optimization (PGO
 games-emulation/mgba-libretro:pgopost - Make use of PGO
 games-emulation/mupen64next-libretro:gles2 - Enable GLES2 support
 games-emulation/mupen64next-libretro:vulkan - Enable vulkan support
+games-emulation/np2kai:X - Build support for X
+games-emulation/np2kai:haxm - Enable haxm emulation
+games-emulation/np2kai:i286 - Enable i286 emulation USE="ia32" or USE="haxm" will disable it, unless all 3 emulation USE flags are set
+games-emulation/np2kai:ia32 - Enable ia32 emulation
+games-emulation/np2kai:sdl - Use media-libs/libsdl instead of media-libs/libsdl2
+games-emulation/np2kai:sdl2 - Use media-libs/libsdl2 instead of media-libs/libsdl
 games-emulation/openlara-libretro:gles2 - Enable support for GLES2
 games-emulation/parallel-n64-libretro:gles2 - Enable GLES2 support
 games-emulation/parallel-n64-libretro:vulkan - Enable vulkan support
@@ -175,6 +190,7 @@ net-wireless/fern-wifi-cracker:dict - Add support sys-apps/cracklib-words (large
 net-wireless/hcxdumptool:gpio - Build with GPIO support
 net-wireless/wifite:dict - Use dictionaries
 sys-kernel/dkms:kernel-hooks - Enable automatic rebuilding of modules via kernel source makefile hooks
+www-client/torbrowser-launcher:apparmor - Enable AppArmor support
 x11-misc/polybar:i3wm - Add support for i3 window manager
 x11-misc/polybar:ipc - Add support for Inter-Process Messaging
 x11-misc/polybar:mpd - Add support for Music Player Daemon
