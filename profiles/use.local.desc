@@ -2,11 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-dev-games/godot:bullet - Enable support for sci-physics/bullet
-dev-games/godot:enet - Enable support for net-libs/enet
-dev-games/godot:freetype - Enable support for media-libs/freetype
-dev-games/godot:lto - Enable support for link time optimization
-dev-games/godot:mbedtls - Enable support for net-libs/mbedtls
 games-emulation/duckstation:discord - Enable Discord Rich Presence to show the current game on Discord
 games-emulation/duckstation:egl - Enable EGL support
 games-emulation/duckstation:evdev - Support EVDev controller interface

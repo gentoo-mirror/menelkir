@@ -7,7 +7,6 @@ app-misc/g15message 1.2 9999: A simple message/alert client for G15daemon
 app-misc/g15mpd 1.1 9999: MPD (music player daemon) plugin to G15daemon
 app-misc/g15stats 3.0.1 9999: CPU, memory, swap, network stats for G15 Keyboard
 app-mobilephone/scrcpy 1.17: Display and control your Android device
-dev-games/godot 3.2.3: Multi-platform 2D and 3D game engine
 dev-lang/rgbds 0.4.0 0.4.1 0.4.2: Free assembler/linker package for the Game Boy and Game Boy Color
 dev-libs/breakpad 0_p20200604 9999: A crash-reporting system
 dev-libs/dynarmic 1.0_pre20200809 9999: An ARM dynamic recompiler
