@@ -15,7 +15,7 @@ EGIT_SUBMODULES=( '*' '-*llvm*' )
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="alsa faudio pulseaudio evdev discord-rpc vulkan llvm"
+IUSE="alsa faudio pulseaudio evdev discord-rpc vulkan llvm X wayland"
 
 RDEPEND="dev-qt/qtcore:5=
 	dev-qt/qtgui:5=
@@ -35,7 +35,9 @@ RDEPEND="dev-qt/qtcore:5=
 	faudio? ( app-emulation/faudio:= media-libs/libsdl2:= )
 	pulseaudio? ( media-sound/pulseaudio:= )
 	evdev? ( dev-libs/libevdev:= )
-	vulkan? ( media-libs/vulkan-loader[X,wayland] )"
+	vulkan? ( media-libs/vulkan-loader )
+	X? ( media-libs/vulkan-loader[X] )
+	wayland? ( media-libs/vulkan-loader[wayland] )"
 DEPEND="${RDEPEND}"
 BDEPEND=">=dev-util/cmake-3.14.1"
 
