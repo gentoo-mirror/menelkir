@@ -4,8 +4,8 @@
 EAPI=6
 
 LIBRETRO_REPO_NAME="libretro/mame"
-LIBRETRO_COMMIT_SHA="b546d9563b162102f524b319f4aaf524866e9258"
-inherit flag-o-matic check-reqs libretro-core
+LIBRETRO_COMMIT_SHA="98b0ba18a9109339c2ebf4f5945f6c3575301ba9"
+inherit check-reqs libretro-core
 
 DESCRIPTION="MAME (current) for libretro."
 HOMEPAGE="https://github.com/libretro/mame"
@@ -18,8 +18,8 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-CHECKREQS_MEMORY="8G" # Debug build requires more see bug #47
-CHECKREQS_DISK_BUILD="25G" # Debug build requires more see bug #47
+CHECKREQS_MEMORY="8G" # Debug build requires more
+CHECKREQS_DISK_BUILD="25G" # Debug build requires more
 
 pkg_pretend() {
 		einfo "Checking for sufficient disk space to build ${PN} with debugging CFLAGS"
@@ -28,6 +28,13 @@ pkg_pretend() {
 
 pkg_setup() {
 		check-reqs_pkg_setup
+}
+
+src_compile() {
+		myemakeargs=(
+			PTR64=1
+		)
+		libretro-core_src_compile
 }
 
 pkg_preinst() {
