@@ -34,11 +34,13 @@ games-emulation/bk-libretro 1.0_pre20210114 9999: BK-0010/0011/Terak 8510a emula
 games-emulation/blastem-libretro 1.0_pre20210311-r1 9999-r1: A fast and accurate Genesis emulator
 games-emulation/bluemsx-libretro 1.0_pre20210119 9999-r3: Port of blueMSX to the libretro API
 games-emulation/boom3-libretro 1.0_pre20210107 9999: Doom 3 GPL source port for libretro
+games-emulation/bsnes-hd 10.4_beta-r2: bsnes fork that adds HD video features.
 games-emulation/bsnes-mercury-performance-libretro 1.0_pre20210110 9999: Libretro fork of bsnes
 games-emulation/bsnes2014-performance-libretro 1.0_pre20210111 9999: Libretro fork of bsnes
 games-emulation/cannonball-libretro 1.0_pre20210110 9999-r3: An Enhanced OutRun Engine.
 games-emulation/cap32-libretro 1.0_pre20210110 9999-r3: Caprice32 libretro core
 games-emulation/chailove-libretro 9999: 2D Game Framework with ChaiScript
+games-emulation/citra 20210403: A Nintendo 3DS emulator.
 games-emulation/citra-libretro 1.0_pre20210121: Nintendo 3DS for libretro
 games-emulation/craft-libretro 1.0_pre20210127 9999-r3: libretro implementation of Craft. (Minecraft clone)
 games-emulation/crocods-libretro 1.0_pre20210107 9999-r3: CrocoDS libretro core
@@ -116,6 +118,7 @@ games-emulation/mednafen-supafaust-libretro 1.0_pre20210127 9999: Unsupported SN
 games-emulation/mednafen-supergrafx-libretro 1.0_pre20210128 9999-r3: libretro implementation of Mednafen Supergrafx. (SuperGrafx TG-16)
 games-emulation/mednafen-vb-libretro 1.0_pre20210113 9999-r3: libretro implementation of Mednafen VB. (Virtual Boy)
 games-emulation/mednafen-wswan-libretro 1.0_pre20210113 9999-r3: libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)
+games-emulation/melonds 0.9.1-r1: A fast and accurate Nintendo DS emulator.
 games-emulation/melonds-libretro 1.0_pre20210119 9999-r3: libretro implementation of melonDS. (NintendoDS)
 games-emulation/meowpc98-libretro 1.0_pre20211001 9999-r3: Neko Project 2 (PC98 emulator) port for libretro/RetroArch (XNP2)
 games-emulation/mesen-libretro 0.9.9 9999: libretro implementation of Mesen. (Nintendo Entertainment System)
@@ -139,7 +142,9 @@ games-emulation/openmsx-catapult 16.0 9999: OpenMSX emulator GUI
 games-emulation/opera-libretro 1.0_pre20210128 9999-r3: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
 games-emulation/parallel-n64-libretro 1.0_pre20210127 9999: Rewritten Nintendo 64 emulator made specifically for Libretro.
 games-emulation/pcsx-rearmed-libretro 1.0_pre20210113 9999-r3: libretro implementation of PCSX ReARMed. (PlayStation)
+games-emulation/pcsx2-ex 2.35.0: A PlayStation 2 emulator
 games-emulation/picodrive-libretro 9999-r3: libretro implementation of PicoDrive. (Sega GameGear/Sega CD/32X)
+games-emulation/play 0.39: PlayStation 2 emulator.
 games-emulation/play-libretro 1.0_pre20210107 9999: Sony Playstation 2 libretro core
 games-emulation/pocketcdg-libretro 1.0_pre20210110 9999-r3: PocketCDG libretro port.
 games-emulation/pokemini-libretro 1.0_pre20210120 9999-r3: Obscure nintendo handheld emulator.
@@ -153,13 +158,14 @@ games-emulation/quasi88-libretro 1.0_pre20200116 9999-r3: A PC-8800 series emula
 games-emulation/quicknes-libretro 1.0_pre20210115 9999-r3: libretro implementation of QuickNES. (Nintendo Entertainment System)
 games-emulation/race-libretro 1.0_pre20210115 9999: Modified ngpc emulator to run on psp, ported to libretro
 games-emulation/redbook-libretro 1.0_pre20190621 9999: Libretro core for redbook audio playback
+games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/reminiscence-libretro 1.0_pre20210124 9999-r3: Flashback engine implementation for libretro
 games-emulation/retro8-libretro 1.0_pre20210314 9999: PICO-8 implementation with SDL2 and RetroArch back-ends
 games-emulation/retroarch 1.9.0-r2 9999-r1: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20210113 9999: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20210125 9999-r3: RetroArch joypad autoconfig files
 games-emulation/retrodream-libretro 1.0_pre20200607 9999-r3: libretro implementation of redream. (SEGA Dreamcast)
-games-emulation/rpcs3 0.0.15 9999: Open source PlayStation 3 emulator
+games-emulation/rpcs3 0.0.15: PS3 emulator and debugger.
 games-emulation/sameboy-libretro 1.0_pre20210314 9999: libretro implementation of SameBoy (Gameboy / Gameboy Color)
 games-emulation/scummvm-libretro 1.0_pre20200107 9999-r3: libretro implementation of ScummVM
 games-emulation/slang-shaders 1.0_pre20210116 9999-r3: Collection of slang shaders for vulkan backends.
@@ -198,7 +204,7 @@ games-emulation/x1-libretro 1.0_pre20210108 9999: Libretro port of X Millennium 
 games-emulation/xnp2 9999: X Neko Project II, a PC-9801 emulator (PC98)
 games-emulation/xrick-libretro 1.0_pre20200124 9999-r3: Xrick is an open source implementation of Rick Dangerous for libretro.
 games-emulation/yabause-libretro 1.0_pre20210125 9999-r3: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
-games-emulation/yuzu 9999: Nintendo Switch Emulator
+games-emulation/yuzu 0.590: Nintendo Switch emulator
 games-engines/ags 3.5.0.31 9999: Adventure Game Studio (AGS) runtime engine
 games-engines/easyrpg-player 0.6.2.3 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
 games-fps/brutal-doom 21: A mod that attempts to make Doom faster placed, harder, gorier and more violent.
@@ -246,6 +252,8 @@ media-tv/stremio-shell 9999: Watch videos, movies, TV series and TV channels ins
 media-video/apple_facetimehd_firmware 1.43.0: Firmware for the Apple Facetime HD Camera
 media-video/bcwc_pcie 9999: Reverse engineered Linux driver for the Broadcom 1570 PCIe webcam
 media-video/kazam 1.4.5 9999: A screencasting program with design in mind
+net-dns/pihole 5.3.1: Network-wide ad blocking (core).
+net-dns/pihole-ftl 5.8: The Pi-hole FTL engine
 net-im/cawbird 1.3.2 9999: Native GTK+3 Twitter client, forked from Corebird
 net-im/discord-canary-bin 0.0.119-r1: All-in-one voice and text chat
 net-im/franz-bin 5.6.1: Free messaging app for services like WhatsApp, Slack, Messenger and many more
