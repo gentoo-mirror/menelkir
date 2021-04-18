@@ -10,14 +10,14 @@ SLOT="0"
 IUSE="2048 3dengine 81 atari800 bk blastem bluemsx bnes boom3 bsnes bsnes-mercury cannonball cap32 chailove citra \
 	craft crocods desmume dinothawr dolphin dosbox dosbox-svn ecwolf fbalpha fbalpha2012 fbneo fceumm fceu-next \
 	ffmpeg flycast fmsx freechaf freeintv frodo fuse gambatte gearboy gearsystem genesis_plus_gx gme gpsp gw handy \
-	hatari lowresnx lutro mame2000 mame2003 mame2003_plus-libretro mame2010 mame2015 mess2015 mednafen-bsnes mednafen-gba \
-	mednafen-lynx mednafen-ngp mednafen-pce mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn \
-	mednafen-supergrafx mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mrboom mu np2kai neocd nestopia \
-	nxengine o2em oberon opera parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom prosystem puae px68k \
-	quicknes quasi88 race retrodream reminiscence sameboy scummvm snes9x snes9x2002 snes9x2005 snes9x2010 \
-	squirreljme stella2014 tgbdual tic80 theodore thepowdertoy tyrquake uzem vba-next vbam vecx vemulator \
-	vice-x128 vice-x64 vice-x64sc vice-xcbm2 vice-xcbm5x0 vice-xpet vice-xplus4 vice-xscpu64 vice-xvic \
-	virtualjaguar vitaquake2 vitaquake3 x1 xrick yabause"
+	hatari lowresnx lutro mame2000 mame2003 mame2003_plus-libretro mame2010 mame2015 mess2015 mednafen-bsnes \
+	mednafen-gba mednafen-lynx mednafen-ngp mednafen-pce mednafen-pce-fast mednafen-pcfx mednafen-psx \
+	mednafen-saturn mednafen-supafaust mednafen-supergrafx mednafen-vb mednafen-wswan melonds meowpc98 mesen \
+	meteor mrboom mu np2kai neocd nestopia nxengine o2em oberon opera parallel-n64 pcsx-rearmed picodrive \
+	pocketcdg pokemini prboom prosystem puae px68k quicknes quasi88 race retrodream reminiscence sameboy scummvm \
+	snes9x snes9x2002 snes9x2005 snes9x2010 squirreljme stella2014 tgbdual tic80 theodore thepowdertoy tyrquake \
+	uzem vba-next vbam vecx vemulator vice-x128 vice-x64 vice-x64sc vice-xcbm2 vice-xcbm5x0 vice-xpet vice-xplus4 \
+	vice-xscpu64 vice-xvic virtualjaguar vitaquake2 vitaquake3 x1 xrick yabause"
 
 KEYWORDS="~amd64 ~x86"
 
@@ -82,6 +82,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	mednafen-pcfx? ( games-emulation/mednafen-pcfx-libretro )
 	mednafen-psx? ( games-emulation/mednafen-psx-libretro )
 	mednafen-saturn? ( games-emulation/mednafen-saturn-libretro )
+	mednafen-supafaust? ( games-emulation/mednafen-supafaust-libretro )
 	mednafen-supergrafx? ( games-emulation/mednafen-supergrafx-libretro )
 	mednafen-vb? ( games-emulation/mednafen-vb-libretro )
 	mednafen-wswan? ( games-emulation/mednafen-wswan-libretro )
