@@ -30,7 +30,6 @@ games-emulation/easyrpg-libretro
 games-emulation/vitavoyager-libretro
 games-emulation/redbook-libretro
 games-emulation/openlara-libretro
-games-emulation/duckstation-libretro
 games-emulation/stonesoup-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
