@@ -13,7 +13,7 @@ EGIT_SUBMODULES=( '*' '-*llvm*' )
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS=""
 IUSE="alsa faudio pulseaudio evdev discord-rpc vulkan llvm X wayland"
 
 RDEPEND="dev-qt/qtcore:5=
