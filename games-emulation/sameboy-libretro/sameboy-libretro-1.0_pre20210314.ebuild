@@ -4,11 +4,13 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/SameBoy"
-inherit git-r3 libretro-core
+LIBRETRO_COMMIT_SHA="d478d3e0d98ea6bd7d9cde5b9feccbf3fd52631d"
+
+inherit libretro-core
 
 DESCRIPTION="libretro implementation of SameBoy (Gameboy / Gameboy Color)"
 HOMEPAGE="https://github.com/libretro/SameBoy"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-3"
 SLOT="0"
