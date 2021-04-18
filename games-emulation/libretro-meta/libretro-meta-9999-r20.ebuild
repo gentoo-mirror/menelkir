@@ -10,7 +10,7 @@ SLOT="0"
 IUSE="2048 3dengine 81 atari800 bk blastem bluemsx bnes boom3 bsnes bsnes-mercury cannonball cap32 chailove citra \
 	craft crocods desmume dinothawr dolphin dosbox dosbox-svn ecwolf fbalpha fbalpha2012 fbneo fceumm fceu-next \
 	ffmpeg flycast fmsx freechaf freeintv frodo fuse gambatte gearboy gearsystem genesis_plus_gx gme gpsp gw handy \
-	hatari lutro mame2000 mame2003 mame2003_plus-libretro mame2010 mame2015 mess2015 mednafen-bsnes mednafen-gba \
+	hatari lowresnx lutro mame2000 mame2003 mame2003_plus-libretro mame2010 mame2015 mess2015 mednafen-bsnes mednafen-gba \
 	mednafen-lynx mednafen-ngp mednafen-pce mednafen-pce-fast mednafen-pcfx mednafen-psx mednafen-saturn \
 	mednafen-supergrafx mednafen-vb mednafen-wswan melonds meowpc98 mesen meteor mrboom mu np2kai neocd nestopia \
 	nxengine o2em oberon opera parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini prboom prosystem puae px68k \
@@ -65,6 +65,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	gw? ( games-emulation/gw-libretro )
 	handy? ( games-emulation/handy-libretro )
 	hatari? ( games-emulation/hatari-libretro )
+	lowresnx? ( games-emulation/lowresnx-libretro )
 	lutro? ( games-emulation/lutro-libretro )
 	mame2000? ( games-emulation/mame2000-libretro )
 	mame2003? ( games-emulation/mame2003-libretro )
