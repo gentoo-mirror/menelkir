@@ -21,6 +21,10 @@ dev-python/python-telegram 0.13.0 0.14.0: Python client for the Telegram's tdlib
 dev-python/spry 0.5.5: social media scanner
 dev-python/w3lib 1.22.0: Library of web-related functions
 dev-python/websockets 8.1-r2: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
+dev-util/adobe-air-runtime 2.6-r3: Adobe AIR runtime
+dev-util/aosp-devel-meta 7-r1 8 9: Meta package providing AOSP build environment
+dev-util/dex2jar 0.0.9.15 2.0: Tools to work with android .dex and java .class files
+dev-util/lineageos-devel-meta 14.1-r1 15.1: Meta package providing LineageOS build environment
 dev-util/nihstro 1.0_pre20180113: 3DS shader assembler and disassembler
 dev-util/pmbootstrap 1.31.0: Sophisticated chroot/build/flash tool to develop and install postmarketOS.
 games-action/technic-launcher 4.625: Minecraft launcher for community-made modpacks on the Technic Platform
@@ -154,7 +158,7 @@ games-emulation/retroarch 1.9.0-r2 9999-r1: Frontend for emulators, game engines
 games-emulation/retroarch-assets 1_pre20210113 9999: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20210125 9999-r3: RetroArch joypad autoconfig files
 games-emulation/retrodream-libretro 1.0_pre20200607 9999-r3: libretro implementation of redream. (SEGA Dreamcast)
-games-emulation/rpcs3 0.0.13 0.0.14: Open source PlayStation 3 emulator
+games-emulation/rpcs3 0.0.15 9999: Open source PlayStation 3 emulator
 games-emulation/sameboy-libretro 1.0_pre20210314 9999: libretro implementation of SameBoy (Gameboy / Gameboy Color)
 games-emulation/scummvm-libretro 1.0_pre20200107 9999-r3: libretro implementation of ScummVM
 games-emulation/slang-shaders 1.0_pre20210116 9999-r3: Collection of slang shaders for vulkan backends.
@@ -204,11 +208,12 @@ games-rpg/zeldaolb 3.6: The Legend of Zelda - Onilink Begins
 games-rpg/zeldaroth 6.11: The Legend of Zelda - Return of the Hylian
 games-sports/stuntrally 2.6 9999: Rally game focused on closed rally tracks with possible stunt elements.
 games-sports/stuntrally-tracks 2.6 9999: A set of tracks for games-sports/stuntrally-9999
+games-util/esteam 0.20201120: Scan Steam libraries to generate and emerge a Portage set
 games-util/gamehub 0.16.0.1 0.16.0.97: GameHub is a unified library for all your games
 games-util/itch-bin 25.4.1: itch.io game browser, installer and launcher
 games-util/legendary 0.20.6: A free and open-source replacement for the Epic Games Launcher
 games-util/rejoystick 0.8.1: Tool which translates gamepad/joystick input into key strokes/mouse actions in X
-games-util/steam-client-meta 0-r20210321: Meta package for Valve's native Steam client
+games-util/steam-client-meta 0-r20210322: Meta package for Valve's native Steam client
 games-util/steam-launcher 1.0.0.69: Installer, launcher and supplementary files for Valve's Steam client
 games-util/steam-meta 0-r20160817: Meta package for Valve's Steam environment
 kde-misc/plasma-applet-caffeine-plus 1.4 9999: Plasma 5 applet to disable screensaver and auto-suspend
@@ -218,10 +223,12 @@ kde-misc/plasma-applet-weather-widget 1.6.0 9999: Plasma 5 applet for displaying
 kde-misc/plasma-applet-window-appmenu 0.6.0 9999: Plasma 5 applet in order to show the window appmenu
 mate-extra/brisk-menu 0.5.0 9999: Solus Project's Brisk Menu MATE Panel Applet
 mate-extra/mate-tweak 21.04.3 9999: Tweak tool for MATE, a fork of MintDesktop
-media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
 media-fonts/steamfonts 1: Collection of fonts used by Valve's Steam client
+media-gfx/hakuneko 1.4.2 9999: HakuNeko (Legacy) manga downloader
 media-libs/celt 0.11.1-r1 0.11.3: CELT is a very low delay audio codec designed for high-quality communications
 media-libs/hal-flash 0.3.3-r1: libhal stub forwarding to UDisks for Adobe Flash to play DRM content
+media-libs/jpeg-compat 2.0.6-r800: Accelerated JPEG library (libjpeg.so.8 ABI provided by libjpeg-turbo)
+media-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so.4 symlinks for compatibility with Debian
 media-libs/libinstpatch 1.1.6: Library for processing digital sample based MIDI instrument patch files.
 media-libs/wiimms-iso-tools 9999: Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers.
 media-plugins/chrome-widevine 88.0.4324.96: An adapter for playing DRM content
@@ -230,6 +237,7 @@ media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 media-sound/pulseaudio-virtualmic 0.1 9999: Use any offline or online media file or stream as a PulseAudio source
 media-sound/rakarrack 0.6.1: Basic rack of 10 effects for guitar with presets, banks and MIDI control
 media-sound/spotify-adblock 1.3_pre20210324: Spotify adblocker for linux
+media-sound/vgmplay 0.40.9 9999: Video game music (VGM) file command-line player
 media-tv/hypnotix 1.6: An IPTV streaming application
 media-tv/popcorntime-bin 0.4.4: Watch torrent movies instantly
 media-tv/qtwebflix 9999: A QT webengine frontend for netflix (and other streaming services)
@@ -247,20 +255,21 @@ net-misc/megasync 4.4.0.0 9999: The official Qt-based program for syncing your M
 net-news/feedreader 2.11.0: Simple News Feed Reader for feeds aggregated by Tiny Tiny RSS or feedly
 net-p2p/soulseek-qt 20180130: Official binary Qt SoulSeek client
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
-net-wireless/bully 1.1_p20170926: A wifi-protected-setup (WPS) brute force attack tool, similar to reaver
+net-wireless/bully 1.4: A wifi-protected-setup (WPS) brute force attack tool, similar to reaver
 net-wireless/cowpatty 4.8-r1: WLAN tools for bruteforcing 802.11 WPA/WPA2 keys
-net-wireless/fern-wifi-cracker 3.0: Wireless tool for WEP/WPA cracking and WPS keys recovery
+net-wireless/fern-wifi-cracker 3.1 3.3: Wireless tool for WEP/WPA cracking and WPS keys recovery
 net-wireless/hcxdumptool 6.1.5: Small tool to capture packets from wlan devices
 net-wireless/hcxtools 6.1.5: Portable solution for capturing wlan traffic and conversion to hashcat formats
 net-wireless/pixiewps 1.4.2: Bruteforce offline the WPS pin exploiting the low or non-existing entropy
 net-wireless/reaver-wps-fork-t6x 1.6.6: Utilise Pixie Dust Attack to find the correct WPS PIN.
 net-wireless/rtl8812au 4.2.5 4.3.1.4 4.3.14_p20190827 5.2.9_p20180327 5.6.4.2_p20200703 9999: Driver for AC1200 (801.11ac) Wireless Dual-Band USB Adapter
 net-wireless/rtl8812au_aircrack-ng 5.6.4.2_p20200816 9999: RTL8812AU/21AU and RTL8814AU driver with monitor mode and frame injection
-net-wireless/wifite 2.2.5-r2 9999: An automated wireless attack tool
+net-wireless/rtl8822bu 5.3.1_p20190920 9999: RTL88x2BU driver with monitor mode and frame injection
+net-wireless/wifite 2.5.8 9999: An automated wireless attack tool
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
 sys-kernel/dkms 2.8.4: Dynamic Kernel Module Support
 sys-libs/minizip-ng 3.0.1: Fork of the popular zip manipulation library found in the zlib distribution.
-www-apps/geckodriver 0.23.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
+www-apps/geckodriver 0.23.0 0.27.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
 www-client/brave-beta-bin 1.24.60: Brave Web Browser
 www-client/brave-bin 1.23.70: Brave Web Browser
 www-client/brave-dev-bin 1.24.61: Brave Web Browser
