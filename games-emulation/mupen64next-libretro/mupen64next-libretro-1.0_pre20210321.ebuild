@@ -26,7 +26,7 @@ DEPEND="${RDEPEND}
 
 src_compile() {
 	myemakeargs=(
-		$(usex amd64 "WITH_DYNAREC=amd64 HAVE_PARALLEL_RDP=1 HAVE_PARALLEL_RSP=1 HAVE_THR_AL=1 HAVE_LLE=1" "")
+		$(usex amd64 "WITH_DYNAREC=x86_64 HAVE_PARALLEL_RDP=1 HAVE_PARALLEL_RSP=1 HAVE_THR_AL=1 HAVE_LLE=1" "")
 		$(usex x86 "WITH_DYNAREC=x86 HAVE_PARALLEL_RSP=1 HAVE_THR_AL=1" "")
 		$(usex arm "platform=rpi WITH_DYNAREC=arm" "")
 		$(usex arm64 "platform=rpi WITH_DYNAREC=aarch64" "")
@@ -43,4 +43,3 @@ pkg_preinst() {
 	fi
 }
 
-# $(usex amd64 "WITH_DYNAREC=x86_64 HAVE_PARALLEL_RDP=1 HAVE_PARALLEL_RSP=1 HAVE_THR_AL=1 HAVE_LLE=1" "")
