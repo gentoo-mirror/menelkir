@@ -17,22 +17,22 @@ LICENSE="GPL-2"
 SLOT="0"
 
 RDEPEND="
-	dev-libs/hidapi:0=
-	dev-libs/libfmt:0=
-	dev-libs/lzo:2=
-	dev-libs/pugixml:0=
-	media-libs/libpng:0=
+	dev-libs/hidapi=
+	dev-libs/libfmt=
+	dev-libs/lzo=
+	dev-libs/pugixml
+	media-libs/libpng
 	media-libs/libsfml
 	media-libs/mesa[egl]
-	net-libs/enet:1.3
-	net-libs/mbedtls:0=
-	net-misc/curl:0=
-	sys-libs/readline:0=
-	sys-libs/zlib:0=
+	net-libs/enet
+	net-libs/mbedtls
+	net-misc/curl
+	sys-libs/readline
+	sys-libs/zlib
 	x11-libs/libXext
 	x11-libs/libXi
 	x11-libs/libXrandr
-	virtual/libusb:1
+	virtual/libusb
 	virtual/opengl
 "
 RDEPEND="${DEPEND}
