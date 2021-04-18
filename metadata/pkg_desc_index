@@ -88,7 +88,7 @@ games-emulation/libretro-common-overlays 1_pre20201221 9999-r3: Collection of ov
 games-emulation/libretro-common-shaders 1_pre20201221 9999-r3: Collection of commonly used Cg shaders
 games-emulation/libretro-database 1_pre20210126 9999-r4: Repository containing cheatcode files, content data files, etc.
 games-emulation/libretro-info 1_pre20210116 9999-r3: Libretro info files required for libretro cores
-games-emulation/libretro-meta 9999-r20: Meta package for various libretro implementations
+games-emulation/libretro-meta 9999-r21: Meta package for various libretro implementations
 games-emulation/lowresnx-libretro 1.0_pre20210327 9999: A simulated retro game console
 games-emulation/lutro-libretro 1.0_pre20210115 9999-r3: An experimental lua game framework for libretro following the LOVE API.
 games-emulation/mame-libretro 1.0_pre20210127 9999-r3: MAME (current) for libretro.
@@ -107,6 +107,7 @@ games-emulation/mednafen-pce-libretro 1.0_pre20210127 9999: libretro implementat
 games-emulation/mednafen-pcfx-libretro 1.0_pre20210126 9999-r3: Standalone port of Mednafen PCFX to libretro.
 games-emulation/mednafen-psx-libretro 1.0_pre20210127 9999-r3: Standalone port/fork of Mednafen PSX to the Libretro API.
 games-emulation/mednafen-saturn-libretro 1.0_pre20210128 9999-r3: Standalone port of Mednafen Saturn to the libretro
+games-emulation/mednafen-supafaust-libretro 1.0_pre20210127 9999: Unsupported SNES emulator for multicore ARM linux plataforms
 games-emulation/mednafen-supergrafx-libretro 1.0_pre20210128 9999-r3: libretro implementation of Mednafen Supergrafx. (SuperGrafx TG-16)
 games-emulation/mednafen-vb-libretro 1.0_pre20210113 9999-r3: libretro implementation of Mednafen VB. (Virtual Boy)
 games-emulation/mednafen-wswan-libretro 1.0_pre20210113 9999-r3: libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)
