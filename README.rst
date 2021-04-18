@@ -14,6 +14,7 @@ some personal modifications. The follow repositories was used (sorry if I forgot
 :Vortex: https://github.com/nE0sIghT/vortex-overlay
 :Guru: https://wiki.gentoo.org/wiki/Project:GURU
 :PF4Public: https://github.com/PF4Public/gentoo-overlay
+:tatsh-overlay: https://github.com/tatsh/tatsh-overlay
 
 =================================
 How to Contribute to this Overlay
