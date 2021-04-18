@@ -4,7 +4,8 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/ppsspp"
-inherit libretro-core
+
+inherit git-r3 libretro-core
 
 DESCRIPTION="libretro implementation of PPSSPP. (PlayStation Portable/PSP)"
 HOMEPAGE="https://github.com/libretro/ppsspp"
@@ -12,7 +13,7 @@ KEYWORDS=""
 
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="gles2"
+IUSE="+gles2"
 
 DEPEND="x11-libs/libICE
 	sys-libs/zlib
