@@ -41,4 +41,3 @@ games-emulation/hbmame-libretro
 games-emulation/play-libretro
 games-emulation/dosbox-core-libretro
 games-emulation/vita3k
-games-emulation/yuzu
