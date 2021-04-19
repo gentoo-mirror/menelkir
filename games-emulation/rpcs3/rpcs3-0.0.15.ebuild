@@ -41,6 +41,7 @@ DEPEND="dev-libs/pugixml
 	media-libs/libpng:*
 	media-libs/openal
 	media-video/ffmpeg
+	dev-libs/flatbuffers
 	sys-libs/zlib
 	virtual/jpeg:=
 	virtual/opengl
