@@ -9,10 +9,12 @@ app-misc/g15stats 3.0.1 9999: CPU, memory, swap, network stats for G15 Keyboard
 app-mobilephone/scrcpy 1.17: Display and control your Android device
 dev-lang/rgbds 0.4.0 0.4.1 0.4.2: Free assembler/linker package for the Game Boy and Game Boy Color
 dev-libs/breakpad 0_p20200604 9999: A crash-reporting system
+dev-libs/cubeb 0.2_p20210310: Cross platform audio library.
 dev-libs/dynarmic 1.0_pre20200809 9999: An ARM dynamic recompiler
 dev-libs/libg15 1.2.9 3.0.1 9999: The libg15 library gives low-level access to the Logitech G15 keyboard
 dev-libs/libg15render 3.0.2 9999: Small library for display text and graphics on a Logitech G15 keyboard
 dev-libs/liblcf 0.6.2 9999: Library to handle RPG Maker 2000/2003 and EasyRPG projects
+dev-libs/xbyak 5.991: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/fpdf 1.7.2: Simple PDF generation for Python
 dev-python/imdbpy 9999: Python package to access the IMDb's database
 dev-python/parse 1.15.0 1.19.0: parse() is the opposite of format()
