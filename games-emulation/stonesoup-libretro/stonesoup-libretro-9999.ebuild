@@ -4,8 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="meancoot/stonesoup-libretro"
-LIBRETRO_COMMIT_SHA="19944213f37111c63f14c1ad31141adde178dce9"
-inherit libretro-core
+inherit git-r3 libretro-core
 
 DESCRIPTION="Kibretro port of Dungeon Crawl - Stone Soup"
 HOMEPAGE="https://github.com/meancoot/stonesoup-libretro"
@@ -14,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 LICENSE="GPL-3"
 SLOT="0"
 
-DEPEND=""
+DEPEND="dev-lang/lua"
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
