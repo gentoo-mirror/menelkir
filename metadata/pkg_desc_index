@@ -282,10 +282,10 @@ sys-kernel/dkms 2.8.4: Dynamic Kernel Module Support
 sys-libs/minizip-ng 3.0.1: Fork of the popular zip manipulation library found in the zlib distribution.
 sys-process/nvtop 1.1.0 9999: NVIDIA GPUs htop like monitoring tool
 www-apps/geckodriver 0.23.0 0.27.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
-www-client/brave-beta-bin 1.24.66: Brave Web Browser
-www-client/brave-bin 1.23.71: Brave Web Browser
-www-client/brave-dev-bin 1.24.65: Brave Web Browser
-www-client/brave-nightly-bin 1.25.24: Brave Web Browser
+www-client/brave-beta-bin 1.24.70: Brave Web Browser
+www-client/brave-bin 1.23.72: Brave Web Browser
+www-client/brave-dev-bin 1.24.69: Brave Web Browser
+www-client/brave-nightly-bin 1.25.31: Brave Web Browser
 www-client/torbrowser-launcher 0.3.3 9999: A program to download, updated, and run the Tor Browser Bundle
 www-client/ungoogled-chromium 89.0.4389.114-r1: Modifications to Chromium for removing Google integration and enhancing privacy
 www-client/ungoogled-chromium-bin 89.0.4389.114: Modifications to Chromium for removing Google integration and enhancing privacy
