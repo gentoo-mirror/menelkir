@@ -141,7 +141,7 @@ games-emulation/openmsx-catapult 16.0 9999: OpenMSX emulator GUI
 games-emulation/opera-libretro 1.0_pre20210128 9999-r3: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
 games-emulation/parallel-n64-libretro 1.0_pre20210127 9999: Rewritten Nintendo 64 emulator made specifically for Libretro.
 games-emulation/pcsx-rearmed-libretro 1.0_pre20210113 9999-r3: libretro implementation of PCSX ReARMed. (PlayStation)
-games-emulation/pcsx2-ex 2.35.0: A PlayStation 2 emulator
+games-emulation/pcsx2-ex 3.00.1: A PlayStation 2 emulator
 games-emulation/picodrive-libretro 9999-r3: libretro implementation of PicoDrive. (Sega GameGear/Sega CD/32X)
 games-emulation/play 0.39: PlayStation 2 emulator.
 games-emulation/play-libretro 1.0_pre20210107 9999: Sony Playstation 2 libretro core
@@ -202,7 +202,7 @@ games-emulation/x1-libretro 1.0_pre20210108 9999: Libretro port of X Millennium 
 games-emulation/xnp2 9999: X Neko Project II, a PC-9801 emulator (PC98)
 games-emulation/xrick-libretro 1.0_pre20200124 9999-r3: Xrick is an open source implementation of Rick Dangerous for libretro.
 games-emulation/yabause-libretro 1.0_pre20210125 9999-r3: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
-games-emulation/yuzu 0.590: Nintendo Switch emulator
+games-emulation/yuzu 0.595: Nintendo Switch emulator
 games-engines/ags 3.5.0.31 9999: Adventure Game Studio (AGS) runtime engine
 games-engines/easyrpg-player 0.6.2.3 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
 games-fps/alephone 20190331-r1 20200416_pre 99999999: An enhanced version of the game engine from the classic Mac game, Marathon
