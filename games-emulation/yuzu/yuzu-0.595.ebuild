@@ -32,14 +32,12 @@ DEPEND="app-arch/lz4
 	dev-libs/libzip
 	dev-libs/openssl
 	dev-qt/qtcore
-	dev-cpp/nlohmann_json
 	dev-qt/qtgui
 	dev-qt/qtwidgets
 	media-libs/libsdl2
 	media-libs/opus
 	media-video/ffmpeg
 	sys-libs/zlib
-	>=dev-libs/xbyak-5.70
 	virtual/libusb:="
 RDEPEND="${DEPEND}
 	app-arch/zstd
