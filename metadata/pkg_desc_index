@@ -291,8 +291,6 @@ www-client/brave-bin 1.23.72: Brave Web Browser
 www-client/brave-dev-bin 1.24.69: Brave Web Browser
 www-client/brave-nightly-bin 1.25.31: Brave Web Browser
 www-client/torbrowser-launcher 0.3.3 9999: A program to download, updated, and run the Tor Browser Bundle
-www-client/ungoogled-chromium 89.0.4389.114-r1: Modifications to Chromium for removing Google integration and enhancing privacy
-www-client/ungoogled-chromium-bin 89.0.4389.114: Modifications to Chromium for removing Google integration and enhancing privacy
 x11-misc/betterlockscreen_rapid 0.0.0_pre20201222: A rapid and good-looking screen locker
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
