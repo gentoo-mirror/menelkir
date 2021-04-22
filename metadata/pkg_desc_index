@@ -223,7 +223,7 @@ games-util/legendary 0.20.6: A free and open-source replacement for the Epic Gam
 games-util/minigalaxy 1.0.2: A simple GOG client for Linux
 games-util/rejoystick 0.8.1: Tool which translates gamepad/joystick input into key strokes/mouse actions in X
 games-util/steam-client-meta 0-r20210322: Meta package for Valve's native Steam client
-games-util/steam-launcher 1.0.0.69: Installer, launcher and supplementary files for Valve's Steam client
+games-util/steam-launcher 1.0.0.70: Installer, launcher and supplementary files for Valve's Steam client
 games-util/steam-meta 0-r20160817: Meta package for Valve's Steam environment
 kde-misc/plasma-applet-caffeine-plus 1.4 9999: Plasma 5 applet to disable screensaver and auto-suspend
 kde-misc/plasma-applet-eventcalendar 73 9999: Plasma 5 applet for monitoring CPU, GPU and other available temperature sensors
