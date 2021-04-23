@@ -1,7 +1,6 @@
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
 games-emulation/vitavoyager-libretro
-games-emulation/openlara-libretro
 games-emulation/stonesoup-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27

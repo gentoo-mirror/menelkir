@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -15,23 +15,13 @@ KEYWORDS="~amd64 ~x86"
 LICENSE="BSD-2"
 SLOT="0"
 
-IUSE="gles2"
-
 DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
 S="${S}/src/platform/libretro"
 
-src_compile() {
-	myemakeargs=(
-		$(usex gles2 "GLES=1" "GLES=0")
-	)
-	libretro-core_src_compile
-}
-
-pkg_preinst() {
-	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
-		first_install="1"
-	fi
+src_prepare() {
+	eapply -p0 "${FILESDIR}/build_fix.patch"
+	eapply_user
 }
