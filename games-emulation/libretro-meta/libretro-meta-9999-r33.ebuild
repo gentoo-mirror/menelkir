@@ -14,7 +14,7 @@ IUSE="2048 3dengine 81 atari800 bk blastem bluemsx bnes boom3 bsnes bsnes-mercur
 	mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp mednafen-pce mednafen-pce-fast mednafen-pcfx \
 	mednafen-psx mednafen-psx-hw mednafen-saturn mednafen-supafaust mednafen-supergrafx mednafen-vb mednafen-wswan \
 	melonds meowpc98 mesen mesens meteor mgba mrboom mu mupen64 np2kai neocd nestopia nxengine o2em oberon opera \
-	parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini potator ppsspp prboom prosystem puae px68k quicknes \
+	parallel_n64 pcsx-rearmed picodrive pocketcdg pokemini potator ppsspp prboom prosystem puae px68k quicknes \
 	quasi88 race retro8 retrodream reminiscence sameboy scummvm smsplus snes9x snes9x2002 snes9x2005 snes9x2010 \
 	squirreljme stella2014 tgbdual tic80 theodore thepowdertoy tyrquake uzem vba-next vbam vecx vemulator \
 	vice-x128 vice-x64 vice-x64sc vice-xcbm2 vice-xcbm5x0 vice-xpet vice-xplus4 vice-xscpu64 vice-xvic \
@@ -105,7 +105,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	o2em? ( games-emulation/o2em-libretro )
 	oberon? ( games-emulation/oberon-libretro )
 	opera? ( games-emulation/opera-libretro )
-	parallel-n64? ( games-emulation/parallel-n64-libretro )
+	parallel_n64? ( games-emulation/parallel_n64-libretro )
 	pcsx-rearmed? ( games-emulation/pcsx-rearmed-libretro )
 	picodrive? ( games-emulation/picodrive-libretro )
 	pocketcdg? ( games-emulation/pocketcdg-libretro )

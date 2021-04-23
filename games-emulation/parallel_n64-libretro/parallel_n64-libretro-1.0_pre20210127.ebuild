@@ -28,7 +28,7 @@ src_compile() {
 		$(usex amd64 "WITH_DYNAREC=x86_64 HAVE_PARALLEL=1 HAVE_PARALLEL_RSP=1 HAVE_THR_AL=1" "")
 		$(usex x86 "WITH_DYNAREC=x86 HAVE_PARALLEL_RSP=1 HAVE_THR_AL=1" "")
 		$(usex arm "platform=rpi WITH_DYNAREC=arm" "")
-		$(usex arm64 "platform=rpi WITH_DYNAREC=aarch64" "")
+		$(usex arm64 "platform=rpi4_644_644_644_64 WITH_DYNAREC=aarch64" "")
 		$(usex gles2 "FORCE_GLES=1" "FORCE_GLES=0")
 		$(usex vulkan "HAVE_PARALLEL=1" "HAVE_PARALLEL=0")
 	)
