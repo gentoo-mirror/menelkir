@@ -13,7 +13,7 @@ IUSE="2048 3dengine 81 atari800 bk blastem bluemsx bnes boom3 bsnes bsnes-mercur
 	gpsp gw handy hatari lowresnx lutro mame2000 mame2003 mame2003_plus-libretro mame2010 mame2015 mess2015 \
 	mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp mednafen-pce mednafen-pce-fast mednafen-pcfx \
 	mednafen-psx mednafen-psx-hw mednafen-saturn mednafen-supafaust mednafen-supergrafx mednafen-vb mednafen-wswan \
-	melonds meowpc98 mesen mesens meteor mgba mrboom mu np2kai neocd nestopia nxengine o2em oberon opera \
+	melonds meowpc98 mesen mesens meteor mgba mrboom mu mupen64 np2kai neocd nestopia nxengine o2em oberon opera \
 	parallel-n64 pcsx-rearmed picodrive pocketcdg pokemini potator ppsspp prboom prosystem puae px68k quicknes \
 	quasi88 race retro8 retrodream reminiscence sameboy scummvm smsplus snes9x snes9x2002 snes9x2005 snes9x2010 \
 	squirreljme stella2014 tgbdual tic80 theodore thepowdertoy tyrquake uzem vba-next vbam vecx vemulator \
@@ -97,6 +97,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	mgba? ( games-emulation/mgba-libretro )
 	mrboom? ( games-emulation/mrboom-libretro )
 	mu? ( games-emulation/mu-libretro )
+	mupen64? ( games-emulation/mupen64next-libretro )
 	nestopia? ( games-emulation/libretro-nestopia )
 	neocd? ( games-emulation/neocd-libretro )
 	np2kai? ( games-emulation/np2kai-libretro )
