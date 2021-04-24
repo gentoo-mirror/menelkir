@@ -28,7 +28,7 @@ src_configure(){
 	-DENABLE_AMAZON_S3=no
 	-DCMAKE_BUILD_TYPE="Release"
 )
-	cmake_src_compile
+	# cmake_src_compile
 	libretro-core_src_compile
 }
 

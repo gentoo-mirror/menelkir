@@ -18,7 +18,3 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-PATCHES=(
-        "${FILESDIR}/python.patch"
-)
-
