@@ -4,14 +4,23 @@
 EAPI=6
 inherit autotools eutils
 
-MY_P=AlephOne-${PV}
 DESCRIPTION="An enhanced version of the game engine from the classic Mac game, Marathon"
 HOMEPAGE="http://source.bungie.org/"
-SRC_URI="https://github.com/Aleph-One-Marathon/alephone/releases/download/release-${PV}/AlephOne-${PV}.tar.bz2"
+if [[ ${PV} = 9999* ]]; then
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/Aleph-One-Marathon/alephone/"
+	EGIT_SUBMODULES=()  # Do not need game data.
+else
+	KEYWORDS="~amd64 ~x86"
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/Aleph-One-Marathon/alephone/"
+	EGIT_SUBMODULES=()  # Do not need game data.
+	EGIT_COMMIT=0812dca65b50d8d825a2211775e13564522b06f8
+fi
 
 LICENSE="GPL-3+ BitstreamVera OFL-1.1"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+
 IUSE="alsa curl +ffmpeg -mad -mpeg -sndfile speex -vorbis"
 REQUIRED_USE="
 ffmpeg? ( !mad !mpeg !sndfile !vorbis )
@@ -34,7 +43,7 @@ RDEPEND="
 	virtual/glu
 	alsa? ( media-libs/alsa-lib )
 	curl? ( net-misc/curl )
-	ffmpeg? ( virtual/ffmpeg )
+	ffmpeg? ( media-video/ffmpeg )
 	mad? ( media-libs/libmad )
 	mpeg? ( media-libs/smpeg2 )
 	sndfile? ( media-libs/libsndfile )
@@ -42,8 +51,6 @@ RDEPEND="
 	vorbis? ( media-libs/libvorbis )"
 DEPEND="${RDEPEND}
 	virtual/pkgconfig"
-
-S=${WORKDIR}/${MY_P}
 
 src_prepare() {
 	default
@@ -81,6 +88,7 @@ src_install() {
 	dobin "${T}"/${PN}.sh
 	doman docs/${PN}.6
 	dodoc docs/*.html
+	xdg_icon_cache_update
 }
 
 pkg_postinst() {

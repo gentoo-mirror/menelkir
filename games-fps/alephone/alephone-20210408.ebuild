@@ -11,9 +11,11 @@ if [[ ${PV} = 9999* ]]; then
 	EGIT_REPO_URI="https://github.com/Aleph-One-Marathon/alephone/"
 	EGIT_SUBMODULES=()  # Do not need game data.
 else
-	SRC_URI="https://github.com/Aleph-One-Marathon/alephone/releases/download/release-${PV}/AlephOne-${PV}.tar.bz2"
 	KEYWORDS="~amd64 ~x86"
-	S="${WORKDIR}/AlephOne-${PV}"
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/Aleph-One-Marathon/alephone/"
+	EGIT_SUBMODULES=()  # Do not need game data.
+	EGIT_COMMIT=0812dca65b50d8d825a2211775e13564522b06f8
 fi
 
 LICENSE="GPL-3+ BitstreamVera OFL-1.1"
@@ -41,7 +43,7 @@ RDEPEND="
 	virtual/glu
 	alsa? ( media-libs/alsa-lib )
 	curl? ( net-misc/curl )
-	ffmpeg? ( virtual/ffmpeg )
+	ffmpeg? ( media-video/ffmpeg )
 	mad? ( media-libs/libmad )
 	mpeg? ( media-libs/smpeg2 )
 	sndfile? ( media-libs/libsndfile )
@@ -86,6 +88,7 @@ src_install() {
 	dobin "${T}"/${PN}.sh
 	doman docs/${PN}.6
 	dodoc docs/*.html
+	xdg_icon_cache_update
 }
 
 pkg_postinst() {
