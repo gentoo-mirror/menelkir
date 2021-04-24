@@ -205,10 +205,10 @@ games-emulation/yabause-libretro 1.0_pre20210125 9999-r3: Yabause/YabaSanshiro/K
 games-emulation/yuzu 0.595: Nintendo Switch emulator
 games-engines/ags 3.5.0.31 9999: Adventure Game Studio (AGS) runtime engine
 games-engines/easyrpg-player 0.6.2.3 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
-games-fps/alephone 20190331-r1 20200416_pre 99999999: An enhanced version of the game engine from the classic Mac game, Marathon
-games-fps/alephone-durandal 20190331: Aleph One - Marathon 2 (Durandal)
-games-fps/alephone-infinity 20190331: Aleph One - Marathon Infinity
-games-fps/alephone-marathon 20190331: Aleph One - Marathon (M1A1)
+games-fps/alephone 9999 20210408: An enhanced version of the game engine from the classic Mac game, Marathon
+games-fps/alephone-durandal 20210408: Aleph One - Marathon 2 (Durandal)
+games-fps/alephone-infinity 20210408: Aleph One - Marathon Infinity
+games-fps/alephone-marathon 20210408: Aleph One - Marathon (M1A1)
 games-fps/brutal-doom 21: A mod that attempts to make Doom faster placed, harder, gorier and more violent.
 games-fps/dhewm3 1.5.1_rc2: A Doom 3 GPL source modification.
 games-rpg/zelda3t 1.9: The Legend of Zelda - Time to Triumph
