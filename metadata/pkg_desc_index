@@ -5,7 +5,7 @@ app-misc/g15daemon 3.0.1 9999: Takes control of the G15 keyboard, through the li
 app-misc/g15macro 1.0.5 9999: Macro recording plugin to G15daemon
 app-misc/g15message 1.2 9999: A simple message/alert client for G15daemon
 app-misc/g15mpd 1.1 9999: MPD (music player daemon) plugin to G15daemon
-app-misc/g15stats 3.0.1 9999: CPU, memory, swap, network stats for G15 Keyboard
+app-misc/g15stats 3.0.2 9999: CPU, memory, swap, network stats for G15 Keyboard
 app-mobilephone/scrcpy 1.17: Display and control your Android device
 dev-lang/rgbds 0.4.0 0.4.1 0.4.2: Free assembler/linker package for the Game Boy and Game Boy Color
 dev-libs/breakpad 0_p20200604 9999: A crash-reporting system
