@@ -275,7 +275,6 @@ net-wireless/hcxtools 6.1.5: Portable solution for capturing wlan traffic and co
 net-wireless/pixiewps 1.4.2: Bruteforce offline the WPS pin exploiting the low or non-existing entropy
 net-wireless/reaver-wps-fork-t6x 1.6.6: Utilise Pixie Dust Attack to find the correct WPS PIN.
 net-wireless/rtl8192eu 0_pre20201219: Realtek 8192EU driver module for Linux kernel
-net-wireless/rtl8812au 4.2.5 4.3.1.4 4.3.14_p20190827 5.2.9_p20180327 5.6.4.2_p20200703 9999: Driver for AC1200 (801.11ac) Wireless Dual-Band USB Adapter
 net-wireless/rtl8812au_aircrack-ng 5.6.4.2_p20200816 9999: RTL8812AU/21AU and RTL8814AU driver with monitor mode and frame injection
 net-wireless/rtl8821ce 0_pre20201216: Realtek RTL8821CE Driver module for Linux kernel
 net-wireless/rtl8821cu 0_pre20201224: Realtek 8821CU/RTL8811CU module for Linux kernel
