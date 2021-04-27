@@ -42,7 +42,7 @@ games-emulation/bsnes2014-performance-libretro 1.0_pre20210111 9999: Libretro fo
 games-emulation/cannonball-libretro 1.0_pre20210110 9999-r3: An Enhanced OutRun Engine.
 games-emulation/cap32-libretro 1.0_pre20210110 9999-r3: Caprice32 libretro core
 games-emulation/chailove-libretro 9999: 2D Game Framework with ChaiScript
-games-emulation/citra 20210403: A Nintendo 3DS emulator.
+games-emulation/citra 20210424: A Nintendo 3DS emulator.
 games-emulation/citra-libretro 1.0_pre20210121: Nintendo 3DS for libretro
 games-emulation/craft-libretro 1.0_pre20210127 9999-r3: libretro implementation of Craft. (Minecraft clone)
 games-emulation/crocods-libretro 1.0_pre20210107 9999-r3: CrocoDS libretro core
@@ -117,7 +117,7 @@ games-emulation/mednafen-supafaust-libretro 1.0_pre20210127 9999: Unsupported SN
 games-emulation/mednafen-supergrafx-libretro 1.0_pre20210128 9999-r3: libretro implementation of Mednafen Supergrafx. (SuperGrafx TG-16)
 games-emulation/mednafen-vb-libretro 1.0_pre20210113 9999-r3: libretro implementation of Mednafen VB. (Virtual Boy)
 games-emulation/mednafen-wswan-libretro 1.0_pre20210113 9999-r3: libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)
-games-emulation/melonds 0.9.1-r1: A fast and accurate Nintendo DS emulator.
+games-emulation/melonds 0.9.2: A fast and accurate Nintendo DS emulator.
 games-emulation/melonds-libretro 1.0_pre20210119 9999-r3: libretro implementation of melonDS. (NintendoDS)
 games-emulation/meowpc98-libretro 1.0_pre20211001 9999-r3: Neko Project 2 (PC98 emulator) port for libretro/RetroArch (XNP2)
 games-emulation/mesen-libretro 0.9.9 9999: libretro implementation of Mesen. (Nintendo Entertainment System)
@@ -202,7 +202,7 @@ games-emulation/x1-libretro 1.0_pre20210108 9999: Libretro port of X Millennium 
 games-emulation/xnp2 9999: X Neko Project II, a PC-9801 emulator (PC98)
 games-emulation/xrick-libretro 1.0_pre20200124 9999-r3: Xrick is an open source implementation of Rick Dangerous for libretro.
 games-emulation/yabause-libretro 1.0_pre20210125 9999-r3: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
-games-emulation/yuzu 0.595: Nintendo Switch emulator
+games-emulation/yuzu 0.598: Nintendo Switch emulator
 games-engines/ags 3.5.0.31 9999: Adventure Game Studio (AGS) runtime engine
 games-engines/easyrpg-player 0.6.2.3 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
 games-fps/alephone 9999 20210408: An enhanced version of the game engine from the classic Mac game, Marathon
