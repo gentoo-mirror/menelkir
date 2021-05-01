@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="libretro/fceu-next"
 LIBRETRO_COMMIT_SHA="ebd46a592c23a8091abd72e74cf0d9f4517769e1"
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)"
+DESCRIPTION="Libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)"
 HOMEPAGE="https://github.com/libretro/fceu-next"
 KEYWORDS="~amd64 ~x86"
 

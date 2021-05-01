@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="libretro/blueMSX-libretro"
 LIBRETRO_COMMIT_SHA="e3d579e554fdb564d49d97d93ba37e8952075048"
 inherit libretro-core
 
-DESCRIPTION=" Port of blueMSX to the libretro API"
+DESCRIPTION="Port of blueMSX to the libretro API"
 HOMEPAGE="https://github.com/libretro/blueMSX-libretro"
 KEYWORDS="~amd64 ~x86"
 

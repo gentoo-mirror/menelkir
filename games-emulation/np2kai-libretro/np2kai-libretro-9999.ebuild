@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="libretro/NP2kai"
 
 inherit libretro-core
 
-DESCRIPTION="NP2kai is PC-9801 series emulator"
+DESCRIPTION="NP2kai a is PC-9801 series emulator"
 HOMEPAGE="https://github.com/libretro/NP2kai"
 KEYWORDS=""
 
