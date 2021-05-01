@@ -4,6 +4,7 @@ DEPEND=net-im/pidgin webp? ( media-libs/libwebp )
 DESCRIPTION=Libpurple (Pidgin) plugin for using a Telegram account
 EAPI=7
 HOMEPAGE=https://github.com/majn/telegram-purple
+INHERIT=git-r3
 IUSE=+webp
 LICENSE=GPL-2
 PROPERTIES=live

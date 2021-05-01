@@ -4,6 +4,7 @@ DEPEND=net-im/pidgin
 DESCRIPTION=Libpurple (Pidgin) plugin for using signal
 EAPI=7
 HOMEPAGE=https://github.com/hoehermann/libpurple-signald
+INHERIT=git-r3
 LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=net-im/pidgin

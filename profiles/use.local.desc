@@ -25,7 +25,6 @@ games-emulation/emulationstation-themes-meta:simple-dark - Simple Dark Theme
 games-emulation/emulationstation-themes-meta:simplified-static-canela - Simplified Static Canela Theme
 games-emulation/emulationstation-themes-meta:turtle-pi - Turtle Pi Theme
 games-emulation/emulationstation-themes-meta:zoid - Zoid Theme
-games-emulation/fceu-next-libretro:gles2 - Enable GLES2 support
 games-emulation/libretro-meta:2048 - 2048 Game Clone
 games-emulation/libretro-meta:3dengine - Test Core - 3D Engine
 games-emulation/libretro-meta:81 - Sinclair - ZX 81 (EightyOne)
@@ -165,8 +164,6 @@ games-emulation/vba-next-libretro:tiled_rendering - Enable tiled rendering
 games-emulation/yuzu:compat-list - Download compatibility list during build.
 games-emulation/yuzu:cubeb - Build with cubeb audio backend
 games-emulation/yuzu:web-service - Enable web-serviceds
-games-engines/ags:midi - Enable midi support
-games-engines/ags:tremor - Enable tremor support
 games-sports/stuntrally:editor - Install game editor
 games-sports/stuntrally:game - Install game files
 games-util/steam-client-meta:steamfonts - Use official fonts from Valve's steam client
@@ -182,13 +179,11 @@ media-sound/carla:gtk2 - Use gtk-2 instead of gtk-3
 media-sound/carla:rdf - Enable LADSPA-RDF support
 media-sound/carla:sf2 - Enable builtin SF2 sample support using media-sound/fluidsynth
 media-sound/vgmplay:opl - Enable playback on obsolete OPL hardware (AdLib, SoundBlaster)
-net-im/cawbird:spellcheck - Enable spell check support
 net-misc/megasync:cryptopp - Compile with Crypto++ Library.
 net-misc/megasync:dolphin - Upload your files to your Mega account from Dolphin file manager.
 net-misc/megasync:freeimage - Use freeimage to manage graphic images format.
 net-misc/megasync:nautilus - Upload your files to your Mega account from nautilus.
 net-misc/megasync:thunar - Upload your files to your Mega account from Thunar.
-net-wireless/fern-wifi-cracker:dict - Add support sys-apps/cracklib-words (large set of crack/cracklib dictionaries)
 net-wireless/hcxdumptool:gpio - Build with GPIO support
 net-wireless/wifite:dict - Use dictionaries
 sys-kernel/dkms:kernel-hooks - Enable automatic rebuilding of modules via kernel source makefile hooks
