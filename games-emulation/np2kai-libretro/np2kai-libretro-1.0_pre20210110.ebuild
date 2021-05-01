@@ -8,7 +8,7 @@ LIBRETRO_COMMIT_SHA="c238e2e2cc0ddc98aaccd6f46c496fbecc8986a9"
 
 inherit libretro-core
 
-DESCRIPTION="NP2kai is PC-9801 series emulator"
+DESCRIPTION="NP2kai a is PC-9801 series emulator"
 HOMEPAGE="https://github.com/libretro/NP2kai"
 KEYWORDS="~amd64 ~x86"
 

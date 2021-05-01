@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="libretro/oberon-risc-emu"
 
 inherit libretro-core
 
-DESCRIPTION=" Emulator for the Oberon RISC machine"
+DESCRIPTION="Emulator for the Oberon RISC machine"
 HOMEPAGE="https://github.com/libretro/oberon-risc-emu"
 KEYWORDS=""
 

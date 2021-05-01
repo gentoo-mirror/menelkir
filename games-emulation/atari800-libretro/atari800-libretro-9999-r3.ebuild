@@ -6,11 +6,11 @@ EAPI=7
 LIBRETRO_REPO_NAME="libretro/libretro-atari800"
 inherit libretro-core
 
-DESCRIPTION="Atari800 libretro core"
+DESCRIPTION="Free and portable Atari 8-bit computer and 5200 console emulator"
 HOMEPAGE="https://github.com/libretro/libretro-atari800"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND=""

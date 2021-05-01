@@ -6,7 +6,7 @@ EAPI=7
 LIBRETRO_REPO_NAME="libretro/blueMSX-libretro"
 inherit libretro-core
 
-DESCRIPTION=" Port of blueMSX to the libretro API"
+DESCRIPTION="Port of blueMSX to the libretro API"
 HOMEPAGE="https://github.com/libretro/blueMSX-libretro"
 KEYWORDS=""
 

@@ -4,11 +4,10 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="drhelius/Gearsystem"
-LIBRETRO_COMMIT_SHA="7a997634cce3d95ea022cf4b0d64acb949503efa"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation for multiple Sega consoles"
+DESCRIPTION="Libretro implementation for multiple Sega consoles"
 HOMEPAGE="https://github.com/drhelius/Gearsystem"
 KEYWORDS=""
 

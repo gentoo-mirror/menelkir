@@ -6,7 +6,7 @@ EAPI=7
 LIBRETRO_REPO_NAME="libretro/Craft"
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of Craft. (Minecraft clone)"
+DESCRIPTION="Libretro implementation of Craft. (Minecraft clone)"
 HOMEPAGE="https://github.com/libretro/Craft"
 KEYWORDS=""
 

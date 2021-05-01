@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -57,7 +57,7 @@ RDEPEND="
 	app-accessibility/at-spi2-atk
 	x11-libs/gtk+
 	x11-libs/gdk-pixbuf
-	virtual/libffi
+	dev-libs/libffi
 	dev-libs/libpcre
 	net-libs/gnutls
 	sys-libs/zlib

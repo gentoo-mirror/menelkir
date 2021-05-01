@@ -6,7 +6,7 @@ EAPI=7
 LIBRETRO_REPO_NAME="libretro/81-libretro"
 inherit libretro-core
 
-DESCRIPTION="A port of the EightyOne ZX81 Emulator to libretro."
+DESCRIPTION="A port of the EightyOne ZX81 Emulator to libretro"
 HOMEPAGE="https://github.com/libretro/81-libretro"
 KEYWORDS=""
 

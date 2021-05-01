@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="SourMesen/Mesen"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of Mesen. (Nintendo Entertainment System)"
+DESCRIPTION="Libretro implementation of Mesen. (Nintendo Entertainment System)"
 HOMEPAGE="https://github.com/SourMesen/Mesen"
 KEYWORDS=""
 

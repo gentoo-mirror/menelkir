@@ -8,7 +8,7 @@ LIBRETRO_COMMIT_SHA="993bee83ed34a1d172b0a06cc41ed6aea60d5e34"
 
 inherit libretro-core
 
-DESCRIPTION=" BK-0010/0011/Terak 8510a emulator for libretro"
+DESCRIPTION="BK-0010/0011/Terak 8510a emulator for libretro"
 HOMEPAGE="https://github.com/libretro/bk-emulator"
 KEYWORDS="~amd64 ~x86"
 

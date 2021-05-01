@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="libretro/FreeChaF"
 
 inherit libretro-core
 
-DESCRIPTION="libretro emulation core for the Fairchild ChannelF / Video Entertainment System"
+DESCRIPTION="Libretro emulation core for the Fairchild ChannelF / Video Entertainment System"
 HOMEPAGE="https://github.com/libretro/FreeChaF"
 KEYWORDS=""
 

@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="libretro/neocd_libretro"
 
 inherit libretro-core
 
-DESCRIPTION=" Neo Geo CD emulator for libretro"
+DESCRIPTION="Neo Geo CD emulator for libretro"
 HOMEPAGE="https://github.com/libretro/neocd_libretro"
 KEYWORDS=""
 

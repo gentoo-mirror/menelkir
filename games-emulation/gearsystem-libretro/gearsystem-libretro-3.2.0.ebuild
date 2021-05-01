@@ -8,7 +8,7 @@ LIBRETRO_COMMIT_SHA="c5c8fe063c71840e251f2c847392f401869eeeaa"
 
 inherit libretro-core
 
-DESCRIPTION="libretro implementation for multiple Sega consoles"
+DESCRIPTION="Libretro implementation for multiple Sega consoles"
 HOMEPAGE="https://github.com/drhelius/Gearsystem"
 KEYWORDS="~amd64 ~x86"
 

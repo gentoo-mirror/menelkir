@@ -8,7 +8,7 @@ LIBRETRO_COMMIT_SHA="f8cc5d5bb98f07b6c63695e314eb492d7c7a4d0b"
 
 inherit libretro-core
 
-DESCRIPTION=" Emulator for the Oberon RISC machine"
+DESCRIPTION="Emulator for the Oberon RISC machine"
 HOMEPAGE="https://github.com/libretro/oberon-risc-emu"
 KEYWORDS="~amd64 ~x86"
 

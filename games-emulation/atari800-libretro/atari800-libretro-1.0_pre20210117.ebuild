@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="libretro/libretro-atari800"
 LIBRETRO_COMMIT_SHA="0931dcc7904a4028c90ebc18c28a2164a88d1b49"
 inherit libretro-core
 
-DESCRIPTION="This is a free and portable Atari 8-bit computer and 5200 console emulator."
+DESCRIPTION="Free and portable Atari 8-bit computer and 5200 console emulator"
 HOMEPAGE="https://github.com/libretro/libretro-atari800"
 KEYWORDS="~amd64 ~x86"
 

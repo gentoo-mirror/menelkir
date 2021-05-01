@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="libretro/gambatte-libretro"
 LIBRETRO_COMMIT_SHA="fde2713ad1145ce306f197535a40f6ffbd012343"
 inherit libretro-core
 
-DESCRIPTION="libretro implementation of Gambatte. (Game Boy/Game Boy Color)"
+DESCRIPTION="Libretro implementation of Gambatte. (Game Boy/Game Boy Color)"
 HOMEPAGE="https://github.com/libretro/gambatte-libretro"
 KEYWORDS="~amd64 ~x86"
 
