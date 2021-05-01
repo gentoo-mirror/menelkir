@@ -24,7 +24,6 @@ dev-python/python-telegram 0.13.0 0.14.0: Python client for the Telegram's tdlib
 dev-python/spry 0.5.5: social media scanner
 dev-python/w3lib 1.22.0: Library of web-related functions
 dev-python/websockets 8.1-r2: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
-dev-util/adobe-air-runtime 2.6-r3: Adobe AIR runtime
 dev-util/nihstro 1.0_pre20180113: 3DS shader assembler and disassembler
 dev-util/pmbootstrap 1.31.0: Sophisticated chroot/build/flash tool to develop and install postmarketOS.
 games-action/technic-launcher 4.625: Minecraft launcher for community-made modpacks on the Technic Platform
