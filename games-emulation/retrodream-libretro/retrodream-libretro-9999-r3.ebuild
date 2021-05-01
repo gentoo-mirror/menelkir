@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -20,9 +20,7 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-PATCHES=(
-   "${FILESDIR}/redream-libretro-Makefile.patch"
-)
+PATCHES=("${FILESDIR}/redream-libretro-Makefile.patch")
 
 src_prepare() {
 	libretro-core_src_prepare

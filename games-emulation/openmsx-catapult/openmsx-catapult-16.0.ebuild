@@ -1,4 +1,4 @@
-# Copyright 2020 Gentoo Authors
+# Copyright 2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -16,7 +16,7 @@ IUSE=""
 
 DEPEND="dev-lang/tcl
 	dev-libs/libxml2
-	>=x11-libs/wxGTK-2.6"
+	x11-libs/wxGTK:*"
 RDEPEND="${DEPEND}
 	games-emulation/openmsx"
 
