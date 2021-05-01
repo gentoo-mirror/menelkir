@@ -172,9 +172,6 @@ games-util/steam-client-meta:steamvr - Enable SteamVR virtual reality support
 games-util/steam-client-meta:trayicon - Enable system tray icon with libappindicator
 games-util/steam-launcher:steamruntime - Use the official steam runtime libraries
 games-util/steam-meta:steamruntime - Use the official steam runtime libraries
-mate-extra/brisk-menu:ubuntu - Install the Ubuntu style (and other additional styles) for MATE panel
-mate-extra/mate-tweak:ubuntu - Install the Ubuntu style (and other additional styles) for MATE panel
-media-gfx/hakuneko:clang - Build with clang++ rather than g++
 media-sound/carla:gtk2 - Use gtk-2 instead of gtk-3
 media-sound/carla:rdf - Enable LADSPA-RDF support
 media-sound/carla:sf2 - Enable builtin SF2 sample support using media-sound/fluidsynth
