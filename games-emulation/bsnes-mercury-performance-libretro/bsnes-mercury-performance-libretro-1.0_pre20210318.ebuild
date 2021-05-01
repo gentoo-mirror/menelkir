@@ -4,6 +4,7 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/bsnes-mercury"
+LIBRETRO_COMMIT_SHA="d232c6ea90552f5921fec33a06626f08d3e18b24"
 
 inherit libretro-core
 
@@ -12,20 +13,17 @@ HOMEPAGE="https://github.com/libretro/bsnes-mercury"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 # No tests provided
 RESTRICT="test"
 
 src_compile(){
 	mymakeargs="profile=performance"
-		libretro-core_src_compile
+	libretro-core_src_compile
 }
 
 src_install() {
-for profile in "${BSNES_PROFILES[@]}"; do
-	LIBRETRO_CORE_LIB_FILE="${S}/bsnes_mercury_${profile}_libretro.so" \
-		libretro-core_src_install
-done
+	libretro-core_src_install
 }
 
 pkg_preinst() {
