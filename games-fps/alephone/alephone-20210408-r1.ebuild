@@ -1,8 +1,8 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-inherit autotools eutils
+inherit autotools eutils xdg-utils
 
 DESCRIPTION="An enhanced version of the game engine from the classic Mac game, Marathon"
 HOMEPAGE="http://source.bungie.org/"
@@ -89,6 +89,7 @@ src_install() {
 	doman docs/${PN}.6
 	dodoc docs/*.html
 	xdg_icon_cache_update
+	xdg_mimeinfo_database_update
 }
 
 pkg_postinst() {
