@@ -10,7 +10,7 @@ inherit libretro-core
 
 DESCRIPTION="libretro implementation of redream. (SEGA Dreamcast)"
 HOMEPAGE="https://github.com/libretro/retrodream"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-3"
 SLOT="0"
