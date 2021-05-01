@@ -4,13 +4,12 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/mgba"
-LIBRETRO_COMMIT_SHA="4ffa98c8dd83853550c3030da3cae3f1deb6e0ab"
 
-inherit libretro-core cmake
+inherit git-r3 libretro-core cmake
 
 DESCRIPTION="libretro implementation of mGBA. (Game Boy Advance)"
 HOMEPAGE="https://github.com/libretro/mgba"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS=""
 
 LICENSE="MPL-2.0"
 SLOT="0"
@@ -24,7 +23,7 @@ REQUIRED_USE="
 
 DEPEND="
 	epoxy? ( media-libs/libepoxy:0= )
-	ffmpeg? ( media-video/ffmpeg )
+	ffmpeg? ( virtual/ffmpeg:0= )
 	lzma? ( app-arch/xz-utils:0= )
 	png? ( media-libs/libpng:0= )
 	opengl? ( media-libs/mesa:0=[gles2?] )
