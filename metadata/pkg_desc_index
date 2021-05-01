@@ -123,7 +123,7 @@ games-emulation/mesen-libretro 0.9.9 9999: Libretro implementation of Mesen. (Ni
 games-emulation/mesens-libretro 1.0_pre20210309-r1 9999-r1: Mesen-S is a cross-platform (Windows & Linux) SNES emulator built in C++ and C#
 games-emulation/mess2015-libretro 1.0_pre20201221 9999: MESS (0.160) for libretro.
 games-emulation/meteor-libretro 1.0_pre20201228 9999-r3: libretro implementation of Meteor. (Game Boy Advance)
-games-emulation/mgba-libretro 1.0_pre20210114-r1 9999-r5: libretro implementation of mGBA. (Game Boy Advance)
+games-emulation/mgba-libretro 1.0_pre20210114 9999-r4: libretro implementation of mGBA. (Game Boy Advance)
 games-emulation/mrboom-libretro 9999-r3: Multiplayer Bomberman clone for RetroArch/Libretro
 games-emulation/mu-libretro 1.0_pre20210114 9999: A new Palm OS emulator targeting compatibility, speed and accuracy
 games-emulation/mupen64next-libretro 1.0_pre20210321 9999: Improved mupen64plus libretro core reimplementation
