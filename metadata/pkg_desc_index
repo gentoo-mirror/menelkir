@@ -34,7 +34,7 @@ games-emulation/blastem-libretro 1.0_pre20210311-r1 9999-r1: A fast and accurate
 games-emulation/bluemsx-libretro 1.0_pre20210119 9999-r3: Port of blueMSX to the libretro API
 games-emulation/boom3-libretro 1.0_pre20210107 9999: Doom 3 GPL source port for libretro
 games-emulation/bsnes-hd 10.4_beta-r2: bsnes fork that adds HD video features.
-games-emulation/bsnes-mercury-performance-libretro 1.0_pre20210110-r1 9999-r1: Libretro fork of bsnes
+games-emulation/bsnes-mercury-performance-libretro 1.0_pre20210318 9999-r2: Libretro fork of bsnes
 games-emulation/bsnes2014-performance-libretro 1.0_pre20210111-r1 9999-r1: Libretro fork of bsnes
 games-emulation/cannonball-libretro 1.0_pre20210110 9999-r3: An Enhanced OutRun Engine.
 games-emulation/cap32-libretro 1.0_pre20210110 9999-r3: Caprice32 libretro core
