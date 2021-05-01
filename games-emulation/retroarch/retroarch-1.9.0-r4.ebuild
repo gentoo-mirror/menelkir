@@ -18,7 +18,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="alsa cg cpu_flags_x86_sse dbus egl ffmpeg flac freetype gles gles3 kms
 	libcaca libusb materialui miniupnpc openal +opengl opengl_core +ozone
-	parport plain_drm pulseaudio rgui sdl +sdl2 sixel subtitles ssl stripes
+	parport plain_drm pulseaudio qt5 rgui sdl +sdl2 sixel subtitles ssl stripes
 	systemd tinyalsa udev vulkan X xrandr xmb xv wayland +zlib"
 
 MENU_REQUIRED_USE="|| ( gles opengl vulkan )"
