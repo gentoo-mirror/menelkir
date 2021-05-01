@@ -5,11 +5,11 @@ EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/Mesen-S"
 
-inherit git-r3 libretro-core
+inherit libretro-core
 
 DESCRIPTION="Mesen-S is a cross-platform (Windows & Linux) SNES emulator built in C++ and C#"
 HOMEPAGE="https://github.com/libretro/Mesen-S"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS=""
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -19,3 +19,4 @@ RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
 S="${S}/Libretro"
+LIBRETRO_CORE_NAME="mesen-s"

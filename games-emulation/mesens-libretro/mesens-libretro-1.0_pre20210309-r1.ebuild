@@ -20,3 +20,4 @@ RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
 S="${S}/Libretro"
+LIBRETRO_CORE_NAME="mesen-s"
