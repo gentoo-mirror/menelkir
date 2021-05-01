@@ -86,7 +86,7 @@ games-emulation/genesis_plus_gx-libretro 1.0_pre20210119 9999: libretro implemen
 games-emulation/genesis_plus_gx_wide-libretro 1.0_pre20210409 9999: libretro implementation of Genesis Plus GX. Wide Screen
 games-emulation/glsl-shaders 1_pre20210301 9999: glsl shaders converted by hand from libretro's common-shaders repo
 games-emulation/gme-libretro 1.0_pre20210127 9999-r3: Port of blargg's Game_Music_Emu library.
-games-emulation/gong-libretro 1.0_pre20210419 9999: Gong for libretro
+games-emulation/gong-libretro 1.0_pre20210419 9999: Pong implementation for libretro
 games-emulation/gpsp-libretro 1.0_pre20210127 9999-r3: Gameboy gpSP for libretro.
 games-emulation/gw-libretro 1.0_pre20210113 9999-r3: A libretro core for Game & Watch simulators.
 games-emulation/handy-libretro 1.0_pre20210114 9999-r3: libretro implementation of Handy. (Atari Lynx)
