@@ -88,11 +88,11 @@ src_install() {
 	dobin "${T}"/${PN}.sh
 	doman docs/${PN}.6
 	dodoc docs/*.html
-	xdg_icon_cache_update
-	xdg_mimeinfo_database_update
 }
 
 pkg_postinst() {
+	xdg_icon_cache_update
+	xdg_mimeinfo_database_update
 	echo
 	elog "Read the docs and install the data files accordingly to play."
 	echo

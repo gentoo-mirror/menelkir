@@ -19,8 +19,6 @@ DEPEND=""
 RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
-PATCHES=("${FILESDIR}/python.patch")
-
-src_configure() {
-		emake -f Makefile.libretro PTR64=1
-}
+#src_configure() {
+#		emake -f Makefile.libretro PTR64=1
+#}
