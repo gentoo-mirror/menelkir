@@ -203,7 +203,7 @@ games-emulation/xrick-libretro 1.0_pre20200124 9999-r3: Xrick is an open source 
 games-emulation/yabause-libretro 1.0_pre20210125 9999-r3: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
 games-emulation/yuzu 0.598: Nintendo Switch emulator
 games-engines/easyrpg-player 0.6.2.3 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
-games-fps/alephone 9999-r1 20210408-r1: An enhanced version of the game engine from the classic Mac game, Marathon
+games-fps/alephone 9999-r2 20210408-r2: An enhanced version of the game engine from the classic Mac game, Marathon
 games-fps/alephone-durandal 20210408: Aleph One - Marathon 2 (Durandal)
 games-fps/alephone-infinity 20210408: Aleph One - Marathon Infinity
 games-fps/alephone-marathon 20210408: Aleph One - Marathon (M1A1)
