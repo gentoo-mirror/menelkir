@@ -1,7 +1,7 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/mame"
 LIBRETRO_COMMIT_SHA="98b0ba18a9109339c2ebf4f5945f6c3575301ba9"
