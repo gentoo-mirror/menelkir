@@ -1,7 +1,7 @@
 # Copyright 2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 # Please report bugs/suggestions on: https://github.com/anyc/steam-overlay
 # or come to #gentoo-gamerlay in freenode IRC
