@@ -162,7 +162,7 @@ games-emulation/retroarch 1.9.2 9999-r1: Frontend for emulators, game engines an
 games-emulation/retroarch-assets 1_pre20210422 9999: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20210430 9999-r3: RetroArch joypad autoconfig files
 games-emulation/retrodream-libretro 1.0_pre20200607 9999-r3: libretro implementation of redream. (SEGA Dreamcast)
-games-emulation/retrovirtualmachine 2.0_beta1: The ZX Spectrum and Amstrad CPC emulator
+games-emulation/retrovirtualmachine-bin 2.0_beta1: Emulator of the Amstrad CPC and ZX Spectrum home computers and clones
 games-emulation/rpcs3 0.0.15: PS3 emulator and debugger.
 games-emulation/sameboy-libretro 1.0_pre20210314 9999: libretro implementation of SameBoy (Gameboy / Gameboy Color)
 games-emulation/scummvm-libretro 1.0_pre20200107 9999-r3: libretro implementation of ScummVM
@@ -210,9 +210,6 @@ games-fps/alephone-infinity 20210408: Aleph One - Marathon Infinity
 games-fps/alephone-marathon 20210408: Aleph One - Marathon (M1A1)
 games-fps/brutal-doom 21: A mod that attempts to make Doom faster placed, harder, gorier and more violent.
 games-fps/dhewm3 1.5.1_rc2: A Doom 3 GPL source modification.
-games-rpg/zelda3t 1.9: The Legend of Zelda - Time to Triumph
-games-rpg/zeldaolb 3.6: The Legend of Zelda - Onilink Begins
-games-rpg/zeldaroth 6.11: The Legend of Zelda - Return of the Hylian
 games-sports/stuntrally 2.6-r1 9999-r1: Rally game focused on closed rally tracks with possible stunt elements.
 games-sports/stuntrally-tracks 2.6-r1 9999-r1: A set of tracks for games-sports/stuntrally-9999
 games-util/esteam 0.20201120: Scan Steam libraries to generate and emerge a Portage set
@@ -249,7 +246,6 @@ net-im/rambox-bin 0.7.7: Free and Open Source messaging and emailing app
 net-im/ripcord-bin 0.4.28: a desktop chat client for group-centric services like Slack and Discord
 net-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so. symlinks for compatibility with Debian
 net-misc/megasync 4.4.0.0 9999-r1: The official Qt-based program for syncing your MEGA account in your PC
-net-news/feedreader 2.11.0: Simple News Feed Reader for feeds aggregated by Tiny Tiny RSS or feedly
 net-p2p/soulseek-qt 20180130: Official binary Qt SoulSeek client
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/bully 1.4-r1: A wifi-protected-setup (WPS) brute force attack tool, similar to reaver
