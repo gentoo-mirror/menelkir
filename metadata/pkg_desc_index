@@ -204,7 +204,7 @@ games-emulation/xrick-libretro 1.0_pre20200124 9999-r3: Xrick is an open source 
 games-emulation/yabause-libretro 1.0_pre20210125 9999-r3: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
 games-emulation/yuzu 0.598: Nintendo Switch emulator
 games-engines/easyrpg-player 0.6.2.3 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
-games-fps/alephone 9999-r2 20210408-r2: An enhanced version of the game engine from the classic Mac game, Marathon
+games-fps/alephone 9999-r3 20210408-r3: An enhanced version of the game engine from the classic Mac game, Marathon
 games-fps/alephone-durandal 20210408: Aleph One - Marathon 2 (Durandal)
 games-fps/alephone-infinity 20210408: Aleph One - Marathon Infinity
 games-fps/alephone-marathon 20210408: Aleph One - Marathon (M1A1)
@@ -220,7 +220,7 @@ games-util/gamehub 0.16.0.1 0.16.0.97: GameHub is a unified library for all your
 games-util/itch-bin 25.4.1: itch.io game browser, installer and launcher
 games-util/legendary 0.20.6: A free and open-source replacement for the Epic Games Launcher
 games-util/minigalaxy 1.0.2: A simple GOG client for Linux
-games-util/rejoystick 0.8.1: Tool which translates gamepad/joystick input into key strokes/mouse actions in X
+games-util/rejoystick 0.8.1-r1: Tool which translates gamepad/joystick input into key strokes/mouse actions in X
 games-util/steam-client-meta 0-r20210501: Meta package for Valve's native Steam client
 games-util/steam-launcher 1.0.0.70: Installer, launcher and supplementary files for Valve's Steam client
 games-util/steam-meta 0-r20160817: Meta package for Valve's Steam environment
@@ -231,13 +231,12 @@ media-libs/jpeg-compat 2.0.6-r800: Accelerated JPEG library (libjpeg.so.8 ABI pr
 media-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so.4 symlinks for compatibility with Debian
 media-libs/libinstpatch 1.1.6: Library for processing digital sample based MIDI instrument patch files.
 media-libs/pyliblo 0.10.0-r2: A Python wrapper for the liblo OSC library
-media-libs/wiimms-iso-tools 9999: Set of tools to manipulate Wii and GameCube ISO and WBFS images
 media-plugins/chrome-widevine 88.0.4324.96: An adapter for playing DRM content
 media-sound/carla 2.2.0 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 media-sound/pulseaudio-virtualmic 0.1 9999: Use any offline or online media file or stream as a PulseAudio source
 media-sound/rakarrack 0.6.1: Basic rack of 10 effects for guitar with presets, banks and MIDI control
-media-sound/spotify-adblock 1.3_pre20210324: Spotify adblocker for linux
+media-sound/spotify-adblock 1.4_pre20210504: Spotify adblocker for linux
 media-sound/vgmplay 0.40.9 9999: Video game music (VGM) file command-line player
 media-tv/hypnotix 1.6: An IPTV streaming application
 media-tv/qtwebflix 9999: A QT webengine frontend for netflix (and other streaming services)
