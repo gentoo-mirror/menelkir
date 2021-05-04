@@ -1,7 +1,7 @@
 # Copyright 2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 BRAVE_PN="${PN/-bin/}"
 
@@ -11,11 +11,11 @@ CHROMIUM_LANGS="
 	sw ta te th tr uk vi zh-CN zh-TW
 "
 
-inherit chromium-2 xdg-utils
+inherit chromium-2 xdg-utils desktop
 
 DESCRIPTION="Brave Web Browser"
 HOMEPAGE="https://brave.com"
-SRC_URI="https://github.com/brave/brave-browser/releases/download/v${PV}/brave-browser-nightly-${PV}-linux-amd64.zip -> ${P}.zip"
+SRC_URI="https://github.com/brave/brave-browser/releases/download/v${PV}/brave-browser-beta-${PV}-linux-amd64.zip -> ${P}.zip"
 
 LICENSE="MPL-2.0"
 SLOT="0"
@@ -112,6 +112,7 @@ src_install() {
 }
 
 pkg_postinst() {
+	xdg_icon_cache_update
 	xdg_desktop_database_update
 	xdg_mimeinfo_database_update
 	elog "If upgrading from an 0.25.x release or earlier, note that Brave has changed configuration folders."
@@ -120,6 +121,7 @@ pkg_postinst() {
 }
 
 pkg_postrm() {
+	xdg_icon_cache_update
 	xdg_desktop_database_update
 	xdg_mimeinfo_database_update
 }
