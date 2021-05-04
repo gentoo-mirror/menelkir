@@ -4,9 +4,9 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/duckstation"
-LIBRETRO_COMMIT_SHA="5eb1dafe608ffd03ab9496f327429081c1b51f0c"
+LIBRETRO_COMMIT_SHA="e414aeb2571a80b2eda09535d7a279774294f0c7"
 
-inherit libretro-core cmake
+inherit libretro-core cmake flag-o-matic
 
 DESCRIPTION="Fast Sony Playstation emulator."
 HOMEPAGE="https://github.com/libretro/duckstation"
@@ -14,9 +14,6 @@ KEYWORDS="~amd64"
 
 LICENSE="GPL-3"
 SLOT="0"
-
-# Will not build without this
-CFLAGS=""
 
 DEPEND="
 		media-libs/vulkan-loader

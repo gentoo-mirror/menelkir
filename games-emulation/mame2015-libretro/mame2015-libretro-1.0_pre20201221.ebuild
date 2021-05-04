@@ -19,9 +19,3 @@ RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
 PATCHES=("${FILESDIR}/python.patch")
-
-pkg_preinst() {
-	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
-		first_install="1"
-	fi
-}

@@ -47,12 +47,6 @@ src_compile() {
 		-f deps/libretro/Makefile
 }
 
-pkg_preinst() {
-	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
-		first_install="1"
-	fi
-}
-
 pkg_postinst() {
 	if [[ "${first_install}" == "1" ]]; then
 		ewarn ""

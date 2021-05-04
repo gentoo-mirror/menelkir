@@ -1,9 +1,9 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-LIBRETRO_COMMIT_SHA="1b5d43b6b376a156e817338cadbbbfdfcb7f873e"
+LIBRETRO_COMMIT_SHA="aedf93176aac5c1e994c8767181e102857c5f5e4"
 
 inherit libretro
 
@@ -21,10 +21,4 @@ DEPEND="${RDEPEND}"
 src_install() {
 	insinto "${RETROARCH_DATA_DIR}"/autoconfig
 	doins "${S}"/udev/*.cfg
-}
-
-pkg_preinst() {
-	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
-		first_install="1"
-	fi
 }

@@ -14,9 +14,6 @@ KEYWORDS=""
 LICENSE="GPL-3"
 SLOT="0"
 
-# Will not build without this
-CFLAGS=""
-
 DEPEND="
 		media-libs/vulkan-loader
 "

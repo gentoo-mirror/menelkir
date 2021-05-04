@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="nesbox/TIC-80"
 
 inherit cmake libretro-core toolchain-funcs
 
-DESCRIPTION="Nintendo 3DS for libretro"
+DESCRIPTION="TIC-80 is a fantasy computer for making, playing and sharing tiny games."
 HOMEPAGE="https://github.com/nesbox/TIC-80"
 
 LICENSE="MIT"

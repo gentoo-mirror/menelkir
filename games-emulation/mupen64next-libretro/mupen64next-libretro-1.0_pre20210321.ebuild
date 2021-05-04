@@ -36,9 +36,3 @@ src_compile() {
 	)
 	libretro-core_src_compile
 }
-
-pkg_preinst() {
-	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
-		first_install="1"
-	fi
-}
