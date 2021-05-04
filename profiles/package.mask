@@ -19,3 +19,4 @@ games-emulation/hbmame-libretro
 # Work in Progress
 #
 games-emulation/vita3k
+games-emulation/retrovirtualmachine
