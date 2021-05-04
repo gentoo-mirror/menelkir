@@ -273,7 +273,7 @@ www-apps/geckodriver 0.23.0 0.27.0: Proxy for using WebDriver clients to interac
 www-client/brave-beta-bin 1.24.76: Brave Web Browser
 www-client/brave-bin 1.24.82: Brave Web Browser
 www-client/brave-dev-bin 1.24.77: Brave Web Browser
-www-client/brave-nightly-bin 1.26.3: Brave Web Browser
+www-client/brave-nightly-bin 1.26.6: Brave Web Browser
 www-client/torbrowser-launcher 0.3.3 9999: A program to download, updated, and run the Tor Browser Bundle
 x11-misc/betterlockscreen_rapid 0.0.0_pre20201222: A rapid and good-looking screen locker
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
