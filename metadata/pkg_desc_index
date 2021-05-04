@@ -162,6 +162,7 @@ games-emulation/retroarch 1.9.2 9999-r1: Frontend for emulators, game engines an
 games-emulation/retroarch-assets 1_pre20210422 9999: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20210430 9999-r3: RetroArch joypad autoconfig files
 games-emulation/retrodream-libretro 1.0_pre20200607 9999-r3: libretro implementation of redream. (SEGA Dreamcast)
+games-emulation/retrovirtualmachine 2.0_beta1: The ZX Spectrum and Amstrad CPC emulator
 games-emulation/rpcs3 0.0.15: PS3 emulator and debugger.
 games-emulation/sameboy-libretro 1.0_pre20210314 9999: libretro implementation of SameBoy (Gameboy / Gameboy Color)
 games-emulation/scummvm-libretro 1.0_pre20200107 9999-r3: libretro implementation of ScummVM
@@ -252,7 +253,7 @@ net-misc/megasync 4.4.0.0 9999-r1: The official Qt-based program for syncing you
 net-news/feedreader 2.11.0: Simple News Feed Reader for feeds aggregated by Tiny Tiny RSS or feedly
 net-p2p/soulseek-qt 20180130: Official binary Qt SoulSeek client
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
-net-wireless/bully 1.4: A wifi-protected-setup (WPS) brute force attack tool, similar to reaver
+net-wireless/bully 1.4-r1: A wifi-protected-setup (WPS) brute force attack tool, similar to reaver
 net-wireless/cowpatty 4.8-r1: WLAN tools for bruteforcing 802.11 WPA/WPA2 keys
 net-wireless/hcxdumptool 6.1.5: Small tool to capture packets from wlan devices
 net-wireless/hcxtools 6.1.5: Portable solution for capturing wlan traffic and conversion to hashcat formats
@@ -270,10 +271,10 @@ sys-kernel/dkms 2.8.4: Dynamic Kernel Module Support
 sys-libs/minizip-ng 3.0.1: Fork of the popular zip manipulation library found in the zlib distribution.
 sys-process/nvtop 1.1.0 9999: NVIDIA GPUs htop like monitoring tool
 www-apps/geckodriver 0.23.0 0.27.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
-www-client/brave-beta-bin 1.24.76: Brave Web Browser
-www-client/brave-bin 1.24.82: Brave Web Browser
-www-client/brave-dev-bin 1.24.77: Brave Web Browser
-www-client/brave-nightly-bin 1.26.6: Brave Web Browser
+www-client/brave-beta-bin 1.24.76-r1: Brave Web Browser
+www-client/brave-bin 1.24.82-r1: Brave Web Browser
+www-client/brave-dev-bin 1.24.77-r1: Brave Web Browser
+www-client/brave-nightly-bin 1.26.6-r1: Brave Web Browser
 www-client/torbrowser-launcher 0.3.3 9999: A program to download, updated, and run the Tor Browser Bundle
 x11-misc/betterlockscreen_rapid 0.0.0_pre20201222: A rapid and good-looking screen locker
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
