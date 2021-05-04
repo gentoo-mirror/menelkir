@@ -1,9 +1,9 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
-SA_COMMIT="8e18174885017041f142ade605c270c82a5c21e7"
+SA_COMMIT="efebe098559b08b020ec32b304c5d7f37be3493c"
 
 DESCRIPTION="Spotify adblocker for linux"
 HOMEPAGE="https://github.com/abba23/spotify-adblock-linux"
