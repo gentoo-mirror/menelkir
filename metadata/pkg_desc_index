@@ -26,31 +26,31 @@ dev-python/w3lib 1.22.0: Library of web-related functions
 dev-python/websockets 8.1-r2: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
 dev-util/nihstro 1.0_pre20180113: 3DS shader assembler and disassembler
 dev-util/pmbootstrap 1.31.0: Sophisticated chroot/build/flash tool to develop and install postmarketOS.
-games-emulation/3dengine-libretro 1.0_pre20210107 9999-r3: 3D Engine for libretro GL with additional features
-games-emulation/81-libretro 1.0_pre20210114 9999-r3: A port of the EightyOne ZX81 Emulator to libretro
-games-emulation/atari800-libretro 1.0_pre20210117 9999-r4: Free and portable Atari 8-bit computer and 5200 console emulator
-games-emulation/bk-libretro 1.0_pre20210114-r1 9999-r1: BK-0010/0011/Terak 8510a emulator for libretro
-games-emulation/blastem-libretro 1.0_pre20210311-r1 9999-r1: A fast and accurate Genesis emulator
-games-emulation/bluemsx-libretro 1.0_pre20210119 9999-r3: Port of blueMSX to the libretro API
-games-emulation/boom3-libretro 1.0_pre20210107 9999: Doom 3 GPL source port for libretro
+games-emulation/3dengine-libretro 1.0_pre20210107-r1 9999-r4: 3D Engine for libretro GL with additional features
+games-emulation/81-libretro 1.0_pre20210311 9999-r3: A port of the EightyOne ZX81 Emulator to libretro
+games-emulation/atari800-libretro 1.0_pre20210415 9999-r4: Free and portable Atari 8-bit computer and 5200 console emulator
+games-emulation/bk-libretro 1.0_pre20210315 9999-r1: BK-0010/0011/Terak 8510a emulator for libretro
+games-emulation/blastem-libretro 1.0_pre20210312 9999-r2: A fast and accurate Genesis emulator
+games-emulation/bluemsx-libretro 1.0_pre20210409 9999-r3: Port of blueMSX to the libretro API
+games-emulation/boom3-libretro 1.0_pre20210410 9999: Doom 3 GPL source port for libretro
 games-emulation/bsnes-hd 10.4_beta-r2: bsnes fork that adds HD video features.
-games-emulation/bsnes-mercury-performance-libretro 1.0_pre20210318 9999-r2: Libretro fork of bsnes
-games-emulation/bsnes2014-performance-libretro 1.0_pre20210111-r1 9999-r1: Libretro fork of bsnes
-games-emulation/cannonball-libretro 1.0_pre20210110 9999-r3: An Enhanced OutRun Engine.
-games-emulation/cap32-libretro 1.0_pre20210110 9999-r3: Caprice32 libretro core
+games-emulation/bsnes-mercury-performance-libretro 1.0_pre20210318-r1 9999-r3: Libretro fork of bsnes
+games-emulation/bsnes2014-performance-libretro 1.0_pre20210317 9999-r1: Libretro fork of bsnes
+games-emulation/cannonball-libretro 1.0_pre20210309 9999-r3: An Enhanced OutRun Engine.
+games-emulation/cap32-libretro 1.0_pre20210327 9999-r3: Caprice32 libretro core
 games-emulation/chailove-libretro 9999: 2D Game Framework with ChaiScript
-games-emulation/citra 20210424: A Nintendo 3DS emulator.
-games-emulation/citra-libretro 1.0_pre20210121-r1: Nintendo 3DS for libretro
-games-emulation/craft-libretro 1.0_pre20210127 9999-r3: Libretro implementation of Craft. (Minecraft clone)
-games-emulation/crocods-libretro 1.0_pre20210107 9999-r3: CrocoDS libretro core
+games-emulation/citra 20210429: A Nintendo 3DS emulator.
+games-emulation/citra-libretro 1.0_pre20210408: Nintendo 3DS for libretro
+games-emulation/craft-libretro 1.0_pre20210317 9999-r3: Libretro implementation of Craft. (Minecraft clone)
+games-emulation/crocods-libretro 1.0_pre20210314 9999-r3: CrocoDS libretro core
 games-emulation/daphne-libretro 9999-r1: Arcade laserdisc libretro core
-games-emulation/desmume-libretro 1.0_pre20210109 9999-r3: Libretro implementation of DeSmuME. (Nintendo DS)
-games-emulation/dinothawr-libretro 1.0_pre20210107 9999-r3: Dinothawr is a block pushing puzzle game on slippery surfaces.
+games-emulation/desmume-libretro 1.0_pre20210317 9999-r3: Libretro implementation of DeSmuME. (Nintendo DS)
+games-emulation/dinothawr-libretro 1.0_pre20210409 9999-r3: Dinothawr is a block pushing puzzle game on slippery surfaces.
 games-emulation/dolphin-libretro 1.0_pre20210405 9999: A Gamecube/Wii emulator core for libretro
 games-emulation/dosbox-svn-libretro 9999: DOSBox libretro core
 games-emulation/duckstation 9999: Fast Sony PlayStation (PSX) emulator
 games-emulation/duckstation-libretro 1.0_pre20210414 9999: Fast Sony Playstation emulator.
-games-emulation/ecwolf-libretro 1.0_pre20210109-r1 9999-r1: Updated engine for wolfenstein 3D and compatibles
+games-emulation/ecwolf-libretro 1.0_pre20210430 9999-r1: Updated engine for wolfenstein 3D and compatibles
 games-emulation/emulationstation 2.7.1-r1 2.7.6-r2 2.9.1-r1 9999-r5: Frontend for emulators (RetroPie Fork)
 games-emulation/emulationstation-themes-meta 0: EmulationStation themes meta package
 games-emulation/es-theme-carbon 9999: EmulationStation theme carbon
@@ -65,59 +65,59 @@ games-emulation/es-theme-simple-dark 9999: EmulationStation theme simple dark
 games-emulation/es-theme-simplified-static-canela 9999: EmulationStation theme simplified-static-canela
 games-emulation/es-theme-turtle-pi 9999: EmulationStation theme turtle-pi
 games-emulation/es-theme-zoid 9999: EmulationStation theme zoid
-games-emulation/fbalpha-libretro 1.0_pre20200127 9999-r3: Port of Final Burn Alpha to Libretro
-games-emulation/fbalpha2012-libretro 1.0_pre20210110 9999-r3: Final Burn Alpha 2012. Port of Final Burn Alpha to Libretro (0.2.97.24)
-games-emulation/fbneo-libretro 1.0_pre20210126 9999: Fork of Final Burn Alpha
+games-emulation/fbalpha-libretro 1.0_pre20210430 9999-r3: Port of Final Burn Alpha to Libretro
+games-emulation/fbalpha2012-libretro 1.0_pre20210403 9999-r3: Final Burn Alpha 2012. Port of Final Burn Alpha to Libretro (0.2.97.24)
+games-emulation/fbneo-libretro 1.0_pre20210504 9999: Fork of Final Burn Alpha
 games-emulation/fceu-next-libretro 1.0_pre20160317-r1 9999-r4: Libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)
 games-emulation/ffmpeg-libretro 1.0_pre20200828 9999: FFmpeg frontend for libretro
-games-emulation/flycast-libretro 1.0_pre20210119 9999-r3: Multiplatform Sega Dreamcast emulator
-games-emulation/fmsx-libretro 1.0_pre20210118 9999-r3: Port of fMSX to the libretro API.
+games-emulation/flycast-libretro 1.0_pre20210503 9999-r3: Multiplatform Sega Dreamcast emulator
+games-emulation/fmsx-libretro 1.0_pre20210327 9999-r3: Port of fMSX to the libretro API.
 games-emulation/freechaf-libretro 9999: Libretro emulation core for the Fairchild ChannelF / Video Entertainment System
-games-emulation/freeintv-libretro 1.0_pre20210114 9999-r3: A libretro emulation core for the Mattel Intellivision
+games-emulation/freeintv-libretro 1.0_pre20210322 9999-r3: A libretro emulation core for the Mattel Intellivision
 games-emulation/frodo-libretro 1.0_pre20210312 9999: Commdoore 64 emulator for libretro
-games-emulation/fuse-libretro 1.0_pre20210113 9999-r3: A port of the Fuse Unix Spectrum Emulator to libretro
-games-emulation/gambatte-libretro 1.0_pre20210117 9999-r3: Libretro implementation of Gambatte. (Game Boy/Game Boy Color)
+games-emulation/fuse-libretro 1.0_pre20210419 9999-r3: A port of the Fuse Unix Spectrum Emulator to libretro
+games-emulation/gambatte-libretro 1.0_pre20210325 9999-r3: Libretro implementation of Gambatte. (Game Boy/Game Boy Color)
 games-emulation/gearboy-libretro 1.0_pre20181103 9999: Gearboy is a Nintendo Game Boy / GameBoy Color emulator for libretro
-games-emulation/gearsystem-libretro 3.2.0 9999: Libretro implementation for multiple Sega consoles
-games-emulation/genesis_plus_gx-libretro 1.0_pre20210119 9999: libretro implementation of Genesis Plus GX. (Sega Genesis/Sega CD)
+games-emulation/gearsystem-libretro 3.3.0 9999: Libretro implementation for multiple Sega consoles
+games-emulation/genesis_plus_gx-libretro 1.0_pre20210325 9999: libretro implementation of Genesis Plus GX. (Sega Genesis/Sega CD)
 games-emulation/genesis_plus_gx_wide-libretro 1.0_pre20210409 9999: libretro implementation of Genesis Plus GX. Wide Screen
 games-emulation/glsl-shaders 1_pre20210301 9999: glsl shaders converted by hand from libretro's common-shaders repo
-games-emulation/gme-libretro 1.0_pre20210127 9999-r3: Port of blargg's Game_Music_Emu library.
+games-emulation/gme-libretro 1.0_pre20210309 9999-r3: Port of blargg's Game_Music_Emu library.
 games-emulation/gong-libretro 1.0_pre20210419 9999: Pong implementation for libretro
 games-emulation/gpsp-libretro 1.0_pre20210127 9999-r3: Gameboy gpSP for libretro.
-games-emulation/gw-libretro 1.0_pre20210113 9999-r3: A libretro core for Game & Watch simulators.
-games-emulation/handy-libretro 1.0_pre20210114 9999-r3: libretro implementation of Handy. (Atari Lynx)
+games-emulation/gw-libretro 1.0_pre20210425 9999-r3: A libretro core for Game & Watch simulators.
+games-emulation/handy-libretro 1.0_pre20210325 9999-r3: libretro implementation of Handy. (Atari Lynx)
 games-emulation/hatari-libretro 1.0_pre20210327 9999: Hatari is an Atari ST/STE/TT/Falcon emulator core for libretro
 games-emulation/hbmame-libretro 1.0_pre20200403-r1 9999-r1: Emulator of homebrew and hacked games for arcade hardware
-games-emulation/libretro-common-overlays 1_pre20210429 9999-r3: Collection of overlay files for use with RetroArch
+games-emulation/libretro-common-overlays 1_pre20210503 9999-r3: Collection of overlay files for use with RetroArch
 games-emulation/libretro-common-shaders 1_pre20210226 9999-r3: Collection of commonly used Cg shaders
-games-emulation/libretro-database 1_pre20210430 9999-r5: Repository containing cheatcode files, content data files, etc.
+games-emulation/libretro-database 1_pre20210504 9999-r5: Repository containing cheatcode files, content data files, etc.
 games-emulation/libretro-info 1_pre20210428 9999-r3: Libretro info files required for libretro cores
 games-emulation/libretro-meta 9999-r36: Meta package for various libretro implementations
 games-emulation/lowresnx-libretro 1.0_pre20210327 9999: A simulated retro game console
 games-emulation/lutro-libretro 1.0_pre20210115 9999-r3: An experimental lua game framework for libretro following the LOVE API.
 games-emulation/mame-libretro 1.0_pre20210412 9999-r4: MAME (current) for libretro.
-games-emulation/mame2000-libretro 1.0_pre20200709 9999-r3: MAME2000 (0.37b5) for libretro.
-games-emulation/mame2003-libretro 1.0_pre20210127 9999-r3: MAME (0.78) for libretro.
-games-emulation/mame2003_plus-libretro 1.0_pre20210127 9999: MAME (0.78) with extra features for libretro.
-games-emulation/mame2010-libretro 1.0_pre20210127 9999-r3: MAME (0.139) for libretro.
+games-emulation/mame2000-libretro 1.0_pre20210312 9999-r3: MAME2000 (0.37b5) for libretro.
+games-emulation/mame2003-libretro 1.0_pre20210410 9999-r3: MAME (0.78) for libretro.
+games-emulation/mame2003_plus-libretro 1.0_pre20210504 9999: MAME (0.78) with extra features for libretro.
+games-emulation/mame2010-libretro 1.0_pre20210412 9999-r3: MAME (0.139) for libretro.
 games-emulation/mame2015-libretro 1.0_pre20201221 9999-r3: MAME (0.160) for libretro.
 games-emulation/mednafen-bsnes-libretro 1.0_pre20210101 9999-r4: libretro implementation of Mednafen SNES. (Super Nintendo Entertainment System)
-games-emulation/mednafen-gba-libretro 1.0_pre20210102 9999-r3: libretro implementation of Mednafen VBA/GBA. (Game Boy Advance)
-games-emulation/mednafen-lynx-libretro 1.0_pre20200114 9999-r3: libretro implementation of Mednafen Lynx. (Atari Lynx)
-games-emulation/mednafen-ngp-libretro 1.0_pre20210116 9999-r3: libretro implementation of Mednafen Neopop. Neo Geo Pocket/Neo Geo Pocket Color
-games-emulation/mednafen-pce-fast-libretro 1.0_pre20210113 9999-r3: libretro implementation of Mednafen PCE Fast. (PC Engine/TurboGrafx-16)
-games-emulation/mednafen-pce-libretro 1.0_pre20210127 9999: libretro implementation of Mednafen PCE. (PC Engine/TurboGrafx-16)
-games-emulation/mednafen-pcfx-libretro 1.0_pre20210126 9999-r3: Standalone port of Mednafen PCFX to libretro.
-games-emulation/mednafen-psx-hw-libretro 1.0_pre20210421 9999: Standalone port/fork of Mednafen PSX to the Libretro API.
-games-emulation/mednafen-psx-libretro 1.0_pre20210127 9999-r3: Standalone port/fork of Mednafen PSX to the Libretro API.
-games-emulation/mednafen-saturn-libretro 1.0_pre20210128 9999-r3: Standalone port of Mednafen Saturn to the libretro
+games-emulation/mednafen-gba-libretro 1.0_pre20210324 9999-r3: libretro implementation of Mednafen VBA/GBA. (Game Boy Advance)
+games-emulation/mednafen-lynx-libretro 1.0_pre20210324 9999-r3: libretro implementation of Mednafen Lynx. (Atari Lynx)
+games-emulation/mednafen-ngp-libretro 1.0_pre20210324 9999-r3: libretro implementation of Mednafen Neopop. Neo Geo Pocket/Neo Geo Pocket Color
+games-emulation/mednafen-pce-fast-libretro 1.0_pre20210412 9999-r3: libretro implementation of Mednafen PCE Fast. (PC Engine/TurboGrafx-16)
+games-emulation/mednafen-pce-libretro 1.0_pre20210412 9999: libretro implementation of Mednafen PCE. (PC Engine/TurboGrafx-16)
+games-emulation/mednafen-pcfx-libretro 1.0_pre20210412 9999-r3: Standalone port of Mednafen PCFX to libretro.
+games-emulation/mednafen-psx-hw-libretro 1.0_pre20210422 9999: Standalone port/fork of Mednafen PSX to the Libretro API.
+games-emulation/mednafen-psx-libretro 1.0_pre20210422 9999-r3: Standalone port/fork of Mednafen PSX to the Libretro API.
+games-emulation/mednafen-saturn-libretro 1.0_pre20210412 9999-r3: Standalone port of Mednafen Saturn to the libretro
 games-emulation/mednafen-supafaust-libretro 1.0_pre20210127 9999: Unsupported SNES emulator for multicore ARM linux plataforms
-games-emulation/mednafen-supergrafx-libretro 1.0_pre20210128 9999-r3: libretro implementation of Mednafen Supergrafx. (SuperGrafx TG-16)
-games-emulation/mednafen-vb-libretro 1.0_pre20210113 9999-r3: libretro implementation of Mednafen VB. (Virtual Boy)
-games-emulation/mednafen-wswan-libretro 1.0_pre20210113 9999-r3: libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)
+games-emulation/mednafen-supergrafx-libretro 1.0_pre20210412 9999-r3: libretro implementation of Mednafen Supergrafx. (SuperGrafx TG-16)
+games-emulation/mednafen-vb-libretro 1.0_pre20210405 9999-r3: libretro implementation of Mednafen VB. (Virtual Boy)
+games-emulation/mednafen-wswan-libretro 1.0_pre20210405 9999-r3: libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)
 games-emulation/melonds 0.9.2: A fast and accurate Nintendo DS emulator.
-games-emulation/melonds-libretro 1.0_pre20210119 9999-r3: libretro implementation of melonDS. (NintendoDS)
+games-emulation/melonds-libretro 1.0_pre20210411 9999-r3: libretro implementation of melonDS. (NintendoDS)
 games-emulation/meowpc98-libretro 1.0_pre20211001 9999-r3: Neko Project 2 (PC98 emulator) port for libretro/RetroArch (XNP2)
 games-emulation/mesen-libretro 0.9.9 9999: Libretro implementation of Mesen. (Nintendo Entertainment System)
 games-emulation/mesens-libretro 1.0_pre20210309-r1 9999-r1: Mesen-S is a cross-platform (Windows & Linux) SNES emulator built in C++ and C#
@@ -127,82 +127,82 @@ games-emulation/mgba-libretro 1.0_pre20210114 9999-r4: libretro implementation o
 games-emulation/mrboom-libretro 9999-r3: Multiplayer Bomberman clone for RetroArch/Libretro
 games-emulation/mu-libretro 1.0_pre20210114 9999: A new Palm OS emulator targeting compatibility, speed and accuracy
 games-emulation/mupen64next-libretro 1.0_pre20210321 9999: Improved mupen64plus libretro core reimplementation
-games-emulation/nekop2-libretro 1.0_pre20210110 9999: Neko Project 2 (PC98 emulator) port for libretro/RetroArch
+games-emulation/nekop2-libretro 1.0_pre20210317 9999: Neko Project 2 (PC98 emulator) port for libretro/RetroArch
 games-emulation/neocd-libretro 9999: Neo Geo CD emulator for libretro
 games-emulation/np2kai 22 22_p20210211: NP2kai is an emulator for the japanese PC-98 series of computers
-games-emulation/np2kai-libretro 1.0_pre20210110 9999: NP2kai a is PC-9801 series emulator
-games-emulation/nxengine-libretro 1.0_pre20210109 9999-r3: libretro implementation of NXEngine. (Cave Story)
-games-emulation/o2em-libretro 1.0_pre20210114 9999-r3: Port of O2EM to the libretro API, an Odyssey 2 / VideoPac emulator.
-games-emulation/oberon-libretro 1.0_pre20210102 9999: Emulator for the Oberon RISC machine
+games-emulation/np2kai-libretro 1.0_pre20210317 9999: NP2kai a is PC-9801 series emulator
+games-emulation/nxengine-libretro 1.0_pre20210309 9999-r3: libretro implementation of NXEngine. (Cave Story)
+games-emulation/o2em-libretro 1.0_pre20210325 9999-r3: Port of O2EM to the libretro API, an Odyssey 2 / VideoPac emulator.
+games-emulation/oberon-libretro 1.0_pre20210324 9999: Emulator for the Oberon RISC machine
 games-emulation/openlara-libretro 1.0_pre20210121-r1 9999-r4: libretro implementation of OpenLara. (Classic Tomb Raider Engine)
 games-emulation/openmsx 9999: MSX emulator that aims for perfection
 games-emulation/openmsx-catapult 16.0-r1 9999-r1: OpenMSX emulator GUI
-games-emulation/opera-libretro 1.0_pre20210128 9999-r3: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
-games-emulation/parallel_n64-libretro 1.0_pre20210127 9999: Rewritten Nintendo 64 emulator made specifically for Libretro.
-games-emulation/pcsx-rearmed-libretro 1.0_pre20210113 9999-r3: libretro implementation of PCSX ReARMed. (PlayStation)
+games-emulation/opera-libretro 1.0_pre20210409 9999-r3: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
+games-emulation/parallel_n64-libretro 1.0_pre20210324 9999: Rewritten Nintendo 64 emulator made specifically for Libretro.
+games-emulation/pcsx-rearmed-libretro 1.0_pre20210428 9999-r3: libretro implementation of PCSX ReARMed. (PlayStation)
 games-emulation/pcsx2-ex 3.00.1: A PlayStation 2 emulator
 games-emulation/picodrive-libretro 9999-r3: libretro implementation of PicoDrive. (Sega GameGear/Sega CD/32X)
-games-emulation/play 0.39: PlayStation 2 emulator.
+games-emulation/play 0.40: PlayStation 2 emulator.
 games-emulation/play-libretro 1.0_pre20210107 9999: Sony Playstation 2 libretro core
-games-emulation/pocketcdg-libretro 1.0_pre20210110 9999-r3: PocketCDG libretro port.
-games-emulation/pokemini-libretro 1.0_pre20210120 9999-r3: Obscure nintendo handheld emulator.
+games-emulation/pocketcdg-libretro 1.0_pre20210309 9999-r3: PocketCDG libretro port.
+games-emulation/pokemini-libretro 1.0_pre20210325 9999-r3: Obscure nintendo handheld emulator.
 games-emulation/potator-libretro 1.0_pre20210325 9999: A Watara Supervision Emulator based on Normmatt version
 games-emulation/ppsspp-libretro 1.0_pre20200318 9999-r3: libretro implementation of PPSSPP. (PlayStation Portable/PSP)
-games-emulation/prboom-libretro 1.0_pre20210128 9999-r3: libretro implementation of PrBoom. (Doom)
-games-emulation/prosystem-libretro 1.0_pre20200124 9999-r3: libretro implementation of prosystem. (Atari 7800)
-games-emulation/puae-libretro 1.0_pre20210127 9999-r3: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
-games-emulation/px68k-libretro 1.0_pre20210113 9999-r3: libretro implementation of PX68K. (Sharp X68000)
+games-emulation/prboom-libretro 1.0_pre20210325 9999-r3: libretro implementation of PrBoom. (Doom)
+games-emulation/prosystem-libretro 1.0_pre20210325 9999-r3: libretro implementation of prosystem. (Atari 7800)
+games-emulation/puae-libretro 1.0_pre20210427 9999-r3: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
+games-emulation/px68k-libretro 1.0_pre20210312 9999-r3: libretro implementation of PX68K. (Sharp X68000)
 games-emulation/quasi88-libretro 1.0_pre20200116 9999-r3: A PC-8800 series emulator to the libretro API
-games-emulation/quicknes-libretro 1.0_pre20210115 9999-r3: libretro implementation of QuickNES. (Nintendo Entertainment System)
-games-emulation/race-libretro 1.0_pre20210115 9999: Modified ngpc emulator to run on psp, ported to libretro
+games-emulation/quicknes-libretro 1.0_pre20210325 9999-r3: libretro implementation of QuickNES. (Nintendo Entertainment System)
+games-emulation/race-libretro 1.0_pre20210409 9999: Modified ngpc emulator to run on psp, ported to libretro
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
-games-emulation/reminiscence-libretro 1.0_pre20210124 9999-r3: Flashback engine implementation for libretro
+games-emulation/reminiscence-libretro 1.0_pre20210317 9999-r3: Flashback engine implementation for libretro
 games-emulation/retro8-libretro 1.0_pre20210314 9999: PICO-8 implementation with SDL2 and RetroArch back-ends
 games-emulation/retroarch 1.9.2 9999-r1: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20210422 9999: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20210430 9999-r3: RetroArch joypad autoconfig files
 games-emulation/retrodream-libretro 1.0_pre20200607 9999-r3: libretro implementation of redream. (SEGA Dreamcast)
 games-emulation/retrovirtualmachine-bin 2.0_beta1: Emulator of the Amstrad CPC and ZX Spectrum home computers and clones
-games-emulation/rpcs3 0.0.15: PS3 emulator and debugger.
+games-emulation/rpcs3 0.0.16: PS3 emulator and debugger.
 games-emulation/sameboy-libretro 1.0_pre20210314 9999: libretro implementation of SameBoy (Gameboy / Gameboy Color)
-games-emulation/scummvm-libretro 1.0_pre20200107 9999-r3: libretro implementation of ScummVM
+games-emulation/scummvm-libretro 1.0_pre20210325 9999-r3: libretro implementation of ScummVM
 games-emulation/slang-shaders 1.0_pre20210407 9999-r3: Collection of slang shaders for vulkan backends.
 games-emulation/smsplus-libretro 1.0_pre20210314 9999: Improved port of SMSPlus-GX by gameblabla for libretro
-games-emulation/snes9x2002-libretro 1.0_pre20210109 9999-r3: Snes9x 2002. Port of SNES9x 1.39 for libretro (previously PocketSNES)
-games-emulation/snes9x2005-libretro 1.0_pre20210109 9999: Snes9x 2005. Port of SNES9x 1.43 for libretro (previously PocketSNES)
-games-emulation/snes9x2010-libretro 1.0_pre20210114 9999-r3: Snes9x 2010. Port of Snes9x 1.52+ to Libretro (previously called SNES9x Next)
-games-emulation/squirreljme-libretro 1.0_pre20210126 9999: SquirrelJME is a Java ME 8 Virtual Machine for libretro
-games-emulation/stella2014-libretro 1.0_pre20210128 9999-r3: libretro implementation of Stella 2014. (Atari 2600)
+games-emulation/snes9x2002-libretro 1.0_pre20210312 9999-r3: Snes9x 2002. Port of SNES9x 1.39 for libretro (previously PocketSNES)
+games-emulation/snes9x2005-libretro 1.0_pre20210325 9999: Snes9x 2005. Port of SNES9x 1.43 for libretro (previously PocketSNES)
+games-emulation/snes9x2010-libretro 1.0_pre20210423 9999-r3: Snes9x 2010. Port of Snes9x 1.52+ to Libretro (previously called SNES9x Next)
+games-emulation/squirreljme-libretro 1.0_pre20210501 9999: SquirrelJME is a Java ME 8 Virtual Machine for libretro
+games-emulation/stella2014-libretro 1.0_pre20210325 9999-r3: libretro implementation of Stella 2014. (Atari 2600)
 games-emulation/stonesoup-libretro 9999-r1: Kibretro port of Dungeon Crawl - Stone Soup
-games-emulation/tgbdual-libretro 1.0_pre20210115 9999-r3: libretro implementation of TGB-DUAL. (Game Boy Advance)
-games-emulation/theodore-libretro 1.0_pre20210124 9999-r3: Libretro core for Thomson TO8/TO8D/TO9/TO9+ emulation.
-games-emulation/thepowdertoy-libretro 9999: Nintendo 3DS for libretro
-games-emulation/tic80-libretro 9999: Nintendo 3DS for libretro
-games-emulation/tyrquake-libretro 1.0_pre20191224 9999-r3: libretro implementation of TyrQuake. (Quake)
-games-emulation/uzem-libretro 1.0_pre20210108 9999: An emulator for development purposes
-games-emulation/vba-next-libretro 1.0_pre20210128 9999-r3: libretro implementation of VBA Next. (Game Boy Advance)
-games-emulation/vbam-libretro 1.0_pre20210109 9999-r2: libretro implementation of VBA-M. (Game Boy Advance)
+games-emulation/tgbdual-libretro 1.0_pre20210312 9999-r3: libretro implementation of TGB-DUAL. (Game Boy Advance)
+games-emulation/theodore-libretro 1.0_pre20210314 9999-r3: Libretro core for Thomson TO8/TO8D/TO9/TO9+ emulation.
+games-emulation/thepowdertoy-libretro 9999: A port of The Powder Toy to LibRetro.
+games-emulation/tic80-libretro 9999: TIC-80 is a fantasy computer for making, playing and sharing tiny games.
+games-emulation/tyrquake-libretro 1.0_pre20210410 9999-r3: libretro implementation of TyrQuake. (Quake)
+games-emulation/uzem-libretro 1.0_pre20210314 9999-r1: An emulator for development purposes
+games-emulation/vba-next-libretro 1.0_pre20210312 9999-r3: libretro implementation of VBA Next. (Game Boy Advance)
+games-emulation/vbam-libretro 1.0_pre20210315 9999-r2: libretro implementation of VBA-M. (Game Boy Advance)
 games-emulation/vecx-libretro 1.0_pre20210108 9999-r3: Libretro adaption of vecx, a Vectrex Emulator
-games-emulation/vemulator-libretro 1.0_pre20210116 9999: A port of the SEGA Visual Memory Unit emulator VeMUlator for libretro.
-games-emulation/vice-x128-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-x64-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-x64sc-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-xcbm2-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-xcbm5x0-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-xpet-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-xplus4-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-xscpu64-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/vice-xvic-libretro 1.0_pre20210122 9999: Versatile Commodore 8-bit Emulator as a libretro core
-games-emulation/virtualjaguar-libretro 1.0_pre20210109 9999-r3: Port of Virtual Jaguar to Libretro
+games-emulation/vemulator-libretro 1.0_pre20210327 9999: A port of the SEGA Visual Memory Unit emulator VeMUlator for libretro.
+games-emulation/vice-x128-libretro 1.0_pre20210501 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-x64-libretro 1.0_pre20210501 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-x64sc-libretro 1.0_pre20210501 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xcbm2-libretro 1.0_pre20210501 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xcbm5x0-libretro 1.0_pre20210501 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xpet-libretro 1.0_pre20210501 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xplus4-libretro 1.0_pre20210501 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xscpu64-libretro 1.0_pre20210501 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/vice-xvic-libretro 1.0_pre20210501 9999: Versatile Commodore 8-bit Emulator as a libretro core
+games-emulation/virtualjaguar-libretro 1.0_pre20210314 9999-r3: Port of Virtual Jaguar to Libretro
 games-emulation/vita3k 9999: Sony Playstation Vita Emulator
-games-emulation/vitaquake2-libretro 1.0_pre20210108 9999: libretro implementation of VitaQuake2. (Quake II)
-games-emulation/vitaquake3-libretro 1.0_pre20200809 9999: libretro implementation of VitaQuake3. (Quake III)
+games-emulation/vitaquake2-libretro 1.0_pre20210314 9999: libretro implementation of VitaQuake2. (Quake II)
+games-emulation/vitaquake3-libretro 1.0_pre20210131 9999: libretro implementation of VitaQuake3. (Quake III)
 games-emulation/vitavoyager-libretro 1.0_pre20200102 9999: lilium-voyager (Star Trek Voyager: Elite Force Holomatch mp) for libretro
-games-emulation/x1-libretro 1.0_pre20210108 9999: Libretro port of X Millennium Sharp X1 emulator
+games-emulation/x1-libretro 1.0_pre20210314 9999: Libretro port of X Millennium Sharp X1 emulator
 games-emulation/xnp2 9999: X Neko Project II, a PC-9801 emulator (PC98)
-games-emulation/xrick-libretro 1.0_pre20200124 9999-r3: Xrick is an open source implementation of Rick Dangerous for libretro.
-games-emulation/yabause-libretro 1.0_pre20210125 9999-r3: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
-games-emulation/yuzu 0.598: Nintendo Switch emulator
+games-emulation/xrick-libretro 1.0_pre20210311 9999-r3: Xrick is an open source implementation of Rick Dangerous for libretro.
+games-emulation/yabause-libretro 1.0_pre20210411 9999-r3: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
+games-emulation/yuzu 0.606: Nintendo Switch emulator
 games-engines/easyrpg-player 0.6.2.3 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
 games-fps/alephone 9999-r3 20210408-r3: An enhanced version of the game engine from the classic Mac game, Marathon
 games-fps/alephone-durandal 20210408: Aleph One - Marathon 2 (Durandal)
