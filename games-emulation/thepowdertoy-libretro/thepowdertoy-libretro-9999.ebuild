@@ -7,7 +7,7 @@ LIBRETRO_REPO_NAME="libretro/ThePowderToy"
 
 inherit cmake libretro-core toolchain-funcs
 
-DESCRIPTION="Nintendo 3DS for libretro"
+DESCRIPTION="A port of The Powder Toy to LibRetro."
 HOMEPAGE="https://github.com/libretro/ThePowderToy"
 
 LICENSE="GPL-3"

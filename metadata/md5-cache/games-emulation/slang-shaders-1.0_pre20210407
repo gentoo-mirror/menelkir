@@ -9,4 +9,4 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/slang-shaders/archive/8e0b10aa2d1ea84fbcc2465dc22d9fc6e987817f.tar.gz -> slang-shaders-1.0_pre20210407.tar.gz
 _eclasses_=libretro	e2e72840da02ef2a21e935c8447187a8
-_md5_=ca9125be84b8f6db6aa0d5ce4711028c
+_md5_=61dbe2fd81b139a46af7924db581246c

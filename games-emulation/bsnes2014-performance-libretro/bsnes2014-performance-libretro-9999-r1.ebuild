@@ -12,7 +12,7 @@ HOMEPAGE="https://github.com/libretro/bsnes2014"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS=""
 # No tests provided
 RESTRICT="test"
 
@@ -21,8 +21,3 @@ src_compile(){
 		libretro-core_src_compile
 }
 
-pkg_preinst() {
-		if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
-			first_install="1"
-		fi
-}

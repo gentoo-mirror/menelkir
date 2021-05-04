@@ -18,9 +18,3 @@ RDEPEND="${DEPEND}
 		games-emulation/libretro-info"
 
 S=${WORKDIR}/${PN}-${LIBRETRO_COMMIT_SHA}/crawl-ref
-
-pkg_preinst() {
-	if ! has_version "=${CATEGORY}/${PN}-${PVR}"; then
-		first_install="1"
-	fi
-}
