@@ -26,7 +26,6 @@ dev-python/w3lib 1.22.0: Library of web-related functions
 dev-python/websockets 8.1-r2: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
 dev-util/nihstro 1.0_pre20180113: 3DS shader assembler and disassembler
 dev-util/pmbootstrap 1.31.0: Sophisticated chroot/build/flash tool to develop and install postmarketOS.
-games-action/minecraft-launcher 1.6.93 921: An open-world game whose gameplay revolves around breaking and placing blocks
 games-emulation/3dengine-libretro 1.0_pre20210107-r1 9999-r4: 3D Engine for libretro GL with additional features
 games-emulation/81-libretro 1.0_pre20210311 9999-r3: A port of the EightyOne ZX81 Emulator to libretro
 games-emulation/atari800-libretro 1.0_pre20210415 9999-r4: Free and portable Atari 8-bit computer and 5200 console emulator
