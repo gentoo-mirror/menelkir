@@ -17,8 +17,6 @@ KEYWORDS=""
 RDEPEND=""
 DEPEND="${RDEPEND}"
 
-# S=${WORKDIR}/TIC-80-${LIBRETRO_COMMIT_SHA}
-
 src_prepare() {
 	cmake_src_prepare
 }
