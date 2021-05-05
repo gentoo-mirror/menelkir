@@ -26,6 +26,7 @@ dev-python/w3lib 1.22.0: Library of web-related functions
 dev-python/websockets 8.1-r2: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
 dev-util/nihstro 1.0_pre20180113: 3DS shader assembler and disassembler
 dev-util/pmbootstrap 1.31.0: Sophisticated chroot/build/flash tool to develop and install postmarketOS.
+games-action/minecraft-launcher 1.6.93 921: An open-world game whose gameplay revolves around breaking and placing blocks
 games-emulation/3dengine-libretro 1.0_pre20210107-r1 9999-r4: 3D Engine for libretro GL with additional features
 games-emulation/81-libretro 1.0_pre20210311 9999-r3: A port of the EightyOne ZX81 Emulator to libretro
 games-emulation/atari800-libretro 1.0_pre20210415 9999-r4: Free and portable Atari 8-bit computer and 5200 console emulator
@@ -208,7 +209,7 @@ games-fps/alephone 9999-r3 20210408-r3: An enhanced version of the game engine f
 games-fps/alephone-durandal 20210408: Aleph One - Marathon 2 (Durandal)
 games-fps/alephone-infinity 20210408: Aleph One - Marathon Infinity
 games-fps/alephone-marathon 20210408: Aleph One - Marathon (M1A1)
-games-fps/brutal-doom 21: A mod that attempts to make Doom faster placed, harder, gorier and more violent.
+games-fps/brutal-doom 21-r1: A mod that attempts to make Doom faster placed, harder, gorier and more violent.
 games-fps/dhewm3 1.5.1_rc2: A Doom 3 GPL source modification.
 games-sports/stuntrally 2.6-r1 9999-r1: Rally game focused on closed rally tracks with possible stunt elements.
 games-sports/stuntrally-tracks 2.6-r1 9999-r1: A set of tracks for games-sports/stuntrally-9999
