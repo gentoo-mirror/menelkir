@@ -5,12 +5,12 @@ EAPI=7
 
 DESCRIPTION="A mod that attempts to make Doom faster placed, harder, gorier and more violent."
 HOMEPAGE="http://www.moddb.com/mods/brutal-doom/"
-SRC_URI="https://www.moddb.com/downloads/mirror/95667/115/a0a0f5df02d9b4029ba86a1d53a60338 -> brutalv${PV}.rar"
+SRC_URI="https://www.moddb.com/downloads/mirror/95667/100/b8fb37ddb10c39462f9625533fab59d2 -> brutalv${PV}.rar"
 
 LICENSE="HPND"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-# TODO Add USEs for zdoom and skulltag
+# TODO Add USEs for gzdoom and skulltag
 IUSE=""
 
 RDEPEND="games-fps/gzdoom"
@@ -19,7 +19,7 @@ DEPEND="app-arch/unrar"
 S="${WORKDIR}"
 
 src_install() {
-	insinto "/usr/share/doom-data"
+	insinto "/usr/share/doom"
 	doins brutalv${PV}.pk3
 	dodoc "BRUTAL DOOM MANUAL.rtf" "bd21 changelog.txt"
 }
@@ -27,6 +27,6 @@ src_install() {
 pkg_postinst() {
 	echo
 	elog "In order to play this mod run gzdoom with -file option:"
-	elog "    gzdoom -file /usr/share/doom-data/brutalv${PV}.pk3"
+	elog "    gzdoom -file /usr/share/doom/brutalv${PV}.pk3"
 	echo
 }
