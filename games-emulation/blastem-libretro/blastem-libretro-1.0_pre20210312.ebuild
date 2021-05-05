@@ -6,7 +6,7 @@ EAPI=7
 LIBRETRO_REPO_NAME="libretro/blastem"
 LIBRETRO_COMMIT_SHA="e70b05bf5b5954140cba227fc996ab24c064d494"
 
-inherit libretro-core
+inherit libretro-core flag-o-matic
 
 DESCRIPTION="A fast and accurate Genesis emulator"
 HOMEPAGE="https://github.com/libretro/blastem"
