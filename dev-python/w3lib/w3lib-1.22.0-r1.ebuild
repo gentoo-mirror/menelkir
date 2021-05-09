@@ -3,15 +3,15 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_7 )
+PYTHON_COMPAT=( python3_8 )
 
 inherit distutils-r1
 
-DESCRIPTION="Simple PDF generation for Python"
-HOMEPAGE="https://github.com/reingart/pyfpdf"
+DESCRIPTION="Library of web-related functions"
+HOMEPAGE="https://github.com/scrapy/w3lib"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
