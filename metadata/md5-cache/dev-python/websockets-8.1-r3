@@ -4,6 +4,7 @@ DEPEND=dev-python/setuptools[python_targets_python3_8(-)?,-python_single_target_
 DESCRIPTION=An implementation of the WebSocket Protocol (RFC 6455 & 7692)
 EAPI=7
 HOMEPAGE=https://github.com/aaugustin/websockets https://pypi.org/project/websockets/
+INHERIT=distutils-r1
 IUSE=test python_targets_python3_8
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
@@ -11,5 +12,5 @@ RDEPEND=python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec
 REQUIRED_USE=|| ( python_targets_python3_8 )
 SLOT=0
 SRC_URI=mirror://pypi/w/websockets/websockets-8.1.tar.gz
-_eclasses_=distutils-r1	f0ca511df3fddd316b783632b804e8fb	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	26e4ad0a4190b14f70973dc253e86535	python-utils-r1	20c4a380a6193a089c8c432f3e5f8402	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	python-utils-r1	20c4a380a6193a089c8c432f3e5f8402	python-r1	26e4ad0a4190b14f70973dc253e86535	distutils-r1	f0ca511df3fddd316b783632b804e8fb
 _md5_=82917eb6bb49a88f651858f1f8746063
