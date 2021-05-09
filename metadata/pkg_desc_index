@@ -9,7 +9,7 @@ app-misc/g15stats 3.0.2 9999: CPU, memory, swap, network stats for G15 Keyboard
 app-mobilephone/scrcpy 1.17: Display and control your Android device
 dev-lang/rgbds 0.4.0 0.4.1 0.4.2: Free assembler/linker package for the Game Boy and Game Boy Color
 dev-libs/breakpad 0_p20200604 9999: A crash-reporting system
-dev-libs/cubeb 0.2_p20210310: Cross platform audio library.
+dev-libs/cubeb 0.2_p20210505: Cross platform audio library.
 dev-libs/dynarmic 1.0_pre20200809 9999: An ARM dynamic recompiler
 dev-libs/libg15 1.2.9 3.0.1 9999: The libg15 library gives low-level access to the Logitech G15 keyboard
 dev-libs/libg15render 3.0.2 9999: Small library for display text and graphics on a Logitech G15 keyboard
@@ -39,7 +39,7 @@ games-emulation/bsnes2014-performance-libretro 1.0_pre20210317 9999-r1: Libretro
 games-emulation/cannonball-libretro 1.0_pre20210309 9999-r3: An Enhanced OutRun Engine.
 games-emulation/cap32-libretro 1.0_pre20210327 9999-r3: Caprice32 libretro core
 games-emulation/chailove-libretro 9999: 2D Game Framework with ChaiScript
-games-emulation/citra 20210429: A Nintendo 3DS emulator.
+games-emulation/citra 20210504: A Nintendo 3DS emulator.
 games-emulation/citra-libretro 1.0_pre20210408: Nintendo 3DS for libretro
 games-emulation/craft-libretro 1.0_pre20210317 9999-r3: Libretro implementation of Craft. (Minecraft clone)
 games-emulation/crocods-libretro 1.0_pre20210314 9999-r3: CrocoDS libretro core
@@ -202,7 +202,7 @@ games-emulation/x1-libretro 1.0_pre20210314 9999: Libretro port of X Millennium 
 games-emulation/xnp2 9999: X Neko Project II, a PC-9801 emulator (PC98)
 games-emulation/xrick-libretro 1.0_pre20210311 9999-r3: Xrick is an open source implementation of Rick Dangerous for libretro.
 games-emulation/yabause-libretro 1.0_pre20210411 9999-r3: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
-games-emulation/yuzu 0.606: Nintendo Switch emulator
+games-emulation/yuzu 0.610: Nintendo Switch emulator
 games-engines/easyrpg-player 0.6.2.3 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
 games-fps/alephone 9999-r3 20210408-r3: An enhanced version of the game engine from the classic Mac game, Marathon
 games-fps/alephone-durandal 20210408: Aleph One - Marathon 2 (Durandal)
@@ -270,6 +270,8 @@ www-client/brave-beta-bin 1.25.53: Brave Web Browser
 www-client/brave-bin 1.24.83: Brave Web Browser
 www-client/brave-dev-bin 1.25.54: Brave Web Browser
 www-client/brave-nightly-bin 1.26.15: Brave Web Browser
+www-client/librewolf 76.0.1 84.0.2 85.0-r1 85.0.1 86.0 86.0.1 87.0 87.0-r1 88.0: LibreWolf Web Browser
+www-client/librewolf-bin 76.0.1 84.0.2 85.0 85.0.1 86.0 87.0 88.0: LibreWolf Web Browser
 www-client/torbrowser-launcher 0.3.3 9999: A program to download, updated, and run the Tor Browser Bundle
 x11-misc/betterlockscreen_rapid 0.0.0_pre20201222: A rapid and good-looking screen locker
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
