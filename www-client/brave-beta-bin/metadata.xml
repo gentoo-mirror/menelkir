@@ -2,8 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>jpizarrocallejas@gmail.com</email>
-		<name>Jorge Pizarro Callejas</name>
-		<description>Jorgicio Gentoo Overlay</description>
+		<email>menelkir@itroll.org</email>
+		<name>Daniel Menelkir</name>
 	</maintainer>
 </pkgmetadata>
