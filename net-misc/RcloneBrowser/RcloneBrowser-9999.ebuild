@@ -7,10 +7,9 @@ inherit cmake git-r3
 
 DESCRIPTION="Simple cross platform GUI for Rclone"
 HOMEPAGE="https://github.com/kapitainsky/RcloneBrowser"
-EGIT_REPO_URI="https://github.com/kapitainsky/RcloneBrowser.git"
 
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 LICENSE="MIT"
 
 RDEPEND="
@@ -27,4 +26,12 @@ src_configure() {
 		-DCMAKE_BUILD_TYPE=None
 	)
 	cmake_src_configure
+}
+
+pkg_postinst() {
+	xdg_icon_cache_update
+}
+
+pkg_postrm() {
+	xdg_icon_cache_update
 }
