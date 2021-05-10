@@ -7,6 +7,7 @@ inherit cmake git-r3
 
 DESCRIPTION="Simple cross platform GUI for Rclone"
 HOMEPAGE="https://github.com/kapitainsky/RcloneBrowser"
+EGIT_REPO_URI="https://github.com/kapitainsky/RcloneBrowser"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
