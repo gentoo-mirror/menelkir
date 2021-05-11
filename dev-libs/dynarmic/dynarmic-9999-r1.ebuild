@@ -26,7 +26,7 @@ PATCHES=(
 )
 
 src_prepare() {
-	cmake-utils_src_prepare
+	cmake_src_prepare
 	rm -r externals/{catch,fmt,xbyak} || die
 }
 
@@ -36,7 +36,7 @@ src_configure() {
 		-DDYNARMIC_TESTS=$(usex test)
 		-DDYNARMIC_WARNINGS_AS_ERRORS=OFF
 	)
-	cmake-utils_src_configure
+	cmake_src_configure
 }
 
 src_install() {
