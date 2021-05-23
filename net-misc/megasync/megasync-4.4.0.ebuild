@@ -23,6 +23,9 @@ fi
 
 LICENSE="MEGA"
 SLOT="0"
+CFLAGS="${CFLAGS} -fpermissive -fcommon"
+CXXFLAGS="${CXXFLAGS} -fpermissive -fcommon"
+
 IUSE="+cryptopp +curl +sqlite +zlib dolphin examples freeimage java nautilus php python readline threads thunar"
 
 RDEPEND="
