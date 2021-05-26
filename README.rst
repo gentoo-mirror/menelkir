@@ -10,7 +10,6 @@ some personal modifications. The follow repositories was used (sorry if I forgot
 
 :Gamerlay: https://cgit.gentoo.org/proj/gamerlay.git
 :Guru: https://wiki.gentoo.org/wiki/Project:GURU
-:librewolf: https://gitlab.com/librewolf-community/browser/gentoo
 :Pentoo: https://github.com/pentoo/pentoo-overlay
 :Steam-Overlay: https://github.com/anyc/steam-overlay
 :ssnb-overlay: https://github.com/samuelbernardo/ssnb-overlay
