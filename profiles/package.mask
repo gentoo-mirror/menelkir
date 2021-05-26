@@ -1,6 +1,7 @@
 # Daniel Menelkir <menelkir@itroll.org> 2021-05-26
 # Broken. Needs further investigation.
 games-emulation/chailove-libretro
+games-emulation/freechaf-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.
