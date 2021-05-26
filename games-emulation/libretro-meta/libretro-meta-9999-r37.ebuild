@@ -8,7 +8,7 @@ HOMEPAGE="http://www.libretro.com/"
 LICENSE="metapackage"
 SLOT="0"
 IUSE="2048 3dengine 81 atari800 bk blastem bluemsx bnes boom3 bsnes bsnes-mercury cannonball cap32 chailove citra \
-	craft crocods desmume dinothawr dolphin dosbox dosbox-svn duckstation ecwolf fbalpha fbalpha2012 fbneo fceumm \
+	craft crocods desmume dinothawr dolphin dosbox dosbox-svn swanstation ecwolf fbalpha fbalpha2012 fbneo fceumm \
 	fceu-next ffmpeg flycast fmsx freechaf freeintv frodo fuse gambatte gearboy gearsystem genesis_plus_gx \
 	genesis_plus_gx_wide gme gong gpsp gw handy hatari lowresnx lutro mame2000 mame2003 mame2003_plus-libretro \
 	mame2010 mame2015 mess2015 mednafen-bsnes mednafen-gba mednafen-lynx mednafen-ngp mednafen-pce \
@@ -44,7 +44,7 @@ RDEPEND="2048? ( games-emulation/libretro-twentyfortyeight )
 	dolphin? ( games-emulation/dolphin-libretro )
 	dosbox? ( games-emulation/libretro-dosbox )
 	dosbox-svn? ( games-emulation/dosbox-svn-libretro )
-	duckstation? ( games-emulation/duckstation-libretro )
+	swanstation? ( games-emulation/swanstation-libretro )
 	ecwolf? ( games-emulation/ecwolf-libretro )
 	fbalpha? ( games-emulation/fbalpha-libretro )
 	fbalpha2012? ( games-emulation/fbalpha2012-libretro )

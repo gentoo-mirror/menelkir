@@ -3,13 +3,13 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/duckstation"
-LIBRETRO_COMMIT_SHA="e414aeb2571a80b2eda09535d7a279774294f0c7"
+LIBRETRO_REPO_NAME="libretro/swanstation"
+LIBRETRO_COMMIT_SHA="a39c7512c47c125f554c4e4725217c16628683e4"
 
 inherit libretro-core cmake flag-o-matic
 
 DESCRIPTION="Fast Sony Playstation emulator."
-HOMEPAGE="https://github.com/libretro/duckstation"
+HOMEPAGE="https://github.com/libretro/swanstation"
 KEYWORDS="~amd64"
 
 LICENSE="GPL-3"

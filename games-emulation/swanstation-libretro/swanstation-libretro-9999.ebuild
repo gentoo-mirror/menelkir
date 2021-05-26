@@ -3,12 +3,12 @@
 
 EAPI=7
 
-LIBRETRO_REPO_NAME="libretro/duckstation"
+LIBRETRO_REPO_NAME="libretro/swanstation"
 
 inherit git-r3 libretro-core cmake
 
 DESCRIPTION="Fast Sony Playstation emulator."
-HOMEPAGE="https://github.com/libretro/duckstation"
+HOMEPAGE="https://github.com/libretro/swanstation"
 KEYWORDS=""
 
 LICENSE="GPL-3"
