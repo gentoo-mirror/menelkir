@@ -17,35 +17,13 @@ if [[ ${PV} == 9999 ]]; then
 	EGIT_BRANCH="master"
 	KEYWORDS=""
 else
-<<<<<<< HEAD:net-misc/megasync/megasync-9999.ebuild
 	EGIT_COMMIT="v${PV}${RTAG}"
 	KEYWORDS="~x86 ~amd64"
-=======
-	MEGA_SDK_REV="ba4834cb6c22f4e996f328db3aa5b82ef20eed3e" # commit of src/MEGASync/mega submodule
-	SRC_URI="
-		https://github.com/meganz/MEGAsync/archive/v${PV}.0_Linux.tar.gz -> ${P}.tar.gz
-		https://github.com/meganz/sdk/archive/${MEGA_SDK_REV}.tar.gz -> ${PN}-sdk-${PV}.tar.gz
-	"
-	KEYWORDS="~amd64 ~x86"
-	S="${WORKDIR}"/MEGAsync-${PV}.0_Linux
->>>>>>> ccb9bd3ded69a444ccfef98946c2d59cf884f12c:net-misc/megasync/megasync-9999-r2.ebuild
 fi
 EGIT_SUBMODULES=( '*' )
 
 LICENSE="MEGA"
 SLOT="0"
-<<<<<<< HEAD:net-misc/megasync/megasync-9999.ebuild
-<<<<<<< HEAD:net-misc/megasync/megasync-9999.ebuild
-=======
-CFLAGS="${CFLAGS} -fpermissive -fcommon"
-CXXFLAGS="${CXXFLAGS} -fpermissive -fcommon"
-
->>>>>>> ccb9bd3ded69a444ccfef98946c2d59cf884f12c:net-misc/megasync/megasync-4.4.0.ebuild
-=======
-CFLAGS="${CFLAGS} -fpermissive -fcommon"
-CXXFLAGS="${CXXFLAGS} -fpermissive -fcommon"
-
->>>>>>> ccb9bd3ded69a444ccfef98946c2d59cf884f12c:net-misc/megasync/megasync-9999-r2.ebuild
 IUSE="+cryptopp +curl +sqlite +zlib dolphin examples freeimage java nautilus php python readline threads thunar"
 
 RDEPEND="
@@ -82,20 +60,16 @@ DEPEND="
 	dev-qt/qtx11extras:5
 "
 BDEPEND="
-	app-doc/doxygen
 	dev-lang/swig
 	dev-qt/linguist-tools
 "
 
 DOCS=( CREDITS.md README.md )
 
-<<<<<<< HEAD:net-misc/megasync/megasync-9999.ebuild
 PATCHES=( )
 
 CMAKE_USE_DIR="${S}/src/MEGAShellExtDolphin"
 
-=======
->>>>>>> ccb9bd3ded69a444ccfef98946c2d59cf884f12c:net-misc/megasync/megasync-9999-r2.ebuild
 src_prepare() {
 	if [ -e "${FILESDIR}/${P}_pdfium.patch" ]; then
 		cd "${S}/src/MEGASync/mega"
@@ -105,7 +79,6 @@ src_prepare() {
 	if has_version ">=media-video/ffmpeg-4.4" && [ -e "${FILESDIR}/${P}_ffmpeg.patch" ]; then
 		eapply "${FILESDIR}/${P}_ffmpeg.patch"
 	fi
-<<<<<<< HEAD:net-misc/megasync/megasync-9999.ebuild
 	if use dolphin; then
 		# use the kde5 CMakeLists instead of the kde 4 version
 		mv src/MEGAShellExtDolphin/CMakeLists_kde5.txt src/MEGAShellExtDolphin/CMakeLists.txt || die
@@ -114,10 +87,6 @@ src_prepare() {
 		default
 	fi
 	cd "${S}/src/MEGASync/mega"
-=======
-	default
-	cd src/MEGASync/mega
->>>>>>> ccb9bd3ded69a444ccfef98946c2d59cf884f12c:net-misc/megasync/megasync-9999-r2.ebuild
 	eautoreconf
 }
 

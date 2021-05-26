@@ -13,6 +13,7 @@ some personal modifications. The follow repositories was used (sorry if I forgot
 :librewolf: https://gitlab.com/librewolf-community/browser/gentoo
 :Pentoo: https://github.com/pentoo/pentoo-overlay
 :Steam-Overlay: https://github.com/anyc/steam-overlay
+:ssnb-overlay: https://github.com/samuelbernardo/ssnb-overlay
 :tatsh-overlay: https://github.com/tatsh/tatsh-overlay
 :winny-: https://github.com/winny-/winny-overlay
 
