@@ -6,9 +6,6 @@
 		<name>Ronny (tastytea) Gutbrod</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">itchio/itch</remote-id>
+		<remote-id type="github">Nheko-Reborn/nheko</remote-id>
 	</upstream>
-	<use>
-		<flag name="system-ffmpeg">Use the system-wide <pkg>media-video/ffmpeg</pkg> instead of bundled.</flag>
-	</use>
 </pkgmetadata>
