@@ -2,6 +2,9 @@
 # Broken. Needs further investigation.
 games-emulation/chailove-libretro
 games-emulation/freechaf-libretro
+games-emulation/mrboom-libretro
+games-emulation/neocd-libretro
+games-emulation/picodrive-libretro
 
 # Daniel Menelkir <menelkir@itroll.org> 2021-01-27
 # Broken.

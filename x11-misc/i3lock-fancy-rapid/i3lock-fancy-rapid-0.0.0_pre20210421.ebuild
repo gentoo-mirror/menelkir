@@ -5,7 +5,7 @@ EAPI=7
 
 inherit flag-o-matic toolchain-funcs
 
-MY_REV="c70ecfa8a529cb71f21f475f31d748ce9b154a8b"
+MY_REV="6eeebd4caa177b82fa5010b5e8828cce3f89fb97"
 
 DESCRIPTION="A faster implementation of i3lock-fancy"
 HOMEPAGE="https://github.com/yvbbrjdr/i3lock-fancy-rapid"

@@ -5,11 +5,12 @@ EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/picodrive"
 
-inherit libretro-core
+inherit git-r3 libretro-core
 
 DESCRIPTION="libretro implementation of PicoDrive. \
 (Sega GameGear/Sega CD/32X)"
 HOMEPAGE="https://github.com/libretro/picodrive"
+EGIT_REPO_URI="https://github.com/libretro/picodrive.git"
 KEYWORDS=""
 
 LICENSE="PD"
