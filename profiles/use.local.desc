@@ -216,6 +216,7 @@ games-emulation/yuzu:cubeb - Build with cubeb audio backend
 games-emulation/yuzu:web-service - Enable web-serviceds
 games-sports/stuntrally:editor - Install game editor
 games-sports/stuntrally:game - Install game files
+games-util/itch-bin:system-ffmpeg - Use the system-wide media-video/ffmpeg instead of bundled.
 games-util/steam-client-meta:steamfonts - Use official fonts from Valve's steam client
 games-util/steam-client-meta:steamruntime - Use the official steam runtime libraries
 games-util/steam-client-meta:steamvr - Enable SteamVR virtual reality support

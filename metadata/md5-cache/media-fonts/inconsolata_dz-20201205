@@ -3,6 +3,7 @@ DEFINED_PHASES=install postinst postrm setup
 DESCRIPTION=A beautiful sans-serif monotype font designed for code listings
 EAPI=7
 HOMEPAGE=https://nodnod.net/posts/inconsolata-dz https://fontinfo.opensuse.org/fonts/Inconsolata-dzdz.html
+INHERIT=font
 IUSE=X
 KEYWORDS=~amd64
 LICENSE=OFL-1.1
