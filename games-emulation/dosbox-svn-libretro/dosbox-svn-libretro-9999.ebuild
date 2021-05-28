@@ -14,8 +14,7 @@ KEYWORDS=""
 LICENSE="GPL-2+"
 SLOT="0"
 
-DEPEND="dev-vcs/subversion
-		media-libs/libinstpatch
+DEPEND="media-libs/libinstpatch
 		media-libs/sdl-net
 		media-libs/munt-mt32emu
 		media-sound/munt-mt32emu-alsadrv
