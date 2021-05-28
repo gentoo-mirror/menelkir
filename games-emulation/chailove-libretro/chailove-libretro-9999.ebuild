@@ -5,7 +5,7 @@ EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/libretro-chailove"
 
-inherit git-r3 libretro-core
+inherit libretro-core
 
 DESCRIPTION="2D Game Framework with ChaiScript"
 HOMEPAGE="https://github.com/libretro/libretro-chailove"
