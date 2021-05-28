@@ -223,6 +223,7 @@ games-util/steam-client-meta 0-r20210501: Meta package for Valve's native Steam 
 games-util/steam-launcher 1.0.0.70: Installer, launcher and supplementary files for Valve's Steam client
 games-util/steam-meta 0-r20160817: Meta package for Valve's Steam environment
 media-fonts/inconsolata_dz 20201205: A beautiful sans-serif monotype font designed for code listings
+media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
 media-fonts/steamfonts 1: Collection of fonts used by Valve's Steam client
 media-libs/celt 0.11.1-r1 0.11.3: CELT is a very low delay audio codec designed for high-quality communications
 media-libs/hal-flash 0.3.3-r1: libhal stub forwarding to UDisks for Adobe Flash to play DRM content
