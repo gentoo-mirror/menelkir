@@ -206,9 +206,6 @@ games-emulation/yabause-libretro 1.0_pre20210411 9999-r3: Yabause/YabaSanshiro/K
 games-emulation/yuzu 0.610: Nintendo Switch emulator
 games-engines/easyrpg-player 0.6.2.3 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
 games-fps/alephone 9999-r3 20210408-r3: An enhanced version of the game engine from the classic Mac game, Marathon
-games-fps/alephone-durandal 20210408: Aleph One - Marathon 2 (Durandal)
-games-fps/alephone-infinity 20210408: Aleph One - Marathon Infinity
-games-fps/alephone-marathon 20210408: Aleph One - Marathon (M1A1)
 games-fps/brutal-doom 21-r1: A mod that attempts to make Doom faster placed, harder, gorier and more violent.
 games-fps/dhewm3 1.5.1_rc2: A Doom 3 GPL source modification.
 games-sports/stuntrally 2.6-r1 9999-r1: Rally game focused on closed rally tracks with possible stunt elements.
@@ -235,7 +232,6 @@ media-plugins/chrome-widevine 88.0.4324.96: An adapter for playing DRM content
 media-sound/carla 2.2.0 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 media-sound/pulseaudio-virtualmic 0.1 9999: Use any offline or online media file or stream as a PulseAudio source
-media-sound/rakarrack 0.6.1: Basic rack of 10 effects for guitar with presets, banks and MIDI control
 media-sound/spotify-adblock 1.4_pre20210504: Spotify adblocker for linux
 media-sound/vgmplay 0.40.9 9999: Video game music (VGM) file command-line player
 media-tv/hypnotix 1.6: An IPTV streaming application
