@@ -9,5 +9,5 @@ RDEPEND=dev-libs/glib:2 dev-libs/libbsd dev-libs/libpcre sys-libs/zlib x11-libs/
 RESTRICT=mirror bindist
 SLOT=0
 SRC_URI=https://cancel.fm/dl/Ripcord-0.4.28-x86_64.AppImage
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	27f9a2f19502b925ac117bd657aa2979
 _md5_=6773949c1cb99524709621df49ec70d8
