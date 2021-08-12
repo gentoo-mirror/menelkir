@@ -9,5 +9,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=x11-misc/xdg-utils dev-qt/qtwebengine:5
 SLOT=0
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	multilib	97566c1a256d07b00848aa767e38a352	qmake-utils	f5eb2f69fffe94292aaaf802fb21c8d1	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	qmake-utils	f5eb2f69fffe94292aaaf802fb21c8d1	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=984b8f354bac63d9a4ae66441b90cbab
