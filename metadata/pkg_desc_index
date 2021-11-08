@@ -273,7 +273,7 @@ x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/i3lock-color 2.13.1 2.13.2 9999: The world's most popular non-default computer lockscreen
 x11-misc/i3lock-fancy-rapid 0.0.0_pre20201109-r1 0.0.0_pre20210421: A faster implementation of i3lock-fancy
 x11-misc/i3status-rust 0.14.1: A feature-rich and resource-friendly replacement for i3status, written in Rust.
-x11-misc/lightdm-gtk-greeter-settings 1.2.2-r3: Settings editor for LightDM GTK+ greeter
+x11-misc/lightdm-gtk-greeter-settings 1.2.2-r4: LightDM Gtk+ Greeter settings editor
 x11-misc/polybar 9999: A fast and easy-to-use status bar
 x11-plugins/pidgin-battlenet 9999-r1: Libpurple (Pidgin) plugin for Battle.net
 x11-plugins/pidgin-icyque 9999-r3: ICQ WIM protocol for libpurple
