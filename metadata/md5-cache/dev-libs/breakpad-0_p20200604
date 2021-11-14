@@ -11,5 +11,5 @@ RDEPEND=
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/google/breakpad/tar.gz/2757a2c -> breakpad-0_p20200604.tar.gz mirror://githubcl/PaoJiao/linux-syscall-support/tar.gz/8048ece -> linux-syscall-support-8048ece.tar.gz
-_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	libtool	241a8f577b9781a42a7421e53448a44e	autotools	c9df06c186913b43eb211100ef5fe2cf
+_eclasses_=autotools	c9df06c186913b43eb211100ef5fe2cf	gnuconfig	262062cef0ba4f22b397193da514a350	libtool	241a8f577b9781a42a7421e53448a44e	multilib	4b66d835ec72e021e359bb81eacfe988	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=93c4fdcf882d921126537528455a1b7d
