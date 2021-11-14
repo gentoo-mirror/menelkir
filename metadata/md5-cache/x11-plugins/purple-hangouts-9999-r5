@@ -4,9 +4,10 @@ DEPEND=dev-libs/glib:2 dev-libs/json-glib dev-libs/protobuf-c:= net-im/pidgin sy
 DESCRIPTION=Hangouts Plugin for libpurple
 EAPI=7
 HOMEPAGE=https://github.com/EionRobb/purple-hangouts
+INHERIT=toolchain-funcs git-r3
 LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=dev-libs/glib:2 dev-libs/json-glib dev-libs/protobuf-c:= net-im/pidgin sys-libs/zlib
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	multilib	97566c1a256d07b00848aa767e38a352	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	multilib	4b66d835ec72e021e359bb81eacfe988	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa
 _md5_=9cd2d7ec3efd65bb9288b591aff84b33
