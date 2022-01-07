@@ -46,15 +46,14 @@ RDEPEND="
 	games-emulation/libretro-database
 	games-emulation/libretro-info
 	games-emulation/retroarch-assets
+	media-libs/mesa
 
 	alsa? ( media-libs/alsa-lib )
 	cg? ( media-gfx/nvidia-cg-toolkit )
-	gles? ( media-libs/mesa:0=[gles2] )
 	ffmpeg? ( media-video/ffmpeg )
 	flac? ( media-libs/flac )
 	freetype? ( media-libs/freetype )
 	kms? (
-		media-libs/mesa:0=[gbm]
 		x11-libs/libdrm
 	)
 	libcaca? ( media-libs/libcaca )
