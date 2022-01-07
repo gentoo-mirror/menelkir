@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit cmake git-r3
+inherit cmake git-r3 
 
 DESCRIPTION="Frontend for emulators (RetroPie Fork)"
 HOMEPAGE="https://github.com/RetroPie/EmulationStation"

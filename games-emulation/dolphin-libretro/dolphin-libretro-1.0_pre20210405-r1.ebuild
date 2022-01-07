@@ -24,7 +24,7 @@ RDEPEND="
 	dev-qt/qtconcurrent
 	media-libs/libpng
 	media-libs/libsfml
-	media-libs/mesa[egl]
+	media-libs/mesa
 	net-libs/enet
 	net-libs/mbedtls
 	net-misc/curl
