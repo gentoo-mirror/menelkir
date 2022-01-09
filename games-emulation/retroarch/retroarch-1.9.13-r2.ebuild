@@ -47,11 +47,10 @@ RDEPEND="
 	games-emulation/libretro-info
 	games-emulation/retroarch-assets
 
-	mesa? ( media-libs/mesa )
-
 	!raspberry-pi? ( media-libs/mesa[egl(+)] )
 	raspberry-pi? (
 		|| ( media-libs/raspberrypi-userland media-libs/raspberrypi-userland-bin media-libs/mesa[egl(+),gles2,video_cards_vc4] )
+		)
 
 	alsa? ( media-libs/alsa-lib )
 	cg? ( media-gfx/nvidia-cg-toolkit )
