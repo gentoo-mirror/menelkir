@@ -34,6 +34,10 @@ BDEPEND="
 S="${WORKDIR}/flycast-${PV}"
 BUILD_DIR="${WORKDIR}/${P}_build"
 
+PATCHES=(
+    "${FILESDIR}"/v1.2_lr_gl_stencil_param_isnt_obsolete_but_required.patch
+)
+
 src_unpack() {
 	unpack ${P}.tar.gz
 
