@@ -88,11 +88,11 @@ games-emulation/gw-libretro 1.0_pre20210425 9999-r3: A libretro core for Game & 
 games-emulation/handy-libretro 1.0_pre20210325 9999-r3: libretro implementation of Handy. (Atari Lynx)
 games-emulation/hatari-libretro 1.0_pre20210327 9999: Hatari is an Atari ST/STE/TT/Falcon emulator core for libretro
 games-emulation/hbmame-libretro 1.0_pre20200403-r1 9999-r1: Emulator of homebrew and hacked games for arcade hardware
-games-emulation/libretro-common-overlays 1_pre20210503 9999-r3: Collection of overlay files for use with RetroArch
+games-emulation/libretro-common-overlays 1_pre20210503-r1 9999-r3: Collection of overlay files for use with RetroArch
 games-emulation/libretro-common-shaders 1_pre20210226 9999-r3: Collection of commonly used Cg shaders
-games-emulation/libretro-database 1_pre20210504 9999-r5: Repository containing cheatcode files, content data files, etc.
-games-emulation/libretro-info 1_pre20210428 9999-r3: Libretro info files required for libretro cores
-games-emulation/libretro-meta 9999-r37: Meta package for various libretro implementations
+games-emulation/libretro-database 1_pre20210504-r1 9999-r5: Repository containing cheatcode files, content data files, etc.
+games-emulation/libretro-info 1_pre20210428-r1 9999-r3: Libretro info files required for libretro cores
+games-emulation/libretro-meta 9999-r38: Meta package for various libretro implementations
 games-emulation/lowresnx-libretro 1.0_pre20210327 9999: A simulated retro game console
 games-emulation/lutro-libretro 1.0_pre20210115 9999-r3: An experimental lua game framework for libretro following the LOVE API.
 games-emulation/mame-libretro 1.0_pre20210412 9999-r4: MAME (current) for libretro.
@@ -158,8 +158,8 @@ games-emulation/race-libretro 1.0_pre20210409 9999: Modified ngpc emulator to ru
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/reminiscence-libretro 1.0_pre20210317 9999-r3: Flashback engine implementation for libretro
 games-emulation/retro8-libretro 1.0_pre20210314 9999: PICO-8 implementation with SDL2 and RetroArch back-ends
-games-emulation/retroarch 1.9.7-r2 1.9.13-r2 1.9.14 9999-r3: Frontend for emulators, game engines and media players
-games-emulation/retroarch-assets 1_pre20210422 9999: Assets needed for RetroArch. Also contains the official branding.
+games-emulation/retroarch 1.9.7-r2 1.9.13-r2 1.9.14-r1 9999-r3: Frontend for emulators, game engines and media players
+games-emulation/retroarch-assets 1_pre20210422-r1 9999: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20210430 9999-r3: RetroArch joypad autoconfig files
 games-emulation/retrodream-libretro 1.0_pre20200607 9999-r3: libretro implementation of redream. (SEGA Dreamcast)
 games-emulation/retrovirtualmachine-bin 2.0_beta1: Emulator of the Amstrad CPC and ZX Spectrum home computers and clones
