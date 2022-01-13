@@ -1,0 +1,15 @@
+BDEPEND=dev-util/ninja dev-util/cmake >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install unpack
+DEPEND=opengl? ( virtual/opengl ) vulkan? ( media-libs/vulkan-loader ) gles? ( media-libs/mesa[egl(+),gles2] )
+DESCRIPTION=Multiplatform Sega Dreamcast emulator
+EAPI=7
+HOMEPAGE=https://github.com/flyinghead/flycast
+INHERIT=git-r3
+IUSE=gles +opengl vulkan
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=opengl? ( virtual/opengl ) vulkan? ( media-libs/vulkan-loader ) gles? ( media-libs/mesa[egl(+),gles2] )
+REQUIRED_USE=|| ( gles opengl ) opengl? ( !gles )
+SLOT=0
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=69d092acd1b02de316dfa5a51230f410
