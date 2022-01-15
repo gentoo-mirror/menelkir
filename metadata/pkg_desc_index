@@ -174,7 +174,7 @@ games-emulation/snes9x2010-libretro 1.0_pre20210423 9999-r3: Snes9x 2010. Port o
 games-emulation/squirreljme-libretro 1.0_pre20210501 9999: SquirrelJME is a Java ME 8 Virtual Machine for libretro
 games-emulation/stella2014-libretro 1.0_pre20210325 9999-r3: libretro implementation of Stella 2014. (Atari 2600)
 games-emulation/stonesoup-libretro 9999-r1: Kibretro port of Dungeon Crawl - Stone Soup
-games-emulation/swanstation-libretro 1.0_pre20210526 9999: Fast Sony Playstation emulator.
+games-emulation/swanstation-libretro 1.0_pre20210526 1.0_pre20220115 9999-r1: Fast Sony Playstation emulator.
 games-emulation/tgbdual-libretro 1.0_pre20210312 9999-r3: libretro implementation of TGB-DUAL. (Game Boy Advance)
 games-emulation/theodore-libretro 1.0_pre20210314 9999-r3: Libretro core for Thomson TO8/TO8D/TO9/TO9+ emulation.
 games-emulation/thepowdertoy-libretro 9999: A port of The Powder Toy to LibRetro.
