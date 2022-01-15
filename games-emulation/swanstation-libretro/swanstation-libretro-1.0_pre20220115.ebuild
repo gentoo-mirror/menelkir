@@ -4,12 +4,13 @@
 EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/swanstation"
+LIBRETRO_COMMIT_SHA="f6f3429d3045812d1d9b6b52a23ee69149cfca30"
 
-inherit git-r3 libretro-core cmake
+inherit libretro-core cmake flag-o-matic
 
 DESCRIPTION="Fast Sony Playstation emulator."
 HOMEPAGE="https://github.com/libretro/swanstation"
-KEYWORDS=""
+KEYWORDS="~amd64 ~arm64"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -23,7 +24,6 @@ RDEPEND="${DEPEND}
 src_configure() {
 		local mycmakeargs=(
 			-DBUILD_LIBRETRO_CORE=ON
-			-DBUILD_SDL_FRONTEND=OFF
 			-DBUILD_QT_FRONTEND=OFF
 			-DENABLE_DISCORD_PRESENCE=OFF
 			-DCMAKE_BUILD_TYPE=Release
