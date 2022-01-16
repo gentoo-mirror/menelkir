@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst prepare unpack
+DEPEND=media-libs/libpng:0 sys-libs/zlib
+DESCRIPTION=libretro implementation of PCSX ReARMed. (PlayStation)
+EAPI=7
+HOMEPAGE=https://github.com/libretro/pcsx_rearmed
+INHERIT=libretro-core
+IUSE=neon custom-cflags debug
+KEYWORDS=~amd64 ~x86 ~arm64
+LICENSE=GPL-2
+RDEPEND=media-libs/libpng:0 sys-libs/zlib games-emulation/libretro-info
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/pcsx_rearmed/archive/625cc17f79f3eaeada1b741974bdc608ae4d2dd2.tar.gz -> pcsx-rearmed-libretro-1.0_pre20210428.tar.gz
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	d5e1306543bc457213f68bb18f830d14	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	211e88b317be26ec37cd001ff487ab42
+_md5_=ec41bf1a02c378fe65473cfbabfeff37

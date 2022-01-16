@@ -139,7 +139,7 @@ games-emulation/openmsx 9999: MSX emulator that aims for perfection
 games-emulation/openmsx-catapult 16.0-r1 9999-r1: OpenMSX emulator GUI
 games-emulation/opera-libretro 1.0_pre20210409 9999-r3: libretro implementation of 4DO/libfreedo. (Panasonic 3DO)
 games-emulation/parallel_n64-libretro 1.0_pre20210324 9999: Rewritten Nintendo 64 emulator made specifically for Libretro.
-games-emulation/pcsx-rearmed-libretro 1.0_pre20210428 9999-r3: libretro implementation of PCSX ReARMed. (PlayStation)
+games-emulation/pcsx-rearmed-libretro 1.0_pre20210428 1.0_pre20210428-r1 9999-r3 9999-r4: libretro implementation of PCSX ReARMed. (PlayStation)
 games-emulation/pcsx2-ex 3.00.1: A PlayStation 2 emulator
 games-emulation/picodrive-libretro 9999-r3: libretro implementation of PicoDrive. (Sega GameGear/Sega CD/32X)
 games-emulation/play 0.40: PlayStation 2 emulator.
