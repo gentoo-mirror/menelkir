@@ -108,7 +108,7 @@ games-emulation/mednafen-ngp-libretro 1.0_pre20210324 9999-r3: libretro implemen
 games-emulation/mednafen-pce-fast-libretro 1.0_pre20210412 9999-r3: libretro implementation of Mednafen PCE Fast. (PC Engine/TurboGrafx-16)
 games-emulation/mednafen-pce-libretro 1.0_pre20210412 9999: libretro implementation of Mednafen PCE. (PC Engine/TurboGrafx-16)
 games-emulation/mednafen-pcfx-libretro 1.0_pre20210412 9999-r3: Standalone port of Mednafen PCFX to libretro.
-games-emulation/mednafen-psx-hw-libretro 1.0_pre20210422 9999: Standalone port/fork of Mednafen PSX to the Libretro API.
+games-emulation/mednafen-psx-hw-libretro 1.0_pre20210422 1.0_pre20210422-r2 9999 9999-r1: Standalone port/fork of Mednafen PSX to the Libretro API.
 games-emulation/mednafen-psx-libretro 1.0_pre20210422 9999-r3: Standalone port/fork of Mednafen PSX to the Libretro API.
 games-emulation/mednafen-saturn-libretro 1.0_pre20210412 9999-r3: Standalone port of Mednafen Saturn to the libretro
 games-emulation/mednafen-supafaust-libretro 1.0_pre20210127 9999: Unsupported SNES emulator for multicore ARM linux plataforms
