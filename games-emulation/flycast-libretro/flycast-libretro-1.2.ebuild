@@ -3,6 +3,8 @@
 
 EAPI=7
 
+inherit multiprocessing
+
 DESCRIPTION="Multiplatform Sega Dreamcast emulator"
 HOMEPAGE="https://github.com/flyinghead/flycast"
 SRC_URI="
