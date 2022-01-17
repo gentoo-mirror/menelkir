@@ -55,8 +55,7 @@ src_configure() {
 src_compile() {
 	pushd "${BUILD_DIR}"
 
-#	ninja -v ${MAKEOPTS}
-	ninja -v
+	ninja -v -j${makeopts_jobs}
 
 	popd
 }
