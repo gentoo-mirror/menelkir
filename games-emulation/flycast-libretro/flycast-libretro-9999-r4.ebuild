@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit git-r3
+inherit git-r3 multiprocessing
 
 DESCRIPTION="Multiplatform Sega Dreamcast emulator"
 HOMEPAGE="https://github.com/flyinghead/flycast"
