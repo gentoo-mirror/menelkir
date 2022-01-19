@@ -46,7 +46,7 @@ games-emulation/crocods-libretro 1.0_pre20210314 9999-r3: CrocoDS libretro core
 games-emulation/daphne-libretro 9999-r1: Arcade laserdisc libretro core
 games-emulation/desmume-libretro 1.0_pre20210317 9999-r3: Libretro implementation of DeSmuME. (Nintendo DS)
 games-emulation/dinothawr-libretro 1.0_pre20210409 9999-r3: Dinothawr is a block pushing puzzle game on slippery surfaces.
-games-emulation/dolphin-libretro 1.0_pre20210405-r1 9999-r1: A Gamecube/Wii emulator core for libretro
+games-emulation/dolphin-libretro 1.0_pre20210405-r1 1.0_pre20220112 9999-r1 9999-r2: A Gamecube/Wii emulator core for libretro
 games-emulation/dosbox-svn-libretro 9999: DOSBox libretro core
 games-emulation/duckstation 9999: Fast Sony PlayStation (PSX) emulator
 games-emulation/ecwolf-libretro 1.0_pre20210430 9999-r1: Updated engine for wolfenstein 3D and compatibles
@@ -116,7 +116,7 @@ games-emulation/mednafen-supergrafx-libretro 1.0_pre20210412 9999-r3: libretro i
 games-emulation/mednafen-vb-libretro 1.0_pre20210405 9999-r3: libretro implementation of Mednafen VB. (Virtual Boy)
 games-emulation/mednafen-wswan-libretro 1.0_pre20210405 9999-r3: libretro implementation of Mednafen Cygne. (WonderSwan/WonderSwan Color)
 games-emulation/melonds 0.9.2 9999: Nintendo DS emulator, sorta
-games-emulation/melonds-libretro 1.0_pre20210411 9999-r3: libretro implementation of melonDS. (NintendoDS)
+games-emulation/melonds-libretro 1.0_pre20210411 1.0_pre20211230 9999-r3 9999-r4: libretro implementation of melonDS. (NintendoDS)
 games-emulation/meowpc98-libretro 1.0_pre20211001 9999-r3: Neko Project 2 (PC98 emulator) port for libretro/RetroArch (XNP2)
 games-emulation/mesen-libretro 0.9.9 9999: Libretro implementation of Mesen. (Nintendo Entertainment System)
 games-emulation/mesens-libretro 1.0_pre20210309-r1 9999-r1: Mesen-S is a cross-platform (Windows & Linux) SNES emulator built in C++ and C#
