@@ -5,7 +5,7 @@ EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/beetle-psx-libretro"
 
-inherit libretro-core git-r3
+inherit libretro-core
 
 DESCRIPTION="Standalone port/fork of Mednafen PSX to the Libretro API."
 HOMEPAGE="https://github.com/libretro/beetle-psx-libretro"
@@ -34,9 +34,4 @@ src_compile() {
 	fi
 
 	libretro-core_src_compile
-}
-
-src_install () {
-	LIBRETRO_CORE_LIB_FILE="${S}/${LIBRETRO_CORE_NAME}_libretro.so"
-	libretro-core_src_install
 }

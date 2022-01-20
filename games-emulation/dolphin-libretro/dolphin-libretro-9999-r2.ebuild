@@ -6,7 +6,7 @@ EAPI=7
 LIBRETRO_REPO_NAME="libretro/dolphin"
 LIBRETRO_CORE_NAME="dolphin"
 
-inherit libretro-core git-r3 cmake
+inherit libretro-core cmake
 
 DESCRIPTION="A Gamecube/Wii emulator core for libretro"
 HOMEPAGE="https://github.com/libretro/dolphin"
