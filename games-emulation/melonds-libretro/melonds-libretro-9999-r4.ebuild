@@ -5,7 +5,7 @@ EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/melonDS"
 
-inherit libretro-core git-r3
+inherit libretro-core
 
 DESCRIPTION="libretro implementation of melonDS. (NintendoDS)"
 HOMEPAGE="https://github.com/libretro/melonDS"
@@ -27,11 +27,6 @@ src_compile() {
 		"platform=unix"
 	)
 	libretro-core_src_compile
-}
-
-src_install() {
-	LIBRETRO_CORE_LIB_FILE="${S}/${LIBRETRO_CORE_NAME}_libretro.so"
-	libretro-core_scr_install
 }
 
 pkg_postinst() {

@@ -5,7 +5,7 @@ EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/swanstation"
 
-inherit libretro-core git-r3 cmake
+inherit libretro-core cmake
 
 DESCRIPTION="Fast Sony Playstation emulator."
 HOMEPAGE="https://github.com/libretro/swanstation"
@@ -33,7 +33,6 @@ src_configure() {
 }
 
 src_install() {
-		LIBRETRO_LIB_DIR="${EROOT%/}/usr/$(get_libdir)/libretro"
-		insinto "${LIBRETRO_LIB_DIR}"
-		doins "${WORKDIR}/${PF}_build/${LIBRETRO_CORE_NAME}_libretro.so"
+		LIBRETRO_CORE_LIB_FILE="${BUILD_DIR}/${LIBRETRO_CORE_NAME}_libretro.so"
+		libretro-core_src_install
 }

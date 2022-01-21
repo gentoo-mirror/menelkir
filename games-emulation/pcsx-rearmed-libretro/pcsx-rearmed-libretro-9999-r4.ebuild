@@ -5,7 +5,7 @@ EAPI=7
 
 LIBRETRO_REPO_NAME="libretro/pcsx_rearmed"
 
-inherit libretro-core git-r3
+inherit libretro-core
 
 DESCRIPTION="libretro implementation of PCSX ReARMed. (PlayStation)"
 HOMEPAGE="https://github.com/libretro/pcsx_rearmed"
@@ -60,7 +60,6 @@ src_compile() {
 }
 
 src_install() {
-	LIBRETRO_CORE_LIB_FILE="${S}/${LIBRETRO_CORE_NAME}_libretro.so"
 	mv "${S}"/libretro.so "${LIBRETRO_CORE_LIB_FILE}"
 	libretro-core_src_install
 }
