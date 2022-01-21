@@ -6,7 +6,7 @@ EAPI=7
 LIBRETRO_REPO_NAME="libretro/mupen64plus-libretro-nx"
 LIBRETRO_CORE_NAME="mupen64plus_next"
 
-inherit libretro-core git-r3
+inherit libretro-core
 
 DESCRIPTION="Improved mupen64plus libretro core reimplementation"
 HOMEPAGE="https://github.com/libretro/mupen64plus-libretro-nx"
@@ -37,9 +37,4 @@ src_compile() {
 		$(usex gles3 "GLES3=1 FORCE_GLES3=1" "GLES3=0 FORCE_GLES3=0")
 	)
 	libretro-core_src_compile
-}
-
-src_install() {
-	LIBRETRO_CORE_LIB_FILE="${S}"/"${LIBRETRO_CORE_NAME}"_libretro.so
-	libretro-core_src_install
 }

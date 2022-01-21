@@ -5,7 +5,7 @@ EAPI=8
 
 LIBRETRO_REPO_NAME="hrydgard/ppsspp"
 
-inherit cmake libretro-core git-r3
+inherit libretro-core cmake
 
 DESCRIPTION="Libretro port of PPSSPP"
 HOMEPAGE="https://www.ppsspp.org/"
@@ -43,10 +43,6 @@ RDEPEND="
 DEPEND="${RDEPEND}"
 ASSETS_DIR="${LIBRETRO_DATA_DIR}"/PPSSPP
 
-src_prepare() {
-	cmake_src_prepare
-}
-
 src_configure() {
 	local mycmakeargs=(
 		-DCMAKE_SKIP_RPATH=ON
@@ -75,12 +71,8 @@ src_configure() {
 	cmake_src_configure
 }
 
-src_compile() {
-	cmake_src_compile
-}
-
 src_install() {
-	LIBRETRO_CORE_LIB_FILE="${BUILD_DIR}"/lib/ppsspp_libretro.so
+	LIBRETRO_CORE_LIB_FILE="${BUILD_DIR}/lib/${LIBRETRO_CORE_NAME}_libretro.so"
 	libretro-core_src_install
 
 	insinto "${ASSETS_DIR}"
