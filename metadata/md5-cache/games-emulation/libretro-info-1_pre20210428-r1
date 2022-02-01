@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86 ~arm
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/libretro/libretro-super/archive/8c1538b7782c2171b185b4f1de686eeaf6633797.tar.gz -> libretro-info-1_pre20210428.tar.gz
-_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=vcs-snapshot	19dc666868420457132a7514d4621476
 _md5_=9432df905b5df23c441eddf83a6851e5

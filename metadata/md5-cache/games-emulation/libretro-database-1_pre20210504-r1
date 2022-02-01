@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86 ~arm64
 LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/libretro/libretro-database/archive/bb319d771c0cac033536a5cf89e90a067ab1ccb1.tar.gz -> libretro-database-1_pre20210504.tar.gz
-_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=vcs-snapshot	19dc666868420457132a7514d4621476
 _md5_=1f25f4e021f77ca2b1ab04f0eb6e2f57
