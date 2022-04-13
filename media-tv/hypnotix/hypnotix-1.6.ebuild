@@ -13,15 +13,15 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-RDEPEND="
+DEPEND="
 		gnome-base/dconf
 		x11-themes/hicolor-icon-theme
 		dev-python/imdbpy
 		dev-python/pycairo
 		dev-python/requests
 		dev-python/setproctitle
-		media-video/mpv
-		dev-python/xapp
+		media-video/mpv[libmpv]
+		x11-libs/xapp
 "
 RDEPEND="${DEPEND}"
 
