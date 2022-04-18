@@ -92,7 +92,7 @@ games-emulation/libretro-common-overlays 1_pre20210503-r1 9999-r3: Collection of
 games-emulation/libretro-common-shaders 1_pre20210226 9999-r3: Collection of commonly used Cg shaders
 games-emulation/libretro-database 1_pre20210504-r1 9999-r5: Repository containing cheatcode files, content data files, etc.
 games-emulation/libretro-info 1_pre20210428-r1 9999-r3: Libretro info files required for libretro cores
-games-emulation/libretro-meta 9999-r38: Meta package for various libretro implementations
+games-emulation/libretro-meta 9999-r39: Meta package for various libretro implementations
 games-emulation/lowresnx-libretro 1.0_pre20210327 9999: A simulated retro game console
 games-emulation/lutro-libretro 1.0_pre20210115 9999-r3: An experimental lua game framework for libretro following the LOVE API.
 games-emulation/mame-libretro 1.0_pre20210412 9999-r4: MAME (current) for libretro.
@@ -150,7 +150,8 @@ games-emulation/potator-libretro 1.0_pre20210325 9999: A Watara Supervision Emul
 games-emulation/ppsspp-libretro 1.0_pre20200318 1.12.3 9999-r3 9999-r4: Libretro port of PPSSPP
 games-emulation/prboom-libretro 1.0_pre20210325-r1 9999-r3: libretro implementation of PrBoom. (Doom)
 games-emulation/prosystem-libretro 1.0_pre20210325 9999-r3: libretro implementation of prosystem. (Atari 7800)
-games-emulation/puae-libretro 1.0_pre20210427-r1 9999-r3: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
+games-emulation/puae-libretro 1.0_pre20210427-r1 1.0_pre20220417 9999-r3: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
+games-emulation/puae2021-libretro 1.0_pre20220417 9999: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
 games-emulation/px68k-libretro 1.0_pre20210312 9999-r3: libretro implementation of PX68K. (Sharp X68000)
 games-emulation/quasi88-libretro 1.0_pre20200116 9999-r3: A PC-8800 series emulator to the libretro API
 games-emulation/quicknes-libretro 1.0_pre20210325 9999-r3: libretro implementation of QuickNES. (Nintendo Entertainment System)
