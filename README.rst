@@ -21,7 +21,7 @@ How to Contribute to this Overlay
 =================================
 
 :author: Daniel Menelkir
-:contact: menelkir@itroll.org
+:contact: dmenelkir@gmaill.com
 :language: English
 
 ==================
