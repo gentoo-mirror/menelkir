@@ -3,9 +3,9 @@
 
 # @ECLASS: nocflags.eclass
 # @MAINTAINER:
-# Daniel Menelkir <dmenelkir@gmaill.com>
+# Daniel Menelkir <dmenelkir@gmail.com>
 # @AUTHOR:
-# Daniel Menelkir <dmenelkir@gmaill.com>
+# Daniel Menelkir <dmenelkir@gmail.com>
 # @BLURB: Some cores refuse to build with custom-cflags 
 # @DESCRIPTION: 
 
