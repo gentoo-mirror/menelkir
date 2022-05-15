@@ -1,4 +1,4 @@
-# Daniel Menelkir <dmenelkir@gmaill.com> 2021-05-26
+# Daniel Menelkir <dmenelkir@gmail.com> 2021-05-26
 # Broken. Needs further investigation.
 games-emulation/chailove-libretro
 games-emulation/freechaf-libretro
@@ -6,13 +6,13 @@ games-emulation/mrboom-libretro
 games-emulation/neocd-libretro
 games-emulation/picodrive-libretro
 
-# Daniel Menelkir <dmenelkir@gmaill.com> 2021-01-27
+# Daniel Menelkir <dmenelkir@gmail.com> 2021-01-27
 # Broken.
 games-emulation/vitavoyager-libretro
 games-emulation/stonesoup-libretro
 games-emulation/play-libretro
 
-# Daniel Menelkir <dmenelkir@gmaill.com> 2021-01-27
+# Daniel Menelkir <dmenelkir@gmail.com> 2021-01-27
 # Broken (I don't know exactly how to fix it).
 # Consider using an alternative:
 # 	games-emulation/fbalpha-libretro
@@ -23,7 +23,7 @@ games-emulation/play-libretro
 games-emulation/mame-libretro
 games-emulation/hbmame-libretro
 
-# Daniel Menelkir <dmenelkir@gmaill.com> 2020-08-10
+# Daniel Menelkir <dmenelkir@gmail.com> 2020-08-10
 # Work in Progress
 #
 games-emulation/vita3k
