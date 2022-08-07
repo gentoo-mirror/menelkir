@@ -229,6 +229,7 @@ media-libs/libinstpatch 1.1.6: Library for processing digital sample based MIDI 
 media-libs/pyliblo 0.10.0-r2: A Python wrapper for the liblo OSC library
 media-plugins/chrome-widevine 88.0.4324.96: An adapter for playing DRM content
 media-sound/carla 2.2.0 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
+media-sound/librespot 0.4.2: An open source client library for Spotify, with support for Spotify Connect
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 media-sound/pulseaudio-virtualmic 0.1 9999: Use any offline or online media file or stream as a PulseAudio source
 media-sound/spotify-adblock 1.4_pre20210504: Spotify adblocker for linux
