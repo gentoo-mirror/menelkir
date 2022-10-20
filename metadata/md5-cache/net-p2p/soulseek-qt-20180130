@@ -9,5 +9,5 @@ RDEPEND=sys-fs/fuse media-libs/libpng x11-libs/libX11 x11-libs/libxcb media-libs
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://www.slsknet.org/SoulseekQT/Linux/SoulseekQt-2018-1-30-64bit-appimage.tgz
-_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa
+_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c
 _md5_=0cc0f761002d0ab4c530188ded905148
