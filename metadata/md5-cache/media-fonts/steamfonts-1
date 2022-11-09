@@ -9,5 +9,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MSttfEULA
 SLOT=0
 SRC_URI=https://support.steampowered.com/downloads/1974-YFKL-4947/SteamFonts.zip
-_eclasses_=font	bc7d91ca9054e47ad87b5763214665a4
+_eclasses_=font	9cdfddf092c05c7c4efd70cc30dea046
 _md5_=c5e1fe97674e1c17d67a587cf05d3c42
