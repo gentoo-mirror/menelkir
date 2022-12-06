@@ -1,8 +1,8 @@
 Menelkir Overlay
 ================
 
-Attention: Due to a lack of hardware to work on it, I'm unable to maintain this repository myself (and properly test the packages),
-but I'm open to receive patches.
+**Attention: Due to a lack of hardware to work on it, I'm unable to maintain this repository myself (and properly test the packages),
+but I'm open to receive patches.**
 
 This is a overlay with a bunch of software not available in Gentoo repositories.
 
