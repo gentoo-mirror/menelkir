@@ -1,6 +1,9 @@
 Menelkir Overlay
 ================
 
+Attention: Due to a lack of hardware to work on it, I'm unable to maintain this repository myself (and properly test the packages),
+but I'm open to receive patches.
+
 This is a overlay with a bunch of software not available in Gentoo repositories.
 
 If you test with a different keyword and it works, let me know so I update the ebuilds.
@@ -33,14 +36,3 @@ If you are using this repository, please report any issues direct to me or
 using the gitlab issue tracker.
 
 Make sure you read the profiles/package.mask file, since there's some ebuilds here that doesn't work and needs a proper fix. All help are welcome.
-
-=============
-How to donate
-=============
-
-If you find this repo useful (don't forget to pay a visit to the related
-repos too), you can buy me a beer:
-
-:BTC: 3ECzX5UhcFSRv6gBBYLNBc7zGP9UA5Ppmn
-
-:ETH: 0x7E17Ac09Fa7e6F80284a75577B5c1cbaAD566C1c
