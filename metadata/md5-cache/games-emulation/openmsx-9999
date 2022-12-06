@@ -9,5 +9,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-libs/libogg media-libs/libtheora media-libs/libvorbis dev-lang/tcl:0= dev-libs/libxml2 media-libs/libpng:0= media-libs/libsdl2[sound,video] media-libs/glew:0= media-libs/sdl2-image[png] media-libs/sdl2-ttf virtual/opengl
 SLOT=0
-_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	959e1d99122907eb98a3a660297a967e	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	25c880c1db58e21b80b684bacc964958	python-any-r1	f2f00fb79b5e888b5011d4c51240ae97	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	git-r3	2347f8fe2d392b2a091191f94be37e6f	llvm	29d5332b8530fb760c2ca71ad6706858
+_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	25c880c1db58e21b80b684bacc964958	python-any-r1	f2f00fb79b5e888b5011d4c51240ae97	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	git-r3	2347f8fe2d392b2a091191f94be37e6f	llvm	29d5332b8530fb760c2ca71ad6706858
 _md5_=840b1865fe64fd9ae1df6258a44a6a36
