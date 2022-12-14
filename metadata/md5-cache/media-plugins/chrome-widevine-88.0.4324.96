@@ -8,5 +8,5 @@ LICENSE=google-chrome
 RESTRICT=bindist mirror strip
 SLOT=0
 SRC_URI=https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_88.0.4324.96-1_amd64.deb
-_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	unpacker	bc57272a0491765c71d973c8cfd35063
+_eclasses_=multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	unpacker	f03f9c0c03643e8057ad762b297ce01e
 _md5_=34cfe82a0216d7a09f8ebea39619b5da
