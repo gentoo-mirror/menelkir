@@ -1,0 +1,18 @@
+BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst prepare test unpack
+DEPEND=app-arch/snappy:= dev-libs/libzip:= dev-util/glslang:= media-libs/libpng:= media-libs/libsdl2[joystick] media-video/ffmpeg[pic] sys-libs/zlib:= opengl? ( virtual/opengl media-libs/glew:= ) gles2? ( media-libs/mesa[egl(+),gles2] ) vulkan? ( media-libs/vulkan-loader ) gbm? ( media-libs/mesa[gbm(+)] ) wayland? ( media-libs/mesa[wayland] ) X? ( media-libs/mesa[X] ) games-emulation/libretro-info
+DESCRIPTION=Libretro port of PPSSPP
+EAPI=8
+HOMEPAGE=https://www.ppsspp.org/
+INHERIT=cmake libretro-core
+IUSE=opengl +gles2 vulkan X wayland gbm custom-cflags debug
+KEYWORDS=~amd64 ~x86 ~arm64
+LICENSE=Apache-2.0 BSD BSD-2 GPL-2 JSON MIT
+PROPERTIES=live
+RDEPEND=app-arch/snappy:= dev-libs/libzip:= dev-util/glslang:= media-libs/libpng:= media-libs/libsdl2[joystick] media-video/ffmpeg[pic] sys-libs/zlib:= opengl? ( virtual/opengl media-libs/glew:= ) gles2? ( media-libs/mesa[egl(+),gles2] ) vulkan? ( media-libs/vulkan-loader ) gbm? ( media-libs/mesa[gbm(+)] ) wayland? ( media-libs/mesa[wayland] ) X? ( media-libs/mesa[X] ) games-emulation/libretro-info
+REQUIRED_USE=|| ( gbm wayland X ) opengl? ( !gles2 ) gbm? ( !X )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/hrydgard/ppsspp/archive/v1.14.tar.gz -> ppsspp-libretro-1.14.tar.gz https://github.com/KhronosGroup/SPIRV-Cross/archive/9acb9ec31f5a8ef80ea6b994bb77be787b08d3d1.tar.gz -> ppsspp-libretro-1.14-ext_SPIRV-Cross.tar.gz https://github.com/Kingcom/armips/archive/6719edebaae03330ee5441d9b28280672edf00d5.tar.gz -> ppsspp-libretro-1.14-ext_armips.tar.gz https://github.com/Tencent/rapidjson/archive/73063f5002612c6bf64fe24f851cd5cc0d83eef9.tar.gz -> ppsspp-libretro-1.14-ext_rapidjson.tar.gz https://github.com/facebook/zstd/archive/096dccbc2d89a560db0b9892c53ea0c77eff20a1.tar.gz -> ppsspp-libretro-1.14-ext_zstd.tar.gz https://github.com/hrydgard/glslang/archive/dc11adde23c455a24e13dd54de9b4ede8bdd7db8.tar.gz -> ppsspp-libretro-1.14-ext_glslang.tar.gz https://github.com/hrydgard/miniupnp/archive/3a87be33e797ba947b2b2a5f8d087f6c3ff4d93e.tar.gz -> ppsspp-libretro-1.14-ext_miniupnp.tar.gz https://github.com/hrydgard/ppsspp-freetype/archive/cbea79dc8fef4d9210e2bac7e7b9b5ff3388197a.tar.gz -> ppsspp-libretro-1.14-ext_native_tools_prebuilt.tar.gz https://github.com/hrydgard/ppsspp-lang/archive/3bf6b18eb0ae68861fbfbb7b43cd764771ca42a9.tar.gz -> ppsspp-libretro-1.14-assets_lang.tar.gz https://github.com/Kingcom/filesystem/archive/3f1c185ab414e764c694b8171d1c4d8c5c437517.tar.gz -> ppsspp-libretro-1.14-ext_armips_ext_filesystem.tar.gz
+_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	8ed38f92fe095be374d6c4c8d4c0dda7	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057	git-r3	2347f8fe2d392b2a091191f94be37e6f	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
+_md5_=5a87919f3c78d9435779a89fefb470fd

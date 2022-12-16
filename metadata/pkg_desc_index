@@ -69,7 +69,7 @@ games-emulation/fbalpha2012-libretro 1.0_pre20210403 9999-r3: Final Burn Alpha 2
 games-emulation/fbneo-libretro 1.0_pre20210504 9999: Fork of Final Burn Alpha
 games-emulation/fceu-next-libretro 1.0_pre20160317-r1 9999-r4: Libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)
 games-emulation/ffmpeg-libretro 1.0_pre20200828 9999: FFmpeg frontend for libretro
-games-emulation/flycast-libretro 1.0_pre20210503 1.2 1.3 9999-r4: Multiplatform Sega Dreamcast emulator
+games-emulation/flycast-libretro 1.0_pre20210503 1.2 1.3 2.0 9999-r4: Multiplatform Sega Dreamcast emulator
 games-emulation/fmsx-libretro 1.0_pre20210327-r1 9999-r3: Port of fMSX to the libretro API.
 games-emulation/freechaf-libretro 9999: Libretro emulation core for the Fairchild ChannelF / Video Entertainment System
 games-emulation/freeintv-libretro 1.0_pre20210322 9999-r3: A libretro emulation core for the Mattel Intellivision
@@ -146,7 +146,7 @@ games-emulation/play-libretro 1.0_pre20210107 9999: Sony Playstation 2 libretro 
 games-emulation/pocketcdg-libretro 1.0_pre20210309 9999-r3: PocketCDG libretro port.
 games-emulation/pokemini-libretro 1.0_pre20210325 9999-r3: Obscure nintendo handheld emulator.
 games-emulation/potator-libretro 1.0_pre20210325 9999: A Watara Supervision Emulator based on Normmatt version
-games-emulation/ppsspp-libretro 1.0_pre20200318 1.12.3 1.12.3-r1 1.13.1 9999-r3 9999-r4: Libretro port of PPSSPP
+games-emulation/ppsspp-libretro 1.0_pre20200318 1.12.3 1.12.3-r1 1.13.1 1.14 9999-r3 9999-r4: Libretro port of PPSSPP
 games-emulation/prboom-libretro 1.0_pre20210325-r1 9999-r3: libretro implementation of PrBoom. (Doom)
 games-emulation/prosystem-libretro 1.0_pre20210325 9999-r3: libretro implementation of prosystem. (Atari 7800)
 games-emulation/puae-libretro 1.0_pre20210427-r1 1.0_pre20220417 9999-r3: WIP libretro port of UAE (P-UAE and libco), a Commodore Amiga Emulator.
@@ -158,7 +158,7 @@ games-emulation/race-libretro 1.0_pre20210409 9999: Modified ngpc emulator to ru
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/reminiscence-libretro 1.0_pre20210317 9999-r3: Flashback engine implementation for libretro
 games-emulation/retro8-libretro 1.0_pre20210314 9999: PICO-8 implementation with SDL2 and RetroArch back-ends
-games-emulation/retroarch 1.9.7-r2 1.9.13-r2 1.9.14-r1 1.10.0 1.10.2 1.10.3 9999-r3: Frontend for emulators, game engines and media players
+games-emulation/retroarch 1.9.7-r2 1.9.13-r2 1.9.14-r1 1.10.0 1.10.2 1.10.3 1.14.0 9999-r3: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20210422-r1 9999: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20210430 9999-r3: RetroArch joypad autoconfig files
 games-emulation/retrovirtualmachine-bin 2.0_beta1: Emulator of the Amstrad CPC and ZX Spectrum home computers and clones
