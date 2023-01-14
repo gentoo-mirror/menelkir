@@ -17,15 +17,9 @@ dev-libs/liblcf 0.6.2 9999: Library to handle RPG Maker 2000/2003 and EasyRPG pr
 dev-libs/mp 1.0_p20200420: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/teakra 20200913-r1: Emulator, assembler, etc for XpertTeak, the DSP used by DSi/3DS.
 dev-libs/xbyak 5.991: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
-dev-python/fpdf 1.7.2-r1: Simple PDF generation for Python
 dev-python/imdbpy 9999: Python package to access the IMDb's database
-dev-python/parse 1.15.0 1.19.0: parse() is the opposite of format()
 dev-python/python-telegram 0.14.0-r1: Python client for the Telegram's tdlib
-dev-python/spry 0.5.5-r1: social media scanner
-dev-python/w3lib 1.22.0-r1: Library of web-related functions
-dev-python/websockets 8.1-r3: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
 dev-util/nihstro 1.0_pre20180113: 3DS shader assembler and disassembler
-dev-util/pmbootstrap 1.30.0: Sophisticated chroot/build/flash tool to develop and install postmarketOS.
 games-emulation/3dengine-libretro 1.0_pre20210107-r1 9999-r4: 3D Engine for libretro GL with additional features
 games-emulation/81-libretro 1.0_pre20210311 9999-r3: A port of the EightyOne ZX81 Emulator to libretro
 games-emulation/atari800-libretro 1.0_pre20210415 9999-r4: Free and portable Atari 8-bit computer and 5200 console emulator
@@ -225,9 +219,7 @@ media-libs/hal-flash 0.3.3-r1: libhal stub forwarding to UDisks for Adobe Flash 
 media-libs/jpeg-compat 2.0.6-r800: Accelerated JPEG library (libjpeg.so.8 ABI provided by libjpeg-turbo)
 media-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so.4 symlinks for compatibility with Debian
 media-libs/libinstpatch 1.1.6: Library for processing digital sample based MIDI instrument patch files.
-media-libs/pyliblo 0.10.0-r2: A Python wrapper for the liblo OSC library
 media-plugins/chrome-widevine 88.0.4324.96: An adapter for playing DRM content
-media-sound/carla 2.2.0 9999: Fully-featured audio plugin host, supports many audio drivers and plugin formats
 media-sound/librespot 0.4.2: An open source client library for Spotify, with support for Spotify Connect
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 media-sound/pulseaudio-virtualmic 0.1 9999: Use any offline or online media file or stream as a PulseAudio source
