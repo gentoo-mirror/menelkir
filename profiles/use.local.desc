@@ -250,19 +250,17 @@ media-fonts/powerline-fonts:symbolneu - Install Powerline-patched Symbol Neu fon
 media-fonts/powerline-fonts:terminus_pcf - Install Powerline-patched Terminus fonts in PCF format
 media-fonts/powerline-fonts:tinos - Install Powerline-patched Tinos fonts
 media-fonts/powerline-fonts:ubuntumono - Install Powerline-patched Ubuntu Mono fonts
-media-sound/carla:gtk2 - Use gtk-2 instead of gtk-3
-media-sound/carla:rdf - Enable LADSPA-RDF support
-media-sound/carla:sf2 - Enable builtin SF2 sample support using media-sound/fluidsynth
+media-sound/carla:gtk2 - Build with support for plugins using GTK+ 2
+media-sound/carla:juce - Build with support for plugins using JUCE
+media-sound/carla:lto - Build with lto support
+media-sound/carla:rdf - Get extra information from LADSPA plugins
+media-sound/carla:sf2 - Build with SF2 support using fluidsynth
 media-sound/vgmplay:opl - Enable playback on obsolete OPL hardware (AdLib, SoundBlaster)
-net-misc/megasync:cryptopp - Compile with Crypto++ Library.
-net-misc/megasync:dolphin - Upload your files to your Mega account from Dolphin file manager.
-net-misc/megasync:freeimage - Use freeimage to manage graphic images format.
-net-misc/megasync:nautilus - Upload your files to your Mega account from nautilus.
-net-misc/megasync:thunar - Upload your files to your Mega account from Thunar.
 net-wireless/hcxdumptool:gpio - Build with GPIO support
 net-wireless/wifite:dict - Use dictionaries
 sys-kernel/dkms:kernel-hooks - Enable automatic rebuilding of modules via kernel source makefile hooks
 www-client/torbrowser-launcher:apparmor - Enable AppArmor support
+x11-apps/lightdm-gtk-greeter-settings:xfce - Adds x11-apps/lightdm-gtk-greeter-settings to Xfce settings manager
 x11-misc/polybar:i3wm - Add support for i3 window manager
 x11-misc/polybar:ipc - Add support for Inter-Process Messaging
 x11-misc/polybar:mpd - Add support for Music Player Daemon

@@ -18,6 +18,7 @@ dev-libs/mp 1.0_p20200420: A small, 0BSD-licensed metaprogramming library for C+
 dev-libs/teakra 20200913-r1: Emulator, assembler, etc for XpertTeak, the DSP used by DSi/3DS.
 dev-libs/xbyak 5.991: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-python/imdbpy 9999: Python package to access the IMDb's database
+dev-python/pyliblo 0.10.0 9999: Python bindings for the liblo OSC library
 dev-python/python-telegram 0.14.0-r1: Python client for the Telegram's tdlib
 dev-util/nihstro 1.0_pre20180113: 3DS shader assembler and disassembler
 games-emulation/3dengine-libretro 1.0_pre20210107-r1 9999-r4: 3D Engine for libretro GL with additional features
@@ -220,6 +221,9 @@ media-libs/jpeg-compat 2.0.6-r800: Accelerated JPEG library (libjpeg.so.8 ABI pr
 media-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so.4 symlinks for compatibility with Debian
 media-libs/libinstpatch 1.1.6: Library for processing digital sample based MIDI instrument patch files.
 media-plugins/chrome-widevine 88.0.4324.96: An adapter for playing DRM content
+media-sound/carla 2.5.2 9999: Full featured audio plugin host supporting many audio drivers and plugin formats
+media-sound/catnip 1.6.2-r1 9999: terminal audio visualizer
+media-sound/catnip-gtk 9999: catnip gtk frontend
 media-sound/librespot 0.4.2: An open source client library for Spotify, with support for Spotify Connect
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 media-sound/pulseaudio-virtualmic 0.1 9999: Use any offline or online media file or stream as a PulseAudio source
@@ -237,7 +241,6 @@ net-im/rambox-bin 0.7.7: Free and Open Source messaging and emailing app
 net-im/ripcord-bin 0.4.28: a desktop chat client for group-centric services like Slack and Discord
 net-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so. symlinks for compatibility with Debian
 net-misc/RcloneBrowser 1.8.0 9999: Simple cross platform GUI for Rclone
-net-misc/megasync 4.5.0.0 9999-r3: The official Qt-based program for syncing your MEGA account in your PC
 net-p2p/soulseek-qt 20180130: Official binary Qt SoulSeek client
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/bully 1.4-r1: A wifi-protected-setup (WPS) brute force attack tool, similar to reaver
@@ -259,6 +262,7 @@ sys-libs/minizip-ng 3.0.1: Fork of the popular zip manipulation library found in
 sys-process/nvtop 1.1.0 9999: NVIDIA GPUs htop like monitoring tool
 www-apps/geckodriver 0.23.0 0.27.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
 www-client/torbrowser-launcher 0.3.3 9999: A program to download, updated, and run the Tor Browser Bundle
+x11-apps/lightdm-gtk-greeter-settings 1.2.2-r1: Configuration tool for the LightDM GTK Greeter
 x11-misc/betterlockscreen_rapid 0.0.0_pre20201222: A rapid and good-looking screen locker
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
