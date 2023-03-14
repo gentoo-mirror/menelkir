@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=x11-libs/libX11
+DESCRIPTION=A faster implementation of i3lock-fancy
+EAPI=7
+HOMEPAGE=https://github.com/yvbbrjdr/i3lock-fancy-rapid
+INHERIT=flag-o-matic toolchain-funcs
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=BSD
+RDEPEND=|| ( >=x11-misc/i3lock-2.12 >=x11-misc/i3lock-color-2.12 )
+SLOT=0
+SRC_URI=https://github.com/yvbbrjdr/i3lock-fancy-rapid/archive/6eeebd4caa177b82fa5010b5e8828cce3f89fb97.tar.gz -> i3lock-fancy-rapid-0.0.0_pre20210421.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	8f942ebdcf04334697649d4a0bf65a32	flag-o-matic	69394e25812406faa1f90edaf4969395	multilib	5ca4e49abed8e3a2f7b56920eadee157	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	wrapper	4a1902f969e5718126434fc35f3a0d9c
+_md5_=960373b1b57c375e21862f7375eecc32

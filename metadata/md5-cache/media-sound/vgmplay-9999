@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sys-libs/zlib virtual/libc ao? ( media-libs/libao )
+DESCRIPTION=Video game music (VGM) file command-line player
+EAPI=7
+HOMEPAGE=http://vgmrips.net/forum/viewtopic.php?t=112
+INHERIT=readme.gentoo-r1 git-r3
+IUSE=alsa ao debug opl pulseaudio
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=sys-libs/zlib virtual/libc ao? ( media-libs/libao ) alsa? ( media-libs/alsa-oss ) pulseaudio? ( media-sound/pulseaudio )
+SLOT=0
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55
+_md5_=eda2cbb39e66dfc9ed429b737f9ea31d

@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sys-libs/zlib
+DESCRIPTION=libretro implementation of Handy. (Atari Lynx)
+EAPI=7
+HOMEPAGE=https://github.com/libretro/libretro-handy
+INHERIT=libretro-core
+IUSE=custom-cflags debug
+KEYWORDS=~amd64 ~x86
+LICENSE=ZLIB
+RDEPEND=sys-libs/zlib games-emulation/libretro-info
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/libretro-handy/archive/358f50b22a722427d5fe73a372e6a27c24ac5a8c.tar.gz -> handy-libretro-1.0_pre20210325.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	8f942ebdcf04334697649d4a0bf65a32	flag-o-matic	69394e25812406faa1f90edaf4969395	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09	multilib	5ca4e49abed8e3a2f7b56920eadee157	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	wrapper	4a1902f969e5718126434fc35f3a0d9c
+_md5_=3d2691a2d3479b30eca84f1537d35b8d
