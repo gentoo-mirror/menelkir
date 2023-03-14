@@ -17,6 +17,7 @@ some personal modifications. The follow repositories was used (sorry if I forgot
 :ssnb-overlay: https://github.com/samuelbernardo/ssnb-overlay
 :tatsh-overlay: https://github.com/tatsh/tatsh-overlay
 :winny-: https://github.com/winny-/winny-overlay
+:moulay: https://gitlab.com/yemou/moulay
 
 =================================
 How to Contribute to this Overlay
