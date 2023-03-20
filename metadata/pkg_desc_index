@@ -235,10 +235,10 @@ media-tv/stremio-shell 4.4.137: Watch videos, movies, TV series and TV channels 
 media-video/apple_facetimehd_firmware 1.43.0: Firmware for the Apple Facetime HD Camera
 media-video/bcwc_pcie 9999: Reverse engineered Linux driver for the Broadcom 1570 PCIe webcam
 media-video/kazam 1.4.5 9999: A screencasting program with design in mind
-net-im/franz-bin 5.6.1: Free messaging app for services like WhatsApp, Slack, Messenger and many more
-net-im/nheko 0.8.1 0.8.2: Desktop client for Matrix using Qt and C++14
-net-im/rambox-bin 0.7.7: Free and Open Source messaging and emailing app
-net-im/ripcord-bin 0.4.28: a desktop chat client for group-centric services like Slack and Discord
+net-im/franz-bin 5.9.2: Free messaging app for services like WhatsApp, Slack, Messenger and many more
+net-im/nheko 0.11.3: Desktop client for Matrix using Qt and C++14
+net-im/rambox-bin 0.7.7 0.8.0: Free and Open Source messaging and emailing app
+net-im/ripcord-bin 0.4.29: a desktop chat client for group-centric services like Slack and Discord
 net-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so. symlinks for compatibility with Debian
 net-misc/RcloneBrowser 1.8.0 9999: Simple cross platform GUI for Rclone
 net-p2p/soulseek-qt 20180130: Official binary Qt SoulSeek client
@@ -257,11 +257,11 @@ net-wireless/rtl8822bu 5.3.1_p20190920 9999: RTL88x2BU driver with monitor mode 
 net-wireless/wifite 2.5.8 9999: An automated wireless attack tool
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
 sys-firmware/upd72020x-firmware 1.0.0: Renesas uPD720201 / uPD720202 USB 3.0 chipsets firmware
-sys-kernel/dkms 2.8.4: Dynamic Kernel Module Support
+sys-kernel/dkms 3.0.10: Dynamic Kernel Module Support
 sys-libs/minizip-ng 3.0.1: Fork of the popular zip manipulation library found in the zlib distribution.
 sys-process/nvtop 1.1.0 9999: NVIDIA GPUs htop like monitoring tool
 www-apps/geckodriver 0.23.0 0.27.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
-www-client/torbrowser-launcher 0.3.3 9999: A program to download, updated, and run the Tor Browser Bundle
+www-client/torbrowser-launcher 0.3.6 9999: A program to download, updated, and run the Tor Browser Bundle
 x11-apps/lightdm-gtk-greeter-settings 1.2.2-r1: Configuration tool for the LightDM GTK Greeter
 x11-misc/betterlockscreen_rapid 0.0.0_pre20201222: A rapid and good-looking screen locker
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
