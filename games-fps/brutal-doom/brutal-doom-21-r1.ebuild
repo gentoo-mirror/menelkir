@@ -5,7 +5,7 @@ EAPI=7
 
 DESCRIPTION="A mod that attempts to make Doom faster placed, harder, gorier and more violent."
 HOMEPAGE="http://www.moddb.com/mods/brutal-doom/"
-SRC_URI="https://www.moddb.com/downloads/mirror/95667/121/9ec5db95088d14bcb47dabdb052ba600/?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fbrutal-doom -> brutalv${PV}.rar"
+SRC_URI="https://www.moddb.com/downloads/mirror/95667/130/7ad0450e5b43fff72f757adf9d2dfe5a/?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fbrutal-doom%2Fdownloads -> brutalv${PV}.rar"
 
 LICENSE="HPND"
 SLOT="0"
