@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=HPND
 RDEPEND=games-fps/gzdoom
 SLOT=0
-SRC_URI=https://www.moddb.com/downloads/mirror/95667/121/9ec5db95088d14bcb47dabdb052ba600/?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fbrutal-doom -> brutalv21.rar
-_md5_=e017232bf5d7e74abf283b3faa6ccd9f
+SRC_URI=https://www.moddb.com/downloads/mirror/95667/130/7ad0450e5b43fff72f757adf9d2dfe5a/?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fbrutal-doom%2Fdownloads -> brutalv21.rar
+_md5_=1d4642db9cac8aec7fad38c2d4d36260

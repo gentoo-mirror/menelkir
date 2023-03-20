@@ -7,5 +7,5 @@ INHERIT=libretro git-r3
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	libretro	e2e72840da02ef2a21e935c8447187a8
+_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a	libretro	e2e72840da02ef2a21e935c8447187a8
 _md5_=f912afdd258379b2dbc182efd707c7da
