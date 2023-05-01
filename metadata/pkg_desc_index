@@ -17,9 +17,7 @@ dev-libs/liblcf 0.6.2 9999: Library to handle RPG Maker 2000/2003 and EasyRPG pr
 dev-libs/mp 1.0_p20200420: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/teakra 20200913-r1: Emulator, assembler, etc for XpertTeak, the DSP used by DSi/3DS.
 dev-libs/xbyak 5.991: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
-dev-python/imdbpy 9999: Python package to access the IMDb's database
 dev-python/pyliblo 0.10.0 9999: Python bindings for the liblo OSC library
-dev-python/python-telegram 0.14.0-r1: Python client for the Telegram's tdlib
 dev-util/nihstro 1.0_pre20180113: 3DS shader assembler and disassembler
 games-emulation/3dengine-libretro 1.0_pre20210107-r1 9999-r4: 3D Engine for libretro GL with additional features
 games-emulation/81-libretro 1.0_pre20210311 9999-r3: A port of the EightyOne ZX81 Emulator to libretro
@@ -206,8 +204,6 @@ games-sports/stuntrally-tracks 2.6-r1 9999-r1: A set of tracks for games-sports/
 games-util/esteam 0.20210420: Scan Steam libraries to generate and emerge a Portage set
 games-util/gamehub 0.16.0.1 0.16.1.2 0.16.1.11: GameHub is a unified library for all your games
 games-util/itch-bin 25.4.1 25.5.1-r1: itch.io game browser, installer and launcher
-games-util/legendary 0.20.6: A free and open-source replacement for the Epic Games Launcher
-games-util/minigalaxy 1.0.2: A simple GOG client for Linux
 games-util/rejoystick 0.8.1-r1: Tool which translates gamepad/joystick input into key strokes/mouse actions in X
 games-util/steam-client-meta 0-r20210501: Meta package for Valve's native Steam client
 games-util/steam-launcher 1.0.0.70: Installer, launcher and supplementary files for Valve's Steam client
@@ -234,7 +230,6 @@ media-tv/qtwebflix 9999: A QT webengine frontend for netflix (and other streamin
 media-tv/stremio-shell 4.4.137: Watch videos, movies, TV series and TV channels instantly. (Beta Version)
 media-video/apple_facetimehd_firmware 1.43.0: Firmware for the Apple Facetime HD Camera
 media-video/bcwc_pcie 9999: Reverse engineered Linux driver for the Broadcom 1570 PCIe webcam
-media-video/kazam 1.4.5 9999: A screencasting program with design in mind
 net-im/franz-bin 5.9.2: Free messaging app for services like WhatsApp, Slack, Messenger and many more
 net-im/nheko 0.11.3: Desktop client for Matrix using Qt and C++14
 net-im/rambox-bin 0.7.7 0.8.0: Free and Open Source messaging and emailing app
@@ -254,14 +249,12 @@ net-wireless/rtl8812au_aircrack-ng 5.6.4.2_p20200816 9999: RTL8812AU/21AU and RT
 net-wireless/rtl8821ce 0_pre20201216: Realtek RTL8821CE Driver module for Linux kernel
 net-wireless/rtl8821cu 0_pre20201224: Realtek 8821CU/RTL8811CU module for Linux kernel
 net-wireless/rtl8822bu 5.3.1_p20190920 9999: RTL88x2BU driver with monitor mode and frame injection
-net-wireless/wifite 2.5.8 9999: An automated wireless attack tool
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
 sys-firmware/upd72020x-firmware 1.0.0: Renesas uPD720201 / uPD720202 USB 3.0 chipsets firmware
 sys-kernel/dkms 3.0.10: Dynamic Kernel Module Support
 sys-libs/minizip-ng 3.0.1: Fork of the popular zip manipulation library found in the zlib distribution.
 sys-process/nvtop 1.1.0 9999: NVIDIA GPUs htop like monitoring tool
 www-apps/geckodriver 0.23.0 0.27.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
-www-client/torbrowser-launcher 0.3.6 9999: A program to download, updated, and run the Tor Browser Bundle
 x11-apps/lightdm-gtk-greeter-settings 1.2.2-r1: Configuration tool for the LightDM GTK Greeter
 x11-misc/betterlockscreen_rapid 0.0.0_pre20201222: A rapid and good-looking screen locker
 x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
@@ -269,7 +262,6 @@ x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/i3lock-color 2.13.1 2.13.2 9999: The world's most popular non-default computer lockscreen
 x11-misc/i3lock-fancy-rapid 0.0.0_pre20201109-r1 0.0.0_pre20210421: A faster implementation of i3lock-fancy
 x11-misc/i3status-rust 0.14.1: A feature-rich and resource-friendly replacement for i3status, written in Rust.
-x11-misc/polybar 9999: A fast and easy-to-use status bar
 x11-plugins/pidgin-battlenet 9999-r1: Libpurple (Pidgin) plugin for Battle.net
 x11-plugins/pidgin-icyque 9999-r3: ICQ WIM protocol for libpurple
 x11-plugins/pidgin-instagram 9999-r1: Libpurple (Pidgin) plugin for instagram DMs
