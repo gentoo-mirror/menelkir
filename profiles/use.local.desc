@@ -257,11 +257,5 @@ media-sound/carla:rdf - Get extra information from LADSPA plugins
 media-sound/carla:sf2 - Build with SF2 support using fluidsynth
 media-sound/vgmplay:opl - Enable playback on obsolete OPL hardware (AdLib, SoundBlaster)
 net-wireless/hcxdumptool:gpio - Build with GPIO support
-net-wireless/wifite:dict - Use dictionaries
 sys-kernel/dkms:kernel-hooks - Enable automatic rebuilding of modules via kernel source makefile hooks
-www-client/torbrowser-launcher:apparmor - Enable AppArmor support
 x11-apps/lightdm-gtk-greeter-settings:xfce - Adds x11-apps/lightdm-gtk-greeter-settings to Xfce settings manager
-x11-misc/polybar:i3wm - Add support for i3 window manager
-x11-misc/polybar:ipc - Add support for Inter-Process Messaging
-x11-misc/polybar:mpd - Add support for Music Player Daemon
-x11-misc/polybar:network - Enable network support

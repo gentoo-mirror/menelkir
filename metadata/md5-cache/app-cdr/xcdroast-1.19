@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst
+DEPEND=>=x11-libs/gtk+-2:2 app-cdr/cdrtools sys-devel/gettext virtual/pkgconfig
+DESCRIPTION=Lightweight cdrtools front-end for CD and DVD writing
+EAPI=7
+HOMEPAGE=http://www.xcdroast.org/
+INHERIT=gnome2-utils
+IUSE=nls suid
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2:2 app-cdr/cdrtools
+SLOT=0
+SRC_URI=mirror://sourceforge/xcdroast/xcdroast-1.19.tar.gz
+_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	xdg-utils	baea6080dd821f5562d715887954c9d3	gnome2-utils	b0183db3b2e07b18f3b77bffec72e116
+_md5_=c219e5ea70e03dc66cb0e0552113ca44
