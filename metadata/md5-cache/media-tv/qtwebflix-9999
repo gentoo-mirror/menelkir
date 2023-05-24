@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install unpack
+DEPEND=x11-misc/xdg-utils dev-qt/qtwebengine:5
+DESCRIPTION=A QT webengine frontend for netflix (and other streaming services)
+EAPI=7
+HOMEPAGE=https://github.com/gort818/qtwebflix
+INHERIT=desktop qmake-utils git-r3
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=x11-misc/xdg-utils dev-qt/qtwebengine:5
+SLOT=0
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	git-r3	27e13c09a4c7e4c78ac812f74727e676	multilib	104e1332efb829e2f7cbf89307a474f1	qmake-utils	59420c906278d16deaaa629f9d115707	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e
+_md5_=984b8f354bac63d9a4ae66441b90cbab

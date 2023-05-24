@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=Versatile Commodore 8-bit Emulator as a libretro core
+EAPI=7
+HOMEPAGE=https://github.com/libretro/vice-libretro
+INHERIT=libretro-core
+IUSE=custom-cflags debug
+KEYWORDS=~amd64 ~x86 ~arm64
+LICENSE=GPL-2
+RDEPEND=games-emulation/libretro-info
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://github.com/libretro/vice-libretro/archive/bd4d84109dd9b9c868a0acfdd60a9715e81c73a5.tar.gz -> vice-x64-libretro-1.0_pre20210501.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	8f942ebdcf04334697649d4a0bf65a32	flag-o-matic	16483e58fadb0d47b4528f0aa7e171f6	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09	multilib	104e1332efb829e2f7cbf89307a474f1	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	wrapper	4a1902f969e5718126434fc35f3a0d9c
+_md5_=c6943c3ea7f1e2ba1a4b4a35900ea6e3
