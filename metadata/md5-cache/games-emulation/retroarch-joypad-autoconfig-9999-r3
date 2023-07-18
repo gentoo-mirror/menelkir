@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=virtual/udev
 SLOT=0
-_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	libretro	e2e72840da02ef2a21e935c8447187a8
+_eclasses_=git-r3	97f7f638070d17e4c2b6542589bb4575	libretro	e2e72840da02ef2a21e935c8447187a8
 _md5_=956823d42dbdfabf5a87fa67c010556e
