@@ -44,7 +44,7 @@ games-emulation/dolphin-libretro 1.0_pre20210405-r1 1.0_pre20220112 9999-r1 9999
 games-emulation/dosbox-svn-libretro 9999: DOSBox libretro core
 games-emulation/duckstation 9999: Fast Sony PlayStation (PSX) emulator
 games-emulation/ecwolf-libretro 1.0_pre20210430 9999-r1: Updated engine for wolfenstein 3D and compatibles
-games-emulation/emulationstation 2.7.1-r1 2.7.6-r2 2.9.1-r1 9999-r5: Frontend for emulators (RetroPie Fork)
+games-emulation/emulationstation 2.7.1-r1 2.7.6-r2 2.9.1-r1 2.11.2 9999-r5: Frontend for emulators (RetroPie Fork)
 games-emulation/emulationstation-themes-meta 0: EmulationStation themes meta package
 games-emulation/es-theme-carbon 9999: EmulationStation theme carbon
 games-emulation/es-theme-carbon-centered 9999: EmulationStation theme carbon centered
