@@ -10,5 +10,5 @@ RDEPEND=games-emulation/libretro-info
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/quasi88-libretro/archive/1df8c3bcab01eea5ba2ccaf379f6335c0672e9d6.tar.gz -> quasi88-libretro-1.0_pre20200116.tar.gz
-_eclasses_=toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
+_eclasses_=toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	be27a904c614cb93ae037762dc69bcc2	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
 _md5_=54bd6faa0ac5b1911fe500ff40ab8af9
