@@ -17,7 +17,6 @@ dev-libs/liblcf 0.6.2 9999: Library to handle RPG Maker 2000/2003 and EasyRPG pr
 dev-libs/mp 1.0_p20200420: A small, 0BSD-licensed metaprogramming library for C++17.
 dev-libs/teakra 20200913-r1: Emulator, assembler, etc for XpertTeak, the DSP used by DSi/3DS.
 dev-libs/xbyak 5.991: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
-dev-python/imdbpy 9999-r1: Python package to access the IMDb's database
 dev-python/pyliblo 0.10.0 9999: Python bindings for the liblo OSC library
 dev-util/nihstro 1.0_pre20180113: 3DS shader assembler and disassembler
 games-emulation/3dengine-libretro 1.0_pre20210107-r1 9999-r4: 3D Engine for libretro GL with additional features
@@ -193,7 +192,6 @@ games-emulation/vitaquake2-libretro 1.0_pre20210314 9999: libretro implementatio
 games-emulation/vitaquake3-libretro 1.0_pre20210131 9999: libretro implementation of VitaQuake3. (Quake III)
 games-emulation/vitavoyager-libretro 1.0_pre20200102 9999: lilium-voyager (Star Trek Voyager: Elite Force Holomatch mp) for libretro
 games-emulation/x1-libretro 1.0_pre20210314 9999: Libretro port of X Millennium Sharp X1 emulator
-games-emulation/xnp2 9999: X Neko Project II, a PC-9801 emulator (PC98)
 games-emulation/xrick-libretro 1.0_pre20210311 9999-r3: Xrick is an open source implementation of Rick Dangerous for libretro.
 games-emulation/yabause-libretro 1.0_pre20210411 9999-r3: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
 games-emulation/yuzu 0.610: Nintendo Switch emulator
@@ -212,8 +210,6 @@ games-util/steam-meta 0-r20160817: Meta package for Valve's Steam environment
 media-fonts/inconsolata_dz 20201205: A beautiful sans-serif monotype font designed for code listings
 media-fonts/powerline-fonts 9999-r2: Monospaced fonts pre-patched with Powerline symbols
 media-fonts/steamfonts 1: Collection of fonts used by Valve's Steam client
-media-libs/celt 0.11.1-r1 0.11.3: CELT is a very low delay audio codec designed for high-quality communications
-media-libs/hal-flash 0.3.3-r1: libhal stub forwarding to UDisks for Adobe Flash to play DRM content
 media-libs/jpeg-compat 2.0.6-r800: Accelerated JPEG library (libjpeg.so.8 ABI provided by libjpeg-turbo)
 media-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so.4 symlinks for compatibility with Debian
 media-libs/libinstpatch 1.1.6: Library for processing digital sample based MIDI instrument patch files.
@@ -230,7 +226,6 @@ media-tv/hypnotix 1.6: An IPTV streaming application
 media-tv/qtwebflix 9999: A QT webengine frontend for netflix (and other streaming services)
 media-tv/stremio-shell 4.4.137: Watch videos, movies, TV series and TV channels instantly. (Beta Version)
 media-video/apple_facetimehd_firmware 1.43.0: Firmware for the Apple Facetime HD Camera
-media-video/bcwc_pcie 9999: Reverse engineered Linux driver for the Broadcom 1570 PCIe webcam
 net-im/franz-bin 5.9.2: Free messaging app for services like WhatsApp, Slack, Messenger and many more
 net-im/nheko 0.11.3: Desktop client for Matrix using Qt and C++14
 net-im/rambox-bin 0.7.7 0.8.0: Free and Open Source messaging and emailing app
@@ -238,9 +233,7 @@ net-im/ripcord-bin 0.4.29: a desktop chat client for group-centric services like
 net-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so. symlinks for compatibility with Debian
 net-misc/RcloneBrowser 1.8.0 9999: Simple cross platform GUI for Rclone
 net-p2p/soulseek-qt 20180130: Official binary Qt SoulSeek client
-net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/bully 1.4-r1: A wifi-protected-setup (WPS) brute force attack tool, similar to reaver
-net-wireless/cowpatty 4.8-r1: WLAN tools for bruteforcing 802.11 WPA/WPA2 keys
 net-wireless/hcxdumptool 6.1.5: Small tool to capture packets from wlan devices
 net-wireless/hcxtools 6.1.5: Portable solution for capturing wlan traffic and conversion to hashcat formats
 net-wireless/pixiewps 1.4.2: Bruteforce offline the WPS pin exploiting the low or non-existing entropy
@@ -252,7 +245,6 @@ net-wireless/rtl8821cu 0_pre20201224: Realtek 8821CU/RTL8811CU module for Linux 
 net-wireless/rtl8822bu 5.3.1_p20190920 9999: RTL88x2BU driver with monitor mode and frame injection
 sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
 sys-firmware/upd72020x-firmware 1.0.0: Renesas uPD720201 / uPD720202 USB 3.0 chipsets firmware
-sys-kernel/dkms 3.0.10: Dynamic Kernel Module Support
 sys-libs/minizip-ng 3.0.1: Fork of the popular zip manipulation library found in the zlib distribution.
 sys-process/nvtop 1.1.0 9999: NVIDIA GPUs htop like monitoring tool
 www-apps/geckodriver 0.23.0 0.27.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
@@ -263,7 +255,6 @@ x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/i3lock-color 2.13.1 2.13.2 9999: The world's most popular non-default computer lockscreen
 x11-misc/i3lock-fancy-rapid 0.0.0_pre20201109-r1 0.0.0_pre20210421: A faster implementation of i3lock-fancy
-x11-misc/i3status-rust 0.14.1: A feature-rich and resource-friendly replacement for i3status, written in Rust.
 x11-plugins/pidgin-battlenet 9999-r1: Libpurple (Pidgin) plugin for Battle.net
 x11-plugins/pidgin-icyque 9999-r3: ICQ WIM protocol for libpurple
 x11-plugins/pidgin-instagram 9999-r1: Libpurple (Pidgin) plugin for instagram DMs
