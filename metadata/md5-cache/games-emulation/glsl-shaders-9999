@@ -9,5 +9,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=!<=games-emulation/libretro-common-shaders-1
 SLOT=0
-_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	libretro	e2e72840da02ef2a21e935c8447187a8
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	libretro	e2e72840da02ef2a21e935c8447187a8
 _md5_=ce8a6ad05eed0508c6dba82450547129
