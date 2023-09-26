@@ -1,4 +1,4 @@
-app-admin/webmin 1.973-r1 2.020: A web-based Unix systems administration interface
+app-admin/webmin 1.973-r1 2.102: A web-based Unix systems administration interface
 app-cdr/xcdroast 1.19: Lightweight cdrtools front-end for CD and DVD writing
 app-misc/g15composer 3.4 9999: A library to render text and shapes into a buffer usable by the Logitech G15
 app-misc/g15daemon 3.0.4 9999: Takes control of the G15 keyboard, through the linux kernel uinput device driver
@@ -6,8 +6,8 @@ app-misc/g15macro 1.0.5 9999: Macro recording plugin to G15daemon
 app-misc/g15message 1.2 9999: A simple message/alert client for G15daemon
 app-misc/g15mpd 1.1 9999: MPD (music player daemon) plugin to G15daemon
 app-misc/g15stats 3.0.2 9999: CPU, memory, swap, network stats for G15 Keyboard
-app-mobilephone/scrcpy 1.17: Display and control your Android device
-dev-lang/rgbds 0.4.0 0.4.1 0.4.2: Free assembler/linker package for the Game Boy and Game Boy Color
+app-mobilephone/scrcpy 2.1.1: Display and control your Android device
+dev-lang/rgbds 0.4.0 0.4.1 0.4.2 0.6.1: Free assembler/linker package for the Game Boy and Game Boy Color
 dev-libs/breakpad 0_p20200604 9999: A crash-reporting system
 dev-libs/cubeb 0.2_p20210505: Cross platform audio library.
 dev-libs/dynarmic 1.0_pre20200809-r1 9999-r1: An ARM dynamic recompiler
@@ -151,7 +151,7 @@ games-emulation/race-libretro 1.0_pre20210409 9999: Modified ngpc emulator to ru
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/reminiscence-libretro 1.0_pre20210317 9999-r3: Flashback engine implementation for libretro
 games-emulation/retro8-libretro 1.0_pre20210314 9999: PICO-8 implementation with SDL2 and RetroArch back-ends
-games-emulation/retroarch 1.9.7-r2 1.9.13-r2 1.9.14-r1 1.10.0 1.10.2 1.10.3 1.14.0 1.15.0 1.16.0 9999-r3: Frontend for emulators, game engines and media players
+games-emulation/retroarch 1.16.0 9999-r3: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20210422-r1 9999: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20210430 9999-r3: RetroArch joypad autoconfig files
 games-emulation/retrovirtualmachine-bin 2.0_beta1: Emulator of the Amstrad CPC and ZX Spectrum home computers and clones
@@ -194,7 +194,6 @@ games-emulation/vitavoyager-libretro 1.0_pre20200102 9999: lilium-voyager (Star 
 games-emulation/x1-libretro 1.0_pre20210314 9999: Libretro port of X Millennium Sharp X1 emulator
 games-emulation/xrick-libretro 1.0_pre20210311 9999-r3: Xrick is an open source implementation of Rick Dangerous for libretro.
 games-emulation/yabause-libretro 1.0_pre20210411 9999-r3: Yabause/YabaSanshiro/Kronos libretro ports (Sega Saturn emulators).
-games-emulation/yuzu 0.610: Nintendo Switch emulator
 games-engines/easyrpg-player 0.6.2.3 9999: RPG Maker 2000/2003 and EasyRPG games interpreter
 games-fps/brutal-doom 21-r1: A mod that attempts to make Doom faster placed, harder, gorier and more violent.
 games-fps/dhewm3 1.5.1_rc2: A Doom 3 GPL source modification.
@@ -213,7 +212,6 @@ media-fonts/steamfonts 1: Collection of fonts used by Valve's Steam client
 media-libs/jpeg-compat 2.0.6-r800: Accelerated JPEG library (libjpeg.so.8 ABI provided by libjpeg-turbo)
 media-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so.4 symlinks for compatibility with Debian
 media-libs/libinstpatch 1.1.6: Library for processing digital sample based MIDI instrument patch files.
-media-plugins/chrome-widevine 88.0.4324.96: An adapter for playing DRM content
 media-sound/carla 2.5.2 9999: Full featured audio plugin host supporting many audio drivers and plugin formats
 media-sound/catnip 1.6.2-r1 9999: terminal audio visualizer
 media-sound/catnip-gtk 9999: catnip gtk frontend
@@ -222,10 +220,10 @@ media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 media-sound/pulseaudio-virtualmic 0.1 9999: Use any offline or online media file or stream as a PulseAudio source
 media-sound/spotify-adblock 1.4_pre20210504: Spotify adblocker for linux
 media-sound/vgmplay 0.40.9 9999: Video game music (VGM) file command-line player
-media-tv/hypnotix 1.6: An IPTV streaming application
 media-tv/qtwebflix 9999: A QT webengine frontend for netflix (and other streaming services)
-media-tv/stremio-shell 4.4.137: Watch videos, movies, TV series and TV channels instantly. (Beta Version)
+media-tv/stremio-shell 4.4.137 4.4.160: Watch videos, movies, TV series and TV channels instantly. (Beta Version)
 media-video/apple_facetimehd_firmware 1.43.0: Firmware for the Apple Facetime HD Camera
+media-video/bcwc_pcie 9999: Reverse engineered Linux driver for the Broadcom 1570 PCIe webcam
 net-im/franz-bin 5.9.2: Free messaging app for services like WhatsApp, Slack, Messenger and many more
 net-im/nheko 0.11.3: Desktop client for Matrix using Qt and C++14
 net-im/rambox-bin 0.7.7 0.8.0: Free and Open Source messaging and emailing app
@@ -233,6 +231,7 @@ net-im/ripcord-bin 0.4.29: a desktop chat client for group-centric services like
 net-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so. symlinks for compatibility with Debian
 net-misc/RcloneBrowser 1.8.0 9999: Simple cross platform GUI for Rclone
 net-p2p/soulseek-qt 20180130: Official binary Qt SoulSeek client
+net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 net-wireless/bully 1.4-r1: A wifi-protected-setup (WPS) brute force attack tool, similar to reaver
 net-wireless/hcxdumptool 6.1.5: Small tool to capture packets from wlan devices
 net-wireless/hcxtools 6.1.5: Portable solution for capturing wlan traffic and conversion to hashcat formats
@@ -251,7 +250,6 @@ www-apps/geckodriver 0.23.0 0.27.0: Proxy for using WebDriver clients to interac
 www-client/torbrowser-launcher 0.3.6-r1: A program to download, updated, and run the Tor Browser Bundle
 x11-apps/lightdm-gtk-greeter-settings 1.2.2-r1: Configuration tool for the LightDM GTK Greeter
 x11-misc/betterlockscreen_rapid 0.0.0_pre20201222: A rapid and good-looking screen locker
-x11-misc/gtk3-nocsd 9999: A hack to disable gtk3 client-side decorations
 x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
 x11-misc/i3lock-color 2.13.1 2.13.2 9999: The world's most popular non-default computer lockscreen
 x11-misc/i3lock-fancy-rapid 0.0.0_pre20201109-r1 0.0.0_pre20210421: A faster implementation of i3lock-fancy

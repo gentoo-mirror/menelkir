@@ -210,9 +210,6 @@ games-emulation/rpcs3:joystick - Enable support for input devices with evdev
 games-emulation/rpcs3:llvm - LLVM recompiler support
 games-emulation/rpcs3:vulkan - Enable Vulkan graphics library support
 games-emulation/vba-next-libretro:tiled_rendering - Enable tiled rendering
-games-emulation/yuzu:compat-list - Download compatibility list during build.
-games-emulation/yuzu:cubeb - Build with cubeb audio backend
-games-emulation/yuzu:web-service - Enable web-serviceds
 games-sports/stuntrally:editor - Install game editor
 games-sports/stuntrally:game - Install game files
 games-util/itch-bin:system-ffmpeg - Use the system-wide media-video/ffmpeg instead of bundled.
@@ -257,5 +254,4 @@ media-sound/carla:rdf - Get extra information from LADSPA plugins
 media-sound/carla:sf2 - Build with SF2 support using fluidsynth
 media-sound/vgmplay:opl - Enable playback on obsolete OPL hardware (AdLib, SoundBlaster)
 net-wireless/hcxdumptool:gpio - Build with GPIO support
-sys-kernel/dkms:kernel-hooks - Enable automatic rebuilding of modules via kernel source makefile hooks
 x11-apps/lightdm-gtk-greeter-settings:xfce - Adds x11-apps/lightdm-gtk-greeter-settings to Xfce settings manager
