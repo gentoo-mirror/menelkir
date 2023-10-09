@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=opengl? ( virtual/opengl ) vulkan? ( media-libs/vulkan-loader ) gles? ( media-libs/mesa[egl(+),gles2] )
 REQUIRED_USE=|| ( gles opengl ) opengl? ( !gles )
 SLOT=0
-_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe
 _md5_=933bad8349a3d3446c8edbd535337754
