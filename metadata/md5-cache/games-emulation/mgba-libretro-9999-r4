@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=epoxy? ( media-libs/libepoxy:0= ) ffmpeg? ( virtual/ffmpeg:0= ) lzma? ( app-arch/xz-utils:0= ) png? ( media-libs/libpng:0= ) opengl? ( media-libs/mesa:0=[gles2?] ) png? ( media-libs/libpng:0= ) zlib? ( sys-libs/zlib:0= ) games-emulation/libretro-info
 REQUIRED_USE=epoxy? ( gles2 ) gles2? ( opengl ) pgopost? ( pgo ) png? ( zlib )
 SLOT=0
-_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	baa4d385108ac87993edac956a916a36	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	39e7a84b06eff4efd9f2e0c3d1668b98	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	0f2e0c197fad0312f3c4765c9cf36271
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	baa4d385108ac87993edac956a916a36	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	39e7a84b06eff4efd9f2e0c3d1668b98	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	0f2e0c197fad0312f3c4765c9cf36271
 _md5_=bc5f60c5d62e00cb73109e054b0ece85
