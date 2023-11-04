@@ -11,5 +11,5 @@ RDEPEND=games-emulation/libretro-common-overlays games-emulation/libretro-databa
 REQUIRED_USE=cg? ( opengl ) gles? ( egl ) gles3? ( gles ) kms? ( egl ) materialui? ( || ( gles opengl vulkan ) ) opengl? ( !gles ) ozone? ( || ( gles opengl vulkan ) ) rgui? ( || ( || ( gles opengl vulkan ) libcaca sdl sdl2 sixel ) ) stripes? ( || ( gles opengl vulkan ) ) xmb? ( || ( gles opengl vulkan ) ) sdl? ( !sdl2 ) xv? ( X )
 SLOT=0
 SRC_URI=https://github.com/libretro/RetroArch/archive/v1.16.0.tar.gz -> retroarch-1.16.0.tar.gz
-_eclasses_=toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	baa4d385108ac87993edac956a916a36
+_eclasses_=toolchain-funcs	edeef89edaf21d30225d31702ab117ac	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	baa4d385108ac87993edac956a916a36
 _md5_=32cb1de46462c2ecb2421d54e0777f44
