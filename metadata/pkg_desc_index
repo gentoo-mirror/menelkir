@@ -1,4 +1,4 @@
-app-admin/webmin 1.973-r1 2.102: A web-based Unix systems administration interface
+app-admin/webmin 2.021: A web-based Unix systems administration interface
 app-cdr/xcdroast 1.19: Lightweight cdrtools front-end for CD and DVD writing
 app-misc/g15composer 3.4 9999: A library to render text and shapes into a buffer usable by the Logitech G15
 app-misc/g15daemon 3.0.4 9999: Takes control of the G15 keyboard, through the linux kernel uinput device driver
