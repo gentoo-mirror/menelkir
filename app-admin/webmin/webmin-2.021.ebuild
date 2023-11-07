@@ -1,11 +1,12 @@
 # Copyright 2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=8
+EAPI=7
 inherit pam systemd
 
 DESCRIPTION="A web-based Unix systems administration interface"
 HOMEPAGE="http://www.webmin.com/"
+RESTRICT="mirror"
 SRC_URI="minimal? ( mirror://sourceforge/webadmin/${P}-minimal.tar.gz )
 	!minimal? ( mirror://sourceforge/webadmin/${P}.tar.gz )"
 
@@ -122,6 +123,7 @@ src_install() {
 		|| die "Failed to patch the webmin init file"
 
 	# Create the systemd service file and put the neccessary variables there
+	# vma, 4/8/2023 - systemd environment variable no longer has _ prefix
 	systemd_newunit "${FILESDIR}"/webmin.service webmin.service
 	sed -i \
 		-e "s:%exe%:${EROOT}/usr/libexec/webmin/miniserv.pl:" \
@@ -129,7 +131,7 @@ src_install() {
 		-e "s:%conf%:${EROOT}/etc/webmin/miniserv.conf:" \
 		-e "s:%config%:${EROOT}/etc/webmin/config:" \
 		-e "s:%perllib%:${EROOT}/usr/libexec/webmin:" \
-		"${ED}$(_systemd_get_systemunitdir)/webmin.service" \
+		"${ED}$(systemd_get_systemunitdir)/webmin.service" \
 		|| die "Failed to patch the webmin systemd service file"
 
 	# Setup pam
