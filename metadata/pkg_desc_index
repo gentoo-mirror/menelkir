@@ -62,7 +62,7 @@ games-emulation/fbalpha2012-libretro 1.0_pre20210403 9999-r3: Final Burn Alpha 2
 games-emulation/fbneo-libretro 1.0_pre20210504 9999: Fork of Final Burn Alpha
 games-emulation/fceu-next-libretro 1.0_pre20160317-r1 9999-r4: Libretro implementation of FCEUmm/FCEUX. (Nintendo Entertainment System)
 games-emulation/ffmpeg-libretro 1.0_pre20200828 9999: FFmpeg frontend for libretro
-games-emulation/flycast-libretro 1.0_pre20210503 2.0 2.1 9999-r4: Multiplatform Sega Dreamcast emulator
+games-emulation/flycast-libretro 1.0_pre20210503 2.0 2.1 2.2 9999-r4: Multiplatform Sega Dreamcast emulator
 games-emulation/fmsx-libretro 1.0_pre20210327-r1 9999-r3: Port of fMSX to the libretro API.
 games-emulation/freechaf-libretro 9999: Libretro emulation core for the Fairchild ChannelF / Video Entertainment System
 games-emulation/freeintv-libretro 1.0_pre20210322 9999-r3: A libretro emulation core for the Mattel Intellivision
