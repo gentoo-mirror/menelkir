@@ -1,4 +1,4 @@
-BDEPEND=app-alternatives/ninja >=dev-util/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=dev-libs/crypto++ dev-libs/dynarmic dev-libs/libfmt net-libs/enet:1.3= dev-cpp/catch:0 dev-libs/xbyak dev-util/nihstro
 DESCRIPTION=Nintendo 3DS for libretro
@@ -12,5 +12,5 @@ PROPERTIES=live
 RDEPEND=dev-libs/crypto++ dev-libs/dynarmic dev-libs/libfmt net-libs/enet:1.3=
 SLOT=0
 SRC_URI=https://github.com/libretro/citra/archive/5d1b3063383c0df46d286a108939bf5441549a29.tar.gz -> citra-libretro-1.0_pre20210408.tar.gz https://github.com/citra-emu/ext-soundtouch/archive/060181eaf273180d3a7e87349895bd0cb6ccbf4a.tar.gz -> citra-libretro-1.0_pre20210408-soundtouch.tar.gz
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	b7ccad6f1800c4ea58dbbdafb0b1b5e0	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	c7c9a62d6232cac66d4ea32d575c3e7c	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
 _md5_=f614bb99484c347fae7bf2fa137988e5
