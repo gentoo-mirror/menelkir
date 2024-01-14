@@ -10,5 +10,5 @@ RDEPEND=games-emulation/libretro-info
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/libretro-prboom/archive/b903eb43d8142ae2544aa8a4dba12f31d46567d4.tar.gz -> prboom-libretro-1.0_pre20210325.tar.gz
-_eclasses_=flag-o-matic	be27a904c614cb93ae037762dc69bcc2	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca
+_eclasses_=flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084
 _md5_=9d515a2c48369b7f35066ff55d1c1a26

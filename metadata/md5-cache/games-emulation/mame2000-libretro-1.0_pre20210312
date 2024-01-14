@@ -10,5 +10,5 @@ RDEPEND=games-emulation/libretro-info
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/mame2000-libretro/archive/bb37cc6abedc05e7ca0708500a4c80e6949b9521.tar.gz -> mame2000-libretro-1.0_pre20210312.tar.gz
-_eclasses_=flag-o-matic	be27a904c614cb93ae037762dc69bcc2	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca
+_eclasses_=flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084
 _md5_=a22843c6a4d599f231f10beb71623f2c
