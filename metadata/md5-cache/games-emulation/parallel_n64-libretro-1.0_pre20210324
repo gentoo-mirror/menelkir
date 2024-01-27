@@ -11,5 +11,5 @@ RDEPEND=media-libs/mesa:0= gles2? ( media-libs/mesa[gles2] ) media-libs/libpng:0
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/parallel-n64/archive/6e26fbbc5a85f9613a01c1880142add81d618e19.tar.gz -> parallel_n64-libretro-1.0_pre20210324.tar.gz
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	b2b07efa51009704f88173b2c7feab47	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
 _md5_=be021e7f53e18ee8d1326162bc87d67e
