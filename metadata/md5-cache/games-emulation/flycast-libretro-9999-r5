@@ -1,4 +1,4 @@
-BDEPEND=dev-util/ninja dev-util/cmake >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-build/ninja dev-build/cmake >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install unpack
 DEPEND=opengl? ( virtual/opengl ) vulkan? ( media-libs/vulkan-loader ) gles? ( media-libs/mesa[egl(+),gles2] )
 DESCRIPTION=Multiplatform Sega Dreamcast emulator
@@ -12,4 +12,4 @@ RDEPEND=opengl? ( virtual/opengl ) vulkan? ( media-libs/vulkan-loader ) gles? ( 
 REQUIRED_USE=|| ( gles opengl ) opengl? ( !gles )
 SLOT=0
 _eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe
-_md5_=933bad8349a3d3446c8edbd535337754
+_md5_=ace9075e0d7344d1f7dff01326975959
