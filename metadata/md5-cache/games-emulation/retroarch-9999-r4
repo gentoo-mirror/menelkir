@@ -1,15 +1,15 @@
-DEFINED_PHASES=configure prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure prepare unpack
 DEPEND=games-emulation/libretro-common-overlays games-emulation/libretro-database games-emulation/libretro-info games-emulation/retroarch-assets !raspberry-pi? ( media-libs/mesa[egl(+)] ) raspberry-pi? ( || ( media-libs/raspberrypi-userland media-libs/raspberrypi-userland-bin media-libs/mesa[egl(+),gles2,video_cards_vc4] ) ) alsa? ( media-libs/alsa-lib ) cg? ( media-gfx/nvidia-cg-toolkit ) ffmpeg? ( media-video/ffmpeg ) flac? ( media-libs/flac ) freetype? ( media-libs/freetype ) gamemode? ( games-util/gamemode ) kms? ( x11-libs/libdrm ) libcaca? ( media-libs/libcaca ) libusb? ( virtual/libusb:= ) materialui? ( games-emulation/retroarch-assets[materialui] ) openal? ( media-libs/openal ) opengl? ( virtual/opengl ) ozone? ( games-emulation/retroarch-assets[ozone] ) pulseaudio? ( media-sound/pulseaudio ) qt5? ( dev-qt/qtconcurrent:5 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 ) rgui? ( games-emulation/retroarch-assets[rgui] ) sdl? ( media-libs/libsdl ) sdl2? ( media-libs/libsdl2 ) sixel? ( media-libs/libsixel ) ssl? ( net-libs/mbedtls ) subtitles? ( media-libs/libass ) systemd? ( sys-apps/systemd ) udev? ( virtual/udev ) vulkan? ( media-libs/vulkan-loader[X?,wayland?] ) X? ( x11-libs/libX11 x11-libs/libXext x11-libs/libXxf86vm x11-libs/libxcb ) xmb? ( games-emulation/retroarch-assets[xmb] ) xrandr? ( x11-libs/libXrandr ) xv? ( x11-libs/libXv ) wayland? ( dev-libs/wayland dev-libs/wayland-protocols ) zlib? ( sys-libs/zlib ) vulkan? ( dev-util/vulkan-headers ) virtual/pkgconfig
 DESCRIPTION=Frontend for emulators, game engines and media players
-EAPI=7
+EAPI=8
 HOMEPAGE=https://www.retroarch.com/
-INHERIT=flag-o-matic
+INHERIT=flag-o-matic git-r3
 IUSE=alsa cg cpu_flags_x86_sse dbus egl ffmpeg flac freetype gamemode gles gles3 kms libcaca libusb materialui openal +opengl opengl_core +ozone parport plain_drm pulseaudio qt5 raspberry-pi rgui sdl +sdl2 sixel subtitles ssl stripes systemd tinyalsa udev vulkan X xrandr xmb xv wayland +zlib
-KEYWORDS=~amd64 ~x86 ~arm64
 LICENSE=GPL-3
+PROPERTIES=live
 RDEPEND=games-emulation/libretro-common-overlays games-emulation/libretro-database games-emulation/libretro-info games-emulation/retroarch-assets !raspberry-pi? ( media-libs/mesa[egl(+)] ) raspberry-pi? ( || ( media-libs/raspberrypi-userland media-libs/raspberrypi-userland-bin media-libs/mesa[egl(+),gles2,video_cards_vc4] ) ) alsa? ( media-libs/alsa-lib ) cg? ( media-gfx/nvidia-cg-toolkit ) ffmpeg? ( media-video/ffmpeg ) flac? ( media-libs/flac ) freetype? ( media-libs/freetype ) gamemode? ( games-util/gamemode ) kms? ( x11-libs/libdrm ) libcaca? ( media-libs/libcaca ) libusb? ( virtual/libusb:= ) materialui? ( games-emulation/retroarch-assets[materialui] ) openal? ( media-libs/openal ) opengl? ( virtual/opengl ) ozone? ( games-emulation/retroarch-assets[ozone] ) pulseaudio? ( media-sound/pulseaudio ) qt5? ( dev-qt/qtconcurrent:5 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 ) rgui? ( games-emulation/retroarch-assets[rgui] ) sdl? ( media-libs/libsdl ) sdl2? ( media-libs/libsdl2 ) sixel? ( media-libs/libsixel ) ssl? ( net-libs/mbedtls ) subtitles? ( media-libs/libass ) systemd? ( sys-apps/systemd ) udev? ( virtual/udev ) vulkan? ( media-libs/vulkan-loader[X?,wayland?] ) X? ( x11-libs/libX11 x11-libs/libXext x11-libs/libXxf86vm x11-libs/libxcb ) xmb? ( games-emulation/retroarch-assets[xmb] ) xrandr? ( x11-libs/libXrandr ) xv? ( x11-libs/libXv ) wayland? ( dev-libs/wayland dev-libs/wayland-protocols ) zlib? ( sys-libs/zlib )
 REQUIRED_USE=cg? ( opengl ) gles? ( egl ) gles3? ( gles ) kms? ( egl ) materialui? ( || ( gles opengl vulkan ) ) opengl? ( !gles ) ozone? ( || ( gles opengl vulkan ) ) rgui? ( || ( || ( gles opengl vulkan ) libcaca sdl sdl2 sixel ) ) stripes? ( || ( gles opengl vulkan ) ) xmb? ( || ( gles opengl vulkan ) ) sdl? ( !sdl2 ) xv? ( X )
 SLOT=0
-SRC_URI=https://github.com/libretro/RetroArch/archive/v1.17.0.tar.gz -> retroarch-1.17.0.tar.gz
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4
-_md5_=32cb1de46462c2ecb2421d54e0777f44
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
+_md5_=1eb507e07c57910059e39c08db2d5334

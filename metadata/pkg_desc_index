@@ -151,7 +151,7 @@ games-emulation/race-libretro 1.0_pre20210409 9999: Modified ngpc emulator to ru
 games-emulation/reicast 20.04-r1: Sega Dreamcast emulator.
 games-emulation/reminiscence-libretro 1.0_pre20210317 9999-r3: Flashback engine implementation for libretro
 games-emulation/retro8-libretro 1.0_pre20210314 9999: PICO-8 implementation with SDL2 and RetroArch back-ends
-games-emulation/retroarch 1.16.0 1.16.0.3 1.17.0 1.18.0 9999-r3: Frontend for emulators, game engines and media players
+games-emulation/retroarch 1.16.0-r1 1.16.0.3-r1 1.17.0-r1 1.18.0-r1 9999-r4: Frontend for emulators, game engines and media players
 games-emulation/retroarch-assets 1_pre20210422-r1 9999: Assets needed for RetroArch. Also contains the official branding.
 games-emulation/retroarch-joypad-autoconfig 1_pre20210430 9999-r3: RetroArch joypad autoconfig files
 games-emulation/retrovirtualmachine-bin 2.0_beta1: Emulator of the Amstrad CPC and ZX Spectrum home computers and clones
