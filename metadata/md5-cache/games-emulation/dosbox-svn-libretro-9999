@@ -10,5 +10,5 @@ LICENSE=GPL-2+
 PROPERTIES=live
 RDEPEND=media-libs/libinstpatch media-libs/sdl-net media-libs/munt-mt32emu media-sound/munt-mt32emu-alsadrv media-libs/flac media-sound/fluidsynth dev-libs/libfmt dev-libs/glib dev-libs/libffi media-libs/libsndfile media-libs/libogg media-libs/opus media-libs/libsdl media-libs/libvorbis games-emulation/libretro-info
 SLOT=0
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	git-r3	fbb2889c81f3a05910c1524db69425c1	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	d309b9713dfc18e754cba88d3ba69653	git-r3	fbb2889c81f3a05910c1524db69425c1	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
 _md5_=75e7a538f0bf408bfe5f832695bc5ee1
