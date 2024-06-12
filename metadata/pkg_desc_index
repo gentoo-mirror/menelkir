@@ -215,7 +215,6 @@ media-libs/libinstpatch 1.1.6: Library for processing digital sample based MIDI 
 media-sound/carla 2.5.2 9999: Full featured audio plugin host supporting many audio drivers and plugin formats
 media-sound/catnip 1.6.2-r1 9999: terminal audio visualizer
 media-sound/catnip-gtk 9999: catnip gtk frontend
-media-sound/librespot 0.4.2: An open source client library for Spotify, with support for Spotify Connect
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 media-sound/pulseaudio-virtualmic 0.1 9999: Use any offline or online media file or stream as a PulseAudio source
 media-sound/spotify-adblock 1.4_pre20210504: Spotify adblocker for linux
@@ -246,7 +245,6 @@ sys-boot/plymouth-openrc-plugin 9999: Plymouth plugin for OpenRC
 sys-firmware/upd72020x-firmware 1.0.0: Renesas uPD720201 / uPD720202 USB 3.0 chipsets firmware
 sys-libs/minizip-ng 3.0.1: Fork of the popular zip manipulation library found in the zlib distribution.
 sys-process/nvtop 1.1.0 9999: NVIDIA GPUs htop like monitoring tool
-www-apps/geckodriver 0.23.0 0.27.0: Proxy for using WebDriver clients to interact with Gecko-based browsers.
 www-client/torbrowser-launcher 0.3.6-r1: A program to download, updated, and run the Tor Browser Bundle
 x11-apps/lightdm-gtk-greeter-settings 1.2.2-r1: Configuration tool for the LightDM GTK Greeter
 x11-misc/betterlockscreen_rapid 0.0.0_pre20201222: A rapid and good-looking screen locker
