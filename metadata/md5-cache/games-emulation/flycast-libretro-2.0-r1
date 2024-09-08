@@ -12,5 +12,5 @@ RDEPEND=opengl? ( virtual/opengl ) vulkan? ( media-libs/vulkan-loader ) gles? ( 
 REQUIRED_USE=|| ( gles opengl ) opengl? ( !gles )
 SLOT=0
 SRC_URI=https://github.com/flyinghead/flycast/archive/v2.0.tar.gz -> flycast-libretro-2.0.tar.gz https://github.com/libsdl-org/SDL/archive/b424665e0899769b200231ba943353a5fee1b6b6.tar.gz -> flycast-libretro-2.0-core_deps_SDL.tar.gz https://github.com/flyinghead/mingw-breakpad/archive/d2657e1267d2ce9399bcc6b9c5b01b465db057b1.tar.gz -> flycast-libretro-2.0-core_deps_breakpad.tar.gz https://github.com/rtissera/libchdr/archive/d3ffd20ca71686877372dea7f9eed359dbf65ba2.tar.gz -> flycast-libretro-2.0-core_deps_libchdr.tar.gz https://github.com/vinniefalco/LuaBridge/archive/fab7b33b896a42dcc865ba5ecdbacd9f409137f8.tar.gz -> flycast-libretro-2.0-core_deps_luabridge.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe
+_eclasses_=multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9
 _md5_=9566343b6a1a8fd85eb9348269e022e3

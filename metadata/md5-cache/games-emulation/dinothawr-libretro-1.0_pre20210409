@@ -10,5 +10,5 @@ RDEPEND=games-emulation/libretro-info
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/Dinothawr/archive/90264f4de875407212ada474761097de7a45fa53.tar.gz -> dinothawr-libretro-1.0_pre20210409.tar.gz
-_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
+_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
 _md5_=106bc219cb88756b1a8cfdc511295e4e

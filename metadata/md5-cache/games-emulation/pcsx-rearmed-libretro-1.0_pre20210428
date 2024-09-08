@@ -11,5 +11,5 @@ RDEPEND=media-libs/libpng:0 sys-libs/zlib games-emulation/libretro-info
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/pcsx_rearmed/archive/625cc17f79f3eaeada1b741974bdc608ae4d2dd2.tar.gz -> pcsx-rearmed-libretro-1.0_pre20210428.tar.gz
-_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
+_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
 _md5_=121c4f69a25b1dc1a37c1d2548e92ef5
