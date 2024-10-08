@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86 ~arm64
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/libretro/common-overlays/archive/c543bb3c3a1a72be88f829d66966bc5b36fc86b3.tar.gz -> libretro-common-overlays-1_pre20210503.tar.gz
-_eclasses_=vcs-snapshot	3d327d546f76e4c2054573ff0d78fad2
+_eclasses_=vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
 _md5_=9a63ce263cd3952435b1114b03004aa5
