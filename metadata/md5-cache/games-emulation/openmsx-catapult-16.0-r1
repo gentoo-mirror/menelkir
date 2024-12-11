@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install prepare setup
-DEPEND=dev-lang/tcl dev-libs/libxml2 !!sys-devel/llvm:0
+DEPEND=dev-lang/tcl dev-libs/libxml2 !!llvm-core/llvm:0
 DESCRIPTION=OpenMSX emulator GUI
 EAPI=7
 HOMEPAGE=https://openmsx.org/
@@ -10,5 +10,5 @@ RDEPEND=dev-lang/tcl dev-libs/libxml2 games-emulation/openmsx
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/openMSX/openMSX/releases/download/RELEASE_16_0/openmsx-catapult-16.0.tar.gz
-_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5	llvm-utils	c989cff79c0976415f459e367a83dff9	llvm	3d5c454d29edd5647925b304200c368b
+_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5	llvm-utils	c989cff79c0976415f459e367a83dff9	llvm	df1cea363f19e80316ea702563b607be
 _md5_=fc8936573d651400f8f3a3979654cfb2

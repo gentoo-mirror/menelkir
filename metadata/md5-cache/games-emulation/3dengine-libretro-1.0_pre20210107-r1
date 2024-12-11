@@ -10,5 +10,5 @@ RDEPEND=games-emulation/libretro-info
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/libretro-3dengine/archive/4fbe7cb2f90d3c8db994af60085fb2ac93677545.tar.gz -> 3dengine-libretro-1.0_pre20210107.tar.gz
-_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
+_eclasses_=toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
 _md5_=6d3b6a14f57b5d7b1b922d08bfa2a319
