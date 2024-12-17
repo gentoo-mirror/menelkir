@@ -11,5 +11,5 @@ RDEPEND=media-libs/mesa:0= gles2? ( media-libs/mesa[gles2] ) media-libs/libpng:0
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/libretro/mupen64plus-libretro-nx/archive/a6a6bfd56c8a8d6077182c280bf9eb33c7fba0e8.tar.gz -> mupen64next-libretro-1.0_pre20210321.tar.gz
-_eclasses_=toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
+_eclasses_=toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	libretro	e2e72840da02ef2a21e935c8447187a8	libretro-core	8dcfc2c73a0f46eb76c6c0a3b8080a09
 _md5_=910a391c5f529a52b7b10e58e59f1aac
