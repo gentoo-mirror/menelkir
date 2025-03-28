@@ -10,5 +10,5 @@ RDEPEND=dev-lang/tcl dev-libs/libxml2 games-emulation/openmsx
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/openMSX/openMSX/releases/download/RELEASE_16_0/openmsx-catapult-16.0.tar.gz
-_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5	llvm-utils	846280a994c1843d9c21248c188bd147	llvm	df1cea363f19e80316ea702563b607be
+_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	16d3941ed2dc39f4819368ae51bc0b72	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5	llvm-utils	846280a994c1843d9c21248c188bd147	llvm	df1cea363f19e80316ea702563b607be
 _md5_=fc8936573d651400f8f3a3979654cfb2
