@@ -212,7 +212,6 @@ media-fonts/steamfonts 1: Collection of fonts used by Valve's Steam client
 media-libs/jpeg-compat 2.0.6-r800: Accelerated JPEG library (libjpeg.so.8 ABI provided by libjpeg-turbo)
 media-libs/libcurl-debian 4: libcurl-{gnutls,nss}.so.4 symlinks for compatibility with Debian
 media-libs/libinstpatch 1.1.6: Library for processing digital sample based MIDI instrument patch files.
-media-sound/carla 2.5.2 9999: Full featured audio plugin host supporting many audio drivers and plugin formats
 media-sound/catnip 1.6.2-r1 9999: terminal audio visualizer
 media-sound/catnip-gtk 9999: catnip gtk frontend
 media-sound/librespot 0.4.2: An open source client library for Spotify, with support for Spotify Connect
