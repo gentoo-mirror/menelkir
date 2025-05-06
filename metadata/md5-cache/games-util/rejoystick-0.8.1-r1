@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=x11-libs/gtk+:2 x11-libs/gdk-pixbuf:2 x11-libs/libXtst x11-libs/libX11 media-libs/libsdl[joystick]
 SLOT=0
 SRC_URI=mirror://sourceforge/rejoystick/rejoystick-0.8.1.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a
 _md5_=36e4faaabb7d08b39d1428f2dfd20890
