@@ -1,4 +1,4 @@
-BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.28.5
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=dev-libs/boost:= dev-cpp/catch:0 dev-libs/libfmt:= dev-libs/xbyak
 DESCRIPTION=An ARM dynamic recompiler
@@ -11,5 +11,5 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/boost:=
 SLOT=0
 SRC_URI=https://github.com/MerryMage/dynarmic/archive/68ca03e8d4822c78e15315e67ddbb1d6bf4d3827.tar.gz -> dynarmic-1.0_pre20200809.tar.gz
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	cf95ad72ab207889c1668fc0d1bee181	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
 _md5_=47fc8cce85a5bb468d6f9792c8e12e49
